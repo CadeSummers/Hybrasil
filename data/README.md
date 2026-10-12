@@ -33,38 +33,31 @@ uses. It carries:
 - hover notes, fills (the luminosity colour ramp), column widths, fonts and
   merged cells.
 
-**How to re-export** (checklist step 9). The export URL accepts the stored
-`spreadsheets`-scope credential, so no Drive scope, Drive API or connector is
-needed:
+**How to re-export** (checklist step 9). There are two routes, and they
+produce the same file.
 
-```python
-import urllib.request
-from google.auth.transport.requests import Request
-from hybrasil.data import google_sheets as gs
-sid = gs.resolve_spreadsheet_id()
-title = gs.fetch_workbook(sid)["title"]
-creds = gs._load_credentials()
-if not creds.valid:
-    creds.refresh(Request())
-req = urllib.request.Request(f"https://docs.google.com/spreadsheets/d/{sid}/export?format=xlsx",
-                             headers={"Authorization": f"Bearer {creds.token}"})
-open(f"data/{title}.xlsx", "wb").write(urllib.request.urlopen(req, timeout=300).read())
+- **Automatically.** `.github/workflows/snapshot.yml` runs every Monday and
+  can also be run by hand. When the sheet's content has changed, it opens a pull request
+  with the new snapshot. Merging that pull request is what publishes the data,
+  because hybrasil.app is built from `main`. It signs in without a key
+  (`docs/architecture/catalog.md`, Snapshot pull requests).
+- **By hand,** with the stored credential:
+
+```bash
+python -m hybrasil.data.export_snapshot            # "no change", or a new snapshot
+python -m hybrasil.data.export_snapshot --force    # replace it regardless
 ```
 
-Then delete the previous snapshot and update the table above. Earlier
-snapshots were made other ways: `hy-brasil-20260925-1342` through the Drive
-connector's `files.export`, and `hy-brasil-20260920-2253` as a Sheets-API
-rebuild that had values, borders and notes but no formula text or fills.
+Either way it downloads the export URL, names the file after the workbook,
+deletes the previous snapshot and rewrites the table row above. It replaces
+nothing when every cell's value, border, fill and note is unchanged. A rename
+alone is therefore no change, and neither is the zip's own timestamp. The export URL
+and the title lookup both accept a `spreadsheets` scope, so no Drive scope is
+needed.
 
-**The Drive API route (`files.export`) is still unavailable** from the code. The Drive API is disabled
-in the Cloud project behind the credential, so `files.export` from
-`hybrasil/` returns 403. The connector route above does not depend on
-that project. To let the code export on its own, enable the Drive API once
-in that project's Google Cloud console.
-That is not enough on its own: as of 2026-09-25 the export is refused with
-"insufficient authentication scopes", because the stored credential carries
-only the `spreadsheets` scope (`SCOPES` in `google_sheets.py`). A Drive scope
-such as `drive.readonly` would have to be added and consented to as well.
+Earlier snapshots were made other ways: `hy-brasil-20260925-1342` through the
+Drive connector's `files.export`, and `hy-brasil-20260920-2253` as a Sheets-API
+rebuild that had values, borders and notes but no formula text or fills.
 
 ## Reading it
 

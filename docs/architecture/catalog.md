@@ -49,3 +49,28 @@ The spreadsheet has no inclination, ascending node or argument of periapsis, so 
 - The info panel shows the planet's "Orbit direction" row and a source line.
 
 **The Solar System arrow comes from the Systems tab's `RA (deg, ICRS)` and `Dec (deg, ICRS)` columns** (from SIMBAD, added 2026-09-24; provenance on Sources & Provenance from row 3895). They are found by header, never by letter: they were AK:AL when added and moved to AO:AP the same day, when four galactic-position and direction-of-motion columns were inserted after Space velocity. The code does not read those four. A catalog disc is drawn in the ecliptic, the frame the galactic-centre arrow and the background sky already use for a system with no frame of its own, so `orientation.toward_sun_in_ecliptic()` turns the star's RA/Dec into `solar_system_direction` and leaves `sky_frame_radec` and `galactic_center_direction` as `None`. The arrow is then right against the galactic-centre arrow and the Milky Way; only the disc's tilt against it is unknown, and the description says so. A row without both values draws no arrow, which is what a host listed only on a planet tab (the TOI candidates with no Systems row) gets.
+
+## Snapshot pull requests (`.github/workflows/snapshot.yml`)
+
+The hosted site is built from `data/hybrasil-*.xlsx` and never reads the sheet.
+`snapshot.yml` refreshes that file, through a pull request. It runs every
+Monday and can be run by hand. It calls
+`python -m hybrasil.data.export_snapshot`, the same exporter
+`data/README.md` gives for a hand export. The exporter opens no pull request
+when every cell's value, border, fill and note is unchanged.
+
+**It signs in without a key.** `google-github-actions/auth` exchanges the run's
+GitHub OIDC token, through Workload Identity Federation, for a 10-minute
+`spreadsheets.readonly` access token for `hybrasil-snapshot-ro`. That service
+account has three limits:
+
+- it has no key and no project role;
+- the workbook is shared with it as Viewer, and nothing else is;
+- the federation provider admits only `CadeSummers/Hybrasil`'s `main`, matched
+  by numeric repository and owner id, so a renamed or recreated repo does not
+  inherit access, and Hybrasil-dev cannot sign in.
+
+The read-write credential behind `google_sheets.py` stays on the maintainer's
+machine and never reaches CI. A pull request opened with `GITHUB_TOKEN` starts
+no workflow, so the job dispatches `tests.yml` on the branch itself. That is
+how the required `tests` check reports on a snapshot pull request.
