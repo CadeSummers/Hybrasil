@@ -236,8 +236,10 @@ The workflow never runs on `pull_request`, because the deploy holds secrets.
 
 - a pull request, with no approving review (there is one maintainer);
 - the `tests` check;
-- verified signatures, which GitHub's squash commit has;
 - linear history.
+
+Commit signatures are not required (since 12 Oct 2026): local commits are
+unsigned, and the rule blocked every merge.
 
 A change goes to the public repo as a short-lived `pr/<name>` branch, which is
 deleted on merge. The local pre-push hook allows that branch and refuses a

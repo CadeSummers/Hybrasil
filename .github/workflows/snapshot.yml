@@ -77,8 +77,8 @@ jobs:
         with:
           branch: snapshot/auto
           delete-branch: true
-          # Through the API, so GitHub signs the commit: main's ruleset
-          # requires verified signatures.
+          # Through the API, so GitHub signs the commit and it shows as
+          # Verified, as a commit by the bot.
           sign-commits: true
           add-paths: data/
           commit-message: |
