@@ -585,10 +585,16 @@ def test_three_search_frames_a_body_and_opens_its_info_panel(three):
     search = three.get_by_placeholder("Find in system…")
     search.fill("earth")
     search.press("Enter")
-    three.wait_for_timeout(1200)
-    off = three.evaluate("""() => { const S = window.__SA3;
+    # The flight is FLY_MS of animation frames, which a hosted CI runner's
+    # software WebGL can stretch well past a fixed wait: poll for arrival.
+    off_js = """() => { const S = window.__SA3;
         const e = S.bodies().find(b => b.data.name === 'Earth').obj.position;
-        return S.controls.target.distanceTo(e); }""")
+        return S.controls.target.distanceTo(e); }"""
+    try:
+        three.wait_for_function(f"() => ({off_js})() < 1e-6", timeout=10_000)
+    except Exception:
+        pass  # the assertion below reports how far off it stopped
+    off = three.evaluate(off_js)
     assert off < 1e-6, f"the camera is not on Earth ({off} AU off)"
     panel = three.locator("#_sa_info_panel")
     assert panel.is_visible() and "Earth" in panel.inner_text()

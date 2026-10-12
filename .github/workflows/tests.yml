@@ -8,11 +8,15 @@
 # workflow_dispatch is how snapshot.yml gets a check onto its own pull
 # request: a pull request opened with GITHUB_TOKEN starts no workflow, but a
 # dispatch does.
+#
+# A push runs it only where nothing else does: main is tested by pages.yml
+# before it deploys, and pr/* and snapshot/* branches by their pull request.
 
 name: tests
 
 on:
   push:
+    branches-ignore: [main, "pr/**", "snapshot/**"]
   pull_request:
   workflow_dispatch:
   workflow_call:
