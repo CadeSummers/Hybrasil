@@ -77,6 +77,9 @@ jobs:
         with:
           branch: snapshot/auto
           delete-branch: true
+          # Through the API, so GitHub signs the commit: main's ruleset
+          # requires verified signatures.
+          sign-commits: true
           add-paths: data/
           commit-message: |
             Snapshot the workbook as ${{ steps.export.outputs.title }}

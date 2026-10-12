@@ -231,6 +231,19 @@ link to the repository. Three things follow from that.
 
 The workflow never runs on `pull_request`, because the deploy holds secrets.
 
+**`main` changes only by squash-merging a pull request.** The repository's
+`main` ruleset requires all of the following:
+
+- a pull request, with no approving review (there is one maintainer);
+- the `tests` check;
+- verified signatures, which GitHub's squash commit has;
+- linear history.
+
+A change goes to the public repo as a short-lived `pr/<name>` branch, which is
+deleted on merge. The local pre-push hook allows that branch and refuses a
+direct push to `main`. Snapshot pull requests (`catalog.md`) follow the same
+route on `snapshot/auto`.
+
 It writes `wrangler.toml` from `wrangler.example.toml` and applies the D1
 migrations before deploying (`suggestions.md` § Setup). Its secrets live in the
 GitHub environment `production`, which is restricted to `main`.
