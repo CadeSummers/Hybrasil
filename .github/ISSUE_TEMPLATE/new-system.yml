@@ -1,0 +1,35 @@
+name: New system
+description: Propose a star system, star or planet the map does not yet have.
+title: "New system: "
+labels: ["data", "new system"]
+body:
+  - type: input
+    id: system
+    attributes:
+      label: System or object
+      placeholder: e.g. Gliese 12
+    validations:
+      required: true
+  - type: input
+    id: distance
+    attributes:
+      label: Distance from the Sun
+      placeholder: e.g. 39.7 ly
+  - type: textarea
+    id: objects
+    attributes:
+      label: What it contains
+      description: The stars, planets and moons, with the orbital values you know (period or semi-major axis, eccentricity, angles).
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: The discovery paper and any later orbital solutions, as DOI or ADS links.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

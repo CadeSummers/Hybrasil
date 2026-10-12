@@ -1,0 +1,249 @@
+J/ApJ/837/30   25yrs monitoring of stellar orbits in the GC   (Gillessen+, 2017)
+================================================================================
+An update on monitoring stellar orbits in the Galactic Center.
+    Gillessen S., Plewa P.M., Eisenhauer F., Sari R., Waisberg I., Habibi M.,
+    Pfuhl O., George E., Dexter J., von Fellenberg S., Ott T., Genzel R.
+   <Astrophys. J., 837, 30-30 (2017)>
+   =2017ApJ...837...30G    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Milky Way ; Radial velocities ; Photometry, infrared
+Keywords: astrometry; black hole physics; Galaxy: center;
+          Galaxy: fundamental parameters; techniques: high angular resolution
+
+Abstract:
+    Using 25 years of data from uninterrupted monitoring of stellar orbits
+    in the Galactic Center (GC), we present an update of the main results
+    from this unique data set: a measurement of mass and distance to
+    SgrA*. Our progress is not only due to the eight-year increase in time
+    base, but also to the improved definition of the coordinate system.
+    The star S2 continues to yield the best constraints on the mass of and
+    distance to Sgr A*; the statistical errors of 0.13x10^6^M_{sun}_ and
+    0.12kpc have halved compared to the previous study. The S2 orbit fit
+    is robust and does not need any prior information. Using coordinate
+    system priors, the star S1 also yields tight constraints on mass and
+    distance. For a combined orbit fit, we use 17 stars, which yields our
+    current best estimates for mass and distance:
+    M=4.28+/-0.10|_stat._+/-0.21|_sys_x10^6^M_{sun}_ and
+    R_0_=8.32+/-0.07|_stat._+/-0.14|_sys_kpc. These numbers are in
+    agreement with the recent determination of R_0_ from the statistical
+    cluster parallax. The positions of the mass, of the near-infrared
+    flares from Sgr A*, and of the radio source Sgr A* agree to within
+    1mas. In total, we have determined orbits for 40 stars so far, a
+    sample which consists of 32 stars with randomly oriented orbits and a
+    thermal eccentricity distribution, plus eight stars that we can
+    explicitly show are members of the clockwise disk of young stars, and
+    which have lower-eccentricity orbits.
+
+Description:
+    This work is an update and improvement over our previous orbital study
+    (Gillessen+ 2009ApJ...692.1075G).
+
+    Since the previous work we have added eight more years of data, using
+    the adaptive optics (AO) imager NACO on the VLT and the AO-assisted
+    integral field spectrograph SINFONI. This extends our time base from
+    17 to 25 years for the imaging and from five to 13 years for the
+    spectroscopy. We add (in the best cases) 78 epochs of imaging and 19
+    epochs of spectroscopy.
+    Our imaging data set contains an interruption. During 2014 and in
+    spring 2015, NACO was not available at the VLT, resulting in
+    significant gaps in our time series.
+
+    The first high-resolution imaging data of the GC region were obtained
+    in 1992 with the SHARP camera at ESO's 3.5m NTT in Chile. The first AO
+    imaging data available to us of the GC region were obtained in 2002
+    with the Naos-Conica (NACO) system mounted at the fourth unit
+    telescope Yepun of the VLT (see Gillessen+ 2009ApJ...692.1075G) for
+    more details.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table3.dat       118       40   Orbital parameters of the 40 stars for which
+                                 we were able to determine orbits
+table5.dat       557      216  *Orbital data used in this work
+--------------------------------------------------------------------------------
+Note on table5.dat: The astrometric data presented here will change in future
+    publications on monitoring stellar orbits, since they refer to the
+    current definition of the reference system, which will improve in the
+    future. Using these data requires some care concerning the coordinate
+    system. The position and the velocity of the origin of the coordinate
+    system in which these data are given do not correspond directly to the
+    central point mass, but only to our best estimate where the radio source
+    Sgr A* is located in the coordinate system (Plewa+ 2015MNRAS.453.3234P ;
+    ({alpha} ,{delta})=(0,0)+/-(0.2,0.2)mas at our reference epoch 2009.0).
+    Even Keplerian orbits therefore are expected to yield non-closing orbit
+    figures, see figure 2 and table 1. Non-closing orbits do thus not mean
+    automatically that post-Newtonian effects have been detected, or that the
+    mass distribution is extended. Due to the uncertainty in the reference
+    frame, it is also non-trivial to add to these data other astrometric
+    measurements, see Gillessen+ (2009ApJ...692.1075G). Other authors wishing
+    to use the data presented here are invited to contact the authors of this
+    work at <ste{at}mpe.mpg.de>
+--------------------------------------------------------------------------------
+
+See also:
+ J/ApJ/697/1741 : Warped disks of YSOs in Galactic center (Bartko+, 2009)
+ J/ApJ/707/L114 : The orbit of S2 star around Sgr A* (Gillessen+, 2009)
+ J/ApJ/737/73   : Infrared extinction toward the Galactic Centre (Fritz+, 2011)
+ J/ApJ/783/131  : Kinematic of stars in Galactic center (Yelda+, 2014)
+ J/A+A/570/A2   : Spectra & RVs of nuclear stars (Feldmeier+, 2014)
+ J/ApJ/821/44   : Star motions in the nuclear cluster of the MW (Fritz+, 2016)
+ J/ApJ/830/17   : GC secondary IR astrometric standards (Boehle+, 2016)
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label Explanations
+--------------------------------------------------------------------------------
+   1-  4 A4     ---      Star  Star Name
+       6 A1     ---    f_Star  [a] Flag on Object S111 (1)
+   8- 15 F8.4   arcsec   a     [-12.3/4.6] Semi-major axis of the orbit,
+                                 from Sag A*
+  17- 22 F6.4   arcsec e_a     [0.0002/8.4] Uncertainty in a
+  24- 29 F6.4   ---      e     [0.1/1.1] Eccentricity
+  31- 36 F6.4   ---    e_e     [0.0003/0.3] Uncertainty in e
+  38- 43 F6.2   deg      i     [24.7/171.1] Inclination
+  45- 48 F4.2   deg    e_i     [0.06/8.3] Uncertainty in i
+  50- 55 F6.2   deg      Omega [7.9/345] Position angle of the ascending node
+  57- 61 F5.2   deg    e_Omega [0.07/19] Uncertainty in {Omega}
+  63- 68 F6.2   deg      w     [17.9/357] Longitude of the pericenter
+  70- 74 F5.2   deg    e_w     [0.07/24] Uncertainty in w
+  76- 82 F7.2   yr       Tp    [611/2132] Epoch of pericenter passage,
+                                fractional year (G1)
+  84- 89 F6.2   yr     e_Tp    [0.01/154] Uncertainty in Tp
+  91- 97 F7.2   yr       Per   [12.8/3580]? Orbital period (G1)
+  99-105 F7.2   yr     e_Per   [0.02/2550]? Uncertainty in Per
+ 107-107 A1     ---      SpT   [el] Spectral type: e=early-type stars,
+                                l=late-type stars
+ 109-113 F5.2   mag      Kmag  [10/18] K-band magnitude
+ 115-118 F4.2   ---      r     [0.9/3.4] Global rescaling factor
+--------------------------------------------------------------------------------
+Note (1):
+   a = Object S111 formally has a negative semi major axis, indicative for
+       a hyperbolic orbit with e>1 and no solution for an orbital period.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label   Explanations
+--------------------------------------------------------------------------------
+   1-  8 F8.3   yr     Date    Observation date, fractional year (G1)
+  10- 11 A2     ---    Flag    [a rv] Observation flag (a=astrometric data;
+                                rv=radial velocity data)
+  13- 18 F6.1   mas    oRA-S1  ? Offset in Right Ascension, S1 relative to SgrA*
+  20- 23 F4.1   mas  e_oRA-S1  ? Uncertainty in oRA-S1
+  25- 30 F6.1   mas    oDE-S1  ? Offset in Declination, S1 relative to SgrA*
+  32- 35 F4.1   mas  e_oDE-S1  ? Uncertainty in oDE-S1
+  37- 41 I5     km/s   RV-S1   [-1192/-917]? Radial Velocity for S1
+  43- 45 I3     km/s e_RV-S1   [35/175]? Uncertainty in RVel-S1
+  47- 51 F5.1   mas    oRA-S2  ? Offset in Right Ascension, S2 relative to SgrA*
+  53- 55 F3.1   mas  e_oRA-S2  ? Uncertainty in oRA-S2
+  57- 61 F5.1   mas    oDE-S2  ? Offset in Declination, S2 relative to SgrA*
+  63- 65 F3.1   mas  e_oDE-S2  ? Uncertainty in oDE-S2
+  67- 71 I5     km/s   RV-S2   [-1571/1199]? Radial Velocity for S2
+  73- 75 I3     km/s e_RV-S2   [17/113]? Uncertainty in RVel-S2
+  77- 81 F5.1   mas    oRA-S4  ? Offset in Right Ascension, S4 relative to SgrA*
+  83- 85 F3.1   mas  e_oRA-S4  ? Uncertainty in oRA-S4
+  87- 91 F5.1   mas    oDE-S4  ? Offset in Declination, S4 relative to SgrA*
+  93- 95 F3.1   mas  e_oDE-S4  ? Uncertainty in oDE-S4
+  97-101 I5     km/s   RV-S4   [-1015/-525]? Radial Velocity for S4
+ 103-105 I3     km/s e_RV-S4   [25/125]? Uncertainty in RVel-S4
+ 107-111 F5.1   mas    oRA-S8  ? Offset in Right Ascension, S8 relative to SgrA*
+ 113-115 F3.1   mas  e_oRA-S8  ? Uncertainty in oRA-S8
+ 117-122 F6.1   mas    oDE-S8  ? Offset in Declination, S8 relative to SgrA*
+ 124-126 F3.1   mas  e_oDE-S8  ? Uncertainty in oDE-S8
+ 128-131 I4     km/s   RV-S8   [-306/26]? Radial Velocity for S8
+ 133-135 I3     km/s e_RV-S8   [30/118]? Uncertainty in RVel-S8
+ 137-141 F5.1   mas    oRA-S9  ? Offset in Right Ascension, S9 relative to SgrA*
+ 143-146 F4.1   mas  e_oRA-S9  ? Uncertainty in oRA-S9
+ 148-153 F6.1   mas    oDE-S9  ? Offset in Declination, S9 relative to SgrA*
+ 155-158 F4.1   mas  e_oDE-S9  ? Uncertainty in oDE-S9
+ 160-162 I3     km/s   RV-S9   [390/805]? Radial Velocity for S9
+ 164-166 I3     km/s e_RV-S9   [41/165]? Uncertainty in RVel-S9
+ 168-172 F5.1   mas    oRA-S12 ? Offset in RA, S12 relative to SgrA*
+ 174-177 F4.1   mas  e_oRA-S12 ? Uncertainty in oRA-S12
+ 179-183 F5.1   mas    oDE-S12 ? Offset in Declination, S12 relative to SgrA*
+ 185-188 F4.1   mas  e_oDE-S12 ? Uncertainty in oDE-S12
+ 190-192 I3     km/s   RV-S12  [-90/349]? Radial Velocity for S12
+ 194-196 I3     km/s e_RV-S12  [71/272]? Uncertainty in RVel-S12
+ 198-203 F6.1   mas    oRA-S13 ? Offset in RA, S13 relative to SgrA*
+ 205-208 F4.1   mas  e_oRA-S13 ? Uncertainty in oRA-S13
+ 210-215 F6.1   mas    oDE-S13 ? Offset in Declination, S13 relative to SgrA*
+ 217-220 F4.1   mas  e_oDE-S13 ? Uncertainty in oDE-S13
+ 222-225 I4     km/s   RV-S13  [-409/602]? Radial Velocity for S13
+ 227-229 I3     km/s e_RV-S13  [130/375]? Uncertainty in RVel-S13
+ 231-235 F5.1   mas    oRA-S14 ? Offset in RA, S14 relative to SgrA*
+ 237-240 F4.1   mas  e_oRA-S14 ? Uncertainty in oRA-S14
+ 242-246 F5.1   mas    oDE-S14 ? Offset in Declination, S14 relative to SgrA*
+ 248-251 F4.1   mas  e_oDE-S14 ? Uncertainty in oDE-S14
+ 253-255 I3     km/s   RV-S14  [131/765]? Radial Velocity for S14
+ 257-259 I3     km/s e_RV-S14  [108/259]? Uncertainty in RVel-S14
+ 261-265 F5.1   mas    oRA-S17 ? Offset in RA, S17 relative to SgrA*
+ 267-270 F4.1   mas  e_oRA-S17 ? Uncertainty in oRA-S17
+ 272-277 F6.1   mas    oDE-S17 ? Offset in Declination, S17 relative to SgrA*
+ 279-282 F4.1   mas  e_oDE-S17 ? Uncertainty in oDE-S17
+ 284-287 I4     km/s   RV-S17  [-165/864]? Radial Velocity for S17
+ 289-291 I3     km/s e_RV-S17  [68/242]? Uncertainty in RVel-S17
+ 293-298 F6.1   mas    oRA-S18 ? Offset in RA, S18 relative to SgrA*
+ 300-303 F4.1   mas  e_oRA-S18 ? Uncertainty in oRA-S18
+ 305-310 F6.1   mas    oDE-S18 ? Offset in Declination, S18 relative to SgrA*
+ 312-315 F4.1   mas  e_oDE-S18 ? Uncertainty in oDE-S18
+ 317-320 I4     km/s   RV-S18  [-605/-190]? Radial Velocity for S18
+ 322-324 I3     km/s e_RV-S18  [114/342]? Uncertainty in RVel-S18
+ 326-331 F6.1   mas    oRA-S19 ? Offset in RA, S19 relative to SgrA*
+ 333-336 F4.1   mas  e_oRA-S19 ? Uncertainty in oRA-S19
+ 338-343 F6.1   mas    oDE-S19 ? Offset in Declination, S19 relative to SgrA*
+ 345-348 F4.1   mas  e_oDE-S19 ? Uncertainty in oDE-S19
+ 350-354 I5     km/s   RV-S19  [-2326/-724]? Radial Velocity for S19
+ 356-358 I3     km/s e_RV-S19  [128/385]? Uncertainty in RVel-S19
+ 360-365 F6.1   mas    oRA-S21 ? Offset in RA, S21 relative to SgrA*
+ 367-369 F3.1   mas  e_oRA-S21 ? Uncertainty in oRA-S21
+ 371-376 F6.1   mas    oDE-S21 ? Offset in Declination, S21 relative to SgrA*
+ 378-380 F3.1   mas  e_oDE-S21 ? Uncertainty in oDE-S21
+ 382-384 I3     km/s   RV-S21  [373/523]? Radial Velocity for S21
+ 386-388 I3     km/s e_RV-S21  [48/112]? Uncertainty in RVel-S21
+ 390-395 F6.1   mas    oRA-S24 ? Offset in RA, S24 relative to SgrA*
+ 397-400 F4.1   mas  e_oRA-S24 ? Uncertainty in oRA-S24
+ 402-407 F6.1   mas    oDE-S24 ? Offset in Declination, S24 relative to SgrA*
+ 409-412 F4.1   mas  e_oDE-S24 ? Uncertainty in oDE-S24
+ 414-417 I4     km/s   RV-S24  [-987/-771]? Radial Velocity for S24
+ 419-421 I3     km/s e_RV-S24  [39/154]? Uncertainty in RVel-S24
+ 423-428 F6.1   mas    oRA-S31 ? Offset in RA, S31 relative to SgrA*
+ 430-433 F4.1   mas  e_oRA-S31 ? Uncertainty in oRA-S31
+ 435-439 F5.1   mas    oDE-S31 ? Offset in Declination, S31 relative to SgrA*
+ 441-444 F4.1   mas  e_oDE-S31 ? Uncertainty in oDE-S31
+ 446-449 I4     km/s   RV-S31  [-480/1020]? Radial Velocity for S31
+ 451-453 I3     km/s e_RV-S31  [79/473]? Uncertainty in RVel-S31
+ 455-460 F6.1   mas    oRA-S38 ? Offset in RA, S38 relative to SgrA*
+ 462-465 F4.1   mas  e_oRA-S38 ? Uncertainty in oRA-S38
+ 467-471 F5.1   mas    oDE-S38 ? Offset in Declination, S38 relative to SgrA*
+ 473-476 F4.1   mas  e_oDE-S38 ? Uncertainty in oDE-S38
+ 478-481 I4     km/s   RV-S38  [-189/-2]? Radial Velocity for S38
+ 483-485 I3     km/s e_RV-S38  [173/248]? Uncertainty in RVel-S38
+ 487-491 F5.1   mas    oRA-S54 ? Offset in RA, S54 relative to SgrA*
+ 493-496 F4.1   mas  e_oRA-S54 ? Uncertainty in oRA-S54
+ 498-503 F6.1   mas    oDE-S54 ? Offset in Declination, S54 relative to SgrA*
+ 505-508 F4.1   mas  e_oDE-S54 ? Uncertainty in oDE-S54
+ 510-514 I5     km/s   RV-S54  [-1790/-1046]? Radial Velocity for S54
+ 516-518 I3     km/s e_RV-S54  [182/467]? Uncertainty in RVel-S54
+ 520-524 F5.1   mas    oRA-S55 ? Offset in RA, S55 relative to SgrA*
+ 526-529 F4.1   mas  e_oRA-S55 ? Uncertainty in oRA-S55
+ 531-536 F6.1   mas    oDE-S55 ? Offset in Declination, S55 relative to SgrA*
+ 538-541 F4.1   mas  e_oDE-S55 ? Uncertainty in oDE-S55
+ 543-546 I4     km/s   RV-S55  [-732/-400]? Radial Velocity for S55
+ 548-550 I3     km/s e_RV-S55  [145/210]? Uncertainty in RVel-S55
+ 552-557 A6     ---    Inst    Observation Source (VLT (201 occurrences),
+                                NTT (11 occurrences), Keck (3 occurrences) or
+                                GEMINI)
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G1): Time is measured in Julian years of 365.25 days since J2000.0.
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                  Prepared by [AAS], Emmanuelle Perret [CDS]    11-Oct-2017

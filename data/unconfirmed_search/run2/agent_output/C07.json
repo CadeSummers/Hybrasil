@@ -1,0 +1,2954 @@
+{
+ "agent_id": "C07",
+ "phase": 3,
+ "scope": "Host-star data for the 25 TOI hosts on the Unconfirmed tab with no Systems row. No candidate search.",
+ "coverage": [
+  {
+   "system_host": "HD 6660",
+   "aliases_searched": [
+    "TOI-2009",
+    "TOI-2009",
+    "HIP 5286",
+    "TIC 243187830",
+    "Gaia DR3 2791782794564103808",
+    "2MASS J01073785+2257189"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-2009.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-2142",
+   "aliases_searched": [
+    "TOI-2142",
+    "TIC 44313455",
+    "Gaia DR3 4501226503320682368",
+    "2MASS J17481125+1558465"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-2142.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HD 274255",
+   "aliases_searched": [
+    "TOI-2540",
+    "TOI-2540",
+    "HIP 25775",
+    "TIC 354518617",
+    "Gaia DR3 4805806449875760384",
+    "2MASS J05301400-4241502"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-2540.01: pack CP, live CP, Unconfirmed tab PC; TOI-2540.02: pack APC, live APC, Unconfirmed tab APC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference."
+  },
+  {
+   "system_host": "HIP 47619",
+   "aliases_searched": [
+    "TOI-4324",
+    "TOI-4324",
+    "TIC 408416746",
+    "Gaia DR3 5677606810060597248",
+    "2MASS J09423573-1914045"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-4324.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference."
+  },
+  {
+   "system_host": "HD 29086",
+   "aliases_searched": [
+    "TOI-4328",
+    "TOI-4328",
+    "HIP 21223",
+    "TIC 77175217",
+    "Gaia DR3 4865826693691966464",
+    "2MASS J04330933-3656458"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-4328.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-4353",
+   "aliases_searched": [
+    "TOI-4353",
+    "TIC 176797879",
+    "Gaia DR3 5048222066283198208",
+    "2MASS J03141973-3402033"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-4353.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-4642",
+   "aliases_searched": [
+    "TOI-4642",
+    "TIC 336961891",
+    "Gaia DR3 2519736920335457280",
+    "2MASS J02033222+0648588"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-4642.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-5084",
+   "aliases_searched": [
+    "TOI-5084",
+    "TIC 438260486",
+    "Gaia DR3 60186343087140096",
+    "2MASS J03034904+2006393"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-5084.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-5507",
+   "aliases_searched": [
+    "TOI-5507",
+    "TIC 377097547",
+    "Gaia DR3 3850532189108251008",
+    "2MASS J09542467+0638454"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-5507.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-5735",
+   "aliases_searched": [
+    "TOI-5735",
+    "TIC 157769780",
+    "Gaia DR3 1130864790254350464",
+    "2MASS J09482989+7723213"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-5735.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HIP 114941",
+   "aliases_searched": [
+    "TOI-5961",
+    "TOI-5961",
+    "TIC 262689575",
+    "Gaia DR3 2664042942398600064",
+    "2MASS J23165182+0541454"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-5961.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference."
+  },
+  {
+   "system_host": "TOI-5974",
+   "aliases_searched": [
+    "TOI-5974",
+    "TIC 354173595",
+    "Gaia DR3 2664966085489407232",
+    "2MASS J23190369+0754580"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-5974.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6245",
+   "aliases_searched": [
+    "TOI-6245",
+    "TIC 446157122",
+    "Gaia DR3 553639739931666048",
+    "2MASS J05544871+8005408"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6245.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HIP 56998",
+   "aliases_searched": [
+    "TOI-6276",
+    "TIC 397362481",
+    "Gaia DR3 5378886891123024512"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR)",
+    "Gaia DR3 dr2_neighbourhood",
+    "PACK systems.csv",
+    "ExoFOP JSON",
+    "NASA TOI table",
+    "NASA pscomppars"
+   ],
+   "result": "already on Systems tab under another name (see incidental_finds_outside_my_scope)",
+   "notes": "TOI-6276.01: pack CP, live CP, Unconfirmed tab (not on Unconfirmed tab); TOI-6276.02: pack CP, live CP, Unconfirmed tab (not on Unconfirmed tab); TOI-6276.03: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6284",
+   "aliases_searched": [
+    "TOI-6284",
+    "TIC 286763141",
+    "Gaia DR3 5421345941377717760",
+    "2MASS J10012381-3850245"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6284.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6599",
+   "aliases_searched": [
+    "TOI-6599",
+    "TIC 166145361",
+    "Gaia DR3 6113324752547911040",
+    "2MASS J13434146-4002292"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6599.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6662",
+   "aliases_searched": [
+    "TOI-6662",
+    "TIC 418343229",
+    "Gaia DR3 502780725779792512",
+    "2MASS J05392540+7446049"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6662.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference."
+  },
+  {
+   "system_host": "HD 104067",
+   "aliases_searched": [
+    "TOI-6713",
+    "TIC 428673146",
+    "Gaia DR3 3494677900774838144"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR)",
+    "Gaia DR3 dr2_neighbourhood",
+    "PACK systems.csv",
+    "ExoFOP JSON",
+    "NASA TOI table",
+    "NASA pscomppars"
+   ],
+   "result": "already on Systems tab under another name (see incidental_finds_outside_my_scope)",
+   "notes": "TOI-6713.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6714",
+   "aliases_searched": [
+    "TOI-6714",
+    "TIC 261264800",
+    "Gaia DR3 5207639982316987648",
+    "2MASS J06034353-8127303"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6714.01: pack APC, live APC, Unconfirmed tab APC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HD 188559",
+   "aliases_searched": [
+    "TOI-6978",
+    "TOI-6978",
+    "HIP 98316",
+    "GJ 1247",
+    "CD-55 8349",
+    "CPD-55 9267",
+    "SAO 246359",
+    "TIC 320847025",
+    "Gaia DR3 6449124395465377920",
+    "2MASS J19583298-5456128"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6978.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-6981",
+   "aliases_searched": [
+    "TOI-6981",
+    "TIC 443823169",
+    "Gaia DR3 3147904852637255424",
+    "2MASS J08041456+1116015"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-6981.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "GJ 523",
+   "aliases_searched": [
+    "TOI-7032",
+    "TIC 22903436",
+    "Gaia DR3 1496734362502944512"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR)",
+    "Gaia DR3 dr2_neighbourhood",
+    "PACK systems.csv",
+    "ExoFOP JSON",
+    "NASA TOI table",
+    "NASA pscomppars"
+   ],
+   "result": "already on Systems tab under another name (see incidental_finds_outside_my_scope)",
+   "notes": "TOI-7032.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-7049",
+   "aliases_searched": [
+    "TOI-7049",
+    "TIC 337217173",
+    "Gaia DR3 18986817760556416",
+    "2MASS J02391735+0728169"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-7049.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HIP 87773",
+   "aliases_searched": [
+    "TOI-7052",
+    "TOI-7052",
+    "BD+33 2990",
+    "WDS J17559+3326 A",
+    "TIC 22038430",
+    "Gaia DR3 4604269610637580928",
+    "2MASS J17555004+3325146"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-7052.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "HD 47252",
+   "aliases_searched": [
+    "TOI-802",
+    "TOI-802",
+    "HIP 31134",
+    "TIC 167303382",
+    "Gaia DR3 5279965341800818176",
+    "2MASS J06315673-6842352"
+   ],
+   "sources_checked": [
+    "TIC v8.2 (VizieR IV/39)",
+    "Gaia DR3 gaia_source + dr2_neighbourhood + astrophysical_parameters",
+    "Gaia DR3 60-arcsec cone for comoving neighbours",
+    "ExoFOP JSON",
+    "NASA TOI table (live)",
+    "NASA pscomppars/ps",
+    "arXiv API",
+    "Hipparcos I/239",
+    "PACK systems/multistars/planets_confirmed/rejected_candidates"
+   ],
+   "result": "new system record (no new candidates; host-data task)",
+   "notes": "TOI-802.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  }
+ ],
+ "candidates": [],
+ "new_systems": [
+  {
+   "system_host": "HD 6660",
+   "nickname": "",
+   "aliases": [
+    "TOI-2009",
+    "HIP 5286",
+    "TIC 243187830",
+    "Gaia DR3 2791782794564103808",
+    "2MASS J01073785+2257189"
+   ],
+   "parallax_mas": {
+    "value": 48.6807,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 48.6807 +/- 0.0323 mas, source_id 2791782794564103808"
+   },
+   "distance_ly": {
+    "value": 67.0,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/48.6807 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 2,
+   "system_stars": "HD 6660 A (K4V, TOI-2009 host) + HD 6660 B = Gaia DR3 2791782794564103680 (TIC Teff 3214 K, M dwarf), 9.4 arcsec",
+   "host_mass_msun": {
+    "value": 0.76,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 Mass (s_Mass 0.088)"
+   },
+   "stellar_class": {
+    "value": "K4V",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 5286"
+   },
+   "teff_k": {
+    "value": 4755.3,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 Teff (s_Teff 99.6; r_Teff=spect); NASA TOI table st_teff 4755.3300000"
+   },
+   "radius_rsun": {
+    "value": 0.701,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 Rad (s_Rad 0.04)"
+   },
+   "luminosity_lsun": {
+    "value": 0.22671,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 Lum (s_Lum 0.00683)"
+   },
+   "logg": {
+    "value": 4.6268,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 logg (s_logg 0.0808)"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": 0.1991,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 243187830 [M/H]"
+   },
+   "rv_kms": {
+    "value": 6.59,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.120 km/s"
+   },
+   "pmra_masyr": {
+    "value": 103.168,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -490.281,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2791782794564103808",
+   "companions": [
+    {
+     "name": "HD 6660 B",
+     "gaia_dr3_source_id": "2791782794564103680",
+     "aliases": [
+      "TIC 243187829",
+      "Gaia DR3 2791782794564103680"
+     ],
+     "separation_arcsec": {
+      "value": 9.41,
+      "src": "GAIA",
+      "where": "ADQL DISTANCE() from host, 60-arcsec cone on gaiadr3.gaia_source"
+     },
+     "parallax_mas": {
+      "value": 48.704,
+      "src": "GAIA",
+      "where": "gaia_source.parallax"
+     },
+     "pmra_masyr": {
+      "value": 96.607,
+      "src": "GAIA",
+      "where": "gaia_source.pmra"
+     },
+     "pmdec_masyr": {
+      "value": -495.495,
+      "src": "GAIA",
+      "where": "gaia_source.pmdec"
+     },
+     "rv_kms": {
+      "value": 9.269,
+      "src": "GAIA",
+      "where": "gaia_source.radial_velocity"
+     },
+     "phot_g_mean_mag": 12.616,
+     "bp_rp": 2.927,
+     "ruwe": 1.86,
+     "teff_k": {
+      "value": 3214,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 243187829 Teff (cool-dwarf list)"
+     },
+     "mass_msun": {
+      "value": 0.273,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 243187829 Mass"
+     },
+     "radius_rsun": {
+      "value": 0.297,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 243187829 Rad"
+     },
+     "luminosity_lsun": {
+      "value": 0.00849,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 243187829 Lum"
+     },
+     "bound": "common parallax and proper motion in Gaia DR3; not confirmed by an orbit"
+    }
+   ],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-2009",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.21. Within 100 ly (parallax 48.681 >= 32.616 mas). TOI-2009.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Companion: Gaia DR3 2791782794564103680 at 9.41 arcsec, parallax 48.704 vs host 48.681 mas, pm (96.6, -495.5) vs (103.2, -490.3) mas/yr: a comoving pair. \"HD 6660 B\" is my label, not a catalogue name; SIMBAD was unreachable, so the WDS/catalogue name is unchecked. The 1071-d single-long-period TOI-2009.01 transit could be on either star; TFOP has not said which."
+  },
+  {
+   "system_host": "TOI-2142",
+   "nickname": "",
+   "aliases": [
+    "TIC 44313455",
+    "Gaia DR3 4501226503320682368",
+    "2MASS J17481125+1558465"
+   ],
+   "parallax_mas": {
+    "value": 36.0081,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 36.0081 +/- 0.0167 mas, source_id 4501226503320682368"
+   },
+   "distance_ly": {
+    "value": 90.58,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/36.0081 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.35,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 44313455 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3472.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 44313455 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3472.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.364,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 44313455 Rad (s_Rad 0.011)"
+   },
+   "luminosity_lsun": {
+    "value": 0.01734,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 44313455 Lum (s_Lum 0.00419)"
+   },
+   "logg": {
+    "value": 4.8604,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 44313455 logg (s_logg 8.0E-4)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 0.611,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.413 km/s"
+   },
+   "pmra_masyr": {
+    "value": -54.908,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 106.401,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "4501226503320682368",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-2142",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.14. Within 100 ly (parallax 36.008 >= 32.616 mas). TOI-2142.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "HD 274255",
+   "nickname": "",
+   "aliases": [
+    "TOI-2540",
+    "HIP 25775",
+    "TIC 354518617",
+    "Gaia DR3 4805806449875760384",
+    "2MASS J05301400-4241502"
+   ],
+   "parallax_mas": {
+    "value": 52.1963,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 52.1963 +/- 0.0123 mas, source_id 4805806449875760384"
+   },
+   "distance_ly": {
+    "value": 62.49,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/52.1963 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.63,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354518617 Mass (s_Mass 0.083)"
+   },
+   "stellar_class": {
+    "value": "M0V",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 25775"
+   },
+   "teff_k": {
+    "value": 4023.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354518617 Teff (s_Teff 125.0; r_Teff=dered0); NASA TOI table st_teff 4036.3000000"
+   },
+   "radius_rsun": {
+    "value": 0.661,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354518617 Rad (s_Rad 0.067)"
+   },
+   "luminosity_lsun": {
+    "value": 0.10313,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354518617 Lum (s_Lum 0.0085)"
+   },
+   "logg": {
+    "value": 4.5969,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354518617 logg (s_logg 0.1205)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -4.061,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.147 km/s"
+   },
+   "pmra_masyr": {
+    "value": 33.702,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -143.601,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "4805806449875760384",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-2540",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.05. Within 100 ly (parallax 52.196 >= 32.616 mas). TOI-2540.01: pack CP, live CP, Unconfirmed tab PC; TOI-2540.02: pack APC, live APC, Unconfirmed tab APC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference. HD 274255 is an HD Extension (HDE) number per Hipparcos I/239. Gaia FLAME cross-check: mass 0.631, L 0.0995, R 0.657 vs TIC 0.63, 0.103, 0.661."
+  },
+  {
+   "system_host": "HIP 47619",
+   "nickname": "",
+   "aliases": [
+    "TOI-4324",
+    "TIC 408416746",
+    "Gaia DR3 5677606810060597248",
+    "2MASS J09423573-1914045"
+   ],
+   "parallax_mas": {
+    "value": 58.6305,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 58.6305 +/- 0.0205 mas, source_id 5677606810060597248"
+   },
+   "distance_ly": {
+    "value": 55.63,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/58.6305 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.386,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 408416746 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3479.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 408416746 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3479.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.395,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 408416746 Rad (s_Rad 0.012)"
+   },
+   "luminosity_lsun": {
+    "value": 0.02063,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 408416746 Lum (s_Lum 0.00499)"
+   },
+   "logg": {
+    "value": 4.8309,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 408416746 logg (s_logg 0.0033)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 44.373,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.269 km/s"
+   },
+   "pmra_masyr": {
+    "value": -475.13,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -217.684,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "5677606810060597248",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-4324",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.06. Within 100 ly (parallax 58.630 >= 32.616 mas). TOI-4324.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "HD 29086",
+   "nickname": "",
+   "aliases": [
+    "TOI-4328",
+    "HIP 21223",
+    "TIC 77175217",
+    "Gaia DR3 4865826693691966464",
+    "2MASS J04330933-3656458"
+   ],
+   "parallax_mas": {
+    "value": 39.9733,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 39.9733 +/- 0.0173 mas, source_id 4865826693691966464"
+   },
+   "distance_ly": {
+    "value": 81.59,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/39.9733 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.75,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 77175217 Mass (s_Mass 0.085)"
+   },
+   "stellar_class": {
+    "value": "K4V",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 21223"
+   },
+   "teff_k": {
+    "value": 4709.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 77175217 Teff (s_Teff 125.2; r_Teff=dered0); NASA TOI table st_teff 4709.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.74,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 77175217 Rad (s_Rad 0.054)"
+   },
+   "luminosity_lsun": {
+    "value": 0.24248,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 77175217 Lum (s_Lum 0.00974)"
+   },
+   "logg": {
+    "value": 4.5749,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 77175217 logg (s_logg 0.0934)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -1.197,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.140 km/s"
+   },
+   "pmra_masyr": {
+    "value": -16.92,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 43.629,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "4865826693691966464",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-4328",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.07. Within 100 ly (parallax 39.973 >= 32.616 mas). TOI-4328.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-4353",
+   "nickname": "",
+   "aliases": [
+    "TIC 176797879",
+    "Gaia DR3 5048222066283198208",
+    "2MASS J03141973-3402033"
+   ],
+   "parallax_mas": {
+    "value": 39.8685,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 39.8685 +/- 0.0209 mas, source_id 5048222066283198208"
+   },
+   "distance_ly": {
+    "value": 81.81,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/39.8685 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.42,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 176797879 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3614.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 176797879 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3614.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.426,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 176797879 Rad (s_Rad 0.013)"
+   },
+   "luminosity_lsun": {
+    "value": 0.02784,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 176797879 Lum (s_Lum 0.00653)"
+   },
+   "logg": {
+    "value": 4.8034,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 176797879 logg (s_logg 0.0049)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 34.959,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.208 km/s"
+   },
+   "pmra_masyr": {
+    "value": 199.172,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 310.471,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "5048222066283198208",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-4353",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.35. Within 100 ly (parallax 39.869 >= 32.616 mas). TOI-4353.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-4642",
+   "nickname": "",
+   "aliases": [
+    "TIC 336961891",
+    "Gaia DR3 2519736920335457280",
+    "2MASS J02033222+0648588"
+   ],
+   "parallax_mas": {
+    "value": 42.4443,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 42.4443 +/- 0.0196 mas, source_id 2519736920335457280"
+   },
+   "distance_ly": {
+    "value": 76.84,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/42.4443 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.212,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 336961891 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3266.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 336961891 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3266.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.242,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 336961891 Rad (s_Rad 0.007)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00601,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 336961891 Lum (s_Lum 0.00153)"
+   },
+   "logg": {
+    "value": 4.9972,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 336961891 logg (s_logg 0.0148)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 12.303,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.849 km/s"
+   },
+   "pmra_masyr": {
+    "value": 92.003,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -122.038,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2519736920335457280",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-4642",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.35. Within 100 ly (parallax 42.444 >= 32.616 mas). TOI-4642.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-5084",
+   "nickname": "",
+   "aliases": [
+    "TIC 438260486",
+    "Gaia DR3 60186343087140096",
+    "2MASS J03034904+2006393"
+   ],
+   "parallax_mas": {
+    "value": 46.7601,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 46.7601 +/- 0.0233 mas, source_id 60186343087140096"
+   },
+   "distance_ly": {
+    "value": 69.75,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/46.7601 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.72,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 438260486 Mass (s_Mass 0.088)"
+   },
+   "stellar_class": {
+    "value": "K",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 4544.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 438260486 Teff (s_Teff 122.0; r_Teff=dered0); NASA TOI table st_teff 4544.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.752,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 438260486 Rad (s_Rad 0.058)"
+   },
+   "luminosity_lsun": {
+    "value": 0.21747,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 438260486 Lum (s_Lum 0.01033)"
+   },
+   "logg": {
+    "value": 4.5425,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 438260486 logg (s_logg 0.097)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 44.892,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.151 km/s"
+   },
+   "pmra_masyr": {
+    "value": 31.276,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -64.93,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "60186343087140096",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-5084",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 0.97. Within 100 ly (parallax 46.760 >= 32.616 mas). TOI-5084.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull."
+  },
+  {
+   "system_host": "TOI-5507",
+   "nickname": "",
+   "aliases": [
+    "TIC 377097547",
+    "Gaia DR3 3850532189108251008",
+    "2MASS J09542467+0638454"
+   ],
+   "parallax_mas": {
+    "value": 40.9791,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 40.9791 +/- 0.0279 mas, source_id 3850532189108251008"
+   },
+   "distance_ly": {
+    "value": 79.59,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/40.9791 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.342,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 377097547 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3514.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 377097547 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3514.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.357,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 377097547 Rad (s_Rad 0.011)"
+   },
+   "luminosity_lsun": {
+    "value": 0.0175,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 377097547 Lum (s_Lum 0.00419)"
+   },
+   "logg": {
+    "value": 4.8673,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 377097547 logg (s_logg 4.0E-4)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 1.672,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.273 km/s"
+   },
+   "pmra_masyr": {
+    "value": -270.147,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 62.037,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "3850532189108251008",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-5507",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.62. Within 100 ly (parallax 40.979 >= 32.616 mas). TOI-5507.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-5735",
+   "nickname": "",
+   "aliases": [
+    "TIC 157769780",
+    "Gaia DR3 1130864790254350464",
+    "2MASS J09482989+7723213"
+   ],
+   "parallax_mas": {
+    "value": 43.6132,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 43.6132 +/- 0.0128 mas, source_id 1130864790254350464"
+   },
+   "distance_ly": {
+    "value": 74.78,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/43.6132 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.18,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 157769780 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3222.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 157769780 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3222.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.211,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 157769780 Rad (s_Rad 0.006)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00432,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 157769780 Lum (s_Lum 0.00111)"
+   },
+   "logg": {
+    "value": 5.0449,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 157769780 logg (s_logg 0.0225)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": 27.711,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 106.51,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "1130864790254350464",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-5735",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.14. Within 100 ly (parallax 43.613 >= 32.616 mas). TOI-5735.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs. Gaia DR3 has no radial_velocity for this star."
+  },
+  {
+   "system_host": "HIP 114941",
+   "nickname": "",
+   "aliases": [
+    "TOI-5961",
+    "TIC 262689575",
+    "Gaia DR3 2664042942398600064",
+    "2MASS J23165182+0541454"
+   ],
+   "parallax_mas": {
+    "value": 38.0407,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 38.0407 +/- 0.0177 mas, source_id 2664042942398600064"
+   },
+   "distance_ly": {
+    "value": 85.74,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/38.0407 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.6,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 Mass (s_Mass 0.081)"
+   },
+   "stellar_class": {
+    "value": "K7V:",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 114941"
+   },
+   "teff_k": {
+    "value": 3900.7,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 Teff (s_Teff 125.7; r_Teff=spect); NASA TOI table st_teff 3900.6800000"
+   },
+   "radius_rsun": {
+    "value": 0.702,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 Rad (s_Rad 0.073)"
+   },
+   "luminosity_lsun": {
+    "value": 0.1027,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 Lum (s_Lum 0.0097)"
+   },
+   "logg": {
+    "value": 4.5239,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 logg (s_logg 0.1232)"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.176,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 262689575 [M/H]"
+   },
+   "rv_kms": {
+    "value": -9.053,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.185 km/s"
+   },
+   "pmra_masyr": {
+    "value": 22.924,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -27.149,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2664042942398600064",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-5961",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.00. Within 100 ly (parallax 38.041 >= 32.616 mas). TOI-5961.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference."
+  },
+  {
+   "system_host": "TOI-5974",
+   "nickname": "",
+   "aliases": [
+    "TIC 354173595",
+    "Gaia DR3 2664966085489407232",
+    "2MASS J23190369+0754580"
+   ],
+   "parallax_mas": {
+    "value": 38.9387,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 38.9387 +/- 0.0244 mas, source_id 2664966085489407232"
+   },
+   "distance_ly": {
+    "value": 83.76,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/38.9387 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.359,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354173595 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3487.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354173595 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3487.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.372,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354173595 Rad (s_Rad 0.011)"
+   },
+   "luminosity_lsun": {
+    "value": 0.0184,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354173595 Lum (s_Lum 0.00444)"
+   },
+   "logg": {
+    "value": 4.8531,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 354173595 logg (s_logg 0.0014)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 11.682,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.385 km/s"
+   },
+   "pmra_masyr": {
+    "value": 133.314,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -126.414,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2664966085489407232",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-5974",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.25. Within 100 ly (parallax 38.939 >= 32.616 mas). TOI-5974.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-6245",
+   "nickname": "",
+   "aliases": [
+    "TIC 446157122",
+    "Gaia DR3 553639739931666048",
+    "2MASS J05544871+8005408"
+   ],
+   "parallax_mas": {
+    "value": 45.0826,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 45.0826 +/- 0.0147 mas, source_id 553639739931666048"
+   },
+   "distance_ly": {
+    "value": 72.35,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/45.0826 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.206,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 446157122 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3106.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 446157122 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3106.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.236,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 446157122 Rad (s_Rad 0.007)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00469,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 446157122 Lum (s_Lum 0.00124)"
+   },
+   "logg": {
+    "value": 5.0052,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 446157122 logg (s_logg 0.0164)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -64.288,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.886 km/s"
+   },
+   "pmra_masyr": {
+    "value": -150.654,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -6.622,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "553639739931666048",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6245",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.24. Within 100 ly (parallax 45.083 >= 32.616 mas). TOI-6245.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-6284",
+   "nickname": "",
+   "aliases": [
+    "TIC 286763141",
+    "Gaia DR3 5421345941377717760",
+    "2MASS J10012381-3850245"
+   ],
+   "parallax_mas": {
+    "value": 47.4818,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 47.4818 +/- 0.0162 mas, source_id 5421345941377717760"
+   },
+   "distance_ly": {
+    "value": 68.69,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/47.4818 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.465,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 286763141 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3548.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 286763141 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3548.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.468,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 286763141 Rad (s_Rad 0.014)"
+   },
+   "luminosity_lsun": {
+    "value": 0.03123,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 286763141 Lum (s_Lum 0.00744)"
+   },
+   "logg": {
+    "value": 4.7658,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 286763141 logg (s_logg 0.007)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 9.75,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.161 km/s"
+   },
+   "pmra_masyr": {
+    "value": 161.786,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -207.06,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "5421345941377717760",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6284",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.19. Within 100 ly (parallax 47.482 >= 32.616 mas). TOI-6284.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-6599",
+   "nickname": "",
+   "aliases": [
+    "TIC 166145361",
+    "Gaia DR3 6113324752547911040",
+    "2MASS J13434146-4002292"
+   ],
+   "parallax_mas": {
+    "value": 58.8598,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 58.8598 +/- 0.0232 mas, source_id 6113324752547911040"
+   },
+   "distance_ly": {
+    "value": 55.41,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/58.8598 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.171,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 166145361 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3075.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 166145361 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3087.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.202,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 166145361 Rad (s_Rad 0.006)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00329,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 166145361 Lum (s_Lum 8.7E-4)"
+   },
+   "logg": {
+    "value": 5.0601,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 166145361 logg (s_logg 0.0252)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": 189.665,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -98.241,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "6113324752547911040",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6599",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.27. Within 100 ly (parallax 58.860 >= 32.616 mas). TOI-6599.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs. Gaia DR3 has no radial_velocity for this star."
+  },
+  {
+   "system_host": "TOI-6662",
+   "nickname": "",
+   "aliases": [
+    "TIC 418343229",
+    "Gaia DR3 502780725779792512",
+    "2MASS J05392540+7446049"
+   ],
+   "parallax_mas": {
+    "value": 47.2619,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 47.2619 +/- 0.0197 mas, source_id 502780725779792512"
+   },
+   "distance_ly": {
+    "value": 69.01,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/47.2619 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.313,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 418343229 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3359.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 418343229 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3359.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.332,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 418343229 Rad (s_Rad 0.01)"
+   },
+   "luminosity_lsun": {
+    "value": 0.01263,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 418343229 Lum (s_Lum 0.00313)"
+   },
+   "logg": {
+    "value": 4.892,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 418343229 logg (s_logg 0.0021)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -3.723,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.274 km/s"
+   },
+   "pmra_masyr": {
+    "value": 9.785,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -147.262,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "502780725779792512",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6662",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.23. Within 100 ly (parallax 47.262 >= 32.616 mas). TOI-6662.01: pack CP, live CP, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. DISPOSITION NOW CP (TFOPWG; NASA TOI rowupdate 2026-08-25 12:05:28) while the Unconfirmed tab still says PC: a candidate to move to the confirmed tab. No confirming paper found: arXiv API (title/abstract) returned nothing for the TOI, HIP or HD names; not yet in NASA ps/pscomppars (queried by tic_id and hostname 2026-09-27); ExoFOP gives no reference. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "TOI-6714",
+   "nickname": "",
+   "aliases": [
+    "TIC 261264800",
+    "Gaia DR3 5207639982316987648",
+    "2MASS J06034353-8127303"
+   ],
+   "parallax_mas": {
+    "value": 37.4313,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 37.4313 +/- 0.0458 mas, source_id 5207639982316987648"
+   },
+   "distance_ly": {
+    "value": 87.13,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/37.4313 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.101,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 261264800 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 2824.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 261264800 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 2824.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.126,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 261264800 Rad (s_Rad 0.004)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00091,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 261264800 Lum (s_Lum 2.6E-4)"
+   },
+   "logg": {
+    "value": 5.2429,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 261264800 logg (s_logg 0.0613)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": 110.591,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 236.902,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "5207639982316987648",
+   "companions": [
+    {
+     "name": "TOI-6714 speckle companion(s)",
+     "gaia_dr3_source_id": null,
+     "separation_arcsec": {
+      "value": 0.387,
+      "src": "EXOFOP",
+      "where": "stellar_companions: 832 nm speckle, UT 2025-03-15, PA 271.8 (180-deg ambiguity), dmag 0.78, user deveny"
+     },
+     "second_detection": {
+      "value": 0.451,
+      "src": "EXOFOP",
+      "where": "stellar_companions: 832 nm speckle, UT 2024-01-03, PA 319.6 (180-deg ambiguity), dmag 2.68, user cclark"
+     },
+     "bound": "unknown; not resolved in Gaia DR3 (no source within 60 arcsec shares its parallax); the two epochs may or may not be the same star"
+    }
+   ],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6714",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.06. Within 100 ly (parallax 37.431 >= 32.616 mas). TOI-6714.01: pack APC, live APC, Unconfirmed tab APC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs. Gaia DR3 has no radial_velocity for this star. ExoFOP speckle imaging shows a close companion (0.39 arcsec, dmag 0.78 at 832 nm, 2025-03-15; and 0.45 arcsec, dmag 2.68, 2024-01-03). If bound it dilutes the transit and biases the TIC single-star parameters (TIC mass 0.101, Teff 2824 K). stars_in_system left at 1: writer to judge. TOI-6714.01 is APC."
+  },
+  {
+   "system_host": "HD 188559",
+   "nickname": "",
+   "aliases": [
+    "TOI-6978",
+    "HIP 98316",
+    "GJ 1247",
+    "CD-55 8349",
+    "CPD-55 9267",
+    "SAO 246359",
+    "TIC 320847025",
+    "Gaia DR3 6449124395465377920",
+    "2MASS J19583298-5456128"
+   ],
+   "parallax_mas": {
+    "value": 42.3356,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 42.3356 +/- 0.0220 mas, source_id 6449124395465377920"
+   },
+   "distance_ly": {
+    "value": 77.04,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/42.3356 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.76,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 Mass (s_Mass 0.091)"
+   },
+   "stellar_class": {
+    "value": "K3V",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 98316"
+   },
+   "teff_k": {
+    "value": 4747.1,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 Teff (s_Teff 126.4; r_Teff=spect); NASA TOI table st_teff 4747.1300000"
+   },
+   "radius_rsun": {
+    "value": 0.751,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 Rad (s_Rad 0.054)"
+   },
+   "luminosity_lsun": {
+    "value": 0.25785,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 Lum (s_Lum 0.00989)"
+   },
+   "logg": {
+    "value": 4.5679,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 logg (s_logg 0.0935)"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.0588,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 320847025 [M/H]"
+   },
+   "rv_kms": {
+    "value": 16.659,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.131 km/s"
+   },
+   "pmra_masyr": {
+    "value": 108.509,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -123.551,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "6449124395465377920",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6978",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 0.97. Within 100 ly (parallax 42.336 >= 32.616 mas). TOI-6978.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. ExoFOP also lists GJ 1247 for this star; the writer may prefer that name. Gaia FLAME gives mass 0.748, L 0.2565, R 0.784 (flags 00) as a cross-check on TIC (0.76, 0.258, 0.751)."
+  },
+  {
+   "system_host": "TOI-6981",
+   "nickname": "",
+   "aliases": [
+    "TIC 443823169",
+    "Gaia DR3 3147904852637255424",
+    "2MASS J08041456+1116015"
+   ],
+   "parallax_mas": {
+    "value": 39.4798,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 39.4798 +/- 0.0329 mas, source_id 3147904852637255424"
+   },
+   "distance_ly": {
+    "value": 82.61,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/39.4798 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.273,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 443823169 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3261.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 443823169 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3261.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.297,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 443823169 Rad (s_Rad 0.009)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00898,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 443823169 Lum (s_Lum 0.00228)"
+   },
+   "logg": {
+    "value": 4.9293,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 443823169 logg (s_logg 0.0062)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": -165.837,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -39.044,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "3147904852637255424",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-6981",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.50. Within 100 ly (parallax 39.480 >= 32.616 mas). TOI-6981.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs. Gaia DR3 has no radial_velocity for this star."
+  },
+  {
+   "system_host": "TOI-7049",
+   "nickname": "",
+   "aliases": [
+    "TIC 337217173",
+    "Gaia DR3 18986817760556416",
+    "2MASS J02391735+0728169"
+   ],
+   "parallax_mas": {
+    "value": 50.0511,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 50.0511 +/- 0.0280 mas, source_id 18986817760556416"
+   },
+   "distance_ly": {
+    "value": 65.16,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/50.0511 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.225,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 337217173 Mass (s_Mass 0.02)"
+   },
+   "stellar_class": {
+    "value": "M",
+    "src": "GAP",
+    "where": "astrophysical_parameters.spectraltype_esphs; letter class only, no subclass"
+   },
+   "teff_k": {
+    "value": 3236.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 337217173 Teff (s_Teff 157.0; cool-dwarf list, Mann et al. 2015/2019 relations); NASA TOI table st_teff 3236.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.254,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 337217173 Rad (s_Rad 0.008)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00637,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 337217173 Lum (s_Lum 0.00163)"
+   },
+   "logg": {
+    "value": 4.9811,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 337217173 logg (s_logg 0.0126)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 0.543,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.703 km/s"
+   },
+   "pmra_masyr": {
+    "value": 480.354,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -137.598,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "18986817760556416",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters (Creevey et al. 2023; Fouesneau et al. 2023)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "spectraltype_esphs (coarse letter class only)"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-7049",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 1.10. Within 100 ly (parallax 50.051 >= 32.616 mas). TOI-7049.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia GSP-Phot/FLAME not used: poor for M dwarfs."
+  },
+  {
+   "system_host": "HIP 87773",
+   "nickname": "",
+   "aliases": [
+    "TOI-7052",
+    "BD+33 2990",
+    "WDS J17559+3326 A",
+    "TIC 22038430",
+    "Gaia DR3 4604269610637580928",
+    "2MASS J17555004+3325146"
+   ],
+   "parallax_mas": {
+    "value": 33.6484,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 33.6484 +/- 0.0099 mas, source_id 4604269610637580928"
+   },
+   "distance_ly": {
+    "value": 96.93,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/33.6484 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 2,
+   "system_stars": "HIP 87773 A (K7, TOI-7052 host; WDS J17559+3326 A) + Gaia DR3 4604269606340411136 (TIC Teff 3503 K), 10.6 arcsec",
+   "host_mass_msun": {
+    "value": 0.67,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 22038430 Mass (s_Mass 0.079)"
+   },
+   "stellar_class": {
+    "value": "K7",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 87773"
+   },
+   "teff_k": {
+    "value": 4269.0,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 22038430 Teff (s_Teff 124.3; r_Teff=dered0); NASA TOI table st_teff 4269.0000000"
+   },
+   "radius_rsun": {
+    "value": 0.64,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 22038430 Rad (s_Rad 0.057)"
+   },
+   "luminosity_lsun": {
+    "value": 0.12249,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 22038430 Lum (s_Lum 0.00786)"
+   },
+   "logg": {
+    "value": 4.6521,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 22038430 logg (s_logg 0.1035)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -0.725,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.144 km/s"
+   },
+   "pmra_masyr": {
+    "value": 9.747,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -235.365,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "4604269610637580928",
+   "companions": [
+    {
+     "name": "HIP 87773 B",
+     "gaia_dr3_source_id": "4604269606340411136",
+     "aliases": [
+      "TIC 22038432",
+      "Gaia DR3 4604269606340411136"
+     ],
+     "separation_arcsec": {
+      "value": 10.61,
+      "src": "GAIA",
+      "where": "ADQL DISTANCE() from host, 60-arcsec cone on gaiadr3.gaia_source"
+     },
+     "parallax_mas": {
+      "value": 33.663,
+      "src": "GAIA",
+      "where": "gaia_source.parallax"
+     },
+     "pmra_masyr": {
+      "value": 14.798,
+      "src": "GAIA",
+      "where": "gaia_source.pmra"
+     },
+     "pmdec_masyr": {
+      "value": -227.732,
+      "src": "GAIA",
+      "where": "gaia_source.pmdec"
+     },
+     "rv_kms": {
+      "value": -0.384,
+      "src": "GAIA",
+      "where": "gaia_source.radial_velocity"
+     },
+     "phot_g_mean_mag": 12.343,
+     "bp_rp": 2.378,
+     "ruwe": 1.23,
+     "teff_k": {
+      "value": 3503,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 22038432 Teff (cool-dwarf list)"
+     },
+     "mass_msun": {
+      "value": 0.349,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 22038432 Mass"
+     },
+     "radius_rsun": {
+      "value": 0.363,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 22038432 Rad"
+     },
+     "luminosity_lsun": {
+      "value": 0.01785,
+      "src": "TIC",
+      "where": "IV/39/tic82 TIC 22038432 Lum"
+     },
+     "bound": "common parallax and proper motion in Gaia DR3; not confirmed by an orbit"
+    }
+   ],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-7052",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 0.98. Within 100 ly (parallax 33.648 >= 32.616 mas). TOI-7052.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Companion: Gaia DR3 4604269606340411136 at 10.61 arcsec, parallax 33.663 vs host 33.648 mas, pm (14.8, -227.7) vs (9.7, -235.4), RV -0.38 vs -0.72 km/s: comoving. ExoFOP lists the host as WDS J17559+3326 A, so WDS carries the pair. \"HIP 87773 B\" is my label. Host parallax 33.648 mas is only 3% inside the 100-ly cut (96.93 ly)."
+  },
+  {
+   "system_host": "HD 47252",
+   "nickname": "",
+   "aliases": [
+    "TOI-802",
+    "HIP 31134",
+    "TIC 167303382",
+    "Gaia DR3 5279965341800818176",
+    "2MASS J06315673-6842352"
+   ],
+   "parallax_mas": {
+    "value": 35.6365,
+    "src": "GAIA",
+    "where": "gaia_source.parallax = 35.6365 +/- 0.0182 mas, source_id 5279965341800818176"
+   },
+   "distance_ly": {
+    "value": 91.52,
+    "src": "GAIA",
+    "where": "1/parallax: 3261.5636/35.6365 (arithmetic on the Gaia DR3 parallax; writer may recompute)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.89,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 167303382 Mass (s_Mass 0.107)"
+   },
+   "stellar_class": {
+    "value": "G8/K0V",
+    "src": "HIPC",
+    "where": "I/239/hip_main SpType for HIP 31134"
+   },
+   "teff_k": {
+    "value": 5235.8,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 167303382 Teff (s_Teff 104.6; r_Teff=spect); NASA TOI table st_teff 5235.7800000"
+   },
+   "radius_rsun": {
+    "value": 0.75,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 167303382 Rad (s_Rad 0.037)"
+   },
+   "luminosity_lsun": {
+    "value": 0.38066,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 167303382 Lum (s_Lum 0.00829)"
+   },
+   "logg": {
+    "value": 4.6375,
+    "src": "TIC",
+    "where": "IV/39/tic82 TIC 167303382 logg (s_logg 0.0751)"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 42.732,
+    "src": "GAIA",
+    "where": "gaia_source.radial_velocity +/- 0.130 km/s"
+   },
+   "pmra_masyr": {
+    "value": -56.881,
+    "src": "GAIA",
+    "where": "gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -449.7,
+    "src": "GAIA",
+    "where": "gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "5279965341800818176",
+   "companions": [],
+   "sources": {
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019, AJ 158, 138; Paegert et al. 2021), VizieR IV/39/tic82",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "host Mass, Teff, Rad, Lum, logg, [M/H] (query: SELECT * FROM \"IV/39/tic82\" WHERE TIC IN (...), run 2026-09-27)"
+    },
+    "GAIA": {
+     "citation": "Gaia DR3 gaia_source (Gaia Collaboration 2023, A&A 674, A1)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, pmra, pmdec, radial_velocity, ruwe; DR2->DR3 id from TIC GAIA (DR2) via gaiadr3.dr2_neighbourhood (query run 2026-09-27)"
+    },
+    "EXOFOP": {
+     "citation": "ExoFOP-TESS target page (JSON), star_names / tois / stellar_companions",
+     "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+     "what": "aliases, TFOP disposition, speckle companions"
+    },
+    "TOI": {
+     "citation": "NASA Exoplanet Archive TOI table, live query 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,rowupdate+from+toi+where+tid+in+(...)",
+     "what": "TFOPWG disposition"
+    },
+    "HIPC": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+     "what": "HD number and spectral type (query: SELECT HIP, HD, SpType FROM \"I/239/hip_main\" WHERE HIP IN (...))"
+    }
+   },
+   "toi_host_name_on_unconfirmed_tab": "TOI-802",
+   "notes": "No paper stellar-parameter table found (arXiv API title/abstract search on TOI/HIP/HD names returned nothing; not in NASA ps), so host inputs are TIC v8.2, not the TOI table (which has no mass or luminosity). Gaia DR3 RUWE 0.91. Within 100 ly (parallax 35.636 >= 32.616 mas). TOI-802.01: pack PC, live PC, Unconfirmed tab PC. Live TOI disposition identical to the 2026-09-26 pack pull. Gaia DR3 has no astrophysical_parameters mass/L for this star. ExoFOP carries CHIRON spectroscopic Teff uploads (not used)."
+  }
+ ],
+ "considered_not_added": [],
+ "confirmed_missing_from_confirmed_sheet": [
+  {
+   "planet": "TOI-2540.01",
+   "host": "HD 274255 (HIP 25775)",
+   "status": "TFOPWG CP in NASA TOI table since 2026-08-25; no paper located; not in NASA pscomppars",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tfopwg_disp,rowupdate+from+toi+where+toi+in+(2540.01,4324.01,5961.01,6662.01)&format=csv"
+  },
+  {
+   "planet": "TOI-4324.01",
+   "host": "HIP 47619",
+   "status": "TFOPWG CP in NASA TOI table since 2026-08-25; no paper located; not in NASA pscomppars",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tfopwg_disp,rowupdate+from+toi+where+toi+in+(2540.01,4324.01,5961.01,6662.01)&format=csv"
+  },
+  {
+   "planet": "TOI-5961.01",
+   "host": "HIP 114941",
+   "status": "TFOPWG CP in NASA TOI table since 2026-08-25; no paper located; not in NASA pscomppars",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tfopwg_disp,rowupdate+from+toi+where+toi+in+(2540.01,4324.01,5961.01,6662.01)&format=csv"
+  },
+  {
+   "planet": "TOI-6662.01",
+   "host": "TOI-6662",
+   "status": "TFOPWG CP in NASA TOI table since 2026-08-25; no paper located; not in NASA pscomppars",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tfopwg_disp,rowupdate+from+toi+where+toi+in+(2540.01,4324.01,5961.01,6662.01)&format=csv"
+  }
+ ],
+ "incidental_finds_outside_my_scope": [
+  {
+   "toi_host": "TOI-6276",
+   "systems_name": "HIP 56998",
+   "evidence": "TIC 397362481 -> TIC v8.2 GAIA (DR2) 5378886891122066560 -> gaiadr3.dr2_neighbourhood DR3 5378886891123024512 = systems.csv gaia_dr3_source_id of HIP 56998 (sheet row 156). ExoFOP star_names: HD 101581, HIP 56998, GJ 435, LHS 2441. NASA pscomppars: HD 101581 b, c (Kunimoto et al. 2025) = TOI-6276.01/.02 (CP). TOI-6276.03 remains PC. Systems distance 41.68 ly vs Gaia 41.69: OK."
+  },
+  {
+   "toi_host": "TOI-6713",
+   "systems_name": "HD 104067",
+   "evidence": "TIC 428673146 -> DR2 = DR3 3494677900774838144 = systems.csv gaia_dr3_source_id of HD 104067 (sheet row 144). ExoFOP: HD 104067, HIP 58451, GJ 1153. NASA pscomppars lists HD 104067 b, c. Systems distance 66.42 ly vs Gaia 66.36: OK."
+  },
+  {
+   "toi_host": "TOI-7032",
+   "systems_name": "GJ 523",
+   "evidence": "NEW MATCH, not in my instructions. TIC 22903436 -> DR2 = DR3 1496734362502944512 = systems.csv gaia_dr3_source_id of GJ 523 (sheet row 181). ExoFOP star_names: GJ 523, HIP 66954, BD+39 2675. Systems distance 86.8 ly vs Gaia 86.80: OK. DUPLICATE: TOI-7032.01 (P = 17.7456043 d, NASA TOI table) is the same transit as GJ 523 b on the confirmed tab (planets_confirmed.csv row 539, P = 17.74574 d, R = 2.55 Re). The Unconfirmed row TOI-7032.01 should be removed (or noted as GJ 523 b), not re-hosted. The NASA TOI table still says PC (rowupdate 2026-03-27), and GJ 523 b is not in NASA ps (hostname query 2026-09-27), so the confirmed-tab row rests on whatever source the sheet cites."
+  },
+  {
+   "type": "TOI disposition changed to CP",
+   "toi": "TOI-2540.01",
+   "host": "HD 274255 (HIP 25775)",
+   "detail": "NASA TOI table (live 2026-09-27 and pack 2026-09-26) tfopwg_disp = CP, rowupdate 2026-08-25 12:05:28; Unconfirmed tab row still says PC (its retrieval date is 2026-08-25). Not yet in NASA ps/pscomppars; no confirming paper found via arXiv API or ExoFOP. Candidate to move to the confirmed tab once the paper is identified."
+  },
+  {
+   "type": "TOI disposition changed to CP",
+   "toi": "TOI-4324.01",
+   "host": "HIP 47619",
+   "detail": "NASA TOI table (live 2026-09-27 and pack 2026-09-26) tfopwg_disp = CP, rowupdate 2026-08-25 12:05:28; Unconfirmed tab row still says PC (its retrieval date is 2026-08-25). Not yet in NASA ps/pscomppars; no confirming paper found via arXiv API or ExoFOP. Candidate to move to the confirmed tab once the paper is identified."
+  },
+  {
+   "type": "TOI disposition changed to CP",
+   "toi": "TOI-5961.01",
+   "host": "HIP 114941",
+   "detail": "NASA TOI table (live 2026-09-27 and pack 2026-09-26) tfopwg_disp = CP, rowupdate 2026-08-25 12:05:28; Unconfirmed tab row still says PC (its retrieval date is 2026-08-25). Not yet in NASA ps/pscomppars; no confirming paper found via arXiv API or ExoFOP. Candidate to move to the confirmed tab once the paper is identified."
+  },
+  {
+   "type": "TOI disposition changed to CP",
+   "toi": "TOI-6662.01",
+   "host": "TOI-6662",
+   "detail": "NASA TOI table (live 2026-09-27 and pack 2026-09-26) tfopwg_disp = CP, rowupdate 2026-08-25 12:05:28; Unconfirmed tab row still says PC (its retrieval date is 2026-08-25). Not yet in NASA ps/pscomppars; no confirming paper found via arXiv API or ExoFOP. Candidate to move to the confirmed tab once the paper is identified."
+  },
+  {
+   "type": "method note",
+   "detail": "SIMBAD (TAP and sim-id) timed out all session; exoplanet.eu TAP unreachable; the session-wide WebSearch budget ran out after my 4th query (those 4 found nothing relevant). Aliases come from ExoFOP star_names and Hipparcos I/239; the arXiv API returned zero title/abstract hits for every TOI/HIP/HD name tried (sanity check TOI-700 returned 16)."
+  },
+  {
+   "type": "distance check",
+   "detail": "All 25 Unconfirmed-tab catalogue_distance_ly values agree with Gaia DR3 parallax to within 2%. All 25 hosts are inside 100 ly; the closest to the cut is TOI-7052 / HIP 87773 at 33.648 mas (96.93 ly)."
+  }
+ ]
+}

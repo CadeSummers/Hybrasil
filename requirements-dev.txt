@@ -1,0 +1,6 @@
+-r requirements.txt
+
+pytest>=7.0.0
+# Browser tests (tests/test_browser.py, marker "browser"); after installing,
+# run once:  python -m playwright install chromium
+pytest-playwright>=0.5.0

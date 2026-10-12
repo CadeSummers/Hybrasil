@@ -1,0 +1,1441 @@
+{
+ "agent_id": "K006",
+ "batch": "K006",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 518|3713594960831605760",
+   "name": "GJ 518",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DC9 white dwarf (featureless). Only uncorrected line velocity: SIMBAD 183.4 km/s from Napiwotzki et al. 2020 (J/A+A/638/A131); no redshift-corrected kinematic RV in Pauli 2006 (J/A+A/447/173) or elsewhere. rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 4052121633175747200|4052121633175747200",
+   "name": "Gaia DR3 4052121633175747200",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 198464052134353536|198464052134353536",
+   "name": "Gaia DR3 198464052134353536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10806|4768909313548256640",
+   "name": "GJ 10806",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 980384254488328448|980384254488328448",
+   "name": "Gaia DR3 980384254488328448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Only values found nearby belong to the primary G 193-39 (Gaia DR3 980384254488328192, G=10.76, Gaia RV 36.34): LAMOST LRS target J071404.40+504336.9, Ding 2022, and a Li 2025 (J/ApJS/281/58) row with RVel=52.79+/-3.08 whose LAMOST coordinates (108.51877,+50.72589) sit 0.4\" from the primary's J2000 position and 2.2\" from B's. Cifuentes 2025 (J/A+A/693/A228) lists 33.15+/-3.14 against B's Gaia id, but that is the Gaia DR2 RV of the primary (J/MNRAS/486/251), so it is not B's."
+  },
+  {
+   "key": "Gaia DR3 3338886345887759232|3338886345887759232",
+   "name": "Gaia DR3 3338886345887759232",
+   "done": true,
+   "rv": {
+    "value": -68.39,
+    "err": 20.48,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, col RVel (n_RVel=1, recommended), LAMOST DR10 LRS obsid 160905005 (2013-10-02), matched 0.6\" from J2000-propagated position; Gaia column blank but LAMOST DR7 catalog for the same obsid carries GaiaDR2 3338886345887759232",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution RVs of M stars, per spectrum, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "LOW CONFIDENCE: one low-S/N LAMOST LRS spectrum (snr_r 8, snr_i 16) and the releases disagree in sign. Same obsid 160905005: DR7/DR11 z=-2.2813e-4 (=-68.4 km/s) vs DR4/DR5 z=+2.3027e-4 (=+69.0); Xiang 2019 (J/ApJS/245/34) RV=+69.03+/-4.50; Zhang 2021 (J/ApJS/253/19) +69.0+/-4.5; Ding 2022 (J/ApJS/260/45) +40.8. Companion LP 477-19 (Gaia DR3 3338886277169904128) has a Gaia DR3 RV of 6.46+/-13.89, not used here (different component)."
+  },
+  {
+   "key": "GJ 1042|333010327952701696",
+   "name": "GJ 1042",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DAZ white dwarf. Only uncorrected line velocity: Greenstein 1967 (1967ApJ...149..283G) 29 km/s, also echoed in PolarBase. No gravitational-redshift-corrected (kinematic) RV found; rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 1016394119290094848|1016394119290094848",
+   "name": "Gaia DR3 1016394119290094848",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12658|4161034758178900224",
+   "name": "GJ 12658",
+   "done": true,
+   "rv": {
+    "value": 13.888,
+    "err": 0.101,
+    "src": "pass23",
+    "where": "VizieR J/AJ/166/16/table2 (WIS1824-0536 = 2MASS J18242359-0536488), col RVel, epoch BJD-2457640=1864.6342 (TRES); the more precise of the paper's two epochs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "pass23": {
+     "citation": "Pass et al. 2023, AJ 166, 16 (Radial velocities of 123 active stars)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/166/16",
+     "what": "TRES/CHIRON absolute epoch RVs of mid-to-late M dwarfs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes",
+    "VizieR J/AJ/166/16 table2 by name WIS1824-0536; J/ApJ/905/107 (Medina 2020): no RV"
+   ],
+   "notes": "Pass et al. 2023 give two absolute epoch RVs and no combined value: 13.503+/-0.152 (BJD-2457640=1732.8512) and 13.888+/-0.101 (1864.6342); table1 logP(chi2 const)=-1.46, i.e. no significant variability. The more precise epoch is reported, not an average."
+  },
+  {
+   "key": "GJ 10891 B|2886405528302243584",
+   "name": "GJ 10891 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 1086|3218697767783768320",
+   "name": "GJ 1086",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DQ8P white dwarf. LAMOST LRS z=-9.533e-4 (Xiang 2019 RV=-285.8+/-2.8) is a pipeline line-fit on a carbon-band DQ, uncorrected for gravitational redshift; no kinematic RV. rv null per rule 4."
+  },
+  {
+   "key": "GJ 12957 B|2246676712272713088",
+   "name": "GJ 12957 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "No RV for B; Cifuentes 2025 lists A and B without RVs."
+  },
+  {
+   "key": "Gaia DR3 112402940567232896|112402940567232896",
+   "name": "Gaia DR3 112402940567232896",
+   "done": true,
+   "rv": {
+    "value": -27.34,
+    "err": 3.13,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, col RVel, Gaia=112402940567232896, obsid 107508245, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution RVs of M stars, per spectrum, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Other LAMOST LRS values for this star: Zhong 2019 (J/ApJS/244/8) -26; Xiang 2019 -17.01+/-2.08; Zhang 2021 -17.0+/-2.1; Ding 2022 -30.5; Guo 2015 (J/other/RAA/15.1182) -23.8+/-18; LAMOST DR1 -75.3+/-23.9."
+  },
+  {
+   "key": "GJ 11527|5454284595324061312",
+   "name": "GJ 11527",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11550|3803094829375222144",
+   "name": "GJ 11550",
+   "done": true,
+   "rv": {
+    "value": -8.31,
+    "err": null,
+    "src": "desi",
+    "where": "VizieR J/AJ/170/171/specdis, col RVel (DESI DR1 MWS VRAD), GaiaDR3=3803094829375222144",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi": {
+     "citation": "Li et al. 2025, AJ 170, 171 (SpecDis v2.1, DESI DR1 MWS); RV is DESI DR1 MWS VRAD",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/170/171",
+     "what": "DESI DR1 Milky Way Survey radial velocity (VRAD) as tabulated in SpecDis"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "DESI VRAD_ERR is not carried by SpecDis; err null. LAMOST MRS DR11 (V/162 dr11m) red-arm rv_r1=-337.2 (snr 2-3) is a failed fit, not used."
+  },
+  {
+   "key": "GJ 12083|1618330448634358400",
+   "name": "GJ 12083",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13061|6895572437565417856",
+   "name": "GJ 13061",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13129|6592315723192176896",
+   "name": "GJ 13129",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DZ7 white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "GJ 12272|4423007800173036544",
+   "name": "GJ 12272",
+   "done": true,
+   "rv": {
+    "value": -20.5,
+    "err": 2.71,
+    "src": "galah4",
+    "where": "VizieR J/other/PASA/42.51/allstar, col RVcomp1 (rv_comp_1), GaiaDR3=4423007800173036544",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "galah4": {
+     "citation": "Buder et al. 2025, PASA 42, e051 (GALAH DR4)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/other/PASA/42.51",
+     "what": "GALAH DR4 high-resolution survey RVs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Alternatives: Li 2025 (J/ApJS/281/58) -17.36+/-3.89; Wang 2022 (J/A+A/660/A38) -17.38 (the SIMBAD-rejected value); Xiang 2019 -4.88+/-1.87; Zhang 2021 -4.9+/-1.9; Ding 2022 -9.1; GALAH DR4 allspec -19.49+/-1.61 (single spectrum). Kirkpatrick 2024 lists it as NLTT 41186 AB (a binary), so RVs may be blended."
+  },
+  {
+   "key": "Gaia DR3 760307450179595648|760307450179595648",
+   "name": "Gaia DR3 760307450179595648",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11024|5559134436466111360",
+   "name": "GJ 11024",
+   "done": true,
+   "rv": {
+    "value": 34.51,
+    "err": 0.92,
+    "src": "galah4",
+    "where": "VizieR J/other/PASA/42.51/allstar, col RVcomp1 (rv_comp_1), GaiaDR3=5559134436466111360",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "galah4": {
+     "citation": "Buder et al. 2025, PASA 42, e051 (GALAH DR4)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/other/PASA/42.51",
+     "what": "GALAH DR4 high-resolution survey RVs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "GALAH DR4 allspec single-spectrum value 36.77+/-1.21; Kos 2025 detrended DR4 (J/A+A/703/A104) repeats 34.51."
+  },
+  {
+   "key": "GJ 1234|2052891361294411520",
+   "name": "GJ 1234",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DC7 white dwarf: no lines, no kinematic RV. LAMOST DR1 HRV=132 is a pipeline artefact."
+  },
+  {
+   "key": "GJ 13331 B|1935122258524180608",
+   "name": "GJ 13331 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "LAMOST MRS DR11 (2022-11-16) red-arm values -36.9/-393/+269/+281 with snr<6 are failed fits; not used. Nagarajan 2024 (J/PASP/136/I4203) RV2=-30.68 is the Gaia RV of the primary HD 218868, not B."
+  },
+  {
+   "key": "Gaia DR3 4554962286575172608|4554962286575172608",
+   "name": "Gaia DR3 4554962286575172608",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13439 B|2313836325604479616",
+   "name": "GJ 13439 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA5.7 white dwarf. No RV of any kind found for the WD. Tokovinin 2022 (J/ApJ/926/1) 'gamma'=161.7 is an angle, not a velocity. Companion LHS 4039 / L 577-72 (Gaia DR3 2313836325604479872) has a Gaia RV; not this component."
+  },
+  {
+   "key": "GJ 11729 B|3518918112077486720",
+   "name": "GJ 11729 B",
+   "done": true,
+   "rv": {
+    "value": -25.0,
+    "err": 6.0,
+    "src": "newton14",
+    "where": "VizieR J/AJ/147/20/table6, col RV, Name=LP 794-19 (matched 0.2\")",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "newton14": {
+     "citation": "Newton et al. 2014, AJ 147, 20",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/147/20",
+     "what": "IRTF/SpeX NIR RVs of MEarth M dwarfs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Confirms the SIMBAD-rejected value (quality D) from the paper it cites; single NIR measurement. LP 794-19 is the component itself (GJ 11729 B)."
+  },
+  {
+   "key": "Gaia DR3 4013436557729636736|4013436557729636736",
+   "name": "Gaia DR3 4013436557729636736",
+   "done": true,
+   "rv": {
+    "value": 4.44,
+    "err": 2.37,
+    "src": "mrs11",
+    "where": "VizieR V/162/dr11m, col RVbr1 (rv_br1, fRVbr=0), obsid 788908053, 2020-01-13, Target J121846.94+294442.7",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "mrs11": {
+     "citation": "LAMOST DR11 medium-resolution survey catalog (VizieR V/162, table dr11m)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST MRS (R~7500) per-exposure RVs; rv_br1 = blue+red, zero-point corrected"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Alternatives: same MRS exposure blue arm rv_b1=5.01+/-3.15 (red-arm rows are failed fits, +531/-556); PMSU (Hawley 1997 III/198; Reid 1995 via Newton 2016 J/ApJ/821/93) +14.0+/-5.0; Fouque 2018 (J/MNRAS/475/1960) -1.32 (SIMBAD-rejected, no error)."
+  },
+  {
+   "key": "Gaia DR3 1141988132779865984|1141988132779865984",
+   "name": "Gaia DR3 1141988132779865984",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12270|1369305397250137728",
+   "name": "GJ 12270",
+   "done": true,
+   "rv": {
+    "value": -10.76,
+    "err": null,
+    "src": "desi",
+    "where": "VizieR J/AJ/170/171/specdis, col RVel (DESI DR1 MWS VRAD), GaiaDR3=1369305397250137728",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi": {
+     "citation": "Li et al. 2025, AJ 170, 171 (SpecDis v2.1, DESI DR1 MWS); RV is DESI DR1 MWS VRAD",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/170/171",
+     "what": "DESI DR1 Milky Way Survey radial velocity (VRAD) as tabulated in SpecDis"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "DESI VRAD_ERR not carried by SpecDis; err null."
+  },
+  {
+   "key": "Gaia DR3 4168972957203048704|4168972957203048704",
+   "name": "Gaia DR3 4168972957203048704",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2679976510857026048|2679976510857026048",
+   "name": "Gaia DR3 2679976510857026048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA5.5 white dwarf. Only uncorrected line velocities: Greenstein 1967 113 km/s (SIMBAD-rejected); LAMOST LRS z=1.3267e-4 (Xiang 2022 J/A+A/662/A66 RV=39.80+/-0.56; Xiang 2019 39.95+/-3.17). No gravitational-redshift-corrected RV; rv null per rule 4. Note: Gaia photometry flagged as contaminated by a nearby MS star (J/MNRAS/527/8687)."
+  },
+  {
+   "key": "Gaia DR3 3967288096206889600|3967288096206889600",
+   "name": "Gaia DR3 3967288096206889600",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6404417771644764160|6404417771644764160",
+   "name": "Gaia DR3 6404417771644764160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DZ5 white dwarf. Only an uncorrected line velocity (SIMBAD -20.0, 1974MNRAS.166..271W). rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 5151243934982736256|5151243934982736256",
+   "name": "Gaia DR3 5151243934982736256",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4330068109502566272|4330068109502566272",
+   "name": "Gaia DR3 4330068109502566272",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 1040219677270120448|1040219677270120448",
+   "name": "Gaia DR3 1040219677270120448",
+   "done": true,
+   "rv": {
+    "value": -15.94,
+    "err": 2.43,
+    "src": "mrs11",
+    "where": "VizieR V/162/dr11m, col RVbr1 (rv_br1, fRVbr=0), obsid 1105315073, 2023-03-04, GaiaDR3=1040219677270120448",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "mrs11": {
+     "citation": "LAMOST DR11 medium-resolution survey catalog (VizieR V/162, table dr11m)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST MRS (R~7500) per-exposure RVs; rv_br1 = blue+red, zero-point corrected"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Same exposure: blue arm rv_b1=-12.88+/-2.48; red arm rv_r1=-253.0 is a failed fit. Single epoch."
+  },
+  {
+   "key": "GJ 11507|3774703583720247552",
+   "name": "GJ 11507",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11062|5590736084278574464",
+   "name": "GJ 11062",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4078189271399246208|4078189271399246208",
+   "name": "Gaia DR3 4078189271399246208",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2986540491784276992|2986540491784276992",
+   "name": "Gaia DR3 2986540491784276992",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 841 B|6558209044297239424",
+   "name": "GJ 841 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DQ white dwarf. J/ApJS/246/4 and J/ApJS/253/58 RV2=-9.5+/-3.1 is the Gaia DR2 RV of the companion GJ 841 A (Gaia 6558208838138808576), not this WD."
+  },
+  {
+   "key": "GJ 10287|5149836834977282048",
+   "name": "GJ 10287",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DC white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "GJ 11254|5302788969815543936",
+   "name": "GJ 11254",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object",
+    "Web search 'SCR J0838-5855 radial velocity': nothing"
+   ],
+   "notes": "Binary SCR J0838-5855 AB (Kirkpatrick 2024). Web search found no RV."
+  },
+  {
+   "key": "GJ 13131|2667464656943675392",
+   "name": "GJ 13131",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 5980046522937736576|5980046522937736576",
+   "name": "Gaia DR3 5980046522937736576",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 3021 B|4634528720387797120",
+   "name": "GJ 3021 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object",
+    "Web search 'HD 1237 B radial velocity': only primary RVs"
+   ],
+   "notes": "Only the primary HD 1237 A has RVs (e.g. Gaia DR2 -6.05+/-0.14; Nidever/Naef ~-5.8 to -6.1); none measured for the M4 companion B."
+  },
+  {
+   "key": "GJ 11021 B|5287046368477870848",
+   "name": "GJ 11021 B",
+   "done": true,
+   "rv": {
+    "value": 21.9,
+    "err": 0.3,
+    "src": "hsu24",
+    "where": "VizieR J/ApJS/274/40/tablea2, col RVavg (+0.3/-0.3), 2MASS J06595620-6145001, single APOGEE visit (JD 2458504.706)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "hsu24": {
+     "citation": "Hsu et al. 2024, ApJS 274, 40 (BDKP VI, APOGEE forward-model RVs)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/274/40",
+     "what": "APOGEE DR17 spectra re-fit for late-M/L dwarf RVs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "APOGEE DR17 (III/286/catalog) VHELIO_AVG=22.21+/-0.363, 1 visit, GaiaEDR3=5287046368477870848 (matches). The 2MASS/Gaia source is the B component itself."
+  },
+  {
+   "key": "Gaia DR3 1813318326037628160|1813318326037628160",
+   "name": "Gaia DR3 1813318326037628160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11840|6158704208764041472",
+   "name": "GJ 11840",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DQ white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 1600624914108541824|1600624914108541824",
+   "name": "Gaia DR3 1600624914108541824",
+   "done": true,
+   "rv": {
+    "value": 0.73,
+    "err": 1.83,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, col RVel, Gaia=1600624914108541824, obsid 997914010 (2022-03-26), n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution RVs of M stars, per spectrum, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Alternatives: Li 2025 obsid 153614024 (2013) -8.19+/-4.36; LAMOST MRS DR11 rv_br1 -1.72+/-2.56 (2020-04-30); Su 2025 (J/ApJS/276/44) per-exposure MRS values mostly -4 to -20 with outliers; Wang 2022 -8.2; Ding 2022 +4.1; Guo 2019 +4.05 (SIMBAD-rejected)."
+  },
+  {
+   "key": "Gaia DR3 4965627680518079872|4965627680518079872",
+   "name": "Gaia DR3 4965627680518079872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 3144|332820971434386432",
+   "name": "GJ 3144",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA5.4 white dwarf. LAMOST LRS line velocities only (z from -3.6e-4 to +8.4e-5 across five spectra; Xiang 2019 -10.58+/-1.40), uncorrected for gravitational redshift. rv null per rule 4."
+  },
+  {
+   "key": "GJ 11327 B|5743705398968422400",
+   "name": "GJ 11327 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12427 B|5935904773205046912",
+   "name": "GJ 12427 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 4281|2601148128510120576",
+   "name": "GJ 4281",
+   "done": true,
+   "rv": {
+    "value": -7.1,
+    "err": null,
+    "src": "newton18",
+    "where": "VizieR J/AJ/156/217/table1, col RV with r_RV=2003ApJ...583..451M, 2MASS 22285440-1325178 (matched 0.3\")",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "newton18": {
+     "citation": "Newton et al. 2018, AJ 156, 217 (compiling Mohanty & Basri 2003, ApJ 583, 451)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/156/217",
+     "what": "MEarth-South M dwarf properties; RV column with original reference r_RV"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes",
+    "Web search 'LHS 523 radial velocity': no other RV; arXiv astro-ph/0201455 opened"
+   ],
+   "notes": "Original measurement is Mohanty & Basri 2003 (Keck HIRES); the PDF (arXiv astro-ph/0201455) was opened but its tables did not extract as text, so the number is taken from Newton 2018's VizieR table. No uncertainty given. APOGEE DR17 has a visit with no RV (SNR~1)."
+  },
+  {
+   "key": "GJ 432 B|3478127467639543296",
+   "name": "GJ 432 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DC white dwarf (20 Crt B). White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity. Raddi 2022 (J/A+A/658/A22) lists RVs only for the non-degenerate companion."
+  },
+  {
+   "key": "GJ 12041|5867776696271127424",
+   "name": "GJ 12041",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "GJ 3181|33732162042339072",
+   "name": "GJ 3181",
+   "done": true,
+   "rv": {
+    "value": -14.6,
+    "err": 5.0,
+    "src": "newton16",
+    "where": "VizieR J/ApJ/821/93/table1, col RVel/e_RVel, r_RVel=1995AJ....110.1838R, LSPM J0246+1625 (matched 0.2\")",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "newton16": {
+     "citation": "Newton et al. 2016, ApJ 821, 93 (compiling Reid, Hawley & Gizis 1995, AJ 110, 1838 = PMSU)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/821/93",
+     "what": "RV with uncertainty and original reference (r_RVel)"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Original is the Palomar/MSU survey (Reid, Hawley & Gizis 1995); same -14.6 in III/198 (LHS 1443). Single epoch."
+  },
+  {
+   "key": "Gaia DR3 1884895296055200384|1884895296055200384",
+   "name": "Gaia DR3 1884895296055200384",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6658005048964693760|6658005048964693760",
+   "name": "Gaia DR3 6658005048964693760",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DZ white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 5904539176758764800|5904539176758764800",
+   "name": "Gaia DR3 5904539176758764800",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4111251689120620160|4111251689120620160",
+   "name": "Gaia DR3 4111251689120620160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13395|2229106207224369024",
+   "name": "GJ 13395",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5480556532316697216|5480556532316697216",
+   "name": "Gaia DR3 5480556532316697216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 5555968564532038016|5555968564532038016",
+   "name": "Gaia DR3 5555968564532038016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12952|6468337884421010048",
+   "name": "GJ 12952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object",
+    "Web search 'LEHPM 2-783 radial velocity': nothing"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 1133|1052520154368111872",
+   "name": "GJ 1133",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 4470233817461336704|4470233817461336704",
+   "name": "Gaia DR3 4470233817461336704",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "GJ 12910|2250947352873635712",
+   "name": "GJ 12910",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10746 B|4651329704762754944",
+   "name": "GJ 10746 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Schneider 2019 (J/AJ/157/234) RV=-21.45+/-0.84 at 2.3\" belongs to the M2 primary L 57-44 A, not this faint component (SIMBAD type WD?)."
+  },
+  {
+   "key": "GJ 13173 B|2617043665033973376",
+   "name": "GJ 13173 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 1326398777041821568|1326398777041821568",
+   "name": "Gaia DR3 1326398777041821568",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 1641386833807056640|1641386833807056640",
+   "name": "Gaia DR3 1641386833807056640",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA5.1 white dwarf. Only uncorrected line velocity: Brown 2008 (J/AJ/135/564) 28+/-32 (SIMBAD-rejected). rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 3024663171259457664|3024663171259457664",
+   "name": "Gaia DR3 3024663171259457664",
+   "done": true,
+   "rv": {
+    "value": 4.46,
+    "err": 2.11,
+    "src": "mrs11",
+    "where": "VizieR V/162/dr11m, col RVbr1 (rv_br1, fRVbr=0), obsid 1078105122, 2023-01-03, Target J055850.22-030831.5 (0.0\")",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "mrs11": {
+     "citation": "LAMOST DR11 medium-resolution survey catalog (VizieR V/162, table dr11m)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST MRS (R~7500) per-exposure RVs; rv_br1 = blue+red, zero-point corrected"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Alternatives: Li 2025 (J/ApJS/281/58) +20.61+/-2.06 from LRS obsid 126714185 (2013, snr_i 4); Zhong 2015 +27.4; Guo 2015 -17.5+/-18; LAMOST DR1 +97.8. MRS rows for J055850.24-030834.8 (3.2\" away) are a different target. Values disagree; MRS (higher resolution, most recent) chosen."
+  },
+  {
+   "key": "GJ 10210|513177059201155200",
+   "name": "GJ 10210",
+   "done": true,
+   "rv": {
+    "value": -20.23,
+    "err": 2.39,
+    "src": "mrs11",
+    "where": "VizieR V/162/dr11m, col RVbr1 (rv_br1, fRVbr=0), obsid 1075911170, 2022-12-31, Target J013413.60+645939.6",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "mrs11": {
+     "citation": "LAMOST DR11 medium-resolution survey catalog (VizieR V/162, table dr11m)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST MRS (R~7500) per-exposure RVs; rv_br1 = blue+red, zero-point corrected"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "SIMBAD-rejected 0+/-30 (Lepine 2003, J/AJ/125/1598) is a placeholder. Same MRS exposure: rv_b1=-18.25+/-2.8, rv_r1=-11.36+/-4.22."
+  },
+  {
+   "key": "Gaia DR3 4361621688038664064|4361621688038664064",
+   "name": "Gaia DR3 4361621688038664064",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 2527009743077668096|2527009743077668096",
+   "name": "Gaia DR3 2527009743077668096",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10886|996438498642633472",
+   "name": "GJ 10886",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2092134443120038528|2092134443120038528",
+   "name": "Gaia DR3 2092134443120038528",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "GJ 12592|1364505238720496256",
+   "name": "GJ 12592",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11047|5565156633450986752",
+   "name": "GJ 11047",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10556 C|495091536024630656",
+   "name": "GJ 10556 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Tokovinin 2022 (J/ApJ/926/1) 'gamma'=327.2 is an angle, not a velocity."
+  },
+  {
+   "key": "Gaia DR3 2120357772727063680|2120357772727063680",
+   "name": "Gaia DR3 2120357772727063680",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6631915390382416256|6631915390382416256",
+   "name": "Gaia DR3 6631915390382416256",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DC white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  },
+  {
+   "key": "Gaia DR3 5694935117623698176|5694935117623698176",
+   "name": "Gaia DR3 5694935117623698176",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12841|4213581106021661184",
+   "name": "GJ 12841",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6098960011086246784|6098960011086246784",
+   "name": "Gaia DR3 6098960011086246784",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10526|64989250397297280",
+   "name": "GJ 10526",
+   "done": true,
+   "rv": {
+    "value": 3.3,
+    "err": 1.68,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, col RVel, Gaia=64989250397297280, obsid 758703010, n_RVel=1 (most precise of 15 recommended spectra)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution RVs of M stars, per spectrum, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "LOW CONFIDENCE / systematics: Li 2025 gives 15 recommended per-spectrum LRS values from -6.50 to +5.19 (no combined value); Zhang 2025 (J/ApJS/277/47) measures 12 of the same spectra at +11.8 to +14.9 (+/-5-10); Xiang 2019 +12.8/+29.4; Guo 2019 +14.82 (SIMBAD-rejected); Zhong 2015 +8.8. APOGEE DR17 HRV=-965.5 and LAMOST MRS rows are failed fits. Despite the Pleiades-style SIMBAD name (Melotte 22 LLP 139) this is a foreground dwarf."
+  },
+  {
+   "key": "GJ 12198|1388684770725399296",
+   "name": "GJ 12198",
+   "done": true,
+   "rv": {
+    "value": -6.9,
+    "err": null,
+    "src": "west15",
+    "where": "VizieR J/ApJ/812/3/table1, col RVel, LSPM J1516+3910 (matched 0.3\")",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "west15": {
+     "citation": "West et al. 2015, ApJ 812, 3",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/812/3",
+     "what": "FAST spectroscopy RVs of MEarth M dwarfs (cross-correlation; text quotes ~5 km/s typical uncertainty)"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes",
+    "arXiv 1509.01590 (West 2015) opened for RV method"
+   ],
+   "notes": "West 2015 gives no per-star error (paper quotes ~5 km/s typical). Alternative: Newton 2014 (J/AJ/147/20) -17+/-10 (the SIMBAD-rejected value; also in Newton 2016)."
+  },
+  {
+   "key": "Gaia DR3 3936227889154718464|3936227889154718464",
+   "name": "Gaia DR3 3936227889154718464",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11090|1088832380575983616",
+   "name": "GJ 11090",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10226|4716158215980519552",
+   "name": "GJ 10226",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12482|4114726279009806976",
+   "name": "GJ 12482",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12095|6300158578700499712",
+   "name": "GJ 12095",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2162150999985661824|2162150999985661824",
+   "name": "Gaia DR3 2162150999985661824",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2732421914127191040|2732421914127191040",
+   "name": "Gaia DR3 2732421914127191040",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5427286121669685632|5427286121669685632",
+   "name": "Gaia DR3 5427286121669685632",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 3549 B|694744465169442816",
+   "name": "GJ 3549 B",
+   "done": true,
+   "rv": {
+    "value": 37.91,
+    "err": 2.98,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, col RVel, Gaia=694744465169442816, obsid 545016165 (snr_r 36.6), n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution RVs of M stars, per spectrum, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: value found, see rv/notes"
+   ],
+   "notes": "Other Li 2025 spectra: 36.50+/-3.04, 31.78+/-3.33, and 33.68+/-1.58 (n_RVel=0, not recommended). Also PMSU via Newton 2016 47.8+/-5.0; Wang 2022 36.53 (SIMBAD-rejected); Xiang 2019 30.44+/-9.95; Zhang 2021 -11.4+/-2.8. LP 313-38 is the B component itself."
+  },
+  {
+   "key": "Gaia DR3 5280312718754375040|5280312718754375040",
+   "name": "Gaia DR3 5280312718754375040",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "APOGEE DR17 has a visit (SNR 1.7) with no RV."
+  },
+  {
+   "key": "GJ 10197|4983839647522981504",
+   "name": "GJ 10197",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search, every catalog with a phys.veloc* or spect.dopplerVeloc* column (covers APOGEE DR17 III/286, LAMOST LRS/MRS DR1-DR11, RAVE, GALAH DR3/DR4, Gaia DR2/DR3 RV, CARMENES, Newton 2014/2016/2018, PMSU, Fouque 2018, Hsu 2024, Li 2025 LAMOST M stars, DESI DR1 SpecDis, Pauli 2006/Napiwotzki 2020 SPY WDs, etc.) at the J2000-propagated position (r=10\") and the J2016 position (r=4\"), matched by Gaia id where present: no usable RV for this object"
+   ],
+   "notes": "DA white dwarf. White dwarf; no gravitational-redshift-corrected (kinematic) RV found, nor any line velocity."
+  }
+ ]
+}

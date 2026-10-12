@@ -1,0 +1,2126 @@
+{
+ "LHS 3154": {
+  "row": 8,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    2861,
+    "NASA Exoplanet Archive pscomppars st_teff (Stef&aacute;nsson et al. 2023)",
+    false
+   ],
+   "G": [
+    0.112,
+    "NASA Exoplanet Archive pscomppars st_mass (Stef&aacute;nsson et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 1002": {
+  "row": 11,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3024,
+    "NASA Exoplanet Archive pscomppars st_teff (Su&aacute;rez Mascare&ntilde;o et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "G 261-6": {
+  "row": 12,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    2907,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ],
+   "G": [
+    0.118,
+    "NASA Exoplanet Archive pscomppars st_mass (Kaminski et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-1256": {
+  "row": 16,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.128,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "G 192-15": {
+  "row": 19,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    2999,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ],
+   "G": [
+    0.132,
+    "NASA Exoplanet Archive pscomppars st_mass (Kaminski et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-4506": {
+  "row": 21,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.154,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 9066": {
+  "row": 22,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3154,
+    "NASA Exoplanet Archive pscomppars st_teff (Quirrenbach et al. 2022)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 806": {
+  "row": 23,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3600,
+    "NASA Exoplanet Archive pscomppars st_teff (Palle et al. 2023)",
+    false
+   ],
+   "G": [
+    0.413,
+    "NASA Exoplanet Archive pscomppars st_mass (Palle et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "CD Cet": {
+  "row": 26,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3130,
+    "NASA Exoplanet Archive pscomppars st_teff (Bauer et al. 2020)",
+    false
+   ],
+   "G": [
+    0.161,
+    "NASA Exoplanet Archive pscomppars st_mass (Bauer et al. 2020)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Gaia DR3 4188996885011268608": {
+  "row": 27,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.174,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 1151": {
+  "row": 30,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3280,
+    "NASA Exoplanet Archive pscomppars st_teff (Blanco-Pozo et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Barnard's star": {
+  "row": 31,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3195,
+    "NASA Exoplanet Archive pscomppars st_teff (Gonz&aacute;lez Hern&aacute;ndez et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 4274": {
+  "row": 32,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3228,
+    "NASA Exoplanet Archive pscomppars st_teff (Charpentier et al. 2026)",
+    false
+   ],
+   "G": [
+    0.18,
+    "NASA Exoplanet Archive pscomppars st_mass (Charpentier et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-1080": {
+  "row": 40,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3065,
+    "NASA Exoplanet Archive pscomppars st_teff (G&oacute;mez Maqueo Chew et al. 2026)",
+    false
+   ],
+   "G": [
+    0.167,
+    "NASA Exoplanet Archive pscomppars st_mass (G&oacute;mez Maqueo Chew et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 3988": {
+  "row": 41,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3273,
+    "NASA Exoplanet Archive pscomppars st_teff (Gorrini et al. 2023)",
+    false
+   ],
+   "G": [
+    0.184,
+    "NASA Exoplanet Archive pscomppars st_mass (Gorrini et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-6008": {
+  "row": 46,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3075,
+    "NASA Exoplanet Archive pscomppars st_teff (Barkaoui et al. 2024)",
+    false
+   ],
+   "G": [
+    0.23,
+    "NASA Exoplanet Archive pscomppars st_mass (Barkaoui et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-6716": {
+  "row": 48,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3110,
+    "NASA Exoplanet Archive pscomppars st_teff (Scott et al. 2026)",
+    false
+   ],
+   "G": [
+    0.223,
+    "NASA Exoplanet Archive pscomppars st_mass (Scott et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "UPM J2155-2803": {
+  "row": 49,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "LSPM J2028+0524": {
+  "row": 50,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "GJ 1289": {
+  "row": 51,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3296,
+    "NASA Exoplanet Archive pscomppars st_teff (Moutou et al. 2024)",
+    false
+   ],
+   "G": [
+    0.21,
+    "NASA Exoplanet Archive pscomppars st_mass (Moutou et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "CM Dra": {
+  "row": 53,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3214,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "LHS 6184": {
+  "row": 55,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "TOI-771": {
+  "row": 57,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3370,
+    "NASA Exoplanet Archive pscomppars st_teff (Lacedelli et al. 2025)",
+    false
+   ],
+   "G": [
+    0.22,
+    "NASA Exoplanet Archive pscomppars st_mass (Lacedelli et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "UPM J0805-3522": {
+  "row": 59,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "Gliese 12": {
+  "row": 65,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3328,
+    "NASA Exoplanet Archive pscomppars st_teff (Turner et al. 2026)",
+    false
+   ],
+   "G": [
+    0.255,
+    "NASA Exoplanet Archive pscomppars st_mass (Turner et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "SCR J1124-3900": {
+  "row": 66,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "UPM J1831+6524": {
+  "row": 70,
+  "missing": [
+   "H"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "H"
+  ]
+ },
+ "TOI-4552": {
+  "row": 75,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3258,
+    "NASA Exoplanet Archive pscomppars st_teff (Srivastava et al. 2026)",
+    false
+   ],
+   "G": [
+    0.262,
+    "NASA Exoplanet Archive pscomppars st_mass (Srivastava et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 3378": {
+  "row": 77,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3340,
+    "NASA Exoplanet Archive pscomppars st_teff (Robertson et al. 2026)",
+    false
+   ],
+   "G": [
+    0.262,
+    "NASA Exoplanet Archive pscomppars st_mass (Robertson et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-6324": {
+  "row": 84,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3247,
+    "NASA Exoplanet Archive pscomppars st_teff (Lee et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-4336 A": {
+  "row": 88,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3307,
+    "NASA Exoplanet Archive pscomppars st_teff (Parc et al. 2026)",
+    false
+   ],
+   "G": [
+    0.306,
+    "NASA Exoplanet Archive pscomppars st_mass (Parc et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-5388": {
+  "row": 94,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3440,
+    "NASA Exoplanet Archive pscomppars st_teff (Poultourtzidis et al. 2026)",
+    false
+   ],
+   "G": [
+    0.292,
+    "NASA Exoplanet Archive pscomppars st_mass (Poultourtzidis et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-5799": {
+  "row": 105,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3452,
+    "NASA Exoplanet Archive pscomppars st_teff (Yal&ccedil;inkaya et al. 2025)",
+    false
+   ],
+   "G": [
+    0.325,
+    "NASA Exoplanet Archive pscomppars st_mass (Yal&ccedil;inkaya et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-6255": {
+  "row": 107,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3421,
+    "NASA Exoplanet Archive pscomppars st_teff (Dai et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 422": {
+  "row": 110,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3323,
+    "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 896 A": {
+  "row": 114,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3345,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 9773": {
+  "row": 117,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3528,
+    "NASA Exoplanet Archive pscomppars st_teff (Morales et al. 2025)",
+    false
+   ],
+   "G": [
+    0.358,
+    "NASA Exoplanet Archive pscomppars st_mass (Morales et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 667 A": {
+  "row": 118,
+  "missing": [
+   "K"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K"
+  ]
+ },
+ "TOI-4438": {
+  "row": 121,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3501,
+    "NASA Exoplanet Archive pscomppars st_teff (Serrano Bell et al. 2026)",
+    false
+   ],
+   "G": [
+    0.345,
+    "NASA Exoplanet Archive pscomppars st_mass (Serrano Bell et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 238": {
+  "row": 132,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3485,
+    "NASA Exoplanet Archive pscomppars st_teff (Tey et al. 2024)",
+    false
+   ],
+   "G": [
+    0.419,
+    "NASA Exoplanet Archive pscomppars st_mass (Tey et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 180": {
+  "row": 133,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3371,
+    "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Wolf 327": {
+  "row": 135,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3542,
+    "NASA Exoplanet Archive pscomppars st_teff (Murgas et al. 2024)",
+    false
+   ],
+   "G": [
+    0.405,
+    "NASA Exoplanet Archive pscomppars st_mass (Murgas et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-912": {
+  "row": 138,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3572,
+    "NASA Exoplanet Archive pscomppars st_teff (Lacedelli et al. 2026)",
+    false
+   ],
+   "G": [
+    0.418,
+    "NASA Exoplanet Archive pscomppars st_mass (Lacedelli et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-1450 A": {
+  "row": 143,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3437,
+    "NASA Exoplanet Archive pscomppars st_teff (Brady et al. 2024)",
+    false
+   ],
+   "G": [
+    0.48,
+    "NASA Exoplanet Archive pscomppars st_mass (Brady et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 480": {
+  "row": 148,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3509,
+    "NASA Exoplanet Archive pscomppars st_teff (Ould-Elhkim et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 367": {
+  "row": 150,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3522,
+    "NASA Exoplanet Archive pscomppars st_teff (Goffo et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 3082": {
+  "row": 158,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3910,
+    "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 433": {
+  "row": 161,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3461,
+    "NASA Exoplanet Archive pscomppars st_teff (Stassun et al. 2017)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-4529": {
+  "row": 166,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3697,
+    "NASA Exoplanet Archive pscomppars st_teff (Poultourtzidis et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-4527": {
+  "row": 168,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3702,
+    "NASA Exoplanet Archive pscomppars st_teff (Hord et al. 2024)",
+    false
+   ],
+   "G": [
+    0.484,
+    "NASA Exoplanet Archive pscomppars st_mass (Hord et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "G 196-3": {
+  "row": 177,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3517,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 508.2": {
+  "row": 184,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3720,
+    "NASA Exoplanet Archive pscomppars st_teff (Morales et al. 2025)",
+    false
+   ],
+   "G": [
+    0.54,
+    "NASA Exoplanet Archive pscomppars st_mass (Morales et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 341": {
+  "row": 186,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3770,
+    "NASA Exoplanet Archive pscomppars st_teff (DiTomasso et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 2049": {
+  "row": 189,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.624,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 724": {
+  "row": 190,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3799,
+    "NASA Exoplanet Archive pscomppars st_teff (Gorrini et al. 2023)",
+    false
+   ],
+   "G": [
+    0.527,
+    "NASA Exoplanet Archive pscomppars st_mass (Gorrini et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Gl 410": {
+  "row": 194,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3842,
+    "NASA Exoplanet Archive pscomppars st_teff (Carmona et al. 2025)",
+    false
+   ],
+   "G": [
+    0.55,
+    "NASA Exoplanet Archive pscomppars st_mass (Carmona et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "CD-35 2722": {
+  "row": 195,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3729,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-1801": {
+  "row": 196,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3863,
+    "NASA Exoplanet Archive pscomppars st_teff (Mallorqu&iacute;n et al. 2023)",
+    false
+   ],
+   "G": [
+    0.556,
+    "NASA Exoplanet Archive pscomppars st_mass (Mallorqu&iacute;n et al. 2023)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 740": {
+  "row": 201,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    3913,
+    "NASA Exoplanet Archive pscomppars st_teff (Toledo-Padr&oacute;n et al. 2021)",
+    false
+   ],
+   "G": [
+    0.58,
+    "NASA Exoplanet Archive pscomppars st_mass (Toledo-Padr&oacute;n et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 107772": {
+  "row": 202,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4006,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 338 A": {
+  "row": 207,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "G": [
+    0.573,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.024 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": [
+   "K"
+  ]
+ },
+ "GJ 1177 A": {
+  "row": 210,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4108,
+    "TIC v8.2 Teff (Stassun et al. 2019; source dered0), +/- 121.5 K",
+    false
+   ],
+   "G": [
+    0.64,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.076 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 34222": {
+  "row": 211,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4050,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-260": {
+  "row": 213,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4026,
+    "NASA Exoplanet Archive pscomppars st_teff (Hobson et al. 2024)",
+    false
+   ],
+   "G": [
+    0.616,
+    "NASA Exoplanet Archive pscomppars st_mass (Hobson et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 38594": {
+  "row": 214,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4086,
+    "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 4845": {
+  "row": 216,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4010,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 397": {
+  "row": 220,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.67,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.082 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "KOBE-1": {
+  "row": 226,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4135,
+    "NASA Exoplanet Archive pscomppars st_teff (Balsalobre-Ruza et al. 2025)",
+    false
+   ],
+   "G": [
+    0.629,
+    "NASA Exoplanet Archive pscomppars st_mass (Balsalobre-Ruza et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 900 A": {
+  "row": 230,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "G": [
+    0.675,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": [
+   "K"
+  ]
+ },
+ "GJ 2056": {
+  "row": 232,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4070,
+    "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 69": {
+  "row": 237,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.68,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.084 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 529": {
+  "row": 241,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.69,
+    "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.081 M-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 48948": {
+  "row": 242,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4593,
+    "NASA Exoplanet Archive pscomppars st_teff (Dalal et al. 2024)",
+    false
+   ],
+   "G": [
+    0.686,
+    "NASA Exoplanet Archive pscomppars st_mass (Dalal et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 56998": {
+  "row": 244,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4675,
+    "NASA Exoplanet Archive pscomppars st_teff (Kunimoto et al. 2025)",
+    false
+   ],
+   "G": [
+    0.653,
+    "NASA Exoplanet Archive pscomppars st_mass (Kunimoto et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 86221": {
+  "row": 245,
+  "missing": [
+   "K"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K"
+  ]
+ },
+ "TOI-2134": {
+  "row": 249,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4580,
+    "NASA Exoplanet Archive pscomppars st_teff (Rescigno et al. 2026)",
+    false
+   ],
+   "G": [
+    0.744,
+    "NASA Exoplanet Archive pscomppars st_mass (Rescigno et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 222237": {
+  "row": 256,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4751,
+    "NASA Exoplanet Archive pscomppars st_teff (Xiao et al. 2024)",
+    false
+   ],
+   "G": [
+    0.76,
+    "NASA Exoplanet Archive pscomppars st_mass (Xiao et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 153557": {
+  "row": 264,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    4837,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ],
+   "G": [
+    0.79,
+    "NASA Exoplanet Archive pscomppars st_mass (Feng et al. 2022)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 13808": {
+  "row": 287,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.771,
+    "NASA Exoplanet Archive pscomppars st_mass (Ahrer et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 3765": {
+  "row": 294,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5050,
+    "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    false
+   ],
+   "G": [
+    0.852,
+    "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 39194": {
+  "row": 295,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.86,
+    "NASA Exoplanet Archive pscomppars st_mass (Standing et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "TOI-5789": {
+  "row": 301,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5185,
+    "NASA Exoplanet Archive pscomppars st_teff (Bonomo et al. 2026)",
+    false
+   ],
+   "G": [
+    0.821,
+    "NASA Exoplanet Archive pscomppars st_mass (Bonomo et al. 2026)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 3021": {
+  "row": 313,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.9,
+    "NASA Exoplanet Archive pscomppars st_mass (Naef et al. 2001)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 154088": {
+  "row": 316,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.91,
+    "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 177565": {
+  "row": 329,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5627,
+    "NASA Exoplanet Archive pscomppars st_teff (Sousa et al. 2008)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 136352": {
+  "row": 336,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.87,
+    "NASA Exoplanet Archive pscomppars st_mass (Delrez et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 134606": {
+  "row": 345,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    1.046,
+    "NASA Exoplanet Archive pscomppars st_mass (Li et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 86728": {
+  "row": 352,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5610,
+    "NASA Exoplanet Archive pscomppars st_teff (Gupta et al. 2025)",
+    false
+   ],
+   "G": [
+    0.967,
+    "NASA Exoplanet Archive pscomppars st_mass (Gupta et al. 2025)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 168009": {
+  "row": 354,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5778,
+    "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    false
+   ],
+   "G": [
+    0.986,
+    "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 96700": {
+  "row": 357,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.89,
+    "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 158259": {
+  "row": 360,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5802,
+    "NASA Exoplanet Archive pscomppars st_teff (ExoFOP)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 134060": {
+  "row": 362,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    1.095,
+    "NASA Exoplanet Archive pscomppars st_mass (Udry et al. 2019)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 141004": {
+  "row": 367,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {
+   "K": [
+    5885,
+    "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    false
+   ],
+   "G": [
+    1.052,
+    "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HD 189567": {
+  "row": 371,
+  "missing": [
+   "G"
+  ],
+  "pick": {
+   "G": [
+    0.83,
+    "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "psi1 Dra A": {
+  "row": 374,
+  "missing": [
+   "G",
+   "K"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "G",
+   "K"
+  ]
+ },
+ "51 Eri": {
+  "row": 390,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    7422,
+    "NASA Exoplanet Archive pscomppars st_teff (Elliott et al. 2024)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "bet Pic": {
+  "row": 393,
+  "missing": [
+   "K"
+  ],
+  "pick": {
+   "K": [
+    8039,
+    "NASA Exoplanet Archive pscomppars st_teff (Wang et al. 2016)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "DE CVn": {
+  "row": 402,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3579,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ],
+   "N": [
+    0.02667,
+    "10^st_lum, NASA Exoplanet Archive pscomppars (TICv8); st_lum = -1.57398 (log10 L-sun)",
+    true
+   ]
+  },
+  "kind": "WD",
+  "unfilled": []
+ },
+ "Gaia DR3 4698424845771339520": {
+  "row": 403,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "WD 0806-661": {
+  "row": 404,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "HD 155555": {
+  "row": 405,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    5129,
+    "TIC v8.2 Teff (Stassun et al. 2019; source spect), +/- 121.8 K",
+    false
+   ],
+   "N": [
+    1.958,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.04692 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 680": {
+  "row": 406,
+  "missing": [
+   "G",
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3563,
+    "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    false
+   ],
+   "G": [
+    0.456,
+    "NASA Exoplanet Archive pscomppars st_mass (Feng et al. 2022)",
+    false
+   ],
+   "N": [
+    0.03063,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00726 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 55507": {
+  "row": 407,
+  "missing": [
+   "N"
+  ],
+  "pick": {
+   "N": [
+    0.1428,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00978 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 620": {
+  "row": 408,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3791,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ],
+   "N": [
+    0.05784,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01306 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 548 A": {
+  "row": 409,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3838,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ],
+   "N": [
+    0.07728,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01725 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "HIP 48714": {
+  "row": 410,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    4016,
+    "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    false
+   ],
+   "N": [
+    0.07492,
+    "Gaia DR3 FLAME lum_flame (bolometric)",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 911": {
+  "row": 411,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3860,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ],
+   "N": [
+    0.06343,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01429 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 229": {
+  "row": 412,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    3564,
+    "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    false
+   ],
+   "N": [
+    0.028,
+    "10^st_lum, NASA Exoplanet Archive pscomppars (Tuomi et al. 2014); st_lum = -1.55284 (log10 L-sun)",
+    true
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 96": {
+  "row": 413,
+  "missing": [
+   "N"
+  ],
+  "pick": {
+   "N": [
+    0.06214,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01411 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Kapteyn": {
+  "row": 414,
+  "missing": [
+   "N"
+  ],
+  "pick": {
+   "N": [
+    0.01611,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00369 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GJ 682": {
+  "row": 415,
+  "missing": [
+   "N"
+  ],
+  "pick": {
+   "N": [
+    0.0088,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00225 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "VHS J125601.92-125723.9": {
+  "row": 416,
+  "missing": [
+   "G",
+   "N"
+  ],
+  "pick": {
+   "G": [
+    0.07,
+    "NASA Exoplanet Archive pscomppars st_mass (Gauza et al. 2015)",
+    false
+   ],
+   "N": [
+    0.0007244,
+    "10^st_lum, NASA Exoplanet Archive pscomppars (Gauza et al. 2015); st_lum = -3.14000 (log10 L-sun)",
+    true
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "GD 140": {
+  "row": 417,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "K",
+   "N"
+  ]
+ },
+ "GJ 237": {
+  "row": 418,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K",
+   "N"
+  ]
+ },
+ "GJ 4248": {
+  "row": 419,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K",
+   "N"
+  ]
+ },
+ "GJ 65": {
+  "row": 420,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K",
+   "N"
+  ]
+ },
+ "Gaia DR3 198464052134353536": {
+  "row": 421,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    2923,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ],
+   "N": [
+    0.00277,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 7.7E-4 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "Gaia DR3 5796338299045711232": {
+  "row": 422,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {
+   "K": [
+    2869,
+    "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    false
+   ],
+   "N": [
+    0.00227,
+    "TIC v8.2 Lum (Stassun et al. 2019), +/- 6.4E-4 L-sun",
+    false
+   ]
+  },
+  "kind": "",
+  "unfilled": []
+ },
+ "LAWD 37": {
+  "row": 423,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "Van Maanen 2": {
+  "row": 424,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "WD 0644+025": {
+  "row": 425,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "WD 2105-820": {
+  "row": 426,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "WD 2149+021": {
+  "row": 427,
+  "missing": [
+   "N"
+  ],
+  "pick": {},
+  "kind": "WD",
+  "unfilled": [
+   "N"
+  ]
+ },
+ "TVLM 513-46546": {
+  "row": 428,
+  "missing": [
+   "K",
+   "N"
+  ],
+  "pick": {},
+  "kind": "",
+  "unfilled": [
+   "K",
+   "N"
+  ]
+ }
+}

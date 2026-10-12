@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+*.png
+*.html
+
+# The static site --build-site writes; built in CI, never committed
+/site/
+
+# Cloudflare: the deploy writes wrangler.toml from wrangler.example.toml and a
+# secret, so no account or database id is committed
+wrangler.toml
+.wrangler/
+node_modules/
+
+# Google API credentials (never commit these)
+service_account.json
+oauth_client.json
+oauth_token.json
+client_secret*.json
+
+# Claude Code's local settings, plans and handoffs: personal workflow, not the project
+.claude/
+CLAUDE.local.md
+
+# The maintainer's copy of the README as it was before publication: running the
+# app locally against the private sheet
+LOCAL_APP_RUN_README.md
+
+# The publication plan: the maintainer's private setup (registrar, mail, secret names).
+# It lives here locally and in the private hybrasil-archive, never in a pushed commit.
+PUBLICATION_PLAN.md
+
+# Catalog cache for data/four_plus_stars/research.py: the extracted SB9 files (the tarball is committed) and
+# paper texts read during research (not ours to redistribute)
+data/four_plus_stars/cat/sb9/
+data/four_plus_stars/cat/*.pdf
+data/four_plus_stars/cat/cir205.txt
+data/four_plus_stars/cat/tok2022_soar2021.txt

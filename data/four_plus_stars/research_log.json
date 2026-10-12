@@ -1,0 +1,2005 @@
+{
+ "counts": {
+  "orb6_same_as_tab": 33,
+  "orb6_fails_grade_or_kepler": 9,
+  "orb6_replaced": 18,
+  "orb6_older_kept_tab": 4,
+  "orb6_new_orbit": 1,
+  "sb9_filled": 4,
+  "sb9_other_paper_skipped": 1,
+  "gaia_i_node": 4,
+  "kepler_a": 4,
+  "kepler_p": 2,
+  "omega_rule": 37,
+  "omega_orb6": 52,
+  "omega_catalog": 6,
+  "barycentre": 23
+ },
+ "sp_rows": [
+  5410,
+  5420
+ ],
+ "title": "hy-brasil-20260930-1506",
+ "changes": {
+  "mu Her C | Orbital period (d)": {
+   "old": 15752.1368,
+   "new": 15873.765,
+   "cell": "'Planetless 4+ Stars'!AZ29",
+   "orange": false
+  },
+  "mu Her C | Separation (AU)": {
+   "old": 11.54937,
+   "new": 11.69113,
+   "cell": "'Planetless 4+ Stars'!AR29",
+   "orange": false
+  },
+  "mu Her C | Separation (arcsec)": {
+   "old": 1.385,
+   "new": 1.402,
+   "cell": "'Planetless 4+ Stars'!BE29",
+   "orange": false
+  },
+  "mu Her C | Orbit source": {
+   "old": "VB6_Pru2014  AC_7BC Gr.1",
+   "new": "ORB6 AC    7BC MnA2019 Gr.1",
+   "cell": "'Planetless 4+ Stars'!AP29",
+   "orange": false
+  },
+  "mu Her C | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 1.385\" (AC_7 BC); au = arcsec / parallax (119.92 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): AC    7BC (17465+2743), MnA2019, grade 1: orbit semi-major axis 1.402\"; au = arcsec / parallax (119.92 mas)",
+   "cell": "'Planetless 4+ Stars'!AT29",
+   "orange": false
+  },
+  "mu Her C | Orbital eccentricity (e)": {
+   "old": 0.18,
+   "new": 0.1834,
+   "cell": "'Planetless 4+ Stars'!AN29",
+   "orange": false
+  },
+  "mu Her C | Inclination (deg)": {
+   "old": 66.06,
+   "new": 65.821,
+   "cell": "'Planetless 4+ Stars'!BB29",
+   "orange": false
+  },
+  "mu Her C | Ascending node (deg)": {
+   "old": 60.07,
+   "new": 61.11,
+   "cell": "'Planetless 4+ Stars'!BC29",
+   "orange": false
+  },
+  "mu Her C | Argument of periastron (deg)": {
+   "old": 172.85,
+   "new": 172.21,
+   "cell": "'Planetless 4+ Stars'!BD29",
+   "orange": false
+  },
+  "mu Her C | Time of periastron (JD)": {
+   "old": 2454588.8271,
+   "new": 2454592.0,
+   "cell": "'Planetless 4+ Stars'!BI29",
+   "orange": false
+  },
+  "GJ 569 Bb | Orbital period (d)": {
+   "old": 865.6425,
+   "new": 865.8982,
+   "cell": "'Planetless 4+ Stars'!AZ41",
+   "orange": false
+  },
+  "GJ 569 Bb | Separation (AU)": {
+   "old": 0.89534,
+   "new": 0.93136,
+   "cell": "'Planetless 4+ Stars'!AR41",
+   "orange": false
+  },
+  "GJ 569 Bb | Separation (arcsec)": {
+   "old": 0.09,
+   "new": 0.09362,
+   "cell": "'Planetless 4+ Stars'!BE41",
+   "orange": false
+  },
+  "GJ 569 Bb | Orbit source": {
+   "old": "VB6_Kon2010 MEL_2Ba, Gr.2",
+   "new": "ORB6 MEL   2Ba,Bb Dup2017 Gr.1",
+   "cell": "'Planetless 4+ Stars'!AP41",
+   "orange": false
+  },
+  "GJ 569 Bb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.09\" (MEL_2 Ba,Bb); au = arcsec / parallax (100.52 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): MEL   2Ba,Bb (14545+1606), Dup2017, grade 1: orbit semi-major axis 0.09362000000000001\"; au = arcsec / parallax (100.52 mas)",
+   "cell": "'Planetless 4+ Stars'!AT41",
+   "orange": false
+  },
+  "GJ 569 Bb | Orbital eccentricity (e)": {
+   "old": 0.31,
+   "new": 0.3184,
+   "cell": "'Planetless 4+ Stars'!AN41",
+   "orange": false
+  },
+  "GJ 569 Bb | Inclination (deg)": {
+   "old": 33.6,
+   "new": 32.65,
+   "cell": "'Planetless 4+ Stars'!BB41",
+   "orange": false
+  },
+  "GJ 569 Bb | Ascending node (deg)": {
+   "old": 144.8,
+   "new": 142.6,
+   "cell": "'Planetless 4+ Stars'!BC41",
+   "orange": false
+  },
+  "GJ 569 Bb | Argument of periastron (deg)": {
+   "old": 77.4,
+   "new": 81.18,
+   "cell": "'Planetless 4+ Stars'!BD41",
+   "orange": false
+  },
+  "GJ 569 Bb | Time of periastron (JD)": {
+   "old": 2452695.0463,
+   "new": 2456159.5,
+   "cell": "'Planetless 4+ Stars'!BI41",
+   "orange": false
+  },
+  "CD-65 332 Bb | Orbital period (d)": {
+   "old": 360.1365,
+   "new": 359.9904,
+   "cell": "'Planetless 4+ Stars'!AZ71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Separation (AU)": {
+   "old": 0.77232,
+   "new": 0.84806,
+   "cell": "'Planetless 4+ Stars'!AR71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Separation (arcsec)": {
+   "old": 0.052,
+   "new": 0.0571,
+   "cell": "'Planetless 4+ Stars'!BE71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Orbit source": {
+   "old": "VB6_Azu2015 CLO_10Ba, Gr.2",
+   "new": "ORB6 CLO  10Ba,Bb Jnn2018 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.052\" (CLO_10 Ba,Bb); au = arcsec / parallax (67.33 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): CLO  10Ba,Bb (05287-6527), Jnn2018, grade 2: orbit semi-major axis 0.0571\"; au = arcsec / parallax (67.33 mas)",
+   "cell": "'Planetless 4+ Stars'!AT71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Orbital eccentricity (e)": {
+   "old": 0.6,
+   "new": 0.669,
+   "cell": "'Planetless 4+ Stars'!AN71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Inclination (deg)": {
+   "old": 121,
+   "new": 114.9,
+   "cell": "'Planetless 4+ Stars'!BB71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Ascending node (deg)": {
+   "old": 270,
+   "new": 96.8,
+   "cell": "'Planetless 4+ Stars'!BC71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Argument of periastron (deg)": {
+   "old": 54,
+   "new": 68.0,
+   "cell": "'Planetless 4+ Stars'!BD71",
+   "orange": false
+  },
+  "CD-65 332 Bb | Time of periastron (JD)": {
+   "old": 2452888.6612,
+   "new": 2452900.6777,
+   "cell": "'Planetless 4+ Stars'!BI71",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Orbital period (d)": {
+   "old": 292.6018,
+   "new": 226.1628,
+   "cell": "'Planetless 4+ Stars'!AZ121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Separation (AU)": {
+   "old": 0.66462,
+   "new": 0.53851,
+   "cell": "'Planetless 4+ Stars'!AR121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Separation (arcsec)": {
+   "old": 0.039,
+   "new": 0.0316,
+   "cell": "'Planetless 4+ Stars'!BE121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Separation type": {
+   "old": "projected",
+   "new": "semi-major axis",
+   "cell": "'Planetless 4+ Stars'!AS121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Period basis": {
+   "old": "MSC estimate from separation",
+   "new": "orbit",
+   "cell": "'Planetless 4+ Stars'!BA121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Orbit source": {
+   "old": "",
+   "new": "ORB6 GKM9181Ba,Bb Tok2024b Gr.4",
+   "cell": "'Planetless 4+ Stars'!AP121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): separation 0.039\" (RUWE=5.9 SOAR dI=0.90); au = arcsec / parallax (58.68 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): GKM9181Ba,Bb (07498-0317), Tok2024b, grade 4: orbit semi-major axis 0.0316\"; au = arcsec / parallax (58.68 mas)",
+   "cell": "'Planetless 4+ Stars'!AT121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Orbital eccentricity (e)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!AN121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Inclination (deg)": {
+   "old": "",
+   "new": 40.0,
+   "cell": "'Planetless 4+ Stars'!BB121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Ascending node (deg)": {
+   "old": "",
+   "new": 88.1,
+   "cell": "'Planetless 4+ Stars'!BC121",
+   "orange": false
+  },
+  "2MASS J07495087-0317194 Bb | Argument of periastron (deg)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!BD121",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Orbital period (d)": {
+   "old": 1688.6238,
+   "new": 1688.5508,
+   "cell": "'Planetless 4+ Stars'!AZ127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Separation (AU)": {
+   "old": 0.59536,
+   "new": 2.71238,
+   "cell": "'Planetless 4+ Stars'!AR127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Separation (arcsec)": {
+   "old": 0.0349,
+   "new": 0.159,
+   "cell": "'Planetless 4+ Stars'!BE127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Orbit source": {
+   "old": "VB6_SaJ2011 TOK_390Ca, Gr.9",
+   "new": "ORB6 TOK 390Ca,Cb Tok2019c Gr.4",
+   "cell": "'Planetless 4+ Stars'!AP127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.0349\" (TOK_390 Ca,Cb MK05:dmu); au = arcsec / parallax (58.62 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): TOK 390Ca,Cb (07040-4337), Tok2019c, grade 4: orbit semi-major axis 0.159\"; au = arcsec / parallax (58.62 mas)",
+   "cell": "'Planetless 4+ Stars'!AT127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Orbital eccentricity (e)": {
+   "old": 0.475,
+   "new": 0.462,
+   "cell": "'Planetless 4+ Stars'!AN127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Inclination (deg)": {
+   "old": 163.6,
+   "new": 161.7,
+   "cell": "'Planetless 4+ Stars'!BB127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Ascending node (deg)": {
+   "old": 238.9,
+   "new": 58.7,
+   "cell": "'Planetless 4+ Stars'!BC127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Argument of periastron (deg)": {
+   "old": 226.8,
+   "new": 232.0,
+   "cell": "'Planetless 4+ Stars'!BD127",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Time of periastron (JD)": {
+   "old": 2454182.8969,
+   "new": 2455857.3133,
+   "cell": "'Planetless 4+ Stars'!BI127",
+   "orange": false
+  },
+  "GJ 225.2 E | Orbital period (d)": {
+   "old": 8382.4875,
+   "new": 8539.545,
+   "cell": "'Planetless 4+ Stars'!AZ145",
+   "orange": false
+  },
+  "GJ 225.2 E | Separation (AU)": {
+   "old": 8.04451,
+   "new": 7.89858,
+   "cell": "'Planetless 4+ Stars'!AR145",
+   "orange": false
+  },
+  "GJ 225.2 E | Separation (arcsec)": {
+   "old": 0.441,
+   "new": 0.433,
+   "cell": "'Planetless 4+ Stars'!BE145",
+   "orange": false
+  },
+  "GJ 225.2 E | Orbit source": {
+   "old": "VB6_Tok2014a TOK_9CE Gr.3",
+   "new": "ORB6 TOK   9CE Tok2020k Gr.3",
+   "cell": "'Planetless 4+ Stars'!AP145",
+   "orange": false
+  },
+  "GJ 225.2 E | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.441\" (TOK_9 CE 2005A&A.441.695); au = arcsec / parallax (54.82 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): TOK   9CE (06003-3102), Tok2020k, grade 3: orbit semi-major axis 0.433\"; au = arcsec / parallax (54.82 mas)",
+   "cell": "'Planetless 4+ Stars'!AT145",
+   "orange": false
+  },
+  "GJ 225.2 E | Orbital eccentricity (e)": {
+   "old": 0.186,
+   "new": 0.216,
+   "cell": "'Planetless 4+ Stars'!AN145",
+   "orange": false
+  },
+  "GJ 225.2 E | Inclination (deg)": {
+   "old": 97.8,
+   "new": 98.4,
+   "cell": "'Planetless 4+ Stars'!BB145",
+   "orange": false
+  },
+  "GJ 225.2 E | Ascending node (deg)": {
+   "old": 146.6,
+   "new": 146.8,
+   "cell": "'Planetless 4+ Stars'!BC145",
+   "orange": false
+  },
+  "GJ 225.2 E | Argument of periastron (deg)": {
+   "old": 193,
+   "new": 178.6,
+   "cell": "'Planetless 4+ Stars'!BD145",
+   "orange": false
+  },
+  "GJ 225.2 E | Time of periastron (JD)": {
+   "old": 2457571.0297,
+   "new": 2457183.8729,
+   "cell": "'Planetless 4+ Stars'!BI145",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Orbital period (d)": {
+   "old": 11713.5675,
+   "new": 12973.68,
+   "cell": "'Planetless 4+ Stars'!AZ166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Separation (AU)": {
+   "old": 11.58466,
+   "new": 12.55327,
+   "cell": "'Planetless 4+ Stars'!AR166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Separation (arcsec)": {
+   "old": 0.598,
+   "new": 0.648,
+   "cell": "'Planetless 4+ Stars'!BE166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Orbit source": {
+   "old": "VB6_Hrt2012a CAT_1Aa, Gr.5",
+   "new": "ORB6 CAT   1Aa,Ab Tok2018e Gr.5",
+   "cell": "'Planetless 4+ Stars'!AP166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.598\" (CAT_1 Aa,Ab SB9_3220); au = arcsec / parallax (51.62 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): CAT   1Aa,Ab (06173+0506), Tok2018e, grade 5: orbit semi-major axis 0.648\"; au = arcsec / parallax (51.62 mas)",
+   "cell": "'Planetless 4+ Stars'!AT166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Orbital eccentricity (e)": {
+   "old": 0.796,
+   "new": 0.809,
+   "cell": "'Planetless 4+ Stars'!AN166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Inclination (deg)": {
+   "old": 35.6,
+   "new": 41.3,
+   "cell": "'Planetless 4+ Stars'!BB166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Ascending node (deg)": {
+   "old": 163.1,
+   "new": 166.8,
+   "cell": "'Planetless 4+ Stars'!BC166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Argument of periastron (deg)": {
+   "old": 75,
+   "new": 76.0,
+   "cell": "'Planetless 4+ Stars'!BD166",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Time of periastron (JD)": {
+   "old": 2450832.3111,
+   "new": 2450834.8678,
+   "cell": "'Planetless 4+ Stars'!BI166",
+   "orange": false
+  },
+  "tau Cyg B | Orbital period (d)": {
+   "old": 18125.7869,
+   "new": 18088.641,
+   "cell": "'Planetless 4+ Stars'!AZ186",
+   "orange": false
+  },
+  "tau Cyg B | Separation (AU)": {
+   "old": 18.57201,
+   "new": 18.75997,
+   "cell": "'Planetless 4+ Stars'!AR186",
+   "orange": false
+  },
+  "tau Cyg B | Separation (arcsec)": {
+   "old": 0.913,
+   "new": 0.92224,
+   "cell": "'Planetless 4+ Stars'!BE186",
+   "orange": false
+  },
+  "tau Cyg B | Orbit source": {
+   "old": "VB6_Mut2010e AGC_13AB Gr.1",
+   "new": "ORB6 AGC  13AB Izm2019 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP186",
+   "orange": false
+  },
+  "tau Cyg B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.913\" (AGC_13 AB); au = arcsec / parallax (49.16 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): AGC  13AB (21148+3803), Izm2019, grade 2: orbit semi-major axis 0.92224\"; au = arcsec / parallax (49.16 mas)",
+   "cell": "'Planetless 4+ Stars'!AT186",
+   "orange": false
+  },
+  "tau Cyg B | Orbital eccentricity (e)": {
+   "old": 0.239,
+   "new": 0.24535,
+   "cell": "'Planetless 4+ Stars'!AN186",
+   "orange": false
+  },
+  "tau Cyg B | Inclination (deg)": {
+   "old": 134.44,
+   "new": 133.242,
+   "cell": "'Planetless 4+ Stars'!BB186",
+   "orange": false
+  },
+  "tau Cyg B | Ascending node (deg)": {
+   "old": 339.75,
+   "new": 161.343,
+   "cell": "'Planetless 4+ Stars'!BC186",
+   "orange": false
+  },
+  "tau Cyg B | Argument of periastron (deg)": {
+   "old": 298.77,
+   "new": 116.416,
+   "cell": "'Planetless 4+ Stars'!BD186",
+   "orange": false
+  },
+  "tau Cyg B | Time of periastron (JD)": {
+   "old": 2447552.5092,
+   "new": 2429247.1911,
+   "cell": "'Planetless 4+ Stars'!BI186",
+   "orange": false
+  },
+  "GJ 586 Ab | Orbital period (d)": {
+   "old": 889.822,
+   "new": 889.7125,
+   "cell": "'Planetless 4+ Stars'!AZ211",
+   "orange": false
+  },
+  "GJ 586 Ab | Separation (AU)": {
+   "old": 2.2563,
+   "new": 2.19118,
+   "cell": "'Planetless 4+ Stars'!AR211",
+   "orange": false
+  },
+  "GJ 586 Ab | Separation (arcsec)": {
+   "old": 0.1074,
+   "new": 0.1043,
+   "cell": "'Planetless 4+ Stars'!BE211",
+   "orange": false
+  },
+  "GJ 586 Ab | Orbit source": {
+   "old": "VB6 BAG_25Aa,Ab Gr.2",
+   "new": "ORB6 BAG  25Aa,Ab JAA2022 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP211",
+   "orange": false
+  },
+  "GJ 586 Ab | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.1074\" (BAG_25 Aa,Ab SB9_1638 q=0.669); au = arcsec / parallax (47.6 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): BAG  25Aa,Ab (15282-0921), JAA2022, grade 2: orbit semi-major axis 0.1043\"; au = arcsec / parallax (47.60 mas)",
+   "cell": "'Planetless 4+ Stars'!AT211",
+   "orange": false
+  },
+  "GJ 586 Ab | Orbital eccentricity (e)": {
+   "old": 0.976,
+   "new": 0.97525,
+   "cell": "'Planetless 4+ Stars'!AN211",
+   "orange": false
+  },
+  "GJ 586 Ab | Inclination (deg)": {
+   "old": 55.44,
+   "new": 54.3,
+   "cell": "'Planetless 4+ Stars'!BB211",
+   "orange": false
+  },
+  "GJ 586 Ab | Ascending node (deg)": {
+   "old": 272.81,
+   "new": 272.47,
+   "cell": "'Planetless 4+ Stars'!BC211",
+   "orange": false
+  },
+  "GJ 586 Ab | Argument of periastron (deg)": {
+   "old": 255.55,
+   "new": 254.898,
+   "cell": "'Planetless 4+ Stars'!BD211",
+   "orange": false
+  },
+  "GJ 586 Ab | Time of periastron (JD)": {
+   "old": 2454196.3013,
+   "new": 2444408.7966,
+   "cell": "'Planetless 4+ Stars'!BI211",
+   "orange": false
+  },
+  "HR 2468 B | Orbital period (d)": {
+   "old": 79478.4,
+   "new": 92521.4775,
+   "cell": "'Planetless 4+ Stars'!AZ236",
+   "orange": false
+  },
+  "HR 2468 B | Separation (AU)": {
+   "old": 43.84161,
+   "new": 47.4732,
+   "cell": "'Planetless 4+ Stars'!AR236",
+   "orange": false
+  },
+  "HR 2468 B | Separation (arcsec)": {
+   "old": 2.004,
+   "new": 2.17,
+   "cell": "'Planetless 4+ Stars'!BE236",
+   "orange": false
+  },
+  "HR 2468 B | Orbit source": {
+   "old": "VB6_Zir2010b I_5AB Gr.5",
+   "new": "ORB6 I     5AB Doc2025b Gr.4",
+   "cell": "'Planetless 4+ Stars'!AP236",
+   "orange": false
+  },
+  "HR 2468 B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 2.004\" (I_5 AB); au = arcsec / parallax (45.71 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): I     5AB (06380-6132), Doc2025b, grade 4: orbit semi-major axis 2.17\"; au = arcsec / parallax (45.71 mas)",
+   "cell": "'Planetless 4+ Stars'!AT236",
+   "orange": false
+  },
+  "HR 2468 B | Orbital eccentricity (e)": {
+   "old": 0.336,
+   "new": 0.276,
+   "cell": "'Planetless 4+ Stars'!AN236",
+   "orange": false
+  },
+  "HR 2468 B | Inclination (deg)": {
+   "old": 93.9,
+   "new": 93.4,
+   "cell": "'Planetless 4+ Stars'!BB236",
+   "orange": false
+  },
+  "HR 2468 B | Ascending node (deg)": {
+   "old": 91.6,
+   "new": 91.3,
+   "cell": "'Planetless 4+ Stars'!BC236",
+   "orange": false
+  },
+  "HR 2468 B | Argument of periastron (deg)": {
+   "old": 357.3,
+   "new": 342.2,
+   "cell": "'Planetless 4+ Stars'!BD236",
+   "orange": false
+  },
+  "HR 2468 B | Time of periastron (JD)": {
+   "old": 2463926.2439,
+   "new": 2464189.2183,
+   "cell": "'Planetless 4+ Stars'!BI236",
+   "orange": false
+  },
+  "sig CrB B | Orbital period (d)": {
+   "old": 265171.5,
+   "new": 239860.9899,
+   "cell": "'Planetless 4+ Stars'!AZ272",
+   "orange": false
+  },
+  "sig CrB B | Separation (AU)": {
+   "old": 119.38266,
+   "new": 113.15638,
+   "cell": "'Planetless 4+ Stars'!AR272",
+   "orange": false
+  },
+  "sig CrB B | Separation (arcsec)": {
+   "old": 5.26,
+   "new": 4.98567,
+   "cell": "'Planetless 4+ Stars'!BE272",
+   "orange": false
+  },
+  "sig CrB B | Orbit source": {
+   "old": "VB6_Rag2009 STF2032AB Gr.4",
+   "new": "ORB6 STF2032AB Izm2019 Gr.4",
+   "cell": "'Planetless 4+ Stars'!AP272",
+   "orange": false
+  },
+  "sig CrB B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 5.26\" (STF_2032 AB Gaia pos.); au = arcsec / parallax (44.06 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): STF2032AB (16147+3352), Izm2019, grade 4: orbit semi-major axis 4.98567\"; au = arcsec / parallax (44.06 mas)",
+   "cell": "'Planetless 4+ Stars'!AT272",
+   "orange": false
+  },
+  "sig CrB B | Orbital eccentricity (e)": {
+   "old": 0.72,
+   "new": 0.77131,
+   "cell": "'Planetless 4+ Stars'!AN272",
+   "orange": false
+  },
+  "sig CrB B | Inclination (deg)": {
+   "old": 32.3,
+   "new": 23.176,
+   "cell": "'Planetless 4+ Stars'!BB272",
+   "orange": false
+  },
+  "sig CrB B | Ascending node (deg)": {
+   "old": 28,
+   "new": 0.969,
+   "cell": "'Planetless 4+ Stars'!BC272",
+   "orange": false
+  },
+  "sig CrB B | Argument of periastron (deg)": {
+   "old": 57.3,
+   "new": 76.808,
+   "cell": "'Planetless 4+ Stars'!BD272",
+   "orange": false
+  },
+  "sig CrB B | Time of periastron (JD)": {
+   "old": 2387700.1971,
+   "new": 2388699.5362,
+   "cell": "'Planetless 4+ Stars'!BI272",
+   "orange": false
+  },
+  "sig CrB Eb | Orbital period (d)": {
+   "old": 18993,
+   "new": 18993.0,
+   "cell": "'Planetless 4+ Stars'!AZ275",
+   "orange": false
+  },
+  "sig CrB Eb | Separation (AU)": {
+   "old": 2.51929,
+   "new": 11.66591,
+   "cell": "'Planetless 4+ Stars'!AR275",
+   "orange": false
+  },
+  "sig CrB Eb | Separation (arcsec)": {
+   "old": 0.111,
+   "new": 0.514,
+   "cell": "'Planetless 4+ Stars'!BE275",
+   "orange": false
+  },
+  "sig CrB Eb | Orbit source": {
+   "old": "VB6_Hei1990d STF2032C Gr.9",
+   "new": "ORB6 YSC 152Ea,Eb Tok2019e Gr.5",
+   "cell": "'Planetless 4+ Stars'!AP275",
+   "orange": false
+  },
+  "sig CrB Eb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.111\" (YSC_152 Ea,Eb); au = arcsec / parallax (44.06 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): YSC 152Ea,Eb (16147+3352), Tok2019e, grade 5: orbit semi-major axis 0.514\"; au = arcsec / parallax (44.06 mas)",
+   "cell": "'Planetless 4+ Stars'!AT275",
+   "orange": false
+  },
+  "sig CrB Eb | Orbital eccentricity (e)": {
+   "old": 0.36,
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!AN275",
+   "orange": false
+  },
+  "sig CrB Eb | Inclination (deg)": {
+   "old": 59,
+   "new": 60.5,
+   "cell": "'Planetless 4+ Stars'!BB275",
+   "orange": false
+  },
+  "sig CrB Eb | Ascending node (deg)": {
+   "old": 30,
+   "new": 214.9,
+   "cell": "'Planetless 4+ Stars'!BC275",
+   "orange": false
+  },
+  "sig CrB Eb | Argument of periastron (deg)": {
+   "old": 127,
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!BD275",
+   "orange": false
+  },
+  "sig CrB Eb | Time of periastron (JD)": {
+   "old": 2438030.572,
+   "new": 2449450.5999,
+   "cell": "'Planetless 4+ Stars'!BI275",
+   "orange": false
+  },
+  "kap Tuc B | Orbital period (d)": {
+   "old": 313019.25,
+   "new": 438300.0,
+   "cell": "'Planetless 4+ Stars'!AZ292",
+   "orange": false
+  },
+  "kap Tuc B | Separation (AU)": {
+   "old": 138.63689,
+   "new": 163.5264,
+   "cell": "'Planetless 4+ Stars'!AR292",
+   "orange": false
+  },
+  "kap Tuc B | Separation (arcsec)": {
+   "old": 5.96,
+   "new": 7.03,
+   "cell": "'Planetless 4+ Stars'!BE292",
+   "orange": false
+  },
+  "kap Tuc B | Orbit source": {
+   "old": "VB6_Sca2005b HJ_3423AB Gr.5",
+   "new": "ORB6 HJ 3423AB Tok2020d Gr.5",
+   "cell": "'Planetless 4+ Stars'!AP292",
+   "orange": false
+  },
+  "kap Tuc B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 5.96\" (HJ_3423 AB); au = arcsec / parallax (42.99 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): HJ 3423AB (01158-6853), Tok2020d, grade 5: orbit semi-major axis 7.03\"; au = arcsec / parallax (42.99 mas)",
+   "cell": "'Planetless 4+ Stars'!AT292",
+   "orange": false
+  },
+  "kap Tuc B | Orbital eccentricity (e)": {
+   "old": 0.384,
+   "new": 0.4,
+   "cell": "'Planetless 4+ Stars'!AN292",
+   "orange": false
+  },
+  "kap Tuc B | Inclination (deg)": {
+   "old": 127.1,
+   "new": 128.5,
+   "cell": "'Planetless 4+ Stars'!BB292",
+   "orange": false
+  },
+  "kap Tuc B | Ascending node (deg)": {
+   "old": 10.3,
+   "new": 323.1,
+   "cell": "'Planetless 4+ Stars'!BC292",
+   "orange": false
+  },
+  "kap Tuc B | Argument of periastron (deg)": {
+   "old": 284.9,
+   "new": 61.3,
+   "cell": "'Planetless 4+ Stars'!BD292",
+   "orange": false
+  },
+  "kap Tuc B | Time of periastron (JD)": {
+   "old": 2365164.7534,
+   "new": 2483211.032,
+   "cell": "'Planetless 4+ Stars'!BI292",
+   "orange": false
+  },
+  "kap Tuc D | Orbital period (d)": {
+   "old": 31119.3,
+   "new": 30965.3471,
+   "cell": "'Planetless 4+ Stars'!AZ295",
+   "orange": false
+  },
+  "kap Tuc D | Separation (AU)": {
+   "old": 26.51779,
+   "new": 25.50919,
+   "cell": "'Planetless 4+ Stars'!AR295",
+   "orange": false
+  },
+  "kap Tuc D | Separation (arcsec)": {
+   "old": 1.14,
+   "new": 1.09664,
+   "cell": "'Planetless 4+ Stars'!BE295",
+   "orange": false
+  },
+  "kap Tuc D | Orbit source": {
+   "old": "VB6_Sod1999 I_27CD Gr.3",
+   "new": "ORB6 I    27CD Izm2019 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP295",
+   "orange": false
+  },
+  "kap Tuc D | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 1.14\" (I_27 CD DR2-HIP); au = arcsec / parallax (42.99 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): I    27CD (01158-6853), Izm2019, grade 2: orbit semi-major axis 1.09664\"; au = arcsec / parallax (42.99 mas)",
+   "cell": "'Planetless 4+ Stars'!AT295",
+   "orange": false
+  },
+  "kap Tuc D | Orbital eccentricity (e)": {
+   "old": 0.04,
+   "new": 0.04027,
+   "cell": "'Planetless 4+ Stars'!AN295",
+   "orange": false
+  },
+  "kap Tuc D | Inclination (deg)": {
+   "old": 35,
+   "new": 32.561,
+   "cell": "'Planetless 4+ Stars'!BB295",
+   "orange": false
+  },
+  "kap Tuc D | Ascending node (deg)": {
+   "old": 142,
+   "new": 138.062,
+   "cell": "'Planetless 4+ Stars'!BC295",
+   "orange": false
+  },
+  "kap Tuc D | Argument of periastron (deg)": {
+   "old": 141,
+   "new": 153.001,
+   "cell": "'Planetless 4+ Stars'!BD295",
+   "orange": false
+  },
+  "kap Tuc D | Time of periastron (JD)": {
+   "old": 2421959.9153,
+   "new": 2422496.383,
+   "cell": "'Planetless 4+ Stars'!BI295",
+   "orange": false
+  },
+  "iot Leo B | Orbital period (d)": {
+   "old": 67936.5,
+   "new": 69237.1552,
+   "cell": "'Planetless 4+ Stars'!AZ320",
+   "orange": false
+  },
+  "iot Leo B | Separation (AU)": {
+   "old": 45.10035,
+   "new": 45.47816,
+   "cell": "'Planetless 4+ Stars'!AR320",
+   "orange": false
+  },
+  "iot Leo B | Separation (arcsec)": {
+   "old": 1.91,
+   "new": 1.926,
+   "cell": "'Planetless 4+ Stars'!BE320",
+   "orange": false
+  },
+  "iot Leo B | Orbit source": {
+   "old": "VB6_Sod1999 STF1536AB Gr.2",
+   "new": "ORB6 STF1536AB JAA2023 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP320",
+   "orange": false
+  },
+  "iot Leo B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 1.91\" (STF_1536 AB DR2-HIP); au = arcsec / parallax (42.35 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): STF1536AB (11239+1032), JAA2023, grade 2: orbit semi-major axis 1.926\"; au = arcsec / parallax (42.35 mas)",
+   "cell": "'Planetless 4+ Stars'!AT320",
+   "orange": false
+  },
+  "iot Leo B | Orbital eccentricity (e)": {
+   "old": 0.53,
+   "new": 0.55,
+   "cell": "'Planetless 4+ Stars'!AN320",
+   "orange": false
+  },
+  "iot Leo B | Inclination (deg)": {
+   "old": 128,
+   "new": 127.249,
+   "cell": "'Planetless 4+ Stars'!BB320",
+   "orange": false
+  },
+  "iot Leo B | Ascending node (deg)": {
+   "old": 235,
+   "new": 56.178,
+   "cell": "'Planetless 4+ Stars'!BC320",
+   "orange": false
+  },
+  "iot Leo B | Argument of periastron (deg)": {
+   "old": 325,
+   "new": 145.345,
+   "cell": "'Planetless 4+ Stars'!BD320",
+   "orange": false
+  },
+  "iot Leo B | Time of periastron (JD)": {
+   "old": 2432844.1328,
+   "new": 2432866.0474,
+   "cell": "'Planetless 4+ Stars'!BI320",
+   "orange": false
+  },
+  "zet UMa Ab | Orbital period (d)": {
+   "old": 20.5377,
+   "new": 20.5384,
+   "cell": "'Planetless 4+ Stars'!AZ351",
+   "orange": false
+  },
+  "zet UMa Ab | Separation (AU)": {
+   "old": 0.23875,
+   "new": 0.24447,
+   "cell": "'Planetless 4+ Stars'!AR351",
+   "orange": false
+  },
+  "zet UMa Ab | Separation (arcsec)": {
+   "old": 0.0096,
+   "new": 0.00983,
+   "cell": "'Planetless 4+ Stars'!BE351",
+   "orange": false
+  },
+  "zet UMa Ab | Orbit source": {
+   "old": "SB 764+AJ 110 376 1995 MkIII",
+   "new": "ORB6 PEA   1Aa,Ab MkT1998 Gr.2",
+   "cell": "'Planetless 4+ Stars'!AP351",
+   "orange": false
+  },
+  "zet UMa Ab | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.0096\" (SB9_764 +AJ 110 376); au = arcsec / parallax (40.21 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): PEA   1Aa,Ab (13239+5456), MkT1998, grade 2: orbit semi-major axis 0.00983\"; au = arcsec / parallax (40.21 mas)",
+   "cell": "'Planetless 4+ Stars'!AT351",
+   "orange": false
+  },
+  "zet UMa Ab | Orbital eccentricity (e)": {
+   "old": 0.537,
+   "new": 0.5354,
+   "cell": "'Planetless 4+ Stars'!AN351",
+   "orange": false
+  },
+  "zet UMa Ab | Inclination (deg)": {
+   "old": 59.7,
+   "new": 60.5,
+   "cell": "'Planetless 4+ Stars'!BB351",
+   "orange": false
+  },
+  "zet UMa Ab | Ascending node (deg)": {
+   "old": 105.9,
+   "new": 106.0,
+   "cell": "'Planetless 4+ Stars'!BC351",
+   "orange": false
+  },
+  "zet UMa Ab | Argument of periastron (deg)": {
+   "old": 105.9,
+   "new": 104.3,
+   "cell": "'Planetless 4+ Stars'!BD351",
+   "orange": false
+  },
+  "zet UMa Ab | Time of periastron (JD)": {
+   "old": 2447636.2,
+   "new": 2447636.07,
+   "cell": "'Planetless 4+ Stars'!BI351",
+   "orange": false
+  },
+  "GJ 310.1 B | Orbital period (d)": {
+   "old": 715524.75,
+   "new": 715524.75,
+   "cell": "'Planetless 4+ Stars'!AZ380",
+   "orange": false
+  },
+  "GJ 310.1 B | Separation (AU)": {
+   "old": 201.19729,
+   "new": 203.01926,
+   "cell": "'Planetless 4+ Stars'!AR380",
+   "orange": false
+  },
+  "GJ 310.1 B | Separation (arcsec)": {
+   "old": 7.73,
+   "new": 7.8,
+   "cell": "'Planetless 4+ Stars'!BE380",
+   "orange": false
+  },
+  "GJ 310.1 B | Orbit source": {
+   "old": "2021AJ....162..301B",
+   "new": "ORB6 STF1245AB Bdt2021b Gr.5",
+   "cell": "'Planetless 4+ Stars'!AP380",
+   "orange": false
+  },
+  "GJ 310.1 B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 7.73\" (STF_1245 AB  Gaia pos.); au = arcsec / parallax (38.42 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): STF1245AB (08358+0637), Bdt2021b, grade 5: orbit semi-major axis 7.8\"; au = arcsec / parallax (38.42 mas)",
+   "cell": "'Planetless 4+ Stars'!AT380",
+   "orange": false
+  },
+  "GJ 310.1 B | Orbital eccentricity (e)": {
+   "old": 0.44,
+   "new": 0.44,
+   "cell": "'Planetless 4+ Stars'!AN380",
+   "orange": false
+  },
+  "GJ 310.1 B | Inclination (deg)": {
+   "old": 27,
+   "new": 95.5,
+   "cell": "'Planetless 4+ Stars'!BB380",
+   "orange": false
+  },
+  "GJ 310.1 B | Ascending node (deg)": {
+   "old": 27,
+   "new": 27.0,
+   "cell": "'Planetless 4+ Stars'!BC380",
+   "orange": false
+  },
+  "GJ 310.1 B | Argument of periastron (deg)": {
+   "old": 68.9,
+   "new": 68.9,
+   "cell": "'Planetless 4+ Stars'!BD380",
+   "orange": false
+  },
+  "GJ 310.1 B | Time of periastron (JD)": {
+   "old": 2835779.3265,
+   "new": 2835929.9889,
+   "cell": "'Planetless 4+ Stars'!BI380",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Orbital period (d)": {
+   "old": 5880.525,
+   "new": 5844.0,
+   "cell": "'Planetless 4+ Stars'!AZ382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Separation (AU)": {
+   "old": 6.55908,
+   "new": 6.55908,
+   "cell": "'Planetless 4+ Stars'!AR382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Orbit source": {
+   "old": "2021AJ....162..301B",
+   "new": "ORB6 VI    3Ba,Bb VI_2023 Gr.4",
+   "cell": "'Planetless 4+ Stars'!AP382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 0.252\" (DR2-HIP dmu=(-2.8,-0.5)); au = arcsec / parallax (38.42 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): VI    3Ba,Bb (08358+0637), VI_2023, grade 4: orbit semi-major axis 0.252\"; au = arcsec / parallax (38.42 mas)",
+   "cell": "'Planetless 4+ Stars'!AT382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Orbital eccentricity (e)": {
+   "old": 0.487,
+   "new": 0.498,
+   "cell": "'Planetless 4+ Stars'!AN382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Inclination (deg)": {
+   "old": 62.8,
+   "new": 63.14,
+   "cell": "'Planetless 4+ Stars'!BB382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Ascending node (deg)": {
+   "old": 174.2,
+   "new": 354.604,
+   "cell": "'Planetless 4+ Stars'!BC382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Argument of periastron (deg)": {
+   "old": 68.9,
+   "new": 248.836,
+   "cell": "'Planetless 4+ Stars'!BD382",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Time of periastron (JD)": {
+   "old": 2455946.7976,
+   "new": 2461827.5623,
+   "cell": "'Planetless 4+ Stars'!BI382",
+   "orange": false
+  },
+  "GJ 9155 B | Orbital period (d)": {
+   "old": 876600,
+   "new": 876479.4675,
+   "cell": "'Planetless 4+ Stars'!AZ446",
+   "orange": false
+  },
+  "GJ 9155 B | Separation (AU)": {
+   "old": 220.20369,
+   "new": 219.84035,
+   "cell": "'Planetless 4+ Stars'!AR446",
+   "orange": false
+  },
+  "GJ 9155 B | Separation (arcsec)": {
+   "old": 8,
+   "new": 7.9868,
+   "cell": "'Planetless 4+ Stars'!BE446",
+   "orange": false
+  },
+  "GJ 9155 B | Orbit source": {
+   "old": "VB6_Whi2018b RMK_4 Gr.5",
+   "new": "ORB6 RMK   4AB Jaw2025e Gr.5",
+   "cell": "'Planetless 4+ Stars'!AP446",
+   "orange": false
+  },
+  "GJ 9155 B | Separation source": {
+   "old": "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update): orbit semi-major axis 8\" (Gaia RMK_4); au = arcsec / parallax (36.33 mas)",
+   "new": "ORB6 (Sixth Catalog of Orbits of Visual Binary Stars, USNO/GSU, version of 2026-07-09): RMK   4AB (04242-5704), Jaw2025e, grade 5: orbit semi-major axis 7.9868\"; au = arcsec / parallax (36.33 mas)",
+   "cell": "'Planetless 4+ Stars'!AT446",
+   "orange": false
+  },
+  "GJ 9155 B | Orbital eccentricity (e)": {
+   "old": 0.22,
+   "new": 0.1899,
+   "cell": "'Planetless 4+ Stars'!AN446",
+   "orange": false
+  },
+  "GJ 9155 B | Inclination (deg)": {
+   "old": 70,
+   "new": 71.22,
+   "cell": "'Planetless 4+ Stars'!BB446",
+   "orange": false
+  },
+  "GJ 9155 B | Ascending node (deg)": {
+   "old": 54.9,
+   "new": 53.57,
+   "cell": "'Planetless 4+ Stars'!BC446",
+   "orange": false
+  },
+  "GJ 9155 B | Argument of periastron (deg)": {
+   "old": 200,
+   "new": 193.33,
+   "cell": "'Planetless 4+ Stars'!BD446",
+   "orange": false
+  },
+  "GJ 9155 B | Time of periastron (JD)": {
+   "old": 2415020.3135,
+   "new": 2415704.7774,
+   "cell": "'Planetless 4+ Stars'!BI446",
+   "orange": false
+  },
+  "sig CrB Ab | Orbital eccentricity (e)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!AN271",
+   "orange": false
+  },
+  "sig CrB Ab | Argument of periastron (deg)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!BD271",
+   "orange": false
+  },
+  "HR 1099 Ab | Orbital eccentricity (e)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!AN484",
+   "orange": false
+  },
+  "HR 1099 Ab | Argument of periastron (deg)": {
+   "old": "",
+   "new": 0.0,
+   "cell": "'Planetless 4+ Stars'!BD484",
+   "orange": false
+  },
+  "GJ 319 Ab | Inclination (deg)": {
+   "old": "",
+   "new": 119.78,
+   "cell": "'Planetless 4+ Stars'!BB99",
+   "orange": true
+  },
+  "GJ 319 Ab | Ascending node (deg)": {
+   "old": "",
+   "new": 184.97,
+   "cell": "'Planetless 4+ Stars'!BC99",
+   "orange": true
+  },
+  "GJ 629 Aa2 | Inclination (deg)": {
+   "old": "",
+   "new": 123.07,
+   "cell": "'Planetless 4+ Stars'!BB265",
+   "orange": true
+  },
+  "GJ 629 Aa2 | Ascending node (deg)": {
+   "old": "",
+   "new": 195.56,
+   "cell": "'Planetless 4+ Stars'!BC265",
+   "orange": true
+  },
+  "BD+08 2134 Ab | Inclination (deg)": {
+   "old": "",
+   "new": 89.11,
+   "cell": "'Planetless 4+ Stars'!BB278",
+   "orange": true
+  },
+  "BD+08 2134 Ab | Ascending node (deg)": {
+   "old": "",
+   "new": 110.25,
+   "cell": "'Planetless 4+ Stars'!BC278",
+   "orange": true
+  },
+  "GJ 3347 Ab | Inclination (deg)": {
+   "old": "",
+   "new": 84.78,
+   "cell": "'Planetless 4+ Stars'!BB497",
+   "orange": true
+  },
+  "GJ 3347 Ab | Ascending node (deg)": {
+   "old": "",
+   "new": 76.39,
+   "cell": "'Planetless 4+ Stars'!BC497",
+   "orange": true
+  },
+  "ksi UMa Ab | Separation (AU)": {
+   "old": 0.44776,
+   "new": 1.66811,
+   "cell": "'Planetless 4+ Stars'!AR19",
+   "orange": true
+  },
+  "ksi UMa Ab | Separation (arcsec)": {
+   "old": 0.054,
+   "new": 0.201175,
+   "cell": "'Planetless 4+ Stars'!BE19",
+   "orange": true
+  },
+  "GJ 319 B | Orbital period (d)": {
+   "old": 45203.34,
+   "new": 89641.2,
+   "cell": "'Planetless 4+ Stars'!AZ100",
+   "orange": true
+  },
+  "zet1 Cnc C | Orbital period (d)": {
+   "old": 268495.6768,
+   "new": 532795.8,
+   "cell": "'Planetless 4+ Stars'!AZ305",
+   "orange": true
+  },
+  "chi Cet Ab | Separation (AU)": {
+   "old": 1.24941,
+   "new": 4.55864,
+   "cell": "'Planetless 4+ Stars'!AR312",
+   "orange": true
+  },
+  "chi Cet Ab | Separation (arcsec)": {
+   "old": 0.0532,
+   "new": 0.194107,
+   "cell": "'Planetless 4+ Stars'!BE312",
+   "orange": true
+  },
+  "HR 2158 Ab | Separation (AU)": {
+   "old": 0.2253,
+   "new": 0.84923,
+   "cell": "'Planetless 4+ Stars'!AR433",
+   "orange": true
+  },
+  "HR 2158 Ab | Separation (arcsec)": {
+   "old": 0.0083,
+   "new": 0.031286,
+   "cell": "'Planetless 4+ Stars'!BE433",
+   "orange": true
+  },
+  "CD-52 2036 Ab | Separation (AU)": {
+   "old": 0.4853,
+   "new": 1.00863,
+   "cell": "'Planetless 4+ Stars'!AR458",
+   "orange": true
+  },
+  "CD-52 2036 Ab | Separation (arcsec)": {
+   "old": 0.0175,
+   "new": 0.036371,
+   "cell": "'Planetless 4+ Stars'!BE458",
+   "orange": true
+  },
+  "GJ 570 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO4",
+   "orange": true
+  },
+  "GJ 570 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO6",
+   "orange": false
+  },
+  "GJ 644 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO11",
+   "orange": false
+  },
+  "GJ 644 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO13",
+   "orange": true
+  },
+  "ksi UMa Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO19",
+   "orange": true
+  },
+  "ksi UMa B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO20",
+   "orange": false
+  },
+  "mu Her Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO26",
+   "orange": false
+  },
+  "mu Her C | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (C relative to B)",
+   "cell": "'Planetless 4+ Stars'!BO29",
+   "orange": false
+  },
+  "GJ 867 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO32",
+   "orange": true
+  },
+  "GJ 569 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO41",
+   "orange": false
+  },
+  "GJ 275.2 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO45",
+   "orange": true
+  },
+  "GJ 275.2 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO47",
+   "orange": false
+  },
+  "alf Aur B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO50",
+   "orange": false
+  },
+  "alf Aur L | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (L relative to H)",
+   "cell": "'Planetless 4+ Stars'!BO53",
+   "orange": false
+  },
+  "iot UMa Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO62",
+   "orange": true
+  },
+  "iot UMa BC | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (BC relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO63",
+   "orange": true
+  },
+  "iot UMa C | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (C relative to B)",
+   "cell": "'Planetless 4+ Stars'!BO65",
+   "orange": false
+  },
+  "CD-65 332 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO68",
+   "orange": false
+  },
+  "CD-65 332 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO71",
+   "orange": false
+  },
+  "GJ 1006 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO93",
+   "orange": true
+  },
+  "GJ 319 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO99",
+   "orange": false
+  },
+  "GJ 319 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO100",
+   "orange": true
+  },
+  "GJ 2069 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO106",
+   "orange": false
+  },
+  "GJ 2069 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO109",
+   "orange": false
+  },
+  "GJ 3389 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO114",
+   "orange": true
+  },
+  "2MASS J07495087-0317194 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO121",
+   "orange": false
+  },
+  "GJ 264.1 Cb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Cb relative to Ca)",
+   "cell": "'Planetless 4+ Stars'!BO127",
+   "orange": false
+  },
+  "GJ 171.2 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO131",
+   "orange": true
+  },
+  "GJ 225.2 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO143",
+   "orange": false
+  },
+  "GJ 225.2 CE | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (CE relative to AB)",
+   "cell": "'Planetless 4+ Stars'!BO144",
+   "orange": true
+  },
+  "GJ 225.2 E | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (E relative to C)",
+   "cell": "'Planetless 4+ Stars'!BO145",
+   "orange": false
+  },
+  "GJ 231.1 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO166",
+   "orange": false
+  },
+  "tau Cyg Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO185",
+   "orange": true
+  },
+  "tau Cyg B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO186",
+   "orange": false
+  },
+  "pi1 Cnc Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO192",
+   "orange": false
+  },
+  "17 Cyg G | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (G relative to F)",
+   "cell": "'Planetless 4+ Stars'!BO207",
+   "orange": false
+  },
+  "GJ 586 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO211",
+   "orange": false
+  },
+  "50 Per B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO217",
+   "orange": false
+  },
+  "GJ 490 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO222",
+   "orange": false
+  },
+  "GJ 60 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO228",
+   "orange": false
+  },
+  "GJ 60 C | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (C relative to AB)",
+   "cell": "'Planetless 4+ Stars'!BO231",
+   "orange": false
+  },
+  "HR 2468 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO235",
+   "orange": true
+  },
+  "HR 2468 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO236",
+   "orange": false
+  },
+  "GJ 9172 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO247",
+   "orange": true
+  },
+  "GJ 120.1 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO253",
+   "orange": false
+  },
+  "GJ 120.1 Cb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Cb relative to Ca)",
+   "cell": "'Planetless 4+ Stars'!BO255",
+   "orange": false
+  },
+  "GJ 118.2 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (A)",
+   "cell": "'Planetless 4+ Stars'!BO256",
+   "orange": true
+  },
+  "GJ 629 Aa2 | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa1)",
+   "cell": "'Planetless 4+ Stars'!BO265",
+   "orange": false
+  },
+  "sig CrB Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO271",
+   "orange": false
+  },
+  "sig CrB B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO272",
+   "orange": false
+  },
+  "sig CrB Eb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Eb relative to Ea)",
+   "cell": "'Planetless 4+ Stars'!BO275",
+   "orange": false
+  },
+  "BD+08 2134 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO278",
+   "orange": false
+  },
+  "alf2 Lib Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO284",
+   "orange": true
+  },
+  "alf2 Lib Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO287",
+   "orange": false
+  },
+  "kap Tuc B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO292",
+   "orange": false
+  },
+  "kap Tuc D | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (D relative to C)",
+   "cell": "'Planetless 4+ Stars'!BO295",
+   "orange": false
+  },
+  "HR 8526 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO300",
+   "orange": true
+  },
+  "zet1 Cnc B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO304",
+   "orange": true
+  },
+  "zet1 Cnc C | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (C relative to AB)",
+   "cell": "'Planetless 4+ Stars'!BO305",
+   "orange": true
+  },
+  "zet1 Cnc Cb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Cb relative to Ca)",
+   "cell": "'Planetless 4+ Stars'!BO307",
+   "orange": false
+  },
+  "chi Cet Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO312",
+   "orange": true
+  },
+  "chi Cet Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO316",
+   "orange": true
+  },
+  "iot Leo B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO320",
+   "orange": false
+  },
+  "GJ 1108 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO332",
+   "orange": false
+  },
+  "GJ 3376 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO340",
+   "orange": false
+  },
+  "zet UMa Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO351",
+   "orange": false
+  },
+  "zet UMa Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO354",
+   "orange": true
+  },
+  "GJ 754.2 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO366",
+   "orange": false
+  },
+  "GJ 310.1 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO379",
+   "orange": true
+  },
+  "GJ 310.1 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO380",
+   "orange": false
+  },
+  "GJ 310.1 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Bb relative to Ba)",
+   "cell": "'Planetless 4+ Stars'!BO382",
+   "orange": false
+  },
+  "BD+37 1091 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO386",
+   "orange": true
+  },
+  "BD+37 1091 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO387",
+   "orange": true
+  },
+  "BD+39 496 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO392",
+   "orange": true
+  },
+  "ADS 9982 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO416",
+   "orange": false
+  },
+  "1 Hya Aa2 | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa1)",
+   "cell": "'Planetless 4+ Stars'!BO424",
+   "orange": true
+  },
+  "HR 2158 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO433",
+   "orange": true
+  },
+  "HR 2158 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO434",
+   "orange": false
+  },
+  "HR 2158 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO436",
+   "orange": true
+  },
+  "GJ 3725 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO440",
+   "orange": false
+  },
+  "GJ 9155 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO446",
+   "orange": false
+  },
+  "CD-52 2036 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO458",
+   "orange": true
+  },
+  "ksi Sco B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO465",
+   "orange": false
+  },
+  "ksi Sco C | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (C relative to AB)",
+   "cell": "'Planetless 4+ Stars'!BO466",
+   "orange": false
+  },
+  "GJ 747.2 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO472",
+   "orange": false
+  },
+  "HR 1099 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO484",
+   "orange": false
+  },
+  "HR 1099 B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO485",
+   "orange": true
+  },
+  "HR 1099 Bb | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Ba)",
+   "cell": "'Planetless 4+ Stars'!BO487",
+   "orange": true
+  },
+  "LP 395-8 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO491",
+   "orange": true
+  },
+  "GJ 3347 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO497",
+   "orange": false
+  },
+  "GJ 173.1 Aa2 | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Aa2 relative to Aa1)",
+   "cell": "'Planetless 4+ Stars'!BO511",
+   "orange": false
+  },
+  "GJ 173.1 Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ab relative to Aa)",
+   "cell": "'Planetless 4+ Stars'!BO512",
+   "orange": false
+  },
+  "nu Sco Ab | Argument of periastron refers to": {
+   "old": "",
+   "new": "primary (Aa)",
+   "cell": "'Planetless 4+ Stars'!BO530",
+   "orange": true
+  },
+  "nu Sco Ac | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (Ac relative to Aab)",
+   "cell": "'Planetless 4+ Stars'!BO531",
+   "orange": true
+  },
+  "nu Sco B | Argument of periastron refers to": {
+   "old": "",
+   "new": "secondary (B relative to A)",
+   "cell": "'Planetless 4+ Stars'!BO532",
+   "orange": true
+  },
+  "ksi UMa A | Barycentre offset (AU)": {
+   "old": 0.120052,
+   "new": 0.447247,
+   "cell": "'Planetless 4+ Stars'!BN18",
+   "orange": true
+  },
+  "mu Her BC | Barycentre offset (AU)": {
+   "old": 5.418223,
+   "new": 5.484728,
+   "cell": "'Planetless 4+ Stars'!BN27",
+   "orange": true
+  },
+  "GJ 569 B | Barycentre offset (AU)": {
+   "old": 0.373058,
+   "new": 0.388067,
+   "cell": "'Planetless 4+ Stars'!BN39",
+   "orange": true
+  },
+  "CD-65 332 B | Barycentre offset (AU)": {
+   "old": 0.351055,
+   "new": 0.385482,
+   "cell": "'Planetless 4+ Stars'!BN69",
+   "orange": true
+  },
+  "2MASS J07495087-0317194 B | Barycentre offset (AU)": {
+   "old": 0.280617,
+   "new": 0.227371,
+   "cell": "'Planetless 4+ Stars'!BN119",
+   "orange": true
+  },
+  "GJ 264.1 C | Barycentre offset (AU)": {
+   "old": 0.130848,
+   "new": 0.596127,
+   "cell": "'Planetless 4+ Stars'!BN125",
+   "orange": true
+  },
+  "GJ 225.2 CE | Barycentre offset (AU)": {
+   "old": 1.877052,
+   "new": 1.843002,
+   "cell": "'Planetless 4+ Stars'!BN144",
+   "orange": true
+  },
+  "GJ 231.1 A | Barycentre offset (AU)": {
+   "old": 4.151728,
+   "new": 4.49886,
+   "cell": "'Planetless 4+ Stars'!BN165",
+   "orange": true
+  },
+  "tau Cyg AB | Barycentre offset (AU)": {
+   "old": 6.69697,
+   "new": 6.764748,
+   "cell": "'Planetless 4+ Stars'!BN183",
+   "orange": true
+  },
+  "GJ 586 A | Barycentre offset (AU)": {
+   "old": 0.896735,
+   "new": 0.870854,
+   "cell": "'Planetless 4+ Stars'!BN210",
+   "orange": true
+  },
+  "HR 2468 AB | Barycentre offset (AU)": {
+   "old": 15.16795,
+   "new": 16.424377,
+   "cell": "'Planetless 4+ Stars'!BN233",
+   "orange": true
+  },
+  "sig CrB AB | Barycentre offset (AU)": {
+   "old": 37.467789,
+   "new": 35.513695,
+   "cell": "'Planetless 4+ Stars'!BN269",
+   "orange": true
+  },
+  "sig CrB E | Barycentre offset (AU)": {
+   "old": 0.650139,
+   "new": 3.010557,
+   "cell": "'Planetless 4+ Stars'!BN273",
+   "orange": true
+  },
+  "kap Tuc AB | Barycentre offset (AU)": {
+   "old": 50.205952,
+   "new": 59.219437,
+   "cell": "'Planetless 4+ Stars'!BN289",
+   "orange": true
+  },
+  "kap Tuc CD | Barycentre offset (AU)": {
+   "old": 12.779658,
+   "new": 12.293586,
+   "cell": "'Planetless 4+ Stars'!BN293",
+   "orange": true
+  },
+  "chi Cet A | Barycentre offset (AU)": {
+   "old": 0.350076,
+   "new": 1.2773,
+   "cell": "'Planetless 4+ Stars'!BN311",
+   "orange": true
+  },
+  "iot Leo AB | Barycentre offset (AU)": {
+   "old": 16.642196,
+   "new": 16.781609,
+   "cell": "'Planetless 4+ Stars'!BN319",
+   "orange": true
+  },
+  "zet UMa A | Barycentre offset (AU)": {
+   "old": 0.119375,
+   "new": 0.122235,
+   "cell": "'Planetless 4+ Stars'!BN350",
+   "orange": true
+  },
+  "GJ 310.1 AB | Barycentre offset (AU)": {
+   "old": 77.668072,
+   "new": 78.371406,
+   "cell": "'Planetless 4+ Stars'!BN377",
+   "orange": true
+  },
+  "GJ 310.1 B | Barycentre offset (AU)": {
+   "old": 0.437272,
+   "new": 0.437272,
+   "cell": "'Planetless 4+ Stars'!BN380",
+   "orange": true
+  },
+  "HR 2158 A | Barycentre offset (AU)": {
+   "old": 0.062059,
+   "new": 0.23392,
+   "cell": "'Planetless 4+ Stars'!BN432",
+   "orange": true
+  },
+  "GJ 9155 AB | Barycentre offset (AU)": {
+   "old": 106.30523,
+   "new": 106.129824,
+   "cell": "'Planetless 4+ Stars'!BN445",
+   "orange": true
+  },
+  "CD-52 2036 A | Barycentre offset (AU)": {
+   "old": 0.230312,
+   "new": 0.478672,
+   "cell": "'Planetless 4+ Stars'!BN457",
+   "orange": true
+  }
+ }
+}

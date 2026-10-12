@@ -1,0 +1,449 @@
+{
+ "title": "hy-brasil-20261009-1658",
+ "sp_rows": [
+  5674,
+  5692
+ ],
+ "counts": {
+  "published": 3,
+  "derived": 17,
+  "mass": 15,
+  "floor": 7,
+  "blank": 7
+ },
+ "plan": [
+  {
+   "star": "ups And B",
+   "tab": "Multi-stars within 100 ly",
+   "row": 12,
+   "tier": "published",
+   "L": 0.00445,
+   "mass": 0.171
+  },
+  {
+   "star": "GJ 644 C",
+   "tab": "Planetless 4+ Stars",
+   "row": 7,
+   "tier": "published",
+   "L": 0.00539,
+   "mass": 0.2
+  },
+  {
+   "star": "HD 23439 Ba",
+   "tab": "Multi-stars within 100 ly",
+   "row": 8,
+   "tier": "published",
+   "L": 0.204,
+   "mass": 0.75
+  },
+  {
+   "star": "iot UMa Aa",
+   "tab": "Planetless 4+ Stars",
+   "row": 23,
+   "tier": "derived",
+   "L": 9.63,
+   "mass": 1.67
+  },
+  {
+   "star": "chi Cet Aa",
+   "tab": "Planetless 4+ Stars",
+   "row": 116,
+   "tier": "derived",
+   "L": 5.56,
+   "mass": 1.49
+  },
+  {
+   "star": "tau Cyg Aa",
+   "tab": "Planetless 4+ Stars",
+   "row": 71,
+   "tier": "derived",
+   "L": 10.3,
+   "mass": 1.72
+  },
+  {
+   "star": "alf2 Lib Aa",
+   "tab": "Planetless 4+ Stars",
+   "row": 104,
+   "tier": "derived",
+   "L": 19.9,
+   "mass": 1.97
+  },
+  {
+   "star": "kap Tuc Aa",
+   "tab": "Planetless 4+ Stars",
+   "row": 107,
+   "tier": "derived",
+   "L": 3.95,
+   "mass": 1.35
+  },
+  {
+   "star": "ksi Sco A",
+   "tab": "Planetless 4+ Stars",
+   "row": 178,
+   "tier": "derived",
+   "L": 7.25,
+   "mass": 1.53
+  },
+  {
+   "star": "nu Sco Da",
+   "tab": "Planetless 4+ Stars",
+   "row": 208,
+   "tier": "derived",
+   "L": 53.0,
+   "mass": 1.96
+  },
+  {
+   "star": "GJ 684 A",
+   "tab": "Multi-stars within 100 ly",
+   "row": 5,
+   "tier": "derived",
+   "L": 1.33,
+   "mass": 1.07
+  },
+  {
+   "star": "GJ 684 B",
+   "tab": "Multi-stars within 100 ly",
+   "row": 6,
+   "tier": "derived",
+   "L": 0.128,
+   "mass": 0.7
+  },
+  {
+   "star": "HD 142 B",
+   "tab": "Multi-stars within 100 ly",
+   "row": 16,
+   "tier": "derived",
+   "L": 0.0515,
+   "mass": 0.579
+  },
+  {
+   "star": "psi1 Dra C",
+   "tab": "Multi-stars within 100 ly",
+   "row": 2,
+   "tier": "derived",
+   "L": 0.16,
+   "mass": 0.7
+  },
+  {
+   "star": "GJ 4317 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 92,
+   "tier": "derived",
+   "L": 0.00238,
+   "mass": 0.153
+  },
+  {
+   "star": "2MASS J19273089-4833528 Ca",
+   "tab": "Planetless 4+ Stars",
+   "row": 150,
+   "tier": "derived",
+   "L": 0.0157,
+   "mass": 0.3
+  },
+  {
+   "star": "HD 10647 Ba",
+   "tab": "Multi-stars within 100 ly",
+   "row": 3,
+   "tier": "derived",
+   "L": 0.00336,
+   "mass": 0.175
+  },
+  {
+   "star": "HD 10647 Bb",
+   "tab": "Multi-stars within 100 ly",
+   "row": 4,
+   "tier": "derived",
+   "L": 0.00287,
+   "mass": 0.159
+  },
+  {
+   "star": "GJ 376 Bb",
+   "tab": "Multi-stars within 100 ly",
+   "row": 10,
+   "tier": "derived",
+   "L": 0.0009,
+   "mass": 0.1
+  },
+  {
+   "star": "HD 149806 Bb",
+   "tab": "Multi-stars within 100 ly",
+   "row": 11,
+   "tier": "derived",
+   "L": 0.017,
+   "mass": 0.27
+  },
+  {
+   "star": "GJ 569 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 16,
+   "tier": "mass",
+   "L": 0.00302,
+   "mass": 0.147
+  },
+  {
+   "star": "GJ 1006 Ac",
+   "tab": "Planetless 4+ Stars",
+   "row": 36,
+   "tier": "mass",
+   "L": 0.00302,
+   "mass": 0.15
+  },
+  {
+   "star": "GJ 171.2 Ac",
+   "tab": "Planetless 4+ Stars",
+   "row": 50,
+   "tier": "mass",
+   "L": 0.00933,
+   "mass": 0.315
+  },
+  {
+   "star": "13 Cyg Eb",
+   "tab": "Planetless 4+ Stars",
+   "row": 57,
+   "tier": "mass",
+   "L": 0.00105,
+   "mass": 0.105
+  },
+  {
+   "star": "GJ 734 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 60,
+   "tier": "mass",
+   "L": 0.00398,
+   "mass": 0.204
+  },
+  {
+   "star": "GJ 119 C",
+   "tab": "Planetless 4+ Stars",
+   "row": 68,
+   "tier": "mass",
+   "L": 0.00398,
+   "mass": 0.186
+  },
+  {
+   "star": "GJ 119 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 70,
+   "tier": "mass",
+   "L": 0.00302,
+   "mass": 0.147
+  },
+  {
+   "star": "NLTT 14412 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 76,
+   "tier": "mass",
+   "L": 0.00302,
+   "mass": 0.165
+  },
+  {
+   "star": "iot Leo Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 122,
+   "tier": "mass",
+   "L": 0.00398,
+   "mass": 0.186
+  },
+  {
+   "star": "GJ 3376 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 127,
+   "tier": "mass",
+   "L": 0.00933,
+   "mass": 0.291
+  },
+  {
+   "star": "GJ 754.2 Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 139,
+   "tier": "mass",
+   "L": 0.00302,
+   "mass": 0.168
+  },
+  {
+   "star": "2MASS J19273089-4833528 Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 151,
+   "tier": "mass",
+   "L": 0.000646,
+   "mass": 0.09
+  },
+  {
+   "star": "2MASS J17061767+6438088 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 173,
+   "tier": "mass",
+   "L": 0.00162,
+   "mass": 0.12
+  },
+  {
+   "star": "nu Sco Db",
+   "tab": "Planetless 4+ Stars",
+   "row": 209,
+   "tier": "mass",
+   "L": 0.0407,
+   "mass": 0.5
+  },
+  {
+   "star": "HD 23439 Bb",
+   "tab": "Multi-stars within 100 ly",
+   "row": 9,
+   "tier": "mass",
+   "L": 0.00162,
+   "mass": 0.12
+  },
+  {
+   "star": "2MASS J15472982-2755121 Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 136,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.039
+  },
+  {
+   "star": "ADS 9982 Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 158,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.033
+  },
+  {
+   "star": "1 Hya Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 163,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.039
+  },
+  {
+   "star": "GJ 3725 Cb",
+   "tab": "Planetless 4+ Stars",
+   "row": 169,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.066
+  },
+  {
+   "star": "GJ 747.2 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 184,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.072
+  },
+  {
+   "star": "BD+37 1091 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 144,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.075
+  },
+  {
+   "star": "CD-52 2036 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 177,
+   "tier": "floor",
+   "L": 0.000151,
+   "mass": 0.075
+  },
+  {
+   "star": "nu Oct B",
+   "tab": "Multi-stars within 100 ly",
+   "row": 14,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.5727
+  },
+  {
+   "star": "ksi UMa Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 11,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.14
+  },
+  {
+   "star": "HD 151613 B",
+   "tab": "Multi-stars within 100 ly",
+   "row": 15,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.8
+  },
+  {
+   "star": "HD 207496 Bb",
+   "tab": "Multi-stars within 100 ly",
+   "row": 7,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.199
+  },
+  {
+   "star": "GJ 2130 C",
+   "tab": "Planetless 4+ Stars",
+   "row": 22,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.204
+  },
+  {
+   "star": "GJ 187.2 Ab",
+   "tab": "Planetless 4+ Stars",
+   "row": 153,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.2688
+  },
+  {
+   "star": "HR 1099 Bb",
+   "tab": "Planetless 4+ Stars",
+   "row": 189,
+   "tier": "blank",
+   "L": null,
+   "mass": 0.07
+  }
+ ],
+ "orange": [
+  "'Planetless 4+ Stars'!P23",
+  "'Planetless 4+ Stars'!P116",
+  "'Planetless 4+ Stars'!P71",
+  "'Planetless 4+ Stars'!P104",
+  "'Planetless 4+ Stars'!P107",
+  "'Planetless 4+ Stars'!P178",
+  "'Planetless 4+ Stars'!P208",
+  "'Multi-stars within 100 ly'!P5",
+  "'Multi-stars within 100 ly'!P6",
+  "'Multi-stars within 100 ly'!P16",
+  "'Multi-stars within 100 ly'!P2",
+  "'Planetless 4+ Stars'!P92",
+  "'Planetless 4+ Stars'!P150",
+  "'Multi-stars within 100 ly'!P3",
+  "'Multi-stars within 100 ly'!P4",
+  "'Multi-stars within 100 ly'!P10",
+  "'Multi-stars within 100 ly'!P11",
+  "'Planetless 4+ Stars'!P16",
+  "'Planetless 4+ Stars'!P36",
+  "'Planetless 4+ Stars'!P50",
+  "'Planetless 4+ Stars'!P57",
+  "'Planetless 4+ Stars'!P60",
+  "'Planetless 4+ Stars'!P68",
+  "'Planetless 4+ Stars'!P70",
+  "'Planetless 4+ Stars'!P76",
+  "'Planetless 4+ Stars'!P122",
+  "'Planetless 4+ Stars'!P127",
+  "'Planetless 4+ Stars'!P139",
+  "'Planetless 4+ Stars'!P151",
+  "'Planetless 4+ Stars'!P173",
+  "'Planetless 4+ Stars'!P209",
+  "'Multi-stars within 100 ly'!P9",
+  "'Planetless 4+ Stars'!P136",
+  "'Planetless 4+ Stars'!P158",
+  "'Planetless 4+ Stars'!P163",
+  "'Planetless 4+ Stars'!P169",
+  "'Planetless 4+ Stars'!P184",
+  "'Planetless 4+ Stars'!P144",
+  "'Planetless 4+ Stars'!P177"
+ ]
+}

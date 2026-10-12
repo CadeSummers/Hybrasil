@@ -1,0 +1,2249 @@
+{
+ "agent_id": "C02",
+ "phase": 3,
+ "coverage": [
+  {
+   "system_host": "(sweep) ESA Gaia (candidate) exoplanet list v20220613",
+   "aliases_searched": [
+    "Gaia-ASOI-001..073",
+    "Gaia-TROI-*",
+    "Gaia-RVOI-*"
+   ],
+   "sources_checked": [
+    "ESA Cosmos exoplanet page (last update 15 June 2022)",
+    "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+    "Gaia archive TAP: SELECT source_id, parallax ... FROM gaiadr3.gaia_source WHERE source_id IN (all 295 ids of the list) AND parallax > 20",
+    "gaiadr3.nss_two_body_orbit for the in-range sources"
+   ],
+   "result": "0 new candidates from the list itself",
+   "notes": "All 295 source IDs on the list queried for DR3 parallax. At >=32.616 mas: ASOI-003, -008, -025, -037, -054 (all already on the Unconfirmed tab), ASOI-004 and ASOI-068 (both the SAME source 4745373133284418816 = HR 810; -068 is flagged as known planet HR810b, and the single DR3 solution has P=331.7+/-6.2 d vs HR 810 b P=320.1 d, so -004 is the same signal, not a second planet), ASOI-070 (HD 111232 b, known), ASOI-072 (HD 142 b, known), ASOI-073 (GJ 876 b, known), TROI-096 (HD 189733 b, known). All known ones are on the confirmed tab. No list entry within 100 ly is missing. The list has not been updated since 15 June 2022 (per the page), so it does not flag later refutations."
+  },
+  {
+   "system_host": "WD 0141-675",
+   "aliases_searched": [
+    "WD 0141-675",
+    "GJ 3112",
+    "LHS 145",
+    "L 88-59",
+    "Gaia DR3 4698424845771339520",
+    "Gaia-ASOI-008"
+   ],
+   "sources_checked": [
+    "Gaia DR3 known issues page",
+    "WebSearch",
+    "arXiv:2310.05778",
+    "arXiv:2412.06920",
+    "Stefansson+2025 Table 4",
+    "Gaia TAP",
+    "SIMBAD TAP"
+   ],
+   "result": "existing row refuted (ESA retraction)",
+   "notes": "White dwarf, not a main-sequence star. ESA retracted the DR3 orbit in May 2023 (software bug). Rogers+2024: RV and IR limits only (<15.4 / <16 MJup). Ramirez+2025 ESPRESSO: tentative 15.6 d Ca K signal, low significance, not a planet claim. No Gaia DR3 radial_velocity (WD). FLAME/GSP-Phot empty; WD parameters from Rogers+2024 Table 1. Not on any pack CSV under any alias."
+  },
+  {
+   "system_host": "HD 12800",
+   "aliases_searched": [
+    "54 Cas",
+    "HD 12800",
+    "HIP 10031",
+    "Gaia DR3 522135261462534528",
+    "Gaia-ASOI-003"
+   ],
+   "sources_checked": [
+    "Gaia DR3 known issues page",
+    "WebSearch",
+    "arXiv:2603.19402",
+    "Stefansson+2025 Table 4",
+    "Marcussen & Albrecht 2023 table",
+    "Gaia TAP",
+    "SIMBAD TAP",
+    "TIC 8.2"
+   ],
+   "result": "existing row refuted (ESA retraction + RV non-detection)",
+   "notes": "ESA declared the DR3 orbit a false positive (27 May 2024 update). Venner+2026: 28 TRES RVs from 2022 on, no signal, and the proposed ~6-7 MJup companion 'would have been easily detected'. Not on planets_confirmed.csv or systems.csv under any alias."
+  },
+  {
+   "system_host": "GJ 4113",
+   "aliases_searched": [
+    "GJ 4113",
+    "Ross 1063",
+    "G 125-18",
+    "Gaia DR3 2052469973468984192",
+    "Gaia-ASOI-054",
+    "ASOI-54"
+   ],
+   "sources_checked": [
+    "Marcussen & Albrecht 2023 (arXiv html)",
+    "Stefansson+2025 Table 4",
+    "arXiv:2609.08590 (not covered there)",
+    "Gaia TAP",
+    "SIMBAD TAP",
+    "TIC 8.2"
+   ],
+   "result": "existing row refuted (SB2 stellar binary)",
+   "notes": "Marcussen & Albrecht 2023 Sec. IV.5: second FIES spectrum shows two CCF peaks 4.6 km/s apart -- 'a twin binary system'. Stefansson+2025 Table 4: status SB2 (refs Marcussen & Albrecht 2023, this work). Gaia implied companion mass 16.8+/-0.9 MJup in Stefansson Table 4 (22.9+/-1.6 MJup in Marcussen) -- above 13 MJup even before refutation."
+  },
+  {
+   "system_host": "GJ 773",
+   "aliases_searched": [
+    "GJ 773 B",
+    "LHS 3503",
+    "LP 754-5",
+    "HD 188807",
+    "Gaia DR3 4188996885011268608",
+    "Gaia-ASOI-025",
+    "ASOI-25"
+   ],
+   "sources_checked": [
+    "Stefansson+2025 Table 4",
+    "Marcussen & Albrecht 2023 table (listed Unknown there)",
+    "arXiv:2609.08590 (not covered)",
+    "Gaia TAP",
+    "SIMBAD TAP",
+    "WDS",
+    "TIC 8.2"
+   ],
+   "result": "existing row refuted (SB2 stellar binary)",
+   "notes": "Stefansson+2025 Table 4: G-ASOI-25, M*=0.17, P=406.4+/-3.5 d, M2=6.3+/-0.7 MJup if single, designation SB2 (this work). Host is the M5V wide companion B of the K7V star HD 188807 (GJ 773 A). Host mass for A: no FLAME mass and no TIC value; no paper value looked up (writer to derive or leave)."
+  },
+  {
+   "system_host": "APMPM J0710-5704",
+   "aliases_searched": [
+    "TSN 140",
+    "APM 89",
+    "APMPM J0710-5704",
+    "WDS J07096-5704",
+    "Gaia DR3 5486916932205092352",
+    "Gaia-ASOI-037"
+   ],
+   "sources_checked": [
+    "WebSearch",
+    "Vrijmoet+2026 AJ 171, 186 (via WebFetch of the journal page)",
+    "Stefansson+2025 Table 4 (status Unknown there)",
+    "Marcussen & Albrecht 2023 table (Unknown)",
+    "WDS",
+    "Gaia TAP",
+    "SIMBAD TAP",
+    "TIC 8.2"
+   ],
+   "result": "existing row refuted (resolved stellar binary)",
+   "notes": "Speckle at SOAR resolves the source into two near-equal M dwarfs whose visual orbit (P=0.698 yr = 254.9 d) matches the Gaia ASOI orbit (P=253.48+/-0.93 d); Vrijmoet+2026 say the two orbits 'match reasonably well'. The Gaia signal is the stellar pair's photocentre wobble."
+  },
+  {
+   "system_host": "(sweep) Feng et al. 2022, ApJS 262, 21",
+   "aliases_searched": [
+    "all 230 rows of VizieR J/ApJS/262/21/table3"
+   ],
+   "sources_checked": [
+    "arXiv:2208.12720 abstract + HTML text",
+    "VizieR J/ApJS/262/21/table3 (asu-tsv, all rows)",
+    "SIMBAD TAP parallaxes by HIP id",
+    "planets_confirmed.csv / unconfirmed_existing.csv / systems.csv"
+   ],
+   "result": "0 candidates",
+   "notes": "Feng+2022 reports its companions as detections, not candidates ('we discover', 'we find a new companion'); the only 'candidate' wording refers to earlier literature claims that it re-classifies. Every table-3 companion with mc<13.5 MJup and host parallax >=31 mas was checked against the sheet: the Feng-new ones within 100 ly (GJ 3222 b, GJ 9714 b, HD 115404 A b/c, HD 127506 b, HD 140901 b/c, HD 149806 b, HD 153557 b/c, HD 155918 b/c, HD 18143 b/c, HD 199509 b, HIP 55507 b) are all already on the confirmed tab. 112 Psc (HD 12235) c and HD 29985 b are just outside 100 ly (SIMBAD/Gaia EDR3 parallaxes 31.449 and 32.011 mas)."
+  },
+  {
+   "system_host": "(sweep) NASA confirmed imaging + astrometry planets within 30.7 pc",
+   "aliases_searched": [
+    "pscomppars discoverymethod in (Imaging, Astrometry) and sy_dist<30.7"
+   ],
+   "sources_checked": [
+    "NASA Exoplanet Archive TAP pscomppars (2026-09-23)",
+    "planets_confirmed.csv",
+    "systems.csv"
+   ],
+   "result": "1 confirmed planet missing from the confirmed tab (CFBDSIR J1458+1013 b); 3 more NASA entries >13 MJup",
+   "notes": "17 rows. On the sheet already: GJ 896 A b, COCONUTS-2 b, Ross 458 c, VHS 1256 b, GJ 504 b, HN Peg b, WD 0806-661 b, bet Pic b/c/d, GJ 900 b, G 196-3 b, AF Lep b, 51 Eri b. Missing: CFBDSIR J145829+101343 b (10.5 MJup), WISEP J121756.91+162640.2 A b (22 MJup), CWISEP J193518.59-154620.3 b (15.5 MJup), DENIS-P J082303.1-491201 b (28.5 MJup)."
+  },
+  {
+   "system_host": "TVLM 513-46546",
+   "aliases_searched": [
+    "TVLM 513-46546",
+    "TVLM 513b",
+    "2MASS J15010818+2250020"
+   ],
+   "sources_checked": [
+    "WebSearch",
+    "arXiv abs 2008.01595",
+    "exoplanet.eu",
+    "NASA ps",
+    "SIMBAD",
+    "Gaia TAP"
+   ],
+   "result": "1 candidate",
+   "notes": "Teff, radius and luminosity not looked up (ultracool dwarf; GSP-Phot would be unreliable). Writer may leave them blank or source them."
+  },
+  {
+   "system_host": "alf Cen A",
+   "aliases_searched": [
+    "alpha Centauri A",
+    "alf Cen A",
+    "Rigil Kentaurus",
+    "Alpha Centauri Ab",
+    "S1"
+   ],
+   "sources_checked": [
+    "WebSearch",
+    "arXiv abs 2508.03814",
+    "arXiv abs 2508.03812",
+    "NASA ps (no alf Cen A planet)"
+   ],
+   "result": "1 candidate (JWST imaging)",
+   "notes": "Only the JWST imaging candidate was examined (my scope). RV/other alf Cen claims were left to the phase-1/2 agents."
+  },
+  {
+   "system_host": "(sweep) Sahlmann & Gomez 2025, MNRAS 537, 1130 (arXiv:2404.09350), ML-selected Gaia DR3 orbits",
+   "aliases_searched": [
+    "all 121 Gaia DR3 source ids in the arXiv v1 HTML"
+   ],
+   "sources_checked": [
+    "arXiv:2404.09350v1 HTML Sec. 4.2-4.3",
+    "Gaia TAP parallax + nss_two_body_orbit for those ids"
+   ],
+   "result": "0 candidates",
+   "notes": "Its five high-probability exoplanet candidates are all existing ASOIs (ASOI-001, -002, -003, -005, -009); of these only ASOI-003 (54 Cas) is within 100 ly, and it is retracted. Sources within 100 ly among the paper's ids are known planets (HR 810, HD 142, HD 111232, GJ 876), the retracted ASOIs, or training/BD-candidate entries, not new planet candidates. The paper argues ASOI-005 (BD+24 4592) is questionable; beyond 100 ly anyway."
+  },
+  {
+   "system_host": "(sweep) Stefansson et al. 2025 Table 4 'single-lined, needs more data' ASOIs",
+   "aliases_searched": [
+    "Table 4 rows with designation Single/Unknown"
+   ],
+   "sources_checked": [
+    "arXiv:2410.05654 HTML Appendix D"
+   ],
+   "result": "0 candidates",
+   "notes": "All ASOI sources within 100 ly were checked by DR3 parallax (list sweep); none of the 'Single' or 'Unknown' ASOIs other than the five existing rows lies within 100 ly."
+  },
+  {
+   "system_host": "(sweep) GEODES I, Van Zandt et al. 2026, ApJ 1006 (doi 10.3847/1538-4357/ae74cd)",
+   "aliases_searched": [
+    "HIP 18512",
+    "HIP 45839",
+    "HIP 81991"
+   ],
+   "sources_checked": [
+    "journal page via WebFetch"
+   ],
+   "result": "0 candidates",
+   "notes": "HIP 18512: stellar companion. HIP 45839 (24.15 pc): 45 MJup brown dwarf. HIP 81991: 9.5 MJup, 65% planet, but 43.90 pc (beyond 100 ly)."
+  },
+  {
+   "system_host": "51 Peg",
+   "aliases_searched": [
+    "51 Peg",
+    "51 Peg c",
+    "51 Pegasi outer companion"
+   ],
+   "sources_checked": [
+    "exoplanet.eu TAP",
+    "WebSearch",
+    "arXiv abs 2605.11127",
+    "arXiv abs 1004.4700",
+    "NASA ps"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "Only the astrometry/imaging side was examined. exoplanet.eu '51 Peg c' (10 MJup, 37 AU, 2011) could not be traced to a paper in this session. Greaves 2006 CPM 'companions' are background stars (Mamajek 2010)."
+  },
+  {
+   "system_host": "HD 92945",
+   "aliases_searched": [
+    "HD 92945",
+    "HIP 52462",
+    "V419 Hya",
+    "HD 92945 c"
+   ],
+   "sources_checked": [
+    "Gratton+2024 Table 5",
+    "exoplanet.eu TAP",
+    "WebSearch",
+    "arXiv 2601.02156",
+    "arXiv 2511.07561",
+    "Gaia TAP",
+    "SIMBAD"
+   ],
+   "result": "1 candidate",
+   "notes": "PMa candidate; JWST non-detections constrain it to <20 au."
+  },
+  {
+   "system_host": "HD 45270",
+   "aliases_searched": [
+    "HD 45270",
+    "HIP 30314"
+   ],
+   "sources_checked": [
+    "Gratton+2024 Table 5",
+    "Lagrange+2025 Sec. 7",
+    "Gaia TAP",
+    "SIMBAD",
+    "NASA ps"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "PMa candidate disputed by Lagrange+2025."
+  },
+  {
+   "system_host": "iot Hyi",
+   "aliases_searched": [
+    "iot Hyi",
+    "HD 21024",
+    "HIP 15201"
+   ],
+   "sources_checked": [
+    "Gratton+2024 Table 5",
+    "Lagrange+2025 (target list only, no discussion)",
+    "Gaia TAP",
+    "SIMBAD",
+    "NASA ps"
+   ],
+   "result": "1 candidate",
+   "notes": "Mass straddles 13 MJup."
+  },
+  {
+   "system_host": "HD 155555",
+   "aliases_searched": [
+    "HD 155555",
+    "HIP 84586",
+    "V824 Ara"
+   ],
+   "sources_checked": [
+    "Gratton+2024 Table 5",
+    "exoplanet.eu TAP",
+    "Gaia TAP",
+    "SIMBAD",
+    "NASA ps"
+   ],
+   "result": "1 candidate",
+   "notes": "Circumbinary PMa candidate. Gaia DR3 has no astrophysical_parameters for the source; per-star parameters not looked up."
+  },
+  {
+   "system_host": "G 80-21",
+   "aliases_searched": [
+    "G 80-21",
+    "G80-21",
+    "HIP 17695",
+    "Karmn J03473-019"
+   ],
+   "sources_checked": [
+    "Lagrange+2025 HTML Sec. 6.1",
+    "WebSearch",
+    "NASA ps",
+    "Gaia TAP",
+    "SIMBAD"
+   ],
+   "result": "1 candidate",
+   "notes": "CARMENES target (Karmn id); no CARMENES planet paper was searched for."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "TVLM 513-46546 b",
+   "system_host": "TVLM 513-46546",
+   "new_system": true,
+   "planet_host_star": "TVLM 513-46546",
+   "aliases": [
+    "TVLM 513b",
+    "2MASS J15010818+2250020 b"
+   ],
+   "designation": "b (Curiel et al. 2020 'TVLM 513b')",
+   "tfopwg_disposition": "",
+   "tier": "strong",
+   "tier_reason": "The discovery paper itself calls it a candidate: one VLBA astrometric data set, one team, never independently confirmed. No published contrary evidence found. exoplanet.eu lists it as confirmed, NASA does not list it at all. The mass is poorly pinned (exoplanet.eu 0.38+/-0.24 MJ). Tier it ambiguous instead if the writer counts a single-instrument detection as enough reason.",
+   "detection_method": "Astrometry (radio, VLBA)",
+   "period_d": {
+    "value": 221,
+    "src": "CU20",
+    "where": "abstract: 221 +/- 5 d",
+    "err": "+/-5"
+   },
+   "a_au": {
+    "value": 0.295,
+    "src": "CU20",
+    "where": "abstract: a = 0.28-0.31 AU (midpoint of the published range)",
+    "err": "range 0.28-0.31"
+   },
+   "ecc": {
+    "value": 0.0,
+    "src": "CU20",
+    "where": "abstract: circular orbit (e ~ 0)"
+   },
+   "mass_earth": {
+    "value": null,
+    "src": "CU20",
+    "where": "abstract: true mass 0.35-0.42 MJup (inclination 71-88 deg); writer to convert",
+    "type": "true mass (astrometric)",
+    "err": "range 0.35-0.42 MJup"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.07,
+     "src": "CU20",
+     "where": "abstract: 0.06-0.08 Msun (midpoint of the published range)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "True mass and orbit from VLBA astrometry alone (P, a, i=71-88 deg, e~0). No RV, no second instrument. Host is an M8.5-M9 ultracool dwarf near the hydrogen-burning limit (0.06-0.08 Msun). Gaia DR3 has no orbit solution (non_single_star=0, RUWE 1.66).",
+   "reference": "Curiel et al. 2020, AJ 160, 97, abstract",
+   "vetting_date": "2020-08-04",
+   "catalogue_distance_ly": {
+    "value": 35.01,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 93.1655+/-0.1355 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "CU20": {
+     "citation": "Curiel, Ortiz-Leon, Mioduszewski & Torres 2020, AJ 160, 97 (arXiv:2008.01595), 'An astrometric planetary companion candidate to the M9 dwarf TVLM 513-46546'",
+     "url": "https://arxiv.org/abs/2008.01595",
+     "what": "VLBA astrometric orbit; abstract values"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "cone search 36 arcsec around 225.2838 +22.8336; source_id 1262763648230973440 (run 2026-09-24)"
+    },
+    "EU": {
+     "citation": "exoplanet.eu, TVLM 513-46546 b",
+     "url": "https://exoplanet.eu/catalog/tvlm_513_46546_b--7453/",
+     "what": "status Confirmed; M=0.38+/-0.24 MJ, P=220+/-5 d, a=0.3 AU; host 0.08 Msun, M8.5V"
+    },
+    "NASA": {
+     "citation": "NASA Exoplanet Archive ps table, hostname like '%TVLM%'",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+     "what": "no rows: NASA does not list the planet"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "sp_type M8.5V"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and systems.csv for TVLM 513 / 2MASS J1501+2250: absent. NASA ps: absent.",
+   "confidence_notes": "A real published orbit from a good instrument, but one data set and one team, six years with no follow-up paper found."
+  },
+  {
+   "planet": "alf Cen A candidate S1 (P=2-3 yr)",
+   "system_host": "alf Cen A",
+   "new_system": false,
+   "planet_host_star": "alf Cen A",
+   "aliases": [
+    "Alpha Centauri Ab",
+    "S1",
+    "C1 (VLT/NEAR 2019, if the same object)"
+   ],
+   "designation": "S1 (Beichman et al. 2025); no letter assigned",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-epoch imaging detection at 3.3-4.3 sigma, one roll angle, and not re-detected in the two JWST follow-up epochs (Feb, Apr 2025). The authors call it a candidate and say a third detection is needed; they give a 52% chance it was missed through orbital motion.",
+   "detection_method": "Imaging (JWST/MIRI coronagraph, 15.5 um)",
+   "period_d": {
+    "value": null,
+    "src": "BE25",
+    "where": "abstract: dynamically stable orbit families with periods 2-3 years; no single value",
+    "err": "range 2-3 yr"
+   },
+   "a_au": null,
+   "ecc": {
+    "value": 0.4,
+    "src": "BE25",
+    "where": "abstract: e ~ 0.4",
+    "err": "approximate"
+   },
+   "mass_earth": {
+    "value": null,
+    "src": "BE25",
+    "where": "abstract: 90-150 Mearth from photometry and orbit",
+    "type": "model mass (from photometry)",
+    "err": "range 90-150"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No measured orbit: one detection at ~1.5 arcsec (~2 au projected), then two non-detections. Periods 2-3 yr, e~0.4 and a mutual inclination of ~50 or ~130 deg to the alf Cen AB orbit come from orbit families that fit the non-detections. Temperature ~225 K, radius ~1-1.1 RJup from 15.5 um photometry. Best observability for a re-detection was predicted for August 2026 (secondary reporting, not verified).",
+   "reference": "Beichman et al. 2025, ApJL, 'Worlds Next Door ... I.' (arXiv:2508.03814), abstract; Sanghi et al. 2025, ApJL (arXiv:2508.03812)",
+   "vetting_date": "2025-08-05",
+   "catalogue_distance_ly": null,
+   "wikipedia_values": [],
+   "sources": {
+    "BE25": {
+     "citation": "Beichman, Sanghi, Mawet et al. 2025, ApJL (doi 10.3847/2041-8213/adf53f; arXiv:2508.03814), 'Worlds Next Door ... I.'",
+     "url": "https://arxiv.org/abs/2508.03814",
+     "what": "S1 detection, orbit families, mass 90-150 Mearth (abstract)"
+    },
+    "SA25": {
+     "citation": "Sanghi, Beichman, Mawet et al. 2025, ApJL (doi 10.3847/2041-8213/adf53e; arXiv:2508.03812), 'Worlds Next Door ... II.'",
+     "url": "https://arxiv.org/abs/2508.03812",
+     "what": "S/N 4-6 (3.3-4.3 sigma), separation ~1.5 arcsec (2 au), not re-detected Feb/Apr 2025 (abstract)"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv / unconfirmed_existing.csv for alf Cen A / alpha Cen / Rigil Kentaurus: only Proxima Cen b/d under this system; no alf Cen A planet or candidate. Phase-1 agent A01 may also report this one; the writer should keep a single row.",
+   "confidence_notes": "Tantalising, not established: one noisy detection that then vanished."
+  },
+  {
+   "planet": "51 Peg candidate outer companion (15-100 AU)",
+   "system_host": "51 Peg",
+   "new_system": false,
+   "planet_host_star": "51 Peg",
+   "aliases": [
+    "51 Peg c (exoplanet.eu, 10 MJup at 37 AU)"
+   ],
+   "designation": "unnamed 'potential outer companion' (Morgan et al. 2026); no letter in the paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "The authors themselves say the RV acceleration is driven mainly by the Lick/Hamilton data and its slope is consistent with long-term instrument drift, which calls the signal into question. There is no astrometric or imaging detection, only limits. Even if real, it may be a brown dwarf rather than a planet.",
+   "detection_method": "Radial velocity trend + Hipparcos-Gaia astrometry + imaging limits",
+   "period_d": null,
+   "a_au": {
+    "value": null,
+    "src": "MO26",
+    "where": "abstract: super-Jupiter at ~15-100 AU (or BD at ~20-170 AU); no single value",
+    "err": "range 15-100 AU"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "MO26",
+    "where": "abstract: 'super-Jupiter' (or brown dwarf); no single value in the abstract",
+    "type": "constrained range only"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit: joint RV curvature, astrometric and imaging constraints give only a mass-separation region. The signal may be instrumental. exoplanet.eu carries a separate '51 Peg c' (10 MJup, 37 AU, 'discovered 2011'). Its source could not be traced this session, and the 2011-era common-proper-motion companions were shown to be background stars (Mamajek 2010, arXiv:1004.4700).",
+   "reference": "Morgan et al. 2026, AJ, arXiv:2605.11127, abstract",
+   "vetting_date": "2026-05-11",
+   "catalogue_distance_ly": null,
+   "wikipedia_values": [],
+   "sources": {
+    "MO26": {
+     "citation": "Morgan, Bowler, Franson, Jiang et al. 2026, AJ (doi 10.3847/1538-3881/ae6cfa; arXiv:2605.11127), 'An Outer Giant Planet or Brown Dwarf in the 51 Pegasi System?'",
+     "url": "https://arxiv.org/abs/2605.11127",
+     "what": "abstract: RV curvature + Hipparcos-Gaia + imaging non-detections; super-Jupiter at 15-100 AU or BD at 20-170 AU; slope consistent with Lick instrument drift"
+    },
+    "EUTAP": {
+     "citation": "exoplanet.eu via VO-Paris TAP exoplanet.epn_core (2026-09-24)",
+     "url": "http://voparis-tap-planeto.obspm.fr/tap",
+     "what": "entry '51 Peg c': 10 MJup, a=37 AU, Imaging#Astrometry, discovered 2011; no usable bibcode in the TAP row"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv / unconfirmed_existing.csv for 51 Peg: only 51 Peg b. The phase-2 agent covering 51 Peg (if any) may also report this; keep one row.",
+   "confidence_notes": "Probably a drifting spectrograph, not a planet. It is listed only because a 2026 paper puts the question in its title."
+  },
+  {
+   "planet": "HD 92945 candidate (PMa, a~15 au)",
+   "system_host": "HD 92945",
+   "new_system": true,
+   "planet_host_star": "HD 92945",
+   "aliases": [
+    "HIP 52462 b (Gratton+2024 Table 5)",
+    "HD 92945 c (exoplanet.eu)",
+    "V419 Hya",
+    "GJ 3615"
+   ],
+   "designation": "HIP 52462 in Gratton et al. 2024 Table 5 (no letter); exoplanet.eu calls it 'HD 92945 c'",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "The only evidence is a Hipparcos-Gaia PMa, which gives no orbit. JWST NIRCam and MIRI (2025-26) found nothing and push any such planet inside ~20 au. The PMa signal itself is not disputed, and its Frac(JL) is only 0.19, so most solutions are not Jupiter-like.",
+   "detection_method": "Astrometry (Hipparcos-Gaia proper-motion anomaly)",
+   "period_d": null,
+   "a_au": {
+    "value": 14.64,
+    "src": "GR",
+    "where": "Table 5, a = 14.64 +/- 14.98 au",
+    "err": "+/-14.98"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "GR",
+    "where": "Table 5, M_B = 0.0007 +/- 0.0003 Msun (writer to convert; Frac(JL)=0.187 = fraction of solutions in the Jupiter-like regime)",
+    "type": "true mass from PMa (degenerate with a)",
+    "err": "+/-0.0003 Msun"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.833,
+     "src": "GR",
+     "where": "Table 5, M_A"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit. One PMa measurement (Hipparcos-Gaia) turned into a mass-separation locus. Gratton+2024 quote a single a and M_B from a Monte Carlo that uses the RUWE and imaging limits; the uncertainties are about 100% in a. JWST/NIRCam (Lazzoni+2025) and MIRI (Bendahan-West+2026) found no companion; they place the PMa source inside ~20 au and favour one or more sub-Jupiters. Debris disc with a gap at ~72-80 au.",
+   "reference": "Gratton et al. 2024, A&A 685, A119, Table 5",
+   "vetting_date": "2024-02-03",
+   "catalogue_distance_ly": {
+    "value": 70.15,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 46.4931 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5455707157211784832 (run 2026-09-24)"
+    },
+    "BW26": {
+     "citation": "Bendahan-West, Marino, Carter et al. 2026, MNRAS (doi 10.1093/mnras/staf2255; arXiv:2601.02156)",
+     "url": "https://arxiv.org/abs/2601.02156",
+     "what": "JWST/MIRI: no planet detected; the PMa planet must lie within ~20 au"
+    },
+    "LZ25": {
+     "citation": "Lazzoni, Bendahan-West, Marino et al. 2025, A&A (arXiv:2511.07561)",
+     "url": "https://arxiv.org/abs/2511.07561",
+     "what": "JWST/NIRCam: excludes >1 MJ beyond 20-40 au; 'rules out a single planet beyond ~20 au as responsible for the astrometric signal'"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv, systems.csv for HD 92945 / HIP 52462 / V419 Hya / GJ 3615: absent. NASA ps: not listed.",
+   "confidence_notes": "A real acceleration with no planet seen. 'Sub-Jupiter somewhere inside 20 au' is the honest summary."
+  },
+  {
+   "planet": "HD 45270 candidate (PMa, a~13 au)",
+   "system_host": "HD 45270",
+   "new_system": true,
+   "planet_host_star": "HD 45270",
+   "aliases": [
+    "HIP 30314 b (Gratton+2024, Lagrange+2025)"
+   ],
+   "designation": "HIP 30314 in Gratton et al. 2024 Table 5; 'HIP 30314b' in Lagrange et al. 2025 Sec. 7",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Gratton+2024 inferred ~1.2 MJup from a PMa. Lagrange+2025 re-derived the noise budget and find N-sigma(RUWE)=0.4 and N-sigma(PMa)=1.2, so 'we rule out any evidence of companion in the HIP 30314 system'. That is no evidence, not proof of absence.",
+   "detection_method": "Astrometry (Hipparcos-Gaia proper-motion anomaly)",
+   "period_d": null,
+   "a_au": {
+    "value": 13.28,
+    "src": "GR",
+    "where": "Table 5, a = 13.28 +/- 13.93 au",
+    "err": "+/-13.93"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "GR",
+    "where": "Table 5, M_B = 0.0011 +/- 0.0004 Msun (writer to convert; Frac(JL)=0.507 = fraction of solutions in the Jupiter-like regime)",
+    "type": "true mass from PMa (degenerate with a)",
+    "err": "+/-0.0004 Msun"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.067,
+     "src": "GR",
+     "where": "Table 5, M_A"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit. One PMa measurement (Hipparcos-Gaia) turned into a mass-separation locus. Gratton+2024 quote a single a and M_B from a Monte Carlo that uses the RUWE and imaging limits; the uncertainties are about 100% in a. Contested: Lagrange+2025 (Sec. 7) find the PMa below 2 sigma once instrumental noise is included.",
+   "reference": "Gratton et al. 2024, A&A 685, A119, Table 5",
+   "vetting_date": "2024-02-03",
+   "catalogue_distance_ly": {
+    "value": 77.86,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 41.8877 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5481848424118748672 (run 2026-09-24)"
+    },
+    "LA": {
+     "citation": "Lagrange, Kiefer, Rubini, Squicciarini, Chomez et al. 2025 (arXiv:2501.10488), 'Searching for substellar companion candidates with Gaia. III. Search for companions to members of young associations'",
+     "url": "https://arxiv.org/abs/2501.10488",
+     "what": "GaiaPMEX re-analysis; Sec. 6.1 G80-21 b; Sec. 7 finds no >2-sigma evidence for HIP 30314 b and HIP 88399 b"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv, systems.csv for HD 45270 / HIP 30314: absent. NASA ps: not listed.",
+   "confidence_notes": "Probably nothing there: the one signal fails a stricter noise treatment."
+  },
+  {
+   "planet": "iot Hyi candidate (PMa, a~18 au)",
+   "system_host": "iot Hyi",
+   "new_system": true,
+   "planet_host_star": "iot Hyi",
+   "aliases": [
+    "HIP 15201 b (Gratton+2024 Table 5)",
+    "HD 21024"
+   ],
+   "designation": "HIP 15201 in Gratton et al. 2024 Table 5 (no letter)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "The only evidence is a PMa. The central mass, 0.0135 +/- 0.0114 Msun (~14 MJup), sits above 13 MJup, with Frac(JL)=0.63 of the solutions Jupiter-like. So it is as likely a brown dwarf as a planet. No follow-up found.",
+   "detection_method": "Astrometry (Hipparcos-Gaia proper-motion anomaly)",
+   "period_d": null,
+   "a_au": {
+    "value": 17.78,
+    "src": "GR",
+    "where": "Table 5, a = 17.78 +/- 12.87 au",
+    "err": "+/-12.87"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "GR",
+    "where": "Table 5, M_B = 0.0135 +/- 0.0114 Msun (writer to convert; Frac(JL)=0.634 = fraction of solutions in the Jupiter-like regime)",
+    "type": "true mass from PMa (degenerate with a)",
+    "err": "+/-0.0114 Msun"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.391,
+     "src": "GR",
+     "where": "Table 5, M_A"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit. One PMa measurement (Hipparcos-Gaia) turned into a mass-separation locus. Gratton+2024 quote a single a and M_B from a Monte Carlo that uses the RUWE and imaging limits; the uncertainties are about 100% in a. Central mass above 13 MJup; kept only because the authors list it as a candidate Jupiter-like planet. Writer may prefer to drop it.",
+   "reference": "Gratton et al. 2024, A&A 685, A119, Table 5",
+   "vetting_date": "2024-02-03",
+   "catalogue_distance_ly": {
+    "value": 95.19,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 34.2638 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=4626843786944938880 (run 2026-09-24)"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv, systems.csv for iot Hyi / HD 21024 / HIP 15201: absent. NASA ps: not listed.",
+   "confidence_notes": "Weak: a PMa with a mass that straddles the brown-dwarf line."
+  },
+  {
+   "planet": "HD 155555 AB candidate (PMa, a~7 au)",
+   "system_host": "HD 155555",
+   "new_system": true,
+   "planet_host_star": "HD 155555",
+   "aliases": [
+    "HIP 84586 b (Gratton+2024 Table 5)",
+    "HD 155555 (AB)b / V824 Ara (AB)b (exoplanet.eu)"
+   ],
+   "designation": "HIP 84586 in Gratton et al. 2024 Table 5 (no letter); exoplanet.eu 'HD 155555 (AB)b'",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Only a PMa, no orbit. The host is a close G5V+K1V spectroscopic binary (M_A = 2.234 Msun is the pair), so the companion would be circumbinary, and the binary's own photocentre motion complicates the PMa. Frac(JL)=0.98 favours a planet mass. No follow-up found.",
+   "detection_method": "Astrometry (Hipparcos-Gaia proper-motion anomaly)",
+   "period_d": null,
+   "a_au": {
+    "value": 7.28,
+    "src": "GR",
+    "where": "Table 5, a = 7.28 +/- 4.28 au",
+    "err": "+/-4.28"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "GR",
+    "where": "Table 5, M_B = 0.0038 +/- 0.0012 Msun (writer to convert; Frac(JL)=0.984 = fraction of solutions in the Jupiter-like regime)",
+    "type": "true mass from PMa (degenerate with a)",
+    "err": "+/-0.0012 Msun"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 2.234,
+     "src": "GR",
+     "where": "Table 5, M_A"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit. One PMa measurement (Hipparcos-Gaia) turned into a mass-separation locus. Gratton+2024 quote a single a and M_B from a Monte Carlo that uses the RUWE and imaging limits; the uncertainties are about 100% in a. Host is the close binary V824 Ara AB (SIMBAD G5V+K1V); M_A is the pair's combined mass. Gaia DR3 gives no radial_velocity and no FLAME/GSP-Phot values for this source. 32.95 mas is just inside the 100 ly cut.",
+   "reference": "Gratton et al. 2024, A&A 685, A119, Table 5",
+   "vetting_date": "2024-02-03",
+   "catalogue_distance_ly": {
+    "value": 98.98,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 32.9511 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5811866422581688320 (run 2026-09-24)"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv, systems.csv for HD 155555 / HIP 84586 / V824 Ara: absent. NASA ps: not listed.",
+   "confidence_notes": "A PMa around a binary: suggestive at best."
+  },
+  {
+   "planet": "G 80-21 b",
+   "system_host": "G 80-21",
+   "new_system": true,
+   "planet_host_star": "G 80-21",
+   "aliases": [
+    "G80-21 b",
+    "HIP 17695 b",
+    "Karmn J03473-019 b"
+   ],
+   "designation": "G80-21 b (Lagrange et al. 2025, Sec. 6.1)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "The authors say they detect a new giant planet, but the evidence is a 3.5-sigma Gaia RUWE excess (the PMa is not significant) plus HARPS RV and imaging limits. There is no orbit. HARPS RVs are dominated by activity (P_rot 3.8 d). NASA does not list it.",
+   "detection_method": "Astrometry (Gaia RUWE excess, GaiaPMEX) + RV and imaging limits",
+   "period_d": null,
+   "a_au": {
+    "value": null,
+    "src": "LA",
+    "where": "Sec. 6.1.1: sma 0.5-2 au, maximum probability below 1 au (MCMC, Fig. 9)",
+    "err": "range 0.5-2 au"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "src": "LA",
+    "where": "Sec. 6.1.1: 2-6 MJup, peak probability 3-4 MJup (MCMC, Fig. 9); <8-10 MJup unless pole-on",
+    "type": "true mass range (astrometry+RV limits)",
+    "err": "range 2-6 MJup"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.46,
+     "src": "LA",
+     "where": "Sec. 6.1.1: 0.46 Msun, M3 star"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit: a GaiaPMEX mass-sma locus cut by HARPS RV limits over ~110 d. A peak at 0.33 au is a window-function artefact. Young (AB Dor moving group), active M3 dwarf. The paper's '(HIP 17659)' is a typo: G 80-21 is HIP 17695 (SIMBAD).",
+   "reference": "Lagrange et al. 2025, 'Searching for substellar companion candidates with Gaia. III', Sec. 6.1 (arXiv:2501.10488)",
+   "vetting_date": "2025-01-17",
+   "catalogue_distance_ly": {
+    "value": 54.88,
+    "src": "GDR3",
+    "where": "Gaia DR3 parallax 59.4320 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "LA": {
+     "citation": "Lagrange, Kiefer, Rubini, Squicciarini, Chomez et al. 2025 (arXiv:2501.10488), 'Searching for substellar companion candidates with Gaia. III. Search for companions to members of young associations'",
+     "url": "https://arxiv.org/abs/2501.10488",
+     "what": "GaiaPMEX re-analysis; Sec. 6.1 G80-21 b; Sec. 7 finds no >2-sigma evidence for HIP 30314 b and HIP 88399 b"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=3250328209054347264 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv / unconfirmed_existing.csv / systems.csv for G 80-21 / G80-21 / HIP 17695 / Karmn J03473-019: absent. NASA ps: absent.",
+   "confidence_notes": "Plausible but thin: Gaia noise excess plus RV limits, with no Keplerian signal."
+  }
+ ],
+ "new_systems": [
+  {
+   "system_host": "WD 0141-675",
+   "nickname": "",
+   "aliases": [
+    "GJ 3112",
+    "LHS 145",
+    "L 88-59",
+    "LTT 934",
+    "EC 01416-6733",
+    "TIC 24705587",
+    "Gaia-ASOI-008"
+   ],
+   "parallax_mas": {
+    "value": 102.9078,
+    "src": "GDR3",
+    "where": "parallax 102.9078+/-0.0111"
+   },
+   "distance_ly": {
+    "value": 31.69,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156 (writer to recompute by sheet method)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.58,
+    "src": "RO24",
+    "where": "Table 1, Subasavage et al. 2017 parameters via wdwarfdate: 0.58+/-0.02 (their own spectroscopic fit gives 0.65+/-0.03)"
+   },
+   "stellar_class": {
+    "value": "DAZ",
+    "src": "RO24",
+    "where": "Table 1 SpT (SIMBAD: DA8.1)"
+   },
+   "teff_k": {
+    "value": 6380,
+    "src": "RO24",
+    "where": "Table 1, Subasavage et al. 2017: 6380+/-120 K (spectroscopic fit this work: 6421+/-90)"
+   },
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": {
+    "value": 7.97,
+    "src": "RO24",
+    "where": "Table 1, Subasavage et al. 2017: 7.97+/-0.03"
+   },
+   "age_gyr": {
+    "value": 8.02,
+    "src": "RO24",
+    "where": "Table 1 total age 8.02 +3.62/-2.99 Gyr (cooling age 1.94 Gyr)"
+   },
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": -329.264,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -1018.509,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "4698424845771339520",
+   "companions": [],
+   "sources": {
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.gaia_source WHERE source_id=4698424845771339520 (run 2026-09-23)"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.astrophysical_parameters WHERE source_id=4698424845771339520 (run 2026-09-23)"
+    },
+    "KI": {
+     "citation": "Gaia DR3 known issues: 'NSS: False-positive astrometric binary solutions (updated)', published 5 May 2023, updated 27 May 2024",
+     "url": "https://www.cosmos.esa.int/web/gaia/dr3-known-issues",
+     "what": "ESA declares the DR3 orbit solutions of WD 0141-675, HIP 64690, 54 Cas and HIP 66074 false positives (software bug)"
+    },
+    "RO24": {
+     "citation": "Rogers et al. 2024, MNRAS 527, 977 (arXiv:2310.05778), 'WD 0141-675: a case study on how to follow-up astrometric planet candidates around white dwarfs'",
+     "url": "https://arxiv.org/abs/2310.05778",
+     "what": "Table 1 WD parameters; RV limit <15.4 MJup, IR limit <16 MJup for the retracted candidate"
+    },
+    "RA25": {
+     "citation": "Ramirez et al. 2025, MNRAS (doi 10.1093/mnras/staf652; arXiv:2412.06920), 'ESPRESSO observations of the debris-accreting white dwarf WD 0141-675'",
+     "url": "https://arxiv.org/abs/2412.06920",
+     "what": "tentative low-significance 15.6+/-0.9 d Ca K RV signal, about half the retracted 33.65 d astrometric period"
+    },
+    "STEF": {
+     "citation": "Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), 'Gaia-4b and 5b...'",
+     "url": "https://arxiv.org/abs/2410.05654",
+     "what": "Table 4 (Appendix D): status of every Gaia-ASOI; M* from Giovinazzi & Blake 2022 photometric relation assuming a single star"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident tables",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases and spectral types"
+    },
+    "LIST": {
+     "citation": "ESA Gaia (candidate) exoplanet list v20220613",
+     "url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+     "what": "ASOI ids and DR3 source ids"
+    }
+   }
+  },
+  {
+   "system_host": "HD 12800",
+   "nickname": "54 Cas",
+   "aliases": [
+    "54 Cas",
+    "HIP 10031",
+    "BD+70 163",
+    "SAO 4588",
+    "TIC 357744191",
+    "Gaia-ASOI-003"
+   ],
+   "parallax_mas": {
+    "value": 37.0117,
+    "src": "GDR3",
+    "where": "parallax 37.0117+/-0.0173"
+   },
+   "distance_ly": {
+    "value": 88.12,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.98,
+    "src": "VE26",
+    "where": "Table 1, MIST isochrone fit: 0.98 +0.05/-0.04 (Gaia FLAME mass_flame 1.076 [1.036-1.116]; TIC 1.15+/-0.15)"
+   },
+   "stellar_class": {
+    "value": "F8",
+    "src": "VE26",
+    "where": "Section II: 'spectral type conventionally given as F8' (Henry Draper); SIMBAD F8"
+   },
+   "teff_k": {
+    "value": 6000,
+    "src": "VE26",
+    "where": "Table 1, SPC on TRES spectra: 6000+/-50 K (GSP-Phot 5998, GSP-Spec 6077)"
+   },
+   "radius_rsun": {
+    "value": 1.082,
+    "src": "VE26",
+    "where": "Table 1: 1.082+/-0.024 (FLAME radius_flame 1.110)"
+   },
+   "luminosity_lsun": {
+    "value": 1.36,
+    "src": "VE26",
+    "where": "Table 1: 1.36+/-0.07 (FLAME lum_flame 1.437)"
+   },
+   "logg": {
+    "value": 4.26,
+    "src": "VE26",
+    "where": "Table 1: 4.26+/-0.10"
+   },
+   "age_gyr": {
+    "value": 5.7,
+    "src": "VE26",
+    "where": "Table 1: 5.7 +1.7/-1.9 (FLAME age_flame 3.67)"
+   },
+   "feh": {
+    "value": -0.24,
+    "src": "VE26",
+    "where": "Table 1 [M/H] = -0.24+/-0.08"
+   },
+   "rv_kms": {
+    "value": 0.584,
+    "src": "GDR3",
+    "where": "radial_velocity 0.58+/-0.12"
+   },
+   "pmra_masyr": {
+    "value": 306.91,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -239.244,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "522135261462534528",
+   "companions": [],
+   "sources": {
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.gaia_source WHERE source_id=522135261462534528 (run 2026-09-23)"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.astrophysical_parameters WHERE source_id=522135261462534528 (run 2026-09-23)"
+    },
+    "KI": {
+     "citation": "Gaia DR3 known issues: 'NSS: False-positive astrometric binary solutions (updated)', published 5 May 2023, updated 27 May 2024",
+     "url": "https://www.cosmos.esa.int/web/gaia/dr3-known-issues",
+     "what": "ESA declares the DR3 orbit solutions of WD 0141-675, HIP 64690, 54 Cas and HIP 66074 false positives (software bug)"
+    },
+    "VE26": {
+     "citation": "Venner, Huang, Latham, Quinn et al. 2026, AJ (doi 10.3847/1538-3881/ae4e2b; arXiv:2603.19402), 'A Planetary Illusion's Funeral: Non-detection of a Gaia DR3 Exoplanet Candidate...'",
+     "url": "https://arxiv.org/abs/2603.19402",
+     "what": "28 TRES RVs of HD 12800 do not detect the candidate, which 'would have been easily detected'; Table 1 stellar parameters"
+    },
+    "STEF": {
+     "citation": "Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), 'Gaia-4b and 5b...'",
+     "url": "https://arxiv.org/abs/2410.05654",
+     "what": "Table 4 (Appendix D): status of every Gaia-ASOI; M* from Giovinazzi & Blake 2022 photometric relation assuming a single star"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident tables",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases and spectral types"
+    },
+    "LIST": {
+     "citation": "ESA Gaia (candidate) exoplanet list v20220613",
+     "url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+     "what": "ASOI ids and DR3 source ids"
+    },
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019), VizieR IV/39/tic82",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=IV/39/tic82",
+     "what": "Teff, radius, mass, luminosity from single-star M-dwarf relations (query by TIC id)"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 4113",
+   "nickname": "",
+   "aliases": [
+    "Ross 1063",
+    "G 125-18",
+    "LSPM J1933+3931",
+    "KIC 4470937",
+    "TIC 138104312",
+    "Gaia-ASOI-054"
+   ],
+   "parallax_mas": {
+    "value": 57.5745,
+    "src": "GDR3",
+    "where": "parallax 57.5745+/-0.0675 (RUWE 4.74: fit perturbed by the binary)"
+   },
+   "distance_ly": {
+    "value": 56.65,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 2,
+   "system_stars": "GJ 4113 A + GJ 4113 B: near-equal-mass M-dwarf SB2 (Marcussen & Albrecht 2023 Sec. IV.5); component names are this agent's, not a catalogue's",
+   "host_mass_msun": {
+    "value": 0.47,
+    "src": "MA23",
+    "where": "Sec. IV.5: they adopt M1 = M2 = 0.47 Msun from Gaia DR3 binary_masses m1 (0.469, IsocLum); Stefansson+2025 Table 4 single-star photometric mass 0.42+/-0.02 is invalid for a twin binary"
+   },
+   "stellar_class": {
+    "value": "M2V",
+    "src": "SIMBAD",
+    "where": "sp_type M2V (1986AJ.....92..139S), combined light"
+   },
+   "teff_k": {
+    "value": 3515,
+    "src": "TIC",
+    "where": "TIC 8.2 Teff 3515+/-157 (single-star relation applied to combined light; GSP-Spec 3339 poor for M dwarfs)"
+   },
+   "radius_rsun": {
+    "value": 0.425,
+    "src": "TIC",
+    "where": "TIC 8.2 Rad 0.425 (combined light, single-star assumption)"
+   },
+   "luminosity_lsun": {
+    "value": 0.02484,
+    "src": "TIC",
+    "where": "TIC 8.2 Lum 0.0248 (combined light)"
+   },
+   "logg": {
+    "value": 4.8,
+    "src": "TIC",
+    "where": "TIC 8.2 logg 4.8039"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -5.443,
+    "src": "GDR3",
+    "where": "radial_velocity -5.44+/-0.51 (SB2: systemic value uncertain)"
+   },
+   "pmra_masyr": {
+    "value": 225.101,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -421.326,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "2052469973468984192",
+   "companions": [
+    {
+     "name": "GJ 4113 B",
+     "type": "star (SB2 twin)",
+     "src": "MA23",
+     "where": "Sec. IV.5"
+    }
+   ],
+   "sources": {
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.gaia_source WHERE source_id=2052469973468984192 (run 2026-09-23)"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.astrophysical_parameters WHERE source_id=2052469973468984192 (run 2026-09-23)"
+    },
+    "MA23": {
+     "citation": "Marcussen & Albrecht 2023, AJ 165, 266 (arXiv:2305.08623), 'Impostor binary stars invade the Gaia DR3 astrometric exoplanet candidates'",
+     "url": "https://arxiv.org/abs/2305.08623",
+     "what": "Section IV.5: Gaia DR3 2052469973468984192 is a twin SB2"
+    },
+    "STEF": {
+     "citation": "Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), 'Gaia-4b and 5b...'",
+     "url": "https://arxiv.org/abs/2410.05654",
+     "what": "Table 4 (Appendix D): status of every Gaia-ASOI; M* from Giovinazzi & Blake 2022 photometric relation assuming a single star"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident tables",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases and spectral types"
+    },
+    "LIST": {
+     "citation": "ESA Gaia (candidate) exoplanet list v20220613",
+     "url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+     "what": "ASOI ids and DR3 source ids"
+    },
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019), VizieR IV/39/tic82",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=IV/39/tic82",
+     "what": "Teff, radius, mass, luminosity from single-star M-dwarf relations (query by TIC id)"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 773",
+   "nickname": "",
+   "aliases": [
+    "HD 188807 (A)",
+    "HIP 98204 (A)",
+    "LDS 4824",
+    "LHS 3503 (B)",
+    "LP 754-5 (B)",
+    "TIC 48769737 (B)",
+    "Gaia-ASOI-025 (B)"
+   ],
+   "parallax_mas": {
+    "value": 55.8238,
+    "src": "GDR3A",
+    "where": "A parallax 55.8238 (B: 56.1739+/-0.0433, RUWE 1.96)"
+   },
+   "distance_ly": {
+    "value": 58.43,
+    "src": "GDR3A",
+    "where": "1000/parallax(A) x 3.26156"
+   },
+   "stars_in_system": 3,
+   "system_stars": "GJ 773 A (HD 188807, K7V) + GJ 773 B (LHS 3503, M5V) at 62.6 arcsec (WDS 19573-1234, LDS 4824); B is itself an SB2 (Stefansson+2025 Table 4)",
+   "host_mass_msun": null,
+   "stellar_class": {
+    "value": "K7V",
+    "src": "SIMBAD",
+    "where": "HD 188807 sp_type K7V (2006AJ....132..161G)"
+   },
+   "teff_k": {
+    "value": 3995,
+    "src": "GDR3A",
+    "where": "A: teff_gspphot 3995 (GSP-Spec 4054); no paper value found"
+   },
+   "radius_rsun": {
+    "value": 0.71,
+    "src": "GDR3A",
+    "where": "A: radius_flame 0.7102"
+   },
+   "luminosity_lsun": {
+    "value": 0.1158,
+    "src": "GDR3A",
+    "where": "A: lum_flame 0.1158"
+   },
+   "logg": {
+    "value": 4.52,
+    "src": "GDR3A",
+    "where": "A: logg_gspphot 4.5246"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.32,
+    "src": "GDR3A",
+    "where": "A: mh_gspspec -0.32"
+   },
+   "rv_kms": {
+    "value": -11.274,
+    "src": "GDR3A",
+    "where": "A radial_velocity -11.27+/-0.14 (B: -10.51+/-2.05)"
+   },
+   "pmra_masyr": {
+    "value": -93.774,
+    "src": "GDR3A",
+    "where": "A pmra (B: -89.601)"
+   },
+   "pmdec_masyr": {
+    "value": -514.943,
+    "src": "GDR3A",
+    "where": "A pmdec (B: -518.090)"
+   },
+   "gaia_dr3_source_id": "4188997606567280384",
+   "companions": [
+    {
+     "name": "GJ 773 B",
+     "aliases": [
+      "LHS 3503",
+      "LP 754-5",
+      "WDS J19573-1234B"
+     ],
+     "gaia_dr3_source_id": "4188996885011268608",
+     "spectral_type": "M5V (SIMBAD, 1995AJ....110.1838R)",
+     "separation": "62.6-62.7 arcsec (WDS)",
+     "mass_msun": {
+      "value": 0.17,
+      "src": "STEF",
+      "where": "Table 4, single-star photometric mass 0.17+/-0.02 -- invalid for an SB2 (blend)"
+     },
+     "teff_k": {
+      "value": 2983,
+      "src": "TIC",
+      "where": "TIC 48769737 Teff 2983+/-157 (combined light)"
+     },
+     "radius_rsun": {
+      "value": 0.205,
+      "src": "TIC",
+      "where": "TIC Rad 0.205"
+     },
+     "luminosity_lsun": {
+      "value": 0.003,
+      "src": "TIC",
+      "where": "TIC Lum 0.0030"
+     },
+     "note": "B is a double-lined binary (Stefansson+2025 Table 4 status SB2, 'This work'), so the system has three stars"
+    }
+   ],
+   "sources": {
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.gaia_source WHERE source_id=4188996885011268608 (run 2026-09-23)"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.astrophysical_parameters WHERE source_id=4188996885011268608 (run 2026-09-23)"
+    },
+    "STEF": {
+     "citation": "Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), 'Gaia-4b and 5b...'",
+     "url": "https://arxiv.org/abs/2410.05654",
+     "what": "Table 4 (Appendix D): status of every Gaia-ASOI; M* from Giovinazzi & Blake 2022 photometric relation assuming a single star"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident tables",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases and spectral types"
+    },
+    "LIST": {
+     "citation": "ESA Gaia (candidate) exoplanet list v20220613",
+     "url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+     "what": "ASOI ids and DR3 source ids"
+    },
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019), VizieR IV/39/tic82",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=IV/39/tic82",
+     "what": "Teff, radius, mass, luminosity from single-star M-dwarf relations (query by TIC id)"
+    },
+    "WDS": {
+     "citation": "Washington Double Star catalog, VizieR B/wds/wds",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/wds",
+     "what": "pair data (WDS 19573-1234 LDS 4824: sep 62.6-62.7 arcsec 1951-2015; WDS 07096-5704 TSN 140: sep 0.0 arcsec, mags 12.1/12.2, 2020-2024)"
+    },
+    "GDR3A": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=4188997606567280384 (GJ 773 A = HD 188807), run 2026-09-23"
+    }
+   }
+  },
+  {
+   "system_host": "APMPM J0710-5704",
+   "nickname": "",
+   "aliases": [
+    "APM 89 AB",
+    "TSN 140",
+    "WDS J07096-5704AB",
+    "2MASS J07093765-5703423",
+    "TIC 294093302",
+    "Gaia-ASOI-037"
+   ],
+   "parallax_mas": {
+    "value": 58.5557,
+    "src": "GDR3",
+    "where": "parallax 58.5557+/-0.0593 (RUWE 3.83: fit perturbed by the binary)"
+   },
+   "distance_ly": {
+    "value": 55.7,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 2,
+   "system_stars": "APM 89 A + APM 89 B: M4V pair resolved by SOAR speckle, a=0.034 arcsec, P=0.698 yr, near-equal (WDS mags 12.1/12.2)",
+   "host_mass_msun": {
+    "value": 0.409,
+    "src": "VR26",
+    "where": "Table 4: TOTAL mass of the pair 0.409+/-0.040 Msun (no single-star mass exists; Stefansson+2025 single-star 0.25+/-0.02 and TIC 0.274 are blends)"
+   },
+   "stellar_class": {
+    "value": "M4V",
+    "src": "SIMBAD",
+    "where": "sp_type M4V (2002MNRAS.329..109S), combined light"
+   },
+   "teff_k": {
+    "value": 3205,
+    "src": "TIC",
+    "where": "TIC 8.2 Teff 3205+/-157 (combined light, single-star relation; GSP-Spec 4250 K / logg 1.5 is spurious)"
+   },
+   "radius_rsun": {
+    "value": 0.298,
+    "src": "TIC",
+    "where": "TIC Rad 0.298 (blend)"
+   },
+   "luminosity_lsun": {
+    "value": 0.00844,
+    "src": "TIC",
+    "where": "TIC Lum 0.00844 (combined light)"
+   },
+   "logg": {
+    "value": 4.93,
+    "src": "TIC",
+    "where": "TIC logg 4.928"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 51.525,
+    "src": "GDR3",
+    "where": "radial_velocity 51.53+/-0.31"
+   },
+   "pmra_masyr": {
+    "value": 331.636,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": 330.61,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "5486916932205092352",
+   "companions": [
+    {
+     "name": "APM 89 B",
+     "type": "M dwarf",
+     "orbit": "P=0.69778+/-0.00274 yr, a=0.0342+/-0.0011 arcsec, e=0.137+/-0.028",
+     "src": "VR26",
+     "where": "Table 4"
+    }
+   ],
+   "sources": {
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.gaia_source WHERE source_id=5486916932205092352 (run 2026-09-23)"
+    },
+    "GAP": {
+     "citation": "Gaia DR3 astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "Gaia archive TAP gaiadr3.astrophysical_parameters WHERE source_id=5486916932205092352 (run 2026-09-23)"
+    },
+    "VR26": {
+     "citation": "Vrijmoet et al. 2026, AJ 171, 186, 'The Solar Neighborhood LIV: 54 Orbits of M Dwarf Multiples within 30 pc with Speckle Interferometry at SOAR'",
+     "url": "https://iopscience.iop.org/article/10.3847/1538-3881/ae3b40",
+     "what": "APM 89 AB (WDS 07096-5704, Gaia DR3 5486916932205092352) resolved; visual orbit P=0.69778+/-0.00274 yr, a=0.0342 arcsec, e=0.137, total mass 0.409+/-0.040 Msun (Table 4); 'the two orbits match reasonably well' with the Gaia orbit"
+    },
+    "STEF": {
+     "citation": "Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), 'Gaia-4b and 5b...'",
+     "url": "https://arxiv.org/abs/2410.05654",
+     "what": "Table 4 (Appendix D): status of every Gaia-ASOI; M* from Giovinazzi & Blake 2022 photometric relation assuming a single star"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident tables",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases and spectral types"
+    },
+    "LIST": {
+     "citation": "ESA Gaia (candidate) exoplanet list v20220613",
+     "url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv",
+     "what": "ASOI ids and DR3 source ids"
+    },
+    "TIC": {
+     "citation": "TESS Input Catalog v8.2 (Stassun et al. 2019), VizieR IV/39/tic82",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=IV/39/tic82",
+     "what": "Teff, radius, mass, luminosity from single-star M-dwarf relations (query by TIC id)"
+    },
+    "WDS": {
+     "citation": "Washington Double Star catalog, VizieR B/wds/wds",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/wds",
+     "what": "pair data (WDS 19573-1234 LDS 4824: sep 62.6-62.7 arcsec 1951-2015; WDS 07096-5704 TSN 140: sep 0.0 arcsec, mags 12.1/12.2, 2020-2024)"
+    }
+   }
+  },
+  {
+   "system_host": "TVLM 513-46546",
+   "nickname": "",
+   "aliases": [
+    "2MASS J15010818+2250020",
+    "TVLM 513-46"
+   ],
+   "parallax_mas": {
+    "value": 93.1655,
+    "src": "GDR3",
+    "where": "parallax 93.1655+/-0.1355"
+   },
+   "distance_ly": {
+    "value": 35.01,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.07,
+    "src": "CU20",
+    "where": "abstract: 0.06-0.08 Msun (range; exoplanet.eu gives 0.08)"
+   },
+   "stellar_class": {
+    "value": "M8.5V",
+    "src": "SIMBAD",
+    "where": "sp_type (Curiel+2020 title: M9)"
+   },
+   "teff_k": null,
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": -43.12,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -65.138,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "1262763648230973440",
+   "companions": [],
+   "sources": {
+    "CU20": {
+     "citation": "Curiel, Ortiz-Leon, Mioduszewski & Torres 2020, AJ 160, 97 (arXiv:2008.01595), 'An astrometric planetary companion candidate to the M9 dwarf TVLM 513-46546'",
+     "url": "https://arxiv.org/abs/2008.01595",
+     "what": "VLBA astrometric orbit; abstract values"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "cone search 36 arcsec around 225.2838 +22.8336; source_id 1262763648230973440 (run 2026-09-24)"
+    },
+    "EU": {
+     "citation": "exoplanet.eu, TVLM 513-46546 b",
+     "url": "https://exoplanet.eu/catalog/tvlm_513_46546_b--7453/",
+     "what": "status Confirmed; M=0.38+/-0.24 MJ, P=220+/-5 d, a=0.3 AU; host 0.08 Msun, M8.5V"
+    },
+    "NASA": {
+     "citation": "NASA Exoplanet Archive ps table, hostname like '%TVLM%'",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+     "what": "no rows: NASA does not list the planet"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "sp_type M8.5V"
+    }
+   }
+  },
+  {
+   "system_host": "HD 92945",
+   "nickname": "",
+   "aliases": [
+    "HIP 52462",
+    "V419 Hya",
+    "GJ 3615",
+    "TIC 188043641"
+   ],
+   "parallax_mas": {
+    "value": 46.4931,
+    "src": "GDR3",
+    "where": "parallax"
+   },
+   "distance_ly": {
+    "value": 70.15,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.833,
+    "src": "GR",
+    "where": "Table 5, M_A = 0.833 (Gaia FLAME mass_flame 0.788)"
+   },
+   "stellar_class": {
+    "value": "K1V",
+    "src": "SIMBAD",
+    "where": "sp_type"
+   },
+   "teff_k": {
+    "value": 5123,
+    "src": "GDR3",
+    "where": "teff_gspphot 5123 (GSP-Spec 5164)"
+   },
+   "radius_rsun": {
+    "value": 0.808,
+    "src": "GDR3",
+    "where": "radius_flame 0.8080"
+   },
+   "luminosity_lsun": {
+    "value": 0.3725,
+    "src": "GDR3",
+    "where": "lum_flame 0.3725"
+   },
+   "logg": {
+    "value": 4.53,
+    "src": "GDR3",
+    "where": "logg_gspphot 4.5327"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": 0.22,
+    "src": "GDR3",
+    "where": "mh_gspspec 0.22"
+   },
+   "rv_kms": {
+    "value": 22.57,
+    "src": "GDR3",
+    "where": "radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -215.484,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -49.892,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "5455707157211784832",
+   "companions": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5455707157211784832 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    },
+    "BW26": {
+     "citation": "Bendahan-West, Marino, Carter et al. 2026, MNRAS (doi 10.1093/mnras/staf2255; arXiv:2601.02156)",
+     "url": "https://arxiv.org/abs/2601.02156",
+     "what": "JWST/MIRI: no planet detected; the PMa planet must lie within ~20 au"
+    },
+    "LZ25": {
+     "citation": "Lazzoni, Bendahan-West, Marino et al. 2025, A&A (arXiv:2511.07561)",
+     "url": "https://arxiv.org/abs/2511.07561",
+     "what": "JWST/NIRCam: excludes >1 MJ beyond 20-40 au; 'rules out a single planet beyond ~20 au as responsible for the astrometric signal'"
+    }
+   }
+  },
+  {
+   "system_host": "HD 45270",
+   "nickname": "",
+   "aliases": [
+    "HIP 30314",
+    "TIC 150322340"
+   ],
+   "parallax_mas": {
+    "value": 41.8877,
+    "src": "GDR3",
+    "where": "parallax"
+   },
+   "distance_ly": {
+    "value": 77.86,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 1.067,
+    "src": "GR",
+    "where": "Table 5, M_A = 1.067 (Gaia FLAME mass_flame 0.997)"
+   },
+   "stellar_class": {
+    "value": "G1V",
+    "src": "SIMBAD",
+    "where": "sp_type"
+   },
+   "teff_k": {
+    "value": 5816,
+    "src": "GDR3",
+    "where": "teff_gspphot 5816 (GSP-Spec 5892)"
+   },
+   "radius_rsun": {
+    "value": 1.078,
+    "src": "GDR3",
+    "where": "radius_flame 1.0776"
+   },
+   "luminosity_lsun": {
+    "value": 1.197,
+    "src": "GDR3",
+    "where": "lum_flame 1.1973"
+   },
+   "logg": {
+    "value": 4.29,
+    "src": "GDR3",
+    "where": "logg_gspphot 4.2948"
+   },
+   "age_gyr": {
+    "value": 6.68,
+    "src": "GDR3",
+    "where": "age_flame 6.68 (at odds with AB Dor/young-association membership; FLAME ages unreliable for young stars)"
+   },
+   "feh": {
+    "value": -0.26,
+    "src": "GDR3",
+    "where": "mh_gspspec -0.26"
+   },
+   "rv_kms": {
+    "value": 31.45,
+    "src": "GDR3",
+    "where": "radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -11.429,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": 64.681,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "5481848424118748672",
+   "companions": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5481848424118748672 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    }
+   }
+  },
+  {
+   "system_host": "iot Hyi",
+   "nickname": "",
+   "aliases": [
+    "HD 21024",
+    "HIP 15201",
+    "TIC 431380163"
+   ],
+   "parallax_mas": {
+    "value": 34.2638,
+    "src": "GDR3",
+    "where": "parallax"
+   },
+   "distance_ly": {
+    "value": 95.19,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 1.391,
+    "src": "GR",
+    "where": "Table 5, M_A = 1.391 (Gaia FLAME mass_flame 1.341)"
+   },
+   "stellar_class": {
+    "value": "F5IV-V",
+    "src": "SIMBAD",
+    "where": "sp_type"
+   },
+   "teff_k": {
+    "value": 6481,
+    "src": "GDR3",
+    "where": "teff_gspphot 6481 (GSP-Spec 6579)"
+   },
+   "radius_rsun": {
+    "value": 1.642,
+    "src": "GDR3",
+    "where": "radius_flame 1.6422"
+   },
+   "luminosity_lsun": {
+    "value": 4.286,
+    "src": "GDR3",
+    "where": "lum_flame 4.2862"
+   },
+   "logg": {
+    "value": 4.1,
+    "src": "GDR3",
+    "where": "logg_gspphot 4.0961"
+   },
+   "age_gyr": {
+    "value": 2.51,
+    "src": "GDR3",
+    "where": "age_flame 2.51"
+   },
+   "feh": {
+    "value": -0.11,
+    "src": "GDR3",
+    "where": "mh_gspspec -0.11"
+   },
+   "rv_kms": {
+    "value": 14.156,
+    "src": "GDR3",
+    "where": "radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 113.658,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": 62.375,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "4626843786944938880",
+   "companions": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=4626843786944938880 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    }
+   }
+  },
+  {
+   "system_host": "HD 155555",
+   "nickname": "",
+   "aliases": [
+    "HIP 84586",
+    "V824 Ara",
+    "TIC 301842094",
+    "LDS 587 A (exoplanet.eu)"
+   ],
+   "parallax_mas": {
+    "value": 32.9511,
+    "src": "GDR3",
+    "where": "parallax"
+   },
+   "distance_ly": {
+    "value": 98.98,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 2,
+   "system_stars": "HD 155555 A (G5V) + HD 155555 B (K1V), a close spectroscopic binary (SIMBAD G5V+K1V). exoplanet.eu also names LDS 587 as a wider pair (not verified here).",
+   "host_mass_msun": {
+    "value": 2.234,
+    "src": "GR",
+    "where": "Table 5, M_A = 2.234 Msun = combined mass of A+B"
+   },
+   "stellar_class": {
+    "value": "G5V+K1V",
+    "src": "SIMBAD",
+    "where": "sp_type"
+   },
+   "teff_k": null,
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": -21.44,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -137.173,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "5811866422581688320",
+   "companions": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=5811866422581688320 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    }
+   }
+  },
+  {
+   "system_host": "G 80-21",
+   "nickname": "",
+   "aliases": [
+    "HIP 17695",
+    "Karmn J03473-019",
+    "2MASS J03472333-0158195",
+    "TIC 333680372",
+    "StKM 2-318"
+   ],
+   "parallax_mas": {
+    "value": 59.432,
+    "src": "GDR3",
+    "where": "parallax"
+   },
+   "distance_ly": {
+    "value": 54.88,
+    "src": "GDR3",
+    "where": "1000/parallax x 3.26156"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.46,
+    "src": "LA",
+    "where": "Sec. 6.1.1: 0.46 Msun"
+   },
+   "stellar_class": {
+    "value": "M3.0V",
+    "src": "SIMBAD",
+    "where": "sp_type"
+   },
+   "teff_k": {
+    "value": 3436,
+    "src": "GDR3",
+    "where": "teff_gspspec 3436 (GSP-Phot 3165); both poor for M dwarfs"
+   },
+   "radius_rsun": {
+    "value": 0.602,
+    "src": "GDR3",
+    "where": "radius_flame 0.6016 (FLAME not reliable for M dwarfs)"
+   },
+   "luminosity_lsun": {
+    "value": 0.0327,
+    "src": "GDR3",
+    "where": "lum_flame 0.0327"
+   },
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": 180.64,
+    "src": "GDR3",
+    "where": "pmra"
+   },
+   "pmdec_masyr": {
+    "value": -274.016,
+    "src": "GDR3",
+    "where": "pmdec"
+   },
+   "gaia_dr3_source_id": "3250328209054347264",
+   "companions": [],
+   "sources": {
+    "GR": {
+     "citation": "Gratton, Bonavita, Mesa et al. 2024, A&A 685, A119 (arXiv:2402.02148), 'Stellar companions and Jupiter-like planets in young associations'",
+     "url": "https://arxiv.org/abs/2402.02148",
+     "what": "Table 5: masses and semi-major axes for the 17 candidate planets from Hipparcos-Gaia PMa (Kervella et al. 2022); M_A, M_B (Msun), a (au), Frac(JL)"
+    },
+    "GDR3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters",
+     "url": "https://gea.esac.esa.int/tap-server/tap",
+     "what": "source_id=3250328209054347264 (run 2026-09-24)"
+    },
+    "SIMBAD": {
+     "citation": "SIMBAD basic/ident",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+     "what": "aliases, spectral type"
+    },
+    "LA": {
+     "citation": "Lagrange, Kiefer, Rubini, Squicciarini, Chomez et al. 2025 (arXiv:2501.10488), 'Searching for substellar companion candidates with Gaia. III. Search for companions to members of young associations'",
+     "url": "https://arxiv.org/abs/2501.10488",
+     "what": "GaiaPMEX re-analysis; Sec. 6.1 G80-21 b; Sec. 7 finds no >2-sigma evidence for HIP 30314 b and HIP 88399 b"
+    }
+   }
+  }
+ ],
+ "considered_not_added": [
+  {
+   "name": "Gaia-ASOI-004",
+   "system_host": "Gaia DR3 4745373133284418816",
+   "reason": "same Gaia DR3 source and same single nss_two_body_orbit solution (OrbitalTargetedSearch, P=331.74 d) as Gaia-ASOI-068, which the list itself matches to the known planet HR810b; HR 810 b is on the confirmed tab. Duplicate listing, not a new planet. (Gaia DR3 parallax 57.613 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-ASOI-006",
+   "system_host": "Gaia DR3 2047188847334279424",
+   "reason": "beyond 100 ly: DR3 parallax 30.660 mas (< 32.616) (Gaia DR3 parallax 30.66 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-ASOI-031",
+   "system_host": "Gaia DR3 4842246017566495232",
+   "reason": "beyond 100 ly: DR3 parallax 31.333 mas (Gaia DR3 parallax 31.333 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-ASOI-040",
+   "system_host": "Gaia DR3 5612039087715504640",
+   "reason": "beyond 100 ly: DR3 parallax 30.861 mas (Gaia DR3 parallax 30.861 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-ASOI-001",
+   "system_host": "Gaia DR3 1712614124767394816",
+   "reason": "beyond 100 ly: DR3 parallax 28.249 mas (Gaia DR3 parallax 28.249 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-RVOI-002",
+   "system_host": "Gaia DR3 5811053234948685312",
+   "reason": "beyond 100 ly: DR3 parallax 25.225 mas (Gaia DR3 parallax 25.225 mas)",
+   "source_url": "https://www.cosmos.esa.int/documents/29201/1658422/Gaia_Exoplanet_list_Version20220613.csv"
+  },
+  {
+   "name": "Gaia-4b",
+   "system_host": "",
+   "reason": "beyond 100 ly: 73.70 pc, parallax 13.628 mas (Stefansson+2025 Table of stellar parameters); confirmed planet anyway",
+   "source_url": "https://arxiv.org/abs/2410.05654"
+  },
+  {
+   "name": "Gaia-5b",
+   "system_host": "",
+   "reason": "beyond 100 ly: 41.248 pc, parallax 24.208 mas (Stefansson+2025); and a 20.9 MJup brown dwarf",
+   "source_url": "https://arxiv.org/abs/2410.05654"
+  },
+  {
+   "name": "Gaia-3b (HIP 66074 b, Gaia-ASOI-001)",
+   "system_host": "",
+   "reason": "beyond 100 ly: Gaia DR3 parallax 28.249 mas; also its DR3 orbit is an ESA-declared false positive (RV planet from Sozzetti+2023 stands)",
+   "source_url": "https://www.cosmos.esa.int/web/gaia/dr3-known-issues"
+  },
+  {
+   "name": "HD 12235 c (112 Psc c)",
+   "system_host": "112 Psc",
+   "reason": "beyond 100 ly: parallax 31.449 mas (SIMBAD, Gaia EDR3 2020yCat.1350); Feng+2022 companion, 9.9 MJup",
+   "source_url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/262/21/table3"
+  },
+  {
+   "name": "HD 29985 b",
+   "system_host": "HD 29985",
+   "reason": "beyond 100 ly: parallax 32.011 mas (SIMBAD, Gaia EDR3 2020yCat.1350) < 32.616; Feng+2022 companion, 5.5 MJup",
+   "source_url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/262/21/table3"
+  },
+  {
+   "name": "TWA 7 b",
+   "system_host": "TWA 7",
+   "reason": "beyond 100 ly: TWA 7 (CE Ant) parallax 29.328 mas (SIMBAD, Gaia EDR3) = 111 ly; NASA lists it confirmed (Lagrange et al. 2025, Nature 642, 905), sy_dist 33.996 pc",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/"
+  },
+  {
+   "name": "eps Ind A b",
+   "system_host": "eps Ind A",
+   "reason": "already on the confirmed tab (row 494); JWST imaging (2024) confirmed it",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/"
+  },
+  {
+   "name": "Fomalhaut b",
+   "system_host": "Fomalhaut",
+   "reason": "refuted: an expanding dust cloud, not a planet (Gaspar & Rieke 2020, PNAS 117, 9712) -- recalled, not verified this session",
+   "source_url": ""
+  },
+  {
+   "name": "Hipparcos-Gaia proper-motion-anomaly companions (Kervella et al. 2019, 2022)",
+   "system_host": "",
+   "reason": "PMa signals point to unseen companions but are not planet detections; no PMa-only object within 100 ly was found that a later paper models as a <13 MJup planet candidate and that is not already on the sheet (not exhaustively checked star by star)",
+   "source_url": "https://www.aanda.org/articles/aa/full_html/2022/01/aa42146-21/aa42146-21.html"
+  },
+  {
+   "name": "HIP 81991 b (GEODES I)",
+   "system_host": "HIP 81991",
+   "reason": "beyond 100 ly: 43.90+/-0.07 pc (Van Zandt et al. 2026, ApJ 1006)",
+   "source_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ae74cd"
+  },
+  {
+   "name": "HIP 45839 B (GEODES I)",
+   "system_host": "HIP 45839",
+   "reason": "brown dwarf: 45.2 +10.5/-12.7 MJup (Van Zandt et al. 2026)",
+   "source_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ae74cd"
+  },
+  {
+   "name": "Gaia-ASOI-005 (BD+24 4592)",
+   "system_host": "BD+24 4592",
+   "reason": "not within 100 ly (not among list sources with parallax >20 mas); also argued spurious by Sahlmann & Gomez 2025 (known SB1, P=3977 d)",
+   "source_url": "https://arxiv.org/abs/2404.09350"
+  },
+  {
+   "name": "Gratton+2024 Table 5 PMa candidates beyond 100 ly",
+   "system_host": "",
+   "reason": "beyond 100 ly (SIMBAD/Gaia EDR3 parallax < 32.616 mas): HIP 22152 (30.69), 96334 (26.20), 10679 (25.23), 560 (25.16), 1481 (23.36), 8233 (22.28), 60832 (22.09), 60831 (22.06), 88399 (20.29; also disputed by Lagrange+2025), 11696 (20.27), 17675 (17.11), 16449 (14.35), 45585 (13.09)",
+   "source_url": "https://arxiv.org/abs/2402.02148"
+  },
+  {
+   "name": "GaiaPMEX II catalogue of 9,698 'planet candidate hosting sources' (Kiefer et al. 2024, arXiv:2409.16993)",
+   "system_host": "",
+   "reason": "RUWE-only mass-sma degenerate regions, not planet detections; the authors say many may be brown dwarfs or stars. Its four highlighted systems (HD 187129, HD 81697, CD-42 883, HD 105330) were not distance-checked. Writer's call whether any of these belong on the tab; not added.",
+   "source_url": "https://arxiv.org/abs/2409.16993"
+  },
+  {
+   "name": "Lagrange+2025 other 'planetary mass companion candidates' (Sec. 5)",
+   "system_host": "",
+   "reason": "not extracted: Sec. 5 lists 13 targets whose solutions reach the planetary regime, most explained by known stellar companions. Only G80-21 was advanced as a planet. Not checked star by star for distance.",
+   "source_url": "https://arxiv.org/abs/2501.10488"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [
+  {
+   "planet": "CFBDSIR J145829+101343 b",
+   "host": "CFBDSIR J145829+101343 (T8+Y0 brown-dwarf binary)",
+   "status": "NASA pscomppars confirmed, Imaging, 2011",
+   "mass": "10.5 MJup (NASA)",
+   "distance": "23.1 pc, sy_plx 43.3 mas (NASA; no Gaia parallax)",
+   "note": "The host is itself a brown dwarf, which may be why the sheet leaves it out -- writer's call.",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/overview/CFBDSIR%20J145829+101343"
+  },
+  {
+   "planet": "WISEP J121756.91+162640.2 A b / CWISEP J193518.59-154620.3 b / DENIS-P J082303.1-491201 b",
+   "host": "brown-dwarf or ultracool hosts",
+   "status": "NASA pscomppars confirmed",
+   "mass": "22 / 15.5 / 28.5 MJup (NASA) -- all above 13 MJup",
+   "distance": "10.1 / 14.4 / 20.8 pc",
+   "note": "Listed only for completeness; above 13 MJup, so by the sheet's own rule probably not wanted. VHS 1256 b (16 MJup) is on the sheet, so the rule is not applied consistently.",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/"
+  }
+ ],
+ "incidental_finds_outside_my_scope": [
+  {
+   "row": "Unconfirmed tab row 37, Gaia-ASOI-008 (Gaia DR3 4698424845771339520)",
+   "finding": "REFUTED as an astrometric detection. The host is the white dwarf WD 0141-675 (GJ 3112, DAZ, 31.7 ly). ESA's Gaia DR3 known-issues page (5 May 2023, updated 27 May 2024) declares its nss_two_body_orbit solution a false positive caused by a software bug and its binary_masses entry invalid. Rogers et al. 2024 (MNRAS 527, 977) call it 'now retracted'. Recommend removing the row or moving it to refuted; if kept, tier cannot be above 'unlikely'. Ramirez et al. 2025 (arXiv:2412.06920) report only a tentative, low-significance 15.6 d Ca K RV signal, which they do not claim as a planet.",
+   "values_writer_could_fill": {
+    "host_name": "WD 0141-675 (GJ 3112)",
+    "host_mass_msun": "0.58+/-0.02 (Rogers+2024 Table 1)",
+    "retracted_orbit_mass": "9.26 MJup median (Gaia Collaboration 2023b, quoted in Rogers+2024 Table 1) -- retracted"
+   },
+   "sources": [
+    "https://www.cosmos.esa.int/web/gaia/dr3-known-issues",
+    "https://arxiv.org/abs/2310.05778",
+    "https://arxiv.org/abs/2412.06920"
+   ]
+  },
+  {
+   "row": "Unconfirmed tab row 38, Gaia-ASOI-003 (Gaia DR3 522135261462534528)",
+   "finding": "REFUTED. Host is 54 Cas = HD 12800 (F8, 88.1 ly). ESA's Gaia DR3 known-issues page (update of 27 May 2024) lists its orbit solution as a false positive from the same software bug. Venner et al. 2026 (AJ, arXiv:2603.19402, 'A Planetary Illusion's Funeral') took 28 TRES RVs and did not detect it, although it would have been easily detected. Recommend removing the row (or moving it to refuted).",
+   "values_writer_could_fill": {
+    "host_name": "HD 12800 (54 Cas)",
+    "host_mass_msun": "0.98 +0.05/-0.04 (Venner+2026 Table 1)",
+    "retracted_orbit": "P=401.1+/-12.0 d, a0=0.25+/-0.05 mas, ~6.3 MJup for 1 Msun (Venner+2026 Sec. II) -- retracted"
+   },
+   "sources": [
+    "https://www.cosmos.esa.int/web/gaia/dr3-known-issues",
+    "https://arxiv.org/abs/2603.19402"
+   ]
+  },
+  {
+   "row": "Unconfirmed tab row 40, Gaia-ASOI-054 (Gaia DR3 2052469973468984192)",
+   "finding": "REFUTED. Host is GJ 4113 = Ross 1063 (M2V, 56.7 ly). Marcussen & Albrecht 2023 (AJ 165, 266, Sec. IV.5) find a double-lined twin M-dwarf binary; Stefansson et al. 2025 (AJ 169, 107, Table 4) confirm SB2. The Gaia orbit is the binary's photocentre motion, not a planet. Even taken at face value the implied companion was 16.8-22.9 MJup (above 13). Recommend removing the row (or moving it to refuted). If kept, the tier 'unlikely' is right and the reason should name the SB2 papers.",
+   "values_writer_could_fill": {
+    "host_name": "GJ 4113 (Ross 1063)",
+    "implied_companion_mass_if_single": "16.8+/-0.9 MJup (Stefansson+2025 Table 4) -- invalid, SB2"
+   },
+   "sources": [
+    "https://arxiv.org/abs/2305.08623",
+    "https://arxiv.org/abs/2410.05654"
+   ]
+  },
+  {
+   "row": "Unconfirmed tab row 41, Gaia-ASOI-025 (Gaia DR3 4188996885011268608)",
+   "finding": "REFUTED. Host is GJ 773 B = LHS 3503 (M5V, 58.1 ly), the 62.6 arcsec companion of the K7V star HD 188807 (GJ 773 A). Stefansson et al. 2025 (AJ 169, 107, Table 4) found it double-lined (SB2) with HPF/NEID spectroscopy: a stellar binary, not a planet host. Recommend removing the row or moving it to refuted. If kept, system_host should be the GJ 773 system and planet_host_star 'GJ 773 B', with tier 'unlikely'.",
+   "values_writer_could_fill": {
+    "host_name": "GJ 773 B (LHS 3503) in the GJ 773 / HD 188807 system",
+    "implied_companion_mass_if_single": "6.3+/-0.7 MJup (Stefansson+2025 Table 4) -- invalid, SB2"
+   },
+   "sources": [
+    "https://arxiv.org/abs/2410.05654"
+   ]
+  },
+  {
+   "row": "Unconfirmed tab row 39, Gaia-ASOI-037 (Gaia DR3 5486916932205092352)",
+   "finding": "REFUTED. Host is APMPM J0710-5704 = APM 89 AB = TSN 140 (M4V, 55.7 ly). Vrijmoet et al. 2026 (AJ 171, 186, 'Solar Neighborhood LIV') resolve it with SOAR speckle into an M-dwarf pair (a=0.034 arcsec, total mass 0.409+/-0.040 Msun) whose orbit, P=0.698 yr = 254.9 d, matches the Gaia ASOI period of 253.5 d. The astrometric 'planet' is the stellar binary's orbit. Stefansson+2025 had it as 'Unknown'. Recommend removing the row or moving it to refuted. The paper does not use the word 'refuted'; this conclusion is this agent's reading of the matching orbit.",
+   "values_writer_could_fill": {
+    "host_name": "APMPM J0710-5704 (APM 89 AB)",
+    "binary_orbit": "P=0.69778+/-0.00274 yr, a=0.0342\", e=0.137, Mtot=0.409 Msun (Vrijmoet+2026 Table 4)",
+    "implied_companion_mass_if_single": "9.0+/-0.5 MJup (Stefansson+2025 Table 4) -- invalid"
+   },
+   "sources": [
+    "https://iopscience.iop.org/article/10.3847/1538-3881/ae3b40",
+    "https://arxiv.org/abs/2410.05654"
+   ]
+  }
+ ]
+}

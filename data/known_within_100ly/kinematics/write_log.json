@@ -1,0 +1,274 @@
+{
+ "runs": [
+  {
+   "kind": "bulk",
+   "started": "2026-10-08T14:29:25",
+   "state": "done",
+   "chunks": 36,
+   "counts": {
+    "Proper motion in RA, μα·cos δ (mas/yr)": 10206,
+    "Proper motion in Dec, μδ (mas/yr)": 10206,
+    "Radial velocity (km/s)": 7005,
+    "Total proper motion, μ (arcsec/yr)": 10220,
+    "Galactic longitude l (deg)": 10288,
+    "Galactic latitude b (deg)": 10288,
+    "Space velocity (km/s)": 7015,
+    "Motion toward l (deg, heliocentric)": 7018,
+    "Motion toward b (deg, heliocentric)": 7018,
+    "Kinematics source": 10270,
+    "Last Updated": 10245
+   },
+   "rows": 10297,
+   "agents": [],
+   "sp_rows": [
+    5597,
+    5607
+   ],
+   "title": "hy-brasil-20261008-1430",
+   "finished": "2026-10-08T14:30:16"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-08T15:22:04",
+   "state": "done",
+   "chunks": 29,
+   "counts": {
+    "Radial velocity (km/s)": 145,
+    "Space velocity (km/s)": 145,
+    "Motion toward l (deg, heliocentric)": 145,
+    "Motion toward b (deg, heliocentric)": 145,
+    "Kinematics source": 140
+   },
+   "rows": 145,
+   "agents": [
+    "K001",
+    "K002",
+    "K003",
+    "K004",
+    "K005",
+    "K006",
+    "K007",
+    "K008"
+   ],
+   "sp_rows": [
+    5608,
+    5613
+   ],
+   "title": "hy-brasil-20261008-1522",
+   "finished": "2026-10-08T15:22:23"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-08T15:52:23",
+   "state": "done",
+   "chunks": 24,
+   "counts": {
+    "Radial velocity (km/s)": 108,
+    "Space velocity (km/s)": 108,
+    "Motion toward l (deg, heliocentric)": 108,
+    "Motion toward b (deg, heliocentric)": 108,
+    "Kinematics source": 108
+   },
+   "rows": 108,
+   "agents": [
+    "K009",
+    "K010",
+    "K011",
+    "K012",
+    "K013",
+    "K015"
+   ],
+   "sp_rows": [
+    5614,
+    5619
+   ],
+   "title": "hy-brasil-20261008-1553",
+   "finished": "2026-10-08T15:53:06"
+  },
+  {
+   "kind": "withdraw",
+   "started": "2026-10-08T16:00:39",
+   "rows": [
+    [
+     2408,
+     "GJ 3861|1611087248283201024",
+     -68.28,
+     "the research batch's final record has no RV for this row"
+    ],
+    [
+     7200,
+     "Gaia DR3 6840706910418152320|6840706910418152320",
+     -48.5,
+     "K001: mu Cap, GCS -48.5 +/- 4.3 from one measurement against older values near -21."
+    ]
+   ],
+   "sp_rows": [
+    5620,
+    5621
+   ],
+   "title": "hy-brasil-20261008-1600",
+   "state": "done",
+   "finished": "2026-10-08T16:00:46"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-08T16:20:26",
+   "state": "done",
+   "chunks": 24,
+   "counts": {
+    "Radial velocity (km/s)": 73,
+    "Space velocity (km/s)": 73,
+    "Motion toward l (deg, heliocentric)": 73,
+    "Motion toward b (deg, heliocentric)": 73,
+    "Kinematics source": 73
+   },
+   "rows": 73,
+   "agents": [
+    "K014",
+    "K016",
+    "K017",
+    "K019",
+    "K020"
+   ],
+   "sp_rows": [
+    5622,
+    5627
+   ],
+   "title": "hy-brasil-20261008-1620",
+   "finished": "2026-10-08T16:20:51"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-08T16:32:37",
+   "state": "done",
+   "chunks": 13,
+   "counts": {
+    "Radial velocity (km/s)": 19,
+    "Space velocity (km/s)": 19,
+    "Motion toward l (deg, heliocentric)": 19,
+    "Motion toward b (deg, heliocentric)": 19,
+    "Kinematics source": 19
+   },
+   "rows": 19,
+   "agents": [
+    "K021",
+    "K022",
+    "K023",
+    "K024"
+   ],
+   "sp_rows": [
+    5628,
+    5633
+   ],
+   "title": "hy-brasil-20261008-1632",
+   "finished": "2026-10-08T16:32:54"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-08T17:06:45",
+   "state": "done",
+   "chunks": 21,
+   "counts": {
+    "Radial velocity (km/s)": 72,
+    "Space velocity (km/s)": 71,
+    "Motion toward l (deg, heliocentric)": 71,
+    "Motion toward b (deg, heliocentric)": 71,
+    "Kinematics source": 87,
+    "Proper motion in RA, μα·cos δ (mas/yr)": 20,
+    "Proper motion in Dec, μδ (mas/yr)": 20,
+    "Total proper motion, μ (arcsec/yr)": 20
+   },
+   "rows": 87,
+   "agents": [
+    "K018",
+    "K025",
+    "K026",
+    "K027",
+    "K028",
+    "K029",
+    "K030"
+   ],
+   "sp_rows": [
+    5634,
+    5639
+   ],
+   "title": "hy-brasil-20261008-1707",
+   "finished": "2026-10-08T17:07:06"
+  },
+  {
+   "kind": "identity",
+   "started": "2026-10-09T09:27:25",
+   "state": "done",
+   "updates": {
+    "'Known within 100ly'!A2959": "GJ 4378 A",
+    "'Known within 100ly'!A2964": "GJ 4379 B",
+    "'Known within 100ly'!A204": "GJ 257 B",
+    "'Known within 100ly'!A5857": "GJ 10808 B",
+    "'Known within 100ly'!A8625": "GJ 10808 A",
+    "'Known within 100ly'!AQ549": 9.828823,
+    "'Known within 100ly'!AR549": 21.25453,
+    "'Known within 100ly'!AI549": 119.158,
+    "'Known within 100ly'!AJ549": -41.528
+   },
+   "sp_rows": [
+    5640,
+    5645
+   ],
+   "title": "hy-brasil-20261009-0927",
+   "finished": "2026-10-09T09:27:35"
+  },
+  {
+   "kind": "wave",
+   "started": "2026-10-09T09:27:40",
+   "state": "done",
+   "chunks": 14,
+   "counts": {
+    "Radial velocity (km/s)": 28,
+    "Space velocity (km/s)": 28,
+    "Motion toward l (deg, heliocentric)": 28,
+    "Motion toward b (deg, heliocentric)": 28,
+    "Kinematics source": 28,
+    "Last Updated": 28,
+    "Proper motion in RA, μα·cos δ (mas/yr)": 2,
+    "Proper motion in Dec, μδ (mas/yr)": 2,
+    "Total proper motion, μ (arcsec/yr)": 2
+   },
+   "rows": 28,
+   "agents": [
+    "K001",
+    "K002",
+    "K003",
+    "K005",
+    "K008",
+    "K010",
+    "K011",
+    "K015",
+    "K020",
+    "K021",
+    "K030"
+   ],
+   "sp_rows": [
+    5646,
+    5652
+   ],
+   "title": "hy-brasil-20261009-0927",
+   "finished": "2026-10-09T09:27:53"
+  },
+  {
+   "kind": "renote",
+   "started": "2026-10-09T09:27:58",
+   "state": "done",
+   "rows": 829,
+   "flags": {
+    "fidelity_v2": 761,
+    "RV systematic": 69
+   },
+   "sp_rows": [
+    5653,
+    5659
+   ],
+   "title": "hy-brasil-20261009-0929",
+   "finished": "2026-10-09T09:29:33"
+  }
+ ]
+}

@@ -1,0 +1,1329 @@
+{
+ "agent_id": "C05",
+ "phase": 3,
+ "coverage": [
+  {
+   "system_host": "LCES survey (Butler et al. 2017)",
+   "aliases_searched": [],
+   "sources_checked": [
+    "VizieR J/AJ/153/208 ReadMe + table2.dat",
+    "VizieR I/239 (HD->HIP)",
+    "Gaia DR3 hipparcos2_best_neighbour + gaia_source",
+    "CLS GitHub tables",
+    "systems/planets_confirmed/unconfirmed_existing/rejected/multistars CSVs"
+   ],
+   "result": "60 Candidate signals on 55 hosts; 28 hosts within 100 ly; 5 new unlikely candidates",
+   "notes": "table2.dat: 357 signals (Candidate 60). Hosts resolved HD->HIP (I/239) -> Gaia DR3 (hipparcos2_best_neighbour; 7 by cone search; GJ 317 via NASA gaia_dr3_id). Within 100 ly: 13 are planets already on the sheet, GJ 69 b already on Unconfirmed, 2 refuted earlier (GJ 411 9.87 d, GJ 251 1.74 d), 5 refuted by CLS as activity (18 Sco, HD 42618, HD 9986, HD 197076, HD 190406 3985 d), 5 are stellar/BD/WD companions (GJ 105 C, HD 104304, HD 68017, 15 Sge B, HD 114174 B), 5 not recovered -> 'unlikely' candidates (HD 221354, HD 195564, HD 1388, HD 99491, HD 7924 183 d). SRC ('signal requiring confirmation', 54) and Activity (18) signals were out of scope and not swept. No LCES candidate within 100 ly survives as ambiguous or strong."
+  },
+  {
+   "system_host": "HD 221354",
+   "aliases_searched": [
+    "HIP 116085",
+    "Gaia DR3 2011251030583236352"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "1 candidate (unlikely); new system",
+   "notes": "LCES 122.27 d, K 1.25. In CLS sample; no signal. Kervella PMa snr 1.7. arXiv abs:'HD 221354': 0 results. New system (unlikely-only)."
+  },
+  {
+   "system_host": "HD 195564",
+   "aliases_searched": [
+    "HIP 101345",
+    "Gaia DR3 6904703228801028864"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "1 candidate (unlikely); new system",
+   "notes": "LCES 5404 d (note 3). CLS: trend + curvature, 26000 d signal flagged N. PMa 3.3 sigma. arXiv abs:'HD 195564': 0 results. New system (unlikely-only)."
+  },
+  {
+   "system_host": "HD 1388",
+   "aliases_searched": [
+    "HIP 1444",
+    "Gaia DR3 2423292879948720000"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "1 candidate (unlikely); new system",
+   "notes": "LCES 5082 d (note 3). CLS trend only. Dalba et al. speckle companion consistent with RV. PMa 3.9 sigma. arXiv: 1 result (2012.05253). New system (unlikely-only)."
+  },
+  {
+   "system_host": "HD 99492",
+   "aliases_searched": [
+    "HD 99491",
+    "83 Leo A",
+    "HIP 55846"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "1 candidate (unlikely) on 83 Leo A",
+   "notes": "LCES 4756 d on 83 Leo A. CLS: 2183 d activity (A) only. arXiv abs:'HD 99491' / '83 Leo': 0 results. Candidate filed under HD 99492 with planet_host_star HD 99491."
+  },
+  {
+   "system_host": "HD 7924",
+   "aliases_searched": [
+    "HIP 6379"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "LCES 183.27 d (4th signal). Not in Fulton 2015 or CLS. arXiv 'HD 7924 AND planet': 6 results, none a new candidate."
+  },
+  {
+   "system_host": "18 Sco",
+   "aliases_searched": [
+    "HD 146233",
+    "HIP 79672"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (LCES signal refuted as activity)",
+   "notes": "LCES 2528.8 d = CLS activity 2426 d (not added). 18 Sco b (19.88 d, Laliotis 2023) already on Unconfirmed; not re-examined."
+  },
+  {
+   "system_host": "HD 42618",
+   "aliases_searched": [
+    "HIP 29432"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (LCES signal refuted as activity)",
+   "notes": "LCES 3621.5 d = CLS activity 4040 d (not added)."
+  },
+  {
+   "system_host": "GJ 411",
+   "aliases_searched": [
+    "HD 95735",
+    "Lalande 21185"
+   ],
+   "sources_checked": [
+    "CARMENES DR1 Table C.1",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (refuted)",
+   "notes": "LCES 9.87 d refuted (Diaz 2019, Stock 2020, CARMENES DR1 Table 4, CLS). B06 has it."
+  },
+  {
+   "system_host": "GJ 251",
+   "aliases_searched": [
+    "HD 265866"
+   ],
+   "sources_checked": [
+    "CARMENES DR1 Table C.1",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (refuted); 1 incidental",
+   "notes": "LCES 1.74 d refuted (Stock 2020; not in CLS). CARMENES DR1 labels 53.65 d 'rotation' -> incidental on GJ 251 c."
+  },
+  {
+   "system_host": "GJ 69",
+   "aliases_searched": [
+    "HD 10436"
+   ],
+   "sources_checked": [
+    "LCES table2.dat",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (already on Unconfirmed)",
+   "notes": "LCES 3.84 d = GJ 69 b already on Unconfirmed; CLS recovers nothing."
+  },
+  {
+   "system_host": "GJ 3325",
+   "aliases_searched": [
+    "LP 776-46",
+    "J05033-173"
+   ],
+   "sources_checked": [
+    "CARMENES DR1 Table C.1",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (already on Unconfirmed)",
+   "notes": "CARMENES DR1 candidate 1.92 d already on Unconfirmed."
+  },
+  {
+   "system_host": "GJ 3988",
+   "aliases_searched": [
+    "G 203-42",
+    "J17033+514"
+   ],
+   "sources_checked": [
+    "CARMENES DR1 Table C.1",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (since confirmed)",
+   "notes": "CARMENES DR1 candidate 6.94 d confirmed as GJ 3988 b (Gorrini 2023), on confirmed tab."
+  },
+  {
+   "system_host": "GJ 724",
+   "aliases_searched": [
+    "BD-13 5069",
+    "HIP 91608",
+    "J18409-133"
+   ],
+   "sources_checked": [
+    "CARMENES DR1 Table C.1",
+    "CLS planet_list / false / trend / binary tables",
+    "Gaia DR3",
+    "Kervella 2022 PMa",
+    "arXiv API (curl, 4 s spacing)",
+    "NASA pscomppars",
+    "pack CSVs"
+   ],
+   "result": "0 (since confirmed)",
+   "notes": "CARMENES DR1 candidate 5.1 d confirmed as GJ 724 b (Gorrini 2023), on confirmed tab."
+  },
+  {
+   "system_host": "CARMENES DR1 survey (Ribas et al. 2023)",
+   "aliases_searched": [],
+   "sources_checked": [
+    "arXiv:2302.10528 LaTeX source (Table 3, Table 4, Table C.1, Sect. 6)",
+    "VizieR J/A+A/670/A139 table1 (Karmn -> name)",
+    "Gaia DR3 (parallax>25, G<15.5 download, Karmn box match)",
+    "NASA pscomppars sy_dist<31",
+    "pack CSVs"
+   ],
+   "result": "3 candidates, all already on the sheet (1 Unconfirmed, 2 since confirmed); 0 new; 6 incidental finds",
+   "notes": "Table C.1: 305 rows on 237 targets; remarks: 3 'candidate', 33 'unsolved', ~90 activity/rotation/indicator. 234 of 238 Table C.1/Table 4 targets matched to Gaia DR3 by Karmn box (K2-18, BD+09 2636, BD+11 2576, BD+18 2776 unmatched; all matched plx > 42 mas). Activity/rotation signals compared with confirmed and unconfirmed rows by host (Gaia id) and period (6%): matches GJ 251 c (53.65 d 'rotation') and HIP 48714 b (18.69 d Halpha/dLW). Table 4 challenged planets compared with the sheet: YZ Cet b, GJ 96 b, GJ 373 = HIP 48714 b, GJ 1151 (hybrid row), V2306 Oph = Wolf 1061 b are on the confirmed tab -> incidental. SIMBAD was unreachable (timeout); WebSearch budget was exhausted, so literature checks used the arXiv API and NASA TAP only."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "HD 221354 candidate P=122.3d",
+   "system_host": "HD 221354",
+   "new_system": true,
+   "planet_host_star": "HD 221354",
+   "aliases": [
+    "HIP 116085",
+    "Gaia DR3 2011251030583236352"
+   ],
+   "designation": "unlettered LCES 'Candidate' signal (Num 1307 HD221354, Ns=1); no letter assigned by any paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "LCES single 1.25 m/s signal, the lowest K in the whole LCES candidate list, never published as a planet. HD 221354 is in the California Legacy Survey sample (stellar_parameters.csv) with a longer HIRES+APF baseline, and CLS recovers no signal at all for it (not in planet_list.csv, trend list or false-positive table). Not refuted by name, just not recovered. Kervella 2022 PMa is insignificant (snr 1.7).",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 122.27,
+    "src": "S1",
+    "where": "table2.dat row Num 1307 HD221354, Ns=1",
+    "err": "+/-0.34"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "rv_semi_amplitude_ms": {
+    "value": 1.25,
+    "src": "S1",
+    "where": "table2.dat row Num 1307 HD221354, Ns=1 (K)",
+    "err": "+/-0.17"
+   },
+   "lces_likelihood_ratio": {
+    "value": 29.24,
+    "src": "S1",
+    "where": "table2.dat row Num 1307 HD221354, Ns=1 (LR = Delta lnL)"
+   },
+   "lces_note": "none",
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.864,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 221354, mass_c"
+    },
+    "teff_k": {
+     "value": 5272,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 221354, teff_c"
+    },
+    "radius_rsun": {
+     "value": 0.901,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 221354, radius_c"
+    },
+    "luminosity_lsun": {
+     "value": 0.541,
+     "src": "S3",
+     "where": "astrophysical_parameters.lum_flame (FLAME), source 2011251030583236352"
+    },
+    "logg": {
+     "value": 4.46,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 221354, logg_c"
+    },
+    "feh": {
+     "value": 0.1,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 221354, fe_c"
+    }
+   },
+   "orbit_flags": "RV only (Keck/HIRES). Only P and K published; no e, no m sin i, no T0. The writer can derive m sin i from K and the host mass if wanted (orange). Not recovered by CLS.",
+   "reference": "Butler et al. 2017, AJ 153, 208, Table 2 (VizieR J/AJ/153/208 table2.dat, Num 1307 HD221354, Ns=1); status per Rosenthal et al. 2021 (CLS): not recovered (absent from planet_list.csv)",
+   "vetting_date": "2021-05-25",
+   "catalogue_distance_ly": {
+    "value": 54.94,
+    "src": "S3",
+    "where": "Gaia DR3 2011251030583236352 parallax 59.3670 mas (1000/plx pc x 3.26156)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Butler, Vogt, Laughlin et al. 2017, AJ 153, 208, 'The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey' (arXiv:1702.03571)",
+     "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat",
+     "what": "VizieR J/AJ/153/208 table2.dat: signal period, K, likelihood ratio, classification 'Candidate', notes 1-7 (ReadMe)"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    }
+   },
+   "dedupe": "HD 221354 / HIP 116085 / Gaia DR3 2011251030583236352 not in systems.csv, planets_confirmed.csv, unconfirmed_existing.csv, rejected_candidates.csv or multistars.csv.",
+   "confidence_notes": "A 1.25 m/s single-instrument signal that a larger HIRES dataset does not see. Probably noise or activity."
+  },
+  {
+   "planet": "HD 195564 candidate P=5404d",
+   "system_host": "HD 195564",
+   "new_system": true,
+   "planet_host_star": "HD 195564",
+   "aliases": [
+    "HIP 101345",
+    "Gaia DR3 6904703228801028864"
+   ],
+   "designation": "unlettered LCES 'Candidate' signal (Num 1142 HD195564, Ns=1, note 3); no letter assigned by any paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "LCES flags the period as unconstrained from above (note 3): it is long-period curvature, not a closed orbit. CLS does not recover a 5400 d planet; it fits HD 195564 with a linear trend plus curvature (trends_table_lit.tex) and a 26000(+16000/-11000) d, K = 160 m/s signal that it labels a false positive, cause N (instrumental/annual systematic; false_table_lit.tex). Kervella 2022 PMa: snr 3.33 (binary flag 1), companion mass ~28 MJup at 5 au, ~31 MJup at 10 au, ~118 MJup at 30 au. Best reading: part of the acceleration from an unseen massive outer companion, not a ~12 yr planet.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 5403.77,
+    "src": "S1",
+    "where": "table2.dat row Num 1142 HD195564, Ns=1, note 3",
+    "err": "+/-164.14"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "rv_semi_amplitude_ms": {
+    "value": 9.14,
+    "src": "S1",
+    "where": "table2.dat row Num 1142 HD195564, Ns=1, note 3 (K)",
+    "err": "+/-1.16"
+   },
+   "lces_likelihood_ratio": {
+    "value": 25.7,
+    "src": "S1",
+    "where": "table2.dat row Num 1142 HD195564, Ns=1, note 3 (LR = Delta lnL)"
+   },
+   "lces_note": "3 = period not constrained from above (search limited to 1 d < P < T_obs)",
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.121,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 195564, mass_c"
+    },
+    "teff_k": {
+     "value": 5663,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 195564, teff_c"
+    },
+    "radius_rsun": {
+     "value": 1.836,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 195564, radius_c"
+    },
+    "luminosity_lsun": {
+     "value": 2.931,
+     "src": "S3",
+     "where": "astrophysical_parameters.lum_flame (FLAME), source 6904703228801028864"
+    },
+    "logg": {
+     "value": 3.96,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 195564, logg_c"
+    },
+    "feh": {
+     "value": 0.09,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 195564, fe_c"
+    }
+   },
+   "orbit_flags": "RV only (Keck/HIRES). Period unconstrained from above (LCES note 3). No e, no m sin i. Gaia DR3 RUWE 0.99; Hipparcos-Gaia PMa 3.3 sigma.",
+   "reference": "Butler et al. 2017, AJ 153, 208, Table 2 (VizieR J/AJ/153/208 table2.dat, Num 1142 HD195564, Ns=1, note 3); status per Rosenthal et al. 2021 (CLS): trend + curvature, and a 26000 d signal flagged N (false_table_lit.tex, trends_table_lit.tex)",
+   "vetting_date": "2021-05-25",
+   "catalogue_distance_ly": {
+    "value": 80.68,
+    "src": "S3",
+    "where": "Gaia DR3 6904703228801028864 parallax 40.4241 mas (1000/plx pc x 3.26156)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Butler, Vogt, Laughlin et al. 2017, AJ 153, 208, 'The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey' (arXiv:1702.03571)",
+     "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat",
+     "what": "VizieR J/AJ/153/208 table2.dat: signal period, K, likelihood ratio, classification 'Candidate', notes 1-7 (ReadMe)"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S4": {
+     "citation": "Kervella, Arenou & Thevenin 2022, A&A 657, A7, Hipparcos-Gaia EDR3 proper-motion anomaly (VizieR J/A+A/657/A7 tablea1)",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select * from \"J/A+A/657/A7/tablea1\" where HIP in (...))",
+     "what": "snrPMaH2EG3a, BinH2EG3a, M25au / M210au companion-mass loci"
+    }
+   },
+   "dedupe": "HD 195564 / HIP 101345 / Gaia DR3 6904703228801028864 not in systems.csv, planets_confirmed.csv, unconfirmed_existing.csv, rejected_candidates.csv or multistars.csv.",
+   "confidence_notes": "An open-ended trend dressed as a period. Something massive is out there; not a planet candidate in any useful sense."
+  },
+  {
+   "planet": "HD 1388 candidate P=5082d",
+   "system_host": "HD 1388",
+   "new_system": true,
+   "planet_host_star": "HD 1388",
+   "aliases": [
+    "HIP 1444",
+    "Gaia DR3 2423292879948720000"
+   ],
+   "designation": "unlettered LCES 'Candidate' signal (Num 82 HD1388, Ns=1, note 3); no letter assigned by any paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "LCES note 3: long-period curvature with the period unconstrained from above. CLS fits only a linear trend plus curvature (trends_table_lit.tex: dv/dt 0.05279 m/s/d), no planet. Dalba et al. (arXiv:2012.05253) image a luminous companion within 2 arcsec whose properties are consistent with the RV acceleration and call it the likely cause. Kervella 2022 PMa: snr 3.88 (binary flag 1), ~44 MJup at 5 au, ~47 MJup at 10 au, ~186 MJup at 30 au. Not formally retracted, but the signal has a stellar or brown-dwarf explanation.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 5081.79,
+    "src": "S1",
+    "where": "table2.dat row Num 82 HD1388, Ns=1, note 3",
+    "err": "+/-99.13"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "rv_semi_amplitude_ms": {
+    "value": 12.52,
+    "src": "S1",
+    "where": "table2.dat row Num 82 HD1388, Ns=1, note 3 (K)",
+    "err": "+/-1.68"
+   },
+   "lces_likelihood_ratio": {
+    "value": 31.52,
+    "src": "S1",
+    "where": "table2.dat row Num 82 HD1388, Ns=1, note 3 (LR = Delta lnL)"
+   },
+   "lces_note": "3 = period not constrained from above",
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.027,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 1388, mass_c"
+    },
+    "teff_k": {
+     "value": 5905,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 1388, teff_c"
+    },
+    "radius_rsun": {
+     "value": 1.237,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 1388, radius_c"
+    },
+    "luminosity_lsun": {
+     "value": 1.516,
+     "src": "S3",
+     "where": "astrophysical_parameters.lum_flame (FLAME), source 2423292879948720000"
+    },
+    "logg": {
+     "value": 4.26,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 1388, logg_c"
+    },
+    "feh": {
+     "value": -0.002,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 1388, fe_c"
+    }
+   },
+   "orbit_flags": "RV only (Keck/HIRES), period unconstrained from above (note 3). No e, no m sin i. Imaged companion (Dalba et al. 2021) and a 3.9-sigma Hipparcos-Gaia PMa.",
+   "reference": "Butler et al. 2017, AJ 153, 208, Table 2 (VizieR J/AJ/153/208 table2.dat, Num 82 HD1388, Ns=1, note 3); status per Rosenthal et al. 2021 (CLS): linear trend + curvature only (trends_table_lit.tex)",
+   "vetting_date": "2021-05-25",
+   "catalogue_distance_ly": {
+    "value": 87.81,
+    "src": "S3",
+    "where": "Gaia DR3 2423292879948720000 parallax 37.1417 mas (1000/plx pc x 3.26156)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Butler, Vogt, Laughlin et al. 2017, AJ 153, 208, 'The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey' (arXiv:1702.03571)",
+     "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat",
+     "what": "VizieR J/AJ/153/208 table2.dat: signal period, K, likelihood ratio, classification 'Candidate', notes 1-7 (ReadMe)"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S4": {
+     "citation": "Kervella, Arenou & Thevenin 2022, A&A 657, A7, Hipparcos-Gaia EDR3 proper-motion anomaly (VizieR J/A+A/657/A7 tablea1)",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select * from \"J/A+A/657/A7/tablea1\" where HIP in (...))",
+     "what": "snrPMaH2EG3a, BinH2EG3a, M25au / M210au companion-mass loci"
+    },
+    "S5": {
+     "citation": "Dalba, Kane, Howell et al. 2021, 'Speckle Imaging Characterization of Radial Velocity Exoplanet Systems' (arXiv:2012.05253)",
+     "url": "https://arxiv.org/abs/2012.05253",
+     "what": "abstract: imaged companions of HD 1388, HD 87359 and HD 104304 consistent with the RV accelerations"
+    }
+   },
+   "dedupe": "HD 1388 / HIP 1444 / Gaia DR3 2423292879948720000 not in systems.csv, planets_confirmed.csv, unconfirmed_existing.csv, rejected_candidates.csv or multistars.csv.",
+   "confidence_notes": "A trend from a luminous imaged companion. Filing it as 'unlikely' rather than dropping it only because nobody has written the word 'refuted'."
+  },
+  {
+   "planet": "HD 99491 candidate P=4756d",
+   "system_host": "HD 99492",
+   "new_system": false,
+   "planet_host_star": "HD 99491",
+   "aliases": [
+    "83 Leo A",
+    "HIP 55846",
+    "Gaia DR3 3812355328621651328"
+   ],
+   "designation": "unlettered LCES 'Candidate' signal (Num 634 HD99491, Ns=1); no letter assigned by any paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "LCES 4756 +/- 402 d, K 5 m/s around 83 Leo A (HD 99491), the wide primary of the HD 99492 (83 Leo B) planet host. CLS, with a longer baseline, finds a different long-period signal at 2183 (+40/-37) d, K 6.5 m/s, that it labels a false positive with cause A (magnetic activity cycle) (false_table_lit.tex, planet_list.csv status A), and nothing at ~4750 d. Kervella 2022 PMa insignificant (snr 0.27). The LCES signal is most likely the same activity-cycle power, poorly sampled.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 4755.73,
+    "src": "S1",
+    "where": "table2.dat row Num 634 HD99491, Ns=1",
+    "err": "+/-402.39"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "rv_semi_amplitude_ms": {
+    "value": 4.97,
+    "src": "S1",
+    "where": "table2.dat row Num 634 HD99491, Ns=1 (K)",
+    "err": "+/-0.65"
+   },
+   "lces_likelihood_ratio": {
+    "value": 36.15,
+    "src": "S1",
+    "where": "table2.dat row Num 634 HD99491, Ns=1 (LR = Delta lnL)"
+   },
+   "lces_note": "none",
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.02,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 99491, mass_c"
+    },
+    "teff_k": {
+     "value": 5465,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 99491, teff_c"
+    },
+    "radius_rsun": {
+     "value": 0.982,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 99491, radius_c"
+    },
+    "luminosity_lsun": {
+     "value": 0.745,
+     "src": "S3",
+     "where": "astrophysical_parameters.lum_flame (FLAME), source 3812355328621651328"
+    },
+    "logg": {
+     "value": 4.46,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 99491, logg_c"
+    },
+    "feh": {
+     "value": 0.33,
+     "src": "S2",
+     "where": "stellar_parameters.csv row 99491, fe_c"
+    },
+    "stellar_class": {
+     "value": "K0IV",
+     "src": "S5",
+     "where": "I/239/hip_main SpType, HIP 55846"
+    }
+   },
+   "orbit_flags": "RV only (Keck/HIRES). P and K only; no e, no m sin i. CLS attributes the star's long-period RV power (2183 d) to its activity cycle.",
+   "reference": "Butler et al. 2017, AJ 153, 208, Table 2 (VizieR J/AJ/153/208 table2.dat, Num 634 HD99491, Ns=1); status per Rosenthal et al. 2021 (CLS): the star's long-period power is a 2183 d activity signal (false_table_lit.tex)",
+   "vetting_date": "2021-05-25",
+   "catalogue_distance_ly": {
+    "value": 59.29,
+    "src": "S3",
+    "where": "Gaia DR3 3812355328621651328 parallax 55.0090 mas (1000/plx pc x 3.26156)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Butler, Vogt, Laughlin et al. 2017, AJ 153, 208, 'The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey' (arXiv:1702.03571)",
+     "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat",
+     "what": "VizieR J/AJ/153/208 table2.dat: signal period, K, likelihood ratio, classification 'Candidate', notes 1-7 (ReadMe)"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S4": {
+     "citation": "Kervella, Arenou & Thevenin 2022, A&A 657, A7, Hipparcos-Gaia EDR3 proper-motion anomaly (VizieR J/A+A/657/A7 tablea1)",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select * from \"J/A+A/657/A7/tablea1\" where HIP in (...))",
+     "what": "snrPMaH2EG3a, BinH2EG3a, M25au / M210au companion-mass loci"
+    },
+    "S5": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select HIP,HD,SpType from \"I/239/hip_main\")",
+     "what": "HD-HIP cross-identification and spectral type"
+    }
+   },
+   "dedupe": "83 Leo A / HD 99491 / HIP 55846 / Gaia DR3 3812355328621651328 not in systems.csv (HD 99492 is, as a one-star system), planets_confirmed.csv, unconfirmed_existing.csv, rejected_candidates.csv or multistars.csv. HD 99492 b/c on the confirmed tab orbit the other star (83 Leo B).",
+   "confidence_notes": "Activity-cycle territory on a metal-rich K0 IV star; not a planet."
+  },
+  {
+   "planet": "HD 7924 candidate P=183.3d",
+   "system_host": "HD 7924",
+   "new_system": false,
+   "planet_host_star": "HD 7924",
+   "aliases": [
+    "HIP 6379",
+    "Gaia DR3 560130775546153344"
+   ],
+   "designation": "unlettered LCES 'Candidate' signal (Num 145 HD7924, Ns=4); no letter assigned by any paper",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Fourth LCES signal (after the 5.40, 15.30 and 24.42 d planets b, c, d). Fulton et al. 2015, with HIRES + APF, report only the three planets, an activity cycle, and two short-period signals put down to rotation and a one-month alias. CLS recovers b, c, d, labels 2682 d as activity (A) and 383 d as an annual systematic (N), and finds nothing at 183 d. 183.3 d is half a year, the classic HIRES window-function period.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 183.27,
+    "src": "S1",
+    "where": "table2.dat row Num 145 HD7924, Ns=4",
+    "err": "+/-0.85"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "rv_semi_amplitude_ms": {
+    "value": 1.78,
+    "src": "S1",
+    "where": "table2.dat row Num 145 HD7924, Ns=4 (K)",
+    "err": "+/-0.28"
+   },
+   "lces_likelihood_ratio": {
+    "value": 26.98,
+    "src": "S1",
+    "where": "table2.dat row Num 145 HD7924, Ns=4 (LR = Delta lnL)"
+   },
+   "lces_note": "none",
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only (Keck/HIRES). P and K only. Not recovered by Fulton et al. 2015 or CLS; sits at half a year.",
+   "reference": "Butler et al. 2017, AJ 153, 208, Table 2 (VizieR J/AJ/153/208 table2.dat, Num 145 HD7924, Ns=4); status per Rosenthal et al. 2021 (CLS): not recovered (planet_list.csv lists b, c, d, plus 2683 d A and 383 d N)",
+   "vetting_date": "2021-05-25",
+   "catalogue_distance_ly": {
+    "value": 55.46,
+    "src": "S3",
+    "where": "Gaia DR3 560130775546153344 parallax 58.8125 mas (1000/plx pc x 3.26156)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Butler, Vogt, Laughlin et al. 2017, AJ 153, 208, 'The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey' (arXiv:1702.03571)",
+     "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat",
+     "what": "VizieR J/AJ/153/208 table2.dat: signal period, K, likelihood ratio, classification 'Candidate', notes 1-7 (ReadMe)"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S4": {
+     "citation": "Fulton, Weiss, Sinukoff et al. 2015, 'Three Super-Earths Orbiting HD 7924' (arXiv:1504.06629)",
+     "url": "https://arxiv.org/abs/1504.06629",
+     "what": "abstract: three planets, a long-period activity-cycle signal, and two short-period signals attributed to rotation and a one-month alias"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv (HD 7924 b 5.398 d, c 15.299 d, d 24.451 d), unconfirmed_existing.csv and rejected_candidates.csv: no 183 d entry.",
+   "confidence_notes": "Half-year alias until shown otherwise."
+  }
+ ],
+ "new_systems": [
+  {
+   "system_host": "HD 221354",
+   "nickname": "",
+   "aliases": [
+    "HIP 116085",
+    "Gaia DR3 2011251030583236352"
+   ],
+   "parallax_mas": {
+    "value": 59.367,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.parallax"
+   },
+   "distance_ly": {
+    "value": 54.94,
+    "src": "S1",
+    "where": "Gaia DR3 parallax 59.367 mas (1000/plx pc x 3.26156)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.864,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 221354, mass_c (SpecMatch + isochrones)"
+   },
+   "stellar_class": {
+    "value": "K2V",
+    "src": "S3",
+    "where": "I/239/hip_main SpType, HIP 116085"
+   },
+   "teff_k": {
+    "value": 5272,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 221354, teff_c"
+   },
+   "radius_rsun": {
+    "value": 0.901,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 221354, radius_c"
+   },
+   "luminosity_lsun": {
+    "value": 0.541,
+    "src": "S1",
+    "where": "Gaia DR3 astrophysical_parameters.lum_flame (FLAME)"
+   },
+   "logg": {
+    "value": 4.46,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 221354, logg_c"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": 0.1,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 221354, fe_c"
+   },
+   "rv_kms": {
+    "value": -25.237,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 1106.442,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 113.402,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2011251030583236352",
+   "gaia_ruwe": 1.022,
+   "companions": [],
+   "sources": {
+    "S1": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select HIP,HD,SpType from \"I/239/hip_main\")",
+     "what": "HD-HIP cross-identification and spectral type"
+    }
+   }
+  },
+  {
+   "system_host": "HD 195564",
+   "nickname": "",
+   "aliases": [
+    "HIP 101345",
+    "Gaia DR3 6904703228801028864"
+   ],
+   "parallax_mas": {
+    "value": 40.4241,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.parallax"
+   },
+   "distance_ly": {
+    "value": 80.68,
+    "src": "S1",
+    "where": "Gaia DR3 parallax 40.4241 mas (1000/plx pc x 3.26156)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 1.121,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 195564, mass_c (SpecMatch + isochrones)"
+   },
+   "stellar_class": {
+    "value": "G3V",
+    "src": "S3",
+    "where": "I/239/hip_main SpType, HIP 101345"
+   },
+   "teff_k": {
+    "value": 5663,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 195564, teff_c"
+   },
+   "radius_rsun": {
+    "value": 1.836,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 195564, radius_c"
+   },
+   "luminosity_lsun": {
+    "value": 2.931,
+    "src": "S1",
+    "where": "Gaia DR3 astrophysical_parameters.lum_flame (FLAME)"
+   },
+   "logg": {
+    "value": 3.96,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 195564, logg_c"
+   },
+   "age_gyr": {
+    "value": 8.13,
+    "src": "S1",
+    "where": "Gaia DR3 astrophysical_parameters.age_flame (FLAME; model age, treat as rough)"
+   },
+   "feh": {
+    "value": 0.09,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 195564, fe_c"
+   },
+   "rv_kms": {
+    "value": 9.134,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 309.736,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": 109.91,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "6904703228801028864",
+   "gaia_ruwe": 0.986,
+   "companions": [
+    {
+     "note": "unseen long-period companion implied by the CLS RV trend + curvature and a 3.3-sigma Hipparcos-Gaia PMa (Kervella 2022: ~28 MJup at 5 au, ~118 MJup at 30 au). Not resolved; mass and orbit unknown.",
+     "src": "Kervella et al. 2022 J/A+A/657/A7; Rosenthal et al. 2021 trends_table_lit.tex"
+    }
+   ],
+   "sources": {
+    "S1": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select HIP,HD,SpType from \"I/239/hip_main\")",
+     "what": "HD-HIP cross-identification and spectral type"
+    }
+   }
+  },
+  {
+   "system_host": "HD 1388",
+   "nickname": "",
+   "aliases": [
+    "HIP 1444",
+    "Gaia DR3 2423292879948720000"
+   ],
+   "parallax_mas": {
+    "value": 37.1417,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.parallax"
+   },
+   "distance_ly": {
+    "value": 87.81,
+    "src": "S1",
+    "where": "Gaia DR3 parallax 37.1417 mas (1000/plx pc x 3.26156)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 1.027,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 1388, mass_c (SpecMatch + isochrones)"
+   },
+   "stellar_class": {
+    "value": "G2V",
+    "src": "S3",
+    "where": "I/239/hip_main SpType, HIP 1444"
+   },
+   "teff_k": {
+    "value": 5905,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 1388, teff_c"
+   },
+   "radius_rsun": {
+    "value": 1.237,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 1388, radius_c"
+   },
+   "luminosity_lsun": {
+    "value": 1.516,
+    "src": "S1",
+    "where": "Gaia DR3 astrophysical_parameters.lum_flame (FLAME)"
+   },
+   "logg": {
+    "value": 4.26,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 1388, logg_c"
+   },
+   "age_gyr": {
+    "value": 8.89,
+    "src": "S1",
+    "where": "Gaia DR3 astrophysical_parameters.age_flame (FLAME; model age, treat as rough)"
+   },
+   "feh": {
+    "value": -0.002,
+    "src": "S2",
+    "where": "stellar_parameters.csv row 1388, fe_c"
+   },
+   "rv_kms": {
+    "value": 28.923,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 401.642,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmra"
+   },
+   "pmdec_masyr": {
+    "value": -0.238,
+    "src": "S1",
+    "where": "Gaia DR3 gaia_source.pmdec"
+   },
+   "gaia_dr3_source_id": "2423292879948720000",
+   "gaia_ruwe": 1.01,
+   "companions": [
+    {
+     "note": "luminous companion imaged within 2 arcsec by speckle (Gemini-South DSSI / WIYN NESSI), consistent with the RV acceleration (Dalba et al., arXiv:2012.05253, abstract). Separation and mass not extracted here; see the paper's tables. Kervella 2022 PMa 3.9 sigma (~44 MJup at 5 au, ~186 MJup at 30 au).",
+     "src": "arXiv:2012.05253; J/A+A/657/A7"
+    }
+   ],
+   "sources": {
+    "S1": {
+     "citation": "Gaia DR3 gaia_source + astrophysical_parameters (queried 2026-09-27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select g.source_id,g.parallax,g.pmra,g.pmdec,g.radial_velocity,g.ruwe,a.mass_flame,a.lum_flame,a.radius_flame,a.age_flame,a.teff_gspphot from gaiadr3.gaia_source g left join gaiadr3.astrophysical_parameters a on a.source_id=g.source_id where g.source_id in (...)",
+     "what": "parallax, proper motion, RV, RUWE; FLAME lum/age"
+    },
+    "S2": {
+     "citation": "Rosenthal, Fulton, Hirsch et al. 2021, 'The California Legacy Survey I. A Catalog of 178 Planets...' (ApJS; arXiv:2105.11583)",
+     "url": "https://github.com/leerosenthalj/CLSI/tree/master/legacy_tables",
+     "what": "planet_list.csv (status K/C/A/R/N/S), tex_tables/false_table_lit.tex (Table 7 'False Positives', cause A = long-period magnetic activity cycle, R = rotation, N = annual and/or instrumental systematic; App. G of the paper), binary_table_lit.tex, trends_table_lit.tex, stellar_parameters.csv (SpecMatch teff_c, logg_c, radius_c, mass_c, fe_c)"
+    },
+    "S3": {
+     "citation": "Hipparcos main catalogue (ESA 1997), VizieR I/239/hip_main",
+     "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync (select HIP,HD,SpType from \"I/239/hip_main\")",
+     "what": "HD-HIP cross-identification and spectral type"
+    }
+   }
+  }
+ ],
+ "considered_not_added": [
+  {
+   "name": "18 Sco LCES candidate P=2528.8d (HD 146233)",
+   "system_host": "18 Sco",
+   "reason": "refuted as activity: CLS (Rosenthal et al. 2021) Table 7 lists HD 146233 at 2426 (+60/-42) d, K 5.55 m/s, cause A (long-period magnetic activity cycle). LCES table2 Num 904: P 2528.81 +/- 105.53 d, K 4.96. Suitable for the Rejected tab if the writer files refuted signals there.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/false_table_lit.tex"
+  },
+  {
+   "name": "HD 42618 LCES candidate P=3621.5d",
+   "system_host": "HD 42618",
+   "reason": "refuted as activity: CLS Table 7 lists HD 42618 at 4040 (+390/-260) d, cause A; Fulton et al. 2016 already tied the long period to the Ca II H&K cycle (per B09). LCES table2 Num 420: 3621.53 +/- 344.13 d, K 2.31.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/false_table_lit.tex"
+  },
+  {
+   "name": "HD 9986 LCES candidate P=3070.8d",
+   "system_host": "HD 9986 (not on Systems; Gaia DR3 2585856120791459584, plx 39.312 mas, 82.97 ly)",
+   "reason": "refuted as activity: CLS Table 7 lists HD 9986 at 3103 (+51/-48) d, K 13.19 m/s, cause A. LCES table2 Num 174: 3070.75 +/- 62.66 d, K 12.65. HD 9986 has no other claimed planet, so no system row is proposed. (A BCool spectropolarimetric study, arXiv:2412.09365, finds repeating magnetic polarity reversals on 5-6 yr time-scales for this star.)",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/false_table_lit.tex"
+  },
+  {
+   "name": "HD 197076 LCES candidate P=1786.6d",
+   "system_host": "HD 197076 (not on Systems; Gaia DR3 1814241194252808704, plx 47.746 mas, 68.31 ly)",
+   "reason": "refuted as activity: CLS Table 7 lists HD 197076 at 1620 (+29/-34) d, K 4.45, cause A, plus 23.68 d cause R (rotation). LCES table2 Num 1150: 1786.56 +/- 39.51 d, K 4.35. Same long-period power, different period estimate. No other claimed planet; no system row proposed.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/false_table_lit.tex"
+  },
+  {
+   "name": "HD 190406 (15 Sge) LCES candidate P=3984.6d",
+   "system_host": "HD 190406 (not on Systems; Gaia DR3 1821708351374312064, plx 56.269 mas, 57.96 ly)",
+   "reason": "refuted as activity: CLS Table 7 lists HD 190406 at 4092 (+100/-73) d, K 9.1, cause A (and 995.8 d, cause A). LCES table2 Num 1115 signal 2: 3984.63 +/- 220.97 d, K 165.69 (fitted alongside the brown dwarf).",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/false_table_lit.tex"
+  },
+  {
+   "name": "HD 190406 (15 Sge) LCES candidate P=5832.7d",
+   "system_host": "HD 190406",
+   "reason": "not a planet: the brown dwarf HR 7672 B (15 Sge B), L4.5, imaged at 0.79 arcsec, >= 48 MJup model-independent (Liu et al. 2002, astro-ph/0112407); CLS binary table: 67.4 MJup, a 15.5 au. LCES table2 Num 1115 signal 1: 5832.69 d, K 168.26, note 3.",
+   "source_url": "https://arxiv.org/abs/astro-ph/0112407"
+  },
+  {
+   "name": "HD 16160 (GJ 105 A) LCES candidate P=6264.6d",
+   "system_host": "HD 16160 / GJ 105 A (not on Systems; Gaia DR3 19316224572460416, plx 138.340 mas, 23.58 ly)",
+   "reason": "not a planet: the M7 companion GJ 105 C, 0.098 Msun on a 76 yr orbit (Dedrick et al. 2025, arXiv:2505.08042); CLS binary table 67.3 MJup msini. LCES table2 Num 229: 6264.63 d, K 109.29, note 3.",
+   "source_url": "https://arxiv.org/abs/2505.08042"
+  },
+  {
+   "name": "HD 104304 LCES candidate P=2225.2d",
+   "system_host": "HD 104304 (not on Systems; Gaia DR3 3575733210781078016, plx 78.336 mas, 41.64 ly)",
+   "reason": "not a planet: stellar companion. CLS binary table 110 MJup msini (a 18.1 au); speckle-imaged companion consistent with the RV (Dalba et al., arXiv:2012.05253); Kervella 2022 PMa snr 103. LCES table2 Num 670: 2225.19 d, K 20.41, note 3.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/binary_table_lit.tex"
+  },
+  {
+   "name": "HD 68017 LCES candidate P=5844.4d",
+   "system_host": "HD 68017 (not on Systems; Gaia DR3 902007870203594880, plx 46.342 mas, 70.38 ly)",
+   "reason": "not a planet: CLS binary table 33.8 (+5.7/-5.8) MJup msini at 21.2 au (above 13 MJup); Kervella 2022 PMa snr 12.7. LCES table2 Num 499: 5844.42 d, K 23.47, notes 3,4.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/tex_tables/binary_table_lit.tex"
+  },
+  {
+   "name": "HD 114174 LCES candidate P=5813.2d",
+   "system_host": "HD 114174 (not on Systems; Gaia DR3 3729017810434416128, plx 37.868 mas, 86.13 ly)",
+   "reason": "not a planet: the RV trend is the white dwarf HD 114174 B, imaged at 0.69 arcsec (Crepp et al. 2013, arXiv:1305.0571), dynamical mass 0.591 +/- 0.011 Msun (Zhang et al. 2023, MNRAS 524, 695, arXiv:2303.08198). CLS lists only a trend. LCES table2 Num 737: 5813.17 d, K 12.3, note 3.",
+   "source_url": "https://arxiv.org/abs/1305.0571"
+  },
+  {
+   "name": "GJ 411 LCES candidate P=9.87d (HD 95735)",
+   "system_host": "GJ 411",
+   "reason": "refuted: not recovered by Diaz et al. 2019 or Stock et al. 2020; CARMENES DR1 Table 4 lists 'Lalande 21185 b, 9.9 d, But17 -> 12.9 d (Dia19, Sto20b)'; CLS does not recover it either (planet_list.csv: 12.94 d K, 3190 d C, 214.5 d N). Already recorded by B06.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "GJ 251 LCES candidate P=1.74d (HD 265866)",
+   "system_host": "GJ 251",
+   "reason": "refuted: Stock et al. 2020 (arXiv:2010.00474) find no evidence for it (per B06); HD 265866 is in the CLS sample and CLS recovers nothing at 1.74 d. Already recorded by B06.",
+   "source_url": "https://arxiv.org/abs/2010.00474"
+  },
+  {
+   "name": "GJ 69 LCES candidate P=3.84d (HD 10436)",
+   "system_host": "GJ 69",
+   "reason": "already on sheet: unconfirmed_existing.csv 'GJ 69 b' 3.84237 d (from Tuomi et al. 2019, which reuses the LCES HIRES data, so LCES is not independent support). Note for the writer: HD 10436 is in the CLS sample (stellar_parameters.csv) and CLS recovers no signal, which argues against raising its tier.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "GJ 15 A LCES candidate P=11.44d (HD 1326)",
+   "system_host": "GJ 15 A",
+   "reason": "already on sheet: = GJ 15 A b (11.4407 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "GJ 849 LCES candidate P=1913.0d (HIP 109388)",
+   "system_host": "GJ 849",
+   "reason": "already on sheet: = GJ 849 b (1924 d) on planets_confirmed.csv; CLS status K (1940 d).",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "GJ 317 LCES candidate P=4725.6d",
+   "system_host": "GJ 317",
+   "reason": "already on sheet: = GJ 317 c on planets_confirmed.csv (6739 d); CLS status K (7140 d). LCES period was poorly constrained.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "GJ 1148 LCES candidate P=531.4d (HIP 57050)",
+   "system_host": "GJ 1148",
+   "reason": "already on sheet: = GJ 1148 c (532.58 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "55 Cnc LCES candidate P=14.65d (HD 75732)",
+   "system_host": "55 Cnc A",
+   "reason": "already on sheet: = 55 Cnc b (14.6516 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "55 Cnc LCES candidate P=2.82d (HD 75732)",
+   "system_host": "55 Cnc A",
+   "reason": "already on sheet: LCES note 6: daily alias of the 0.7365 d transiting planet 55 Cnc e (on planets_confirmed.csv). Not a planet.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "14 Her LCES candidate P=5961.5d (HD 145675)",
+   "system_host": "14 Her",
+   "reason": "already on sheet: = 14 Her c on planets_confirmed.csv (9886 d; CLS status C, 24700 d). Poorly constrained long period.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "HD 3765 LCES candidate P=1228.8d",
+   "system_host": "HD 3765",
+   "reason": "already on sheet: = HD 3765 b (1211 d) on planets_confirmed.csv; CLS status C (1211 d).",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "HD 216520 LCES candidate P=35.46d",
+   "system_host": "HD 216520",
+   "reason": "already on sheet: = HD 216520 b (35.45 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "HD 114783 LCES candidate P=4385.2d",
+   "system_host": "HD 114783",
+   "reason": "already on sheet: = HD 114783 c (4319 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "HD 1461 LCES candidate P=13.50d",
+   "system_host": "HD 1461",
+   "reason": "already on sheet: = HD 1461 c (13.5052 d) on planets_confirmed.csv; CLS status K.",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "HD 156668 LCES candidate P=855.0d",
+   "system_host": "HD 156668",
+   "reason": "already on sheet: = HD 156668 c (811.3 d) on planets_confirmed.csv; CLS status C (811 d).",
+   "source_url": "https://raw.githubusercontent.com/leerosenthalj/CLSI/master/legacy_tables/planet_list.csv"
+  },
+  {
+   "name": "LCES 'Candidate' signals on 27 hosts beyond 100 ly",
+   "system_host": "(various)",
+   "reason": "beyond 100 ly (Gaia DR3 parallax < 32.616 mas): HD 111031 (Gaia DR3 3529518709839090176, plx 32.031 mas; P = 5960.9 d); HD 87359 (Gaia DR3 3773112865272176512, plx 31.947 mas; P = 5060.42 d); HD 157338 (Gaia DR3 5975810379449715968, plx 30.264 mas; P = 5220.45 d); HD 92788 (Gaia DR3 3802549437248150656, plx 28.947 mas; P = 719.37 d); HD 83443 (Gaia DR3 5424836719001215360, plx 24.479 mas; P = 3370.42 d); HD 129814 (Gaia DR3 1237374997031931392, plx 23.789 mas; P = 5289.55 d); HD 34445 (Gaia DR3 3241295308714904960, plx 21.837 mas; P = 214.97 d); HD 50499 (Gaia DR3 5579783574073770112, plx 21.599 mas; P = 6175.56 d); HD 24040 (Gaia DR3 43802039287826432, plx 21.472 mas; P = 512.66 d); HD 6734 (Gaia DR3 2538316124224549376, plx 21.353 mas; P = 6175.85 d); HD 188015 (Gaia DR3 2028419118720795392, plx 19.7 mas; P = 3201.59 d); HD 68988 (Gaia DR3 1090159839002347136, plx 16.56 mas; P = 5077.03, 3565.34 d); HD 217850 (Gaia DR3 2013333544271181824, plx 16.155 mas; P = 2884.59 d); HD 126614 (Gaia DR3 3641697998570813952, plx 13.663 mas; P = 5247.71 d); HD 75898 (Gaia DR3 713135102814770432, plx 12.811 mas; P = 3605.26, 725.5 d); HD 55696 (Gaia DR3 5565208310497615232, plx 12.81 mas; P = 1856.95 d); HD 6558 (Gaia DR3 2533207140366790272, plx 12.214 mas; P = 2638.81 d); HD 94834 (Gaia DR3 3995918691799173248, plx 10.286 mas; P = 1583.95 d); HD 19522 (Gaia DR3 5159658909787243648, plx 10.111 mas; P = 2095.44 d); HD 25311 (Gaia DR3 38878563657131776, plx 9.509 mas; P = 337.6 d); HD 5319 (Gaia DR3 2537319343919089024, plx 8.244 mas; P = 232.81 d); HD 72490 (Gaia DR3 603329694046441472, plx 7.974 mas; P = 868.63 d); HD 180053 (Gaia DR3 2050321081068398720, plx 7.27 mas; P = 213.44 d); HD 197162 (Gaia DR3 2062899081774559744, plx 7.051 mas; P = 3.34 d); HD 207077 (Gaia DR3 2666589102090422656, plx 6.331 mas; P = 593.21 d); HIP 52942A (Gaia DR3 3872834682965995520, plx 5.925 mas; P = 4837.83 d); HD 202696 (Gaia DR3 1847742385838236416, plx 5.454 mas; P = 522.27, 945.97 d). HD 111031 (32.03 mas, 101.8 ly) and HD 87359 (31.95 mas, 102.1 ly) are the nearest misses; both are CLS stellar-binary fits (status S) anyway.",
+   "source_url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/153/208/table2.dat"
+  },
+  {
+   "name": "GJ 3325 candidate P=1.92d (CARMENES DR1 candidate, J05033-173)",
+   "system_host": "GJ 3325",
+   "reason": "already on sheet: unconfirmed_existing.csv row 67 (added from C04's first run). Table C.1: 1.92 d, FAP 0.0015%, remark 'candidate'. The same star's 73.78 d signal is 'unsolved' (FAP 0.41%), not claimed as a planet.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "G 203-42 candidate P=6.94d (CARMENES DR1 candidate, J17033+514)",
+   "system_host": "GJ 3988",
+   "reason": "since confirmed: GJ 3988 b, 6.9442 d, Gorrini et al. 2023 (A&A 680, A28, per NASA pscomppars), already on planets_confirmed.csv. Karmn J17033+514 = G 203-42 = Gaia DR3 1412645602995521920 (plx 100.927 mas), which is the Systems-tab GJ 3988.",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,pl_orbper,disc_refname+from+pscomppars+where+hostname='GJ+3988'&format=csv"
+  },
+  {
+   "name": "BD-13 5069 candidate P=5.1d (CARMENES DR1 candidate, J18409-133)",
+   "system_host": "GJ 724",
+   "reason": "since confirmed: GJ 724 b, 5.101284 d, Gorrini et al. 2023 (per NASA pscomppars), already on planets_confirmed.csv. Karmn J18409-133 = BD-13 5069 = HIP 91608 = Gaia DR3 4105386688016878336 (plx 58.841 mas), the Systems-tab GJ 724.",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,pl_orbper,disc_refname+from+pscomppars+where+hostname='GJ+724'&format=csv"
+  },
+  {
+   "name": "AD Leo b (P=2.23 d, Tuomi et al. 2018)",
+   "system_host": "AD Leo (not on Systems)",
+   "reason": "refuted as rotation: CARMENES DR1 Table 4 (Car20, Rob20, Kos22). Also in C04's first-run file.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "CN Leo c / Wolf 359 c (P=2.69 d, Tuomi et al. 2019)",
+   "system_host": "Wolf 359",
+   "reason": "refuted as rotation: CARMENES DR1 Table 4 (Lafarga et al. 2021); Table C.1 J10564+070 2.7 d CRX, dLW (footnote d). Also in C04's first-run file; not on the sheet.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "TZ Ari c (P=242 d, Feng et al. 2020)",
+   "system_host": "GJ 9066",
+   "reason": "refuted as spurious: CARMENES DR1 Table 4 (Quirrenbach et al. 2022). Not on the sheet (GJ 9066 c on the confirmed tab is the 767.9 d planet).",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "GJ 176 b at 10.2 d (Endl et al. 2008)",
+   "system_host": "HD 285968",
+   "reason": "refuted, replaced by the 8.78 d planet: CARMENES DR1 Table 4 (For09, But09, Tri18). The sheet already carries HD 285968 b at 8.7836 d.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "K2-18 c (P=9.0 d, Cloutier et al. 2017)",
+   "system_host": "K2-18 (not on Systems)",
+   "reason": "refuted as rotation: CARMENES DR1 Table 4 (Sarkis et al. 2018); K2-18 is ~38 pc anyway (no Gaia match within the 40 pc download).",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "CARMENES DR1 'unsolved' signals on stars not on the Systems tab",
+   "system_host": "(various)",
+   "reason": "not claimed as planetary by Ribas et al. 2023 (Table C.1 remark 'unsolved' = significant, origin not identified): Wolf 1056 (J00389+306) 20.17 d; BD+52 857 (J04376+528) 7.9 d; BD+49 1280 (J04588+498) 8.89 d; GJ 1097 (J07287-032) 616.27 d; BL Lyn (J07319+362N) 4.78 d; LP 783-2 (J07403-174) 6.61 d; G 234-37 (J08358+680) 1.73 d; GJ 1125 (J09307+003) 294.04 d; GJ 360 (J09425+700) 677.39 d; HD 119850 = GJ 526 (J13457+148) 306.51 and 33.89 d; BD-07 3856 (J14307-086) 252.02 d; Wolf 654 (J17115+384) 5.58 d; GJ 671 (J17198+417) 23.13 d; G 205-28 (J18319+406) 2.93 d; BD+04 4157 (J19346+045) 2.52 d; GJ 1256 (J20405+154) 153.66 d; Wolf 896 (J20567-104) 1.25 d; BD+08 4887 (J22330+093) 34.06 d; HH And (J23419+441) 175.09 d. None matches a NASA pscomppars planet (sy_dist < 31 pc, matched by Gaia DR3 id). arXiv searches on GJ 1125, GJ 360, GJ 1256, GJ 1097, GJ 671, Wolf 1056 returned nothing; for GJ 526, a joint ESPRESSO/HIRES/HARPS stellar-activity analysis (arXiv:2509.03276) finds Prot 48.7 d and a 1680 d cycle and says 'current evidence does not support planetary companions'. All of these have Gaia DR3 parallax > 60 mas (within 100 ly). Separately, BD+11 2576 (J13299+102, Table C.1 footnote a 'known planets below detection limit') appears to be the Systems-tab GJ 514 (Gaia DR3 3738099879558957952 lies ~0.07 deg from the Karmn position; identity recalled, not verified via SIMBAD): its 512.48 d signal is 'unsolved' and 15.42/15.83 d are 'rotation'; GJ 514 b (140.43 d) is not in conflict.",
+   "source_url": "https://arxiv.org/abs/2509.03276"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": [
+  {
+   "item": "GJ 251 c (confirmed tab, 53.647 d, 3.88 Me; Beard et al. 2025 per NASA)",
+   "system_host": "GJ 251",
+   "finding": "CARMENES DR1 Table C.1 row J06548+332 (Wolf 294 = GJ 251): a 53.65 d signal, FAP 0.0024%, remark 'rotation' (with a 120.37 d 'rotation' signal). The survey that took the most GJ 251 spectra attributed this exact period to stellar rotation. The confirmed row may deserve a contested flag; the writer should check how Beard et al. 2025 answered it.",
+   "source": "https://arxiv.org/abs/2302.10528 (Tab/occurrence_signals.tex)"
+  },
+  {
+   "item": "HIP 48714 b (confirmed tab, 17.818 d; = GJ 373 b, Tuomi 2019 / Feng 2020)",
+   "system_host": "HIP 48714",
+   "finding": "CARMENES DR1 Table 4 lists GJ 373 b (17.8 d) as challenged, alternative 'Rotation' (this work), and Sect. 6 says it 'can most definitely be attributed to stellar rotation modulation' (dLW, Halpha, CCF counterparts; Table C.1 J09561+627 18.69 d Halpha/dLW, footnote d). NASA still lists it confirmed. B12 recorded it too.",
+   "source": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "item": "GJ 96 b (confirmed tab, 73.94 d; Hobson et al. 2018)",
+   "system_host": "GJ 96",
+   "finding": "CARMENES DR1 Table 4 and Sect. 6: 'can be quite confidently ruled out as planets'; the 75 d SOPHIE signal is absent from 53 CARMENES RVs, which show only a 28.3 d activity signal. NASA still lists it confirmed. B12 recorded it too.",
+   "source": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "item": "GJ 1151 c (confirmed tab: 2.018 d, a 0.01735 au, 10.62 Me)",
+   "system_host": "GJ 1151",
+   "finding": "Hybrid row. NASA pscomppars has GJ 1151 c = 389.7 d, 10.62 Me (Blanco-Pozo et al. 2023). The sheet pairs that mass with the 2.02 d period and its a from the Mahadevan et al. 2021 claim, which CARMENES DR1 Table 4 lists as challenged (alternative '390 d', Perger 2021, Blanco-Pozo 2022). Table C.1 J11509+483 shows only a 316.73 d signal labelled 'rotation'. Period and a on the sheet look wrong.",
+   "source": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,pl_orbper,pl_bmasse,disc_refname+from+ps+where+hostname='GJ+1151'+and+default_flag=1&format=csv ; https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "item": "Wolf 1061 b (confirmed tab, 4.8876 d; Wright et al. 2016)",
+   "system_host": "Wolf 1061",
+   "finding": "CARMENES DR1 Table 4 lists V2306 Oph b (4.89 d, Wri16) as challenged, alternative '1.27 d (alias)', citing Sabotta et al. 2021. NASA lists 4.8869 d with no controversy flag. Contested; worth a note on the row. (Table C.1 J16303-126 has only a 1.84 d 'unsolved' signal.)",
+   "source": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "item": "YZ Cet b (confirmed tab, 1.96876 d)",
+   "system_host": "YZ Cet",
+   "finding": "CARMENES DR1 Table 4: 1.98 d is the alias; the true period is 2.02 d (Stock et al. 2020a). NASA default: 2.02087 d. Already in the ledger from B03; confirmed again here.",
+   "source": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "item": "HD 99492 system is missing its primary star",
+   "system_host": "HD 99492",
+   "finding": "HD 99492 (83 Leo B, the planet host) is a wide companion of 83 Leo A = HD 99491 (Hipparcos K0IV, Gaia DR3 3812355328621651328, plx 55.009 mas vs HD 99492's 55.062). The Systems tab lists HD 99492 as a one-star system and multistars.csv has no row. The C05 candidate 'HD 99491 candidate P=4756d' uses planet_host_star 'HD 99491'.",
+   "source": "Gaia DR3 query in this file; I/239/hip_main"
+  },
+  {
+   "item": "55 Cnc A Systems row has no gaia_dr3_source_id",
+   "system_host": "55 Cnc A",
+   "finding": "55 Cnc A (rho1 Cnc, HIP 43587) = Gaia DR3 704967037090946688 via gaiadr3.hipparcos2_best_neighbour; parallax 79.4482 mas = 41.05 ly, matching the sheet's 41.05 ly.",
+   "source": "Gaia DR3 hipparcos2_best_neighbour + gaia_source"
+  },
+  {
+   "item": "Distance check",
+   "system_host": "(Systems hosts touched by C05)",
+   "finding": "Checked 32 Systems rows against Gaia DR3 parallax (GJ 411, GJ 15 A, GJ 251, GJ 849, GJ 317, GJ 1148, GJ 69, 18 Sco, HD 7924, 14 Her, HD 3765, HD 99492, HD 216520, HD 114783, HD 1461, HD 156668, HD 42618, GJ 3325, GJ 3988, GJ 724, HIP 48714, GJ 1151, GJ 96, YZ Cet, Wolf 1061, GJ 9066, Wolf 359, Gl 725 A, GJ 9773, Wolf 1069, HD 285968, 55 Cnc A). Only mismatch over 2%: GJ 411, sheet 18.51 ly vs Gaia DR3 392.753 mas = 8.30 ly (already in the ledger). All others are within 0.3%.",
+   "source": "Gaia DR3 gaia_source parallax by systems.csv gaia_dr3_source_id"
+  }
+ ],
+ "survey_progress_notes": [
+  "LCES: all 60 'Candidate' rows of table2.dat processed; SRC and Activity rows not swept.",
+  "CARMENES DR1: Table 4, Table 3 and all Table C.1 rows processed.",
+  "Carried over from C04: GJ 3325 1.92 d and GJ 69 b (both now on Unconfirmed; listed under considered_not_added); AD Leo b and CN Leo c refutations."
+ ]
+}

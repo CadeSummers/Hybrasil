@@ -1,0 +1,63 @@
+{
+ "cells": [
+  "'Planets within 100 ly'!H500",
+  "'Known within 100ly'!P3579"
+ ],
+ "old": {
+  "'Planets within 100 ly'!H500": 0.0007244,
+  "'Known within 100ly'!P3579": 0.0007244,
+  "'Systems within 100 ly'!N286": 0.0007244,
+  "'Multi-stars within 100 ly'!P157": 0.0007244
+ },
+ "old_notes": {
+  "'Planets within 100 ly'!H500": "INFERRED (filled 27 Sep 2026): 10^st_lum, NASA Exoplanet Archive pscomppars (Gauza et al. 2015); st_lum = -3.14000 (log10 L-sun)",
+  "'Known within 100ly'!P3579": ""
+ },
+ "borders": {
+  "'Planets within 100 ly'!H500": {
+   "H500": {
+    "top": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "bottom": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "left": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "right": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ]
+   }
+  },
+  "'Known within 100ly'!P3579": {
+   "P3579": {
+    "top": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "bottom": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "left": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ],
+    "right": [
+     "FF9900",
+     "SOLID_MEDIUM"
+    ]
+   }
+  }
+ },
+ "sp_rows": [
+  5533,
+  5537
+ ],
+ "title": "hy-brasil-20261006-1533"
+}

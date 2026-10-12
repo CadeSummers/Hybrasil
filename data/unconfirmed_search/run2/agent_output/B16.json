@@ -1,0 +1,927 @@
+{
+ "agent_id": "B16",
+ "phase": 2,
+ "coverage": [
+  {
+   "system_host": "LHS 3844",
+   "aliases_searched": [
+    "LHS 3844",
+    "TOI-136",
+    "TIC 410153553",
+    "Gaia DR3 6385548541499112448"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table (pack, 2026-09-26)",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu (catalog json search + planet pages)",
+    "OEC",
+    "arXiv API",
+    "WebSearch"
+   ],
+   "result": "1 candidate",
+   "notes": "b confirmed (on sheet). TOI-136.01 is CP. New RV candidate at ~6.88 d from two 2026 mass papers sharing the same archival ESPRESSO data (Nagel et al. arXiv:2603.28238 with CRIRES+; Hacker et al. arXiv:2603.28237); exoplanet.eu lists it as 'LHS 3844 c', Candidate. No NSS orbit. Distance check: Gaia DR3 plx 67.2123 mas -> 48.53 ly vs sheet 48.55 (+0.05%), OK."
+  },
+  {
+   "system_host": "GJ 1151",
+   "aliases_searched": [
+    "GJ 1151",
+    "Gliese 1151",
+    "LHS 2390",
+    "Karmn J11509+483",
+    "TIC 11893637",
+    "Gaia DR3 786834302080370304"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Blanco-Pozo et al. 2023 full text",
+    "Ribas et al. 2023 CARMENES DR1 Table A.2",
+    "WebSearch"
+   ],
+   "result": "1 candidate",
+   "notes": "Confirmed planet is the 389.7 d one (Blanco-Pozo et al. 2023, who call it 'GJ 1151 b'; NASA and the sheet call it 'GJ 1151 c'). Candidate added: the long-term RV curvature in Blanco-Pozo et al. 2023 Sect. 5.3 (possible substellar companion, P > 17.2 yr, M sin i > 0.16 MJup). The 2.02 d Mahadevan et al. 2021 signal (exoplanet.eu 'GJ 1151 b', Controversial) is refuted, not added. No TOI; no NSS orbit; RUWE 0.99. SHEET ERROR: the confirmed-tab row 'GJ 1151 c' carries the refuted 2-d signal's period (2.018 d) and a (0.01735 au) with the 390-d planet's mass; see incidental finds. Distance: plx 124.3378 mas -> 26.23 ly vs sheet 26.21 (-0.08%), OK."
+  },
+  {
+   "system_host": "GJ 9066",
+   "aliases_searched": [
+    "GJ 9066",
+    "GJ 83.1",
+    "Gliese 83.1",
+    "TZ Ari",
+    "L 1159-16",
+    "Karmn J02002+130",
+    "TIC 404715018",
+    "Gaia DR3 76868614540049408"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Quirrenbach et al. 2022 full text",
+    "Tuomi et al. 2019 Table 3 / App. A.6",
+    "Feng et al. 2022 table3 (VizieR)",
+    "Ribas et al. 2023 Table A.2"
+   ],
+   "result": "0 candidates",
+   "notes": "Only the 771-d giant (sheet 'GJ 9066 c' = Quirrenbach 'TZ Ari b') is real. Feng et al. 2020 'GJ 9066 b' (241.9 d; still 'Confirmed' in OEC, 'Controversial' in exoplanet.eu) and Tuomi et al. 2019's 1.932 d and 243.1 d candidates were shown spurious by Quirrenbach et al. 2022 Sect. 6.3.4 (CARMENES; K at 240-245 d = 0.95 +/- 1.05 m/s; 1.96 d is rotation). NASA has dropped b. No TOI; no NSS orbit. Distance: plx 223.7321 mas -> 14.58 ly, matches sheet."
+  },
+  {
+   "system_host": "Ross 128",
+   "aliases_searched": [
+    "Ross 128",
+    "GJ 447",
+    "Gl 447",
+    "FI Vir",
+    "HIP 57548",
+    "Karmn J11477+008",
+    "TIC 325275315",
+    "Gaia DR3 3796072592206250624"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "Kervella et al. 2019 PMa (VizieR J/A+A/623/A72)",
+    "Kervella et al. 2022 PMa (VizieR J/A+A/657/A7)",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Tuomi et al. 2019",
+    "Feng et al. 2022",
+    "Ribas et al. 2023 Table A.2",
+    "WebSearch"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "b confirmed (on sheet). exoplanet.eu lists 'Ross 128 c' as Candidate (astrometry, 0.6 MJup at 10 au, citing Kervella et al. 2019), but Kervella's own PMa S/N is 2.26 (DR2, below their 3-sigma binary flag) and 1.19 (EDR3, Kervella 2022), and RedDots (Liebing et al. 2024) found no additional planets with 30-50 cm/s limits out to 10,000 d. Reported as unlikely. Ribas et al. 2023 Table A.2: 'no signal'. Not in the Tuomi 2019 candidate table or Feng 2022. Distance: plx 296.3053 mas -> 11.01 ly, matches."
+  },
+  {
+   "system_host": "RR Cae",
+   "aliases_searched": [
+    "RR Cae",
+    "RR Caeli",
+    "RR Cae (AB)",
+    "TIC 219244444",
+    "Gaia DR3 4788741548375134336"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Rattanamala et al. 2023 full text",
+    "Pulley et al. 2025 full text"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "b on confirmed tab (Qian et al. 2012; NASA pl_controv_flag = 1). exoplanet.eu 'RR Cae (AB)c' Candidate = the second light-travel-time body of Rattanamala et al. 2023 (39 +/- 5 yr, 2.7 +/- 0.7 MJup), which its own authors say is hard to conclude exists; Pulley et al. 2025 find none of the recent RR Cae ETV models fit 2022-2025 timings and that a Lanza magnetic mechanism could drive the second modulation. Reported as unlikely. Circumbinary (orbits A+B). No NSS orbit. Distance: plx 47.2000 mas -> 69.10 ly vs 69.12 (+0.03%), OK."
+  },
+  {
+   "system_host": "G 261-6",
+   "aliases_searched": [
+    "G 261-6",
+    "GJ 1238",
+    "Karmn J19242+755",
+    "TIC 420130591",
+    "Gaia DR3 2289304297045379456"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC (no file)",
+    "arXiv API",
+    "Kaminski et al. 2025 full text"
+   ],
+   "result": "2 candidates (1 ambiguous, 1 unlikely)",
+   "notes": "b confirmed (Kaminski et al. 2025). Same paper Sect. 3.3: residual signals at 0.95 d (FAP < 1.4%, daily alias of 22.49 d) and 1.83 d (FAP < 23%), incoherent in s-BGLS, not modelled, but 'could turn out to be promising candidates'; not linked to the 114 d rotation or activity. No TOI; no NSS orbit. Distance: plx 94.0674 mas -> 34.67 ly vs 34.66, OK."
+  },
+  {
+   "system_host": "K2-415",
+   "aliases_searched": [
+    "K2-415",
+    "EPIC 211414619",
+    "TOI-5557",
+    "TIC 323687123",
+    "Gaia DR3 604215144503584640"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Hirano et al. 2023 full text",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (on sheet); TOI-5557.01 is CP. Hirano et al. 2023 (arXiv:2302.00699) Sect. 5: no further transits in K2+TESS BLS, no significant peak in IRD RV residuals, no TTVs. exoplanet.eu and OEC list b only. No NSS orbit. Distance: plx 45.8625 mas -> 71.12 ly vs 71.16 (+0.06%), OK."
+  },
+  {
+   "system_host": "Ross 508",
+   "aliases_searched": [
+    "Ross 508",
+    "TIC 400019820",
+    "Gaia DR3 1208695640675619584"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Harakawa et al. 2022 full text",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (on sheet). Harakawa et al. 2022 explored an unconfirmed wide companion (RUWE 1.48) but prefer the model with no RV trend; recorded in considered_not_added. No TOI; no NSS orbit (DR3 RUWE 1.487). Distance: plx 89.1284 mas -> 36.59 ly vs 36.56 (-0.09%), OK."
+  },
+  {
+   "system_host": "GJ 1265",
+   "aliases_searched": [
+    "GJ 1265",
+    "Gl 1265",
+    "LP 819-052",
+    "Karmn J22137-176",
+    "TIC 471012766",
+    "Gaia DR3 6825822095663585536"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API (Luque et al. 2018 abstract)",
+    "Tuomi et al. 2019",
+    "Ribas et al. 2023 Table A.2"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (Luque et al. 2018). ~95 d RV signal is rotation (Luque et al. 2018 abstract). Ribas et al. 2023 Table A.2 lists an uninterpreted 588 d signal ('P > 2/3 time baseline'); in considered_not_added with a writer-judgement flag. In Tuomi 2019's data tables but not its candidate table. No TOI; no NSS orbit. Distance: plx 97.6762 mas -> 33.39 ly vs 33.44 (+0.14%), OK."
+  },
+  {
+   "system_host": "GJ 1214",
+   "aliases_searched": [
+    "GJ 1214",
+    "Gliese 1214",
+    "TIC 467929202",
+    "Gaia DR3 4393265392168829056"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC (Gliese 1214.xml)",
+    "arXiv API (two searches)",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b only. Cloutier et al. 2021 (arXiv:2107.14732) rule out additional planets down to 3 Mearth within 10 d from 165 HARPS RVs. No TOI (GJ 1214 has none in the pack table), no NSS orbit, RUWE 1.01. Distance: plx 68.2986 mas -> 47.75 ly vs 47.76, OK."
+  },
+  {
+   "system_host": "TOI-540",
+   "aliases_searched": [
+    "TOI-540",
+    "TOI 540",
+    "2MASS J05051443-4756154",
+    "TIC 200322593",
+    "Gaia DR3 4785886941312921344"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (Ment et al. 2021); TOI-540.01 is CP and the only TOI on this TIC. Nothing else in NASA, exoplanet.eu, OEC or arXiv (2025 radio search paper only). No NSS orbit. Distance: plx 71.5134 mas -> 45.61 ly vs 45.67 (+0.14%), OK."
+  },
+  {
+   "system_host": "CD Cet",
+   "aliases_searched": [
+    "CD Cet",
+    "GJ 1057",
+    "Gl 1057",
+    "Karmn J03133+047",
+    "TIC 328465904",
+    "Gaia DR3 3179036008830848"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC (no file)",
+    "arXiv API",
+    "Bauer et al. 2020 full text",
+    "Tuomi et al. 2019",
+    "Ribas et al. 2023 Table A.2",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (Bauer et al. 2020). The 68/134 d RV signal is activity (considered_not_added). Ribas et al. 2023 Table A.2: 2.29 d planet, 67.52 d rotation. No TOI; no NSS orbit. Distance: plx 116.2678 mas -> 28.05 ly vs 28.07 (+0.06%), OK."
+  },
+  {
+   "system_host": "Wolf 1069",
+   "aliases_searched": [
+    "Wolf 1069",
+    "GJ 1253",
+    "Karmn J20260+585",
+    "TIC 352617553",
+    "Gaia DR3 2188318517720321664"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API",
+    "Kossakowski et al. 2023 full text",
+    "Ribas et al. 2023 Table A.2",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed. Kossakowski et al. 2023 found an extra 90.3 d RV signal but attribute it to tellurics and exclude it; ~400 d is tellurics, 165 d rotation (considered_not_added). They rule out planets > 1 Mearth with P < 10 d. No TOI; no NSS orbit. Distance: plx 104.4415 mas -> 31.23 ly vs 31.26 (+0.10%), OK."
+  },
+  {
+   "system_host": "LHS 3154",
+   "aliases_searched": [
+    "LHS 3154",
+    "TIC 24108819",
+    "Gaia DR3 1380293091823646720"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC (no file)",
+    "arXiv API",
+    "Stefansson et al. 2023 full text",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (Stefansson et al. 2023, HPF). No further RV signals, no transits. Gaia DR3 excess astrometric noise is used only as a mass upper limit (considered_not_added). No TOI; no NSS orbit. Distance: plx 63.4232 mas -> 51.43 ly vs 51.4 (-0.05%), OK."
+  },
+  {
+   "system_host": "GJ 523",
+   "aliases_searched": [
+    "GJ 523",
+    "TOI-7032",
+    "TIC 22903436",
+    "HIP 66954",
+    "BD+39 2675",
+    "Gaia DR3 1496734362502944512"
+   ],
+   "sources_checked": [
+    "NASA pscomppars (absent)",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "Kervella et al. 2022 PMa (HIP 66954)",
+    "exoplanet.eu",
+    "OEC (no file)",
+    "arXiv API",
+    "Kroft et al. 2026 full text",
+    "Feng et al. 2022",
+    "CLS (Rosenthal et al. 2021) tables"
+   ],
+   "result": "0 candidates",
+   "notes": "GJ 523 b (= TOI-7032.01) is confirmed by Kroft et al. 2026 (NEID RVs; preprint) and is already on BOTH tabs; see incidental finds. Kroft et al. report no other companions (Sect. 4 and Fig. 11: 'So far, we do not detect any companions'). No NSS orbit; Kervella 2022 PMa S/N 1.41 (EDR3), no anomaly. Not in Feng 2022 or CLS. Distance: plx 37.5759 mas -> 86.80 ly, matches."
+  },
+  {
+   "system_host": "WD 1856+534",
+   "aliases_searched": [
+    "WD 1856+534",
+    "WD 1856",
+    "TOI-1690",
+    "TIC 267574918",
+    "Gaia DR3 2146576589564898688",
+    "G 229-20 C"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA ps",
+    "TOI table",
+    "Gaia DR3 gaia_source + nss_two_body_orbit",
+    "exoplanet.eu",
+    "OEC",
+    "arXiv API (20 hits)"
+   ],
+   "result": "0 candidates",
+   "notes": "b confirmed (TOI-1690.01 CP); Limbach et al. 2025 JWST confirms planetary mass (< ~6 MJup), so the sheet's 'likely BD' flag is stale (incidental finds). TTV studies find no companions: arXiv:2303.06157 exclude planets with P < ~500 d; arXiv:2511.21611 excludes > 4 MJup with P < 1500 d. exoplanet.eu 'TOI-1690.01' Candidate is a stale duplicate of b. No NSS orbit. Distance: plx 40.3931 mas -> 80.75 ly vs 80.68 (-0.08%), OK."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "LHS 3844 c",
+   "system_host": "LHS 3844",
+   "new_system": false,
+   "planet_host_star": "LHS 3844",
+   "aliases": [
+    "LHS 3844 candidate P=6.88d",
+    "TOI-136 candidate (RV, non-transiting)"
+   ],
+   "designation": "'candidate companion' / 'LHS 3844 c' (Nagel et al. 2026, Sect. 4.3.2, Fig. A.6, Table B.5); exoplanet.eu 'LHS 3844 c' (Candidate)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Tentative RV signal in archival ESPRESSO data only: periodogram FAP 2.1% (not significant), although a two-planet model is favoured by Delta lnZ = 10.97. Nagel et al. note it sits near the second-order daily alias of b (~6.24 d); Hacker et al. place that alias at 6.47 +/- 0.30 d and call their model comparison inconclusive. The two papers use the same 25 ESPRESSO RVs, so they are not independent, and their periods disagree (6.8758 vs 6.694 d). Neither claims a planet.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 6.8758,
+    "err": "+0.0057/-0.0035",
+    "src": "S1",
+    "where": "Sect. 4.3.2 (2cp + GP model); Table B.5"
+   },
+   "a_au": null,
+   "ecc": {
+    "value": 0.0,
+    "err": "fixed (circular)",
+    "src": "S1",
+    "where": "Sect. 4.3.2"
+   },
+   "mass_earth": {
+    "value": 2.56,
+    "err": "+0.27/-0.26",
+    "type": "Msini",
+    "src": "S1",
+    "where": "Sect. 4.3.2 (Kc = 3.05 +0.25/-0.26 m/s)"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.151,
+     "src": "S1",
+     "where": "Table 3 (+/-0.014)"
+    },
+    "teff_k": {
+     "value": 3080,
+     "src": "S1",
+     "where": "Table 3 (+/-50)"
+    },
+    "radius_rsun": {
+     "value": 0.189,
+     "src": "S1",
+     "where": "Table 3 (+/-0.006)"
+    },
+    "luminosity_lsun": {
+     "value": 0.00272,
+     "src": "S1",
+     "where": "Table 3 (+/-0.0004)"
+    },
+    "logg": {
+     "value": 5.07,
+     "src": "S1",
+     "where": "Table 3 (+/-0.04)"
+    }
+   },
+   "orbit_flags": "RV-only, non-transiting (no BLS peak in TESS near 6.88 d). Period, K and Msini from the Nagel et al. 2026 two-planet fit (CRIRES+ + ESPRESSO, circular). Cross-check: Hacker et al. 2026 Sect. 6.5 recover P2 = 6.694 +/- 0.007 d, K2 = 3.0 +/- 0.4 m/s, M2 sin i = 2.5 +/- 0.4 Mearth from the same ESPRESSO data. No semi-major axis published; writer derives from P and M*. Eccentricity not fitted (fixed 0).",
+   "reference": "Nagel et al. 2026, 'Mass determination of the ultra-short-period planet LHS 3844 b. First K-band radial velocity measurements with CRIRES+', arXiv:2603.28238, Sect. 4.3.2 and Table B.5; see also Hacker et al. 2026, A&A, arXiv:2603.28237, Sect. 6.5",
+   "vetting_date": "2026-03-30",
+   "catalogue_distance_ly": {
+    "value": 48.53,
+    "src": "S4",
+    "where": "Gaia DR3 parallax 67.2123 +/- 0.0187 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Nagel et al. 2026, arXiv:2603.28238",
+     "url": "https://arxiv.org/abs/2603.28238",
+     "what": "candidate P, K, Msini, lnZ, alias note; host Table 3 (read via arXiv HTML v1)"
+    },
+    "S2": {
+     "citation": "Hacker et al. 2026, 'Weighing the mass of LHS 3844 b', arXiv:2603.28237 (A&A)",
+     "url": "https://arxiv.org/abs/2603.28237",
+     "what": "independent fit P2 = 6.694 d, K2 = 3.0 m/s, M2 sin i = 2.5 Mearth; alias at 6.47 d; 'inconclusive'"
+    },
+    "S3": {
+     "citation": "exoplanet.eu, LHS 3844 c",
+     "url": "https://exoplanet.eu/catalog/lhs_3844_c--12243/",
+     "what": "status Candidate"
+    },
+    "S4": {
+     "citation": "Gaia DR3 gaia_source, source_id 6385548541499112448",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has only LHS 3844 b; unconfirmed_existing.csv and rejected_candidates.csv have nothing for LHS 3844 / TOI-136 / TIC 410153553.",
+   "confidence_notes": "A 3 m/s wobble in 25 ESPRESSO points near an alias of the USP planet. Worth a row, not a belief."
+  },
+  {
+   "planet": "GJ 1151 candidate (long-term RV curvature)",
+   "system_host": "GJ 1151",
+   "new_system": false,
+   "planet_host_star": "GJ 1151",
+   "aliases": [
+    "GJ 1151 outer companion",
+    "LHS 2390 long-period companion"
+   ],
+   "designation": "'second (substellar) companion' / long-term RV modulation (Blanco-Pozo et al. 2023, abstract and Sect. 5.3)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Backed only by an RV curvature fitted as a parabola; period not constrained (below the Nyquist limit of the 2268 d baseline). The owner's ruling makes trend-only candidates 'ambiguous', but the authors themselves say the possibility of a stellar origin 'seems high' (elevated magnetic activity from mid-2021, long-term periodicities in activity indices and photometry). Gaia DR3 (RUWE 0.99) is not sensitive enough to test it. Writer may prefer 'unlikely'.",
+   "detection_method": "Radial velocity (long-term trend / curvature)",
+   "period_d": null,
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 0.16,
+    "err": "+/-0.10",
+    "type": "Msini lower limit",
+    "unit": "M_Jup",
+    "src": "S1",
+    "where": "Sect. 5.3 (M2 sin i > 0.16 +/- 0.10 MJup, from K > 7.5 m/s and RV acceleration -7.54e-6 m/s/d^2)"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.16,
+     "src": "S1",
+     "where": "Sect. 5.4 ('a primary mass of 0.16 Msun from Table 1')"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit. Period lower limit P2 > 17.2 +/- 0.7 yr (Sect. 5.3); a trial Keplerian gave a sub-Saturn at ~1.7 au with e ~ 0.5 and P = 2268 d, equal to the baseline and dependent on one RV point, which the authors doubt. Only a lower limit on minimum mass. A locus, not an orbit.",
+   "reference": "Blanco-Pozo et al. 2023, A&A, 'The CARMENES search for exoplanets around M dwarfs. A long-period planet around GJ 1151 measured with CARMENES and HARPS-N data', arXiv:2301.04442, Sect. 5.3",
+   "vetting_date": "2023-01-11",
+   "catalogue_distance_ly": {
+    "value": 26.23,
+    "src": "S2",
+    "where": "Gaia DR3 parallax 124.3378 +/- 0.0549 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Blanco-Pozo et al. 2023, arXiv:2301.04442",
+     "url": "https://arxiv.org/abs/2301.04442",
+     "what": "trend, P and Msini lower limits, activity caveat"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 786834302080370304",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, RUWE"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has 'GJ 1151 c' only (the 390-d planet, though with the wrong period; see incidental finds). Nothing for GJ 1151 / LHS 2390 in unconfirmed_existing.csv or rejected_candidates.csv.",
+   "confidence_notes": "A parabola in the RVs of a star entering an active phase. Probably activity; possibly a cold giant."
+  },
+  {
+   "planet": "Ross 128 c",
+   "system_host": "Ross 128",
+   "new_system": false,
+   "planet_host_star": "Ross 128",
+   "aliases": [
+    "GJ 447 c",
+    "FI Vir c",
+    "HIP 57548 c"
+   ],
+   "designation": "exoplanet.eu 'Ross 128 c' (Candidate, astrometry, citing Kervella et al. 2019)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "The only basis is a Hipparcos-Gaia proper-motion anomaly that is not significant: S/N 2.26 in Gaia DR2 (Kervella et al. 2019, binary flag 0) and 1.19 in Gaia EDR3 (Kervella et al. 2022, flag 0). RedDots (Liebing et al. 2024) found no additional planets, with 30-50 cm/s limits for 1-10,000 d. exoplanet.eu appears to have promoted a sensitivity curve to a candidate.",
+   "detection_method": "Astrometry (proper-motion anomaly)",
+   "period_d": null,
+   "a_au": {
+    "value": 10.0,
+    "err": "",
+    "src": "S1",
+    "where": "exoplanet.eu planet page, 'Semi-Major Axis 10.0 AU' citing Kervella et al. 2019"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 0.6,
+    "err": "+0.4/-0.3",
+    "type": "true mass at assumed 10 au (PMa locus)",
+    "unit": "M_Jup",
+    "src": "S1",
+    "where": "exoplanet.eu planet page, citing Kervella et al. 2019"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit: a mass at one assumed separation read off a PMa sensitivity curve. Kervella 2019 VizieR row: PMa S/N (DR2) 2.26, dVt 7.26 +/- 3.22 m/s, M2 normalized to 1 au 0.12 +0.06/-0.05 MJup. Kervella 2022 (EDR3): PMa S/N 1.19, dVt 1.11 +/- 1.87 m/s.",
+   "reference": "Kervella et al. 2019, A&A 623, A72, 'Stellar and substellar companions of nearby stars from Gaia DR2. Binarity from proper motion anomaly' (VizieR J/A+A/623/A72/hipgpma, HIP 57548), as listed by exoplanet.eu",
+   "vetting_date": "2019",
+   "catalogue_distance_ly": {
+    "value": 11.01,
+    "src": "S4",
+    "where": "Gaia DR3 parallax 296.3053 +/- 0.0302 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "exoplanet.eu, Ross 128 c",
+     "url": "https://exoplanet.eu/catalog/ross_128_c--10297/",
+     "what": "status Candidate, 0.6 MJup at 10 au"
+    },
+    "S2": {
+     "citation": "Kervella et al. 2019, VizieR J/A+A/623/A72/hipgpma (HIP 57548)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/623/A72",
+     "what": "PMa S/N 2.26, BinG2 = 0"
+    },
+    "S3": {
+     "citation": "Kervella et al. 2022, VizieR J/A+A/657/A7/tablea1 (HIP 57548)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/657/A7",
+     "what": "EDR3 PMa S/N 1.19, flag 0"
+    },
+    "S4": {
+     "citation": "Gaia DR3 gaia_source, source_id 3796072592206250624",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    },
+    "S5": {
+     "citation": "Liebing et al. 2024, A&A, 'RedDots: Limits on habitable and undetected planets orbiting nearby stars GJ 832, GJ 674, and Ross 128', arXiv:2409.01173",
+     "url": "https://arxiv.org/abs/2409.01173",
+     "what": "no additional planets; limits 30-50 cm/s"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has Ross 128 b only; nothing for Ross 128 / GJ 447 / FI Vir / HIP 57548 in unconfirmed_existing.csv or rejected_candidates.csv.",
+   "confidence_notes": "Not a detection by the paper's own threshold. For the Rejected tab."
+  },
+  {
+   "planet": "RR Cae c",
+   "system_host": "RR Cae",
+   "new_system": false,
+   "planet_host_star": "RR Cae",
+   "aliases": [
+    "RR Cae (AB) c",
+    "RR Cae (AB)c"
+   ],
+   "designation": "fourth body of the two-circumbinary-object model (Rattanamala et al. 2023, Table 8); exoplanet.eu 'RR Cae (AB)c' (Candidate)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Eclipse-timing (light-travel-time) inference from one O-C curve. The authors say it is 'hard to conclude that there are two circumbinary objects', since the two-object model differs from the one-planet one only through a single 1984 eclipse time. Pulley et al. 2025 report new 2022-2025 timings that none of the recent RR Cae models fit, and note a Lanza-type magnetic mechanism is energetically possible for exactly this second modulation. ETV planets around post-common-envelope binaries have a poor record.",
+   "detection_method": "Eclipse timing variations",
+   "period_d": {
+    "value": 14245,
+    "err": "+/-1826",
+    "src": "S2",
+    "where": "exoplanet.eu planet page (Rattanamala et al. 2023 give 39 +/- 5 yr, abstract and Table 8)"
+   },
+   "a_au": {
+    "value": 9.7,
+    "err": "+/-0.9",
+    "src": "S1",
+    "where": "Table 8, two-objects model, fourth body"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 2.7,
+    "err": "+/-0.7",
+    "type": "Msini",
+    "unit": "M_Jup",
+    "src": "S1",
+    "where": "abstract and Table 8 (m4 sin i4 = 2.7 +/- 0.7 MJup)"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Circumbinary around RR Cae A (white dwarf) + B (M4). O-C amplitude 20 +/- 5 s, period 39 +/- 5 yr (Rattanamala et al. 2023 abstract). The eccentricity column of Table 8 did not extract cleanly from the PDF, so it is not reported. In the same two-object model the inner body (the sheet's RR Cae b) has P = 15.0 +/- 0.5 yr, 3.0 +/- 0.3 MJup, 5.2 au.",
+   "reference": "Rattanamala et al. 2023, MNRAS 523, 5086, 'Eclipse timing variations in the WD+dM eclipsing binary RR Cae', arXiv:2109.09397, Table 8; contested by Pulley et al. 2025, arXiv:2507.06748",
+   "vetting_date": "2023-06-08",
+   "catalogue_distance_ly": {
+    "value": 69.1,
+    "src": "S3",
+    "where": "Gaia DR3 parallax 47.2000 +/- 0.0200 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Rattanamala et al. 2023, MNRAS 523, 5086, arXiv:2109.09397v2",
+     "url": "https://arxiv.org/abs/2109.09397",
+     "what": "two-object LTT model, m sin i, a, P"
+    },
+    "S2": {
+     "citation": "exoplanet.eu, RR Cae (AB)c",
+     "url": "https://exoplanet.eu/catalog/rr_cae_ab_c--7980/",
+     "what": "status Candidate; P = 14245 +/- 1826 d"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source, source_id 4788741548375134336",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    },
+    "S4": {
+     "citation": "Pulley et al. 2025, 'Eclipse timing variations in 7 post-common envelope binaries', arXiv:2507.06748",
+     "url": "https://arxiv.org/abs/2507.06748",
+     "what": "new timings contradict Rattanamala models; Lanza mechanism possible for the second modulation"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has RR Cae b only; nothing for RR Cae in unconfirmed_existing.csv or rejected_candidates.csv.",
+   "confidence_notes": "A second sine wave fitted to timing residuals that already misbehave. For the Rejected tab."
+  },
+  {
+   "planet": "G 261-6 candidate P=0.95d",
+   "system_host": "G 261-6",
+   "new_system": false,
+   "planet_host_star": "G 261-6",
+   "aliases": [
+    "G 261-6 candidate P=22.49d (daily alias)",
+    "GJ 1238 candidate P=0.95d"
+   ],
+   "designation": "residual RV signal at 0.95 d / 22.49 d (Kaminski et al. 2025, Sect. 3.3)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-instrument (CARMENES) residual signal, FAP < 1.4% at 0.95 d with its daily alias at 22.49 d, so even the period is unknown. Incoherent over time in the stacked BGLS and not modelled. The authors nonetheless say these residual signals 'could turn out to be promising candidates' and find no link to the 114 d rotation or activity indicators. Borderline unlikely.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 0.95,
+    "err": "alias of 22.49 d",
+    "src": "S1",
+    "where": "Sect. 3.3 (Fig. 4 caption prints 10.95 d, apparently a typo)"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.118,
+     "src": "S1",
+     "where": "Table 1 (+/-0.011)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Period only, and ambiguous between 0.95 d and its daily alias 22.49 d. No amplitude or mass published (not fitted). Signal varies over time in s-BGLS.",
+   "reference": "Kaminski et al. 2025, A&A, 'The CARMENES search for exoplanets around M dwarfs. Occurrence rates of Earth-like planets around very low-mass stars', arXiv:2504.03364, Sect. 3.3 and Fig. 4",
+   "vetting_date": "2025-04-04",
+   "catalogue_distance_ly": {
+    "value": 34.67,
+    "src": "S2",
+    "where": "Gaia DR3 parallax 94.0674 +/- 0.0196 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Kaminski et al. 2025, arXiv:2504.03364",
+     "url": "https://arxiv.org/abs/2504.03364",
+     "what": "residual signals, FAPs, 'promising candidates'"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 2289304297045379456",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has G 261-6 b only; nothing for G 261-6 / GJ 1238 in unconfirmed_existing.csv or rejected_candidates.csv.",
+   "confidence_notes": "A 1.4%-FAP residual peak with an unresolved alias. Very weak."
+  },
+  {
+   "planet": "G 261-6 candidate P=1.83d",
+   "system_host": "G 261-6",
+   "new_system": false,
+   "planet_host_star": "G 261-6",
+   "aliases": [
+    "GJ 1238 candidate P=1.83d"
+   ],
+   "designation": "residual RV signal at 1.83 d (Kaminski et al. 2025, Sect. 3.3)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "FAP < 23%, i.e. not significant by any standard; incoherent in the stacked BGLS; single instrument; not modelled. Kept only because the authors lump it with the 0.95/22.49 d signal as possibly 'promising candidates'.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 1.83,
+    "err": "",
+    "src": "S1",
+    "where": "Sect. 3.3"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.118,
+     "src": "S1",
+     "where": "Table 1 (+/-0.011)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Period only; no amplitude or mass published.",
+   "reference": "Kaminski et al. 2025, A&A, arXiv:2504.03364, Sect. 3.3",
+   "vetting_date": "2025-04-04",
+   "catalogue_distance_ly": {
+    "value": 34.67,
+    "src": "S2",
+    "where": "Gaia DR3 parallax 94.0674 +/- 0.0196 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Kaminski et al. 2025, arXiv:2504.03364",
+     "url": "https://arxiv.org/abs/2504.03364",
+     "what": "residual signal, FAP"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 2289304297045379456",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    }
+   },
+   "dedupe": "As for the 0.95 d candidate.",
+   "confidence_notes": "Noise until shown otherwise. For the Rejected tab."
+  }
+ ],
+ "new_systems": [],
+ "considered_not_added": [
+  {
+   "name": "GJ 1151 b (2.02 d; Mahadevan et al. 2021; exoplanet.eu 'GJ 1151 b' Controversial)",
+   "system_host": "GJ 1151",
+   "reason": "refuted: Perger et al. 2021 (arXiv:2103.10216, 'No evidence for a super-Earth in a 2-day orbit around GJ 1151') and Blanco-Pozo et al. 2023 Sect. 4.3 (the HPF 2-d variability was caused by the poorly sampled long-period signal); upper limit 0.73-1.25 Mearth for 1-5 d orbits (Sect. 5.5) against the claimed 2.5 Mearth. On the sheet this refuted signal's period has leaked into the 'GJ 1151 c' row; see incidental finds.",
+   "source_url": "https://arxiv.org/abs/2103.10216"
+  },
+  {
+   "name": "GJ 1151 short-period planet inferred from LOFAR radio emission (Vedantham et al. 2020)",
+   "system_host": "GJ 1151",
+   "reason": "inference with no detected planetary signal; Blanco-Pozo et al. 2023 set Msini < 1.2 Mearth and find the 390-d planet and any outer companion unlikely to be the radio source.",
+   "source_url": "https://arxiv.org/abs/2002.08727"
+  },
+  {
+   "name": "GJ 9066 b (Feng et al. 2020, P = 241.9 d; exoplanet.eu Controversial; OEC still 'Confirmed')",
+   "system_host": "GJ 9066",
+   "reason": "refuted: Quirrenbach et al. 2022 (arXiv:2203.16504) Sect. 6.3.4 and Fig. 16: the two-planet model is incompatible with CARMENES VIS RVs; K = 0.95 +/- 1.05 m/s for P in [240, 245] d; 'the previously suspected additional planet candidates are spurious'. exoplanet.eu remark (13 Nov 2022) agrees; NASA has dropped it.",
+   "source_url": "https://arxiv.org/abs/2203.16504"
+  },
+  {
+   "name": "GJ 83.1 candidates at 1.932 d and 243.1 d (Tuomi et al. 2019)",
+   "system_host": "GJ 9066",
+   "reason": "refuted: Quirrenbach et al. 2022 Sect. 6.3.4: 1.93 d is the chromatic 1.96 d rotation signal (dLW, photometry, line indices); 243 d is spurious as above.",
+   "source_url": "https://arxiv.org/abs/2203.16504"
+  },
+  {
+   "name": "Ross 508 outer companion (RV trend / RUWE 1.49)",
+   "system_host": "Ross 508",
+   "reason": "no detected signal: Harakawa et al. 2022 (PASJ 74, 904; arXiv:2205.11986) Sects. 3.3-4 prefer the model with an RV offset and no long-term trend ('no clear evidence to identify a long-term linear trend'); AO imaging excludes stellar companions beyond 0.1 arcsec. Only the elevated Gaia RUWE (DR3 1.487) remains, which is not a companion claim. No NSS orbit.",
+   "source_url": "https://arxiv.org/abs/2205.11986"
+  },
+  {
+   "name": "Wolf 1069 90.3 d RV signal",
+   "system_host": "Wolf 1069",
+   "reason": "not claimed as a planet: Kossakowski et al. 2023 (arXiv:2301.02477) Sect. 4.3 find it chromatic and telluric-like, near Prot/2, <1 m/s, and exclude it from the final model ('not enough supporting evidence in favor of a planetary origin and it appears to be an effect of telluric contamination'). The ~400 d signal is tellurics and 165 d is rotation. Ribas et al. 2023 Table A.2 lists a 14.95 d 'unsolved' peak, the yearly alias of b's 15.6 d period per Kossakowski et al. Sect. 4.1.",
+   "source_url": "https://arxiv.org/abs/2301.02477"
+  },
+  {
+   "name": "CD Cet 68 d / 134 d RV signal",
+   "system_host": "CD Cet",
+   "reason": "activity: Bauer et al. 2020 (arXiv:2006.01684) Sect. 4 model it with a GP (preferred over a second planet by Delta lnZ > 5); dLW and H-alpha show matching periods; photometric rotation ~126-170 d.",
+   "source_url": "https://arxiv.org/abs/2006.01684"
+  },
+  {
+   "name": "GJ 1265 588 d RV signal",
+   "system_host": "GJ 1265",
+   "reason": "not claimed: Ribas et al. 2023 (CARMENES GTO Data Release 1, A&A 670, A139, arXiv:2302.10528, read from the copy in usearch/b12work) Table A.2 lists a 588.11 d signal (FAP < 1e-6) only with the remark 'P > 2/3 time baseline'; no paper interprets it as a companion. Luque et al. 2018 attribute their ~95 d signal to rotation. WRITER JUDGEMENT: it could be read as an RV-trend candidate under the owner's ruling, but nobody has proposed it.",
+   "source_url": "https://arxiv.org/abs/2302.10528"
+  },
+  {
+   "name": "LHS 3154 Gaia DR3 excess astrometric noise (316 uas, 27.7 sigma)",
+   "system_host": "LHS 3154",
+   "reason": "not a companion claim: Stefansson et al. 2023 (arXiv:2303.13321) use it only as an upper-mass limit (< 32 MJup) on b; DR3 RUWE is 1.12 and there is no NSS solution. No further signals in the HPF residuals (their Fig. S5).",
+   "source_url": "https://arxiv.org/abs/2303.13321"
+  },
+  {
+   "name": "TOI-7032.01",
+   "system_host": "GJ 523",
+   "reason": "already on sheet twice: it is GJ 523 b (Kroft et al. 2026, arXiv:2603.24682, NEID RV confirmation), which is on planets_confirmed.csv, and TOI-7032.01 is also row 23 of unconfirmed_existing.csv (TOI table still PC, rowupdate 2026-03-27). See incidental finds.",
+   "source_url": "https://arxiv.org/abs/2603.24682"
+  },
+  {
+   "name": "TOI-1690.01 (exoplanet.eu 'Candidate')",
+   "system_host": "WD 1856+534",
+   "reason": "already on sheet: it is WD 1856+534 b (TOI table CP), a stale exoplanet.eu duplicate entry.",
+   "source_url": "https://exoplanet.eu/catalog/toi_1690_01--7300/"
+  },
+  {
+   "name": "HIP 61637 b (returned by an exoplanet.eu 'TOI-540' search)",
+   "system_host": "TOI-540",
+   "reason": "unrelated star; search artefact.",
+   "source_url": "https://exoplanet.eu/catalog/hip_61637_b--12420/"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": [
+  {
+   "type": "sheet_value_error",
+   "planet": "GJ 1151 c",
+   "note": "planets_confirmed.csv row 290 gives period 2.018 d and a = 0.01735 au, which belong to the REFUTED 2-d signal of Mahadevan et al. 2021 (OEC mislabels that signal 'GJ 1151 c' with P = 2.018 d), combined with mass 10.62 Mearth of the real planet. The confirmed planet has P = 389.7 d, Msini 10.62 Mearth (NASA pscomppars 'GJ 1151 c', Blanco-Pozo et al. 2023) and a = 0.57 au (Blanco-Pozo et al. 2023 abstract). Period and a need correcting.",
+   "source_url": "https://arxiv.org/abs/2301.04442"
+  },
+  {
+   "type": "duplicate_across_tabs",
+   "planet": "TOI-7032.01 = GJ 523 b",
+   "note": "Unconfirmed tab row 23 (TOI-7032.01, PC) duplicates confirmed-tab row 539 (GJ 523 b). Kroft et al. 2026 (arXiv:2603.24682, preprint, 'Draft version March 27, 2026') confirm it by NEID RVs: 23.5 +/- 3.3 Mearth, 2.55 Rearth, P = 17.75 d; exoplanet.eu lists it Confirmed. NASA pscomppars does NOT list it yet and the TOI table still says PC, so the confirmation rests on a preprint. GJ 523 = TOI-7032 = TIC 22903436 = HIP 66954 = BD+39 2675.",
+   "source_url": "https://arxiv.org/abs/2603.24682"
+  },
+  {
+   "type": "stale_flag",
+   "planet": "WD 1856+534 b",
+   "note": "Systems tab shows 'WD 1856+534 b:4386 [>13 MJ - likely BD]'. 4386 Mearth is the Vanderburg et al. 2020 upper limit (13.8 MJup). Limbach et al. 2025 (arXiv:2504.16982, JWST MIRI thermal emission) constrain the mass to no more than ~6 MJup and 'rule out previously unexcluded low-mass brown dwarf scenarios'; NASA ps holds a Limbach 2025 row with 1652.7 Mearth. The 'likely BD' flag is out of date.",
+   "source_url": "https://arxiv.org/abs/2504.16982"
+  },
+  {
+   "type": "contested_confirmed_planet",
+   "planet": "RR Cae b",
+   "note": "On the confirmed tab (Qian et al. 2012, P = 4350 d). NASA sets pl_controv_flag = 1. Pulley et al. 2025 (arXiv:2507.06748) find none of the recent RR Cae ETV models (Rattanamala et al. 2023, which move b to 15.0-16.6 yr) fit 2022-2025 timings. The writer may want a caveat.",
+   "source_url": "https://arxiv.org/abs/2507.06748"
+  },
+  {
+   "type": "sheet_value_mix",
+   "planet": "GJ 9066 c",
+   "note": "planets_confirmed.csv mixes sources: period 767.887 d and a 0.87 au are Feng et al. 2020; mass 66.74 Mearth is Quirrenbach et al. 2022, whose period is 771.36 d (NASA default row). Minor.",
+   "source_url": "https://arxiv.org/abs/2203.16504"
+  },
+  {
+   "type": "distance_check",
+   "note": "All 16 B16 systems agree with their Gaia DR3 parallaxes to within 0.15% (largest: TOI-540 and GJ 1265, +0.14%). No mismatch over 2%."
+  }
+ ]
+}

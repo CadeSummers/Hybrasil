@@ -1,0 +1,376 @@
+{
+ "step1": {
+  "rows": {
+   "HD 134060 c": {
+    "row": 365,
+    "fields": {
+     "Orbital period (d)": 1291.5646,
+     "Semi-major axis (au)": 2.3928,
+     "Eccentricity": 0.11,
+     "Mass (M-earth)": 29.29,
+     "Mass type": "Msini",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Udry et al. 2019; a Udry et al. 2019; e Udry et al. 2019. CORRECTED 27 Sep 2026: OEC's 1160.9 d, 2.2263 au and e = 0.75 are not the Udry et al. 2019 solution (A&A 622, A37, Table 11: 1291.56 d, 2.3928 au, e = 0.11), the only published orbit; the 29.29 M-earth m sin i the row already had is Udry's."
+    }
+   },
+   "14 Her c": {
+    "row": 500,
+    "fields": {
+     "Orbital period (d)": 32899,
+     "Semi-major axis (au)": 20.0,
+     "Eccentricity": 0.52,
+     "Mass (M-earth)": 2511,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18 (arXiv:2506.09201), Table 1, JWST/NIRCam imaging + RV + HGCA orbit fit: a 20.0 +12.0/-4.9 au, e 0.52, M 7.9 MJup; P DERIVED (Kepler III, M_A = 0.97 M-sun plus both planets), not in the paper, and uncertain by a factor of about 2 (59-182 yr) -- WEAK. NASA Exoplanet Archive pscomppars, queried 2026-09-27, pairs Feng et al. 2022's P (15732 d) with this paper's a (20 au), which do not match. CORRECTED 27 Sep 2026: OEC's 9886 d / 9.037 au / e 0.184 is excluded by the JWST fit (a > 15.1 au at 1 sigma); the 2511 M-earth mass already matched this paper."
+    }
+   },
+   "GJ 3929 c": {
+    "row": 193,
+    "fields": {
+     "Orbital period (d)": 15.04,
+     "Semi-major axis (au)": 0.081,
+     "Eccentricity": 0,
+     "Mass (M-earth)": 5.71,
+     "Mass type": "Msini",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Beard et al. 2022; a Beard et al. 2022; e Beard et al. 2022 (FIXED at 0). CORRECTED 27 Sep 2026: OEC paired Kemmer et al. 2022's 14.303 d (an alias) and 0.078 au with Beard et al. 2022's 5.71 M-earth m sin i; Beard et al. 2022 (ApJ 936, 55) adopt 15.04 d as the true period."
+    }
+   },
+   "GJ 9066 c": {
+    "row": 383,
+    "fields": {
+     "Orbital period (d)": 771.36,
+     "Semi-major axis (au)": 0.88,
+     "Eccentricity": 0.46,
+     "Mass (M-earth)": 66.74,
+     "Mass type": "Msini",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Quirrenbach et al. 2022; a Quirrenbach et al. 2022; e Quirrenbach et al. 2022. CORRECTED 27 Sep 2026: OEC paired Feng et al. 2020's 767.887 d and e 0.33 with Quirrenbach et al. 2022's 66.74 M-earth; Quirrenbach et al. 2022 (A&A 663, A48, Table 4, GP model; called TZ Ari b there) is one solution."
+    }
+   },
+   "HD 150706 b": {
+    "row": 471,
+    "fields": {
+     "Orbital period (d)": 13149,
+     "Semi-major axis (au)": 11.5,
+     "Eccentricity": 0.787,
+     "Mass (M-earth)": 772.3,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "Xiao et al. 2023, RAA 23, 055022 (arXiv:2303.12409), Table A.5, orvara RV + Hipparcos-Gaia fit: P 36.0 +26/-11 yr, a 11.5 +5.0/-2.4 au, e 0.787 +0.076/-0.083, Mp 2.43 +0.48/-0.38 MJup (true mass). NASA Exoplanet Archive pscomppars, queried 2026-09-27, still defaults to Boisse et al. 2012's orbit and takes only the mass from Xiao et al. 2023. Orbit poorly constrained -- WEAK. CORRECTED 27 Sep 2026: OEC's 5894 d / 6.7 au / 861 M-earth m sin i is the Boisse et al. 2012 orbit."
+    }
+   },
+   "eps Ind A b": {
+    "row": 494,
+    "fields": {
+     "Orbital period (d)": 25447,
+     "Semi-major axis (au)": 15.76,
+     "Eccentricity": 0.25,
+     "Mass (M-earth)": 2066,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Sanghi et al. 2026; a Sanghi et al. 2026; e Sanghi et al. 2026. Sanghi et al. 2026 (AJ 172, 115; arXiv:2603.08787), Table B2 fiducial fit of JWST relative astrometry + Hipparcos-Gaia + 29 yr of RVs: dynamical mass 6.50 +0.72/-0.59 MJup; P (69.7 +12.0/-9.0 yr) is derived from a fit covering under half an orbit -- WEAK. CORRECTED 27 Sep 2026: OEC's 19205.51 d / 12.82 au / e 0.01 is a pre-JWST orbit; the 2066 M-earth mass already matched Sanghi et al. Matthews et al. 2026 (ApJL, arXiv:2603.08780) fit 108 yr, 20.9 au, 7.63 MJup."
+    }
+   },
+   "HD 204941 b": {
+    "row": 387,
+    "fields": {
+     "Orbital period (d)": 1529,
+     "Semi-major axis (au)": 2.17,
+     "Eccentricity": 0.16,
+     "Mass (M-earth)": 56.1,
+     "Mass type": "Msini",
+     "Orbit data source / flags": "Ruggieri et al. 2026, A&A accepted (arXiv:2607.09320), Sect. 4 and App. A, fit of 171 HARPS spectra: P 1529 +/- 13 d, e 0.160 +0.069/-0.064, m sin i 56.1 +/- 6.5 M-earth -- NOT YET IN THE NASA ARCHIVE (NASA Exoplanet Archive pscomppars, queried 2026-09-27, still Stassun et al. 2017: 1733 d, 73.1 M-earth). a DERIVED (Kepler III, M = 0.58 M-sun, Stassun et al. 2017, the mass that reproduces the paper's m sin i), not in the paper. CORRECTED 27 Sep 2026: 1733 d / 2.56 au / e 0.37 was Dumusque et al. 2011's orbit, paired with Stassun et al. 2017's 73.1 M-earth."
+    }
+   },
+   "TOI-2134 c": {
+    "row": 17,
+    "fields": {
+     "Mass (M-earth)": 58.3,
+     "Radius (R-earth)": 7.35,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Rescigno et al. 2026; a Rescigno et al. 2026; e Rescigno et al. 2026; M and R Rescigno et al. 2026. CORRECTED 27 Sep 2026: mass 41.89 M-earth was Rescigno et al. 2024's (MNRAS 527, 5385), paired with the 2026 orbit; Rescigno et al. 2026 (MNRAS 550, stag1265) give 58.3 +/- 1.9 M-earth."
+    }
+   },
+   "TOI-4438 b": {
+    "row": 183,
+    "fields": {
+     "Mass (M-earth)": 4.11,
+     "Radius (R-earth)": 2.4,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Serrano Bell et al. 2026; a Serrano Bell et al. 2026; e Serrano Bell et al. 2026; M and R Serrano Bell et al. 2026. CORRECTED 27 Sep 2026: mass 5.4 M-earth was Goffo et al. 2024's, paired with the 2026 orbit; Serrano Bell et al. 2026 (A&A, accepted; arXiv:2607.13333) give 4.11 +0.40/-0.38 M-earth."
+    }
+   },
+   "TOI-2427 b": {
+    "row": 531,
+    "fields": {
+     "Orbital period (d)": 1.305962,
+     "Semi-major axis (au)": 0.0202,
+     "Eccentricity": 0.074,
+     "Mass (M-earth)": 5.69,
+     "Mass type": "Mass",
+     "Radius (R-earth)": 1.64,
+     "Orbit data source / flags": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4, TESS + HARPS joint fit: P, a, e, M, R -- NOT IN THE NASA ARCHIVE (NASA Exoplanet Archive pscomppars, queried 2026-09-27, still Giacalone et al. 2022, radius only, mass from an M-R relation). CORRECTED 27 Sep 2026: mass was blank; radius 1.80 R-earth was Giacalone et al. 2022's validation value."
+    }
+   },
+   "GJ 341 b": {
+    "row": 148,
+    "fields": {
+     "Mass (M-earth)": 4.0,
+     "Mass type": "Mass (upper limit)",
+     "Radius (R-earth)": 0.88,
+     "Eccentricity": 0,
+     "Semi-major axis (au)": 0.0591,
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P DiTomasso et al. 2025; e FIXED at 0; a DERIVED (Kepler III, paper's M = 0.48 M-sun), not in the archive. Mass is a 3-sigma UPPER LIMIT (< 4.0 M-earth; < 2.9 at 1 sigma) from HARPS RVs (DiTomasso et al. 2025, ApJ 979, 214), not a measurement -- WEAK"
+    }
+   },
+   "GJ 508.2 b": {
+    "row": 456,
+    "fields": {
+     "Orbital period (d)": 5300,
+     "Semi-major axis (au)": 4.85,
+     "Eccentricity": 0.27,
+     "Mass (M-earth)": 588,
+     "Mass type": "Msini (lower limit)",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Morales et al. 2025; a Morales et al. 2025; e Morales et al. 2025. P, a, e and m sin i are all LOWER LIMITS (Morales et al. 2025, A&A 700, A242, Table 4 and Sect. 5.5: P > 5300 d, a > 4.85 au, e > 0.27, m sin i > 1.85 MJup); the orbit is not closed in 3100 d of CARMENES RVs -- WEAK. Gaia DR3 excess noise gives 6.0 +0.7/-1.2 MJup, valid only at the minimum period (Sect. 6)."
+    }
+   },
+   "TOI-5388 01": {
+    "row": 92,
+    "fields": {
+     "Planet": "TOI-5388 b",
+     "Orbital period (d)": 2.5946748,
+     "Mass (M-earth)": 2.2,
+     "Mass type": "Mass (upper limit)",
+     "Radius (R-earth)": 0.99,
+     "Semi-major axis (au)": 0.0245,
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27 as TOI-5388.01: P Poultourtzidis et al. 2026; R Poultourtzidis et al. 2026; a DERIVED (Kepler III, paper's M = 0.292 M-sun). Mass is a 3-sigma UPPER LIMIT (< 2.2 M-earth) from CARMENES RVs (Poultourtzidis et al. 2026, A&A accepted, arXiv:2601.07414), not a measurement -- WEAK. RENAMED 27 Sep 2026: the paper confirms and names it TOI-5388 b (host Wolf 346); the archive still lists TOI-5388.01."
+    }
+   },
+   "WD 1856+534 b": {
+    "row": 517,
+    "fields": {
+     "Mass (M-earth)": 2129.4,
+     "Mass type": "Mass",
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Vanderburg et al. 2020; a Vanderburg et al. 2020; e Vanderburg et al. 2020. Mass from MacDonald et al. 2026, Nature (arXiv:2607.01316), JWST NIRSpec transmission spectrum: 4.3-10.9 MJup (1 sigma across two reductions; 6.7 +2.8/-2.4 MJup FIREFLy); ~24 MJup ruled out at > 3 sigma, > 13 MJup not excluded at 2 sigma. Limbach et al. 2025 (ApJL 984, L28; JWST MIRI thermal emission) confirmed it a planet, no more than ~6 MJup. NOT IN pscomppars, which still carries Vanderburg et al. 2020's 13.8 MJup, a 95% upper limit, as a mass. CORRECTED 27 Sep 2026: '>13 MJ - likely BD' was stale."
+    }
+   },
+   "TOI-836 01": {
+    "row": 276,
+    "fields": {
+     "Planet": "TOI-836 c",
+     "Radius (R-earth)": 2.587,
+     "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-27 as TOI-836.01: P Hawthorn et al. 2023; a Hawthorn et al. 2023; e Hawthorn et al. 2023. RENAMED 27 Sep 2026: Hawthorn et al. 2023 (MNRAS 520, 3649, Table 8) confirm TOI-836.01 as TOI-836 c; the archive still lists it as TOI-836.01."
+    }
+   },
+   "TOI-4353.01": {
+    "row": 16
+   }
+  },
+  "text_cells": [
+   "'Systems within 100 ly'!Z41",
+   "'Systems within 100 ly'!Z131",
+   "'Systems within 100 ly'!Z159",
+   "'Systems within 100 ly'!Z307",
+   "'Systems within 100 ly'!Z223",
+   "'Systems within 100 ly'!Z237",
+   "'Systems within 100 ly'!Z295",
+   "'Systems within 100 ly'!Z11",
+   "'Multi-stars within 100 ly'!AB76",
+   "'Multi-stars within 100 ly'!AB77",
+   "'Multi-stars within 100 ly'!AB78",
+   "'Systems within 100 ly'!Z94"
+  ],
+  "orange": [
+   "'Planets within 100 ly'!V500",
+   "'Planets within 100 ly'!O500",
+   "'Planets within 100 ly'!V471",
+   "'Planets within 100 ly'!O471",
+   "'Planets within 100 ly'!V494",
+   "'Planets within 100 ly'!W387",
+   "'Planets within 100 ly'!W148",
+   "'Planets within 100 ly'!W92",
+   "'Planets within 100 ly'!O517",
+   "'Unconfirmed within 100 ly'!W16"
+  ]
+ },
+ "step2": {
+  "GJ 3222": {
+   "row": 109,
+   "old": 59.48,
+   "new": 57.67,
+   "kin": {
+    "AF": 13.59,
+    "AI": 225.29,
+    "AJ": -33.14
+   }
+  },
+  "HD 8326": {
+   "row": 129,
+   "old": 100.08,
+   "new": 100.16,
+   "kin": {
+    "AF": 39.83,
+    "AI": 316.71,
+    "AJ": -33.76
+   }
+  },
+  "GJ 9689": {
+   "row": 208,
+   "old": 99.87,
+   "new": 100.09,
+   "kin": {
+    "AF": 91.75,
+    "AI": 210.33,
+    "AJ": -23.19
+   }
+  },
+  "TOI-1801": {
+   "row": 218,
+   "old": 100.06,
+   "new": 100.76,
+   "kin": {
+    "AF": 30.63,
+    "AI": 192.99,
+    "AJ": -14.13
+   }
+  }
+ },
+ "step3": {
+  "ids": "Kapteyn, 55 Cnc A (Systems, Multi-stars), 55 Cnc B, GJ 338 A (Systems, Multi-stars), GJ 338 B",
+  "gj338a_kinematics": "AE 1.647, AF 50.6, AG 164.94, AH 42.67, AI 199.75, AJ -28.29",
+  "note": "notes written by hand after a 429 in mark(); values verified on the sheet"
+ },
+ "step4": {
+  "rejected_rows": {
+   "GJ 680 b": 89,
+   "HIP 55507 b": 90,
+   "GJ 229 b": 91,
+   "GJ 229 A c": 92,
+   "HIP 48714 b": 93,
+   "GJ 96 b": 94,
+   "GJ 682 b": 95,
+   "GJ 682 c": 96,
+   "Kapteyn c": 97
+  },
+  "planets_deleted": {
+   "GJ 680 b": 522,
+   "HIP 55507 b": 502,
+   "HIP 48714 b": 358,
+   "GJ 96 b": 348,
+   "GJ 229 b": 329,
+   "GJ 682 c": 262,
+   "GJ 229 A c": 260,
+   "Kapteyn c": 229,
+   "GJ 682 b": 159
+  },
+  "systems_cells": [
+   "'Systems within 100 ly'!F157",
+   "'Systems within 100 ly'!Z157",
+   "'Systems within 100 ly'!AA157",
+   "'Systems within 100 ly'!P157",
+   "'Systems within 100 ly'!Q157",
+   "'Systems within 100 ly'!F167",
+   "'Systems within 100 ly'!Z167",
+   "'Systems within 100 ly'!AA167",
+   "'Systems within 100 ly'!P167",
+   "'Systems within 100 ly'!Q167",
+   "'Systems within 100 ly'!F245",
+   "'Systems within 100 ly'!Z245",
+   "'Systems within 100 ly'!AA245",
+   "'Systems within 100 ly'!P245",
+   "'Systems within 100 ly'!Q245",
+   "'Systems within 100 ly'!F216",
+   "'Systems within 100 ly'!Z216",
+   "'Systems within 100 ly'!AA216",
+   "'Systems within 100 ly'!P216",
+   "'Systems within 100 ly'!Q216",
+   "'Systems within 100 ly'!F249",
+   "'Systems within 100 ly'!Z249",
+   "'Systems within 100 ly'!AA249",
+   "'Systems within 100 ly'!P249",
+   "'Systems within 100 ly'!Q249",
+   "'Systems within 100 ly'!F306",
+   "'Systems within 100 ly'!Z306",
+   "'Systems within 100 ly'!AA306",
+   "'Systems within 100 ly'!P306",
+   "'Systems within 100 ly'!Q306",
+   "'Systems within 100 ly'!F259",
+   "'Systems within 100 ly'!Z259",
+   "'Systems within 100 ly'!AA259",
+   "'Systems within 100 ly'!P259",
+   "'Systems within 100 ly'!Q259"
+  ]
+ },
+ "step5": {
+  "multistars_rows": {
+   "GJ 680": 96,
+   "GJ 680 B": 97,
+   "HIP 55507": 98,
+   "HIP 55507 B": 99,
+   "gam Cep": 100,
+   "gam Cep B": 101,
+   "nu Oct A": 102,
+   "nu Oct B": 103,
+   "HD 27442": 104,
+   "HD 27442 B": 105,
+   "HD 19994": 106,
+   "HD 19994 B": 107,
+   "HD 19994 C": 108,
+   "GJ 86": 109,
+   "GJ 86 B": 110,
+   "HD 204941": 111,
+   "HD 204941 B": 112,
+   "HD 86728": 113,
+   "GJ 376 B": 114,
+   "HD 46375": 115,
+   "HD 46375 B": 116,
+   "HD 147513": 117,
+   "HD 147513 B": 118,
+   "GJ 3222": 119,
+   "GJ 3222 B": 120,
+   "HD 147379": 121,
+   "HD 147379 B": 122,
+   "TOI-1801": 123,
+   "LP 375-24": 124,
+   "Ross 458": 125,
+   "Ross 458 B": 126,
+   "TOI-1452": 127,
+   "TOI-1452 B": 128,
+   "HD 99492": 129,
+   "HD 99491": 130,
+   "HD 6660": 131,
+   "HD 6660 B": 132,
+   "HIP 87773": 133,
+   "HIP 87773 C": 134,
+   "GJ 65 A": 135,
+   "GJ 65 B": 136,
+   "61 Cyg A": 137,
+   "61 Cyg B": 138
+  },
+  "orange": 32
+ },
+ "step6": {
+  "systems_rows": {
+   "TOI-2267 A": 426,
+   "Gliese 48": 427
+  },
+  "planets_rows": {
+   "TOI-2427 c": 535,
+   "TOI-2267 b": 536,
+   "TOI-2267 c": 537,
+   "TOI-2267 d": 538,
+   "Gliese 48 b": 539,
+   "TOI-4324 b": 540
+  },
+  "multistars_rows": {
+   "TOI-2267 A": 139,
+   "TOI-2267 B": 140
+  },
+  "unconfirmed_deleted": 4,
+  "toi2267_sep_au": 8.9
+ },
+ "step7": {
+  "sp_rows": [
+   5055,
+   5182
+  ],
+  "heading": 5056,
+  "title": "hy-brasil-20260927-1700"
+ }
+}

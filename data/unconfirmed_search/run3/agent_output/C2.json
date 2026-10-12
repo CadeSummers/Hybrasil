@@ -1,0 +1,2941 @@
+{
+ "agent": "C2",
+ "items": [
+  {
+   "name": "HD 46375 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 46375",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 46375 B",
+     "source": "SIMBAD main_id 'HD 46375B' (= WDS J06332+0528B, SLE 299 B, Karmn J06332+054, Gaia DR3 3131777319158582272)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD+46375B",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing Multi-stars style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 96.39,
+     "source": "Copied from the Systems row; companion rows share the system distance (as HD 140901 B). B's own Gaia DR3 parallax 33.947 mas gives 96.08 ly",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -1.428,
+     "source": "Gaia DR3 radial_velocity -1.4278 +/- 0.3106 km/s (source 3131777319158582272)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 104.299,
+     "source": "Gaia DR3 pmra 104.2988 +/- 0.0245",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -97.791,
+     "source": "Gaia DR3 pmdec -97.7911 +/- 0.0204",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Gaia DR3 (RUWE 0.996)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "3131777319158582272",
+     "source": "Gaia DR3; SIMBAD cross-id",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.52,
+     "source": "DERIVED: Mann et al. 2019, ApJ 871, 63, M_Ks-mass relation, Table 6 n=5 coefficients",
+     "url": "https://arxiv.org/abs/1811.06938",
+     "derived": true,
+     "method": "M_Ks = Ks + 5 + 5 log10(plx) = 7.843 (2MASS 06331209+0527531, qual AAA, VizieR II/246) + 5 + 5 log10(0.033947) = 5.497. log10 M = sum a_i (M_Ks - 7.5)^i with a = (-0.642, -0.208, -8.43e-4, 7.87e-3, 1.42e-4, -2.13e-4), giving 0.521 Msun. The relation's scatter is ~2% (+/-0.011); it is valid for M_Ks 4-11."
+    },
+    "Stellar Class": {
+     "value": "M1",
+     "source": "Rojas-Ayala et al. 2012, ApJ 748, 93, stars table (SpT M1, K-band spectrum); Newton et al. 2014, AJ 147, 20 also M1",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/748/93",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "M dwarf",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3567,
+     "source": "Terrien et al. 2015, ApJS 220, 16, Table 4, NTeff 3567 K (NIR spectrum)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/220/16",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.04296,
+     "source": "Terrien et al. 2015, ApJS 220, 16, Table 4: NLogL -1.3669 (NRad 0.4954 Rsun)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/220/16",
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class: Rojas-Ayala et al. 2012 ApJ 748 93 (M1); Teff, L: Terrien et al. 2015 ApJS 220 16 Table 4 (3567 K, log L -1.3669); [Fe/H]: Newton et al. 2014 AJ 147 20; mass: INFERRED, NOT PUBLISHED -- orange border. Mann et al. 2019 ApJ 871 63 M_Ks-mass relation (Table 6, n=5), with 2MASS Ks 7.843 and Gaia DR3 parallax 33.947 mas (M_Ks 5.497), gives 0.52 Msun +/- 2%. Published photometric masses are higher: Mugrauer 2019 MNRAS 490 5088, 0.572 (assumes A_G = 0.595 mag, implausible at 29.5 pc); Eggenberger et al. 2007 A&A 474 273, 0.58 +/- 0.02 (quoted in the WDS note).",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "The Systems row has no age",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.26,
+     "source": "Newton et al. 2014, AJ 147, 20, CPM table, [Fe/H]2 = 0.26 +/- 0.12. Rojas-Ayala 2012 give 0.29 +/- 0.17",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/147/20",
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.91,
+     "source": "Copied from the Systems row host mass",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "HD 46375",
+     "source": "Host component name (= Planet-host star)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 308.2,
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4: HD 46375B, rho 10.44 arcsec, PA 309 deg, s 308.2 au (Gaia DR3)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "No solved orbit (the WDS SLE 299 entry has no orbit flag)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4, s (au) -- Gaia DR3: rho = 10.44 arcsec, s = 308.2 au",
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 46375 is a 10.4 arcsec common-proper-motion pair (WDS SLE 299; Gaia DR3 parallaxes 33.88 / 33.95 mas). Gonzalez-Payo et al. 2024 Table B.4 list HD 46375 B at s = 308.2 au. The Systems row counts one star.",
+   "confidence": "high",
+   "notes": "My own Gaia DR3 calculation matches: 10.442 arcsec x 29.516 pc = 308.2 au. Spectral types disagree: M1 (Rojas-Ayala 2012; Newton 2014), M0.64 (Terrien 2015), M2.0V (Alonso-Floriano 2015, which SIMBAD shows). M1 is the majority and fits M_G = 8.87. Teff: Terrien 2015 gives 3567 K, Rojas-Ayala 2012 3663 +/- 15 K; I took Terrien for its self-consistent Teff/R/L set. I do not recommend Mugrauer 2019 (0.572 Msun, 3901 K), because it corrects a star at 29.5 pc for A_G = 0.595. Gaia DR3 has no astrophysical_parameters for this source."
+  },
+  {
+   "name": "HD 46375",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 46375",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 46375",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('HD 46375'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 96.39,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -1.092,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 111.624,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -96.952,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "3131777319158581376",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.91,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "G9 V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 5199,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.65822440416042,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.24,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.91,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 46375', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 46375 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'HD 46375' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row; no new research."
+  },
+  {
+   "name": "HD 46375",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "Gaia DR3 and Gonzalez-Payo et al. 2024 (Table B.4) show a bound M1 companion at 10.4 arcsec (308 au projected); NASA pscomppars sy_snum = 2.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "HD 46375: G9 V (host, planet host)\nHD 46375 B: M1",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Gaia DR3 and Gonzalez-Payo et al. 2024 (Table B.4) show a bound M1 companion at 10.4 arcsec (308 au projected); NASA pscomppars sy_snum = 2.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "HD 147513 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 147513",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 147513 B",
+     "source": "Named after the host, as HD 140901 B is. SIMBAD's main_id is 'CD-38 10980' (= WD 1620-391, GJ 620.1 B, HIP 80300, WDS J16240-3912B, RAG 8 B); 'HD 147513 B' does not resolve in SIMBAD",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=WD+1620-391",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style (HD 140901 B, also a DA white dwarf, is 'companion')",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 42.08,
+     "source": "Copied from the Systems row; B's own Gaia DR3 parallax 77.454 mas gives 42.11 ly",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": null,
+     "source": "Left blank: Gaia DR3 has no RV, and SIMBAD's 44.0 km/s (Napiwotzki et al. 2020) is a white-dwarf line velocity that includes gravitational redshift",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 77.398,
+     "source": "Gaia DR3 pmra 77.3977 +/- 0.0492 (source 6018034958869558912)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 0.386,
+     "source": "Gaia DR3 pmdec 0.3858 +/- 0.0383",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "PM: Gaia DR3; no RV",
+     "source": "Style of the WD 0644+025 row",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "6018034958869558912",
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.636,
+     "source": "O'Brien et al. 2024, MNRAS 527, 8687, Table A1 (40 pc white dwarfs): 0.636 +/- 0.014 (H atmosphere, Gaia photometry and parallax; identical to Gentile Fusillo et al. 2021 MassH)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/8687",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "DA1.9",
+     "source": "Gianninas, Bergeron & Ruiz 2011, ApJ 743, 138, Table 5, WD 1620-391 (spectroscopic). Older classification: DA2 (Oswalt 1988)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/743/138",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "White dwarf",
+     "source": "",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 24073,
+     "source": "O'Brien et al. 2024, Table A1: Teff 24073 +/- 488 K (H atmosphere)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/8687",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.052,
+     "source": "DERIVED from O'Brien et al. 2024's Teff, log g and mass",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/8687",
+     "derived": true,
+     "method": "R = sqrt(G M / g), with M = 0.636 +/- 0.014 Msun and log g = 8.006 +/- 0.026, gives R = 0.01311 Rsun. L = R^2 (Teff/5772)^4 with Teff = 24073 +/- 488 K gives 0.0520 +/- 0.0054 Lsun (Monte Carlo). NOT from the workbook's M_abs->L_bol dwarf relation."
+    },
+    "Star data source": {
+     "value": "THIS IS A DA WHITE DWARF (WD 1620-391), NOT AN M DWARF. class: Gianninas et al. 2011 ApJ 743 138 Table 5 (DA1.9); Teff, mass: O'Brien et al. 2024 MNRAS 527 8687 Table A1 (Teff_H 24073 +/- 488 K, log g 8.006 +/- 0.026, M 0.636 +/- 0.014; same values as Gentile Fusillo et al. 2021). L: INFERRED, NOT PUBLISHED -- orange border. L = R^2*(Teff/5772)^4 with R = sqrt(GM/g) = 0.01311 Rsun, giving 0.052 +/- 0.005. DO NOT apply this workbook's M_abs->L_bol relation (fitted to K5 V-L8 dwarfs). The spectroscopic solution (Gianninas 2011: 25980 +/- 369 K, log g 7.96, 0.61 Msun) gives 0.075 with a mass-radius radius, but that pairing over-predicts the Gaia flux; the photometric set is flux-consistent.",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.3,
+     "source": "Copied from the Systems row (co-eval). O'Brien 2024 list a cooling age of 0.03 Gyr only",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.06,
+     "source": "Copied from the Systems row (host); a white dwarf has no measurable [Fe/H]",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.92,
+     "source": "Copied from the Systems row host mass",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "HD 147513",
+     "source": "Host component name (= Planet-host star)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 4449,
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4: CD-38 10980, rho 345.1 arcsec, PA 248 deg, s 4449 au (Gaia DR3)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "No orbit (WDS RAG 8 flag NV)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4, s (au) -- Gaia DR3: rho = 345.1 arcsec, s = 4449 au",
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 147513 has a wide DA white-dwarf companion, WD 1620-391 (CD-38 10980), at 345 arcsec. Both Gonzalez-Payo et al. 2024 (Table B.4, s = 4449 au) and O'Brien et al. 2024 (40 pc wide-binary Table A6, 4455 au) list the pair. The Systems row counts one star.",
+   "confidence": "high",
+   "notes": "My own Gaia DR3 calculation gives 345.04 arcsec x 12.892 pc = 4448 au. O'Brien's Table A6 gives 4454.8 au because it uses the WD's parallax. Photometric and spectroscopic Teff differ: 24073 K (O'Brien 2024 / GF21) vs 25980 K (Gianninas 2011). I recommend the photometric set for L, because the observed flux and parallax then fix the radius. The mass and class values are published; only L is derived."
+  },
+  {
+   "name": "HD 147513",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 147513",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 147513",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('HD 147513'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 42.08,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 12.846,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 73.748,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 3.367,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "6018047019138644480",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.92,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "G3/5V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 5883,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 1,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.3,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.06,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.92,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147513', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 147513 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'HD 147513' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row; no new research."
+  },
+  {
+   "name": "HD 147513",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "A wide DA white-dwarf companion, WD 1620-391, lies at 345 arcsec (4449 au projected): Gonzalez-Payo et al. 2024 Table B.4, O'Brien et al. 2024 Table A6. NASA sy_snum = 2.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "HD 147513: G3/5V (host, planet host)\nHD 147513 B: DA1.9 (white dwarf)",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "A wide DA white-dwarf companion, WD 1620-391, lies at 345 arcsec (4449 au projected): Gonzalez-Payo et al. 2024 Table B.4, O'Brien et al. 2024 Table A6. NASA sy_snum = 2.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "GJ 3222 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "GJ 3222",
+     "source": "Systems within 100 ly column A (the host HD 21175 is filed as GJ 3222)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "GJ 3222 B",
+     "source": "Named after the sheet's host name. The catalogued name is 'HD 21175B' (SIMBAD main_id; = WDS J03236-4005B, I 468 B, Gaia DR3 4852870701504645504); 'GJ 3222 B' does not resolve in SIMBAD. 'HD 21175 B' is an equally valid choice.",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD+21175B",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 59.48,
+     "source": "Copied from the Systems row. B's own Gaia DR3 parallax 56.483 mas gives 57.74 ly; the host's DR3 parallax 56.557 mas gives 57.67 ly, so the Systems row looks off (see incidental finds)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": null,
+     "source": "No Gaia DR3 RV",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 76.575,
+     "source": "Gaia DR3 pmra 76.5747 +/- 0.0433 (source 4852870701504645504)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -25.618,
+     "source": "Gaia DR3 pmdec -25.6184 +/- 0.0774. The ~61 mas/yr difference from A (+35.2) is ~5 km/s at 17.7 pc, as expected for orbital motion at ~46 au",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "PM: Gaia DR3; no RV",
+     "source": "Gaia DR3 (RUWE 1.38; 2.6 arcsec from a G = 6.7 star)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "4852870701504645504",
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.48,
+     "source": "DERIVED: Pecaut & Mamajek 2013 dwarf table (v2022.04.16), interpolated in M_G",
+     "url": "https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt",
+     "derived": true,
+     "method": "M_G = G + 5 + 5 log10(plx) = 10.1898 + 5 + 5 log10(0.056483) = 8.949 (Gaia DR3). Linear interpolation between M1V (M_G 8.82, 0.50 Msun) and M1.5V (8.98, 0.47) gives 0.476. Table scatter is ~10% (+/-0.05). Mugrauer's companion catalogues use the same method. The primary 2.6 arcsec away may slightly contaminate G."
+    },
+    "Stellar Class": {
+     "value": null,
+     "source": "No published spectral type (SIMBAD has none). Photometrically ~M1-M1.5 V (M_G 8.95); use 'class unknown' in System stars",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "M_G 8.95 lies on the M-dwarf main sequence",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3630,
+     "source": "DERIVED: Pecaut & Mamajek table interpolated at M_G = 8.949 (M1V 3660 K, M1.5V 3620 K), giving 3628 K +/- 100",
+     "url": "https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt",
+     "derived": true,
+     "method": "Linear interpolation in M_G"
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.037,
+     "source": "DERIVED: Pecaut & Mamajek table interpolated at M_G = 8.949 (log L -1.39 at M1V, -1.44 at M1.5V), giving log L = -1.430 and L = 0.0371 +/- 0.005",
+     "url": "https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt",
+     "derived": true,
+     "method": "Linear interpolation of log L in M_G"
+    },
+    "Star data source": {
+     "value": "NO PUBLISHED STELLAR PARAMETERS FOUND. mass, Teff, L: INFERRED, NOT PUBLISHED -- orange border. Interpolated in the Pecaut & Mamajek 2013 dwarf table (v2022.04.16) at Gaia DR3 M_G = 8.949 (G 10.190, plx 56.483 mas): 0.48 Msun, 3630 K, L 0.037, i.e. ~M1-M1.5 V. Philipot et al. 2023 (A&A 678, A107) image it with SPHERE but give no mass.",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "The Systems row has no age",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": null,
+     "source": "The Systems row has no [Fe/H], and none is published for B",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.89,
+     "source": "Copied from the Systems row host mass",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "Blank: only an indeterminate (grade 5) orbit exists, so the separation is projected. For reference, ORB6 (Izmailov 2019, AstL 45, 30) gives e = 0.485 +/- 0.064",
+     "url": "http://www.astro.gsu.edu/wds/orb6/orb6orbits.txt",
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "See notes",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "See notes",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "GJ 3222",
+     "source": "Host component name (= Planet-host star 'GJ 3222')",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 45.9,
+     "source": "DERIVED from Gaia DR3 positions and the host's parallax",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": true,
+     "method": "The Gaia DR3 epoch-2016 separation between 4852870701505115904 and 4852870701504645504 is 2.595 arcsec (PA 121.9 deg); x 17.681 pc (1000/56.557 mas) = 45.9 au. The parallax error is negligible; the projection factor is unknown. Philipot et al. 2023 Table 2 (SPHERE, JD 2457665.35) measure 2628.0 +/- 2.5 mas at PA 122.75 deg, i.e. 46.5 au."
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "arcsec x distance; derived (orange)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "DERIVED -- orange border: Gaia DR3 separation 2.595 arcsec x 17.681 pc = 45.9 au. SPHERE 2016 gives 2.628 arcsec (Philipot et al. 2023, A&A 678, A107, Table 2)",
+     "source": "Gaia DR3; Philipot et al. 2023",
+     "url": "https://arxiv.org/abs/2308.05417",
+     "derived": true,
+     "method": "arcsec x pc"
+    }
+   },
+   "reason": "HD 21175 (GJ 3222) is the visual binary WDS I 468. Philipot et al. 2023 (Sect. 3.2, Table 2) re-detect B with SPHERE at 2.628 arcsec, and Gaia DR3 resolves it at 2.595 arcsec with a matching parallax (56.48 vs 56.56 mas). The Systems row counts one star.",
+   "confidence": "medium",
+   "notes": "The companion's existence and separation are high confidence; its physical parameters are low to medium. I found nothing published (SIMBAD, Mugrauer 2019, Gonzalez-Payo 2024, web search), so mass, Teff and L are all derived. Gonzalez-Payo 2024 list HD 21175 as a planet host (Table B.1) but not as a pair in Table B.4. ORB6 has an indeterminate grade-5 orbit (Izmailov 2019): P = 217.7 +/- 31.3 yr, a = 2.3285 +/- 0.1084 arcsec (41.2 au at 17.68 pc), e = 0.485 +/- 0.064, i = 41.8 deg. Kepler III on it gives a total of 1.47 Msun, consistent with 0.89 + 0.48. Because grade 5 means indeterminate, I recommend 'projected'. The writer may instead use 'semi-major axis' 41.2 au (derived), with Orbit source 'Izmailov 2019, AstL 45, 30 (ORB6 grade 5)'."
+  },
+  {
+   "name": "GJ 3222",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "GJ 3222",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "GJ 3222",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('GJ 3222'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 59.48,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 12.132,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 63.985,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 35.175,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "4852870701505115904",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.89,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "K0V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 5257,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.595339250050662,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.89,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'GJ 3222', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "GJ 3222 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'GJ 3222' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row. That row lacks [Fe/H] and age, and its distance of 59.48 ly disagrees with the Gaia DR3 parallax of 56.557 mas (57.67 ly); see incidental finds."
+  },
+  {
+   "name": "GJ 3222",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "Visual companion HD 21175 B (WDS I 468) lies at 2.6 arcsec (~46 au). SPHERE re-detects it (Philipot et al. 2023, Table 2) and Gaia DR3 resolves it. NASA sy_snum = 2.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "GJ 3222: K0V (host, planet host)\nGJ 3222 B: class unknown (HD 21175 B, 2.6\")",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Visual companion HD 21175 B (WDS I 468) lies at 2.6 arcsec (~46 au). SPHERE re-detects it (Philipot et al. 2023, Table 2) and Gaia DR3 resolves it. NASA sy_snum = 2.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "HD 147379 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 147379",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 147379 B",
+     "source": "SIMBAD main_id 'HD 147379B' (= GJ 617 B, EW Dra, HIP 79762, Karmn J16167+672N, WDS J16167+6714B)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GJ+617+B",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 35.11,
+     "source": "Copied from the Systems row; B's Gaia DR3 parallax 92.898 mas also gives 35.11 ly",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -18.721,
+     "source": "Gaia DR3 radial_velocity -18.7212 +/- 0.1351 (source 1642642957122493824)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -483.006,
+     "source": "Gaia DR3 pmra -483.0059 +/- 0.0193",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 89.049,
+     "source": "Gaia DR3 pmdec 89.0488 +/- 0.0201",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Gaia DR3 (RUWE 1.26)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "1642642957122493824",
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.472,
+     "source": "Schweitzer et al. 2019, A&A 625, A68, Table B.1, Gl 617B: MassMR 0.472 +/- 0.019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/625/A68",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M3.0 V",
+     "source": "Lepine et al. 2013, AJ 145, 102 (SIMBAD default); Schweitzer 2019 give dM3.0",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GJ+617+B",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3488,
+     "source": "Schweitzer et al. 2019, Table B.1: 3488 +/- 51 K (CARMENES spectra)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/625/A68",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.02949,
+     "source": "Schweitzer et al. 2019, Table B.1: Lum 0.02949 +/- 0.00069",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/625/A68",
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "Schweitzer et al. 2019 A&A 625 A68 Table B.1 (Gl 617B = Karmn J16167+672N): Teff 3488 +/- 51 K, [Fe/H] -0.03 +/- 0.16, L 0.02949 +/- 0.00069, R 0.4701, M (mass-radius) 0.472 +/- 0.019; class: Lepine et al. 2013 AJ 145 102. The host's sheet values (Teff 4090, [Fe/H] 0.16) come from the same paper.",
+     "source": "Schweitzer et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/625/A68",
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "The Systems row has no age",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": -0.03,
+     "source": "Schweitzer et al. 2019, Table B.1: -0.03 +/- 0.16",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/625/A68",
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.58,
+     "source": "Copied from the Systems row host mass",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "HD 147379",
+     "source": "Host component name (= Planet-host star)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 694.8,
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4: EW Dra, rho 64.53 arcsec, PA 14 deg, s 694.8 au (Gaia DR3)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "No solved orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4, s (au) -- Gaia DR3: rho = 64.53 arcsec, s = 694.8 au",
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 147379 (GJ 617 A) and GJ 617 B (EW Dra) form the 64.5 arcsec pair WDS ENG 57, with equal Gaia DR3 parallaxes (92.88 / 92.90 mas). Gonzalez-Payo et al. 2024 Table B.4 give 694.8 au. B11 reports that Stalport et al. 2023 (arXiv:2308.05669, Sect. 2.2.2) call the pair bound; I did not re-open that paper.",
+   "confidence": "high",
+   "notes": "Alternatives for B: Cifuentes et al. 2020 (A&A 642, A115) give L 0.02967, Teff 3400 K, M 0.4998; Mugrauer 2019 gives M 0.54, Teff 3801 K (photometric). I recommend Schweitzer 2019 because it is the spectroscopic source the host row already uses. Gaia DR3 FLAME L = 0.02914 agrees within 1%. The component is named after the host ('HD 147379 B', SIMBAD's main_id), not 'GJ 617 B'."
+  },
+  {
+   "name": "HD 147379",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "HD 147379",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "HD 147379",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('HD 147379'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 35.11,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -19.62,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -497.915,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 84.047,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "1642641410934267008",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.58,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M0.0 V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 4090,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.081910137258331,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.16,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.58,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'HD 147379', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "HD 147379 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'HD 147379' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row; no new research."
+  },
+  {
+   "name": "HD 147379",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "Bound M3 companion GJ 617 B lies at 64.5 arcsec (695 au projected), per Gonzalez-Payo et al. 2024 Table B.4.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "HD 147379: M0.0 V (host, planet host)\nHD 147379 B: M3.0 V (GJ 617 B, EW Dra)",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Bound M3 companion GJ 617 B lies at 64.5 arcsec (695 au projected), per Gonzalez-Payo et al. 2024 Table B.4.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "LP 375-24",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "TOI-1801",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "LP 375-24",
+     "source": "The name used by Weis 1991, Mallorquin et al. 2023 (Table 11), SIMBAD (main_id) and Gonzalez-Payo 2024 (= NLTT 28298, WDS J11423+2302B, LDS 926 B, TIC 119584394). No catalogue calls it 'TOI-1801 B'. The host TOI-1801 is LP 375-23.",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=LP+375-24",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 100.06,
+     "source": "Copied from the Systems row. Gaia DR3 parallaxes give 100.76 ly (host) and 100.65 ly (LP 375-24), both just beyond 100 ly (see incidental finds)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 0.285,
+     "source": "Gaia DR3 radial_velocity 0.2852 +/- 1.9373 (source 3980045656608797056)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -204.911,
+     "source": "Gaia DR3 pmra -204.9112 +/- 0.0166",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 42.493,
+     "source": "Gaia DR3 pmdec 42.4925 +/- 0.0176",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Gaia DR3 (RUWE 1.20)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "3980045656608797056",
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.27,
+     "source": "DERIVED: Mann et al. 2019 M_Ks-mass relation (Table 6, n=5)",
+     "url": "https://arxiv.org/abs/1811.06938",
+     "derived": true,
+     "method": "M_Ks = 9.569 (2MASS 11422124+2303139, qual AAA) + 5 + 5 log10(0.0324037) = 7.122, giving 0.273 Msun +/- 2% (0.006). Published alternative: 0.23 (Mallorquin 2023 Table 11), which is read off the Mamajek table for spectral type M4V +/- 1."
+    },
+    "Stellar Class": {
+     "value": "M4 V",
+     "source": "Mallorquin et al. 2023, A&A 680, A76, Table 11 ('M4V +/- 1', this work)",
+     "url": "https://arxiv.org/abs/2310.10244",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3260,
+     "source": "Gaia DR3 astrophysical_parameters teff_gspphot 3260.2 K",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.00982,
+     "source": "Gaia DR3 astrophysical_parameters lum_flame 0.009818, the same Gaia FLAME source as the Systems row's TOI-1801 L (0.058323)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class: Mallorquin et al. 2023 A&A 680 A76 Table 11 (M4V +/- 1); Teff: Gaia DR3 GSP-Phot 3260 K; L: Gaia DR3 FLAME 0.00982 (the host's Systems-row L uses the same source); mass: INFERRED, NOT PUBLISHED -- orange border. Mann et al. 2019 M_Ks-mass relation gives 0.27 Msun at M_Ks 7.122. Mallorquin Table 11's 0.23 Msun, 3210 K and 0.274 Rsun are read off the Mamajek table for M4V, not measured.",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.7,
+     "source": "Copied from the Systems row (Mallorquin 2023: 600-800 Myr for the system)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": -0.19,
+     "source": "Copied from the Systems row (host value; assumes the pair formed together)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.548,
+     "source": "Mallorquin et al. 2023, Table 1: 0.548 +/- 0.048 (the Systems row host mass is blank)",
+     "url": "https://arxiv.org/abs/2310.10244",
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "TOI-1801",
+     "source": "Host component name (= Planet-host star)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 3245,
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4: LP 375-24, rho 105.1 arcsec, PA 22 deg, s 3245 au (Gaia DR3)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4, s (au) -- Gaia DR3: rho = 105.1 arcsec, s = 3245 au",
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "TOI-1801 (LP 375-23) has a wide common-proper-motion companion, LP 375-24 (WDS LDS 926). Mallorquin et al. 2023 (Sect. 4.2, Table 11) confirm it from Gaia DR3, and Gonzalez-Payo et al. 2024 Table B.4 give s = 3245 au. The Systems row counts one star.",
+   "confidence": "high",
+   "notes": "Naming: use 'LP 375-24'; the sheet already has companions not named after their host (e.g. Proxima Cen). Separation: Mallorquin 2023 Sect. 4.2 quote 101.14 arcsec, but Gaia DR3 positions give 105.05 arcsec, as do Gonzalez-Payo 2024 (105.1) and WDS 2016 (105.1), so I use 105.1 arcsec / 3245 au. Mass: 0.27 (Mann relation, derived) vs 0.23 (Mallorquin's spectral-type lookup). M_G = 10.75 and FLAME L = 0.0098 both fit ~M3.5V better than M4V, which favours 0.27. Mugrauer & Michel 2020/2021 do not list this pair."
+  },
+  {
+   "name": "TOI-1801",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "TOI-1801",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "TOI-1801",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('TOI-1801'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 100.06,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -0.079,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -204.891,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": 41.839,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "3980045523465047168",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.548,
+     "source": "Mallorquin et al. 2023, A&A 680, A76, Table 1: 0.548 +/- 0.048 (the Systems row host mass is BLANK)",
+     "url": "https://arxiv.org/abs/2310.10244",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M0.5+/-0.5 V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3863,
+     "source": "Mallorquin et al. 2023, Table 1: 3863 +/- 77 K (the Systems row Teff is BLANK)",
+     "url": "https://arxiv.org/abs/2310.10244",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.058323495,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, L: as Systems sheet (primary); mass, Teff: Mallorquin et al. 2023 A&A 680 A76 Table 1 (0.548 +/- 0.048 Msun, 3863 +/- 77 K)",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.7,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": -0.19,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1801', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.548,
+     "source": "Mallorquin et al. 2023, Table 1",
+     "url": "https://arxiv.org/abs/2310.10244",
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "TOI-1801 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'TOI-1801' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Copied from the Systems row, except Mass and Teff, which are blank there. Those come from Mallorquin et al. 2023 Table 1, which also gives R 0.542 +/- 0.029, [Fe/H] -0.19 +/- 0.04, L 0.05888 +/- 0.00137 and age 600-800 Myr. The writer may also want to fill the Systems row's blank mass and Teff from that table."
+  },
+  {
+   "name": "TOI-1801",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "The wide co-moving M4 companion LP 375-24 lies at 105 arcsec (3245 au projected): Mallorquin et al. 2023 Sect. 4.2 and Table 11; Gonzalez-Payo et al. 2024 Table B.4.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "TOI-1801: M0.5+/-0.5 V (host, planet host)\nLP 375-24: M4 V",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "The wide co-moving M4 companion LP 375-24 lies at 105 arcsec (3245 au projected): Mallorquin et al. 2023 Sect. 4.2 and Table 11; Gonzalez-Payo et al. 2024 Table B.4.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "Ross 458 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "Ross 458",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "Ross 458 B",
+     "source": "= GJ 494 B / Gl 494 B (WDS J13008+1223, BEU 16 AB). SIMBAD has no separate entry for B; A and B share BD+13 2618 (ids include GJ 494 A and GJ 494 B)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GJ+494",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 37.54,
+     "source": "Copied from the Systems row",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": null,
+     "source": "No individual RV: B is unresolved in Gaia (0.4-0.5 arcsec). The system RV is on the host row",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": null,
+     "source": "Unresolved: Gaia DR3 source 3737308025029348608 is the A+B photocentre (RUWE 4.19)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": null,
+     "source": "unresolved",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "unresolved from A (0.43 arcsec orbit); moves with the Gaia DR3 A+B photocentre 3737308025029348608",
+     "source": "Gaia DR3; Mann et al. 2019",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": null,
+     "source": "Not a separate Gaia DR3 source",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.0849,
+     "source": "Feng et al. 2022, ApJS 262, 21, Table 3, row GJ 494 B: mc = 88.918 -2.844/+1.836 MJup (x 9.5479e-4 = 0.0849 Msun), from RV + Hipparcos-Gaia astrometry + imaging (flag d)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/262/21",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M7 V",
+     "source": "Beuzit et al. 2004, A&A 425, 997 (arXiv:astro-ph/0106277), Gl 494 B discussion and Table 2: 'approximately M7V'",
+     "url": "https://arxiv.org/abs/astro-ph/0106277",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "At 0.085 Msun it sits at the hydrogen-burning limit; Beuzit 2004: 'a brown dwarf if its age is less than ~300 Myr'",
+     "url": "https://arxiv.org/abs/astro-ph/0106277",
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 2720,
+     "source": "DERIVED: Pecaut & Mamajek table interpolated in M_Ks",
+     "url": "https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt",
+     "derived": true,
+     "method": "K_B = Ks_sys + 2.5 log10(1 + 10^(-0.4 dK)) + dK, with Ks_sys 5.578 and dK 4.269 (Mann et al. 2019 Table 1), = 9.868. M_Ks = 9.868 + 5 + 5 log10(0.086901) = 9.563. That lies between M6.5V (M_Ks 9.50, 2740 K) and M7V (9.70, 2680 K), giving 2721 K +/- 100 K."
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.00074,
+     "source": "DERIVED: Pecaut & Mamajek table, log L interpolated at M_Ks = 9.563 (M6.5V -3.10, M7V -3.19), giving log L = -3.128 and L = 7.4e-4 +/- 1.5e-4",
+     "url": "https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt",
+     "derived": true,
+     "method": "As for Teff"
+    },
+    "Star data source": {
+     "value": "class: Beuzit et al. 2004 A&A 425 997 (~M7V); mass: Feng et al. 2022 ApJS 262 21 Table 3 (88.9 MJup = 0.0849 Msun). Teff, L: INFERRED, NOT PUBLISHED -- orange border. B's M_Ks = 9.563 comes from the Mann et al. 2019 (ApJ 871 63) Table 1 system Ks 5.578 and dK 4.269 with the Gaia DR3 parallax; interpolating the Pecaut & Mamajek 2013 dwarf table (v2022.04.16) gives 2720 K and L 7.4e-4. The Mann M_Ks-mass relation gives 0.098 Msun for B, 15% above Feng's fitted mass.",
+     "source": "composite",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.5,
+     "source": "Copied from the Systems row",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.3,
+     "source": "Mann et al. 2019, Table 1, Gl 494 AB: [Fe/H] = +0.30 (+/-0.08, from a spectrum of the unresolved system). The Systems row has no [Fe/H]",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table1.mrt",
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.6,
+     "source": "Copied from the Systems row host mass (see notes: Mann 2019's dynamical total of 0.666 +/- 0.035 minus B gives ~0.58)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": 0.2436,
+     "source": "Mann et al. 2019, ApJ 871, 63, Table 5 (Gl 494): e = 0.2436 +/- 0.0012 (also the ORB6 grade-3 orbit)",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": "B relative to A",
+     "source": "Visual orbit (Keck/NIRC2 plus literature AO astrometry)",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": "Mann et al. 2019 (ApJ 871, 63; arXiv:1811.06938) Table 5: P = 13.709 +/- 0.037 yr, a = 427.73 +/- 0.44 mas, e = 0.2436 +/- 0.0012, i = 130.79 deg; Mtot,dyn = 0.666 +/- 0.035 Msun at plx 85.5 +/- 1.5 mas (Table 1)",
+     "source": "Mann et al. 2019",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "Ross 458",
+     "source": "Host component name (= Planet-host star 'Ross 458')",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 4.92,
+     "source": "DERIVED: Mann et al. 2019 angular semi-major axis x this workbook's distance",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+     "derived": true,
+     "method": "a = 427.73 mas / 86.901 mas (Gaia DR3 parallax, i.e. the Systems row's 37.54 ly) = 4.922 au. With Mann's own Hipparcos parallax of 85.5 +/- 1.5 mas it is 5.003 +/- 0.088 au. The ~+/-0.09 au uncertainty comes from the parallax; Gaia's RUWE of 4.19 is caused by this orbit."
+    },
+    "Separation type": {
+     "value": "semi-major axis",
+     "source": "Visual orbit solved (ORB6 grade 3)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "DERIVED -- orange border: Mann et al. 2019, ApJ 871, 63 (arXiv:1811.06938) Table 5: a = 427.73 +/- 0.44 mas / Gaia DR3 parallax 86.901 mas = 4.92 au (5.00 au with Mann's Hipparcos parallax of 85.5 mas). Feng et al. 2022 Table 3 give a = 4.757 au from Kepler III",
+     "source": "Mann et al. 2019",
+     "url": "https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+     "derived": true,
+     "method": "arcsec / parallax"
+    }
+   },
+   "reason": "Ross 458 (GJ 494) is a 0.43 arcsec M0.5+M7 visual binary with a solved 13.7 yr orbit (Mann et al. 2019 Table 5; Feng et al. 2022 Table 3). The sheet is missing Ross 458 B (GJ 494 B). The wide T8.5 dwarf Ross 458 C is already on the Planets tab as the planet 'Ross 458 c'.",
+   "confidence": "medium",
+   "notes": "Which object is missing: SIMBAD's 'Ross 458 C' (= GJ 494 C = WISEP J130041.65+122114.6, T8.5p, ~102 arcsec) is the Planets tab's 'Ross 458 c' (6.00 MJup, a = 1100 au, projected, Burgasser et al. 2010). It has no Multi-stars row and should stay a planet. The missing object is B, the M7 companion at ~5 au, which SIMBAD does not list separately. After the fix the system has two stars (A and B) plus planet c. Planet c orbits the A+B pair (a 4.9 au inner binary versus a ~1100 au planet), yet its Planets row says 'Orbits the primary? = yes'; the writer may want to mark it circumbinary, like RR Cae b. Disagreements: (1) Feng 2022's a = 4.757 au with P = 13.678 yr implies Mtot = 0.575 Msun, while Mann's measured angular orbit gives 0.666 +/- 0.035 (Hipparcos parallax) or 0.634 (Gaia DR3 parallax). Feng's a is a Kepler-III value from an adopted stellar mass, not a measurement, so I recommend Mann's orbit for the separation. The mass comes from Feng because it is the only published individual mass for B; the Mann relation would give 0.098 Msun. (2) Host mass: the Systems row says 0.6, while the Mann relation gives A = 0.558 Msun, consistent with the dynamical total minus B. I have not changed it here. Feng's e = 0.245 +/- 0.001 agrees with Mann's 0.2436."
+  },
+  {
+   "name": "Ross 458",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "Ross 458",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "Ross 458",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('Ross 458'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 37.54,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -12.326,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -628.715,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -33.472,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3 | RUWE 4.19 -- astrometry may be perturbed",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "3737308025029348608",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.6,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M2",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "No luminosity class",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3621,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.044,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": 0.5,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.6,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'Ross 458', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Ross 458 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'Ross 458' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row; its [Fe/H] is blank (Mann et al. 2019 Table 1 give +0.30 for the unresolved system). The host's Gaia DR3 kinematics are for the A+B photocentre with RUWE 4.19, which its Kinematics source already flags. Role: 'host, planet host'. Since planet c orbits A+B, the RR Cae style 'host, circumbinary planet c orbits AB' is an alternative."
+  },
+  {
+   "name": "Ross 458",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "Ross 458 is a 13.7 yr, 0.43 arcsec M0.5+M7 visual binary (Mann et al. 2019 Table 5; Feng et al. 2022 Table 3). The T8.5 'Ross 458 c' stays a planet on the Planets tab and does not count as a star.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "Ross 458: M2 (host, planet host)\nRoss 458 B: M7 V (4.9 AU; GJ 494 B)",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Ross 458 is a 13.7 yr, 0.43 arcsec M0.5+M7 visual binary (Mann et al. 2019 Table 5; Feng et al. 2022 Table 3). The T8.5 'Ross 458 c' stays a planet on the Planets tab and does not count as a star.",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "name": "TOI-1452 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_companion",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "TOI-1452",
+     "source": "Systems within 100 ly column A",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "TOI-1452 B",
+     "source": "Mugrauer & Michel 2020 (AN 341, 996) call it TOI1452B, and exoplanet.eu names the planet 'TOI-1452 Ab'. Cadieux et al. 2022 call it TIC 420112587 (= TOI-1760, Gaia DR3 2264839952875245696, 2MASS J19204172+7311467); SIMBAD's main_id is 'TOI-1760'",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AN/341/996",
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "companion",
+     "source": "Existing style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 99.55,
+     "source": "Copied from the Systems row; B's Gaia DR3 parallax 32.791 mas gives 99.46 ly",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": null,
+     "source": "Left blank: the Gaia DR3 RV of -32.63 +/- 35.32 km/s is uninformative",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 6.845,
+     "source": "Gaia DR3 pmra 6.8454 +/- 0.0169; Cadieux 2022 Table 4 give 6.845 +/- 0.017",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -82.216,
+     "source": "Gaia DR3 pmdec -82.2164 +/- 0.0168; Cadieux 2022 Table 4 give -82.216 +/- 0.017",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "PM: Gaia DR3; no usable RV",
+     "source": "Gaia DR3 (RUWE 1.27)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "2264839952875245696",
+     "source": "Gaia DR3; Cadieux 2022 Table 4",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source / astrophysical_parameters, queried 2026-09-27)",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.226,
+     "source": "Cadieux et al. 2022, AJ 164, 96, Table 4 (TIC 420112587 stellar properties): 0.226 +/- 0.006",
+     "url": "https://arxiv.org/abs/2208.06333",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M4.5",
+     "source": "Cadieux et al. 2022, Table 4: M4.5 +/- 0.5",
+     "url": "https://arxiv.org/abs/2208.06333",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3060,
+     "source": "Cadieux et al. 2022, Table 4: 3060 +/- 50 K",
+     "url": "https://arxiv.org/abs/2208.06333",
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.0051,
+     "source": "Cadieux et al. 2022, Table 4: 0.0051 +/- 0.0005",
+     "url": "https://arxiv.org/abs/2208.06333",
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "Cadieux et al. 2022 AJ 164 96 (arXiv:2208.06333) Table 4 (TIC 420112587 = TOI-1760): M4.5 +/- 0.5, Teff 3060 +/- 50 K, M 0.226 +/- 0.006, R 0.254 +/- 0.008, L 0.0051 +/- 0.0005",
+     "source": "Cadieux et al. 2022",
+     "url": "https://arxiv.org/abs/2208.06333",
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "The Systems row has no age",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": -0.07,
+     "source": "Copied from the Systems row (host [M/H] -0.07 +/- 0.02, Cadieux 2022 Table 3). Cadieux's Table 4 value for B, 0.0 +/- 0.5, is effectively a prior",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.25,
+     "source": "Copied from the Systems row host mass (Cadieux 2022 Table 3: 0.249 +/- 0.008)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "No orbit (Cadieux estimate P ~1400 yr)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": "TOI-1452",
+     "source": "Host component name (= Planet-host star 'TOI-1452')",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": 97.07,
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4: TOI-1760, rho 3.182 arcsec, PA 0 deg, s 97.07 au (Gaia DR3)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": "projected",
+     "source": "no orbit",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4, s (au) -- Gaia DR3: rho = 3.182 arcsec, s = 97.07 au",
+     "source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138), Table B.4",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302/tableb4",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "TOI-1452 is one star of a 3.18 arcsec visual M-dwarf binary. Cadieux et al. 2022 (Sect. III.2, Table 4) characterise the companion, TIC 420112587 (TOI-1760), and judge the pair bound. Gonzalez-Payo 2024 Table B.4 give s = 97.07 au. The Systems row counts one star.",
+   "confidence": "high",
+   "notes": "Naming: I recommend 'TOI-1452 B', after the host, as Mugrauer & Michel 2020 do, with TOI-1760 / TIC 420112587 given in System stars. The Rejected tab's 'TOI-1760.01' (FP) files its host as 'TOI-1760', which is this same star. The loader keys rejections on planet names, so this does not stop B being drawn, but the writer may want to note on the Rejected row that its host is TOI-1452 B. Mugrauer & Michel 2020 give 0.27 Msun and 3025 K (photometric); I prefer Cadieux's Table 4 values. Cadieux call the host 'TOI-1452', not 'TOI-1452 A', which matches the sheet."
+  },
+  {
+   "name": "TOI-1452",
+   "tab": "Multi-stars within 100 ly",
+   "action": "add_host_row",
+   "current": {
+    "Multi-stars rows": "none"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "TOI-1452",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'System / Host'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star (component)": {
+     "value": "TOI-1452",
+     "source": "Equals the Planet-host star its planet names on Planets within 100 ly ('TOI-1452'); no rename needed",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Role in system": {
+     "value": "host, planet host",
+     "source": "Existing Multi-stars style (e.g. HD 140901, HD 190360)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Nickname (IAU)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 99.55,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Distance (ly)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": -34.94,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Radial velocity (km/s)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": 7.8,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Proper motion in RA, μα·cos δ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -74.076,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Proper motion in Dec, μδ (mas/yr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Kinematics source": {
+     "value": "RV: Gaia DR3; PM: Gaia DR3 | RUWE 1.41 -- astrometry may be perturbed",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Kinematics source'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "2264839957167921024",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Gaia DR3 source_id'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-sun)": {
+     "value": 0.25,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M4 +/- 0.5 V",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Stellar Class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity class": {
+     "value": "Main sequence",
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Luminosity class'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3185,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Effective temp (K)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Luminosity (L-sun)": {
+     "value": 0.00726856234162584,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Host luminosity (L-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Star data source": {
+     "value": "class, mass, Teff, L: as Systems sheet (primary)",
+     "source": "Existing host-row style",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Age (Gyr)": {
+     "value": null,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Age (Gyr)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": -0.07,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Metallicity [Fe/H]'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Primary mass (M-sun)": {
+     "value": 0.25,
+     "source": "Copied from this workbook: Systems within 100 ly, row 'TOI-1452', column 'Host mass (M-sun)'",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital eccentricity (e)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit described": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbit source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation from": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation (AU)": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation type": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Separation source": {
+     "value": null,
+     "source": "host row: blank, as on existing host rows",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "TOI-1452 has no Multi-stars rows, so the companion needs a host row. Values are copied from the Systems row. Star (component) 'TOI-1452' already equals the Planet-host star its planet names, so nothing needs renaming.",
+   "confidence": "high",
+   "notes": "Every value is copied from the Systems row; no new research."
+  },
+  {
+   "name": "TOI-1452",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Stars in system": 1,
+    "System stars": ""
+   },
+   "fields": {
+    "Stars in system": {
+     "value": 2,
+     "source": "A bound M4.5 companion, TIC 420112587, lies at 3.18 arcsec (97 au): Cadieux et al. 2022 Sect. III.2 and Table 4; Gonzalez-Payo et al. 2024 Table B.4. NASA sy_snum = 2.",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "TOI-1452: M4 +/- 0.5 V (host, planet host)\nTOI-1452 B: M4.5 (TOI-1760, TIC 420112587)",
+     "source": "Style of existing rows, e.g. 'HD 140901: G7 IV (host, planet host)\\nHD 140901 B: class unknown'",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "A bound M4.5 companion, TIC 420112587, lies at 3.18 arcsec (97 au): Cadieux et al. 2022 Sect. III.2 and Table 4; Gonzalez-Payo et al. 2024 Table B.4. NASA sy_snum = 2.",
+   "confidence": "high",
+   "notes": ""
+  }
+ ],
+ "incidental_finds": [
+  "GJ 3222 (HD 21175) Systems row: the distance of 59.48 ly disagrees with the Gaia DR3 parallax of 56.5570 +/- 0.0270 mas for source 4852870701505115904, which gives 57.67 ly. SIMBAD and Gonzalez-Payo 2024 Table B.1 both give 17.7 pc (57.7 ly). Source: Gaia DR3 TAP.",
+  "GJ 3222 (HD 21175): ORB6 carries a grade-5 (indeterminate) visual orbit for WDS I 468 AB (Izmailov 2019, AstL 45, 30): P 217.7 yr, a 2.3285 arcsec, e 0.485. Feng et al. 2022's 52 MJup 'GJ 3222 c' (3.9 yr, 2.39 au) is on no tab; any RV or astrometric trend in this system should be weighed against the 0.48 Msun star at ~46 au. http://www.astro.gsu.edu/wds/orb6/orb6orbits.txt",
+  "TOI-1801: Mallorquin et al. 2023 (Sect. 4.2) give the LP 375-24 separation as 101.14 arcsec, but Gaia DR3 positions give 105.05 arcsec, matching Gonzalez-Payo 2024 (105.1) and WDS 2016 (105.1). The Systems row's host mass and Teff are blank; Mallorquin 2023 Table 1 give 0.548 +/- 0.048 Msun and 3863 +/- 77 K. TOI-1801's Gaia DR3 parallax of 32.3697 mas puts it at 100.76 ly, beyond the 100 ly cut (already reported by B12). https://arxiv.org/abs/2310.10244",
+  "Gonzalez-Payo et al. 2024 Table B.4 give the LP 375-23/24 discoverer code as 'LDS 626', but WDS (B/wds/wds) and SIMBAD have LDS 926. https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2BA/689/A302",
+  "Mugrauer 2019 (MNRAS 490, 5088, Table 2) applies A_G = 0.595 mag to HD 46375 B at 29.5 pc, so its mass (0.572) and Teff (3901 K) for that star are biased high. The Gaia DR3 M_G without extinction is 8.87 (~M1V), and the Mann-relation mass is 0.52. https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/490/5088",
+  "Ross 458 c (Planets tab) is marked 'Orbits the primary? = yes', but Ross 458 is a 4.9 au A+B binary, so c at ~1100 au is circumbinary. Separately, Feng et al. 2022 Table 3's GJ 494 B a = 4.757 au does not match Mann et al. 2019's measured angular orbit (427.73 mas, i.e. 4.92-5.00 au); it implies Mtot 0.575 Msun against Mann's dynamical 0.666 +/- 0.035. https://arxiv.org/src/1811.06938v2/anc/Table5.mrt",
+  "Rejected candidates tab: the host of TOI-1760.01, 'TOI-1760', is TIC 420112587, the bound companion of TOI-1452 (Cadieux et al. 2022 Table 4). If the companion is added as 'TOI-1452 B', the Rejected row could say so. https://arxiv.org/abs/2208.06333",
+  "The HD 46375 and GJ 3222 Systems rows have a blank 'Planet-host class' although 'Stellar Class' is filled (G9 V and K0V). Source: this workbook."
+ ]
+}

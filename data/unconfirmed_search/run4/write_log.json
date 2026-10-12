@@ -1,0 +1,1208 @@
+{
+ "filled": {
+  "51 Eri": {
+   "K": {
+    "value": 7422,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Elliott et al. 2024)",
+    "derived": false
+   }
+  },
+  "Barnard's star": {
+   "K": {
+    "value": 3195,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gonz&aacute;lez Hern&aacute;ndez et al. 2024)",
+    "derived": false
+   }
+  },
+  "CD Cet": {
+   "K": {
+    "value": 3130,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Bauer et al. 2020)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.161,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Bauer et al. 2020)",
+    "derived": false
+   }
+  },
+  "CD-35 2722": {
+   "K": {
+    "value": 3729,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   }
+  },
+  "CM Dra": {
+   "K": {
+    "value": 3214,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   }
+  },
+  "DE CVn": {
+   "K": {
+    "value": 8000,
+    "source": "van den Besselaar et al. 2007, A&A 466, 1031, abstract and Sect. 3.1 / Sect. 4: white dwarf Teff = 8000 +/- 1000 K (composite-spectrum fit, log g = 7.5 models) https://arxiv.org/abs/astro-ph/0701560",
+    "derived": false
+   },
+   "N": {
+    "value": 0.0172,
+    "via": [
+     "Planets H506"
+    ]
+   }
+  },
+  "G 192-15": {
+   "K": {
+    "value": 2999,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.132,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Kaminski et al. 2025)",
+    "derived": false
+   }
+  },
+  "G 196-3": {
+   "K": {
+    "value": 3517,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   }
+  },
+  "G 261-6": {
+   "K": {
+    "value": 2907,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.118,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Kaminski et al. 2025)",
+    "derived": false
+   }
+  },
+  "GD 140": {
+   "K": {
+    "value": 22470,
+    "source": "Gianninas, Bergeron & Ruiz 2011, ApJ 743, 138, Table 5 (VizieR J/ApJ/743/138/table5), queried 2026-09-27: WD 1134+300 (GD 140 = LB 10276), DA2.2, Teff 22470 +/- 342 K, log g 8.56 +/- 0.05, M 0.97 +/- ",
+    "derived": false
+   },
+   "N": {
+    "value": 0.0168,
+    "source": "Derived from Gianninas, Bergeron & Ruiz 2011, ApJ 743, 138, Table 5 (VizieR J/ApJ/743/138/table5), queried 2026-09-27 (Teff 22470 +/- 342 K, log g 8.56 +/- 0.05, M 0.97 +/- 0.03) https://vizier.cds.un",
+    "derived": true
+   }
+  },
+  "GJ 1002": {
+   "K": {
+    "value": 3024,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Su&aacute;rez Mascare&ntilde;o et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 1151": {
+   "K": {
+    "value": 3280,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Blanco-Pozo et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 1177 A": {
+   "K": {
+    "value": 4108,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source dered0), +/- 121.5 K",
+    "derived": false
+   },
+   "G": {
+    "value": 0.64,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.076 M-sun",
+    "derived": false
+   }
+  },
+  "GJ 1289": {
+   "K": {
+    "value": 3296,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Moutou et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.21,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Moutou et al. 2024)",
+    "derived": false
+   }
+  },
+  "GJ 180": {
+   "K": {
+    "value": 3371,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    "derived": false
+   }
+  },
+  "GJ 2049": {
+   "G": {
+    "value": 0.624,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    "derived": false
+   }
+  },
+  "GJ 2056": {
+   "K": {
+    "value": 4070,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    "derived": false
+   }
+  },
+  "GJ 229": {
+   "K": {
+    "value": 3564,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    "derived": false
+   },
+   "N": {
+    "value": 0.028,
+    "source": "10^st_lum, NASA Exoplanet Archive pscomppars (Tuomi et al. 2014); st_lum = -1.55284 (log10 L-sun)",
+    "derived": true
+   }
+  },
+  "GJ 237": {
+   "K": {
+    "value": 3553,
+    "source": "Gaidos et al. 2014, MNRAS 443, 2561 (CONCH-SHELL), VizieR J/MNRAS/443/2561/stars, PM I06318-4332S = 2MASS J06315093-4332052 (GJ 237 B): Teff = 3553 +/- 74 K, n_Teff = PHX https://vizier.cds.unistra.fr",
+    "derived": false
+   },
+   "N": {
+    "value": 0.0212,
+    "source": "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse), Table 1 (VizieR J/AJ/165/267/table1), Gaia DR3 5568872398635858816 = CD-43 2523B: Lum = 2.12e-2 +/- 6.5e-4 L-sun at 23.77 pc https://vizier.cds.un",
+    "derived": false
+   }
+  },
+  "GJ 238": {
+   "K": {
+    "value": 3485,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Tey et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.419,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Tey et al. 2024)",
+    "derived": false
+   }
+  },
+  "GJ 3021": {
+   "G": {
+    "value": 0.9,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Naef et al. 2001)",
+    "derived": false
+   }
+  },
+  "GJ 3082": {
+   "K": {
+    "value": 3910,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    "derived": false
+   }
+  },
+  "GJ 3378": {
+   "K": {
+    "value": 3340,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Robertson et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.262,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Robertson et al. 2026)",
+    "derived": false
+   }
+  },
+  "GJ 338 A": {
+   "G": {
+    "value": 0.573,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.024 M-sun",
+    "derived": false
+   },
+   "K": {
+    "value": 4015,
+    "source": "Marfil et al. 2021, A&A 656, A162 (CARMENES, SteParSyn), Table 3 (VizieR J/A+A/656/A162/table3), Karmn J09143+526 = HD 79210: Teff1 = 4015 +/- 16 K (free run) https://vizier.cds.unistra.fr/viz-bin/Viz",
+    "derived": false
+   }
+  },
+  "GJ 341": {
+   "K": {
+    "value": 3770,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (DiTomasso et al. 2025)",
+    "derived": false
+   }
+  },
+  "GJ 367": {
+   "K": {
+    "value": 3522,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Goffo et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 397": {
+   "G": {
+    "value": 0.67,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.082 M-sun",
+    "derived": false
+   }
+  },
+  "GJ 3988": {
+   "K": {
+    "value": 3273,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gorrini et al. 2023)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.184,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Gorrini et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 422": {
+   "K": {
+    "value": 3323,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Tuomi et al. 2014)",
+    "derived": false
+   }
+  },
+  "GJ 4248": {
+   "K": {
+    "value": 3323,
+    "source": "Maldonado et al. 2020, A&A 644, A68 (HADES XII), Table A.1 (VizieR J/A+A/644/A68/tablea1), star LHS 3746 = GJ 4248: Teff = 3323 +/- 68 K https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/644/",
+    "derived": false
+   },
+   "N": {
+    "value": 0.0074,
+    "source": "Pass et al. 2023, AJ 166, 11, Table 2 (VizieR J/AJ/166/11/table2), LHS 3746 = 2MASS J22022935-3704512: Lum = 0.0074 L-sun https://arxiv.org/abs/2305.19357 ; https://vizier.cds.unistra.fr/viz-bin/Vizie",
+    "derived": false
+   }
+  },
+  "GJ 4274": {
+   "K": {
+    "value": 3228,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Charpentier et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.18,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Charpentier et al. 2026)",
+    "derived": false
+   }
+  },
+  "GJ 433": {
+   "K": {
+    "value": 3461,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Stassun et al. 2017)",
+    "derived": false
+   }
+  },
+  "GJ 480": {
+   "K": {
+    "value": 3509,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Ould-Elhkim et al. 2025)",
+    "derived": false
+   }
+  },
+  "GJ 508.2": {
+   "K": {
+    "value": 3720,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Morales et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.54,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Morales et al. 2025)",
+    "derived": false
+   }
+  },
+  "GJ 529": {
+   "G": {
+    "value": 0.69,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.081 M-sun",
+    "derived": false
+   }
+  },
+  "GJ 548 A": {
+   "K": {
+    "value": 3838,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   },
+   "N": {
+    "value": 0.07728,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01725 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 620": {
+   "K": {
+    "value": 3791,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   },
+   "N": {
+    "value": 0.05784,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01306 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 65": {
+   "K": {
+    "value": 2810,
+    "source": "Fouque et al. 2018, MNRAS 475, 1960, Table A6 (VizieR J/MNRAS/475/1960/tablea6), Gl 65A (BL Cet): Teff = 2810 K, source code 3 https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/475/1960/tab",
+    "derived": false
+   },
+   "N": {
+    "value": 0.00153,
+    "source": "Hardegree-Ullman et al. 2023, AJ 165, 267, Table 1 (VizieR J/AJ/165/267/table1), Gaia DR3 5140693571158739840 = G 272-61A: Lum = 1.53e-3 +/- 5.2e-5 L-sun at 2.72 pc https://vizier.cds.unistra.fr/viz-b",
+    "derived": false
+   }
+  },
+  "GJ 667 A": {
+   "K": {
+    "value": 4819,
+    "source": "Santos et al. 2005, A&A 437, 1127 (2005A&A...437.1127S), as catalogued in PASTEL (VizieR B/pastel/pastel, entry HD 156384): Teff = 4819 +/- 110 K, logg 4.66, [Fe/H] -0.43 https://vizier.cds.unistra.fr",
+    "derived": false
+   }
+  },
+  "GJ 680": {
+   "K": {
+    "value": 3563,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.456,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Feng et al. 2022)",
+    "derived": false
+   },
+   "N": {
+    "value": 0.03063,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00726 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 682": {
+   "N": {
+    "value": 0.0088,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00225 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 69": {
+   "G": {
+    "value": 0.68,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.084 M-sun",
+    "derived": false
+   }
+  },
+  "GJ 724": {
+   "K": {
+    "value": 3799,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gorrini et al. 2023)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.527,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Gorrini et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 740": {
+   "K": {
+    "value": 3913,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Toledo-Padr&oacute;n et al. 2021)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.58,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Toledo-Padr&oacute;n et al. 2021)",
+    "derived": false
+   }
+  },
+  "GJ 806": {
+   "K": {
+    "value": 3600,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Palle et al. 2023)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.413,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Palle et al. 2023)",
+    "derived": false
+   }
+  },
+  "GJ 896 A": {
+   "K": {
+    "value": 3345,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   }
+  },
+  "GJ 900 A": {
+   "G": {
+    "value": 0.675,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    "derived": false
+   },
+   "K": {
+    "value": 3976,
+    "source": "NASA pscomppars st_teff (Turnbull 2015)",
+    "derived": false
+   }
+  },
+  "GJ 9066": {
+   "K": {
+    "value": 3154,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Quirrenbach et al. 2022)",
+    "derived": false
+   }
+  },
+  "GJ 911": {
+   "K": {
+    "value": 3860,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   },
+   "N": {
+    "value": 0.06343,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01429 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 96": {
+   "N": {
+    "value": 0.06214,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.01411 L-sun",
+    "derived": false
+   }
+  },
+  "GJ 9773": {
+   "K": {
+    "value": 3528,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Morales et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.358,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Morales et al. 2025)",
+    "derived": false
+   }
+  },
+  "Gaia DR3 198464052134353536": {
+   "K": {
+    "value": 2923,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   },
+   "N": {
+    "value": 0.00277,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 7.7E-4 L-sun",
+    "derived": false
+   }
+  },
+  "Gaia DR3 4188996885011268608": {
+   "G": {
+    "value": 0.174,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    "derived": false
+   }
+  },
+  "Gaia DR3 4698424845771339520": {
+   "N": {
+    "value": 0.000251,
+    "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0141-675, log L/Lsun = -3.60 +/- 0.04 (Teff 6380 +/- 120 K, log g 7.97 +/- 0.03",
+    "derived": false
+   }
+  },
+  "Gaia DR3 5796338299045711232": {
+   "K": {
+    "value": 2869,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source cdwrf), +/- 157.0 K",
+    "derived": false
+   },
+   "N": {
+    "value": 0.00227,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 6.4E-4 L-sun",
+    "derived": false
+   }
+  },
+  "Gl 410": {
+   "K": {
+    "value": 3842,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Carmona et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.55,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Carmona et al. 2025)",
+    "derived": false
+   }
+  },
+  "Gliese 12": {
+   "K": {
+    "value": 3328,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Turner et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.255,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Turner et al. 2026)",
+    "derived": false
+   }
+  },
+  "HD 134060": {
+   "G": {
+    "value": 1.095,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Udry et al. 2019)",
+    "derived": false
+   }
+  },
+  "HD 134606": {
+   "G": {
+    "value": 1.046,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Li et al. 2024)",
+    "derived": false
+   }
+  },
+  "HD 136352": {
+   "G": {
+    "value": 0.87,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Delrez et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 13808": {
+   "G": {
+    "value": 0.771,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Ahrer et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 141004": {
+   "K": {
+    "value": 5885,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    "derived": false
+   },
+   "G": {
+    "value": 1.052,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 153557": {
+   "K": {
+    "value": 4837,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.79,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Feng et al. 2022)",
+    "derived": false
+   }
+  },
+  "HD 154088": {
+   "G": {
+    "value": 0.91,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 155555": {
+   "K": {
+    "value": 5129,
+    "source": "TIC v8.2 Teff (Stassun et al. 2019; source spect), +/- 121.8 K",
+    "derived": false
+   },
+   "N": {
+    "value": 1.958,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.04692 L-sun",
+    "derived": false
+   }
+  },
+  "HD 158259": {
+   "K": {
+    "value": 5802,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (ExoFOP)",
+    "derived": false
+   }
+  },
+  "HD 168009": {
+   "K": {
+    "value": 5778,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.986,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 177565": {
+   "K": {
+    "value": 5627,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Sousa et al. 2008)",
+    "derived": false
+   }
+  },
+  "HD 189567": {
+   "G": {
+    "value": 0.83,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 222237": {
+   "K": {
+    "value": 4751,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Xiao et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.76,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Xiao et al. 2024)",
+    "derived": false
+   }
+  },
+  "HD 3765": {
+   "K": {
+    "value": 5050,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Rosenthal et al. 2021)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.852,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Rosenthal et al. 2021)",
+    "derived": false
+   }
+  },
+  "HD 39194": {
+   "G": {
+    "value": 0.86,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Standing et al. 2026)",
+    "derived": false
+   }
+  },
+  "HD 48948": {
+   "K": {
+    "value": 4593,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Dalal et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.686,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Dalal et al. 2024)",
+    "derived": false
+   }
+  },
+  "HD 86728": {
+   "K": {
+    "value": 5610,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gupta et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.967,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Gupta et al. 2025)",
+    "derived": false
+   }
+  },
+  "HD 96700": {
+   "G": {
+    "value": 0.89,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Unger et al. 2021)",
+    "derived": false
+   }
+  },
+  "HIP 107772": {
+   "K": {
+    "value": 4006,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   }
+  },
+  "HIP 34222": {
+   "K": {
+    "value": 4050,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   }
+  },
+  "HIP 38594": {
+   "K": {
+    "value": 4086,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    "derived": false
+   }
+  },
+  "HIP 4845": {
+   "K": {
+    "value": 4010,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (TICv8)",
+    "derived": false
+   }
+  },
+  "HIP 48714": {
+   "K": {
+    "value": 4016,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Gaia DR2)",
+    "derived": false
+   },
+   "N": {
+    "value": 0.07492,
+    "source": "Gaia DR3 FLAME lum_flame (bolometric)",
+    "derived": false
+   }
+  },
+  "HIP 55507": {
+   "N": {
+    "value": 0.1428,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00978 L-sun",
+    "derived": false
+   }
+  },
+  "HIP 56998": {
+   "K": {
+    "value": 4675,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Kunimoto et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.653,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Kunimoto et al. 2025)",
+    "derived": false
+   }
+  },
+  "HIP 86221": {
+   "K": {
+    "value": 4460,
+    "source": "Houdebine et al. 2019, AJ 158, 56, Table 2 (VizieR J/AJ/158/56/table2, star MCC 795A at the HIP 86221 position): Teffmean = 4460 +/- 24 K (Teff1 = 4484 from their (R-I)c calibration, Teff2 = 4435 from",
+    "derived": false
+   }
+  },
+  "KOBE-1": {
+   "K": {
+    "value": 4135,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Balsalobre-Ruza et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.629,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Balsalobre-Ruza et al. 2025)",
+    "derived": false
+   }
+  },
+  "Kapteyn": {
+   "N": {
+    "value": 0.01611,
+    "source": "TIC v8.2 Lum (Stassun et al. 2019), +/- 0.00369 L-sun",
+    "derived": false
+   }
+  },
+  "LAWD 37": {
+   "N": {
+    "value": 0.000525,
+    "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 1142-645 (LAWD 37), DQ, He(+C) model, Teff 7880 +/- 180 K, log g 8.04 +/- 0.03,",
+    "derived": false
+   }
+  },
+  "LHS 3154": {
+   "K": {
+    "value": 2861,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Stef&aacute;nsson et al. 2023)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.112,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Stef&aacute;nsson et al. 2023)",
+    "derived": false
+   }
+  },
+  "LHS 6184": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1010-0507: photometric SpType = 3.9 +/- 0.7 (scale starts at 0 = M0, so M3.9) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "LSPM J2028+0524": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp2028+0524: photometric SpType = 4.1 +/- 0.8 (scale starts at 0 = M0, so M4.1) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "SCR J1124-3900": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1124-3900: photometric SpType = 3.8 +/- 0.7 (scale starts at 0 = M0, so M3.8) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "TOI-1080": {
+   "K": {
+    "value": 3065,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (G&oacute;mez Maqueo Chew et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.167,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (G&oacute;mez Maqueo Chew et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-1256": {
+   "G": {
+    "value": 0.128,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    "derived": false
+   }
+  },
+  "TOI-1450 A": {
+   "K": {
+    "value": 3437,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Brady et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.48,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Brady et al. 2024)",
+    "derived": false
+   }
+  },
+  "TOI-1801": {
+   "K": {
+    "value": 3863,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Mallorqu&iacute;n et al. 2023)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.556,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Mallorqu&iacute;n et al. 2023)",
+    "derived": false
+   }
+  },
+  "TOI-2134": {
+   "K": {
+    "value": 4580,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Rescigno et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.744,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Rescigno et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-260": {
+   "K": {
+    "value": 4026,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Hobson et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.616,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Hobson et al. 2024)",
+    "derived": false
+   }
+  },
+  "TOI-4336 A": {
+   "K": {
+    "value": 3307,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Parc et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.306,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Parc et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-4438": {
+   "K": {
+    "value": 3501,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Serrano Bell et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.345,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Serrano Bell et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-4506": {
+   "G": {
+    "value": 0.154,
+    "source": "TIC v8.2 Mass (Stassun et al. 2019), +/- 0.02 M-sun",
+    "derived": false
+   }
+  },
+  "TOI-4527": {
+   "K": {
+    "value": 3702,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Hord et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.484,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Hord et al. 2024)",
+    "derived": false
+   }
+  },
+  "TOI-4529": {
+   "K": {
+    "value": 3697,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Poultourtzidis et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-4552": {
+   "K": {
+    "value": 3258,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Srivastava et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.262,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Srivastava et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-5388": {
+   "K": {
+    "value": 3440,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Poultourtzidis et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.292,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Poultourtzidis et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-5789": {
+   "K": {
+    "value": 5185,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Bonomo et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.821,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Bonomo et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-5799": {
+   "K": {
+    "value": 3452,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Yal&ccedil;inkaya et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.325,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Yal&ccedil;inkaya et al. 2025)",
+    "derived": false
+   }
+  },
+  "TOI-6008": {
+   "K": {
+    "value": 3075,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Barkaoui et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.23,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Barkaoui et al. 2024)",
+    "derived": false
+   }
+  },
+  "TOI-6255": {
+   "K": {
+    "value": 3421,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Dai et al. 2024)",
+    "derived": false
+   }
+  },
+  "TOI-6324": {
+   "K": {
+    "value": 3247,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Lee et al. 2025)",
+    "derived": false
+   }
+  },
+  "TOI-6716": {
+   "K": {
+    "value": 3110,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Scott et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.223,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Scott et al. 2026)",
+    "derived": false
+   }
+  },
+  "TOI-771": {
+   "K": {
+    "value": 3370,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Lacedelli et al. 2025)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.22,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Lacedelli et al. 2025)",
+    "derived": false
+   }
+  },
+  "TOI-912": {
+   "K": {
+    "value": 3572,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Lacedelli et al. 2026)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.418,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Lacedelli et al. 2026)",
+    "derived": false
+   }
+  },
+  "TVLM 513-46546": {
+   "K": {
+    "value": 2267,
+    "source": "Sanghi et al. 2023, ApJ 959, 63 (Hawaii Infrared Parallax Program VI), Table of Ultracool Fundamental Properties (Zenodo 8315643), TVLM 513-46546: teff_evo = 2267 +/- 205 K (BHAC15) https://zenodo.org",
+    "derived": false
+   },
+   "N": {
+    "value": 0.000257,
+    "source": "Sanghi et al. 2023, ApJ 959, 63, Table of Ultracool Fundamental Properties (Zenodo 8315643): log(Lbol/Lsun) = -3.59 +/- 0.02 at Gaia DR3 plx 93.17 +/- 0.14 mas https://zenodo.org/records/8315643 ; htt",
+    "derived": false
+   }
+  },
+  "UPM J0805-3522": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp0805-3522: photometric SpType = 3.9 +/- 0.7 (scale starts at 0 = M0, so M3.9) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "UPM J1831+6524": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1831+6524: photometric SpType = 3.8 +/- 0.7 (scale starts at 0 = M0, so M3.8) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "UPM J2155-2803": {
+   "H": {
+    "value": "~M4",
+    "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp2155-2803: photometric SpType = 4.1 +/- 0.8 (scale starts at 0 = M0, so M4.1) https://arxiv.org/abs/2011.02069 ; ",
+    "derived": false
+   }
+  },
+  "VHS J125601.92-125723.9": {
+   "G": {
+    "value": 0.07,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Gauza et al. 2015)",
+    "derived": false
+   },
+   "N": {
+    "value": 0.0007244,
+    "via": [
+     "Planets H511"
+    ]
+   }
+  },
+  "Van Maanen 2": {
+   "N": {
+    "value": 0.000162,
+    "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0046+051 (van Maanen 2), DZ, He(+H,Ca) model, Teff 6130 +/- 110 K, log g 8.16 +",
+    "derived": false
+   }
+  },
+  "WD 0644+025": {
+   "N": {
+    "value": 0.000162,
+    "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0644+025, DA, H model, Teff 7200 +/- 100 K, log g 8.61 +/- 0.02, M 0.99 +/- 0.0",
+    "derived": false
+   }
+  },
+  "WD 0806-661": {
+   "N": {
+    "value": 0.00159,
+    "via": [
+     "Planets H490"
+    ]
+   },
+   "K": {
+    "value": 10393,
+    "source": "O'Brien et al. 2024 (CORRECTION of 5700 K)",
+    "derived": false
+   }
+  },
+  "WD 2105-820": {
+   "N": {
+    "value": 0.000912,
+    "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 2105-820, DAZH, H model, Teff 9820 +/- 240 K, log g 8.29 +/- 0.04, M 0.78 +/- 0",
+    "derived": false
+   }
+  },
+  "WD 2149+021": {
+   "N": {
+    "value": 0.0152,
+    "source": "Derived from Debes et al. 2025, AJ (doi 10.3847/1538-3881/ade68c), 'Metal Polluted White Dwarfs with 21 um IR excesses from JWST/MIRI: Planets or Dust?', Table 2: WD 2149+021, Teff 17840 +/- 160 K, lo",
+    "derived": true
+   }
+  },
+  "Wolf 327": {
+   "K": {
+    "value": 3542,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Murgas et al. 2024)",
+    "derived": false
+   },
+   "G": {
+    "value": 0.405,
+    "source": "NASA Exoplanet Archive pscomppars st_mass (Murgas et al. 2024)",
+    "derived": false
+   }
+  },
+  "bet Pic": {
+   "K": {
+    "value": 8039,
+    "source": "NASA Exoplanet Archive pscomppars st_teff (Wang et al. 2016)",
+    "derived": false
+   }
+  },
+  "psi1 Dra A": {
+   "K": {
+    "value": 6544,
+    "source": "Endl et al. 2016, ApJ 818, 34 (arXiv:1512.02965), Table 10 row 3: psi1 Dra A Teff = 6544 +/- 42 K (strict differential analysis relative to psi1 Dra B) https://arxiv.org/abs/1512.02965",
+    "derived": false
+   },
+   "G": {
+    "value": 1.44,
+    "source": "Casagrande et al. 2011, A&A 530, A138 (Geneva-Copenhagen re-analysis), VizieR J/A+A/530/A138/catalog, HIP 86614 (HD 162003, m_Name A): Padova Bayesian mass, median 1.44 M-sun (16-84%: 1.41-1.47); IRFM",
+    "derived": false
+   }
+  }
+ },
+ "orange": [
+  "'Planets within 100 ly'!H506",
+  "'Systems within 100 ly'!N417",
+  "'Systems within 100 ly'!N412",
+  "'Planets within 100 ly'!H511",
+  "'Planets within 100 ly'!H490",
+  "'Systems within 100 ly'!N427"
+ ],
+ "sp_rows": [
+  5183,
+  5211
+ ],
+ "title": "hy-brasil-20260927-1850"
+}

@@ -1,0 +1,1746 @@
+{
+ "agent_id": "K028",
+ "batch": "K028",
+ "complete": true,
+ "objects": [
+  {
+   "key": "Gaia DR3 5693699507074907008|5693699507074907008",
+   "name": "Gaia DR3 5693699507074907008",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2026766140380630016|2026766140380630016",
+   "name": "Gaia DR3 2026766140380630016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 4519507881292648448|4519507881292648448",
+   "name": "Gaia DR3 4519507881292648448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5869969053738580608|5869969053738580608",
+   "name": "Gaia DR3 5869969053738580608",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 1828190801349428224|1828190801349428224",
+   "name": "Gaia DR3 1828190801349428224",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 1298201217231698048|1298201217231698048",
+   "name": "Gaia DR3 1298201217231698048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)",
+    "VizieR J/AJ/139/1808 (Schmidt 2010) and J/AJ/157/231 (Kiman 2019): both present, disagree"
+   ],
+   "notes": "2MASS J16260302+2113132 (L4.7). Schmidt et al. 2010 (J/AJ/139/1808 table6) RV -5.9+/-10 and Kiman et al. 2019 (J/AJ/157/231 table1) RV 38.45+/-16.58 (RVmean -48.78+/-9.57) are SDSS-pipeline values and disagree by ~44 km/s, so per the brief neither is reported. SIMBAD's rejected -5.996 (quality E, type z, 2011yCat.2306) is a redshift-type entry."
+  },
+  {
+   "key": "Gaia DR3 6062575212858815488|6062575212858815488",
+   "name": "Gaia DR3 6062575212858815488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2024610822750199808|2024610822750199808",
+   "name": "Gaia DR3 2024610822750199808",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 6442402569783360128|6442402569783360128",
+   "name": "Gaia DR3 6442402569783360128",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 1835148820183051008|1835148820183051008",
+   "name": "Gaia DR3 1835148820183051008",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2019551660508885376|2019551660508885376",
+   "name": "Gaia DR3 2019551660508885376",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2019770703851357568|2019770703851357568",
+   "name": "Gaia DR3 2019770703851357568",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5369189645239214976|5369189645239214976",
+   "name": "Gaia DR3 5369189645239214976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5867208729756833280|5867208729756833280",
+   "name": "Gaia DR3 5867208729756833280",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2020625093063922560|2020625093063922560",
+   "name": "Gaia DR3 2020625093063922560",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2361294885296927488|2361294885296927488",
+   "name": "Gaia DR3 2361294885296927488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J00135779-2235200 (L5.7V): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2033380802380103168|2033380802380103168",
+   "name": "Gaia DR3 2033380802380103168",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2024942153671161472|2024942153671161472",
+   "name": "Gaia DR3 2024942153671161472",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5916350199368875008|5916350199368875008",
+   "name": "Gaia DR3 5916350199368875008",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 6030291902219756160|6030291902219756160",
+   "name": "Gaia DR3 6030291902219756160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2024406554082936960|2024406554082936960",
+   "name": "Gaia DR3 2024406554082936960",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 1861292045585165056|1861292045585165056",
+   "name": "Gaia DR3 1861292045585165056",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5912882958175487872|5912882958175487872",
+   "name": "Gaia DR3 5912882958175487872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5853070178494127104|5853070178494127104",
+   "name": "Gaia DR3 5853070178494127104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5854158488841321856|5854158488841321856",
+   "name": "Gaia DR3 5854158488841321856",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 4312440223705511040|4312440223705511040",
+   "name": "Gaia DR3 4312440223705511040",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2800081221135505536|2800081221135505536",
+   "name": "Gaia DR3 2800081221135505536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J00282091+2249050 (L6.0): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 251476382498509952|251476382498509952",
+   "name": "Gaia DR3 251476382498509952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J03454743+5137159 (L5.5): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5374165725625934080|5374165725625934080",
+   "name": "Gaia DR3 5374165725625934080",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2023983998015091584|2023983998015091584",
+   "name": "Gaia DR3 2023983998015091584",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5697859612392882688|5697859612392882688",
+   "name": "Gaia DR3 5697859612392882688",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 4315860014088228864|4315860014088228864",
+   "name": "Gaia DR3 4315860014088228864",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 11512|5444217638657849856",
+   "name": "GJ 11512",
+   "done": true,
+   "rv": {
+    "value": 6.6,
+    "err": 18.0,
+    "src": "S1",
+    "where": "VizieR J/MNRAS/538/3144 tabled1, cols RV/e_RV (IRTF SpeX or Blanco ARCoIRIS low-resolution NIR spectrum), matched by Gaia DR3 5444217638657849856",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Cheng G. et al. 2025, MNRAS 538, 3144 (GUCDS VI)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.3144C",
+     "what": "IRTF/SpeX and ARCoIRIS NIR RVs of 51 Gaia UCDs"
+    }
+   },
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASSW J1036530-344138 (L6). Only RV found; low-resolution NIR, +/-18 km/s."
+  },
+  {
+   "key": "Gaia DR3 2027218829936321792|2027218829936321792",
+   "name": "Gaia DR3 2027218829936321792",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 1273076414465422464|1273076414465422464",
+   "name": "Gaia DR3 1273076414465422464",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5610424179998567680|5610424179998567680",
+   "name": "Gaia DR3 5610424179998567680",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J07032457-2748098 (PM*): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3591011474602344320|3591011474602344320",
+   "name": "Gaia DR3 3591011474602344320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J11181292-0856106 (L6): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4321973126999562240|4321973126999562240",
+   "name": "Gaia DR3 4321973126999562240",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2020313518955595776|2020313518955595776",
+   "name": "Gaia DR3 2020313518955595776",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2027495803807366400|2027495803807366400",
+   "name": "Gaia DR3 2027495803807366400",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 11149|881250430700478080",
+   "name": "GJ 11149",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J07584037+3247245 (T0+T3.5 binary). SIMBAD's rejected 26.98 km/s (quality E, type z, 2008ApJS..175..297A) is an SDSS redshift, not a stellar RV. Schmidt 2010 lists the object (SpT T2) with no RV."
+  },
+  {
+   "key": "Gaia DR3 5864676176524328832|5864676176524328832",
+   "name": "Gaia DR3 5864676176524328832",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5826577720668863104|5826577720668863104",
+   "name": "Gaia DR3 5826577720668863104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2021212301004596480|2021212301004596480",
+   "name": "Gaia DR3 2021212301004596480",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5850017625000315904|5850017625000315904",
+   "name": "Gaia DR3 5850017625000315904",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5854156118019936000|5854156118019936000",
+   "name": "Gaia DR3 5854156118019936000",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 13369|1925025168366253952",
+   "name": "GJ 13369",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASSI J2325453+425148 (L8): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2020412440663254272|2020412440663254272",
+   "name": "Gaia DR3 2020412440663254272",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5696036896986058624|5696036896986058624",
+   "name": "Gaia DR3 5696036896986058624",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 2028158981137481600|2028158981137481600",
+   "name": "Gaia DR3 2028158981137481600",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 13288 A|1890433639202023808",
+   "name": "GJ 13288 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASSI J2249091+320549 (L5). DESI DR1 MWS has a row for Gaia DR3 1890433639202023808 but it is unusable: rr_spectype GALAXY, sn_r 0.41, rv_adop -744.5+/-25.2, vrad -17.1+/-7.0. Not reported."
+  },
+  {
+   "key": "Gaia DR3 5850120601110275456|5850120601110275456",
+   "name": "Gaia DR3 5850120601110275456",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5849333522551018240|5849333522551018240",
+   "name": "Gaia DR3 5849333522551018240",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 11619|5399148382157293696",
+   "name": "GJ 11619",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASS J11220826-3512363 (T2.0): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5849857955274475520|5849857955274475520",
+   "name": "Gaia DR3 5849857955274475520",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "Gaia DR3 5614851501016392960|5614851501016392960",
+   "name": "Gaia DR3 5614851501016392960",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 10457|5053399803976245760",
+   "name": "GJ 10457",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "2MASSI J0318540-342129 (L7): no RV in Hsu 2021, Blake 2010, Schmidt 2010, Kiman 2019, Cheng 2025, DESI, SDSS or any VizieR RV catalog. Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5850066209619678592|5850066209619678592",
+   "name": "Gaia DR3 5850066209619678592",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "DESI DR1 MWS (desi_dr1.mws, Data Lab TAP, by Gaia DR3 id): no match",
+    "SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "SIMBAD mesVelocities (TAP, by all identifiers): no measurement",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016): no RV column hit for this source (gum_mw and neighbouring-source rows ignored)"
+   ],
+   "notes": "Anonymous faint (G~20.7-21) Gaia source, mostly low Galactic latitude; no spectroscopy found in any survey or catalog."
+  },
+  {
+   "key": "GJ 11551 AB|",
+   "name": "GJ 11551 AB",
+   "done": true,
+   "rv": {
+    "value": 17.6,
+    "err": 1.6,
+    "src": "S1",
+    "where": "Gagne et al. arXiv:2208.00070, Table 3 'Radial velocities for Luhman 16 AB', row 'Combined', column RV_CM (centre-of-mass RV combining FIRE, CRIRES, X-Shooter, SALT RSS epochs 2013-2016)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Gagne J. et al., 'The Oceanus Moving Group: A New 500 Myr-Old Host for the Nearest Brown Dwarf', arXiv:2208.00070",
+     "url": "https://arxiv.org/abs/2208.00070",
+     "what": "Luhman 16 AB RV compilation + new FIRE RVs, Table 3"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Garcia et al. 2017 (arXiv:1708.02714): relative RVs only",
+    "Gagne et al. (arXiv:2208.00070) Table 3"
+   ],
+   "notes": "Published systemic (centre-of-mass) RV over 6 epochs; the authors note the 14.0-22.4 km/s spread is likely systematic. Alternatives in the same table: CRIRES 2013-05-05 RV_A 20.1+/-0.5, RV_B 17.4+/-0.5 -> RV_CM 18.9+/-0.4 (Crossfield 2014); SALT RSS RV_CM 21.5+/-0.8 (Kniazev 2013); X-Shooter 22.4+/-5.3 (Lodieu 2015); FIRE 14.9+/-2.2, 14.0+/-3.1, 15.5+/-3.1. Garcia et al. 2017 give only relative velocities (vA-vB = 2.74, 1.94, 1.85 km/s)."
+  },
+  {
+   "key": "GJ 11286|",
+   "name": "GJ 11286",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "web search 'WISE 0855-0714 radial velocity JWST NIRSpec'",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE 0855-0714 (Y2). No published RV found: JWST NIRSpec papers (Luhman et al. 2024 AJ 167, 5; Rowland et al. 2024) report none found in search; not in the Hsu et al. 2026 JWST G395H RV sample."
+  },
+  {
+   "key": "GJ 866 ABC|",
+   "name": "GJ 866 ABC",
+   "done": true,
+   "rv": {
+    "value": -50.08,
+    "err": 0.01,
+    "src": "S1",
+    "where": "Segransan et al. 2000 (arXiv:astro-ph/0010585) Table 2, row 'Gl 866AC-B' (outer orbit), column V0 = -50.08 +/- 0.01 km/s (ELODIE RVs + visual orbit fit)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Segransan D. et al. 2000, A&A, 'Accurate masses of very low mass stars: III. 16 new or improved masses' (arXiv:astro-ph/0010585)",
+     "url": "https://arxiv.org/abs/astro-ph/0010585",
+     "what": "ELODIE spectroscopic+visual orbits with systemic velocities"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Delfosse 1999 (astro-ph/9909409): no V0",
+    "Woitas 2000 (astro-ph/9910411): no RV",
+    "SB9 (B/sb9): not present",
+    "MSC 22385-1518 page"
+   ],
+   "notes": "Systemic velocity of the triple from the outer AC-B orbit. Delfosse et al. 1999 (A&A 350, L39) give the orbits without V0. SIMBAD's 6824.7 km/s (2021MNRAS.508.5148C) is junk; -60+/-2 (Wilson 1953 GCRV, repeated by Reyle 2021) and MSC v_rad -50.1 (Tokovinin) also seen; IGRINS library (Park 2018, J/ApJS/238/29) HRV -29.84 is a few epochs of an SB."
+  },
+  {
+   "key": "GJ 860 AB|",
+   "name": "GJ 860 AB",
+   "done": true,
+   "rv": {
+    "value": -33.94,
+    "err": 0.1,
+    "src": "S1",
+    "where": "VizieR J/ApJS/141/503 table1 (stable stars, RMS<0.1 km/s), HD 239960 = HIP 110893, col <RV> = -33937 m/s; Keck/Lick multi-epoch over 833 d",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Nidever D.L. et al. 2002, ApJS 141, 503",
+     "url": "https://ui.adsabs.harvard.edu/abs/2002ApJS..141..503N",
+     "what": "Keck/Lick multi-epoch RVs of 889 late-type stars"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Dybczynski et al. 2019 (arXiv:1909.10952) and 2020 (arXiv:2003.02069): systemic RV unpublished",
+    "J/A+A/596/A116 (Sperauskas 2016)",
+    "III/252 (Gontcharov 2006)"
+   ],
+   "notes": "Kruger 60 (P=44.6 yr, nearly face-on i~167 deg). Nidever's spectrum is presumably of A (2-3 arcsec pair); err 0.1 is the paper's stated agreement with standards (systematics up to 0.4 km/s for M dwarfs). Alternatives: Sperauskas et al. 2016 (J/A+A/596/A116 table4, MCC207 = HIP 110893) HRV -34.54+/-0.10; Gontcharov 2006 (III/252) -34.0+/-0.1 (table8) / -33.9+/-0.2 (table4); PMSU Gl 860A -16, Gl 860B -29; GCRV A -24, B -28 (+/-5). Dybczynski et al. 2019/2020 used an unpublished PEXO centre-of-mass RV (not given)."
+  },
+  {
+   "key": "GJ 11075|",
+   "name": "GJ 11075",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J072227.27-054029.9 (T9). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 12393|",
+   "name": "GJ 12393",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J163940.83-684738.6 (Y0pec). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 12549|",
+   "name": "GJ 12549",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEP J174124.25+255319.5 (T9). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11394|",
+   "name": "GJ 11394",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASS J09393548-2448279 (T8). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11600|",
+   "name": "GJ 11600",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASS J11145133-2618235 (T7.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10528|",
+   "name": "GJ 10528",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J035000.32-565830.2 (Y1). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 229 B|",
+   "name": "GJ 229 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Xuan et al. 2024 (arXiv:2410.11953)",
+    "Whitebook et al. 2024 (arXiv:2410.11999)",
+    "arXiv:2502.05359 (orbit of Gl 229 Ba/Bb)",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "Gl 229 B is itself a binary (Ba+Bb, P=12.1 d). Xuan et al. 2024 (Nature; arXiv:2410.11953) give gamma_RV = 0.4+/-0.2 km/s RELATIVE to Gl 229 A (the primary's RV was subtracted), not heliocentric; Whitebook et al. 2024 (arXiv:2410.11999) give relative RVs only. Not reported, as a heliocentric value would have to be derived. Gl 229 A's own RV (e.g. Soubiran 2018 4.734 km/s) belongs to the primary."
+  },
+  {
+   "key": "GJ 12147 B|",
+   "name": "GJ 12147 B",
+   "done": true,
+   "rv": {
+    "value": 31.9,
+    "err": 0.3,
+    "src": "S1",
+    "where": "Hsu et al. 2021 Table 5 (J/ApJS/257/45 table5, ID J1457-2122 = Gl 570D), weighted-mean Keck/NIRSPEC RV over epochs (Table 4: 2001-06-15 31.6 +0.3/-0.4; 2006-01-18 33.8 +1.5/-1.7)",
+    "wikipedia": false
+   },
+   "pm": {
+    "pmra": 1023.82,
+    "pmdec": -1693.31,
+    "err": 5.3,
+    "src": "S2",
+    "where": "VizieR II/365/catwise, source J145716.20-212216.3 (W1-W2=2.7, at Gl 570D's PM-propagated position), pmRA=1.02382+/-0.0052, pmDE=-1.69331+/-0.0053 arcsec/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "S1": {
+     "citation": "Hsu C.-C. et al. 2021, ApJS 257, 45 (BDKP V)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of late-M/L/T dwarfs"
+    },
+    "S2": {
+     "citation": "Marocco F. et al. 2021, CatWISE2020 catalog (VizieR II/365)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=II/365",
+     "what": "WISE/NEOWISE proper motions"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 tables 1,4,5",
+    "PM: II/365 CatWISE, J/AJ/137/1, J/ApJS/253/7, J/ApJS/201/19"
+   ],
+   "notes": "Gl 570 D (T7.5-T8). SIMBAD's 28.9+/-2.4 (attributed to Hsu 2021, quality C) is Hsu's literature column RV-l, not their measurement. PM: CatWISE2020 is the object's own measurement; alternatives Faherty et al. 2009 (J/AJ/137/1 table3, own) 1028+/-13, -1688+/-14 mas/yr; Kirkpatrick et al. 2021 (J/ApJS/253/7 tablea1) 1031.40, -1723.65 is Gl 570 A's Gaia PM adopted for the companion (AS='Ag'), not used."
+  },
+  {
+   "key": "GJ 12260|",
+   "name": "GJ 12260",
+   "done": true,
+   "rv": {
+    "value": -38.7,
+    "err": 5.0,
+    "src": "S1",
+    "where": "Hsu et al. 2026 (arXiv:2609.28746) Table 4, row J1541-2250, RV = -38.7 +/- 0.4 (stat) +/- 5 (sys) km/s, JWST/NIRSpec G395H (GO-2124), CO-band forward modelling; err given is the systematic",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Hsu C.-C. et al. 2026, arXiv:2609.28746 (Metal-poor brown dwarf kinematics from JWST NIRSpec)",
+     "url": "https://arxiv.org/abs/2609.28746",
+     "what": "JWST/NIRSpec G395H RVs of T/Y dwarfs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)"
+   ],
+   "notes": "WISE J154151.65-225024.9 (Y1). R~2700 data; the paper's comparison with high-resolution RVs shows its values running ~5-7 km/s lower for several benchmarks (e.g. HD 126053 B -24.8 vs -19.2; Gl 584 C -13.8 vs -7.2)."
+  },
+  {
+   "key": "GJ 13202|",
+   "name": "GJ 13202",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J220905.73+271143.9 (Y0V). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 12023|",
+   "name": "GJ 12023",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J140518.39+553421.3 (Y0(pec?)). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11222|",
+   "name": "GJ 11222",
+   "done": true,
+   "rv": {
+    "value": -18.7,
+    "err": 3.4,
+    "src": "S1",
+    "where": "Kiman et al. 2025 (arXiv:2511.20923), section on 0825+2805 (Y0.5): 'radial velocity measurement for 0825+2805 (-18.7+/-3.4 km/s, Faherty et al. in prep)', from the JWST GO-2124 NIRSpec G395H spectrum",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Kiman R. et al. 2025, arXiv:2511.20923 (Diversity of Cold Worlds: COCONUTS-2b)",
+     "url": "https://arxiv.org/abs/2511.20923",
+     "what": "quotes RV of WISE 0825+2805 from Faherty et al. in prep"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEA J082507.37+280548.2. Published in Kiman et al. but attributed to Faherty et al. (in prep); the measurement paper is not yet out. Flag for the writer if in-prep provenance is unacceptable."
+  },
+  {
+   "key": "GJ 10571|",
+   "name": "GJ 10571",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J041022.71+150248.4 (Y0). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10757|",
+   "name": "GJ 10757",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASS J05212615+1025328 (T7.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11068|",
+   "name": "GJ 11068",
+   "done": true,
+   "rv": {
+    "value": 83.8,
+    "err": 0.3,
+    "src": "S1",
+    "where": "Burgasser et al. 2015 AJ 149, 104 (arXiv:1410.4288) abstract: 'a stable radial velocity of +83.8+/-0.3 km/s' (multi-epoch Keck/NIRSPEC); also VizieR J/ApJS/257/45 dwarf20pc J0720-0846 RV 83.8+/-0.3",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Burgasser A.J. et al. 2015, AJ 149, 104",
+     "url": "https://arxiv.org/abs/1410.4288",
+     "what": "Scholz's star discovery/characterisation, multi-epoch NIRSPEC RV"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)"
+   ],
+   "notes": "Scholz's star (M9.5+T5 spectral binary): combined-light RV dominated by the M9.5 primary, stable over epochs. SIMBAD's rejected 83.1 (quality D) and Reyle 2021 83.1+/-0.4 are other entries; J/AJ/156/217 table1 gives 77.6+/-2.5."
+  },
+  {
+   "key": "GJ 10400|",
+   "name": "GJ 10400",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": 2562.6,
+    "pmdec": 221.9,
+    "err": 1.3,
+    "src": "S1",
+    "where": "VizieR J/ApJS/253/7 tablea1, WISE 0254+0223 (WISEPA J025409.45+022359.1), pmRA=2562.60+/-0.20, pmDE=221.90+/-1.30 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "S1": {
+     "citation": "Kirkpatrick J.D. et al. 2021, ApJS 253, 7",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/253/7",
+     "what": "20-pc census of L/T/Y dwarfs, astrometry table A1"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "PM: VizieR J/ApJS/253/7 by position (identified as WISE 0254+0223)",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "Row identified by position as WISEPA J025409.45+022359.1 = PSO J043.5395+02.3995 (T8, 6.8 pc); SIMBAD id missing in the input. No RV published. Kirkpatrick table11 pmtot 2572.2+/-0.1."
+  },
+  {
+   "key": "GJ 13033|",
+   "name": "GJ 13033",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J205628.91+145953.2 (Y0). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10131|",
+   "name": "GJ 10131",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J004945.61+215120.0 (T8.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 667 A|",
+   "name": "GJ 667 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "VizieR J/A+A/542/A48 (AMBRE FEROS) by name",
+    "Gaia DR2/DR3 cone: no RV"
+   ],
+   "notes": "HD 156384 A (K3V; A-B visual orbit P=42 yr, so A's RV is not systemic). No published mean RV for A found. AMBRE FEROS archive (Worley 2012, J/A+A/542/A48, Name 'Gl667', Teff~4650 so A) has 52 per-spectrum RVs from 2007-2008 spanning +1.99 to +3.12 km/s (e.g. 2.71+/-0.07) and no adopted mean; not averaged per the brief. Other: Wilson/Duflot 0.0 (+/-3.7, CRVAD2/XHIP), Lick 1913/1928 -4.0. Gaia DR3 has no RV."
+  },
+  {
+   "key": "GJ 10442|",
+   "name": "GJ 10442",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEP J031325.96+780744.2 (T8.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 12908|",
+   "name": "GJ 12908",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASS J20005017+3629465 (T8). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 12541|",
+   "name": "GJ 12541",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J173835.53+273259.0 (Y0). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 13441|",
+   "name": "GJ 13441",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEA J235402.79+024014.1 (Y1). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 881 A|",
+   "name": "GJ 881 A",
+   "done": true,
+   "rv": {
+    "value": 6.5,
+    "err": 0.5,
+    "src": "S1",
+    "where": "VizieR III/252 table8 (Gontcharov 2006 PCRV), HIP 113368, RV=6.5, e_RV=0.5, from 3 source catalogs",
+    "wikipedia": false
+   },
+   "pm": {
+    "pmra": 328.95,
+    "pmdec": -164.67,
+    "err": 0.5,
+    "src": "S2",
+    "where": "VizieR I/311/hip2, HIP 113368, pmRA=328.95+/-0.50, pmDE=-164.67+/-0.35 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "S1": {
+     "citation": "Gontcharov G.A. 2006, Astron. Lett. 32, 759 (PCRV)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2006AstL...32..759G",
+     "what": "Pulkovo compilation of mean RVs for Hipparcos stars"
+    },
+    "S2": {
+     "citation": "van Leeuwen F. 2007, A&A 474, 653 (Hipparcos new reduction)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/311",
+     "what": "Hipparcos astrometry"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)"
+   ],
+   "notes": "Fomalhaut (alf PsA). SIMBAD's adopted 6.5 (quality A) is this same Gontcharov value. Alternatives: Allende Prieto 2004 S4N (J/A+A/420/183) 6.2+/-0.6; CRVAD2 6.1+/-0.7; Riedel 2017 compiled mean 6.36+/-0.04. Too bright for Gaia; PM err given is pmRA's (pmDE err 0.35)."
+  },
+  {
+   "key": "GJ 10008|",
+   "name": "GJ 10008",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J000517.48+373720.5 (T9). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11087|",
+   "name": "GJ 11087",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASS J07290002-3954043 (T8pec). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10758|",
+   "name": "GJ 10758",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "UGPS J052127.27+364048.6 (T8.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 54|",
+   "name": "GJ 54",
+   "done": true,
+   "rv": {
+    "value": 27.2,
+    "err": 10.0,
+    "src": "S1",
+    "where": "VizieR III/198/main (PMSU, Reid et al. 1995), Name 'Gl 54', RV=27.2 km/s; PMSU precision ~10 km/s",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Reid I.N., Hawley S.L., Gizis J.E. 1995, AJ 110, 1838 (PMSU I)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/198",
+     "what": "Palomar/MSU M-dwarf spectroscopic survey RVs (~10 km/s)"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)"
+   ],
+   "notes": "GJ 54 AB is an unresolved M2.5 binary (P~1.15 yr), so a single-epoch RV includes orbital motion; no systemic RV found. Alternatives: Gontcharov/XHIP/CRVAD2 26.0+/-7.9; Rodgers 1974 -15.0; III/184 26.1 and -15.0; 2021MNRAS.508.5148C 36.4 (the same source lists EZ Aqr at 6824.7 km/s, so not trusted)."
+  },
+  {
+   "key": "GJ 11686|",
+   "name": "GJ 11686",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J115013.85+630241.5 (T8). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10091|",
+   "name": "GJ 10091",
+   "done": true,
+   "rv": {
+    "value": 16.6,
+    "err": 1.6,
+    "src": "S1",
+    "where": "Hsu et al. 2021 Tables 4/5 (VizieR J/ApJS/257/45 dwarfT, ID J0034+0523), RV 16.6 +1.6/-1.4 km/s, one Keck/NIRSPEC epoch 2020-09-03",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Hsu C.-C. et al. 2021, ApJS 257, 45 (BDKP V)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of late-M/L/T dwarfs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)"
+   ],
+   "notes": "2MASS J00345157+0523050 (T6.5). Asymmetric error +1.6/-1.4; larger side given."
+  },
+  {
+   "key": "GJ 423 E|",
+   "name": "GJ 423 E",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": -405.14,
+    "pmdec": -588.61,
+    "err": 9.4,
+    "src": "S1",
+    "where": "VizieR II/365/catwise, source J111838.56+312535.2 (W1-W2=3.5, 3.3 arcsec from the PM-propagated position of WISE J111838.70+312537.9), pmRA=-0.40514+/-0.0081, pmDE=-0.58861+/-0.0094 arcsec/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "S1": {
+     "citation": "Marocco F. et al. 2021, CatWISE2020 catalog (VizieR II/365)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=II/365",
+     "what": "WISE/NEOWISE proper motions"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "PM: J/ApJS/253/7, II/365, Wright 2013 Table 3",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J111838.70+312537.9 (xi UMa's T8.5 companion). No RV published. PM is the companion's own (CatWISE2020); alternatives: Wright et al. 2013 (arXiv:1203.5764) Table 3 free fit -419+/-48, -563+/-45 mas/yr; Kirkpatrick 2021 (J/ApJS/253/7) -339.39, -607.89 is xi UMa's Gaia PM adopted (AS='Ag'), not used. CatWISE pmRA differs from the primary's by ~65 mas/yr, typical CatWISE systematics."
+  },
+  {
+   "key": "GJ 423 ABCD|",
+   "name": "GJ 423 ABCD",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "SB9 B/sb9 orbits seq 667/668",
+    "MSC 11182+3132 page",
+    "Gaia DR2/DR3 cone"
+   ],
+   "notes": "xi UMa quadruple (A=Aa+Ab SB1 P=669 d, B=Ba+Bb SB1 P=3.98 d, AB visual P~60 yr) plus the T8.5 companion. No systemic RV for the whole system found. Component-level values: SB9 (B/sb9) gamma -15.0 (669-d orbit, 1928) and -15.9 (3.98-d orbit, Berman 1931); Griffin 1998 orbits have V0=0.00 in SB9; MSC v_rad A -16.0, B -15.9; Karatas 2004 (J/MNRAS/349/1069) -15.5+/-0.08 (row labelled 'chi UMa B' at xi UMa's position); Reyle 2021 -15.5+/-0.9; Gaia DR3 756853643638639104 -26.78+/-2.09 (1 transit). Not reported because none is a system value. NOTE: this row's PM (-339.398, -607.892) equals Kirkpatrick 2021's adopted PM for WISE 1118+3125 (xi UMa's Gaia PM), and SIMBAD main id '* ksi UMa Bb' is an odd match for the whole system."
+  },
+  {
+   "key": "GJ 12854|",
+   "name": "GJ 12854",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISENF J193656.08+040801.2 (BD?). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 11085|",
+   "name": "GJ 11085",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "2MASSI J0727182+171001 (T7.0). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 13111|",
+   "name": "GJ 13111",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": 1363.2,
+    "pmdec": -223.2,
+    "err": 6.2,
+    "src": "S1",
+    "where": "VizieR J/ApJS/253/7 tablea1, WISE 2134-7137, pmRA=1363.20+/-6.20, pmDE=-223.20+/-4.90 mas/yr (own astrometry, AS='AC')",
+    "wikipedia": false
+   },
+   "sources": {
+    "S1": {
+     "citation": "Kirkpatrick J.D. et al. 2021, ApJS 253, 7",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/253/7",
+     "what": "20-pc census of L/T/Y dwarfs, astrometry table A1"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "PM: VizieR J/ApJS/253/7",
+    "Hsu 2021 J/ApJS/257/45 tables",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEPA J213456.73-713743.6 (T9pec). No RV published."
+  },
+  {
+   "key": "GJ 11055|",
+   "name": "GJ 11055",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J071322.55-291751.9 (Y0). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 10707|",
+   "name": "GJ 10707",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISE J045853.89+643452.5 (T8.5). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  },
+  {
+   "key": "GJ 13364|",
+   "name": "GJ 13364",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by all identifiers)",
+    "VizieR all-catalog cone (8 arcsec at J2000 position carried by PM, 4 arcsec at J2016)",
+    "Gaia DR3 gaia_source cone 36 arcsec, parallax>20 (ESA TAP)",
+    "Hsu 2021 J/ApJS/257/45 tables 1/4/5/7",
+    "Hsu et al. 2026 arXiv:2609.28746 Table 4"
+   ],
+   "notes": "WISEP J232519.54-410534.9 (T9pec). No RV found (late-T/Y dwarf; not in Hsu 2021, the Hsu 2026 JWST G395H sample, or any VizieR RV catalog)."
+  }
+ ]
+}

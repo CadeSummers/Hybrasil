@@ -1,0 +1,25 @@
+# Core (required)
+plotly>=5.18.0
+numpy>=1.24.0
+
+# Custom system files
+pyyaml>=6.0
+
+# The committed workbook snapshot in data/: the catalog without a Google
+# credential, and the source the hosted site is built from
+openpyxl>=3.1
+
+# Optional: live data from NASA JPL Horizons
+# astroquery>=0.4.6
+# astropy>=5.3
+
+# Optional: the Google Sheets star catalog (--source catalog)
+# google-api-python-client>=2.100.0
+# google-auth>=2.23.0
+# google-auth-oauthlib>=1.1.0        # only for the browser sign-in flow
+
+
+# Optional: PNG export
+# kaleido>=0.2.1
+
+# Development and testing: pip install -r requirements-dev.txt

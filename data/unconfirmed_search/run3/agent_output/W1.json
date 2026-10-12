@@ -1,0 +1,891 @@
+{
+  "agent": "W1",
+  "items": [
+    {
+      "name": "HD 134060 c",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 1160.9,
+        "Semi-major axis (au)": 2.2263,
+        "Eccentricity": 0.75,
+        "Mass (M-earth)": 29.29,
+        "Mass type": "Msini",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 1291.5646,
+          "source": "Udry et al. 2019, A&A 622, A37, Table 11 (HD 134060 two-planet MCMC solution): P = 1291.5646 +48.0333/-44.2197 d",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 2.3928,
+          "source": "Udry et al. 2019, A&A 622, A37, Table 11 (HD 134060 two-planet MCMC solution): a = 2.3928 +0.0929/-0.0951 au",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.11,
+          "source": "Udry et al. 2019, A&A 622, A37, Table 11 (HD 134060 two-planet MCMC solution): e = 0.11 +0.13/-0.07",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 29.29,
+          "source": "Udry et al. 2019, A&A 622, A37, Table 11 (HD 134060 two-planet MCMC solution): m sin i = 29.29 +4.43/-4.24 M-earth (unchanged)",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Msini",
+          "source": "Udry et al. 2019, A&A 622, A37, Table 11 (HD 134060 two-planet MCMC solution) (RV only; unchanged)",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Udry et al. 2019; a Udry et al. 2019; e Udry et al. 2019. CORRECTED 27 Sep 2026: OEC's 1160.9 d, 2.2263 au and e = 0.75 are not the Udry et al. 2019 solution (A&A 622, A37, Table 11: 1291.56 d, 2.3928 au, e = 0.11), the only published orbit; the 29.29 M-earth m sin i the row already had is Udry's.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/1705.05153",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The sheet's period, semi-major axis and eccentricity (from OEC) are not the discovery solution. Udry et al. 2019 Table 11, which NASA pscomppars and ps both adopt, gives P = 1291.56 d, a = 2.3928 au, e = 0.11; the mass on the sheet is already Udry's.",
+      "confidence": "high",
+      "notes": "The eccentricity also changes from 0.75 to 0.11, which the previous run did not flag. OEC and exoplanet.eu carry 1160.9 d (per B03); I checked arXiv v1 (2017) and v2 (2019) of Udry et al. and both give 1291.5646 d, so I could not trace where 1160.9 d / e 0.75 comes from. The NASA ps table holds only the Udry row. Stellar mass behind a: 1.095 M-sun (Udry et al. 2019 via NASA st_mass). I checked a by Kepler III and got 2.392 au, which matches."
+    },
+    {
+      "name": "14 Her c",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 9886,
+        "Semi-major axis (au)": 9.037,
+        "Eccentricity": 0.184,
+        "Mass (M-earth)": 2511,
+        "Mass type": "Mass",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 32899,
+          "source": "DERIVED from Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1 and Sect. 3 (orbitize! fit: JWST/NIRCam relative astrometry + RV + HGCA) a = 20.0 +12.0/-4.9 au and M_A = 0.97 M-sun, plus both planets' masses (8.9 + 7.9 MJup)",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": true,
+          "method": "Kepler III: P = sqrt(a^3 / M_tot) yr, a = 20.0 au, M_tot = 0.97 + 16.8 x 9.546e-4 = 0.986 M-sun -> 90.07 yr = 32,899 d. The a interval 15.1-32.0 au gives 21,600-66,600 d (about 59-182 yr); M_A +/- 0.04 changes P by about 2%. The paper does not give P."
+        },
+        "Semi-major axis (au)": {
+          "value": 20.0,
+          "source": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1 and Sect. 3 (orbitize! fit: JWST/NIRCam relative astrometry + RV + HGCA): a_c = 20.0 +12.0/-4.9 au",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.52,
+          "source": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1 and Sect. 3 (orbitize! fit: JWST/NIRCam relative astrometry + RV + HGCA): e_c = 0.52 +0.16/-0.12",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 2511,
+          "source": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1 and Sect. 3 (orbitize! fit: JWST/NIRCam relative astrometry + RV + HGCA): M_c = 7.9 +1.6/-1.2 MJup = 2510.8 M-earth (the sheet's 2511 already matches; unchanged)",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": true,
+          "method": "unit conversion, 7.9 MJup x 317.828"
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1 and Sect. 3 (orbitize! fit: JWST/NIRCam relative astrometry + RV + HGCA): true (dynamical) mass, inclination 116.3 deg (unchanged)",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "Bardalez Gagliuffi et al. 2025, ApJL 988, L18 (arXiv:2506.09201), Table 1, JWST/NIRCam imaging + RV + HGCA orbit fit: a 20.0 +12.0/-4.9 au, e 0.52, M 7.9 MJup; P DERIVED (Kepler III, M_A = 0.97 M-sun plus both planets), not in the paper, and uncertain by a factor of about 2 (59-182 yr) -- WEAK. NASA Exoplanet Archive pscomppars, queried 2026-09-27, pairs Feng et al. 2022's P (15732 d) with this paper's a (20 au), which do not match. CORRECTED 27 Sep 2026: OEC's 9886 d / 9.037 au / e 0.184 is excluded by the JWST fit (a > 15.1 au at 1 sigma); the 2511 M-earth mass already matched this paper.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2506.09201",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Recommend Bardalez Gagliuffi et al. 2025 (ApJL 988, L18), the only solution that includes a direct image of 14 Her c. NASA adopts it for a, e, mass and inclination, and Lu et al. 2026 (arXiv:2605.30177, Table 1) take it as the system's reference parameters. The paper gives a, not P, so P is derived by Kepler III (about 32,900 d, roughly 90 yr).",
+      "confidence": "medium",
+      "notes": "The candidate solutions: (1) Feng et al. 2022 (ApJS 262, 21): P = 15732 +2654/-1896 d, a = 11.92 au, 1597 M-earth. This is the NASA pscomppars P, but its a lies below BG25's 1-sigma range (15.1-32.0 au), and NASA pairs it with BG25's a = 20 au, so the archive row does not hang together. (2) Benedict et al. 2023 (AJ 166, 27; arXiv:2305.11753, abstract): P = 52160 +/- 1028 d, i = 82 +/- 14 deg, M = 7.1 +1.0/-0.6 MJup, from HST FGS + Hipparcos + Gaia + 25 yr of RVs. That P implies a of about 27.3 au for 0.98 M-sun, inside BG25's 1-sigma range. Its quoted +/-1028 d (2%) precision is far tighter than a baseline covering under a fifth of the orbit seems able to support, and BG25 do not adopt it. (3) BG25 (June 2025, refereed ApJL): a = 20.0 +12.0/-4.9 au, e = 0.52, M = 7.9 MJup, i = 116.3 deg, mutual inclination 32 deg. I recommend BG25 because it is the most recent refereed fit and the only one with relative astrometry of c itself. Lu et al. 2026 (arXiv:2605.30177, submitted June 2026, not yet refereed) is a dynamics paper that re-uses BG25's parameters and gives no new orbit. I found no second-epoch JWST orbit. P is poorly constrained whichever solution is used. Writing the derived P with an orange border and the WEAK tag is the honest representation."
+    },
+    {
+      "name": "GJ 3929 c",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 14.303,
+        "Semi-major axis (au)": 0.078,
+        "Eccentricity": "",
+        "Mass (M-earth)": 5.71,
+        "Mass type": "Mass, Msini",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 15.04,
+          "source": "Beard et al. 2022, ApJ 936, 55, Table 5 (derived parameters): P = 15.04 +/- 0.03 d (abstract: 'adjust the orbital period of planet c from its alias at 14.30 +/- 0.03 days to the likely true period of 15.04 +/- 0.03 days')",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 0.081,
+          "source": "Beard et al. 2022, ApJ 936, 55, Table 5 (derived parameters): a = 0.081 +/- 0.002 au",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0,
+          "source": "Beard et al. 2022, ApJ 936, 55, Table 5 (derived parameters): e fixed at 0 in the fit",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 5.71,
+          "source": "Beard et al. 2022, ApJ 936, 55, Table 5 (derived parameters): m sin i = 5.71 +/- 0.94 M-earth (abstract gives +/- 0.92) (unchanged)",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Msini",
+          "source": "Beard et al. 2022, ApJ 936, 55, Table 5 (derived parameters): GJ 3929 c is non-transiting and RV-only, so its mass is a minimum mass (table note a)",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Beard et al. 2022; a Beard et al. 2022; e Beard et al. 2022 (FIXED at 0). CORRECTED 27 Sep 2026: OEC paired Kemmer et al. 2022's 14.303 d (an alias) and 0.078 au with Beard et al. 2022's 5.71 M-earth m sin i; Beard et al. 2022 (ApJ 936, 55) adopt 15.04 d as the true period.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2207.10672",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The row mixes Kemmer et al. 2022's 14.30 d alias period with Beard et al. 2022's mass. Beard et al. 2022 (Table 5), which NASA pscomppars adopts, is one self-consistent solution: P = 15.04 d, a = 0.081 au, e fixed at 0, m sin i = 5.71 M-earth.",
+      "confidence": "high",
+      "notes": "The mass type 'Mass, Msini' looks copied from the system (b has a true mass, c only m sin i). For c alone it should read Msini. Beard's stellar mass is 0.313 M-sun; Kepler III gives 0.0810 au, which matches. The e = 0 is a fixed value, not a measurement."
+    },
+    {
+      "name": "GJ 9066 c",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 767.887,
+        "Semi-major axis (au)": 0.87,
+        "Eccentricity": 0.33,
+        "Mass (M-earth)": 66.74,
+        "Mass type": "Msini",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 771.36,
+          "source": "Quirrenbach et al. 2022, A&A 663, A48, Table 4, GP-model column (the planet is called TZ Ari b there): P = 771.36 +1.34/-1.23 d",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 0.88,
+          "source": "Quirrenbach et al. 2022, A&A 663, A48, Table 4, GP-model column (the planet is called TZ Ari b there): a = 0.88 +/- 0.02 au",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.46,
+          "source": "Quirrenbach et al. 2022, A&A 663, A48, Table 4, GP-model column (the planet is called TZ Ari b there): e = 0.46 +/- 0.04",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 66.74,
+          "source": "Quirrenbach et al. 2022, A&A 663, A48, Table 4, GP-model column (the planet is called TZ Ari b there): m sin i = 0.21 +/- 0.02 MJup; NASA gives 66.744 M-earth (unchanged)",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Msini",
+          "source": "Quirrenbach et al. 2022, A&A 663, A48, Table 4, GP-model column (the planet is called TZ Ari b there) (unchanged)",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Quirrenbach et al. 2022; a Quirrenbach et al. 2022; e Quirrenbach et al. 2022. CORRECTED 27 Sep 2026: OEC paired Feng et al. 2020's 767.887 d and e 0.33 with Quirrenbach et al. 2022's 66.74 M-earth; Quirrenbach et al. 2022 (A&A 663, A48, Table 4, GP model; called TZ Ari b there) is one solution.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2203.16504",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The row mixes Feng et al. 2020's period and eccentricity with Quirrenbach et al. 2022's mass. Quirrenbach et al. 2022 (Table 4, GP model), the NASA default, gives one solution: P = 771.36 d, a = 0.88 au, e = 0.46, m sin i = 0.21 MJup (66.74 M-earth).",
+      "confidence": "high",
+      "notes": "Quirrenbach et al. name this planet TZ Ari b; NASA and the sheet call it GJ 9066 c. Quirrenbach et al. (Sect. 6.3.3) also find Feng et al. 2020's two-planet model (with the ~243 d 'b') incompatible with the CARMENES data. The sheet has no GJ 9066 b row, which is consistent with that. Their Keplerian-only column gives 772.05 d, e 0.49, 0.23 MJup; the GP column is the one NASA adopts."
+    },
+    {
+      "name": "HD 150706 b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 5894,
+        "Semi-major axis (au)": 6.7,
+        "Eccentricity": 0.38,
+        "Mass (M-earth)": 861,
+        "Mass type": "Msini",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 13149,
+          "source": "Xiao et al. 2023, RAA 23, 055022, Table A.5 (orvara joint fit of RVs + Hipparcos-Gaia HGCA astrometry): P = 36.0 +26.0/-11.0 yr",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": true,
+          "method": "unit conversion only: 36.0 yr x 365.25 = 13,149 d (+9,497/-4,018 d). NASA ps lists 13100 d."
+        },
+        "Semi-major axis (au)": {
+          "value": 11.5,
+          "source": "Xiao et al. 2023, RAA 23, 055022, Table A.5 (orvara joint fit of RVs + Hipparcos-Gaia HGCA astrometry): a = 11.5 +5.0/-2.4 au",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.787,
+          "source": "Xiao et al. 2023, RAA 23, 055022, Table A.5 (orvara joint fit of RVs + Hipparcos-Gaia HGCA astrometry): e = 0.787 +0.076/-0.083",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 772.3,
+          "source": "Xiao et al. 2023, RAA 23, 055022, Table A.5 (orvara joint fit of RVs + Hipparcos-Gaia HGCA astrometry): Mp = 2.43 +0.48/-0.38 MJup (true mass; i = 70 or 110 deg; Mp sin i = 2.21 MJup)",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": true,
+          "method": "unit conversion, 2.43 MJup x 317.828 = 772.3 M-earth; NASA gives 772.323"
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Xiao et al. 2023, RAA 23, 055022, Table A.5 (orvara joint fit of RVs + Hipparcos-Gaia HGCA astrometry): true mass from RV + astrometry",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "Xiao et al. 2023, RAA 23, 055022 (arXiv:2303.12409), Table A.5, orvara RV + Hipparcos-Gaia fit: P 36.0 +26/-11 yr, a 11.5 +5.0/-2.4 au, e 0.787 +0.076/-0.083, Mp 2.43 +0.48/-0.38 MJup (true mass). NASA Exoplanet Archive pscomppars, queried 2026-09-27, still defaults to Boisse et al. 2012's orbit and takes only the mass from Xiao et al. 2023. Orbit poorly constrained -- WEAK. CORRECTED 27 Sep 2026: OEC's 5894 d / 6.7 au / 861 M-earth m sin i is the Boisse et al. 2012 orbit.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2303.12409",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Xiao et al. 2023 (Table A.5) refit the RVs together with Hipparcos-Gaia astrometry and find a much wider orbit: P = 36 yr, a = 11.5 au, e = 0.79, true mass 2.43 MJup. The sheet still carries Boisse et al. 2012's 16-yr orbit and its m sin i.",
+      "confidence": "medium",
+      "notes": "The archive disagrees with itself. pscomppars keeps P, a and e from Boisse et al. 2012 (5894 d, 6.7 au, e 0.38) but takes the 772.3 M-earth mass from Xiao. The Xiao ps row (default_flag 0) lists i = 70 deg, which is one of the two mirror inclinations in the paper. The fit is loose (P +26/-11 yr). Xiao's a and P imply a host mass of 11.5^3/36.0^2 = 1.17 M-sun, the same as NASA's st_mass for both rows; the Systems tab has 0.94 M-sun for HD 150706 (see incidental finds). I found no later orbit paper. B08's remark about Butler et al. 2017 was not re-checked, so it is left out of the flag text."
+    },
+    {
+      "name": "eps Ind A b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 19205.51,
+        "Semi-major axis (au)": 12.82,
+        "Eccentricity": 0.01,
+        "Mass (M-earth)": 2066,
+        "Mass type": "Mass",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 25447,
+          "source": "Sanghi et al. 2026, AJ 172, 115, Table B2, fiducial model (RA + HGCA + RV, with GP activity model): P = 69.67 +12.01/-9.04 yr (a derived parameter in the paper)",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": true,
+          "method": "unit conversion only: 69.67 yr x 365.25 = 25,447 d (+4,387/-3,302 d). NASA pscomppars gives 25450 d."
+        },
+        "Semi-major axis (au)": {
+          "value": 15.76,
+          "source": "Sanghi et al. 2026, AJ 172, 115, Table B2, fiducial model (RA + HGCA + RV, with GP activity model): a = 15.76 +1.73/-1.39 au",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.25,
+          "source": "Sanghi et al. 2026, AJ 172, 115, Table B2, fiducial model (RA + HGCA + RV, with GP activity model): e = 0.25 +/- 0.09",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 2066,
+          "source": "Sanghi et al. 2026, AJ 172, 115, Table B2, fiducial model (RA + HGCA + RV, with GP activity model): M_b = 6.50 +0.72/-0.59 MJup (abstract: 6.5 +0.7/-0.6); NASA 2065.88 M-earth (the sheet's 2066 already matches; unchanged)",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Sanghi et al. 2026, AJ 172, 115, Table B2, fiducial model (RA + HGCA + RV, with GP activity model): dynamical (true) mass, i = 102.18 deg (unchanged)",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Sanghi et al. 2026; a Sanghi et al. 2026; e Sanghi et al. 2026. Sanghi et al. 2026 (AJ 172, 115; arXiv:2603.08787), Table B2 fiducial fit of JWST relative astrometry + Hipparcos-Gaia + 29 yr of RVs: dynamical mass 6.50 +0.72/-0.59 MJup; P (69.7 +12.0/-9.0 yr) is derived from a fit covering under half an orbit -- WEAK. CORRECTED 27 Sep 2026: OEC's 19205.51 d / 12.82 au / e 0.01 is a pre-JWST orbit; the 2066 M-earth mass already matched Sanghi et al. Matthews et al. 2026 (ApJL, arXiv:2603.08780) fit 108 yr, 20.9 au, 7.63 MJup.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2603.08787",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Replace the pre-JWST orbit with Sanghi et al. 2026 (AJ 172, 115), the NASA default and the most recent refereed JWST-era fit: P = 69.7 yr, a = 15.76 au, e = 0.25, dynamical mass 6.50 MJup. The mass on the sheet already equals Sanghi's.",
+      "confidence": "medium",
+      "notes": "What is actually measured: JWST images give the planet's position on the sky (MIRI discovery epoch, Matthews et al. 2024; NIRCam epoch, Sanghi et al. 2026). That is combined with 29 years of host-star RVs and the Hipparcos-Gaia proper-motion anomaly. Together they yield a dynamical (true, not m sin i) mass, with a, e and i fitted. P is only a derived parameter (from a and total mass), and the data cover under half an orbit, so P, a and e are loosely constrained. The brief asks for 'the 2024 JWST-era solution' (Matthews et al. 2024, Nature 633, 789). The NASA ps row for it gives a 28.4 au, e 0.40, 2005.5 M-earth (6.31 MJup) and no P. I recommend against it: the same group's 2026 refits supersede it. Sanghi et al. show that unmodelled activity and RV stitching biased earlier eccentricities (abstract). Matthews et al. 2026 (arXiv:2603.08780, Table 3, accepted to ApJL, ps default_flag 0) get P 108 +49/-25 yr, a 20.9 +5.8/-3.3 au, e 0.244, 7.63 MJup, and attribute the change to the perspective-acceleration treatment. The two 2026 fits differ by roughly 1-sigma in a. Sanghi is chosen because it is the refereed journal paper, the NASA default, and includes the newer NIRCam astrometry. Sanghi's fiducial host mass is 0.80 M-sun; the Systems tab has 0.762."
+    },
+    {
+      "name": "HD 204941 b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 1733,
+        "Semi-major axis (au)": 2.56,
+        "Eccentricity": 0.37,
+        "Mass (M-earth)": 73.1,
+        "Mass type": "Msini",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 1529,
+          "source": "Ruggieri et al. 2026, A&A (accepted 7 Jul 2026), Sect. 4 summary and Appendix A (PyORBIT fit of 171 HARPS spectra over ~18 yr): P = 1529 +/- 13 d",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 2.17,
+          "source": "DERIVED from Ruggieri et al. 2026, A&A (accepted 7 Jul 2026), Sect. 4 summary and Appendix A (PyORBIT fit of 171 HARPS spectra over ~18 yr) P = 1529 d and M = 0.58 M-sun (Stassun et al. 2017, the NASA st_mass)",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": true,
+          "method": "Kepler III: a = (P_yr^2 x M)^(1/3) = ((1529/365.25)^2 x 0.58)^(1/3) = 2.166 au; +/-13 d in P gives +/-0.012 au. Solving the paper's K = 4.6 m/s, e = 0.160, m sin i = 56.1 M-earth for the stellar mass gives 0.568 M-sun, so 0.58 is consistent with the paper. With the Systems tab's 0.74 M-sun, a would be 2.35 au."
+        },
+        "Eccentricity": {
+          "value": 0.16,
+          "source": "Ruggieri et al. 2026, A&A (accepted 7 Jul 2026), Sect. 4 summary and Appendix A (PyORBIT fit of 171 HARPS spectra over ~18 yr): e = 0.160 +0.069/-0.064",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 56.1,
+          "source": "Ruggieri et al. 2026, A&A (accepted 7 Jul 2026), Sect. 4 summary and Appendix A (PyORBIT fit of 171 HARPS spectra over ~18 yr): m sin i = 56.1 +/- 6.5 M-earth (K = 4.6 +/- 0.3 m/s)",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Msini",
+          "source": "Ruggieri et al. 2026, A&A (accepted 7 Jul 2026), Sect. 4 summary and Appendix A (PyORBIT fit of 171 HARPS spectra over ~18 yr) (RV only; unchanged)",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "Ruggieri et al. 2026, A&A accepted (arXiv:2607.09320), Sect. 4 and App. A, fit of 171 HARPS spectra: P 1529 +/- 13 d, e 0.160 +0.069/-0.064, m sin i 56.1 +/- 6.5 M-earth -- NOT YET IN THE NASA ARCHIVE (NASA Exoplanet Archive pscomppars, queried 2026-09-27, still Stassun et al. 2017: 1733 d, 73.1 M-earth). a DERIVED (Kepler III, M = 0.58 M-sun, Stassun et al. 2017, the mass that reproduces the paper's m sin i), not in the paper. CORRECTED 27 Sep 2026: 1733 d / 2.56 au / e 0.37 was Dumusque et al. 2011's orbit, paired with Stassun et al. 2017's 73.1 M-earth.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2607.09320",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Ruggieri et al. 2026 refit HD 204941 b with 171 HARPS spectra, ten times Dumusque et al. 2011's 17: P = 1529 +/- 13 d, e = 0.160, m sin i = 56.1 M-earth. The sheet's 1733 d / e 0.37 is the 2011 orbit, and its 73.1 M-earth is Stassun et al. 2017's rescaling of it.",
+      "confidence": "medium",
+      "notes": "The paper is accepted but not yet published and not in the NASA archive; pscomppars still has P = 1733 d (Stassun 2017 / Dumusque 2011). The paper states a and m sin i were 'derived using the stellar mass' taken from the most recent work per target, but does not print a for this planet (the machine-readable tables are at CDS and not yet in VizieR). My derived a assumes 0.58 M-sun. The sheet's host mass is 0.74 (Dumusque). If the writer keeps 0.74, a becomes 2.35 au and m sin i would scale to about 66.9 M-earth, which is no longer the paper's value; the choice of host mass should be made once for the row and the Systems tab. Ruggieri also report a doubtful 28.7 d candidate (HD 204941.01, m sin i 5.4 M-earth) that they do not include in the final model. Do not add it. The paper calls HD 204941 'the primary component of this binary K star' (already raised by B10)."
+    },
+    {
+      "name": "TOI-2134 c",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 95.85284,
+        "Semi-major axis (au)": 0.3715,
+        "Eccentricity": 0.3125,
+        "Mass (M-earth)": 41.89,
+        "Mass type": "Mass",
+        "Radius (R-earth)": "",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26: P Rescigno et al. 2026; a Rescigno et al. 2026; e Rescigno et al. 2026"
+      },
+      "fields": {
+        "Mass (M-earth)": {
+          "value": 58.3,
+          "source": "Rescigno et al. 2026, MNRAS 550, stag1265 (doi:10.1093/mnras/stag1265), abstract and planet-c parameter table: M_c = 58.3 +/- 1.9 M-earth",
+          "url": "https://arxiv.org/abs/2607.01027",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 7.35,
+          "source": "Rescigno et al. 2026, MNRAS 550, stag1265 (doi:10.1093/mnras/stag1265), abstract and planet-c parameter table: R_c = 7.35 +/- 0.18 R-earth",
+          "url": "https://arxiv.org/abs/2607.01027",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Rescigno et al. 2026, MNRAS 550, stag1265 (doi:10.1093/mnras/stag1265), abstract and planet-c parameter table: transiting, true mass (unchanged)",
+          "url": "https://arxiv.org/abs/2607.01027",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Rescigno et al. 2026; a Rescigno et al. 2026; e Rescigno et al. 2026; M and R Rescigno et al. 2026. CORRECTED 27 Sep 2026: mass 41.89 M-earth was Rescigno et al. 2024's (MNRAS 527, 5385), paired with the 2026 orbit; Rescigno et al. 2026 (MNRAS 550, stag1265) give 58.3 +/- 1.9 M-earth.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2607.01027",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The sheet already has Rescigno et al. 2026's orbit but still carries the 2024 paper's mass (41.89 M-earth, from a bimodal-eccentricity fit). The 2026 paper, NASA's default, gives 58.3 +/- 1.9 M-earth and R = 7.35 R-earth.",
+      "confidence": "high",
+      "notes": "P (95.852840 d), a (0.3715 au) and e (0.3125 +/- 0.01) on the sheet already match the 2026 paper's table. The 2026 paper resolves the 2024 eccentricity bimodality (2024 e = 0.67). The Radius (R-Jup) cell should follow the new R-earth. The Systems tab text 'TOI-2134 c:41.89' also needs updating."
+    },
+    {
+      "name": "TOI-4438 b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 7.446295,
+        "Semi-major axis (au)": 0.0523,
+        "Eccentricity": 0.07,
+        "Mass (M-earth)": 5.4,
+        "Mass type": "Mass",
+        "Radius (R-earth)": "",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26: P Serrano Bell et al. 2026; a Serrano Bell et al. 2026; e Serrano Bell et al. 2026"
+      },
+      "fields": {
+        "Mass (M-earth)": {
+          "value": 4.11,
+          "source": "Serrano Bell et al. 2026, A&A (accepted), abstract and joint-fit parameter table (Sect. 3.5 / 4): Mp = 4.11 +0.40/-0.38 M-earth",
+          "url": "https://arxiv.org/abs/2607.13333",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 2.4,
+          "source": "Serrano Bell et al. 2026, A&A (accepted), abstract and joint-fit parameter table (Sect. 3.5 / 4): Rp = 2.40 +0.09/-0.10 R-earth",
+          "url": "https://arxiv.org/abs/2607.13333",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Serrano Bell et al. 2026, A&A (accepted), abstract and joint-fit parameter table (Sect. 3.5 / 4): transiting, true mass (unchanged)",
+          "url": "https://arxiv.org/abs/2607.13333",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Serrano Bell et al. 2026; a Serrano Bell et al. 2026; e Serrano Bell et al. 2026; M and R Serrano Bell et al. 2026. CORRECTED 27 Sep 2026: mass 5.4 M-earth was Goffo et al. 2024's, paired with the 2026 orbit; Serrano Bell et al. 2026 (A&A, accepted; arXiv:2607.13333) give 4.11 +0.40/-0.38 M-earth.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2607.13333",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The orbit on the sheet is already Serrano Bell et al. 2026's, but the mass is Goffo et al. 2024's 5.4 M-earth. Serrano Bell et al. 2026 (NASA default; CARMENES + 81 SPIRou RVs + 5 TESS sectors) give 4.11 +0.40/-0.38 M-earth and R = 2.40 R-earth.",
+      "confidence": "high",
+      "notes": "The paper is accepted to A&A (arXiv comments) but NASA cites it as an arXiv preprint. P 7.446295 d, a 0.0523 au and e 0.07 (+0.07/-0.05) on the sheet match the paper. The 4.11 value agrees with Goffo's 5.4 +/- 1.1 within 1.1 sigma (paper's own statement). The Radius (R-Jup) cell and the Systems tab text 'TOI-4438 b:5.40' should follow."
+    },
+    {
+      "name": "TOI-2427 b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Orbital period (d)": 1.3060011,
+        "Semi-major axis (au)": 0.0202,
+        "Eccentricity": "",
+        "Mass (M-earth)": "",
+        "Mass type": "",
+        "Radius (R-earth)": 1.8046329,
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 1.305962,
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): P = 1.305962 +0.000071/-0.000070 d (Table 3)",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 0.0202,
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): a = 0.0202 +0.0013/-0.0012 au (Table 4; unchanged)",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.074,
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): e = 0.074 +0.076/-0.052 (Table 4), consistent with zero",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 5.69,
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): Mp = 5.69 +0.51/-0.50 M-earth (Table 4)",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): transiting planet, RV mass",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 1.64,
+          "source": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (TESS + HARPS joint fit): Rp = 1.64 +0.12/-0.11 R-earth (Table 4)",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4, TESS + HARPS joint fit: P, a, e, M, R -- NOT IN THE NASA ARCHIVE (NASA Exoplanet Archive pscomppars, queried 2026-09-27, still Giacalone et al. 2022, radius only, mass from an M-R relation). CORRECTED 27 Sep 2026: mass was blank; radius 1.80 R-earth was Giacalone et al. 2022's validation value.",
+          "source": "composed from the sources above",
+          "url": "https://doi.org/10.1051/0004-6361/202452620",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Schmerling et al. 2025 confirm TOI-2427 b with HARPS RVs and measure Mp = 5.69 +0.51/-0.50 M-earth and Rp = 1.64 R-earth. The mass cell is empty and the radius is Giacalone et al. 2022's 1.80 R-earth, so take the whole row from Schmerling's single solution.",
+      "confidence": "high",
+      "notes": "Full text read from the Chalmers repository copy of the version of record: https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf (the A&A site served a captcha). The NASA archive has not ingested this paper: pscomppars gives P 1.306 d (Giacalone 2022), R 1.8, and M 3.89 labelled 'M-R relationship'. Schmerling's P differs from Giacalone's 1.3060011 by 0.55 sigma of Schmerling's own error. I recommend taking P from Schmerling for one-paper consistency; keeping Giacalone's more precise P would also be defensible. Stellar mass 0.648 M-sun (Schmerling Table 1); Kepler III gives 0.0202 au. Schmerling also find a non-transiting TOI-2427 c (see incidental finds). The Systems tab text 'TOI-2427 b:—' and its empty Mass type should become 'TOI-2427 b:5.69' / 'Mass'. The Radius (R-Jup) cell should follow."
+    },
+    {
+      "name": "GJ 341 b",
+      "tab": "Planets within 100 ly",
+      "action": [
+        "mark_limit",
+        "correct_values"
+      ],
+      "current": {
+        "Orbital period (d)": 7.57686,
+        "Semi-major axis (au)": "",
+        "Eccentricity": "",
+        "Mass (M-earth)": 4,
+        "Mass type": "Mass",
+        "Radius (R-earth)": "",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26: P DiTomasso et al. 2025"
+      },
+      "fields": {
+        "Mass (M-earth)": {
+          "value": 4.0,
+          "source": "DiTomasso et al. 2025, ApJ 979, 214, Table 2 (TESS column) and Sect. 5.2: 'Mp < 4.0 M-earth (3 sigma) and < 2.9 M-earth (1 sigma)', an UPPER LIMIT from 57 HARPS RVs, not a measurement. NASA pl_bmasselim = 1",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass (upper limit)",
+          "source": "DiTomasso et al. 2025, ApJ 979, 214, Table 2 (TESS column) and Sect. 5.2: the upper limit is on the true mass (transiting planet)",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 0.88,
+          "source": "DiTomasso et al. 2025, ApJ 979, 214, Table 2 (TESS column) and Sect. 5.2: Rp = 0.88 +/- 0.05 R-earth (TESS)",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0,
+          "source": "DiTomasso et al. 2025, ApJ 979, 214, Table 2 (TESS column) and Sect. 5.2: e fixed at 0",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 0.0591,
+          "source": "DERIVED from DiTomasso et al. 2025, ApJ 979, 214, Table 2 (TESS column) and Sect. 5.2 P = 7.576860 d and Table 1 M* = 0.48 +/- 0.03 M-sun",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": true,
+          "method": "Kepler III: a = ((7.57686/365.25)^2 x 0.48)^(1/3) = 0.0591 au (+/-0.0012 from the stellar-mass error). Cross-check: a/R* = 24.5 (Table 2) x R* 0.5066 R-sun = 0.0577 au."
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P DiTomasso et al. 2025; e FIXED at 0; a DERIVED (Kepler III, paper's M = 0.48 M-sun), not in the archive. Mass is a 3-sigma UPPER LIMIT (< 4.0 M-earth; < 2.9 at 1 sigma) from HARPS RVs (DiTomasso et al. 2025, ApJ 979, 214), not a measurement -- WEAK",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2502.07867",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The 4 M-earth on the sheet is DiTomasso et al. 2025's 3-sigma upper limit (paper title: 'an Upper Limit to the Mass of Its Transiting Earth-sized Planet'), stored as if it were a measured mass. Keep 4.0 as the number, mark it as an upper limit in Mass type and the flags text, and fill the blank radius (0.88 R-earth).",
+      "confidence": "high",
+      "notes": "Limit kind: 3-sigma upper limit on the true mass (the 1-sigma limit is 2.9 M-earth), from injection-recovery on HARPS RVs after modelling the star's magnetic cycle. How to show it: keep the numeric 4.0 in Mass (M-earth) so the M-Jup cell still computes; change Mass type to 'Mass (upper limit)'; put UPPER LIMIT in the flags text; and on the Systems tab write 'GJ 341 b:<4.00'. No script in the repo reads the Mass type column (grep of star_analysis/ found no use), so a new label is safe. If the writer would rather keep the column's existing vocabulary, leave Mass type 'Mass' and rely on the flags text. The archive gives no a; mine is derived and should carry the orange border."
+    },
+    {
+      "name": "GJ 508.2 b",
+      "tab": "Planets within 100 ly",
+      "action": "mark_limit",
+      "current": {
+        "Orbital period (d)": 5300,
+        "Semi-major axis (au)": 4.85,
+        "Eccentricity": "",
+        "Mass (M-earth)": 588,
+        "Mass type": "Msini",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26: P Morales et al. 2025; a Morales et al. 2025. P and a are archive LOWER LIMITS -- WEAK"
+      },
+      "fields": {
+        "Orbital period (d)": {
+          "value": 5300,
+          "source": "Morales et al. 2025, A&A 700, A242, Table 4 (last column) and Sect. 5.5: P > 5300 d (5 ln L threshold; periods above ~6000 d fit equally well). LOWER LIMIT; NASA pl_orbperlim = -1",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 4.85,
+          "source": "Morales et al. 2025, A&A 700, A242, Table 4 (last column) and Sect. 5.5: a > 4.85 au. LOWER LIMIT; NASA pl_orbsmaxlim = -1",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        },
+        "Eccentricity": {
+          "value": 0.27,
+          "source": "Morales et al. 2025, A&A 700, A242, Table 4 (last column) and Sect. 5.5: e > 0.27. LOWER LIMIT; NASA pl_orbeccenlim = -1",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 588,
+          "source": "Morales et al. 2025, A&A 700, A242, Table 4 (last column) and Sect. 5.5: m sin i > 1.85 MJup (NASA 587.983 M-earth). LOWER LIMIT; NASA pl_bmasselim = -1",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Msini (lower limit)",
+          "source": "Morales et al. 2025, A&A 700, A242, Table 4 (last column) and Sect. 5.5: RV minimum mass, itself only a lower bound",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Morales et al. 2025; a Morales et al. 2025; e Morales et al. 2025. P, a, e and m sin i are all LOWER LIMITS (Morales et al. 2025, A&A 700, A242, Table 4 and Sect. 5.5: P > 5300 d, a > 4.85 au, e > 0.27, m sin i > 1.85 MJup); the orbit is not closed in 3100 d of CARMENES RVs -- WEAK. Gaia DR3 excess noise gives 6.0 +0.7/-1.2 MJup, valid only at the minimum period (Sect. 6).",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2507.15516",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Every orbital number for GJ 508.2 b is a lower limit: the CARMENES RVs cover 3100 d and do not close the orbit. The sheet already flags P and a, but not the mass (588 M-earth = m sin i > 1.85 MJup) or the eccentricity (> 0.27, currently blank).",
+      "confidence": "high",
+      "notes": "Limit kinds: P, a, e and m sin i are all lower limits (Morales Table 4 prints '>5300', '>4.85', '>0.27', '>1.85'; NASA flags all four with lim = -1). How to show them: keep 5300 / 4.85 / 588 as numbers so the downstream columns still compute, add e = 0.27 (as a lower limit, or leave blank if a limit should not feed the velocity columns; the writer's call), change Mass type to 'Msini (lower limit)', and name all four in the flags text. On the Systems tab write 'GJ 508.2 b:>588 (>1.85 MJ)'. Do not replace the mass with the astrometric 6.0 +0.7/-1.2 MJup (1907 M-earth): Morales et al. say it assumes the minimum period and 'the mass estimate is not as robust'. Systems-tab host mass is blank; Morales Table 1 gives 0.54 +/- 0.12 M-sun."
+    },
+    {
+      "name": "TOI-5388 01",
+      "new_name": "TOI-5388 b",
+      "tab": "Planets within 100 ly",
+      "action": [
+        "rename",
+        "mark_limit"
+      ],
+      "current": {
+        "Planet": "TOI-5388 01",
+        "Orbital period (d)": 2.5946748,
+        "Semi-major axis (au)": 0.024335855,
+        "Eccentricity": "",
+        "Mass (M-earth)": 2.2,
+        "Mass type": "Mass",
+        "Radius (R-earth)": "",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26 as TOI-5388.01: P Poultourtzidis et al. 2026; a Hord et al. 2024"
+      },
+      "fields": {
+        "Planet": {
+          "value": "TOI-5388 b",
+          "source": "Poultourtzidis et al. 2026, abstract: 'The third planet, TOI-5388 b, is Earth-sized'",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        },
+        "Orbital period (d)": {
+          "value": 2.5946748,
+          "source": "Poultourtzidis et al. 2026, A&A (accepted), 'Results of the joint fit models for the planets' table and Sect. 7.1: P = 2.5946748 +0.0000042/-0.0000030 d (unchanged)",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-earth)": {
+          "value": 2.2,
+          "source": "Poultourtzidis et al. 2026, A&A (accepted), 'Results of the joint fit models for the planets' table and Sect. 7.1: 'Mp < 2.2 M-earth (3 sigma)', an UPPER LIMIT, not a measurement. NASA pl_bmasselim = 1",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "Mass (upper limit)",
+          "source": "Poultourtzidis et al. 2026, A&A (accepted), 'Results of the joint fit models for the planets' table and Sect. 7.1: the limit is on the true mass (transiting planet)",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 0.99,
+          "source": "Poultourtzidis et al. 2026, A&A (accepted), 'Results of the joint fit models for the planets' table and Sect. 7.1: Rp = 0.99 +0.07/-0.06 R-earth",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        },
+        "Semi-major axis (au)": {
+          "value": 0.0245,
+          "source": "DERIVED from Poultourtzidis et al. 2026, A&A (accepted), 'Results of the joint fit models for the planets' table and Sect. 7.1 P and host mass M* = 0.292 +/- 0.018 M-sun (the paper's stellar-parameter table)",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": true,
+          "method": "Kepler III: a = ((2.5946748/365.25)^2 x 0.292)^(1/3) = 0.02452 au (0.0240-0.0250 for M* +/- 0.018). The sheet's 0.024336 is Hord et al. 2024's value for M* = 0.286."
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27 as TOI-5388.01: P Poultourtzidis et al. 2026; R Poultourtzidis et al. 2026; a DERIVED (Kepler III, paper's M = 0.292 M-sun). Mass is a 3-sigma UPPER LIMIT (< 2.2 M-earth) from CARMENES RVs (Poultourtzidis et al. 2026, A&A accepted, arXiv:2601.07414), not a measurement -- WEAK. RENAMED 27 Sep 2026: the paper confirms and names it TOI-5388 b (host Wolf 346); the archive still lists TOI-5388.01.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2601.07414",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Poultourtzidis et al. 2026 confirm the planet and name it TOI-5388 b. Its 2.2 M-earth is their 3-sigma upper limit, not a mass, and they measure R = 0.99 R-earth (Hord et al. 2024's 1.89 came from a QLP ExoFOP entry, per the paper). Rename the row, mark the mass as a limit, and fill in the radius.",
+      "confidence": "high",
+      "notes": "Name check: no other row on any tab uses 'TOI-5388 b'. 'TOI-5388 01' also appears in the Systems tab 'Planet masses (M-earth)' text (row 295: 'TOI-5388 01:2.20', which should become 'TOI-5388 b:<2.20'), in the Sources & Provenance alias list (row 4100: 'TOI-5388 01 = TOI-5388.01'), and in Legend & Notes row 54 ('TOI-5388.01'). The archive disagrees with the paper on the name: pscomppars still has pl_name 'TOI-5388.01'. Limit: 3-sigma upper limit on the true mass (K = 0.44 +0.48/-0.30 m/s); the 3-sigma density limit is 2.2 rho-earth. How to show it: keep 2.2 numeric, Mass type 'Mass (upper limit)', UPPER LIMIT in the flags text. The Systems-tab host mass for TOI-5388 is blank; the paper gives 0.292 +/- 0.018 M-sun. The a change (0.02434 to 0.02452) is small; the writer may keep Hord's a if they prefer not to add a derived cell."
+    },
+    {
+      "name": "WD 1856+534 b",
+      "tab": "Planets within 100 ly",
+      "action": "correct_values",
+      "current": {
+        "Mass (M-earth)": 4386,
+        "Mass (M-Jup)": 13.79991693620449,
+        "Mass type": "Mass",
+        "Radius (R-earth)": 10.4018592,
+        "Orbital period (d)": 1.4079405,
+        "Semi-major axis (au)": 0.0204,
+        "Eccentricity": 0,
+        "OEC mass (M-Jup) -- cross-check": 13.8,
+        "Orbit data source / flags": "OEC 2026-07-31; >13 MJ - likely BD",
+        "Systems within 100 ly row 11, Planet masses (M-earth)": "WD 1856+534 b:4386 [>13 MJ - likely BD]",
+        "Multi-stars within 100 ly rows 76, 77, 78, Planet masses (M-earth)": "WD 1856+534 b:4386 [>13 MJ - likely BD]"
+      },
+      "fields": {
+        "Mass (M-earth)": {
+          "value": 2129.4,
+          "source": "MacDonald et al. 2026, Nature (doi:10.1038/s41586-026-10514-7), JWST NIRSpec PRISM transmission spectrum, abstract and main text: 'first constrained measurement of WD 1856 b's mass: 4.3-10.9 MJ (1 sigma spread across both data reductions, or 6.7 +2.8/-2.4 MJ for FIREFLy and 7.8 +3.1/-2.7 MJ for Juniper)'. Value is the FIREFLy 6.7 MJup",
+          "url": "https://arxiv.org/abs/2607.01316",
+          "derived": true,
+          "method": "unit conversion, 6.7 MJup x 317.828 = 2129.4 M-earth. The paper adopts no single number; FIREFLy is the first-listed reduction."
+        },
+        "Mass type": {
+          "value": "Mass",
+          "source": "MacDonald et al. 2026, Nature (doi:10.1038/s41586-026-10514-7), JWST NIRSpec PRISM transmission spectrum, abstract and main text (true mass from atmospheric scale height; unchanged)",
+          "url": "https://arxiv.org/abs/2607.01316",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Vanderburg et al. 2020; a Vanderburg et al. 2020; e Vanderburg et al. 2020. Mass from MacDonald et al. 2026, Nature (arXiv:2607.01316), JWST NIRSpec transmission spectrum: 4.3-10.9 MJup (1 sigma across two reductions; 6.7 +2.8/-2.4 MJup FIREFLy); ~24 MJup ruled out at > 3 sigma, > 13 MJup not excluded at 2 sigma. Limbach et al. 2025 (ApJL 984, L28; JWST MIRI thermal emission) confirmed it a planet, no more than ~6 MJup. NOT IN pscomppars, which still carries Vanderburg et al. 2020's 13.8 MJup, a 95% upper limit, as a mass. CORRECTED 27 Sep 2026: '>13 MJ - likely BD' was stale.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2607.01316",
+          "derived": false,
+          "method": null
+        },
+        "Systems within 100 ly row 11 and Multi-stars within 100 ly rows 76-78: Planet masses (M-earth)": {
+          "value": "WD 1856+534 b:2129 (6.70 MJ)",
+          "source": "same as Mass (M-earth); format copied from 'eps Ind A b:2066 (6.50 MJ)'",
+          "url": "https://arxiv.org/abs/2607.01316",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The 4386 M-earth (13.8 MJup) and 'likely BD' come from Vanderburg et al. 2020, whose 13.8 MJup is a 95% upper limit, not a mass. Two JWST papers since then call it a planet: Limbach et al. 2025 (MIRI emission, no more than ~6 MJup) and MacDonald et al. 2026 (Nature, NIRSpec), the first direct mass constraint, 4.3-10.9 MJup. Replace the mass and drop the 'likely BD' flag.",
+      "confidence": "medium",
+      "notes": "Stale flag cells: Planets within 100 ly row 517 'Orbit data source / flags' ('OEC 2026-07-31; >13 MJ - likely BD'); Systems within 100 ly row 11 'Planet masses (M-earth)'; Multi-stars within 100 ly rows 76, 77 and 78 'Planet masses (M-earth)' (the same text repeated on the WD row and both G 229-20 companion rows). I checked every cell on every tab whose row mentions WD 1856 for 'BD'/'brown dwarf' and found only these five. Row 517's 'Mass (M-Jup)' (13.80) and 'OEC mass (M-Jup) -- cross-check' / 'Mass agreement' cells will change with the mass. The two JWST papers disagree. Limbach et al. 2025 (arXiv:2504.16982, Table 1 and Sect. IV.3) measure a 186 K mid-IR brightness temperature and, from cooling models, 5.2 +0.7/-0.8 MJup if insolation is negligible, or 0.84-5.9 MJup otherwise; NASA ps holds this as 1652.7 M-earth, default_flag 0. MacDonald et al. 2026 (published in Nature, 1 Jul 2026) retrieve the mass from the spectrum's scale height, find a nightside T_eff of 390-412 K, and so argue for a later reheating event, which undercuts a passive-cooling mass. I recommend MacDonald as the latest refereed and more direct constraint. Because the paper gives a range, not one adopted value, confidence is medium; Limbach's 5.2 MJup (1652.7 M-earth) is the alternative. Either way the planet is below 13 MJup at 1 sigma, though MacDonald note it 'may be above ... 13 MJ within 2 sigma'. The flags text says so, so the row does not swing from 'likely BD' to certainly-planet. Leave P, a, e and R as Vanderburg's, consistent with the sheet's 0.52 M-sun host mass; Limbach's a = 0.02085 au uses a 0.605 M-sun white dwarf."
+    },
+    {
+      "name": "TOI-836 01",
+      "new_name": "TOI-836 c",
+      "tab": "Planets within 100 ly",
+      "action": [
+        "rename",
+        "correct_values"
+      ],
+      "current": {
+        "Planet": "TOI-836 01",
+        "Orbital period (d)": 8.59545,
+        "Semi-major axis (au)": 0.075,
+        "Eccentricity": 0.078,
+        "Mass (M-earth)": 9.6,
+        "Mass type": "Mass",
+        "Radius (R-earth)": "",
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26 as TOI-836.01: P Hawthorn et al. 2023; a Hawthorn et al. 2023; e Hawthorn et al. 2023"
+      },
+      "fields": {
+        "Planet": {
+          "value": "TOI-836 c",
+          "source": "Hawthorn et al. 2023, MNRAS 520, 3649, Table 8 ('Identifier TOI-836.02 / TOI-836.01' under 'TOI-836 b / TOI-836 c'); abstract: 'The outer planet, TOI-836 c, is a 2.59 +/- 0.09 R-earth mini-Neptune in an 8.60 day orbit'",
+          "url": "https://arxiv.org/abs/2208.07328",
+          "derived": false,
+          "method": null
+        },
+        "Radius (R-earth)": {
+          "value": 2.587,
+          "source": "Hawthorn et al. 2023, MNRAS 520, 3649, Table 8 ('Identifier TOI-836.02 / TOI-836.01' under 'TOI-836 b / TOI-836 c'): R = 2.587 +/- 0.088 R-earth",
+          "url": "https://arxiv.org/abs/2208.07328",
+          "derived": false,
+          "method": null
+        },
+        "Orbit data source / flags": {
+          "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27 as TOI-836.01: P Hawthorn et al. 2023; a Hawthorn et al. 2023; e Hawthorn et al. 2023. RENAMED 27 Sep 2026: Hawthorn et al. 2023 (MNRAS 520, 3649, Table 8) confirm TOI-836.01 as TOI-836 c; the archive still lists it as TOI-836.01.",
+          "source": "composed from the sources above",
+          "url": "https://arxiv.org/abs/2208.07328",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Hawthorn et al. 2023 confirm TOI-836.01 as TOI-836 c (8.595 d, 9.6 M-earth, 2.587 R-earth); the inner 3.82 d planet, TOI-836.02, is b. The row's values are already Hawthorn's; only the name changes, plus the blank radius.",
+      "confidence": "high",
+      "notes": "Name check: no row on any tab uses 'TOI-836 c'. The existing 'TOI-836 b' row (row 161: 3.81673 d, 4.53 M-earth) is Hawthorn's b, so there is no clash. Other cells carrying the old name: Systems within 100 ly row 94 'Planet masses (M-earth)' ('TOI-836 01:9.60', which becomes 'TOI-836 c:9.60'), and the Sources & Provenance alias list (row 4100: 'TOI-836 01 = TOI-836.01'). The archive disagrees with the paper on the name: pscomppars pl_name is still 'TOI-836.01' (NASA ps rows too). Values: P 8.59545 +/- 0.00001 d, a 0.0750 +/- 0.0016 au, e 0.078 +/- 0.056, M 9.6 +2.7/-2.5 M-earth all match the sheet. Hawthorn report ~20 min TTVs for c (abstract); NASA ps has no later mass, and a web search found none. The Radius (R-Jup) cell should follow."
+    }
+  ],
+  "incidental_finds": [
+    "14 Her b is also a hybrid: the row has P 1766 d / a 2.864 au / e 0.359 (Gozdziewski et al. 2008 values in NASA ps) with Bardalez Gagliuffi et al. 2025's 2829 M-earth mass. NASA pscomppars: P 1766.41 d (Rosenthal et al. 2021), a 2.839 au, e 0.3683, 2828.67 M-earth (Bardalez Gagliuffi et al. 2025, ApJL 988, L18, Table 1). https://arxiv.org/abs/2506.09201",
+    "GJ 3929 b is also a hybrid: the row has R 1.15 R-earth and a 0.02569 au from Kemmer et al. 2022 with Beard et al. 2022's 1.75 M-earth. Beard et al. 2022 Table 5: P 2.616235 d, a 0.0252 au, R 1.09 R-earth, M 1.75 M-earth (NASA default). https://arxiv.org/abs/2207.10672",
+    "TOI-2134 b mass on the sheet (9.13 M-earth) is Rescigno et al. 2024's; Rescigno et al. 2026 (MNRAS 550, stag1265) give 9.37 +/- 0.54 M-earth and R 2.735 +/- 0.068 R-earth (NASA default); the row's orbit is already 2026. https://arxiv.org/abs/2607.01027",
+    "TOI-2427 c is missing from the sheet: Schmerling et al. 2025 (A&A 699, A185, Tables 3-4) report a non-transiting second planet, P = 5.150 +/- 0.011 d, m sin i = 6.46 +0.79/-0.78 M-earth, a = 0.05 +/- 0.01 au, e = 0.089 +0.116/-0.062, and call it TOI-2427 c. The NASA archive does not list it (pscomppars and ps queried 2026-09-27). https://doi.org/10.1051/0004-6361/202452620",
+    "HD 150706 Systems-tab host mass is 0.94 M-sun; the stellar mass behind both published orbits (Boisse et al. 2012 and Xiao et al. 2023) is 1.17 M-sun (NASA ps st_mass for both rows; Xiao's a and P also imply 1.17). Worth checking which the sheet should carry. https://arxiv.org/abs/2303.12409",
+    "HD 134060 b differs slightly from Udry et al. 2019 Table 11: sheet P 3.27 d / e 0.4 vs 3.2696 d / e 0.45 +/- 0.04 (OEC rounding). https://arxiv.org/abs/1705.05153",
+    "Systems-tab host masses are blank for TOI-5388 (0.292 +/- 0.018 M-sun, Poultourtzidis et al. 2026), GJ 508.2 (0.54 +/- 0.12, Morales et al. 2025 Table 1), TOI-4438 (0.345, Serrano Bell et al. 2026 per NASA st_mass), TOI-2134 (0.744, Rescigno et al. 2026 per NASA st_mass) and HD 134060 (1.095, Udry et al. 2019 per NASA st_mass).",
+    "NASA pscomppars quirks worth knowing: 14 Her c is stored with pl_name 'HD 145675 c' and pairs Feng et al. 2022's P with Bardalez Gagliuffi et al. 2025's a; WD 1856+534 b's 4386 M-earth (Vanderburg et al. 2020, a 95% upper limit per the Nature abstract) has pl_bmasselim = 0. https://arxiv.org/abs/2009.07282",
+    "eps Ind A Systems-tab host mass is 0.762 M-sun; Sanghi et al. 2026's fiducial fit gives M_A = 0.80 +/- 0.02 M-sun (Table B2) and Matthews et al. 2026 0.781. Minor. https://arxiv.org/abs/2603.08787"
+  ]
+}

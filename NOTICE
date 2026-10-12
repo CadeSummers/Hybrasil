@@ -1,0 +1,32 @@
+Hybrasil Star and Exoplanet Map
+Copyright (c) 2026 Cade Summers
+https://hybrasil.app
+
+The code is licensed under the GNU Affero General Public License, version 3
+or (at your option) any later version. See LICENSE.
+
+The compiled dataset, the Hybrasil Star and Exoplanet Dataset, is licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International licence.
+See LICENSE-DATA. It covers the workbook snapshots and the research data in
+data/. The scripts in data/ are code, and are AGPL-3.0-or-later like the rest;
+each carries an SPDX header saying so.
+
+Values taken from other catalogues and archives keep their own terms. They are
+listed in THIRD_PARTY_NOTICES.md.
+
+
+How to attribute
+----------------
+
+When you use the data, credit it like this:
+
+    Data: Hybrasil Star and Exoplanet Dataset by Cade Summers, CC BY-SA 4.0,
+    https://hybrasil.app
+
+Once a dataset DOI has been minted, use it in place of the URL. CITATION.cff
+gives the full citation for both the software and the dataset.
+
+When you share an adapted version of the dataset, CC BY-SA 4.0 requires you to
+release it under the same licence and to say that you changed it. When you run
+a modified version of the software as a network service, AGPL-3.0 requires you
+to offer its users the modified source.

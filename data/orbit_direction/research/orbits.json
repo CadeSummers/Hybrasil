@@ -1,0 +1,636 @@
+{
+  "agent": "orbits",
+  "retrieved": "2026-10-10",
+  "method_note": "Planets in planets_for_research.json (Planets + Unconfirmed within 100 ly) were swept for orbit-orbit misalignment literature via SIMBAD TAP (ref/has_ref abstracts with keywords mutual inclination / retrograde / polar / misaligned / non-coplanar) and targeted arXiv/web searches; key papers were downloaded from arXiv and read with pdftotext (values with garbled errors re-read from arXiv HTML TeX). angle_deg is the 3D mutual inclination between the planet's orbit and the stated reference plane, as published (never derived here). Classes: prograde < 70, polar 70-110, retrograde > 110 deg; 'unclear' when the published constraint spans bins or is bimodal. Evidence: strong = multiple independent analyses or tight limits; substantial = >= ~2 sigma or the paper's preferred solution; weak = hint, point value without error, or unconfirmed planet.",
+  "planets": {
+    "nu Oct A b": {
+      "host": "nu Oct A",
+      "reference": "binary orbit",
+      "angle_deg": {
+        "value": 174.1,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2026A&A...712A.247C",
+        "where": "Sect. 4 (inclined case): best low-diffusion fit i = 174.1 deg, Omega = 286.7 deg, relative to the nu Oct B orbit; no error bar quoted. Sect. 5: ~90% of low-diffusion solutions have i >= 170 deg; stable inclined orbits only for i > 160 deg."
+      },
+      "paper_wording": {
+        "quote": "Stable fits to all radial velocity data require the planetary orbit to be retrograde and practically coplanar.",
+        "bibcode": "2025Natur.641..866C",
+        "where": "Abstract (Nature; full text paywalled, abstract read on nature.com)",
+        "also": [
+          {
+            "quote": "the first conjectured circumstellar planet demanding an orbit retrograde to the stellar orbits",
+            "bibcode": "2021MNRAS.502.2793R",
+            "where": "Abstract"
+          },
+          {
+            "quote": "a retrograde S-type planet orbiting near the edge of stability",
+            "bibcode": "2026A&A...712A.247C",
+            "where": "Abstract"
+          }
+        ]
+      },
+      "class": "retrograde",
+      "evidence": "strong",
+      "class_basis": "Retrograde relative to the orbit of the stellar companion nu Oct B (an S-type planet orbiting nu Oct A, not relative to stellar spin). Prograde orbits are dynamically impossible (Ramm et al. 2021 Sect. 1); Cheng et al. 2025 (Nature) find stable RV fits only for a retrograde, practically coplanar orbit and a stability boundary i > 160 deg (as summarised in Signor et al. 2026 Sect. 4); Signor et al. 2026 adopt a coplanar retrograde orbit (mutual inclination 180 deg) and in the inclined case find stable solutions only above 160 deg, ~90% at >= 170 deg. Earlier: Ramm et al. 2016 N-body MCMC mutual inclination 152.5 +0.7/-0.6 deg, but none of those samples stable beyond 1e6 yr (2016MNRAS.460.3706R abstract); Gozdziewski et al. 2013 stable only above ~165 deg.",
+      "binary_elements": {
+        "Ramm2009_via_Signor2026": {
+          "I2_deg": "70.8 +/- 0.9",
+          "Omega2_deg": "87 +/- 1",
+          "m2_Msun": "0.585 +/- 0.003",
+          "source": "Ramm et al. 2009 as quoted in 2026A&A...712A.247C Sect. 2"
+        },
+        "Cheng2025_adopted": {
+          "I2_deg": 71.8,
+          "Omega2_deg": 86.5,
+          "a2_au": 2.61,
+          "e2": 0.237,
+          "m2_Msun": 0.57,
+          "note": "secondary identified as a white dwarf",
+          "source": "2026A&A...712A.247C Sect. 1-2 quoting Cheng et al. 2025"
+        },
+        "planet_sky_frame_if_coplanar_retrograde": {
+          "I1_deg": 108.2,
+          "Omega1_deg": 266.5,
+          "source": "2026A&A...712A.247C Sect. 2 (Eqs. A.1, A.4)"
+        }
+      },
+      "notes": "Ramm et al. 2021 (MNRAS 502, 2793) is an activity analysis; it defines 'type-2 retrograde' = retrograde relative to the two stellar orbits and gives no new mutual-inclination value (its Table 2 summarises R09/R16/Gozdziewski 2013 and notes Quarles 2012 and Gozdziewski 2013 favour a coplanar orbit 'which R16 could not confirm'). Sky-plane I1 = 108.2 deg is NOT itself the retrograde evidence; the retrograde statement is about the mutual inclination with the binary. Signor et al. 2026 bibcode first-author initial is 'C' (Cefali Signor). Planet's secondary B is a white dwarf (Cheng et al. 2025)."
+    },
+    "GJ 896 A b": {
+      "host": "GJ 896 A",
+      "reference": "binary orbit",
+      "angle_deg": {
+        "value": 148,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2022AJ....164...93C",
+        "where": "Sect. 5.5 (Mutual Inclination Angle), Eq. 13; abstract. Alternative node (Omega_Ab + 180) gives 67 deg but is unstable within a few thousand yr (Sect. 5.6). No uncertainty quoted for Phi."
+      },
+      "paper_wording": {
+        "quote": "The planetary and binary orbits are found to be in a retrograde configuration",
+        "bibcode": "2022AJ....164...93C",
+        "where": "Abstract; also Sect. 6: 'consistent with both orbits being retrograde'"
+      },
+      "class": "retrograde",
+      "evidence": "substantial",
+      "class_basis": "Mutual inclination Phi = 148 deg between the planet's orbit around GJ 896 A and the GJ 896 AB binary orbit, from VLBA absolute + optical/IR relative astrometry. This is the paper's preferred solution, chosen over Phi = 67 deg on stability grounds (the node ambiguity of the planet is not broken by RVs). Rated substantial rather than strong because (a) no error on Phi is given while the planet's sky inclination is i_Ab = 69.20 +/- 25.61 deg and Omega_Ab = 45.62 +/- 9.60 deg (Sect. 4.5), (b) single-team, single-technique detection with no independent confirmation found.",
+      "binary_elements": {
+        "i_AB_deg": "130.0664 +/- 0.0085",
+        "Omega_AB_deg": "255.0891 +/- 0.0028 (node chosen with RVs: B receding)",
+        "P_AB_days": "83665.80 +/- 1.64 (229.06 yr)",
+        "a_AB_au": "31.615 +/- 0.028",
+        "source": "2022AJ....164...93C Sect. 4.4, Table 3 col. 2 (combined astrometric fit)",
+        "planet": {
+          "i_Ab_deg": "69.20 +/- 25.61",
+          "Omega_Ab_deg": "45.62 +/- 9.60",
+          "P_days": "284.39 +/- 1.47",
+          "e": "0.35 +/- 0.19",
+          "source": "Sect. 4.5, Table 3 col. 3"
+        }
+      },
+      "notes": "The binary's i > 90 deg in the sky frame only means clockwise on the sky; the retrograde claim rests on the 148 deg mutual inclination. Searches (SIMBAD refs, web) found no later paper confirming or disputing the planet or the angle."
+    },
+    "VHS J125601.92-125723.9 b": {
+      "host": "VHS J125601.92-125723.9",
+      "reference": "circumbinary binary",
+      "angle_deg": {
+        "value": 118,
+        "err_plus": 12,
+        "err_minus": 16,
+        "bibcode": "2024AJ....168..270P",
+        "where": "Table 3 (psi_AB-o, true deprojected orbit-orbit mutual inclination; mode and 68% HDI), Sect. 3.6. Dupuy et al. 2023 Sect. 6: 115 +/- 14 deg (2023MNRAS.519.1688D); Sect. 7 summary quotes 116 +/- 16 deg."
+      },
+      "paper_wording": {
+        "quote": "a retrograde, nearly polar tertiary orbits an extremely low-mass substellar binary",
+        "bibcode": "2026ApJ...998..122H",
+        "where": "Abstract (arXiv:2509.21452)",
+        "also": [
+          {
+            "quote": "misaligned (8 sigma) and also possibly pointing in opposite directions (1.8 sigma)",
+            "bibcode": "2023MNRAS.519.1688D",
+            "where": "Sect. 6"
+          }
+        ]
+      },
+      "class": "retrograde",
+      "evidence": "substantial",
+      "class_basis": "Wide planetary-mass companion (~400 au, 12-16 MJup) orbiting the barycentre of the brown-dwarf/very-low-mass binary VHS 1256 AB: a P-type (circumbinary) orbit with fully measured 3D orbits for both. Central values 115-118 deg are in the retrograde bin; misalignment is 8 sigma but 'opposite direction' (>90 deg) only 1.8 sigma, and the 1-sigma lower bound (~101-102 deg) reaches the polar bin, so retrograde-vs-near-polar is not settled.",
+      "binary_elements": {
+        "i_AB_deg": "118.7 +/- 1.0",
+        "a_AB_au": "1.96 +/- 0.03",
+        "P_AB_yr": "7.31 +/- 0.02",
+        "e_AB": "0.883 +/- 0.003",
+        "M_AB_Msun": "0.141 +/- 0.008",
+        "source": "2023MNRAS.519.1688D abstract/Sect. 3; i_AB as tabulated in 2024AJ....168..270P Table 3"
+      },
+      "notes": "Companion mass straddles the deuterium-burning limit (bimodal 12 / 16 MJup), listed as a planet in our table. Poon et al. 2024 also measure the companion's spin obliquity 90 +/- 25 deg (spin, not orbit; out of scope)."
+    },
+    "gam Cep b": {
+      "host": "gam Cep",
+      "reference": "binary orbit",
+      "angle_deg": {
+        "value": 113.9,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2022AJ....164..177H",
+        "where": "Sect. 2.2 (Eq. 2): i_mut = 113.9 deg for I1 = 5.7 deg; no uncertainty quoted"
+      },
+      "paper_wording": {
+        "quote": "occupies a nearly perpendicular planetary orbit relative to the binary",
+        "bibcode": "2022AJ....164..177H",
+        "where": "Abstract"
+      },
+      "class": "retrograde",
+      "evidence": "weak",
+      "class_basis": "Single point value 113.9 deg (just over the 110 deg line; the paper itself calls it 'nearly perpendicular'). It is computed from the planet's sky inclination and node I1 = 5.7 deg, Omega1 = 37.5 deg adopted from the re-reduced Hipparcos intermediate data of Reffert & Quirrenbach 2011 (2011A&A...527A.140R), an alternative I1 = 173.1 deg, Omega1 = 356.1 deg also being listed, with the binary's I2/Omega2 from Neuhauser et al. 2007. No error propagated; the Hipparcos detection of a ~2 au planet's reflex orbit is marginal. Treat as a weak hint of a near-polar/retrograde orbit, not a measurement.",
+      "binary_elements": {
+        "source": "Neuhauser et al. 2007 (as used in 2022AJ....164..177H Table 1); a2 = 18.6217 au per Sect. 4",
+        "planet_sky": "I1 = 5.7 deg, Omega1 = 37.5 deg or I1 = 173.1 deg, Omega1 = 356.1 deg (Reffert & Quirrenbach 2011, quoted Sect. 2.1)"
+      },
+      "notes": "Paper is mostly an eccentric Kozai-Lidov flip model. No Gaia-era astrometric re-measurement of gam Cep Ab's node was found."
+    },
+    "alf Cen A b": {
+      "host": "alf Cen A",
+      "reference": "binary orbit",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2025ApJ...989L..22B",
+        "where": "Table 4 and abstract: two orbit families, i_mutual ~ 50 deg (prograde; family values 49-70 deg) or ~ 130 deg (retrograde; family values 115-126 deg)"
+      },
+      "paper_wording": {
+        "quote": "significantly inclined with respect to the alpha Cen AB orbital plane (i_mutual ~ 50 deg, prograde, or ~ 130 deg, retrograde)",
+        "bibcode": "2025ApJ...989L..22B",
+        "where": "Abstract (arXiv:2508.03814)"
+      },
+      "class": "unclear",
+      "evidence": "weak",
+      "class_basis": "Unconfirmed JWST/MIRI candidate (one sighting plus non-detections). Orbits fitted to S1+C1 and stability give two degenerate families relative to the alpha Cen AB orbit; neither is preferred. Retrograde family: 126 +/- 10, 123 +/- 11, 115 +/- 5 (a < 2 au) and 126 +/- 10, 122 +/- 9, 115 +/- 5 deg (a > 2 au) for no-RV / K<6 / K<3 m/s cases; prograde family: 54 +/- 11, 58 +/- 11, 70 +/- 4 and 49 +/- 12, 51 +/- 11, 64 +/- 6 deg.",
+      "binary_elements": null,
+      "notes": "Candidate is on our Unconfirmed list. Companion paper 2025ApJ...989L..23S (arXiv:2508.03812) is about binary PSF modelling and exozodi limits; no new mutual inclination."
+    },
+    "14 Her b": {
+      "host": "14 Her",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": 35.3,
+        "err_plus": 6.8,
+        "err_minus": 7.3,
+        "bibcode": "2025RNAAS...9..187X",
+        "where": "Abstract (arXiv:2506.13580): psi_bc, after adding Gaia DR2 astrometry"
+      },
+      "paper_wording": {
+        "quote": "a definitive and unambiguous mutual inclination of psi_bc = 35.3 (+6.8/-7.3) deg",
+        "bibcode": "2025RNAAS...9..187X",
+        "where": "Abstract"
+      },
+      "class": "prograde",
+      "evidence": "substantial",
+      "class_basis": "b-c mutual inclination. History: 96.3 +29.1/-36.8 deg (Bardalez Gagliuffi et al. 2021, 2021ApJ...922L..43B, Sect. 5.2, Eq. 3); 62 +/- 12 deg (Benedict 2023, 2023AJ....166...27B, Sect. 4 Eq. 9); JWST imaging of c gives a BIMODAL posterior 32 +13.6/-15.1 deg or 145.0 +15.8/-11.1 deg depending on whether i_b < or > 90 (Bardalez Gagliuffi et al. 2025, 2025ApJ...988L..18B, Sect. 4.1); Xiao & Feng 2025 break the degeneracy with Gaia DR2 in favour of 35.3 deg. Lu et al. 2026 (2026ApJ..1006..159L, Sect. 1) still describe the degeneracy as open until Gaia DR4. So: significantly misaligned (non-coplanar) and most likely prograde; a retrograde (~145 deg) mode was a live solution in 2025 and is disfavoured only by one short research note.",
+      "binary_elements": null,
+      "notes": "Not a binary; reference is planet c's orbit. Benedict 2023 i_b = 35.7 +/- 3.2 deg differs by ~180 deg in orientation from Xiao & Feng's i_b = 147.3 deg (they attribute this to convention)."
+    },
+    "14 Her c": {
+      "host": "14 Her",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": 35.3,
+        "err_plus": 6.8,
+        "err_minus": 7.3,
+        "bibcode": "2025RNAAS...9..187X",
+        "where": "Abstract (same b-c pair angle as 14 Her b)"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "substantial",
+      "class_basis": "Same b-c mutual inclination as 14 Her b; see that entry for the bimodal 32/145 deg JWST result and its resolution.",
+      "binary_elements": null,
+      "notes": ""
+    },
+    "HD 39091 b": {
+      "host": "HD 39091",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2020A&A...642A..31D",
+        "where": "Sect. 5 / Fig. D.2: 52.3 <= i_rel <= 128.8 deg (1 sigma), peaks at 50 and 130 deg"
+      },
+      "paper_wording": {
+        "quote": "strongly excluding a co-planar scenario for the two planets within this system",
+        "bibcode": "2020A&A...640A..73D",
+        "where": "Abstract"
+      },
+      "class": "unclear",
+      "evidence": "substantial",
+      "class_basis": "pi Men b (astrometric cold Jupiter) vs transiting pi Men c. Non-coplanarity is substantial (De Rosa et al. 2020 Sect. 4.4: 95% interval 34.5-140.6 deg; Xuan & Wyatt 2020 Sect. 3.4: 49-131 deg at 1 sigma, 28-152 deg at 2 sigma; Damasso et al. 2020: 52.3-128.8 deg at 1 sigma). But the node of c is unknown, so every paper's distribution is symmetric about 90 deg with peaks near 50 and 130 deg: prograde-misaligned, polar and retrograde are all allowed. Cannot be classed.",
+      "binary_elements": null,
+      "notes": "pi Men b sky inclination 45.8 +1.4/-1.1 deg, Omega 108.8 +0.6/-0.7 deg (Damasso 2020 App. D); 49.9 +5.3/-4.5 deg (De Rosa 2020 Sect. 4.4); 41-65 deg (Xuan & Wyatt 2020). Damasso's statement that 'retrograde' motion is favoured refers to sky-plane sense of rotation, not to mutual inclination. Hatzes et al. 2022 (2022AJ....163..223H) adds planet d (125 d); no mutual inclination for d."
+    },
+    "HD 39091 c": {
+      "host": "HD 39091",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2020MNRAS.497.2096X",
+        "where": "Sect. 3.4: 49 < dI < 131 deg (1 sigma), 28-152 deg (2 sigma), 9-171 deg (3 sigma); peaks near 52 and 128 deg"
+      },
+      "paper_wording": {
+        "quote": "Evidence for a high mutual inclination between the cold Jupiter and transiting super Earth",
+        "bibcode": "2020MNRAS.497.2096X",
+        "where": "Title"
+      },
+      "class": "unclear",
+      "evidence": "substantial",
+      "class_basis": "Same b-c pair as HD 39091 b; misaligned, direction (prograde vs retrograde) unknown because c's node is unconstrained.",
+      "binary_elements": null,
+      "notes": ""
+    },
+    "ups And c": {
+      "host": "ups And",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": 29.917,
+        "err_plus": 1.0,
+        "err_minus": 1.0,
+        "bibcode": "2010ApJ...715.1203M",
+        "where": "Abstract (HST FGS + RV); value as 29.917 +/- 1 deg quoted in 2015ApJ...798...46D Sect. 1"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "substantial",
+      "class_basis": "c-d mutual inclination 29.9 +/- 1 deg (McArthur et al. 2010): misaligned but prograde. Deitrick et al. 2015 stable configurations have Psi_cd oscillating about ~31 deg (PRO1) / ~35 deg (PRO2) (Fig. 7).",
+      "binary_elements": null,
+      "notes": "ups And B is a wide M-dwarf companion; no planet-vs-binary angle measured. McArthur's HST astrometric inclinations (i_c = 7.868 +/- 1.003, i_d = 23.758 +/- 1.316 deg) have not been independently re-derived in anything found here."
+    },
+    "ups And d": {
+      "host": "ups And",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": 29.917,
+        "err_plus": 1.0,
+        "err_minus": 1.0,
+        "bibcode": "2010ApJ...715.1203M",
+        "where": "Abstract; see ups And c"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "substantial",
+      "class_basis": "Same c-d pair as ups And c.",
+      "binary_elements": null,
+      "notes": ""
+    },
+    "ups And b": {
+      "host": "ups And",
+      "reference": "other planets",
+      "angle_deg": null,
+      "paper_wording": {
+        "quote": "In six of these cases, planet b orbits retrograde with respect to planets c and d.",
+        "bibcode": "2015ApJ...798...46D",
+        "where": "Sect. 6 (Conclusions)"
+      },
+      "class": "unclear",
+      "evidence": "weak",
+      "class_basis": "Planet b's inclination is unmeasured. Deitrick et al. 2015 find 10 stable 3D configurations, six with b retrograde relative to c and d, but 'cautiously favor prograde orbits for planet b' (Sect. 5) and adopt prograde PRO1 as best estimate. Not evidence either way.",
+      "binary_elements": null,
+      "notes": "This repo's built-in Upsilon Andromedae uses Deitrick 2015 PRO1 (prograde b)."
+    },
+    "bet Pic b": {
+      "host": "bet Pic",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2021AJ....161..179B",
+        "where": "Sect. 3.1: b and c coplanar to within 0.5 deg (68%) and 1 deg (95%)"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "strong",
+      "class_basis": "Aligned: b-c coplanar within 0.5 deg (68%) (Brandt et al. 2021); b vs outer debris disk and stellar spin aligned with mutual inclinations <= 3 +/- 5 deg (Kraus et al. 2020, 2020ApJ...897L...8K abstract). Older claims of b being misaligned with the warped inner disk (2011ApJ...736L..33C, 2011ApJ...743L..17D) concern the warp, not the main disk.",
+      "binary_elements": null,
+      "notes": "Upper limits only, so angle value left null."
+    },
+    "bet Pic c": {
+      "host": "bet Pic",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2021AJ....161..179B",
+        "where": "Sect. 3.1: coplanar with b to within 0.5 deg (68%), 1 deg (95%)"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "strong",
+      "class_basis": "Coplanar with b (Brandt et al. 2021; also Nowak et al. 2020 i_b = 88.99 +/- 0.01, i_c = 89.17 +/- 0.50 deg as quoted there).",
+      "binary_elements": null,
+      "notes": ""
+    },
+    "eps Eri b": {
+      "host": "eps Eri",
+      "reference": "debris disk",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2025AJ....170..301T",
+        "where": "Sect. 4.5 and Conclusions: 75% HDI of planet-disk mutual inclination [2.5, 14] deg; planet i = 40 +6/-5 deg, Omega = 186 +/- 9 deg vs ALMA disk i = 33.7 +/- 0.5 deg"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "substantial",
+      "class_basis": "Near-coplanar with the outer debris ring (Thompson et al. 2025, arXiv:2502.20561). arXiv:2609.19131 (2026, with JWST NIRCam and a Gaussian prior on Phi centred at 0, sigma 10 deg) finds Phi = 14 +/- 4 deg (Sect. 4.3). Llop-Sayson et al. 2021 (2021AJ....162..181L) had a higher, poorly constrained planet inclination ~2 sigma from the disk's 34 deg.",
+      "binary_elements": null,
+      "notes": ""
+    },
+    "GJ 876 c": {
+      "host": "GJ 876",
+      "reference": "other planets",
+      "angle_deg": {
+        "value": null,
+        "err_plus": null,
+        "err_minus": null,
+        "bibcode": "2016MNRAS.455.2484N",
+        "where": "Abstract: 99% upper limits Phi_cb < 6.20 deg, Phi_be < 28.5 deg (RV-only N-body fit with stability)"
+      },
+      "paper_wording": null,
+      "class": "prograde",
+      "evidence": "strong",
+      "class_basis": "Resonant c-b pair nearly coplanar (< 6.2 deg at 99%); b-e < 28.5 deg.",
+      "binary_elements": null,
+      "notes": "Applies equally to GJ 876 b; GJ 876 e within 28.5 deg of b."
+    },
+    "tau Boo b": {
+      "host": "tau Boo",
+      "reference": "binary orbit",
+      "angle_deg": null,
+      "paper_wording": {
+        "quote": "consistent with the assumption of a well-aligned, coplanar system",
+        "bibcode": "2019A&A...625A..59J",
+        "where": "Abstract"
+      },
+      "class": "prograde",
+      "evidence": "weak",
+      "class_basis": "Only line-of-sight inclinations compared: tau Boo Ab orbit, tau Boo B orbit and the stellar spin all ~45 deg. Planet node unknown, so no true mutual inclination.",
+      "binary_elements": {
+        "source": "2019A&A...625A..59J (binary orbit fit; inclination ~45 deg per abstract)"
+      },
+      "notes": ""
+    },
+    "GJ 65 b": {
+      "host": "GJ 65",
+      "reference": "binary orbit",
+      "angle_deg": {
+        "value": 30,
+        "err_plus": 10,
+        "err_minus": 10,
+        "bibcode": "2024A&A...685L...9G",
+        "where": "Sect. 5: Delta i ~ 30 +/- 10 deg between the planet orbit (i_p ~ 90 deg, Table 2) and the binary/stellar equatorial planes"
+      },
+      "paper_wording": {
+        "quote": "the planetary orbit plane has a moderate-to-high inclination of i > 30 deg with respect to the stellar pair",
+        "bibcode": "2024A&A...685L...9G",
+        "where": "Abstract"
+      },
+      "class": "prograde",
+      "evidence": "weak",
+      "class_basis": "Unconfirmed GRAVITY astrometric candidate (156 d, ~36 Earth masses). Fit is degenerate among four solutions (two host stars x two nodes); the prograde ones are shown as 'favored from a dynamical point of view' (Sect. 4, orbit fitting). Delta i is a difference of sky inclinations, not a full 3D angle.",
+      "binary_elements": {
+        "source": "2024A&A...685L...9G Table 1 (GRAVITY orbit of GJ 65 AB; e ~ 0.62, a = 5.45 au per Sect. 5)"
+      },
+      "notes": "On our Unconfirmed list as 'GJ 65 b'."
+    },
+    "AU Mic c": {
+      "host": "AU Mic",
+      "reference": "other planets",
+      "angle_deg": null,
+      "paper_wording": {
+        "quote": "suggesting that planet c is significantly misaligned and presumably has a retrograde orbit",
+        "bibcode": "2025A&A...694A.137B",
+        "where": "Sect. 4.2 (discussion of TRADES dynamical fit; mean lambda_RM = 171.91 deg for c, 0.02 deg for b)"
+      },
+      "class": "unclear",
+      "evidence": "weak",
+      "class_basis": "The 171.91 deg is a projected spin-orbit angle computed from a TTV dynamical model in which b is aligned by construction, so it is not an independent b-c mutual inclination; the fit has more parameters than c transits. RM spectroscopy (Lin et al. 2026, 2026ApJ..1005L..25L) gives aligned (~0 deg) or polar (~90 deg) solutions for c and argues coplanarity with b is more plausible dynamically. Mostly a spin-orbit question for the other agent.",
+      "binary_elements": null,
+      "notes": "AU Mic b is aligned with the star and the edge-on debris disk."
+    },
+    "61 Cyg b": {
+      "host": "61 Cyg A",
+      "reference": "binary orbit",
+      "angle_deg": null,
+      "paper_wording": null,
+      "class": "unclear",
+      "evidence": "weak",
+      "class_basis": "Unconfirmed velocity-anomaly candidate. arXiv:2609.32893 (Worlds Next Door V, Sect. 3/Fig. 3-4) only maps which mutual inclinations relative to the 61 Cyg AB orbit are dynamically stable: near-polar (~80-100 deg) orbits are entirely unstable; prograde and retrograde both allowed. No measured angle.",
+      "binary_elements": null,
+      "notes": ""
+    }
+  },
+  "papers": {
+    "2025Natur.641..866C": {
+      "cite": "Cheng, H. W., Trifonov, T., Lee, M. H., Ramm, D. J. et al. 2025, Nature 641, 866",
+      "doi": "10.1038/s41586-025-09006-x",
+      "arxiv": null,
+      "accessed": "abstract only (paywall)"
+    },
+    "2026A&A...712A.247C": {
+      "cite": "Cefali Signor, A., Correia, A. C. M. et al. 2026, A&A 712, A247",
+      "arxiv": "2609.06885",
+      "accessed": "full text"
+    },
+    "2021MNRAS.502.2793R": {
+      "cite": "Ramm, D. J. et al. 2021, MNRAS 502, 2793",
+      "doi": "10.1093/mnras/stab078",
+      "arxiv": "2101.06844",
+      "accessed": "full text"
+    },
+    "2016MNRAS.460.3706R": {
+      "cite": "Ramm, D. J. et al. 2016, MNRAS 460, 3706",
+      "arxiv": "1605.06720",
+      "accessed": "abstract (SIMBAD)"
+    },
+    "2022AJ....164...93C": {
+      "cite": "Curiel, S., Ortiz-Leon, G. N., Mioduszewski, A. J., Sanchez-Bermudez, J. 2022, AJ 164, 93",
+      "arxiv": "2208.14553",
+      "accessed": "full text"
+    },
+    "2023MNRAS.519.1688D": {
+      "cite": "Dupuy, T. J. et al. 2023, MNRAS 519, 1688",
+      "doi": "10.1093/mnras/stac3557",
+      "arxiv": "2208.08448",
+      "accessed": "full text"
+    },
+    "2024AJ....168..270P": {
+      "cite": "Poon, M. et al. 2024, AJ 168, 270 (Leaning Sideways)",
+      "doi": "10.3847/1538-3881/ad84e5",
+      "arxiv": "2410.02672",
+      "accessed": "full text + arXiv HTML TeX for errors"
+    },
+    "2026ApJ...998..122H": {
+      "cite": "Possible Dynamical Pathways to the Misalignment of the VHS 1256-1257 System, ApJ 998, 122 (2026)",
+      "doi": "10.3847/1538-4357/ae2eb1",
+      "arxiv": "2509.21452",
+      "accessed": "full text"
+    },
+    "2022AJ....164..177H": {
+      "cite": "Huang, X. & Ji, J. 2022, AJ 164, 177",
+      "arxiv": "2209.01472",
+      "accessed": "full text"
+    },
+    "2011A&A...527A.140R": {
+      "cite": "Reffert, S. & Quirrenbach, A. 2011, A&A 527, A140",
+      "doi": "10.1051/0004-6361/201015861",
+      "accessed": "not read; cited via 2022AJ....164..177H"
+    },
+    "2025ApJ...989L..22B": {
+      "cite": "Beichman, C., Sanghi, A. et al. 2025, ApJL 989, L22",
+      "doi": "10.3847/2041-8213/adf53f",
+      "arxiv": "2508.03814",
+      "accessed": "full text"
+    },
+    "2021ApJ...922L..43B": {
+      "cite": "Bardalez Gagliuffi, D. C. et al. 2021, ApJL 922, L43",
+      "doi": "10.3847/2041-8213/ac382c",
+      "arxiv": "2111.06004",
+      "accessed": "full text (ar5iv TeX for errors)"
+    },
+    "2023AJ....166...27B": {
+      "cite": "Benedict, G. F. 2023, AJ 166, 27",
+      "arxiv": "2305.11753",
+      "accessed": "full text"
+    },
+    "2025ApJ...988L..18B": {
+      "cite": "Bardalez Gagliuffi, D. C., Balmer, W. O. et al. 2025, ApJL 988, L18",
+      "arxiv": "2506.09201",
+      "accessed": "full text"
+    },
+    "2025RNAAS...9..187X": {
+      "cite": "Xiao, G.-Y. & Feng, F. 2025, RNAAS 9, 187",
+      "doi": "10.3847/2515-5172/adef49",
+      "arxiv": "2506.13580",
+      "accessed": "full text"
+    },
+    "2026ApJ..1006..159L": {
+      "cite": "Lu, T., Millholland, S. C., Rice, M. et al. 2026, ApJ 1006, 159",
+      "arxiv": "2605.30177",
+      "accessed": "full text"
+    },
+    "2020A&A...640A..73D": {
+      "cite": "De Rosa, R. J., Dawson, R., Nielsen, E. L. 2020, A&A 640, A73",
+      "arxiv": "2007.08549",
+      "accessed": "full text"
+    },
+    "2020MNRAS.497.2096X": {
+      "cite": "Xuan, J. W. & Wyatt, M. C. 2020, MNRAS 497, 2096",
+      "arxiv": "2007.01871",
+      "accessed": "full text"
+    },
+    "2020A&A...642A..31D": {
+      "cite": "Damasso, M. et al. 2020, A&A 642, A31",
+      "arxiv": "2007.06410",
+      "accessed": "full text"
+    },
+    "2022AJ....163..223H": {
+      "cite": "Hatzes, A. P. et al. 2022, AJ 163, 223",
+      "arxiv": "2203.01018",
+      "accessed": "skimmed"
+    },
+    "2010ApJ...715.1203M": {
+      "cite": "McArthur, B. E. et al. 2010, ApJ 715, 1203",
+      "doi": "10.1088/0004-637X/715/2/1203",
+      "accessed": "abstract (SIMBAD)"
+    },
+    "2015ApJ...798...46D": {
+      "cite": "Deitrick, R. et al. 2015, ApJ 798, 46",
+      "doi": "10.1088/0004-637X/798/1/46",
+      "arxiv": "1411.1059",
+      "accessed": "full text"
+    },
+    "2021AJ....161..179B": {
+      "cite": "Brandt, G. M. et al. 2021, AJ 161, 179",
+      "doi": "10.3847/1538-3881/abdc2e",
+      "arxiv": "2011.06215",
+      "accessed": "full text"
+    },
+    "2020ApJ...897L...8K": {
+      "cite": "Kraus, S. et al. 2020, ApJL 897, L8",
+      "accessed": "abstract (SIMBAD)"
+    },
+    "2025AJ....170..301T": {
+      "cite": "Thompson, W. et al. 2025, AJ 170, 301",
+      "doi": "10.3847/1538-3881/ae0cbd",
+      "arxiv": "2502.20561",
+      "accessed": "full text"
+    },
+    "arXiv:2609.19131": {
+      "cite": "An Updated Model for eps Eridani b and Prospects for Imaging with the Roman Coronagraph (2026 preprint)",
+      "arxiv": "2609.19131",
+      "accessed": "full text"
+    },
+    "2021AJ....162..181L": {
+      "cite": "Llop-Sayson, J. et al. 2021, AJ 162, 181",
+      "doi": "10.3847/1538-3881/ac134a",
+      "arxiv": "2108.02305",
+      "accessed": "skimmed"
+    },
+    "2016MNRAS.455.2484N": {
+      "cite": "Nelson, B. E. et al. 2016, MNRAS 455, 2484",
+      "accessed": "abstract (SIMBAD)"
+    },
+    "2019A&A...625A..59J": {
+      "cite": "Justesen, A. B. & Albrecht, S. 2019, A&A 625, A59",
+      "doi": "10.1051/0004-6361/201834368",
+      "accessed": "abstract (SIMBAD)"
+    },
+    "2024A&A...685L...9G": {
+      "cite": "GRAVITY Collaboration 2024, A&A 685, L9",
+      "doi": "10.1051/0004-6361/202449547",
+      "arxiv": "2404.08746",
+      "accessed": "full text"
+    },
+    "2025A&A...694A.137B": {
+      "cite": "Boldog, A. et al. 2025, A&A 694, A137",
+      "doi": "10.1051/0004-6361/202452699",
+      "arxiv": "2501.13575",
+      "accessed": "full text"
+    },
+    "2026ApJ..1005L..25L": {
+      "cite": "Lin, Z. et al. 2026, ApJL 1005, L25",
+      "doi": "10.3847/2041-8213/ae7725",
+      "arxiv": "2605.29946",
+      "accessed": "full text"
+    },
+    "arXiv:2609.32893": {
+      "cite": "Worlds Next Door. V. A Candidate Solar System Scale Super-Jupiter in the 61 Cygni Binary System (2026 preprint)",
+      "arxiv": "2609.32893",
+      "accessed": "full text"
+    },
+    "2022AJ....164..188Z": {
+      "cite": "Zeng, Y. et al. 2022, AJ 164, 188 (Gliese 86)",
+      "doi": "10.3847/1538-3881/ac8ff7",
+      "arxiv": "2112.06394",
+      "accessed": "full text"
+    }
+  },
+  "caveats": [
+    "Classification bins (mutual inclination): prograde < 70 deg, polar 70-110 deg, retrograde > 110 deg. Sky-plane inclinations > 90 deg were never treated as retrograde.",
+    "Only planet-vs-companion-orbit, planet-vs-planet, planet-vs-circumbinary-binary and planet-vs-debris-disk angles are recorded; planet-vs-stellar-spin angles (Rossiter-McLaughlin, Doppler tomography, v sin i) are left to the spin agent (AU Mic c included here only because a TTV dynamical model is involved).",
+    "Planets in our lists with a stellar companion or disk where no published orbit-vs-orbit angle was found (orbit node or inclination unmeasured): GJ 676 A b-e, HD 217107 b/c, 16 Cyg B b, psi1 Dra B b, HD 3651 b, GJ 86 b (Zeng 2022: planet inclination and node unconstrained), eps Ind A b (no orbit for eps Ind Ba/Bb), HD 142 b/c/d, 55 Cnc b-f vs 55 Cnc B, GJ 667 C planets, Gl 725 A/B planets, GJ 15 A, GJ 338 B b, GJ 414 A, HD 189733 b, Proxima Cen b/c/d vs alpha Cen AB, HD 82943 b/c, HD 128311, mu Ara, 47 UMa.",
+    "Circumbinary planets on the lists: VHS 1256 b (recorded above, retrograde/near-polar). CM Dra (AB) b and RR Cae b are eclipse-timing candidates with no constraint on orbital inclination relative to the binary; Ross 458 c (wide companion to Ross 458 AB) has no orbit; HD 155555 AB candidate has none. 2M1510 (AB) b, the polar circumbinary planet, and HD 202206 are not on our lists.",
+    "Debris disks: eps Eri b (aligned), bet Pic b (aligned), AU Mic b (aligned, edge-on) recorded. AF Lep's disk is unresolved, so no planet-disk angle exists; HD 107146 and HD 92945 entries are PMa candidates without orbits; HD 10647 b, 61 Vir, tau Cet, kap CrB planets are RV-only (no planet node).",
+    "GJ 896 A b: the 148 deg rests on one astrometric data set (VLBA + archival relative astrometry) with a planet inclination uncertain by +/-25.6 deg, no error on Phi, and node ambiguity broken only by a stability argument. Nothing confirming or refuting it was found (2022-2026).",
+    "nu Oct A b: the planet itself is an RV inference in a 2.6 au binary; its retrograde orbit is required by stability rather than observed geometrically. Cheng et al. 2025 (Nature) full text could not be read (paywall); its numbers are taken from Signor et al. 2026, which shares authors with it.",
+    "14 Her: the b-c angle flipped between a retrograde-allowed bimodal result (32 or 145 deg, JWST 2025) and a single prograde value (35.3 deg, RNAAS 2025); Lu et al. 2026 still call the degeneracy unresolved pending Gaia DR4.",
+    "Bibcodes were taken from SIMBAD's ref table (title match) or read from the papers; ADS was not used (captcha). Two 2026 items are arXiv-only (no bibcode yet): arXiv:2609.19131 and arXiv:2609.32893.",
+    "Values with asymmetric errors were read from arXiv HTML/ar5iv TeX where pdftotext garbled super/subscripts (14 Her 2021, VHS 1256 Poon 2024)."
+  ]
+}

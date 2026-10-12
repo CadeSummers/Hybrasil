@@ -1,0 +1,1195 @@
+{
+ "agent": "spin",
+ "retrieved": "2026-10-10",
+ "method_note": "Cross-matched both input lists against TEPCat's obliquity catalogue (obliquity.txt, page generated 2026-10-04) and the NASA Exoplanet Archive PS table (pl_projobliq / pl_trueobliq, sy_dist < 32 pc), then read each source paper (arXiv PDFs via pdftotext -enc UTF-8) to confirm the values and where they are printed. Also searched for directly imaged / astrometric planets whose orbit has been compared with the stellar spin inclination (Kraus+2020, Bowler+2023, Bonnefoy+2018, Franson+2023, Justesen & Albrecht 2019). existing_cell_ok: true = cell value correctly transcribed and still the best value; false = wrong, superseded, or the cell says 'Data Sparse' when a measurement exists; null = could not verify.",
+ "planets": {
+  "GJ 436 b": {
+   "host": "GJ 436",
+   "lambda_deg": {
+    "value": 113.5,
+    "err_plus": 23.3,
+    "err_minus": 17.3,
+    "bibcode": "2022A&A...663A.160B",
+    "where": "Abstract and Sect. 5.2 (joint RM-Revolutions fit of ESPRESSO+HARPS+HARPS-N); ESPRESSO-only: classical 102.5 +17.2/-18.5, Reloaded 107.5 +23.6/-19.3, RMR 114.1 +22.8/-17.8 (Abstract)"
+   },
+   "psi_deg": {
+    "value": 103.2,
+    "err_plus": 12.8,
+    "err_minus": 11.5,
+    "bibcode": "2022A&A...663A.160B",
+    "where": "Abstract; Sect. 5.2 and Table 1 (i* = 35.7 +5.9/-7.6 or 144.2 +7.6/-5.9)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "confirm the polar orbit of GJ 436b",
+    "bibcode": "2022A&A...663A.160B",
+    "where": "Abstract (title: 'The polar orbit of the warm Neptune GJ436b seen with VLT/ESPRESSO')"
+   },
+   "class": "polar",
+   "class_basis": "psi = 103.2 deg (70-110)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Cell '103 +13/-12 (psi; Bourrier+2022)' matches and is still the newest (TEPCat lists only Bourrier+2018 and +2022)."
+  },
+  "GJ 3470 b": {
+   "host": "GJ 3470",
+   "lambda_deg": {
+    "value": 98,
+    "err_plus": 15,
+    "err_minus": 12,
+    "bibcode": "2022ApJ...931L..15S",
+    "where": "Abstract; Sect. 6 (RM effect) and Table 4 of the published version (= arXiv:2111.01295v2)"
+   },
+   "psi_deg": {
+    "value": 95,
+    "err_plus": 9,
+    "err_minus": 8,
+    "bibcode": "2022ApJ...931L..15S",
+    "where": "Abstract; Sect. 6 and Table 4 (i* = 46 +27/-20)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "revealing that GJ 3470b is on a polar orbit",
+    "bibcode": "2022ApJ...931L..15S",
+    "where": "Abstract (title: 'The Warm Neptune GJ 3470b has a Polar Orbit')"
+   },
+   "class": "polar",
+   "class_basis": "psi = 95 deg (70-110)",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell '97 +16/-11' is the arXiv v1 value (v1: lambda 101 +29/-14, psi 97 +16/-11), which TEPCat still carries. The published ApJL 931, L15 (= arXiv v2) gives psi = 95 +9/-8, lambda = 98 +15/-12. Class unchanged (polar)."
+  },
+  "GJ 3090 b": {
+   "host": "GJ 3090",
+   "lambda_deg": {
+    "value": 208,
+    "err_plus": 15,
+    "err_minus": 18,
+    "bibcode": "2026A&A...713L..15C",
+    "where": "Sect. 3 and Table C.1 (NIRPS RM-Revolutions joint fit of 5 transits); lambda = 208 deg is the same angle as -152 deg, so |lambda| = 152",
+    "lambda_folded_abs": 152
+   },
+   "psi_deg": {
+    "value": 136,
+    "err_plus": 24,
+    "err_minus": 18,
+    "bibcode": "2026A&A...713L..15C",
+    "where": "Abstract; Sect. 3; Table C.1 combined psi (south 138 +23/-18, north 134 +24/-19)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "we find that the planet is on a retrograde orbit",
+    "bibcode": "2026A&A...713L..15C",
+    "where": "Abstract (title: 'Upside down: GJ3090 b the first retrograde exoplanet around an M dwarf'); conclusions: polar (psi = 90) excluded at 2.5 sigma"
+   },
+   "class": "retrograde",
+   "class_basis": "psi = 136 deg (>110); |lambda| = 152 deg is also > 110",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; a measurement now exists (Carteret+2026, A&A 713, L15; arXiv:2609.24870). TEPCat lists it. Only planet b was measured; GJ 3090 c has none."
+  },
+  "GJ 523 b": {
+   "host": "GJ 523",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 71.4,
+    "err_plus": 4.7,
+    "err_minus": 5.0,
+    "bibcode": "2026arXiv260324682K",
+    "where": "Abstract; Sect. 5.1 'High Orbital Obliquity' (from i* = 17.6 +5.0/-4.7 via v sin i, P_rot, R*)",
+    "kind": "lower",
+    "assumptions": "lambda = 0 assumed, and orbit inclined in the same direction as the stellar spin axis (Sect. 5.1)",
+    "implication": "psi >= ~71 deg rules out a well-aligned orbit. Because the planet transits (i near 90 deg) and i* is only ~18 deg, cos(psi) is approximately sin(i*)cos(lambda), so psi stays within roughly 90 +/- i* whatever lambda is, i.e. near-polar. That upper range is our geometric reading, not a number the paper prints."
+   },
+   "paper_wording": {
+    "quote": "Likely on a Polar Orbit",
+    "bibcode": "2026arXiv260324682K",
+    "where": "Title"
+   },
+   "class": "polar",
+   "class_basis": "psi_min = 71.4 deg (>= 70) plus transit geometry (see psi_bound.implication). The 1-sigma low end (66.4) dips just under 70, so 'polar' rests on the paper's own wording as much as on the bound",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Cell '>=71.4 +4.7/-5.0 (psi_min, lambda=0 assumed; Kroft+2026)' matches the paper. TEPCat encodes it differently (psi = 90 +28.6/-0), which is not a value the paper prints; prefer the paper's lower bound."
+  },
+  "55 Cnc e": {
+   "host": "55 Cnc A",
+   "lambda_deg": {
+    "value": 10,
+    "err_plus": 17,
+    "err_minus": 20,
+    "bibcode": "2023NatAs...7..198Z",
+    "where": "Abstract and Sect. 2 (Results); EXPRES classical RM"
+   },
+   "psi_deg": {
+    "value": 23,
+    "err_plus": 14,
+    "err_minus": 12,
+    "bibcode": "2023NatAs...7..198Z",
+    "where": "Abstract and Sect. 2; Methods Sect. 4.4 prints +15/-12 (internal rounding difference)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "consistent with a prograde, low stellar obliquity orbit for 55 Cnc e",
+    "bibcode": "2023NatAs...7..198Z",
+    "where": "Methods Sect. 4.4"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 23 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Zhao+2023 (abstract value). The older tentative lambda = 72.4 +12.7/-11.5 (Bourrier & Hebrard 2014, 2014A&A...569A..65B) is superseded; NEA still lists it as one row."
+  },
+  "HD 39091 c": {
+   "host": "HD 39091",
+   "lambda_deg": {
+    "value": -24.0,
+    "err_plus": 4.1,
+    "err_minus": 4.1,
+    "bibcode": "2021MNRAS.502.2893K",
+    "where": "Table 4 (Reloaded RM, ESPRESSO CCFs); Sect. 3.3"
+   },
+   "psi_deg": {
+    "value": 26.9,
+    "err_plus": 5.8,
+    "err_minus": 4.7,
+    "bibcode": "2021MNRAS.502.2893K",
+    "where": "Table 4 and end of Sect. 3.3 (i* = 90.1 +/- 17.3)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "Orbital misalignment of the super-Earth pi Men c with the spin of its star",
+    "bibcode": "2021MNRAS.502.2893K",
+    "where": "Title"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 26.9 deg (<70); the paper calls it misaligned, but only moderately",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches (pi Men c = HD 39091 c). No newer measurement in TEPCat."
+  },
+  "HD 189733 b": {
+   "host": "HD 189733",
+   "lambda_deg": {
+    "value": -1.0,
+    "err_plus": 0.22,
+    "err_minus": 0.23,
+    "bibcode": "2024A&A...682A..28C",
+    "where": "Sect. 4.3 'The stellar surface and true spin-orbit angle'"
+   },
+   "psi_deg": {
+    "value": 13.6,
+    "err_plus": 6.9,
+    "err_minus": 6.9,
+    "bibcode": "2024A&A...682A..28C",
+    "where": "Abstract; Sect. 4.3 (i* ~ 71.87 deg; differential rotation breaks the degeneracy)"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "other_measurements": [
+    {
+     "value": -0.81,
+     "err_plus": 0.07,
+     "err_minus": 0.07,
+     "bibcode": "2025A&A...700A..41M",
+     "where": "Sect. 3 and Table 2 (same ESPRESSO data, ANTARESS; i* = 91.2 +4.5/-6.7; no psi printed)",
+     "quantity": "lambda"
+    },
+    {
+     "value": 7,
+     "err_plus": 12,
+     "err_minus": 4,
+     "bibcode": "2016A&A...588A.127C",
+     "where": "Cegla+2016, as listed by TEPCat and NEA (not re-read here)",
+     "quantity": "psi"
+    }
+   ],
+   "class": "prograde",
+   "class_basis": "psi = 13.6 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Cristo+2024 (TEPCat-preferred). The newer lambda -0.81 +/- 0.07 from Mounzer+2025 (A&A 700, A41) changes nothing."
+  },
+  "HD 63433 b": {
+   "host": "HD 63433",
+   "lambda_deg": {
+    "value": 8.0,
+    "err_plus": 33.0,
+    "err_minus": 45.0,
+    "bibcode": "2020AJ....160..179M",
+    "where": "Table 6, 'e, omega free' column (HARPS-N RM); the 'e, omega fixed' column gives 1.0 +41.0/-43.0 (the value NEA lists)"
+   },
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 50,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2020AJ....160..179M",
+    "where": "Sect. 7 (Summary and Discussion): 'psi < 50 deg at 1 sigma'",
+    "kind": "upper",
+    "implication": "consistent with prograde; 1-sigma only"
+   },
+   "paper_wording": {
+    "quote": "the HARPS-N data demonstrate that the planet has a prograde orbit",
+    "bibcode": "2020AJ....160..179M",
+    "where": "Sect. 7"
+   },
+   "class": "prograde",
+   "class_basis": "|lambda| = 8 deg (<70); the paper says |lambda| > 90 deg is completely ruled out (Sect. 4)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches TEPCat (e,omega-free fit). NEA uses the e,omega-fixed 1.0 +41/-43 from the same table."
+  },
+  "HD 63433 c": {
+   "host": "HD 63433",
+   "lambda_deg": {
+    "value": -1,
+    "err_plus": 35,
+    "err_minus": 32,
+    "bibcode": "2020AJ....160..193D",
+    "where": "Abstract and Sect. 5 (red-noise residual-permutation result; host named TOI-1726); the white-noise fit in Sect. 4 gives -6 +28/-25"
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "This result rules out a polar/retrograde orbit",
+    "bibcode": "2020AJ....160..193D",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "|lambda| = 1 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Dai+2020 ('TKS III: A Stellar Obliquity Measurement of TOI-1726 c'; TOI-1726 = HD 63433). TEPCat has no entry for HD 63433 c; NEA does. HD 63433 d has no measurement."
+  },
+  "AU Mic b": {
+   "host": "AU Mic",
+   "lambda_deg": {
+    "value": -4.7,
+    "err_plus": 6.8,
+    "err_minus": 6.4,
+    "bibcode": "2020ApJ...899L..13H",
+    "where": "Abstract (Subaru/IRD Doppler shadow)"
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": 1,
+     "err_plus": 12,
+     "err_minus": 12,
+     "bibcode": "2026ApJ..1005L..25L",
+     "where": "Abstract, Sect. 5 and Sect. 7 (Magellan PFS RM)",
+     "quantity": "lambda"
+    },
+    {
+     "value": -2.96,
+     "err_plus": 10.44,
+     "err_minus": 10.3,
+     "bibcode": "2025MNRAS.536.2046Y",
+     "where": "quoted in the Yu+2025 abstract for planet b",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "We confirm the aligned orbit of AU Mic b",
+    "bibcode": "2026ApJ..1005L..25L",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "|lambda| = 4.7 deg (<70); every published lambda except Addison+2021's loose 47 +26/-54 is near 0",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Value matches Hirano+2020 (TEPCat-preferred, most precise). The method was a Doppler shadow (tomography), not classical RM. The newest is Lin+2026, lambda = 1 +/- 12."
+  },
+  "AU Mic c": {
+   "host": "AU Mic",
+   "lambda_deg": {
+    "value": 67.8,
+    "err_plus": 31.7,
+    "err_minus": 49.0,
+    "bibcode": "2025MNRAS.536.2046Y",
+    "where": "Abstract (ESPRESSO RM, two transits)"
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": -10,
+     "err_plus": 16,
+     "err_minus": 16,
+     "bibcode": "2026ApJ..1005L..25L",
+     "where": "Abstract, Sect. 5 and Table 1: 'aligned solution', slightly favoured",
+     "quantity": "lambda"
+    },
+    {
+     "value": 87,
+     "err_plus": 36,
+     "err_minus": 29,
+     "bibcode": "2026ApJ..1005L..25L",
+     "where": "Abstract, Sect. 5 and Table 1: 'polar solution', not ruled out",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "A possible misaligned orbit for the young planet AU Mic c",
+    "bibcode": "2025MNRAS.536.2046Y",
+    "where": "Title; Lin+2026 abstract: 'cannot rule out a polar solution'"
+   },
+   "class": "unclear",
+   "class_basis": "Yu+2025 |lambda| = 67.8 deg sits on the 70-deg line with errors spanning 19-100 deg; Lin+2026 finds a bimodal posterior (aligned -10 +/- 16 vs polar 87 +36/-29). No psi.",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Value matches Yu+2025, but it should carry a caveat: Lin+2026 (ApJL 1005, L25) finds a bimodal result that slightly favours alignment."
+  },
+  "TRAPPIST-1 b": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": 8,
+     "err_plus": 30,
+     "err_minus": 32,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    },
+    {
+     "value": 15,
+     "err_plus": 26,
+     "err_minus": 30,
+     "bibcode": "2020ApJ...890L..27H",
+     "where": "Table 2, Doppler-shadow fit of the single transit (Subaru/IRD)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell matches Hirano+2020 Table 2 (15 +26/-30), but (1) that number is a Doppler-shadow fit, not RM; (2) it is superseded by Brady+2023 (AJ 165, 129): shared lambda = -2 +17/-19. Class unchanged (prograde). TEPCat has not added Brady+2023."
+  },
+  "TRAPPIST-1 c": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": 39,
+     "err_plus": 20,
+     "err_minus": 60,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; Brady+2023 observed this planet's transit and gives a shared-obliquity value (plus an individual one in Table 5)."
+  },
+  "TRAPPIST-1 d": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": -24,
+     "err_plus": 61,
+     "err_minus": 37,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; Brady+2023 observed this planet's transit and gives a shared-obliquity value (plus an individual one in Table 5)."
+  },
+  "TRAPPIST-1 e": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": 44,
+     "err_plus": 22,
+     "err_minus": 31,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    },
+    {
+     "value": 9,
+     "err_plus": 45,
+     "err_minus": 51,
+     "bibcode": "2020ApJ...890L..27H",
+     "where": "Table 2, Doppler-shadow fit of the single transit (Subaru/IRD)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell matches Hirano+2020 Table 2 (9 +45/-51), but (1) that number is a Doppler-shadow fit, not RM; (2) it is superseded by Brady+2023 (AJ 165, 129): shared lambda = -2 +17/-19. Class unchanged (prograde). TEPCat has not added Brady+2023."
+  },
+  "TRAPPIST-1 f": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": -46,
+     "err_plus": 23,
+     "err_minus": 17,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    },
+    {
+     "value": 21,
+     "err_plus": 32,
+     "err_minus": 32,
+     "bibcode": "2020ApJ...890L..27H",
+     "where": "Table 2, Doppler-shadow fit of the single transit (Subaru/IRD)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell matches Hirano+2020 Table 2 (21 +32/-32), but (1) that number is a Doppler-shadow fit, not RM; (2) it is superseded by Brady+2023 (AJ 165, 129): shared lambda = -2 +17/-19. Class unchanged (prograde). TEPCat has not added Brady+2023."
+  },
+  "TRAPPIST-1 g": {
+   "host": "TRAPPIST-1",
+   "lambda_deg": {
+    "value": -2,
+    "err_plus": 17,
+    "err_minus": 19,
+    "bibcode": "2023AJ....165..129B",
+    "where": "Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM",
+    "shared_system_value": true
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "value": 4,
+     "err_plus": 21,
+     "err_minus": 23,
+     "bibcode": "2023AJ....165..129B",
+     "where": "Appendix A, Table 5 (individual obliquities, non-preferred model)",
+     "quantity": "lambda"
+    }
+   ],
+   "paper_wording": {
+    "quote": "TRAPPIST-1 appears to have a low obliquity",
+    "bibcode": "2023AJ....165..129B",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "shared system |lambda| = 2 deg (<70); applies to each planet only under the coplanar shared-obliquity model the paper prefers",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; Brady+2023 observed this planet's transit and gives a shared-obliquity value (plus an individual one in Table 5)."
+  },
+  "GJ 9827 b": {
+   "host": "GJ 9827",
+   "lambda_deg": {
+    "value": 9,
+    "err_plus": 67,
+    "err_minus": 64,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (joint ESPRESSO RM-Revolutions, ANTARESS); full text not reachable (aanda.org 403), values cross-checked with TEPCat and NEA"
+   },
+   "psi_deg": {
+    "value": 54,
+    "err_plus": 26,
+    "err_minus": 38,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (star seen near equator-on from R*, P_rot)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "consistent with an alignment with the stellar spin axis",
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (about lambda); on psi: 'an aligned architecture remains compatible at the 2 sigma level'"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 54 deg (<70); the upper 1-sigma reaches 80 deg, so weakly constrained",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Friden+2026 (A&A 710, A242)."
+  },
+  "GJ 9827 c": {
+   "host": "GJ 9827",
+   "lambda_deg": {
+    "value": -21,
+    "err_plus": 43,
+    "err_minus": 44,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (joint ESPRESSO RM-Revolutions, ANTARESS); full text not reachable (aanda.org 403), values cross-checked with TEPCat and NEA"
+   },
+   "psi_deg": {
+    "value": 46,
+    "err_plus": 22,
+    "err_minus": 30,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (star seen near equator-on from R*, P_rot)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "consistent with an alignment with the stellar spin axis",
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (about lambda); on psi: 'an aligned architecture remains compatible at the 2 sigma level'"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 46 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Friden+2026 (A&A 710, A242)."
+  },
+  "GJ 9827 d": {
+   "host": "GJ 9827",
+   "lambda_deg": {
+    "value": -1,
+    "err_plus": 26,
+    "err_minus": 26,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (joint ESPRESSO RM-Revolutions, ANTARESS); full text not reachable (aanda.org 403), values cross-checked with TEPCat and NEA"
+   },
+   "psi_deg": {
+    "value": 33,
+    "err_plus": 16,
+    "err_minus": 24,
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (star seen near equator-on from R*, P_rot)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "consistent with an alignment with the stellar spin axis",
+    "bibcode": "2026A&A...710A.242F",
+    "where": "Abstract (about lambda); on psi: 'an aligned architecture remains compatible at the 2 sigma level'"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 33 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches Friden+2026 (A&A 710, A242)."
+  },
+  "TOI-2134 c": {
+   "host": "TOI-2134",
+   "lambda_deg": {
+    "value": 59,
+    "err_plus": 31,
+    "err_minus": 31,
+    "bibcode": "2026arXiv260701027R",
+    "where": "Abstract and Sect. 7 'Rossiter-McLaughlin effect' (PARAS-2, partial transit; 4.7-sigma 'potential detection'); published MNRAS 550 (2026), DOI 10.1093/mnras/stag1265"
+   },
+   "psi_deg": null,
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "the probability that the orbit was prograde (lambda < 90 deg) was 84%",
+    "bibcode": "2026arXiv260701027R",
+    "where": "Sect. 7"
+   },
+   "class": "prograde",
+   "class_basis": "|lambda| = 59 deg (<70), but the 1-sigma range 28-90 deg crosses into polar; weak, from a single partial transit",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Matches. Note it is a 'potential detection'. TOI-2134 b: the EXPRES transit gave no RM detection (Sect. 7), so b has no value."
+  },
+  "bet Pic b": {
+   "host": "bet Pic",
+   "lambda_deg": {
+    "value": 3,
+    "err_plus": 4,
+    "err_minus": 4,
+    "bibcode": "2020ApJ...897L...8K",
+    "where": "Sect. 4 (Discussion): 'sky-projected obliquity angle to 3 +/- 4 deg' (VLTI/GRAVITY Br-gamma spectro-interferometry of the stellar rotation)"
+   },
+   "psi_deg": {
+    "value": 3,
+    "err_plus": 5,
+    "err_minus": 5,
+    "bibcode": "2020ApJ...897L...8K",
+    "where": "Sect. 4, Eq. 4 (asteroseismic i* with the GRAVITY orbit i_p = 89.04, Omega_p = 31.88)"
+   },
+   "psi_bound": null,
+   "paper_wording": {
+    "quote": "beta Pic b orbits its host star on a prograde orbit",
+    "bibcode": "2020ApJ...897L...8K",
+    "where": "Abstract"
+   },
+   "class": "prograde",
+   "class_basis": "psi = 3 deg (<70); a true 3-D measurement for a directly imaged planet",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; Kraus+2020 (ApJL 897, L8) measures psi = 3 +/- 5. Applies to b only; bet Pic c and d have no stellar-spin comparison."
+  },
+  "GJ 504 b": {
+   "host": "GJ 504",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 97.3,
+    "err_plus": 29.7,
+    "err_minus": 82.7,
+    "bibcode": "2023AJ....165..164B",
+    "where": "Table 3: Delta i = |i* - i_o| median (MAP 120.5, 95.4% CI 0.0-140.7); 'Misaligned?' = Likely; i* = 18.5 +0.7/-0.9, i_o = 141.4 +7.5/-10.7",
+    "kind": "lower",
+    "implication": "Delta i is a lower limit on psi (lambda unknown). The 95% interval reaches 0, so it cannot place the planet in any class."
+   },
+   "other_measurements": [
+    {
+     "quantity": "P(Delta i > 10 deg)",
+     "value": 0.781,
+     "bibcode": "2018A&A...618A..63B",
+     "where": "Sect. 7.2 'A spin-orbit misalignment?' (i* = 18.6 +4.3/-3.8 or 162.4 +3.8/-4.3)"
+    }
+   ],
+   "paper_wording": {
+    "quote": "GJ 504A and b may have a spin-orbit misalignment",
+    "bibcode": "2018A&A...618A..63B",
+    "where": "Sect. 7.2"
+   },
+   "class": "unclear",
+   "class_basis": "Only a minimum obliquity: median 97 deg, but the posterior extends to 0. Both papers lean 'likely misaligned'.",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; a minimum-obliquity constraint exists (Bonnefoy+2018; Bowler+2023 Table 3)."
+  },
+  "51 Eri b": {
+   "host": "51 Eri",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 54.4,
+    "err_plus": 28.3,
+    "err_minus": 54.2,
+    "bibcode": "2023AJ....165..164B",
+    "where": "Table 3: Delta i = |i* - i_o| median (MAP 0.0, 95.4% CI 0.0-110.5); 'Misaligned?' = No Evidence; i* = 53.5 +13.2/-19.3, i_o = 144 +/- 8",
+    "kind": "lower",
+    "implication": "Delta i is a lower limit on psi (lambda unknown). The 95% interval reaches 0, so it cannot place the planet in any class."
+   },
+   "paper_wording": null,
+   "class": "unclear",
+   "class_basis": "Minimum obliquity only, consistent with 0 (Bowler+2023: 'No Evidence' of misalignment)",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; only a weak lower-limit constraint exists."
+  },
+  "CD-35 2722 b": {
+   "host": "CD-35 2722",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 54.8,
+    "err_plus": 36.0,
+    "err_minus": 54.6,
+    "bibcode": "2023AJ....165..164B",
+    "where": "Table 3: Delta i = |i* - i_o| median (MAP 35.5, 95.4% CI 0.0-118.2); 'Misaligned?' = Likely; i* = 54.4 +5.6/-8.5, i_o = 150.8 +20.7/-14.5",
+    "kind": "lower",
+    "implication": "Delta i is a lower limit on psi (lambda unknown). The 95% interval reaches 0, so it cannot place the planet in any class."
+   },
+   "paper_wording": null,
+   "class": "unclear",
+   "class_basis": "Minimum obliquity only; the 95% CI reaches 0 (Bowler+2023 flags 'Likely' misaligned, P(Delta i > 10) = 0.903)",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; a lower-limit constraint exists (Bowler+2023 Table 3)."
+  },
+  "VHS J125601.92-125723.9 b": {
+   "host": "VHS J125601.92-125723.9",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": {
+    "value": 63.1,
+    "err_plus": 38.7,
+    "err_minus": 44.0,
+    "bibcode": "2023AJ....165..164B",
+    "where": "Table 3: Delta i = |i* - i_o| median (MAP 35.5, 95.4% CI 0.0-122.3); 'Misaligned?' = Likely; i* = 58.9 +17.5/-21.2, i_o = 26 +/- 14",
+    "kind": "lower",
+    "implication": "Delta i is a lower limit on psi (lambda unknown). The 95% interval reaches 0, so it cannot place the planet in any class."
+   },
+   "paper_wording": null,
+   "class": "unclear",
+   "class_basis": "Minimum obliquity only; the 95% CI reaches 0. Caveat: the host is the VHS 1256 AB binary, so 'stellar spin' refers to the unresolved central pair.",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'. Our list also has 'VHS J125601.92-125723.9 B'; Bowler's constraint is for the planetary-mass companion b."
+  },
+  "AF Lep b": {
+   "host": "AF Lep",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "quantity": "i* vs i_orb",
+     "value": "i* = 54 +11/-9 vs i_o = 50 +9/-12",
+     "bibcode": "2023ApJ...950L..19F",
+     "where": "Sect. 4.5 'Stellar Inclination and Minimum Obliquity'"
+    },
+    {
+     "quantity": "i* vs i_orb",
+     "value": "i* = 60 +14/-10 (or 67 +10/-6) vs i_b = 55 +8/-13; |i* - i_b| consistent with zero",
+     "bibcode": "2023AJ....166..198Z",
+     "where": "Sect. 4 (orbit re-fit), ELPIS I"
+    }
+   ],
+   "paper_wording": {
+    "quote": "the agreement of the inclination angles is nevertheless consistent with spin-orbit alignment",
+    "bibcode": "2023ApJ...950L..19F",
+    "where": "Sect. 4.5"
+   },
+   "class": "unclear",
+   "class_basis": "Line-of-sight inclinations agree, but there is no lambda or psi; Zhang+2023 says either alignment or misalignment is possible.",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; only a line-of-sight inclination comparison exists (no number for psi)."
+  },
+  "tau Boo b": {
+   "host": "tau Boo",
+   "lambda_deg": null,
+   "psi_deg": null,
+   "psi_bound": null,
+   "other_measurements": [
+    {
+     "quantity": "i* vs i_orb",
+     "value": "stellar inclination, planet orbit (Brogi+2012 CRIRES, 44.5 +/- 1.5) and binary orbit (47.2 +2.7/-3.7) all coincide at ~45 deg",
+     "bibcode": "2019A&A...625A..59J",
+     "where": "Abstract; Fig. 3; Sect. 6.1"
+    }
+   ],
+   "paper_wording": {
+    "quote": "consistent with the assumption of a well-aligned, coplanar system",
+    "bibcode": "2019A&A...625A..59J",
+    "where": "Abstract; Sect. 6.1 adds that the sky-projected alignment is unconstrained"
+   },
+   "class": "unclear",
+   "class_basis": "Line-of-sight inclinations agree; lambda is unmeasured (non-transiting), so psi is unconstrained.",
+   "existing_cell_ok": false,
+   "existing_cell_note": "Cell reads 'Data Sparse'; only an inclination-agreement argument exists."
+  },
+  "Mercury": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 3.38,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 3.381 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 3.38 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 3.381 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Venus": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 3.86,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 3.858 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 3.86 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 3.858 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Mars": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 5.65,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 5.651 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 5.65 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 5.651 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Jupiter": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 6.09,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.091 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 6.09 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 6.091 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Saturn": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 5.51,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 5.505 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 5.51 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 5.505 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Uranus": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 6.48,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.479 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 6.48 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 6.479 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Neptune": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 6.43,
+    "err_plus": null,
+    "err_minus": null,
+    "bibcode": "2018CeMDA.130...22A",
+    "where": "Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.431 deg"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 6.43 deg (<70)",
+   "existing_cell_ok": true,
+   "existing_cell_note": "Recomputed 6.431 deg from the same inputs; agrees to 0.01 deg."
+  },
+  "Earth": {
+   "host": "Sun",
+   "lambda_deg": null,
+   "psi_deg": {
+    "value": 7.155,
+    "err_plus": 0.002,
+    "err_minus": 0.002,
+    "bibcode": "2005ApJ...621L.153B",
+    "where": "Beck & Giles 2005 (helioseismic solar rotation axis); NOT re-read here (ADS captcha, no arXiv copy found); value as in our cell"
+   },
+   "psi_bound": null,
+   "paper_wording": null,
+   "class": "prograde",
+   "class_basis": "psi = 7.155 deg (<70)",
+   "existing_cell_ok": null,
+   "existing_cell_note": "Could not open Beck & Giles 2005 to confirm 7.155. Independent check: the IAU pole (Archinal+2018) with Earth's J2000 orbit gives 7.25 deg; Brady+2023 quotes 'the solar system's obliquity is 7 deg (Beck & Giles 2005)'. Prograde either way."
+  }
+ },
+ "papers": {
+  "2022A&A...663A.160B": {
+   "title": "The polar orbit of the warm Neptune GJ 436b seen with VLT/ESPRESSO",
+   "doi": "10.1051/0004-6361/202142559",
+   "arxiv": "2203.06109"
+  },
+  "2022ApJ...931L..15S": {
+   "title": "The Warm Neptune GJ 3470b has a Polar Orbit",
+   "doi": "10.3847/2041-8213/ac6e3c",
+   "arxiv": "2111.01295"
+  },
+  "2026A&A...713L..15C": {
+   "title": "Upside down: GJ3090 b the first retrograde exoplanet around an M dwarf detected with NIRPS",
+   "doi": "10.1051/0004-6361/202661989",
+   "arxiv": "2609.24870"
+  },
+  "2026arXiv260324682K": {
+   "title": "GJ 523b is a Massive, 170 Myr-old Mega-Earth, Likely on a Polar Orbit",
+   "doi": null,
+   "arxiv": "2603.24682"
+  },
+  "2023NatAs...7..198Z": {
+   "title": "Measured Spin-Orbit Alignment of Ultra-Short Period Super-Earth 55 Cancri e",
+   "doi": "10.1038/s41550-022-01837-2",
+   "arxiv": "2212.03953"
+  },
+  "2014A&A...569A..65B": {
+   "title": "Detecting the spin-orbit misalignment of the super-Earth 55 Cnc e",
+   "doi": null,
+   "arxiv": "1406.6813"
+  },
+  "2021MNRAS.502.2893K": {
+   "title": "Orbital misalignment of the super-Earth pi Men c with the spin of its star",
+   "doi": "10.1093/mnras/stab237",
+   "arxiv": "2007.11564"
+  },
+  "2024A&A...682A..28C": {
+   "title": "An ESPRESSO view of HD 189733 system. Broadband transmission spectrum, differential rotation, and system architecture",
+   "doi": "10.1051/0004-6361/202346366",
+   "arxiv": "2310.06681"
+  },
+  "2025A&A...700A..41M": {
+   "title": "The ESPRESSO transmission spectrum of HD 189733 b: Extracting the planetary sodium and lithium signatures amid stellar contamination",
+   "doi": "10.1051/0004-6361/202554785",
+   "arxiv": "2506.21459"
+  },
+  "2020AJ....160..179M": {
+   "title": "TESS Hunt for Young and Maturing Exoplanets (THYME) III: a two-planet system in the 400 Myr Ursa Major Group",
+   "doi": "10.3847/1538-3881/abae64",
+   "arxiv": "2005.00047"
+  },
+  "2020AJ....160..193D": {
+   "title": "TKS III: A Stellar Obliquity Measurement of TOI-1726 c",
+   "doi": "10.3847/1538-3881/abb3bd",
+   "arxiv": "2008.12397"
+  },
+  "2020ApJ...899L..13H": {
+   "title": "Limits on the Spin-Orbit Angle and Atmospheric Escape for the 22 Myr-old Planet AU Mic b",
+   "doi": "10.3847/2041-8213/aba6eb",
+   "arxiv": "2006.13243"
+  },
+  "2026ApJ..1005L..25L": {
+   "title": "Spin-Orbit Geometry of AU Mic b and c from Back-to-Back Transits Observed Contemporaneously with Magellan PFS, LCOGT, and CHEOPS",
+   "doi": "10.3847/2041-8213/ae7725",
+   "arxiv": "2605.29946"
+  },
+  "2025MNRAS.536.2046Y": {
+   "title": "A possible misaligned orbit for the young planet AU Mic c",
+   "doi": "10.1093/mnras/stae2655",
+   "arxiv": "2411.16958"
+  },
+  "2020ApJ...890L..27H": {
+   "title": "Evidence for Spin-orbit Alignment in the TRAPPIST-1 System",
+   "doi": "10.3847/2041-8213/ab74dc",
+   "arxiv": "2002.05892"
+  },
+  "2023AJ....165..129B": {
+   "title": "Measuring the Obliquities of the TRAPPIST-1 Planets with MAROON-X",
+   "doi": "10.3847/1538-3881/acb5f7",
+   "arxiv": "2211.11841"
+  },
+  "2026A&A...710A.242F": {
+   "title": "Joint Rossiter-McLaughlin Revolutions analysis of the multi-planetary system GJ 9827",
+   "doi": "10.1051/0004-6361/202557501",
+   "arxiv": null
+  },
+  "2026arXiv260701027R": {
+   "title": "Understanding eccentric temperate giants: an in-depth study of the architecture and stellar obliquity of the TOI-2134 system",
+   "doi": "10.1093/mnras/stag1265",
+   "arxiv": "2607.01027"
+  },
+  "2020ApJ...897L...8K": {
+   "title": "Spin-Orbit Alignment of the beta Pictoris Planetary System",
+   "doi": "10.3847/2041-8213/ab9d27",
+   "arxiv": "2006.10784"
+  },
+  "2023AJ....165..164B": {
+   "title": "Rotation Periods, Inclinations, and Obliquities of Cool Stars Hosting Directly Imaged Substellar Companions: Spin-Orbit Misalignments are Common",
+   "doi": "10.3847/1538-3881/acbd34",
+   "arxiv": "2301.04692"
+  },
+  "2018A&A...618A..63B": {
+   "title": "The GJ 504 system revisited. Combining interferometric, radial velocity, and high contrast imaging data",
+   "doi": "10.1051/0004-6361/201832942",
+   "arxiv": "1807.00657"
+  },
+  "2023ApJ...950L..19F": {
+   "title": "Astrometric Accelerations as Dynamical Beacons: A Giant Planet Imaged inside the Debris Disk of the Young Star AF Lep",
+   "doi": "10.3847/2041-8213/acd6f6",
+   "arxiv": "2302.05420"
+  },
+  "2023AJ....166..198Z": {
+   "title": "ELemental abundances of Planets and brown dwarfs Imaged around Stars (ELPIS). I. Potential Metal Enrichment of the Exoplanet AF Lep b",
+   "doi": "10.3847/1538-3881/acf768",
+   "arxiv": "2309.02488"
+  },
+  "2019A&A...625A..59J": {
+   "title": "Constraining the orbit of the planet-hosting binary tau Bootis: Clues about planetary formation and migration",
+   "doi": "10.1051/0004-6361/201834368",
+   "arxiv": "1812.05885"
+  },
+  "2005ApJ...621L.153B": {
+   "title": "Helioseismic Determination of the Solar Rotation Axis",
+   "doi": "10.1086/429224",
+   "arxiv": null
+  },
+  "2018CeMDA.130...22A": {
+   "title": "Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015",
+   "doi": "10.1007/s10569-017-9805-5",
+   "arxiv": null
+  }
+ },
+ "not_on_list_but_close": [
+  {
+   "planet": "HD 3167 c",
+   "distance_ly": 154.2,
+   "lambda": "-108.9 +5.4/-5.5",
+   "psi": "107.7 +5.1/-4.9",
+   "class": "polar",
+   "ref": "2021A&A...654A.152B (via TEPCat)",
+   "note": "title: 'an ultra-short period planet and a warm mini-Neptune on perpendicular orbits'; HD 3167 b: lambda -66 +14/-12 (Winn+2026, arXiv:2609.19277, via TEPCat)"
+  },
+  {
+   "planet": "HAT-P-11 b",
+   "distance_ly": 123.2,
+   "lambda": "96.0 +2.1/-1.9",
+   "psi": null,
+   "class": "polar",
+   "ref": "2026MNRAS.550g1041C (via TEPCat)"
+  },
+  {
+   "planet": "HD 73583 b (TOI-560 b)",
+   "distance_ly": 103.0,
+   "lambda": "-25 +/- 16",
+   "psi": null,
+   "class": "prograde",
+   "ref": "arXiv:2608.22611 Zhang+2026 (via TEPCat)",
+   "note": "just outside 100 ly"
+  },
+  {
+   "planet": "2MASS J0122-2439 b",
+   "distance_ly": 110.3,
+   "lambda": null,
+   "psi": "Delta i = 14.2 +5.8/-13.7 (lower limit)",
+   "class": "unclear",
+   "ref": "2023AJ....165..164B Table 3; Bryan+2020"
+  },
+  {
+   "planet": "LP 261-75 b (brown dwarf)",
+   "distance_ly": "not checked (~110)",
+   "lambda": "5 +11/-10",
+   "psi": "14 +8/-7",
+   "class": "prograde",
+   "ref": "2025AJ....169...64B (via TEPCat)"
+  },
+  {
+   "planet": "TOI-1759 b",
+   "distance_ly": 130.7,
+   "lambda": "4 +19/-18",
+   "psi": "24 +12/-11",
+   "class": "prograde",
+   "ref": "2025AJ....170..182P (via TEPCat)"
+  },
+  {
+   "planet": "TOI-2076 b",
+   "distance_ly": 136.7,
+   "lambda": "-3 +15/-16",
+   "psi": "18 +10/-9",
+   "class": "prograde",
+   "ref": "2023ApJ...944L..41F (via TEPCat)"
+  },
+  {
+   "planet": "DS Tuc A b",
+   "distance_ly": 143.7,
+   "lambda": "2.93 +0.88/-0.87",
+   "psi": null,
+   "class": "prograde",
+   "ref": "2020ApJ...892L..21Z (via TEPCat)"
+  },
+  {
+   "planet": "K2-25 b",
+   "distance_ly": 146.6,
+   "lambda": "3 +/- 16",
+   "psi": "17 +11/-8",
+   "class": "prograde",
+   "ref": "2020AJ....160..192S (via TEPCat)"
+  },
+  {
+   "planet": "GJ 229 B (brown dwarf; a planet by this project's rule)",
+   "distance_ly": 18.8,
+   "lambda": null,
+   "psi": "Delta i = 84.5 +15.3/-16.2 (lower limit; 95% CI 52.6-114.8; flagged 'Yes' misaligned)",
+   "class": "lower bound only (>52 deg at 95%)",
+   "ref": "2023AJ....165..164B Table 3 (i_o = 5.50 from Feng+2022)",
+   "note": "within 100 ly but on neither input list; check whether it belongs on a planet tab"
+  },
+  {
+   "planet": "HD 130948 B/C and HR 7672 B (brown dwarfs, within 100 ly)",
+   "distance_ly": "about 59 / 58",
+   "lambda": null,
+   "psi": "Delta i = 17.7 +8.5/-17.5 and 16.6 +7.6/-16.2 (lower limits, 'No Evidence')",
+   "class": "unclear",
+   "ref": "2023AJ....165..164B Table 3",
+   "note": "on neither input list"
+  }
+ ],
+ "caveats": [
+  "A planet's sky-plane orbital inclination was never used as an obliquity. The Bowler+2023 Delta i values are |i* - i_o| minimum obliquities that the paper itself computes, not our arithmetic.",
+  "Classification rule: angle = psi if known, else |lambda| (lambda folded into 0-180, e.g. GJ 3090 b lambda = 208 -> 152); prograde < 70, polar 70-110, retrograde > 110. Where only a lower bound exists whose 95% interval reaches 0, the class is 'unclear'.",
+  "TRAPPIST-1: Brady+2023's preferred model fits ONE obliquity for b-g (coplanar assumption). It is recorded under each planet with shared_system_value=true; the per-planet fits are in other_measurements. TRAPPIST-1 h was not observed.",
+  "TEPCat still lists the arXiv-v1 numbers for GJ 3470 b (lambda 101, psi 97); the refereed paper gives lambda 98 +15/-12, psi 95 +9/-8.",
+  "TEPCat stores GJ 523 b as psi = 90 +28.6/-0; the paper gives only psi >= 71.4 +4.7/-5.0 under lambda = 0.",
+  "GJ 9827 values come from the A&A abstract (full text blocked by a 403), cross-checked against TEPCat and the NASA Exoplanet Archive; the table/section number was not seen directly.",
+  "Earth's 7.155 deg (Beck & Giles 2005) could not be re-read (ADS captcha, no arXiv copy). The other seven Solar System values are not printed values: they were recomputed here from JPL J2000 elements and the IAU solar pole, and agree with the cells to 0.01 deg.",
+  "Bibcodes for 2026 papers: Carteret+ (A&A 713, L15) and Lin+ (ApJL 1005, L25) follow the ADS pattern from the journal reference (Lin's taken from TEPCat). Kroft+ (arXiv only) and Rescigno+ (MNRAS 550, article stag1265, no page-based bibcode seen) are given as arXiv bibcodes, with the DOI in 'papers'.",
+  "Left out, no spin-orbit measurement: TOI-2134 b (no RM detection); eps Eri b (only planet-disk coplanarity in arXiv:2502.20561, no stellar-spin comparison); hosts with only a stellar inclination and no companion-orbit comparison (HD 3651, HN Peg, Ross 458, G 196-3, ksi UMa, COCONUTS-2 / L 34-26 in Bowler+2023 Table 3).",
+  "No measurement found for GJ 1214 b, GJ 486 b, LHS 3844 b, GJ 367 b, L 98-59, LTT 1445 A, TOI-270, TOI-776, HD 97658 b, HD 260655, HD 136352, LHS 1140, WD 1856+534 b, 14 Her, eps Ind A b, ups And or gam Cep (searched TEPCat, the NASA Exoplanet Archive pl_projobliq/pl_trueobliq, and the web). The arXiv API rate-limited (HTTP 429) part-way through, so the search for 2026 preprints went through web search and may be incomplete."
+ ]
+}

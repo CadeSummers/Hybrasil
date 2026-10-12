@@ -1,0 +1,731 @@
+{
+ "agent_id": "B07",
+ "phase": 2,
+ "coverage": [
+  {
+   "system_host": "GJ 806",
+   "aliases_searched": [
+    "GJ 806",
+    "Gl 806",
+    "TOI-4481",
+    "TIC 239332587",
+    "HIP 102401",
+    "BD+44 3567",
+    "Karmn J20450+444",
+    "Gaia DR3 2070115588901082368"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Palle et al. 2023 full text (arXiv PDF)",
+    "WebSearch",
+    "Tuomi et al. 2019 Table 3"
+   ],
+   "result": "1 candidate",
+   "notes": "b (TOI-4481.01, TFOPWG CP) and c are confirmed and on the sheet. Palle et al. 2023 report a third RV periodicity at 13.6 d they cannot distinguish from activity; exoplanet.eu lists it as 'TOI-4481 d' with status Candidate. Not in NASA pscomppars, not in OEC (no GJ 806 file). Gaia DR3: parallax 82.890 mas, RUWE 1.13, no NSS solution. Only one TOI on this TIC. Tuomi et al. 2019 lists GJ 806 as a target but gives no candidate for it. No follow-up paper found (arXiv search on GJ 806 / TOI-4481 returns only Palle+2023)."
+  },
+  {
+   "system_host": "G 192-15",
+   "aliases_searched": [
+    "G 192-15",
+    "GJ 3380",
+    "Karmn J06024+498",
+    "TIC 467119250",
+    "Gaia DR3 970354749937140736"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Kaminski et al. 2025 full text (arXiv 2504.03364)",
+    "Tuomi et al. 2019"
+   ],
+   "result": "1 candidate",
+   "notes": "b (2.27 d) and c (1219 d) confirmed, on the sheet. Kaminski et al. 2025 (Sect. 3.4, Table 4, Fig. 5) report a third, low-significance residual signal at 69.94 d (FAP ~15%) that they call 'the third candidate signal' and did not adopt. exoplanet.eu: b, c confirmed, no candidate. Not in OEC. No TOI. Gaia DR3 parallax 104.959 mas, RUWE 1.28, no NSS solution. Host mass 0.132 +/- 0.009 Msun (Kaminski+2025 Table 1) - the Systems row has no mass."
+  },
+  {
+   "system_host": "GJ 3512",
+   "aliases_searched": [
+    "GJ 3512",
+    "G 234-45",
+    "Karmn J08413+594",
+    "TIC 445064836",
+    "Gaia DR3 1040827088726734976"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Morales et al. 2025 (CARMENES) full text (arXiv 2507.15516, Sect. 5.1)",
+    "arXiv 2010.07715 abstract",
+    "Tuomi et al. 2019"
+   ],
+   "result": "0 candidates",
+   "notes": "b (203.1 d) and c (2354 d) are confirmed and on the sheet; the 2025 CARMENES+IRD paper closes a full cycle of c. Residual periodogram: no signal below 0.1% FAP; the highest residual peaks (7.2 d, 130 d) are attributed to rotation (~85 d) aliases and shrink under a GP; injection tests exclude further planets > 3 Mearth inside b's orbit. exoplanet.eu: b, c confirmed only. OEC lists b only (stale, no candidate). No TOI. Gaia DR3 parallax 105.294 mas, RUWE 1.25, no NSS solution."
+  },
+  {
+   "system_host": "GJ 1002",
+   "aliases_searched": [
+    "GJ 1002",
+    "Gl 1002",
+    "Gliese 1002",
+    "G 158-27",
+    "Karmn J00067-075",
+    "TIC 176287658",
+    "Gaia DR3 2441630500517079808"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Suarez Mascareno et al. 2023 full text (arXiv 2212.07332, Sect. 4.3)",
+    "Kaminski et al. 2025 (arXiv 2504.03364)",
+    "Tuomi et al. 2019"
+   ],
+   "result": "0 candidates",
+   "notes": "b (10.35 d) and c (21.20 d) are on the confirmed tab. The discovery paper tested for a third signal (22-100 d and 100-1000 d) and found none. Kaminski et al. 2025 (CARMENES) note that b and c 'can not be identified from the CARMENES RVs alone' and call them the 'planet candidates proposed by Suarez Mascareno et al. (2023)'; that is a sensitivity statement (ESPRESSO carries the detection), not a refutation - flagged for the writer only. exoplanet.eu lists b, c confirmed (its c period is typed 20.202 d). OEC 'Gliese 1002.xml' has no planets. No TOI. Gaia DR3 parallax 206.350 mas, RUWE 1.34, no NSS solution."
+  },
+  {
+   "system_host": "GJ 3323",
+   "aliases_searched": [
+    "GJ 3323",
+    "LHS 1723",
+    "TIC 43605290",
+    "Gaia DR3 3187115498866675456"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Astudillo-Defru et al. 2017 full text (arXiv 1703.05386, Sect. 4.3, Table 4)",
+    "Tuomi et al. 2019 Table 3",
+    "Feng et al. 2020 (arXiv 2008.07998)",
+    "WebSearch"
+   ],
+   "result": "0 new candidates (1 flag on an existing confirmed-tab row)",
+   "notes": "b (5.36 d) and c (40.54 d) are both on the confirmed tab. The discovery paper itself says 'GJ 3323c should be considered a planet candidate' (Sect. 4.3.2) and writes it 'GJ 3323(c)', because 40 d is near the expected ~33 d rotation and FWHM shows 40 d power in two seasons. NASA pscomppars treats c as confirmed (pl_controv_flag 0); exoplanet.eu and OEC list it Confirmed. No later paper confirming or refuting c was found. No TOI. Gaia DR3 parallax 186.047 mas, RUWE 1.10, no NSS solution. Not in Tuomi 2019 Table 3 or Feng 2022."
+  },
+  {
+   "system_host": "WD 0806-661",
+   "aliases_searched": [
+    "WD 0806-661",
+    "WD 0806-66",
+    "TIC 306826966",
+    "Gaia DR3 5274517467840296832"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML"
+   ],
+   "result": "0 candidates",
+   "notes": "Single imaged Y-dwarf companion b, on the sheet. arXiv 2606.04294 (June 2026) re-derives its mass as 7 +/- 1 MJup (Teff 357 K, age 1.6 Gyr), consistent with the sheet's 7 MJ. No other companion claims found. Gaia DR3 parallax 51.997 mas, RUWE 1.03, no NSS solution. No TOI."
+  },
+  {
+   "system_host": "VHS J125601.92-125723.9",
+   "aliases_searched": [
+    "VHS J125601.92-125723.9",
+    "VHS 1256-1257",
+    "VHS 1256 b",
+    "TIC 2470992",
+    "Gaia DR3 3526198184723289472"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Dupuy et al. 2020 abstract (arXiv 2004.05180)",
+    "Poon et al. 2024 abstract (arXiv 2410.02672)",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "Only the wide imaged companion b (on the sheet, already marked >13 MJ likely BD). No further candidates. Host is an unresolved equal-flux M7.5 binary 'AB' (Dupuy et al. 2020); Gaia DR3 parallax 47.273 +/- 0.473 mas with RUWE 7.30 (binary-perturbed). See incidental finds: the sheet's 41.42 ly uses the superseded 12.7 pc distance."
+  },
+  {
+   "system_host": "DE CVn",
+   "aliases_searched": [
+    "DE CVn",
+    "DE Canum Venaticorum",
+    "TIC 446175401",
+    "Gaia DR3 1550299304833675392"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Han et al. 2018 abstract (arXiv 1811.08625)",
+    "Pulley et al. 2022, MNRAS 514, 5725 (journal page)",
+    "Pulley et al. 2025 (arXiv 2507.06748)",
+    "arXiv 2503.20900 (TESS ETV compilation)",
+    "WebSearch"
+   ],
+   "result": "0 candidates (existing confirmed-tab planet is disputed)",
+   "notes": "Gaia DR3 parallax 32.773 +/- 0.021 mas -> 99.5 ly, just inside the cut. DE CVn b (ETV, Han et al. 2018) is on the confirmed tab; NASA pscomppars sets pl_controv_flag = 1. Pulley et al. 2022 (MNRAS 514, 5725; arXiv 2206.06919) report 17 new eclipse times (2020-2022) that 'do not fit the Han model'. Pulley et al. 2025 count DE CVn among 10 PCEBs where 46 of 49 published circumbinary models failed to predict new eclipses. exoplanet.eu and OEC still list b as Confirmed. No other companion claims. No TOI; no NSS solution."
+  },
+  {
+   "system_host": "alf Tau",
+   "aliases_searched": [
+    "alf Tau",
+    "alpha Tau",
+    "Aldebaran",
+    "HD 29139",
+    "HIP 21421",
+    "TIC 245873777"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Reichert et al. 2019 abstract (arXiv 1903.09157)",
+    "exoplanet.eu planet pages aldebaran_b--7063 and aldebaran_c--787",
+    "WebSearch"
+   ],
+   "result": "0 new candidates (existing confirmed-tab planet is disputed)",
+   "notes": "alf Tau b (Hatzes et al. 2015, P ~629 d) is on the confirmed tab. Reichert et al. 2019 (A&A 625, A22) 'Evidence against the proposed planet Aldebaran b': the ~620 d period is absent from data before ~2006, shows phase shifts, a two-planet fit is dynamically unstable; oscillatory convective modes proposed instead. NASA pscomppars pl_controv_flag = 1; OEC <list>Controversial</list>; exoplanet.eu lists the 614-629 d planet as 'Aldebaran c', status Controversial, and separately a 'confirmed' 'Aldebaran b' (P 772.83 d) whose only reference is the same Reichert 2019 paper - that exoplanet.eu entry looks like a catalogue artefact, not a second planet. No Gaia DR3 source (too bright); no TOI."
+  },
+  {
+   "system_host": "alf Ari",
+   "aliases_searched": [
+    "alf Ari",
+    "alpha Ari",
+    "Hamal",
+    "HD 12929",
+    "HIP 9884",
+    "TIC 306349516"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML"
+   ],
+   "result": "0 candidates",
+   "notes": "alf Ari b (Lee et al. 2011, P 380.8 d) on the confirmed tab; NASA controversial flag 0; exoplanet.eu and OEC Confirmed. arXiv search returned no candidate or dispute papers. No Gaia DR3 source (too bright); no TOI."
+  },
+  {
+   "system_host": "HD 62509",
+   "aliases_searched": [
+    "HD 62509",
+    "Pollux",
+    "bet Gem",
+    "beta Geminorum",
+    "HIP 37826",
+    "TIC 423088367"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Auriere et al. 2021 abstract (arXiv 2101.02016)",
+    "Weihai 2015 abstract (arXiv 1507.06051)",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "Pollux b (P 589.64 d) on the confirmed tab; NASA controversial flag 0; exoplanet.eu and OEC Confirmed. Auriere et al. 2021 (A&A 646, A130) find a ZDI rotation period of 660 +/- 15 d and say that if rotation and RV periods were equal, activity could explain the RV and the planet 'would appear unnecessary'; they call the planet 'probable'. Weihai 2015 recovers the Keplerian at 7.3 m/s rms. No new companion claims. No Gaia DR3 source; no TOI."
+  },
+  {
+   "system_host": "nu Oct A",
+   "aliases_searched": [
+    "nu Oct",
+    "nu Octantis",
+    "nu Oct A",
+    "HD 205478",
+    "HIP 107089",
+    "TIC 352542468"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Ramm et al. 2016 abstract (arXiv 1605.06720)",
+    "Ramm et al. 2021 abstract (arXiv 2101.06844)"
+   ],
+   "result": "0 candidates",
+   "notes": "nu Oct A b (retrograde S-type, P ~400-415 d) on the confirmed tab. NASA pl_controv_flag = 1 and OEC <list>Controversial</list>; exoplanet.eu Confirmed. Ramm et al. 2021 (MNRAS 502, 2793) find no RV-correlated activity and argue 'only in favor of the planet'. No refutation found. Host is a single-lined spectroscopic binary (a_bin ~2.6 AU, P ~1050 d) although the Systems row says 1 star. Gaia DR3 source 6356375508718385024 has no parallax; no TOI (nearest TOI 6714.01 is ~1 deg away, unrelated)."
+  },
+  {
+   "system_host": "gam Cep",
+   "aliases_searched": [
+    "gam Cep",
+    "gamma Cep",
+    "gamma Cephei",
+    "HD 222404",
+    "HIP 116727",
+    "TIC 367912480",
+    "Gaia DR3 2281778105594488192"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "arXiv 2608.30030 abstract (Aug 2026, updated orbits and limits)",
+    "arXiv 2209.01472 abstract (AJ 164, 177)",
+    "arXiv 1101.2588 abstract (Hatzes)"
+   ],
+   "result": "0 candidates",
+   "notes": "gam Cep Ab on the confirmed tab. The August 2026 paper (arXiv 2608.30030, 45-yr RV baseline) finds Ab at a = 1.978 AU, Msini = 1.62 +/- 0.04 MJup, and rules out additional Jovians at 2.5-20 AU and >Neptune-mass companions inside 1 AU (>90% confidence). Hatzes et al. 2011 report multi-periodic stellar pulsation, not a planet. No candidates anywhere. Gaia DR3 parallax 72.517 mas, RUWE 3.21 (binary), no NSS solution; no TOI. See incidental finds on the stellar companion and true mass."
+  },
+  {
+   "system_host": "kap CrB",
+   "aliases_searched": [
+    "kap CrB",
+    "kappa CrB",
+    "kappa Coronae Borealis",
+    "HD 142091",
+    "HIP 77655",
+    "TIC 334753043",
+    "Gaia DR3 1372702716380418688"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "Bonsor et al. 2013 full text (arXiv 1302.7000)",
+    "Lovell et al. 2022 full text (arXiv 2209.12910, Sect. 6, Tables 4-6)",
+    "Baines et al. 2013 abstract (arXiv 1306.4322)",
+    "CLS Rosenthal+2021 (VizieR J/ApJS/255/8)",
+    "Feng+2022 (VizieR J/ApJS/262/21)",
+    "WebSearch"
+   ],
+   "result": "1 candidate",
+   "notes": "kap CrB b (P ~1250 d) confirmed, on the sheet. A long-term RV acceleration first reported by Bonsor et al. 2013 ('evidence for a second planetary companion', which they call kappa CrB c) persists in 17 yr of Lick/APF/HIRES RVs (Lovell et al. 2022): dv/dt = 0.73 +/- 0.07 m/s/yr in the N=1 fit; the outer body must lie at 8-66 AU with mass 0.4-120 MJup. Neither exoplanet.eu nor OEC nor NASA lists a c. Not in CLS (Rosenthal 2021) or Feng 2022. Gaia DR3 parallax 33.343 +/- 0.080 mas (97.8 ly, inside the cut), RUWE 1.17, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "HD 27442",
+   "aliases_searched": [
+    "HD 27442",
+    "eps Ret",
+    "epsilon Reticuli",
+    "HIP 19921",
+    "TIC 198079199",
+    "Gaia DR3 4678664766393829504"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "HD 27442 b (eps Ret Ab, P ~415-428 d) on the confirmed tab; no candidate in any catalogue or paper found. The host has a white-dwarf companion HD 27442 B (OEC tags the planet S-type; arXiv 1104.0925 is about that WD) although the Systems row says 1 star. Gaia DR3 parallax 54.229 mas, RUWE 2.78, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "51 Eri",
+   "aliases_searched": [
+    "51 Eri",
+    "51 Eridani",
+    "HD 29391",
+    "HIP 21547",
+    "TIC 298810162",
+    "Gaia DR3 3205095125321700480"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML"
+   ],
+   "result": "0 candidates",
+   "notes": "51 Eri b (imaged) on the confirmed tab. No other point-source or RV candidates in arXiv (2015-2026 papers all concern b), exoplanet.eu or OEC. Gaia DR3 parallax 33.439 mas (97.5 ly), RUWE 1.15, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "HD 19994",
+   "aliases_searched": [
+    "HD 19994",
+    "94 Cet",
+    "HIP 14954",
+    "TIC 49845357",
+    "Gaia DR3 3265335443260522112"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "HD 19994 b (94 Cet Ab) on the confirmed tab. No planet candidates found. The host has a stellar companion (OEC tags the planet S-type; a web-search snippet mentions 'HD 19994 BC'), while the Systems row says 1 star - not verified further. Gaia DR3 parallax 43.703 mas, RUWE 1.16, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "HD 33564",
+   "aliases_searched": [
+    "HD 33564",
+    "HIP 25110",
+    "TIC 142103211",
+    "Gaia DR3 553480551264062848"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "HD 33564 b (Galland et al. 2005) on the confirmed tab; nothing else in any source. Gaia DR3 parallax 48.110 mas, RUWE 1.05, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "tau Boo",
+   "aliases_searched": [
+    "tau Boo",
+    "tau Bootis",
+    "HD 120136",
+    "HIP 67275",
+    "TIC 72506701",
+    "Gaia DR3 1244571953471006720"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "CLS Rosenthal+2021 (VizieR J/ApJS/255/8 tables 3-4)",
+    "Feng+2022 (VizieR J/ApJS/262/21)",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "tau Boo b on the confirmed tab. CLS table 4 lists only the stellar companion (Msini ~350 MJup, a ~46 AU; tau Boo B is already on multistars). No second planet claimed in arXiv, exoplanet.eu, OEC or NASA; radio-emission and atmosphere papers concern b only. Gaia DR3 parallax 64.047 mas, RUWE 0.87, no NSS solution; no TOI."
+  },
+  {
+   "system_host": "70 Vir",
+   "aliases_searched": [
+    "70 Vir",
+    "70 Virginis",
+    "HD 117176",
+    "HIP 65721",
+    "TIC 95473936",
+    "Gaia DR3 3740176925743994752"
+   ],
+   "sources_checked": [
+    "NASA pscomppars",
+    "NASA TOI table (live TAP + pack toi_nasa_2026-09-26.csv)",
+    "Gaia DR3 gaia_source + NSS tables",
+    "exoplanet.eu (catalog JSON search, Confirmed/Candidate/Other)",
+    "arXiv (arxiv.org search, all fields)",
+    "Open Exoplanet Catalogue XML",
+    "CLS Rosenthal+2021",
+    "Feng+2022",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "70 Vir b on the confirmed tab; CLS lists only b. A web-search snippet mentions an unconfirmed wide M5-or-later common-proper-motion candidate at ~52 AU - stellar, not planetary, not verified. Gaia DR3 parallax 55.251 mas, RUWE 1.28, no NSS solution; no TOI."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "GJ 806 candidate P=13.6d",
+   "system_host": "GJ 806",
+   "new_system": false,
+   "planet_host_star": "GJ 806",
+   "aliases": [
+    "TOI-4481 d (exoplanet.eu)"
+   ],
+   "designation": "13.6 d RV signal (Palle et al. 2023, Sect. 4.3.1 and Table 5); exoplanet.eu calls it TOI-4481 d",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-paper RV signal the discoverers explicitly could not separate from stellar activity: seen in CARMENES and HIRES but NOT recovered in MAROON-X, which covers two cycles with enough precision to see it; a 13.6 d photometric peak also appears in LCO B-band photometry, and the rotation period is not pinned down. They did not adopt it in their final model.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 13.60588,
+    "err": "+/-0.00065",
+    "src": "S1",
+    "where": "Table 5"
+   },
+   "a_au": {
+    "value": 0.0844,
+    "err": "+/-0.0017",
+    "src": "S1",
+    "where": "Table 5 (paper's own a_p)"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 8.5,
+    "err": "+/-0.45",
+    "type": "Msini",
+    "src": "S1",
+    "where": "Table 5; abstract; Sect. 4.3.1"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.413,
+     "err": "+/-0.011",
+     "src": "S1",
+     "where": "Table 1"
+    },
+    "teff_k": {
+     "value": 3600,
+     "err": "+/-16",
+     "src": "S1",
+     "where": "Table 1 (Fuhrmeister+2020)"
+    },
+    "radius_rsun": {
+     "value": 0.4144,
+     "err": "+/-0.0038",
+     "src": "S1",
+     "where": "Table 1"
+    },
+    "luminosity_lsun": {
+     "value": 0.025985,
+     "err": "+/-0.000098",
+     "src": "S1",
+     "where": "Table 1 (L = 25985 +/- 98 x 1e-6 Lsun)"
+    },
+    "logg": {
+     "value": 4.98,
+     "err": "+/-0.12",
+     "src": "S1",
+     "where": "Table 1 (log g spec)"
+    }
+   },
+   "orbit_flags": "RV only (CARMENES + HIRES). P, K = 4.10 +/- 0.20 m/s, Msini and a from the paper's reference-model fit (Table 5); eccentricity not given (circular fit implied). Not detected in MAROON-X; the 13.6 d period may be activity-related. Possible near-2:1 with c (6.64 d). Table 5 in the arXiv PDF text is column-shifted; values read as P 13.60588(65), t0 2417.23+/-0.12, K 4.10+/-0.20, a/R* 48.8, Msini 8.50+/-0.45, a 0.0844+/-0.0017 AU, Teq 385 K, S 3.6 S_earth.",
+   "reference": "Palle et al. 2023, A&A 678, A80, 'GJ 806 (TOI-4481): A bright nearby multi-planetary system with a transiting hot, low-density super-Earth', Sect. 4.2.7, 4.3.1, Table 5",
+   "vetting_date": "2023-10",
+   "catalogue_distance_ly": {
+    "value": 39.35,
+    "src": "S2",
+    "where": "Gaia DR3 parallax 82.8903 +/- 0.0167 mas; 3261.56/plx (sheet Systems row has 39.28 ly)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Palle, E. et al. 2023, A&A 678, A80",
+     "url": "https://arxiv.org/abs/2301.06873",
+     "what": "13.6 d signal parameters, stellar parameters"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 2070115588901082368",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax 82.8903 mas, RUWE 1.127"
+    },
+    "S3": {
+     "citation": "exoplanet.eu catalogue, 'TOI-4481 d' (status Candidate, P = 13.60588 d, a = 0.0844 AU)",
+     "url": "https://exoplanet.eu/catalog/toi_4481_d--8585/",
+     "what": "catalogue status"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for GJ 806 / TOI-4481 / HIP 102401: only GJ 806 b (0.926 d) and c (6.64 d) on the confirmed tab; nothing on Unconfirmed or Rejected.",
+   "confidence_notes": "Discoverers call it a possible planet but leave it out of the adopted model. Not seen in the most precise instrument (MAROON-X). Could be a planet or activity; no follow-up since 2023."
+  },
+  {
+   "planet": "G 192-15 candidate P=69.9d",
+   "system_host": "G 192-15",
+   "new_system": false,
+   "planet_host_star": "G 192-15",
+   "aliases": [
+    "GJ 3380 candidate P=69.9d"
+   ],
+   "designation": "69.94 d residual RV signal (Kaminski et al. 2025, Sect. 3.4, Table 4, Fig. 5)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Weak: single-instrument (CARMENES) residual signal with FAP ~15%, incoherent in the stacked BGLS, only Delta lnZ = 1.6 over the adopted two-planet model, and the authors found the third body would substantially change b and c's eccentricities. They explicitly did not pursue it. Borderline unlikely; kept as ambiguous because it has not been refuted and the brief's ambiguous tier covers single-instrument low-significance signals.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 69.94,
+    "err": "",
+    "src": "S1",
+    "where": "Sect. 3.4 text ('another signal in the residuals at a period of 69.94 d')"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.132,
+     "err": "+/-0.009",
+     "src": "S1",
+     "where": "Table 1"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Period only; no amplitude, mass or eccentricity published for the 69.94 d signal (model 3P in Table 4 fits it circular and eccentric; lnZ -386.6 circular vs -388.2 for adopted 2P). Stellar rotation 105 +/- 6 d (Table 1).",
+   "reference": "Kaminski et al. 2025, A&A (CARMENES), 'The CARMENES search for exoplanets around M dwarfs. Occurrence rates of Earth-like planets around very low-mass stars', Sect. 3.4, Table 4",
+   "vetting_date": "2025-04",
+   "catalogue_distance_ly": {
+    "value": 31.07,
+    "src": "S2",
+    "where": "Gaia DR3 parallax 104.9590 +/- 0.0347 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Kaminski, A. et al. 2025, CARMENES occurrence rates around very low-mass stars",
+     "url": "https://arxiv.org/abs/2504.03364",
+     "what": "69.94 d signal, model comparison, host mass"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 970354749937140736",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    }
+   },
+   "dedupe": "Checked all pack CSVs for G 192-15 / GJ 3380 / J06024+498: only b and c on the confirmed tab.",
+   "confidence_notes": "Probably noise or activity-related; the discoverers set it aside. Include only as a flagged weak signal."
+  },
+  {
+   "planet": "kap CrB c",
+   "system_host": "kap CrB",
+   "new_system": false,
+   "planet_host_star": "kap CrB",
+   "aliases": [
+    "kappa CrB c",
+    "HD 142091 c"
+   ],
+   "designation": "kappa CrB c (Bonsor et al. 2013, Sect. 3.2); 'putative outer body' causing the RV trend (Lovell et al. 2022, Sect. 6)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Only a linear RV trend - no period, no orbit. The trend is now highly significant (0.73 +/- 0.07 m/s/yr over 17 yr) and persists, but its source is unconstrained: 0.4-120 MJup at 8-66 AU, so it may be a giant planet, a brown dwarf or an M dwarf. Lovell et al. add that the acceleration 'may not necessarily be due to an outer planet'. No imaging detection (Keck AO) and no Gaia-Hipparcos proper-motion anomaly.",
+   "detection_method": "Radial velocity (long-term linear trend)",
+   "period_d": null,
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV acceleration only: dv/dt = 1.51 +/- 0.52 m/s/yr over 8.09 yr (Bonsor+2013, Table 1); 0.73 +/- 0.07 m/s/yr (N=1 fit) and 0.83 +/- 0.27 m/s/yr (N=2 fit) over 17 yr (Lovell+2022, Table 5 - the PDF text columns are shifted, values read by row). Published constraints, not orbit fits: a = 8-66 AU, mass 0.4-120 MJup (Lovell+2022 abstract and Sect. 6); Doppler excludes planets <13 MJup beyond ~40 AU (Bonsor+2013 Sect. 3.2). The RadVel N=2 solution (c: P ~3936 d, Msini 0.39 MJup, a 6.0 AU, e 0.78) was rejected by the authors as dynamically unstable - do not use it as an orbit. No period, a, e or Msini to enter.",
+   "reference": "Bonsor et al. 2013, MNRAS (doi:10.1093/mnras/stt367), 'Spatially resolved images of dust belt(s) around the planet-hosting subgiant kappa CrB', Sect. 2.1, 3.2, Table 1; Lovell et al. 2022, MNRAS 517, 2546, Sect. 6, Table 5",
+   "vetting_date": "2022-09",
+   "catalogue_distance_ly": {
+    "value": 97.82,
+    "src": "S3",
+    "where": "Gaia DR3 parallax 33.3433 +/- 0.0800 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Bonsor, A. et al. 2013, MNRAS, doi:10.1093/mnras/stt367",
+     "url": "https://arxiv.org/abs/1302.7000",
+     "what": "first report of the RV trend and second-companion interpretation; Keck AO limits"
+    },
+    "S2": {
+     "citation": "Lovell, J. B. et al. 2022, MNRAS 517, 2546 (doi:10.1093/mnras/stac2782)",
+     "url": "https://arxiv.org/abs/2209.12910",
+     "what": "17-yr trend, 8-66 AU / 0.4-120 MJup constraints, Gaia-Hipparcos upper limit"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source, source_id 1372702716380418688",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for kap CrB / kappa CrB / HD 142091 / HIP 77655: only kap CrB b on the confirmed tab.",
+   "confidence_notes": "Real acceleration, unknown source. Nothing to plot beyond 'something massive at 8-66 AU'; include only if the tab takes trend-only candidates."
+  }
+ ],
+ "new_systems": [],
+ "considered_not_added": [
+  {
+   "name": "GJ 3323 c",
+   "system_host": "GJ 3323",
+   "reason": "already on the confirmed tab. Flag for the writer: the discovery paper calls it a planet candidate (Astudillo-Defru et al. 2017, A&A 602, A88, Sect. 4.3.2: 'GJ 3323c should be considered a planet candidate'; P = 40.54 d close to the ~33 d expected rotation). NASA, exoplanet.eu and OEC all list it confirmed, and no later paper was found either way.",
+   "source_url": "https://arxiv.org/abs/1703.05386"
+  },
+  {
+   "name": "DE CVn b",
+   "system_host": "DE CVn",
+   "reason": "already on the confirmed tab; flag for the writer: NASA marks it controversial (pl_controv_flag=1) and Pulley et al. 2022 (MNRAS 514, 5725) show 2020-2022 eclipse times do not fit the Han et al. 2018 one-planet LTTE model. Arguably belongs on Unconfirmed (tier ambiguous/unlikely) rather than Confirmed.",
+   "source_url": "https://academic.oup.com/mnras/article/514/4/5725/6611697"
+  },
+  {
+   "name": "alf Tau b (Aldebaran b)",
+   "system_host": "alf Tau",
+   "reason": "already on the confirmed tab; flag for the writer: disputed. Reichert et al. 2019, A&A 625, A22 argue against the planet (signal absent before ~2006, phase shifts, possible oscillatory convective modes); NASA controversial flag = 1, OEC 'Controversial', exoplanet.eu 'Controversial'. By the brief's rules a contested published planet would be tier 'ambiguous' on Unconfirmed.",
+   "source_url": "https://arxiv.org/abs/1903.09157"
+  },
+  {
+   "name": "Aldebaran b (exoplanet.eu, P = 772.83 d, status Confirmed)",
+   "system_host": "alf Tau",
+   "reason": "not a separate planet claim: exoplanet.eu's only reference for this entry is Reichert et al. 2019, a paper arguing AGAINST the planet; its remark quotes the oscillatory-convective-mode explanation. Looks like a catalogue artefact of the same ~620 d signal.",
+   "source_url": "https://exoplanet.eu/catalog/aldebaran_b--7063/"
+  },
+  {
+   "name": "HD 62509 b (Pollux b)",
+   "system_host": "HD 62509",
+   "reason": "already on the confirmed tab; mild flag only: Auriere et al. 2021 (A&A 646, A130) cannot fully exclude a magnetic-activity origin if the 660 +/- 15 d rotation equals the ~590 d RV period, but they favour the planet. Not refuted.",
+   "source_url": "https://arxiv.org/abs/2101.02016"
+  },
+  {
+   "name": "nu Oct A b",
+   "system_host": "nu Oct A",
+   "reason": "already on the confirmed tab; note NASA controversial flag = 1 and OEC 'Controversial' (dynamically extreme retrograde orbit), although the most recent paper (Ramm et al. 2021, MNRAS 502, 2793) finds no activity explanation. Contested rather than refuted.",
+   "source_url": "https://arxiv.org/abs/2101.06844"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": [
+  {
+   "what": "VHS J125601.92-125723.9: sheet distance (41.42 ly = 12.7 pc) is superseded, and the host is a binary.",
+   "detail": "Dupuy et al. 2020 (arXiv 2004.05180, abstract) measure a CFHT parallax placing the system at 22.2 (+1.1/-1.2) pc and say the 12.7 +/- 1.0 pc value was in tension; at 22.2 pc b's mass rises to 19 +/- 5 MJup. Gaia DR3 parallax 47.273 +/- 0.473 mas (RUWE 7.30) gives ~69 ly. Still inside 100 ly. The central object is a near-equal-flux binary (AB); Systems tab says 1 star. NASA pscomppars still carries sy_plx 78.8 mas. A web-search snippet quoted Dupuy et al. 2023 at 21.14 +/- 0.22 pc and a 7.31 yr binary orbit, total mass 0.141 Msun - not opened, not verified.",
+   "source_url": "https://arxiv.org/abs/2004.05180"
+  },
+  {
+   "what": "gam Cep: binary host and possible brown-dwarf true mass for Ab.",
+   "detail": "arXiv 2608.30030 (Aug 2026) gives gam Cep B at a = 20.07 +/- 0.06 AU, M = 0.396 +/- 0.002 Msun; the Systems row says 1 star. exoplanet.eu lists gamma Cephei Ab with a true mass of 17.539 +/- 0.745 MJup at i = 5.7 deg, citing arXiv 2209.01472 (AJ 164, 177) - above 13 MJup if right. I read only the abstracts; the 2026 paper's abstract quotes only Msini (1.62 MJup), so the true-mass question is unresolved here.",
+   "source_url": "https://arxiv.org/abs/2608.30030"
+  }
+ ]
+}

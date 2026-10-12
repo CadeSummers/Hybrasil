@@ -1,0 +1,586 @@
+{
+ "agent_id": "B02",
+ "phase": 2,
+ "coverage": [
+  {
+   "system_host": "tau Cet",
+   "aliases_searched": [
+    "tau Cet",
+    "tau Ceti",
+    "HD 10700",
+    "GJ 71",
+    "HIP 8102",
+    "TIC 419015728"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu (EPN TAP + planet pages b,c,d,e)",
+    "OEC tau Ceti.xml",
+    "arXiv web search ('tau Ceti' planet, 'tau Cet', 'HD 10700', 'tau Ceti' radial velocity/ESPRESSO)",
+    "WebSearch",
+    "Gaia DR3 gaia_source",
+    "SPORES-HWO II (Harada+2025) Table 8",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "1 candidate (tier unlikely)",
+   "notes": "f, g, h on confirmed tab. e (Feng+2017, 162.87 d) added as 'unlikely': Figueira+2025 ESPRESSO does not support it and NASA removed it; exoplanet.eu Controversial. Tuomi+2013 b, c, d excluded (dropped by the same team in Feng+2017; OEC 'Retracted planet candidate'; below Figueira+2025's 1.7 M_E sensitivity for P<100 d but not seen) although exoplanet.eu still shows them as 'Candidate'. Note for the writer: Figueira+2025 also say the 20 d signal (g, on the confirmed tab) is not significant in ESPRESSO and 'cast some doubts on its planetary origin'; 636 d (f) is below their detection limit. No TOI. Harada+2025 (SPORES-HWO II, arXiv:2409.10679, Table 8) detect none of e, f, g, h and label all four 'Disputed planet candidate' -- the writer may want to caveat the three confirmed-tab rows. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "rho CrB",
+   "aliases_searched": [
+    "rho CrB",
+    "rho Coronae Borealis",
+    "HD 143761",
+    "HIP 78459",
+    "TIC 458494003"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC Rho Coronae Borealis.xml",
+    "arXiv web search ('rho CrB', 'HD 143761', Brewer EXPRES rho Coronae Borealis)",
+    "Gaia DR3 parallax 57.108 mas",
+    "SPORES-HWO II (Harada+2025) Table 8",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, e on confirmed tab. d (Brewer+2023, arXiv:2306.06888, P~282 d) removed as spurious EXPRES instrumental signal by Zhao+2026 (arXiv:2601.02296) and dropped by NASA; recorded in considered_not_added. NASA's default b/c/e solutions are now Zhao+2026. Old Gatewood 2001 astrometric 'stellar companion' claim for b was discounted (astro-ph/0104098, astro-ph/0409433); not a planet candidate. No TOI. Harada+2025 Table 8: e detected but below their FAP=0.01 cutoff. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "ups And",
+   "aliases_searched": [
+    "ups And",
+    "upsilon Andromedae",
+    "upsilon And",
+    "HD 9826",
+    "HIP 7513",
+    "Titawin",
+    "TIC 189576919"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu (EPN TAP + ups_and_ae page)",
+    "OEC Upsilon Andromedae.xml",
+    "arXiv web search ('upsilon Andromedae', 'ups And', 'HD 9826', 'upsilon And')",
+    "WebSearch",
+    "Gaia DR3 parallax 74.194 mas",
+    "SPORES-HWO II (Harada+2025) Table 8",
+    "CLS I (Rosenthal+2021) planet_list.csv + Table 7",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab. e (Curiel+2011, 3848 d) excluded as instrumental (McArthur+2014 Sect. 3.1.1; NASA refutation list) although exoplanet.eu still marks it Confirmed and OEC Controversial. No other candidate signal found; Rosenthal+2021 (CLS) fits only b, c, d. Incidental: Surprise non-detection of ups And b with CHARA MIRC-X/MYSTIC (arXiv:2510.16105) concerns an interferometric detection attempt, not the planet's existence. The sheet lists ups And as a single star, but a wide M-dwarf companion, ups And B, is recalled (not verified this session); outside this brief. No TOI. Rosenthal+2021 Table 7: 6290 d signal = activity cycle (A), 174.55 d = annual/instrumental systematic (N); neither is a candidate. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "47 UMa",
+   "aliases_searched": [
+    "47 UMa",
+    "47 Ursae Majoris",
+    "HD 95128",
+    "HIP 53721",
+    "Chalawan",
+    "TIC 21535479"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC 47 UMa.xml",
+    "arXiv web search ('47 UMa', '47 Ursae Majoris', 'HD 95128')",
+    "Gaia DR3 parallax 72.007 mas",
+    "SPORES-HWO II (Harada+2025) Table 8",
+    "CLS I (Rosenthal+2021) planet_list.csv + Table 7",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d all on confirmed tab and confirmed in NASA, exoplanet.eu and OEC. The lead '47 UMa d' is already on the sheet; its period is poorly constrained (Gregory & Fischer 2010: 14002 d; Rosenthal+2021 CLS: 19000 d; NASA ps) but no paper disputes it. No further candidate signal found. No TOI. Harada+2025 Table 8: only a long-period signal consistent with d, full orbit not sampled. Rosenthal+2021 Table 7 lists a 387.7 d annual systematic (N) and, apparently, the 18700 d signal as N, although their planet_list.csv and Table 3 keep d as a known planet (internal inconsistency in the CLS tables). No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "61 Vir",
+   "aliases_searched": [
+    "61 Vir",
+    "61 Virginis",
+    "HD 115617",
+    "HIP 64924",
+    "TIC 422478973"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC 61 Vir.xml",
+    "CLS I planet_list.csv and Table 7 (Rosenthal+2021)",
+    "SPORES-HWO II (Harada+2025)",
+    "Bisht & Jones 2024 debris-disc RV analysis (arXiv:2409.16021, abstract)",
+    "arXiv web search ('61 Vir', '61 Virginis', 'HD 115617')",
+    "Gaia DR3 parallax 117.173 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab. d (124 d) is disputed as a yearly HIRES systematic by Rosenthal+2021 but recovered by Harada+2025; recorded in considered_not_added as already on sheet. No new candidate signal in CLS (no status C for HD 115617), Harada+2025 or Bisht & Jones 2024. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 69830",
+   "aliases_searched": [
+    "HD 69830",
+    "HIP 40693",
+    "TIC 307624961"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 69830.xml",
+    "CLS I planet_list.csv + Table 7 (Rosenthal+2021)",
+    "SPORES-HWO II (Harada+2025) App. B.8",
+    "Laliotis+2023 (arXiv:2302.10310) Table 4",
+    "Bisht & Jones 2024 (arXiv:2409.16021) abstract",
+    "arXiv web search ('HD 69830')",
+    "Gaia DR3 parallax 79.495 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab and recovered by CLS, Laliotis+2023 (all KP) and Harada+2025. A ~380 d signal (CLS 381.8 d, Harada 379 d) is an annual/window-function false alarm, not a candidate. CLS Table 7 also prints a 200.61 d row with cause N although planet_list.csv and Table 3 keep d as known -- apparent CLS table error, not a dispute. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 7924",
+   "aliases_searched": [
+    "HD 7924",
+    "HIP 6379",
+    "TIC 468723402"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 7924.xml",
+    "CLS I planet_list.csv + Table 7 (Rosenthal+2021)",
+    "arXiv web search ('HD 7924')",
+    "Gaia DR3 parallax 58.812 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (Fulton+2015). CLS planet_list.csv recovers b, c, d as known and lists a ~2683 d signal as a magnetic-activity cycle (A) and a 383 d annual systematic (N); neither is a candidate (Fulton+2015 already attributed the long-period signal to activity -- recalled, not verified). Note CLS Table 7 prints '24.4459 d ... A' for HD 7924, which conflicts with planet_list.csv (24.45 d = known planet d); looks like a table-generation error. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 190360",
+   "aliases_searched": [
+    "HD 190360",
+    "GJ 777 A",
+    "Gliese 777",
+    "HIP 98767",
+    "TIC 105999792"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC Gliese 777.xml",
+    "CLS I planet_list.csv + Table 7",
+    "SPORES-HWO II (Harada+2025) Sect. 5.1.1",
+    "Giovinazzi+2026 (arXiv:2508.18169) abstract",
+    "arXiv web search ('HD 190360')",
+    "Gaia DR3 parallax 62.487 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab; d (88.69 d) confirmed by Giovinazzi+2026 (NEID) after being a candidate in Hirsch+2021 / Harada+2025 and a CLS false positive (90.34 d, cause N). OEC still lists only b and c. No further candidate. Companion HD 190360 B (M4.5) not searched separately; no planet claims found for it. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 136352",
+   "aliases_searched": [
+    "HD 136352",
+    "nu2 Lupi",
+    "HIP 75181",
+    "TOI-2011",
+    "TIC 136916387"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack): TOI-2011.01/.02/.03 all KP",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 136352.xml",
+    "CLS I Table 7",
+    "Laliotis+2023 Table 4",
+    "arXiv web search ('HD 136352', 'nu2 Lupi')",
+    "Gaia DR3 parallax 67.847 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (all transit; TOI-2011.01-.03 KP). Extra RV signals are not candidates: CLS 244.5 d = annual/instrumental systematic (N); Laliotis+2023 121.66 d = activity (ACT). A CHEOPS exomoon search of d exists (arXiv:2302.01853, title seen only, not read). No TOI PC/APC. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 142",
+   "aliases_searched": [
+    "HD 142",
+    "HD 142 A",
+    "HIP 522",
+    "TIC 389757979"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP (HD 142 Ab, Ac, Ad)",
+    "OEC HD 142.xml",
+    "Feng+2022 (arXiv:2208.12720) HD 142 notes",
+    "arXiv web search ('HD 142', HD 142 planet Wittenmyer)",
+    "Gaia DR3 parallax 38.195 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c and 'HD 142 A d' on confirmed tab. The lead 'HD 142 d' is already there: Feng+2022 say 'Our analyses confirm HD 142 A d, a warm Saturn identified by Wittenmyer et al. (2020)'; NASA and exoplanet.eu list it (OEC does not yet). No further candidate found. Feng+2022 describe HD 142 as a wide binary with an M dwarf (Tokovinin & Kiyaeva 2016), while the Systems tab lists 1 star -- a sheet issue outside this brief. No TOI. Gaia: the host is Gaia-ASOI-072 (nss_two_body_orbit OrbitalTargetedSearch, P = 318.6 d, significance 7.3), which the ESA Gaia list matches to the known HD 142 b (NASA ps also carries a Gaia Collaboration 2023 solution for b, P = 319 d). Known planet, not a new candidate."
+  },
+  {
+   "system_host": "HD 39091",
+   "aliases_searched": [
+    "HD 39091",
+    "pi Men",
+    "pi Mensae",
+    "HIP 26394",
+    "TOI-144",
+    "TIC 261136679"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack): TOI-144.01 CP",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 39091.xml",
+    "Laliotis+2023 Table 4 (d recovered, KP)",
+    "Feng+2022 HD 39091 note",
+    "arXiv web search ('pi Men', 'pi Mensae', 'HD 39091')",
+    "Gaia DR3 parallax 54.683 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (sheet names them HD 39091 b/c/d; NASA uses pi Men c/d). The lead 'pi Men c and d' is already covered: c transits (TOI-144.01 CP), d (125 d, Hatzes+2022, arXiv:2203.01018) was called 'a possible third companion' by Feng+2022 but is recovered as KP by Laliotis+2023 and listed confirmed by NASA and exoplanet.eu (OEC lacks d). No further candidate. Sheet row 'HD 39091 c' has no mass although NASA gives 3.63 M_E (Gandolfi+2018) -- data gap for the writer, not a candidate. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 96700",
+   "aliases_searched": [
+    "HD 96700",
+    "HIP 54400",
+    "TIC 23270430"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP (HD 96700 Ab/Ac/Ad)",
+    "OEC HD 96700.xml",
+    "Unger+2021 (arXiv:2108.10198) abstract and text",
+    "arXiv web search ('HD 96700', 'HD 39194')",
+    "Gaia DR3 parallax 39.397 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab; Unger+2021 (HARPS XLVI) found three planets and no further candidate. Data issue for the writer, not a candidate: the sheet row 'HD 96700 c' has P = 103.49 d and a = 0.422 AU but Msini 3.5 M_E; per Unger+2021/NASA c is the 19.88 d, 3.5 M_E planet and d is the 103.5 d, 12.7 M_E planet (sheet row d has no period). The sheet appears to have taken c's period from OEC, which lists only b and c with c at 103.49 d. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 39194",
+   "aliases_searched": [
+    "HD 39194",
+    "HIP 27080",
+    "TIC 389506883"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 39194.xml",
+    "Unger+2021 (arXiv:2108.10198) HD 39194 section",
+    "Gaia DR3 parallax 37.823 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab. Unger+2021: a four-planet model has only weak evidence (ln O = 2.0 +/- 1.8) and 'there is no clear period candidate for a fourth planet in the posterior' -- no candidate. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 63433",
+   "aliases_searched": [
+    "HD 63433",
+    "TOI-1726",
+    "HIP 38228",
+    "TIC 130181866"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack): TOI-1726.01/.02 CP; no .03 row",
+    "exoplanet.eu EPN TAP (b, c, d)",
+    "OEC HD 63433.xml (b, c only)",
+    "GAPS XLII (arXiv:2303.15242) abstract",
+    "arXiv web search ('HD 63433', 'TOI-1726')",
+    "Gaia DR3 parallax 44.685 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (d = Capistrant+2024, arXiv:2401.04785). No further TOI or RV candidate found; GAPS XLII and Mallorquin+2023 (arXiv:2303.15411, title only) characterise b and c. Sheet row d has no period; NASA gives 4.209 d. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 181433",
+   "aliases_searched": [
+    "HD 181433",
+    "HIP 95467",
+    "TIC 410399074"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 181433.xml",
+    "arXiv web search ('HD 181433')",
+    "Gaia DR3 parallax 37.051 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab. No candidate. Data note for the writer: the sheet has c at 962 d and d at 2172 d (Bouchy+2009, as in OEC) while NASA's defaults are c 1018.5 d and d 6896 d and exoplanet.eu d 12775 d, following the revised solution of Horner+2019 (arXiv:1906.05525, title seen only). No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 176986",
+   "aliases_searched": [
+    "HD 176986",
+    "HIP 93540",
+    "TIC 39554091"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HD 176986.xml",
+    "Nari+2026 RoPES II (arXiv:2601.20559) abstract",
+    "arXiv web search ('HD 176986')",
+    "Gaia DR3 parallax 35.858 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (d = Nari+2026, 61.38 d). Nari+2026 report activity cycle and rotation, no further candidate. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 153557",
+   "aliases_searched": [
+    "HD 153557",
+    "HD 153557 A",
+    "HIP 83020",
+    "TIC 115582979",
+    "HD 153557 B",
+    "HD 153557 C"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP (HD 153557 Ab/Ac/Ad)",
+    "OEC (no file under HD 153557 / HD 153557 A)",
+    "Feng+2022 (arXiv:2208.12720)",
+    "arXiv web search ('HD 153557': no hits)",
+    "Gaia DR3 parallax 55.751 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab, all from Feng+2022; d (8726 M_E) is above 13 M_Jup and already flagged on the sheet as a likely brown dwarf. No candidate found for A, B or C. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HIP 57274",
+   "aliases_searched": [
+    "HIP 57274",
+    "TIC 5078530"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC HIP 57274.xml",
+    "arXiv web search ('HIP 57274')",
+    "Gaia DR3 parallax 38.682 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (Fischer+2012, M2K II, arXiv:1109.2926). No later candidate or dispute found. No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "HD 48948",
+   "aliases_searched": [
+    "HD 48948",
+    "HIP 32769",
+    "TIC 88228576"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack)",
+    "exoplanet.eu EPN TAP",
+    "OEC (no file)",
+    "WebSearch for Dalal+2024 (MNRAS 531, 4464) and its erratum (MNRAS 534, 2410)",
+    "arXiv web search ('HD 48948', 'HD48948', 'HIP 32769': no hits)",
+    "Gaia DR3 parallax 59.393 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab and confirmed in NASA and exoplanet.eu. Note for the writer: the discovery paper's own title calls them candidates ('Trio of super-Earth candidates orbiting K-dwarf HD 48948: a new habitable zone candidate', Dalal+2024); its Table 3 insolation/temperature values were corrected by an erratum (MNRAS 534, 2410). Sheet rows lack periods (NASA: 7.340, 38.06, 151.92 d). No TOI. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  },
+  {
+   "system_host": "GJ 9827",
+   "aliases_searched": [
+    "GJ 9827",
+    "K2-135",
+    "HIP 115752",
+    "TOI-4517",
+    "TIC 301289516"
+   ],
+   "sources_checked": [
+    "NASA pscomppars + ps",
+    "NASA removed_targets page",
+    "TOI table (pack): TOI-4517.01 KP",
+    "exoplanet.eu EPN TAP",
+    "OEC GJ 9827.xml",
+    "ESPRESSO revisit (arXiv:2401.06276) abstract",
+    "arXiv web search ('GJ 9827', 'K2-135')",
+    "Gaia DR3 parallax 33.725 mas",
+    "Gaia DR3 nss_two_body_orbit + ESA Gaia candidate exoplanet list (by Gaia DR3 source_id)"
+   ],
+   "result": "none",
+   "notes": "b, c, d on confirmed tab (all transiting). The ESPRESSO revisit reports only the three known planets. No TOI PC/APC. Gaia DR3 parallax 33.725 mas is above the 32.616 mas cut. No Gaia DR3 NSS orbit or Gaia candidate for this host."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "tau Cet e",
+   "system_host": "tau Cet",
+   "new_system": false,
+   "planet_host_star": "tau Cet",
+   "aliases": [
+    "HD 10700 e",
+    "GJ 71 e",
+    "HIP 8102 e",
+    "tau Ceti e"
+   ],
+   "designation": "tau Ceti e (Feng et al. 2017, Table 5; first suspected as the 168 d signal of Tuomi et al. 2013)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Figueira et al. 2025 (ESPRESSO GTO, 10 cm/s-level study) say the 3.93 M_E planet at 162 d 'should have been detected with our analysis' and 'Our results do not support' it. NASA Exoplanet Archive has removed it as a published refutation. exoplanet.eu still carries it as 'Controversial' (updated 2026-04-26) and OEC as 'Confirmed'. Best current reading: probably not a planet; one non-detection paper, not an activity/alias demonstration, so I left it as a candidate rather than an exclusion. Writer may prefer to exclude it (see considered_not_added entry).",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 162.87,
+    "err": "1%-99% interval [162.41, 163.95]",
+    "src": "S1",
+    "where": "Table 5"
+   },
+   "a_au": {
+    "value": 0.538,
+    "err": "[0.532, 0.544]",
+    "src": "S1",
+    "where": "Table 5 (their derived a, M* = 0.783 Msun)"
+   },
+   "ecc": {
+    "value": 0.18,
+    "err": "[0.04, 0.36]",
+    "src": "S1",
+    "where": "Table 5"
+   },
+   "mass_earth": {
+    "value": 3.93,
+    "err": "[3.29, 4.76]",
+    "type": "Msini",
+    "src": "S1",
+    "where": "Table 5"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.783,
+     "src": "S1",
+     "where": "Table 5 notes (Teixeira et al. 2009)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only (HARPS+AAPS+HIRES reanalysis with MA noise model). K = 0.55 m/s. P, e, a, Msini from Feng+2017 Table 5 (1%-99% intervals, not 1-sigma). No inclination; debris-disk inclination ~30 deg would double the mass if coplanar (Feng+2017 text). Not recovered by ESPRESSO (Figueira+2025), removed by NASA as refuted; exoplanet.eu Controversial.",
+   "reference": "Feng et al. 2017, AJ 154, 135, 'Color difference makes a difference: four planet candidates around tau Ceti', Table 5; contested by Figueira et al. 2025, A&A 700, A174",
+   "vetting_date": "2025-08-01",
+   "catalogue_distance_ly": {
+    "value": 11.91,
+    "src": "S3",
+    "where": "Gaia DR3 parallax 273.810 +/- 0.170 mas (source_id 2452378776434477184)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng, Tuomi, Jones et al. 2017, AJ 154, 135",
+     "url": "https://arxiv.org/abs/1708.02051",
+     "what": "orbit and Msini (Table 5)"
+    },
+    "S2": {
+     "citation": "Figueira et al. 2025, A&A 700, A174, 'A comprehensive study on radial velocity signals using ESPRESSO: Pushing precision to the 10 cm/s level'",
+     "url": "https://research.iac.es/preprints/files/PP25117.pdf",
+     "what": "non-detection of the 162 d planet (HD 10700 section and Conclusions)"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax; query: select source_id,parallax,parallax_error from gaiadr3.gaia_source where source_id in (...)"
+    },
+    "S4": {
+     "citation": "NASA Exoplanet Archive, Targets Excluded from the Archive",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/docs/removed_targets.html",
+     "what": "HD 10700 e listed under published refutations (Figueira et al. 2025)"
+    },
+    "S5": {
+     "citation": "exoplanet.eu, Planet tau Cet e",
+     "url": "https://exoplanet.eu/catalog/tau_cet_e--1237/",
+     "what": "Planet Status: Controversial"
+    }
+   },
+   "dedupe": "planets_confirmed.csv has tau Cet f, g, h only; unconfirmed_existing.csv has no tau Cet / HD 10700 / GJ 71 row. NASA pscomppars now lists only f, g, h.",
+   "confidence_notes": "Most likely not real: ESPRESSO should have seen it and did not. Kept only because exoplanet.eu still calls it Controversial rather than retracted."
+  }
+ ],
+ "new_systems": [],
+ "considered_not_added": [
+  {
+   "name": "tau Cet b, c, d (Tuomi et al. 2013)",
+   "system_host": "tau Cet",
+   "reason": "withdrawn/superseded: the 13.9, 35.4 and 94 d signals of Tuomi et al. 2013 (A&A 551, A79, arXiv:1212.4277) were not recovered by the same team's reanalysis (Feng et al. 2017, AJ 154, 135, arXiv:1708.02051), which reports only 20.0, 49.3, 160 and 642 d signals. OEC lists b, c and d as 'Retracted planet candidate'. Not in NASA or exoplanet.eu. exoplanet.eu still lists b, c, d as 'Candidate' (pages tau_cet_b--1234, tau_cet_c--1235, tau_cet_d--1236, not updated since 2021); Figueira et al. 2025 report ESPRESSO sensitivity to 1.7 M_E for P < 100 d with no such signals, and b/c/d had Msini 2.0-3.6 M_E.",
+   "source_url": "https://arxiv.org/abs/1708.02051 ; https://raw.githubusercontent.com/OpenExoplanetCatalogue/open_exoplanet_catalogue/master/systems/tau%20Ceti.xml"
+  },
+  {
+   "name": "rho CrB d",
+   "system_host": "rho CrB",
+   "reason": "refuted: Zhao et al. 2026 (ApJS 282, 71; arXiv:2601.02296) correct EXPRES instrumental drifts and state the correction 'removes a spurious planet d signal' in the rho CrB time series. NASA lists it under 'Planets With Published Refutations' citing Zhao et al. 2026. rho CrB d was announced by Brewer et al. 2023 (AJ 166, 46).",
+   "source_url": "https://arxiv.org/abs/2601.02296 ; https://exoplanetarchive.ipac.caltech.edu/docs/removed_targets.html"
+  },
+  {
+   "name": "ups And e",
+   "system_host": "ups And",
+   "reason": "refuted: instrumental. McArthur et al. 2014 (ApJ 795, 41, Sect. 3.1.1) show the 3848 d signal of Curiel et al. 2011 was created by neglected gamma offsets in the Lick velocities: 'This instrumental signal in the data created by neglected gamma offsets was identified as a fourth planet with period of 3848 days ... in Curiel et al. (2011)'. NASA lists ups And e under 'Planets With Published Refutations' (2014ApJ...795...41M). Catalogues disagree: OEC 'Controversial', exoplanet.eu still 'Confirmed' (ups_and_ae--781, updated 2024-07-21). Writer may wish to note the exoplanet.eu status.",
+   "source_url": "https://iopscience.iop.org/article/10.1088/0004-637X/795/1/41 ; https://exoplanetarchive.ipac.caltech.edu/docs/removed_targets.html ; https://exoplanet.eu/catalog/ups_and_ae--781/"
+  },
+  {
+   "name": "61 Vir d",
+   "system_host": "61 Vir",
+   "reason": "already on confirmed tab (row 357), but contested: Rosenthal et al. 2021 (CLS I, ApJS 255, 8, App. G.1 and Table 7) designate the 124 d signal 'a yearly systematic' (HIRES PSF parameters periodic at 1 yr and correlated with RVs), cause code N; it is omitted from their Table 3 planet catalog. Harada et al. 2025 (SPORES-HWO II, AJ 170, 343) recover it at 123.15 d, 10.9 M_E Msini (NASA ps). Not added; flagged for the writer in case the confirmed row deserves a caveat.",
+   "source_url": "https://arxiv.org/abs/2105.11583 ; https://arxiv.org/abs/2409.10679"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": []
+}

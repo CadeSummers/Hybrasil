@@ -1,0 +1,27 @@
+{
+  "_comment": "What a Suggest Changes submission may hold. Read by hybrasil/web/suggestions.py (the --serve endpoint), hybrasil/web/suggest_validate.js (the form and the Cloudflare function) -- one copy of the limits for all three. docs/architecture/suggestions.md.",
+  "max_body_bytes": 32768,
+  "fields": {
+    "system":      {"type": "text",  "max": 200},
+    "objects":     {"type": "list",  "max_items": 50, "max": 200},
+    "description": {"type": "text",  "min": 10, "max": 5000, "required": true},
+    "sources":     {"type": "list",  "min_items": 1, "max_items": 20, "max": 500, "required": true},
+    "name":        {"type": "text",  "max": 100},
+    "email":       {"type": "email", "max": 254},
+    "system_id":   {"type": "text",  "max": 300},
+    "site_build":  {"type": "text",  "max": 100}
+  },
+  "one_of": ["system", "objects"],
+  "messages": {
+    "required":   "is required",
+    "not_text":   "must be text",
+    "not_list":   "must be a list of lines",
+    "too_short":  "must be at least {min} characters",
+    "too_long":   "must be at most {max} characters",
+    "too_few":    "needs at least {min_items}",
+    "too_many":   "may have at most {max_items}",
+    "item_long":  "line {n} is longer than {max} characters",
+    "not_email":  "is not an email address",
+    "one_of":     "name a system or at least one object"
+  }
+}

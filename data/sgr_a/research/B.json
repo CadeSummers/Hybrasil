@@ -1,0 +1,474 @@
+{
+ "agent": "B",
+ "stars": {
+  "S33": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's early-type list (Sect. 4) and in von Fellenberg 2022 Table 4 (young stars with orbits)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -139,
+    "err": 33,
+    "epoch": 2006.42,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S33",
+    "how": "SIMBAD TAP ident lookup '[EG97] S33' -> main_id"
+   }
+  },
+  "S38": {
+   "spectral_type": {
+    "value": "G7.5III",
+    "bibcode": "2019ApJ...872L..15H",
+    "where": "Table 2 (spectrally identified giants in central arcsec), 'New SP' column",
+    "note": "Gillessen 2009/2017 had it as late-type. Habibi 2019 gives only a group Teff range (4700-5550 K) for the G2-G8III stars, no per-star Teff."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -185,
+    "err": 70,
+    "epoch": 2008.26,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Gillessen 2017 Table 5 (VizieR J/ApJ/837/30 table5) also lists 2008.262 -189+-173, 2012.5 -45+-173, 2014.5 -120+-173, 2015.299 -21+-173, 2016.284 -2+-248. P=19 yr, so RV is strongly epoch-dependent."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S38",
+    "how": "SIMBAD TAP ident lookup; alias [GKM98] S0-38; SIMBAD sp_type G7.5III cites Habibi 2019"
+   }
+  },
+  "S39": {
+   "spectral_type": null,
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S39",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S42": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. von Fellenberg 2022 Table 4 lists it among young stars with orbits."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S42",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S54": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's early-type list (Sect. 4). Not in von Fellenberg 2022 Table 4."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -1046,
+    "err": 182,
+    "epoch": 2013.262,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 RV-S54 column (VizieR J/ApJ/837/30 table5)",
+    "note": "Other epochs in the same table: 2008.262 -1790+-260, 2011.317 -1588+-467. Chosen value has the smallest error."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S54",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S55": {
+   "spectral_type": null,
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -732,
+    "err": 145,
+    "epoch": 2014.521,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 RV-S55 column (VizieR J/ApJ/837/30 table5)",
+    "note": "Other epoch in the same table: 2014.224 -400+-210. P=12.8 yr, so RV is strongly epoch-dependent."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S55",
+    "how": "SIMBAD TAP ident lookup; alias [GKM98] S0-102"
+   }
+  },
+  "S60": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. von Fellenberg 2022 Table 4 lists it among young stars with orbits."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S60",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S66": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Table 7 (orbital parameters, 'Sp' column) and Sect. 4 early/late-type lists (arXiv:0810.4674); = Paumard 2006 E17 (cross-ID stated in Gillessen 2009 Sect. 7.3.1)",
+    "note": "Paumard 2006 Table 2 (E17) gives SpType '?' with quality 1 (early-type, subtype not determined). Clockwise-disk member (Gillessen 2009, 2017)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 12,
+    "err": 22,
+    "epoch": 2004.63,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Paumard 2006 E17: v_z 26+-30; Yelda 2014 Table 4 (S1-2): 34+-30."
+   },
+   "simbad_main_id": {
+    "value": "[RGH2007] GEN-0.06-1.01",
+    "how": "SIMBAD TAP ident lookup '[EG97] S66' -> main_id; aliases [PGM2006] E17, [GKM98] S1-2"
+   }
+  },
+  "S67": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Table 7 (orbital parameters, 'Sp' column) and Sect. 4 early/late-type lists (arXiv:0810.4674); = Paumard 2006 E15 = S1-3",
+    "note": "Paumard 2006 Table 2 (E15) SpType '?' (quality 2); Feldmeier-Krause 2015 Table B.1 also '?'. No MK subtype published. Clockwise-disk member."
+   },
+   "mass_msun": {
+    "value": 37,
+    "err": null,
+    "err_plus": 11,
+    "err_minus": 14,
+    "bibcode": "2015A&A...584A...2F",
+    "where": "Table B.2 Mass column, ID 00562 (S1-3) (VizieR J/A+A/584/A2 tableb2)",
+    "note": "Isochrone-based (3-8 Myr, solar metallicity), not dynamical."
+   },
+   "teff_k": null,
+   "rv_kms": {
+    "value": 1,
+    "err": 33,
+    "epoch": 2003.95,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Same value as Bartko 2009 table1 seq 3 (matched by position/K). Yelda 2014 Table 4 (S1-3): -72+-38; Paumard 2006 E15: 68+-40; Feldmeier-Krause 2015 Table B.3 (KMOS): 110+-72."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S67",
+    "how": "SIMBAD TAP ident lookup; aliases [PGM2006] E15, [GKM98] S1-3"
+   }
+  },
+  "S71": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's early-type list; von Fellenberg 2022 Table 4 lists it as young."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -237,
+    "err": 85,
+    "epoch": 2007.44,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S71",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S83": {
+   "spectral_type": {
+    "value": "O9-9.5 V",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2, E16 (S0-15), SpType column, quality 2",
+    "note": "Gillessen 2009 Sect. 7.3.1 identifies S83 = E16 (S0-15). Clockwise-disk member."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -557,
+    "err": 26,
+    "epoch": 2004.24,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Same value as Bartko 2009 table1 seq 2. Paumard 2006 E16: -424+-70; Yelda 2014 Table 4 (S0-15): -597+-8 (OSIRIS). The spread exceeds the errors."
+   },
+   "simbad_main_id": {
+    "value": "[GEO97] W5",
+    "how": "SIMBAD TAP ident lookup '[EG97] S83' -> main_id; aliases [PGM2006] E16, [GKM98] S0-15"
+   }
+  },
+  "S85": {
+   "spectral_type": {
+    "value": "late-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's late-type list (Sect. 4)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S85",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S87": {
+   "spectral_type": {
+    "value": "OB I?",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2, E21 ([GEO97] W13), SpType column, quality 2",
+    "note": "Gillessen 2009 Sect. 7.3.1 identifies S87 = E21. Clockwise-disk member."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 19,
+    "err": 11,
+    "epoch": 2005.77,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Bartko 2009 table1 seq 7: 8+-22; Paumard 2006 E21: -24+-30; Yelda 2014 Table 4 (S1-12): -34+-30."
+   },
+   "simbad_main_id": {
+    "value": "[GEO97] W13",
+    "how": "SIMBAD TAP ident lookup '[EG97] S87' -> main_id; aliases [PGM2006] E21, [GKM98] S1-12"
+   }
+  },
+  "S89": {
+   "spectral_type": {
+    "value": "late-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's late-type list (Sect. 4)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S89",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S91": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Clockwise-disk star (Gillessen 2017 Sect. 4). No Paumard/UCLA cross-ID in von Fellenberg 2022 Table 4."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S91",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S96": {
+   "spectral_type": {
+    "value": "Ofpe/WN9",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2, E20 (IRS16C), SpType column, quality 2",
+    "note": "Gillessen 2009 Sect. 7.3.1 identifies S96 = E20 (IRS16C). Martins 2007 Table 1 uses the same type."
+   },
+   "mass_msun": null,
+   "teff_k": {
+    "value": 19500,
+    "err": 6000,
+    "bibcode": "2007A&A...468..233M",
+    "where": "Table 2 (derived stellar and wind parameters), row 16C, Teff column; error from the caption (+-6000 K for Ofpe/WN9)",
+    "note": "T* = 21500 K in the same row. The text says Teff is poorly constrained for this type."
+   },
+   "rv_kms": {
+    "value": 158,
+    "err": 5,
+    "epoch": 2000.25,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Bartko 2009 table1 seq 6 and Yelda 2014 (ref 2): 158+-40; Paumard 2006 E20: 125+-30."
+   },
+   "simbad_main_id": {
+    "value": "GCIRS 16C",
+    "how": "SIMBAD TAP ident lookup '[EG97] S96' -> main_id; aliases [PGM2006] E20, [GKM98] S1-11"
+   }
+  },
+  "S97": {
+   "spectral_type": {
+    "value": "Ofpe/WN9",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2, E23 (IRS16SW), SpType column, quality 2",
+    "note": "Eclipsing contact binary, P=19.45 d (Martins 2006). Gillessen 2009 Sect. 7.3.1 identifies S97 = E23."
+   },
+   "mass_msun": {
+    "value": 50,
+    "err": null,
+    "bibcode": "2006ApJ...649L.103M",
+    "where": "Abstract and Sect. 3.2 ('M1 ~ M2 ~ 50 Msun')",
+    "note": "Per component of a binary; approximate (assumes i~70 deg and contact). No formal error given."
+   },
+   "teff_k": null,
+   "rv_kms": {
+    "value": 459.5,
+    "err": 3.6,
+    "epoch": null,
+    "bibcode": "2006ApJ...649L.103M",
+    "where": "Table 1 (orbital solution), systemic velocity v0",
+    "note": "Binary systemic velocity from SINFONI 2005-2006 (programs 075.B-0547, 076.B-0259); no single epoch. Single-epoch value: Gillessen 2009 App. B 470+-50 at 2005.99 (= Bartko 2009 seq 9). Paumard 2006 E23: 320+-40."
+   },
+   "simbad_main_id": {
+    "value": "GCIRS 16SW",
+    "how": "SIMBAD TAP ident lookup '[EG97] S97' -> main_id; aliases [PGM2006] E23, [GKM98] S1-16"
+   }
+  },
+  "S111": {
+   "spectral_type": {
+    "value": "late-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. Also on Gillessen 2009's late-type list. Unbound/hyperbolic orbit: Gillessen 2017 Table 3 note (a<0, e=1.092+-0.064, 'hyperbolic orbit'); Gillessen 2009 Table 7 (a=-10.5+-7.1 arcsec, e=1.105+-0.094) and Sect. 6.4 ('marginally unbound to the MBH', RV -740 km/s at r=1.48 arcsec, ~1 sigma above local escape speed); Trippe et al. 2008 (2008A&A...492..419T) S111 table: v3D=810+-9 km/s vs v_esc 788+-40 km/s, 'might be not bound to Sgr A*', possibly still bound to the cluster."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -741,
+    "err": 5,
+    "epoch": 2005.77,
+    "bibcode": "2009ApJ...692.1075G",
+    "where": "Appendix B polynomial-fit table, v_z row (arXiv:0810.4674 source)",
+    "note": "Trippe 2008 S111 table: v_z -739+-5 (positions at 2005.36)."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S111",
+    "how": "SIMBAD TAP ident lookup; no aliases in SIMBAD"
+   }
+  },
+  "S145": {
+   "spectral_type": {
+    "value": "late-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S145",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "S175": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. von Fellenberg 2022 Table 4 lists it as young."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S175",
+    "how": "SIMBAD TAP ident lookup"
+   }
+  },
+  "R34": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. von Fellenberg 2022 Table 4 lists it as young; no UCLA/Paumard cross-ID given."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": null,
+    "how": "Not resolved: SIMBAD has no '[EG97] R34'; ident LIKE '%R34' gives only unrelated objects"
+   }
+  },
+  "R44": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT flag (VizieR J/ApJ/837/30 table3) and appendix table of accelerating stars",
+    "note": "Gillessen 2017 gives only an e/l flag, not an MK type. = UCLA S2-21 per von Fellenberg 2022 Table 4. Do et al. 2009 (2009ApJ...703.1323D) list S2-21 as early-type (VizieR J/ApJ/703/1323 table3; SIMBAD sp_type O-B). Clockwise-disk star (Gillessen 2017)."
+   },
+   "mass_msun": {
+    "value": 26,
+    "err": null,
+    "err_plus": 19,
+    "err_minus": 11,
+    "bibcode": "2015A&A...584A...2F",
+    "where": "Table B.2 Mass column, ID 01534 ([RGH2007] GEN-1.70-1.65 = S2-21) (VizieR J/A+A/584/A2 tableb2)",
+    "note": "Isochrone-based (3-8 Myr, solar metallicity). Matched to S2-21 by name and by proper motion (355,-126 km/s vs Yelda 9.35,-3.33 mas/yr)."
+   },
+   "teff_k": null,
+   "rv_kms": {
+    "value": -109,
+    "err": 39,
+    "epoch": null,
+    "bibcode": "2014ApJ...783..131Y",
+    "where": "Table 4 (VizieR J/ApJ/783/131 table4), S2-21 row, RV column, ref 1 (OSIRIS)",
+    "note": "Epoch not tabulated for RV. Feldmeier-Krause 2015 Table B.3 (ID 01534, KMOS): -83+-42."
+   },
+   "simbad_main_id": {
+    "value": "[RGH2007] GEN-1.70-1.65",
+    "how": "SIMBAD TAP ident lookup: '[EG97] R44' does not resolve; resolved via the UCLA cross-ID [GKM98] S2-21 from von Fellenberg 2022 Table 4"
+   }
+  }
+ },
+ "papers": {
+  "2009ApJ...692.1075G": "Gillessen et al. 2009, ApJ 692, 1075 - Monitoring stellar orbits around the massive black hole in the Galactic Center",
+  "2017ApJ...837...30G": "Gillessen et al. 2017, ApJ 837, 30 - An update on monitoring stellar orbits in the Galactic Center",
+  "2019ApJ...872L..15H": "Habibi et al. 2019, ApJL 872, L15 - Spectroscopic detection of a cusp of late-type stars around the central black hole in the Milky Way",
+  "2006ApJ...643.1011P": "Paumard et al. 2006, ApJ 643, 1011 - The two young star disks in the central parsec of the Galaxy",
+  "2009ApJ...697.1741B": "Bartko et al. 2009, ApJ 697, 1741 - Evidence for warped disks of young stars in the Galactic Center",
+  "2014ApJ...783..131Y": "Yelda et al. 2014, ApJ 783, 131 - Properties of the remnant clockwise disk of young stars in the Galactic Center",
+  "2006ApJ...649L.103M": "Martins et al. 2006, ApJ 649, L103 - GCIRS16SW: a massive eclipsing binary in the Galactic Center",
+  "2007A&A...468..233M": "Martins et al. 2007, A&A 468, 233 - Stellar and wind properties of massive stars in the central parsec of the Galaxy",
+  "2015A&A...584A...2F": "Feldmeier-Krause et al. 2015, A&A 584, A2 - KMOS view of the Galactic centre I: young stars are centrally concentrated",
+  "2022ApJ...932L...6V": "von Fellenberg et al. 2022, ApJL 932, L6 - The young stars in the Galactic Center",
+  "2008A&A...492..419T": "Trippe et al. 2008, A&A 492, 419 - Kinematics of the old stellar population at the Galactic Center",
+  "2009ApJ...703.1323D": "Do et al. 2009, ApJ 703, 1323 - High angular resolution integral-field spectroscopy of the Galaxy's nuclear cluster",
+  "2017ApJ...847..120H": "Habibi et al. 2017, ApJ 847, 120 - Twelve years of spectroscopic monitoring in the Galactic Center (checked; covers none of these stars)",
+  "2022A&A...657A..82G": "GRAVITY Collaboration 2022, A&A 657, A82 - Mass distribution in the Galactic Center (checked; no S38/S55 type, mass or RV values, only an RV epoch log)",
+  "2022A&A...657L..12G": "GRAVITY Collaboration 2022, A&A 657, L12 - Deep images of the Galactic center with GRAVITY (checked; no S38/S55 stellar parameters)"
+ },
+ "caveats": [
+  "'early-type'/'late-type' come from Gillessen 2009/2017. They are a published class (Br-gamma vs CO bandheads), not an MK type. MK types exist only for S38 (G7.5III), S83 (O9-9.5 V), S87 (OB I?), S96 and S97 (Ofpe/WN9).",
+  "S39 and S55: Gillessen 2017 says the spectral type is unknown; no later paper found assigns one, so null.",
+  "Paumard 2006 lists S66 (E17) and S67 (E15) with SpType '?'. They are early-type with no subtype.",
+  "Cross-IDs to Paumard E-numbers come from Gillessen 2009 Sect. 7.3.1, which names them (S66=E17, S67=E15/S1-3, S83=E16/S0-15, S87=E21, S96=E20/IRS16C, S97=E23/IRS16SW). Bartko 2009 VizieR rows carry no names; I matched them by position and K only to note RV agreement.",
+  "R44 = UCLA S2-21 rests on von Fellenberg 2022 Table 4. R34 and S91 have no cross-ID in any table opened.",
+  "RVs are single-epoch line-of-sight velocities as tabulated (LSR-corrected per the source papers). For short-period stars (S38, S54, S55) they vary strongly along the orbit; Gillessen 2017 Table 5 holds multi-epoch series for those three.",
+  "S83 RVs disagree beyond their errors: Paumard 2006 -424+-70, Gillessen 2009 -557+-26, Yelda 2014 -597+-8.",
+  "Masses for S67 and R44 (Feldmeier-Krause 2015) come from isochrones, not dynamics. The S97 mass (~50 Msun per component) is an approximate binary estimate with no formal error.",
+  "No individual Teff found for any star except S96 (Martins 2007). Habibi 2019 gives only a group range for S38's class. Martins 2006's 28000 K for IRS16SW is an assumed light-curve input, not a measurement, so it is excluded.",
+  "Gillessen 2009 Sect. 6.1 says RVs were measured for S85 and S89, but its Appendix B table has no v_z row for them, so they are null.",
+  "SIMBAD's own RV/sp_type fields (e.g. S83 RV -597 from Yelda 2014) are aggregations. Values here were taken from the papers or VizieR tables directly."
+ ]
+}

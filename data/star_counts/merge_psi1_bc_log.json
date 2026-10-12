@@ -1,0 +1,42 @@
+{
+ "tab": "Unconfirmed within 100 ly",
+ "row": 87,
+ "values": {
+  "Planet": "psi1 Dra B c",
+  "Host system (primary star)": "psi1 Dra A",
+  "Distance (ly)": "=ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(INDEX('Systems within 100 ly'!$C$2:$C$428,MATCH($B87,'Systems within 100 ly'!$A$2:$A$428,0)),AO87)), 1, 1)",
+  "Primary star class": "=ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(INDEX('Systems within 100 ly'!$H$2:$H$428,MATCH($B87,'Systems within 100 ly'!$A$2:$A$428,0)),\"\")), 1, 1)",
+  "Planet-host star": "psi1 Dra B",
+  "Orbits the primary?": "=IF($E87=\"\",\"\",IF($E87=$B87,\"yes\",\"NO -- secondary\"))",
+  "Host luminosity (L-sun)": 2.21,
+  "HZ position": "=IF(AND(ISNUMBER($W87),ISNUMBER($J87)),IF($W87<$I87,\"Closer than HZ\",IF($W87<$J87,\"In HZ (optimistic, warmer side)\",IF($W87<=$K87,\"In HZ (conservative)\",IF($W87<=$L87,\"In HZ (optimistic, cooler side)\",\"Farther than HZ\")))),IF($N87=\"yes\",\"In HZ (per systems sheet)\",\"\"))",
+  "In HZ (per systems sheet)": "=ARRAY_CONSTRAIN(ARRAYFORMULA(IF(ISNUMBER(SEARCH($A87,IFERROR(INDEX('Systems within 100 ly'!$Q$2:$Q$428,MATCH($B87,'Systems within 100 ly'!$A$2:$A$428,0)),\"\"))),\"yes\",\"\")), 1, 1)",
+  "Mass (M-Jup)": "=IF(ISNUMBER($O87),$O87/'Planets within 100 ly'!$C$532,\"\")",
+  "Mass agreement, OEC vs archive": "=IF(AND(ISNUMBER($O87),ISNUMBER($R87)),($R87*'Planets within 100 ly'!$C$532-$O87)/$O87,\"\")",
+  "Radius (R-earth)": "=IF(ISNUMBER($T87),$T87*'Planets within 100 ly'!$C$533,\"\")",
+  "Semi-major axis (au)": 16.2,
+  "Stellar flux received (S-earth)": "=IF(AND(ISNUMBER($H87),ISNUMBER($W87),$W87>0),$H87/$W87^2,\"\")",
+  "Solvent band (1 bar, A=0.3)": "=ARRAY_CONSTRAIN(ARRAYFORMULA(IF($H87=\"\",\"no luminosity on file\",IF($W87=\"\",\"no semi-major axis on file\",IF(SUMPRODUCT((($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$553:$B$560)*(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$553:$C$560))=0,IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$B$553,\"Too close to the star - inward of the \"&'Planets within 100 ly'!$A$553&\" band\",IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>'Planets within 100 ly'!$F$560,\"Too far from the star - beyond the \"&'Planets within 100 ly'!$G$560&\" band\",\"Between the \"&LOOKUP(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30))),'Planets within 100 ly'!$F$553:$F$560,'Planets within 100 ly'!$G$553:$G$560)&\" and \"&INDEX('Planets within 100 ly'!$A$553:$A$560,MATCH(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30))),'Planets within 100 ly'!$B$553:$B$560,1)+1)&\" bands\")),MID(IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$553,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$553),\", \"&'Planets within 100 ly'!$A$553&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$553,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$554,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$554),\", \"&'Planets within 100 ly'!$A$554&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$554,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$555,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$555),\", \"&'Planets within 100 ly'!$A$555&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$555,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$556,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$556),\", \"&'Planets within 100 ly'!$A$556&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$556,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$557,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$557),\", \"&'Planets within 100 ly'!$A$557&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$557,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$558,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$558),\", \"&'Planets within 100 ly'!$A$558&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$558,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$559,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$559),\", \"&'Planets within 100 ly'!$A$559&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$559,\"*\",\"\"),\"\")&IF(AND(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))>='Planets within 100 ly'!$B$560,($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<='Planets within 100 ly'!$C$560),\", \"&'Planets within 100 ly'!$A$560&IF(($W87/SQRT($H87*(1-'Orbital Bands'!$B$30)))<'Planets within 100 ly'!$D$560,\"*\",\"\"),\"\"),3,255))))), 1, 1)",
+  "Mean orbital velocity (km/s)": "=IF(AND(ISNUMBER($V87),ISNUMBER($W87)),2*PI()*$W87*'Planets within 100 ly'!$C$534/($V87*86400),\"\")",
+  "Periastron velocity (km/s)": "=IF(AND(ISNUMBER($AA87),ISNUMBER($Z87)),$AA87*SQRT((1+$Z87)/(1-$Z87)),\"\")",
+  "Apoastron velocity (km/s)": "=IF(AND(ISNUMBER($AA87),ISNUMBER($Z87)),$AA87*SQRT((1-$Z87)/(1+$Z87)),\"\")",
+  "Rotation period, assumed if tidally locked (h)": "=IF(ISNUMBER($AD87),$AD87,IF(AND(ISNUMBER($V87),ISNUMBER($W87),$W87<='Planets within 100 ly'!$C$536),$V87*24,\"\"))",
+  "Rotation basis": "=IF(ISNUMBER($AD87),\"Measured\",IF(ISNUMBER($AE87),\"Assumed synchronous\",\"\"))",
+  "Equatorial rotation speed (km/s)": "=IF(AND(ISNUMBER($U87),ISNUMBER($AE87)),2*PI()*$U87*'Planets within 100 ly'!$C$535/($AE87*3600),\"\")",
+  "Tidal-lock expectation (crude)": "=IF(NOT(ISNUMBER($W87)),\"\",IF($W87<='Planets within 100 ly'!$C$536,\"Likely locked\",IF($W87<='Planets within 100 ly'!$C$537,\"Possible\",\"Unlikely\")))",
+  "Orbit data source / flags": "Trend only. Quadratic RV term -4.1e-6 +/- 0.2e-6 m/s/day^2 and linear 0.032 +/- 0.002 m/s/day fitted simultaneously with b (Table 7). Mass-period degenerate (Fig. 17-18); the 16.2 AU value is only the nominal a used for stability runs (stable for e<0.2). No period, no mass. May be substellar. TIER: Only an RV trend (linear + quadratic terms fitted alongside b) from one team's McDonald/Keck data. No closed orbit: period and mass are degenerate beyond ~1e4 d, so it could be a planet or a brown dwarf. The authors rule out psi1 Dra A as the cause and see no matching Ca II activity, but note moderate S_HK power at periods longer than the baseline, so a slow activity trend cannot be fully excluded. No follow-up found.",
+  "Confidence tier": "ambiguous",
+  "Candidate designation (TOI / KOI / other)": "psi1 Dra B c (Endl et al. 2016, Sec. 5.2.2 and 5.2.4: 'external perturber', 'candidate planets')",
+  "Source / discovery reference": "Endl M. et al. 2016, ApJ 818, 34, 'Two new long-period giant planets from the McDonald Observatory Planet Search and two stars with long-period RV signals related to stellar activity cycles', Sec. 5.2.2, 5.2.4, Table 7",
+  "Vetting date / last updated": "2015-12-09",
+  "Detection method": "Radial velocity (long-term trend)"
+ },
+ "notes": {
+  "O": "Published as 0.029 M-Jup (Msini); stored in M-earth as 0.029 x 317.828 (Planets C543)."
+ },
+ "sp_rows": [
+  5491,
+  5493
+ ],
+ "title": "hy-brasil-20261006-1120"
+}

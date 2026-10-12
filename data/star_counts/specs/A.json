@@ -1,0 +1,478 @@
+[
+ {
+  "system": "51 Eri",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 3,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "51 Eri",
+    "values": {
+     "Star (component)": "GJ 3305 A",
+     "Role in system": "companion; with GJ 3305 B a 29 yr M-dwarf pair, ~2000 AU from 51 Eri",
+     "Mass (M-sun)": 0.67,
+     "Star data source": "Montet et al. 2015, ApJL 813, L11 (arXiv:1508.05945), Table 2: dynamical mass 0.67 +/- 0.05 M-sun, L = 0.112 +/- 0.007 L-sun (BHAC15 model spectra scaled to the resolved photometry, at the Hipparcos 29.43 pc; 0.116 at Gaia DR3's 29.91 pc; entered as published). No resolved spectral type or Teff: the pair's combined light is M1.0 V (Cifuentes et al. 2025, A&A, CARMENES IX, arXiv:2412.12264; M1.1 V Shkolnik et al. 2009), dominated by A. = StKM 1-497 = the MSC's 51 Eri Ca (WDS 04376-0228, A,C 'Cmp'); co-moving with 51 Eri in the beta Pic moving group (Feigelson et al. 2006, ApJ 649, L29). Cifuentes et al. 2025 keep it as a bona fide companion of 51 Eri (their Table A.2: a proper-motion mismatch from the unresolved orbit). Added 6 Oct 2026.",
+     "Luminosity (L-sun)": 0.112,
+     "Radial velocity (km/s)": 21.44,
+     "Proper motion in RA, μα·cos δ (mas/yr)": 54.782,
+     "Proper motion in Dec, μδ (mas/yr)": -47.312,
+     "Total proper motion, μ (arcsec/yr)": 0.072,
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3 | unresolved GJ 3305 A+B photocentre, RUWE 22.86 -- astrometry perturbed by the 29 yr orbit (Montet's systemic RV: 20.76 +/- 0.18 km/s)",
+     "Gaia DR3 source_id": "3205094369407459456",
+     "Separation from": "51 Eri",
+     "Separation (AU)": 2002.5,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 66.96 arcsec, plx(51 Eri) 33.439 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 66.96 arcsec x 29.905 pc (51 Eri's parallax). GJ 3305's own parallax (36.01 +/- 0.48 mas, RUWE 22.9) is perturbed by its 29 yr orbit and is not used. Montet et al. 2015 give 1940 +/- 20 AU at the Hipparcos 29.43 pc; MSC: 66.96 arcsec."
+    },
+    "notes": {}
+   },
+   {
+    "after": "GJ 3305 A",
+    "values": {
+     "Star (component)": "GJ 3305 B",
+     "Role in system": "companion of GJ 3305 A",
+     "Mass (M-sun)": 0.44,
+     "Star data source": "Montet et al. 2015, ApJL 813, L11 (arXiv:1508.05945), Table 2: dynamical mass 0.44 +/- 0.05 M-sun, L = 0.043 +/- 0.005 L-sun (at the Hipparcos 29.43 pc; entered as published). No resolved spectral type or Teff published. = the MSC's 51 Eri Cb (KAS 1 Ca,Cb, 'V,s'). Unresolved in Gaia DR3. Added 6 Oct 2026.",
+     "Luminosity (L-sun)": 0.043,
+     "Orbital eccentricity (e)": 0.19,
+     "Orbit described": "GJ 3305 A + GJ 3305 B",
+     "Orbit source": "Montet et al. 2015, ApJL 813, L11 (arXiv:1508.05945), Table 2: P = 29.03 +/- 0.50 yr, a = 9.78 +/- 0.14 AU, e = 0.19 +/- 0.02, i = 92.1 +/- 0.2 deg, omega = -69 +/- 3 deg, Omega = 18.8 +/- 0.2 deg, T_peri = 2007.14 +/- 0.16, total mass 1.11 +/- 0.04 M-sun (Keck AO + aperture-masking astrometry with SB1 RVs; distance prior = the Hipparcos 29.43 pc of 51 Eri)",
+     "Separation from": "GJ 3305 A",
+     "Separation (AU)": 9.78,
+     "Separation type": "semi-major axis",
+     "Separation source": "Montet et al. 2015, ApJL 813, L11 (arXiv:1508.05945), Table 2: P = 29.03 +/- 0.50 yr, a = 9.78 +/- 0.14 AU, e = 0.19 +/- 0.02, i = 92.1 +/- 0.2 deg, omega = -69 +/- 3 deg, Omega = 18.8 +/- 0.2 deg, T_peri = 2007.14 +/- 0.16, total mass 1.11 +/- 0.04 M-sun (Keck AO + aperture-masking astrometry with SB1 RVs; distance prior = the Hipparcos 29.43 pc of 51 Eri)"
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "51 Eri: F0 V (host, planet host)\nGJ 3305 A: class unknown (companion, ~2000 AU; the pair's combined light is M1 V)\nGJ 3305 B: class unknown (companion, 29 yr orbit with GJ 3305 A)",
+  "stars_note": "3 stars since 6 Oct 2026: 51 Eri and the M-dwarf pair GJ 3305 A + B, 67 arcsec (~2000 AU) away, a common-proper-motion pair in the beta Pic moving group (Feigelson et al. 2006, ApJ 649, L29). The pair's orbit and dynamical masses: Montet et al. 2015, ApJL 813, L11 (P 29 yr, a 9.78 AU). MSC WDS 04376-0228: A,C and Ca,Cb. Cifuentes et al. 2025 (CARMENES IX) list GJ 3305 as a bona fide companion of 51 Eri. Was 1.",
+  "sp_paragraph": "51 Eri (1 -> 3): GJ 3305 A and B added. Masses (0.67, 0.44 M-sun), luminosities (0.112, 0.043 L-sun, at the Hipparcos 29.43 pc) and the A-B orbit (a 9.78 AU, e 0.19, P 29.03 yr) as published in Montet et al. 2015, ApJL 813, L11, Table 2; no resolved spectral types or Teff exist (combined light M1.0 V, Cifuentes et al. 2025). Kinematics: Gaia DR3 3205094369407459456, the unresolved pair (RUWE 22.9). INFERRED (orange): GJ 3305 A's separation from 51 Eri, 2002.5 AU = rho 66.96 arcsec (Gaia DR3 positions, epoch 2016.0) x 51 Eri's Gaia DR3 distance (33.4390 mas); exact arithmetic, but a sky-plane lower bound on the true separation; Montet et al. quote 1940 +/- 20 AU at the older Hipparcos distance. GJ 3305's own parallax is not used: its unresolved orbit perturbs it.",
+  "flags": [
+   "GJ 3305's Gaia DR3 parallax (36.01 mas) differs from 51 Eri's (33.44 mas) by 5 sigma, and Cifuentes et al. 2025 flag the pair's proper-motion mismatch; both come from the 29 yr GJ 3305 AB orbit in an unresolved source (RUWE 22.9). The pair is accepted as physical by Feigelson et al. 2006, Montet et al. 2015, the MSC and Cifuentes et al. 2025.",
+   "Luminosities are entered as published at the Hipparcos 29.43 pc; at Gaia DR3's 29.91 pc they would be 3% higher (0.116, 0.044). Same convention as HD 155555 C.",
+   "No component spectral class or Teff: Stellar Class and Class (sort key) are blank on both rows (Montet's 3700 / 3500 K were model templates, not measurements)."
+  ],
+  "sources_checked": [
+   "Montet et al. 2015, ApJL 813, L11 (arXiv:1508.05945), Tables 1-3",
+   "Feigelson et al. 2006, ApJ 649, L29 (51 Eri + GJ 3305 common proper motion), as cited by Montet et al. 2015",
+   "Cifuentes et al. 2025, A&A, CARMENES input catalogue IX (arXiv:2412.12264), Tables A.1 and A.2",
+   "MSC, VizieR J/ApJS/235/6, WDS 04376-0228 (A,C 'Cmp'; Ca,Cb 'V,s', KAS 1, 29 yr)",
+   "ORB6 (data/four_plus_stars/cat/orb6orbits.txt, 2026-07-09), 04376-0228 KAS 1 Ca,Cb: P 26 yr, grade 3",
+   "Gaia DR3, VizieR I/355/gaiadr3, 100 arcsec cone, queried 2026-10-06",
+   "SIMBAD (StKM 1-497 = GJ 3305, M1.1V, 2009ApJ...699..649S)",
+   "Snapshot hy-brasil-20261006-1120: Planets / Unconfirmed / Rejected / Exomoons / Planetless -- no GJ 3305 entry; the Known tab lists it as 'Gaia DR3 3205094369407459456'"
+  ]
+ },
+ {
+  "system": "GJ 685",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 3,
+  "host_overrides": {
+   "Role in system": "host, planet host; the distant C component of GJ 684 AB (26 Dra)"
+  },
+  "rows": [
+   {
+    "after": "GJ 685",
+    "values": {
+     "Star (component)": "GJ 684 A",
+     "Role in system": "companion; = 26 Dra A, the system's most massive star",
+     "Mass (M-sun)": 1.07,
+     "Stellar Class": "G0 V",
+     "Class (sort key)": 40,
+     "Effective temp (K)": 5925,
+     "Star data source": "Mass: MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023), WDS 17350+6153 (estimated from the V magnitude, flag 'v'); Soederhjelm 1999's dynamical mass sum for A + B is 1.72 M-sun (+/- 7%). Class: the MSC's G0Va (SB9 no. 2557: G1V for the unresolved AB). Teff: Luck 2017, AJ 153, 21 (5925 K; SIMBAD's literature values span 5726-6026 K; the spectra include B, 3.3 mag fainter in V). = 26 Dra A = HD 160269 = HIP 86036. No resolved luminosity published. Added 6 Oct 2026.",
+     "Radial velocity (km/s)": -15.72,
+     "Proper motion in RA, μα·cos δ (mas/yr)": 236.247,
+     "Proper motion in Dec, μδ (mas/yr)": -466.111,
+     "Total proper motion, μ (arcsec/yr)": 0.523,
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3 | unresolved GJ 684 A+B photocentre, RUWE 2.84 -- the proper motion includes the 76 yr orbit",
+     "Gaia DR3 source_id": "1439121018358632832",
+     "Separation from": "GJ 685",
+     "Separation (AU)": 10561.5,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 738.16 arcsec, plx(GJ 685) 69.8921 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 738.16 arcsec x 14.308 pc (GJ 685's parallax). GJ 684 AB's own parallax is 69.28 mas (unresolved pair, RUWE 2.84). Cifuentes et al. 2025 (CARMENES IX, Table A.7) publish the same 738.16 arcsec and 10561.5 au; MSC: 737.6 arcsec."
+    },
+    "notes": {}
+   },
+   {
+    "after": "GJ 684 A",
+    "values": {
+     "Star (component)": "GJ 684 B",
+     "Role in system": "companion of GJ 684 A",
+     "Mass (M-sun)": 0.7,
+     "Stellar Class": "K3 V",
+     "Class (sort key)": 53,
+     "Star data source": "Mass: MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023) (estimated, flag 'v'). Class: Edwards 1976, AJ 81, 245 (K3V, via SIMBAD). = 26 Dra B, 1.5 arcsec from A, dV 3.3 mag; unresolved in Gaia DR3. No Teff or luminosity published. Added 6 Oct 2026.",
+     "Orbital eccentricity (e)": 0.18,
+     "Orbit described": "GJ 684 A + GJ 684 B",
+     "Orbit source": "ORB6 BU 962 AB = Soederhjelm 1999, A&A 341, 121 (VizieR J/A+A/341/121, table3): P = 76.1 yr, a = 1.53 arcsec, e = 0.18, i = 104 deg, omega = 307 deg, Omega = 151 deg, T = 1947 (grade 2); his parallax 71.0 +/- 0.5 mas, mass sum 1.72 M-sun (+/- 7%). SB1 orbit: Duquennoy & Mayor 1991, A&A 248, 485 (SB9 no. 2557): P fixed at 27087 d, e = 0.19, K1 = 3.84 km/s",
+     "Separation from": "GJ 684 A",
+     "Separation (AU)": 21.5,
+     "Separation type": "semi-major axis",
+     "Separation source": "Soederhjelm 1999, A&A 341, 121 (VizieR J/A+A/341/121, table3): a = 1.53 arcsec at his parallax 71.0 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Soederhjelm 1999's angular semi-major axis over his own parallax, 1.53 arcsec / 71.0 mas = 21.5 AU (Kepler check: 21.55^3 / 76.1^2 = 1.73 M-sun, his mass sum 1.72). At GJ 685's Gaia DR3 parallax (69.89 mas) it would be 21.9 AU."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "GJ 685: M0.5 (host, planet host)\nGJ 684 A: G0 V (companion, = 26 Dra A, 738 arcsec away)\nGJ 684 B: K3 V (companion, 76 yr orbit with GJ 684 A)",
+  "stars_note": "3 stars since 6 Oct 2026: GJ 685 is the C component of 26 Dra (GJ 684 AB, a 76 yr visual and spectroscopic binary), 738 arcsec (~10,600 AU) away. MSC WDS 17350+6153: AB,C 'Cmpr' (LDS 2736) and A,B 'V,S1,a' (BU 962). Sperauskas, Deveikis & Tokovinin 2019 (A&A 626, A31): GJ 685's RV is constant and agrees with A's. Orbit: Soederhjelm 1999. Was 1.",
+  "sp_paragraph": "GJ 685 (1 -> 3): GJ 684 A and B (26 Dra A, B) added; GJ 685 stays the host row as the planet host. Physical association: MSC 'Cmpr'; Sperauskas et al. 2019 (A&A 626, A31) find C's RV constant and equal to A's; parallaxes 69.89 (C) and 69.28 mas (AB, unresolved); Cifuentes et al. 2025 list the pair. Masses 1.07 and 0.70 M-sun are the MSC's estimates (Soederhjelm's dynamical sum 1.72 M-sun agrees); classes G0 V (MSC) and K3 V (Edwards 1976); A's Teff 5925 K (Luck 2017). Orbit: ORB6 / Soederhjelm 1999 (P 76.1 yr, a 1.53 arcsec, e 0.18). INFERRED (orange): the A-B semi-major axis, 21.5 AU = 1.53 arcsec / 71.0 mas (Soederhjelm's own parallax); Kepler check 1.73 M-sun against his 1.72; +/- 1% from his parallax error, 3% if Gaia's is used instead. INFERRED (orange): GJ 684 A's separation from GJ 685, 10561.5 AU = rho 738.16 arcsec (Gaia DR3 positions; the AB photocentre) x GJ 685's Gaia DR3 distance (69.8921 mas); identical to Cifuentes et al. 2025's published 10561.5 au; a sky-plane lower bound.",
+  "flags": [
+   "GJ 684 AB's Gaia DR3 proper motion differs from GJ 685's by ~56 mas/yr (3.8 km/s), far above the escape speed at 10,600 AU. That is A's 76 yr orbital motion in the unresolved photocentre (A's reflex speed ~3-4 km/s near the 2023 periastron), and it is why the Gaia co-moving pass missed the pair. RV (C constant and equal to A: Sperauskas et al. 2019) and parallax support a physical system.",
+   "Masses of GJ 684 A and B are the MSC's photometric estimates, not dynamical; the only dynamical value is the 1.72 M-sun sum. No resolved luminosity exists for either star, so both rows will show 'no luminosity on file'.",
+   "The Known tab lists 'GJ 684 AB' (Gaia DR3 1439121018358632832) as a separate unplotted system; it is now part of GJ 685's.",
+   "The host GJ 685 is not the system's most massive star (as with WD 1856+534); companions are placed relative to it."
+  ],
+  "sources_checked": [
+   "MSC, VizieR J/ApJS/235/6, WDS 17350+6153 (AB,C 'Cmpr' LDS 2736; A,B 'V,S1,a' BU 962)",
+   "ORB6 (orb6orbits.txt, 2026-07-09), 17350+6153 BU 962 AB: 76.1 yr, 1.53 arcsec, Sod1999, grade 2",
+   "Soederhjelm 1999, A&A 341, 121, VizieR J/A+A/341/121 table3.dat, HIP 86036",
+   "SB9, VizieR B/sb9, no. 2557 (Duquennoy & Mayor 1991, A&A 248, 485)",
+   "Sperauskas, Deveikis & Tokovinin 2019, A&A 626, A31 (arXiv:1904.06544), note on BD+61 1678C",
+   "Cifuentes et al. 2025, CARMENES IX (arXiv:2412.12264), Table A.7 (GJ 685, LDS 2736, 10561.5 au)",
+   "SIMBAD: 26 Dra G0V; 26 Dra B K3V (1976AJ.....81..245E); mesFe_h Teff list for 26 Dra (Luck 2017 and others)",
+   "Gaia DR3, VizieR I/355/gaiadr3 cones on GJ 684 and GJ 685, queried 2026-10-06; I/355/paramp (FLAME only for the blend)",
+   "Snapshot: Planets / Unconfirmed / Rejected / Exomoons / Planetless -- no 26 Dra / GJ 684 entry; Known 'GJ 684 AB'"
+  ]
+ },
+ {
+  "system": "Gl 49",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "Gl 49",
+    "values": {
+     "Star (component)": "GJ 51 B",
+     "Role in system": "companion; = Wolf 47 = V388 Cas",
+     "Mass (M-sun)": 0.2404,
+     "Stellar Class": "M5.0 V",
+     "Class (sort key)": 65,
+     "Effective temp (K)": 3000,
+     "Star data source": "Cifuentes et al. 2020, A&A 642, A115 (CARMENES input catalogue V; VizieR J/A+A/642/A115/tablea3), Karmn J01033+623: M5.0 V, L = 0.004581 +/- 0.000064 L-sun (VOSA SED), Teff 3000 K, R = 0.2506 +/- 0.0085 R-sun, M = 0.2404 +/- 0.0125 M-sun. = Wolf 47 = V388 Cas = BD+61 195B = GJ 51, the MSC's Gl 49 B (WDS 01026+6221 'Cmp'); 'GJ 51 B' is the MSC's and this workbook's Known-tab name. Fast rotator, P = 1.06 d, vsini 10.5 km/s (Reiners et al. 2018, A&A 612, A49). The MSC's suspected Ba,Bb ('s?', 'drv=5.0') is NOT counted: see the Stars in system note. Added 6 Oct 2026.",
+     "Luminosity (L-sun)": 0.004581,
+     "Radial velocity (km/s)": -5.76,
+     "Proper motion in RA, μα·cos δ (mas/yr)": 730.398,
+     "Proper motion in Dec, μδ (mas/yr)": 85.967,
+     "Total proper motion, μ (arcsec/yr)": 0.735,
+     "Kinematics source": "RV: SIMBAD 2018MNRAS.475.1960F; PM: Gaia DR3",
+     "Gaia DR3 source_id": "522864272041351296",
+     "Separation from": "Gl 49",
+     "Separation (AU)": 2903.3,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 294.46 arcsec, plx(Gl 49) 101.4238 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 294.46 arcsec x 9.860 pc (Gl 49's parallax). GJ 51 B's own parallax is 101.3724 mas. MSC: 294.6 arcsec."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "Gl 49: M1.5 V (host, planet host)\nGJ 51 B: M5.0 V (companion, = Wolf 47 = V388 Cas, ~2900 AU)",
+  "stars_note": "2 stars since 6 Oct 2026: Gl 49 and GJ 51 B (= Wolf 47 = V388 Cas), 294 arcsec (~2900 AU) away; MSC WDS 01026+6221 A,B 'Cmp'; Cifuentes et al. 2025 (CARMENES IX) list the two as one system. The MSC's suspected spectroscopic Ba,Bb ('s?', comment 'drv=5.0', an RV difference) is not counted: B's precise RVs, -6.29 (Reiners et al. 2018, CARMENES), -5.76 +/- 0.02 (Fouque et al. 2018) and -5.88 +/- 0.50 km/s (2022ApJ...935..104), agree with A's (-6.28 +/- 0.13 Gaia DR3, -6.13 Reiners, -6.05 Fouque) within 0.5 km/s; the one discrepant value is +6.7 km/s (West et al. 2015, ApJ 812, 3). Cifuentes et al. 2025 do not list B as a spectroscopic binary. Was 1.",
+  "sp_paragraph": "Gl 49 (1 -> 2): GJ 51 B (Wolf 47 = V388 Cas) added. Class, Teff, L, R and mass as published in Cifuentes et al. 2020 (A&A 642, A115; VOSA SED fits); RV Fouque et al. 2018 (MNRAS 475, 1960); PM Gaia DR3 522864272041351296. INFERRED (orange): its separation from Gl 49, 2903.3 AU = rho 294.46 arcsec (Gaia DR3 positions) x Gl 49's Gaia DR3 distance (101.4238 mas); a sky-plane lower bound. NOT ADDED: the MSC's suspected Ba,Bb ('s?', drv = 5.0 km/s). Three precise RVs of B since 2018 (CARMENES, the SPIRou input catalogue, a 2022 survey) agree with A's to 0.5 km/s, and Cifuentes et al. 2025's multiplicity census lists no spectroscopic companion. The typical-companion rule (0.07 M-sun at 0.3 AU) would give K ~ 7 km/s over a ~107 d period, which those RVs would very likely have shown.",
+  "flags": [
+   "AUDIT TARGET WAS 3, PROPOSED 2: the MSC's suspected Ba,Bb (on GJ 51 B, 's?', comment 'drv=5.0') is not counted. This is weaker than GJ 896's refutation -- no paper says 'activity' or 'single' in words -- but all precise RVs of B (-6.29 CARMENES / Reiners 2018, -5.76 +/- 0.02 Fouque 2018, -5.88 +/- 0.50 in 2022ApJ...935..104) match A within 0.5 km/s, the one discrepant RV (+6.7 km/s, West et al. 2015) is an outlier, and Cifuentes et al. 2025 do not flag B as an SB. If the owner wants the hollow row anyway: 'GJ 51 Bb', counted, Separation blank (the 0.3 AU typical rule is excluded by those RVs: K ~ 7 km/s), Stars = 3.",
+   "Named 'GJ 51 B', the name the Known tab (Gaia DR3 522864272041351296) and the MSC already use; SIMBAD's main id is Wolf 47 (= GJ 51 = V388 Cas). The Known tab's separate 'GJ 51 B' row is now a member of Gl 49's system.",
+   "Rejected candidates already holds 'Gl 49 candidate P=17.27d' (Tuomi 2019, unlikely): unrelated to the stellar companion, no conflict."
+  ],
+  "sources_checked": [
+   "MSC, VizieR J/ApJS/235/6, WDS 01026+6221 (A,B 'Cmp', Gaia; Ba,Bb 's?', 'drv=5.0'); MSC catalog OID 'BD+61_195B, GJ_51B, V*_V388_Cas'",
+   "Cifuentes et al. 2020, A&A 642, A115, VizieR J/A+A/642/A115/tablea3 (J01033+623, J01026+623)",
+   "Cifuentes et al. 2025, CARMENES IX (arXiv:2412.12264), Table A.1 system 34 (Wolf 46 + V388 Cas) and its SB table",
+   "Reiners et al. 2018, A&A 612, A49, VizieR tableb1 (RV -6.131 for GJ 49, -6.291 for GJ 51)",
+   "Jeffers et al. 2018, A&A 614, A76 (no own RV for J01033+623)",
+   "SIMBAD mesVelocities for Wolf 47 and BD+61 195 (Fouque et al. 2018, West et al. 2015, 2022ApJ...935..104, Newton et al. 2014 and older)",
+   "CARMENES DR1, Ribas et al. 2023 (arXiv:2302.10528): GJ 51 is not a DR1 target",
+   "Gaia DR3, VizieR I/355/gaiadr3, 330 arcsec cone, queried 2026-10-06",
+   "Snapshot: Planets (Gl 49 b), Rejected (Gl 49 candidate P=17.27d), Unconfirmed / Exomoons / Planetless -- no stellar entry; Known 'GJ 51 B'"
+  ]
+ },
+ {
+  "system": "ups And",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "ups And",
+    "values": {
+     "Star (component)": "ups And B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.171,
+     "Stellar Class": "M4.5 V",
+     "Class (sort key)": 64.5,
+     "Effective temp (K)": 3195,
+     "Star data source": "Mass 0.171 M-sun and Teff 3195 K: Mugrauer 2019, MNRAS 490, 5088 (VizieR J/MNRAS/490/5088, table4) (Gaia DR2 photometry and evolutionary models). Class: Lowrance, Kirkpatrick & Beichman 2002, ApJ 572, L79 (the discovery, M4.5V). = the MSC's ups And B (WDS 01368+4124, 'Cmp', LWR 1AD) = the Known tab's 'GJ 10216 B'. No luminosity or radius published. Added 6 Oct 2026.",
+     "Radial velocity (km/s)": -28.32,
+     "Proper motion in RA, μα·cos δ (mas/yr)": -172.437,
+     "Proper motion in Dec, μδ (mas/yr)": -383.824,
+     "Total proper motion, μ (arcsec/yr)": 0.421,
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Gaia DR3 source_id": "348020242217448576",
+     "Separation from": "ups And",
+     "Separation (AU)": 749.6,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 55.62 arcsec, plx(ups And) 74.194 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 55.62 arcsec x 13.478 pc (ups And's parallax). ups And B's own parallax is 74.1815 +/- 0.036 mas (A's has RUWE 7.25). Mugrauer 2019: 746 au; MSC: 55.59 arcsec."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "ups And: F8 V (host, planet host)\nups And B: M4.5 V (companion, ~750 AU)",
+  "stars_note": "2 stars since 6 Oct 2026: ups And and the M4.5 V ups And B, 55.6 arcsec (~750 AU) away (Lowrance et al. 2002, ApJ 572, L79; MSC WDS 01368+4124 A,B 'Cmp'). The MSC's suspected Aa,Ab ('a?', comment 'RUWE=7.2') is not counted: A's Gaia astrometric excess is what its known planets produce -- McArthur et al. 2010 (ApJ 715, 1203) measured c's and d's astrometric orbits with HST, and d alone moves the star ~1.4 mas on a 3.5 yr period, longer than Gaia DR3's 34 months -- and A is a G = 4.0 star, where Gaia DR3 astrometry is poorly calibrated. A stellar companion within tens of AU is excluded by the 974 RVs over 14 yr in McArthur et al. 2010. Was 1.",
+  "sp_paragraph": "ups And (1 -> 2): ups And B added. Class M4.5 V (Lowrance et al. 2002, ApJ 572, L79); mass 0.171 M-sun and Teff 3195 K (Mugrauer 2019, MNRAS 490, 5088); RV and PM Gaia DR3 348020242217448576. No luminosity published, left blank. INFERRED (orange): its separation from ups And, 749.6 AU = rho 55.62 arcsec (Gaia DR3 positions) x ups And's Gaia DR3 distance (74.1940 mas); a sky-plane lower bound; Mugrauer 2019 gives 746 au. NOT ADDED: the MSC's suspected Aa,Ab ('a?', RUWE 7.2). It is explained without a companion: planet d's reflex orbit is ~1.4 mas (a 2.53 AU, ~10 M-Jup dynamical mass: McArthur et al. 2010, Deitrick et al. 2015) with P = 3.5 yr, unmodelled by Gaia DR3's single-star fit, plus the bright-star (G = 4) calibration; the typical companion (0.38 M-sun at 3 AU) would drive K ~ 5 km/s, excluded by 14 yr of m/s RVs.",
+  "flags": [
+   "AUDIT TARGET WAS 3, PROPOSED 2: the MSC's suspected Aa,Ab ('a?', 'RUWE=7.2') is not counted. It rests only on A's Gaia DR3 RUWE, which the known planets explain (d's ~1.4 mas astrometric orbit, measured with HST by McArthur et al. 2010) together with G = 4 bright-star calibration; a stellar companion is excluded by 974 RVs over 14 yr (McArthur et al. 2010). Like gam Cep Ab / tau Boo Ab, this is the planets, not a star. If the owner keeps the '?' rule anyway, the row would have a blank separation: the 3 AU typical rule is excluded by the RVs.",
+   "BUILT-IN SYSTEM: star_analysis/data/builtin_systems.py `_upsilon_andromedae()` draws only the star and planets b, c, d, and FEATURED_CATALOG_HOSTS folds the catalog's ups And into it, so ups And B (~750 AU) will not appear in the viewer from this sheet change alone. Adding it is a code change: a new body, a scene extent ~300x the outer planet's orbit, and tests/test_upsilon_andromedae.py (which pins the system's bodies) updated.",
+   "The Known tab lists ups And B as 'GJ 10216 B' (Gaia DR3 348020242217448576); the literature's 'ups And B' is used here.",
+   "No published luminosity for ups And B: the row will show 'no luminosity on file'."
+  ],
+  "sources_checked": [
+   "Lowrance, Kirkpatrick & Beichman 2002, ApJ 572, L79 (via SIMBAD's spectral type M4.5V)",
+   "Mugrauer 2019, MNRAS 490, 5088, VizieR J/MNRAS/490/5088 tables 2-4 (upsAndB: 0.171 M-sun, 3195 K, 746 au)",
+   "McArthur et al. 2010, ApJ 715, 1203 and Deitrick et al. 2015, ApJ 798, 46 (arXiv:1411.1059): planet masses, inclinations, 974 RVs over 14 yr",
+   "MSC, VizieR J/ApJS/235/6, WDS 01368+4124 (A,B 'Cmp'; Aa,Ab 'a?', 'RUWE=7.2')",
+   "Gaia DR3, VizieR I/355/gaiadr3, 70 arcsec cone, queried 2026-10-06 (A: RUWE 7.247, G 3.97; B: RUWE 1.52)",
+   "Repo: star_analysis/data/builtin_systems.py (_upsilon_andromedae, FEATURED_CATALOG_HOSTS)",
+   "Snapshot: Planets (ups And b, c, d), Unconfirmed / Rejected / Exomoons / Planetless -- no stellar entry; Known 'GJ 10216 B'"
+  ]
+ },
+ {
+  "system": "HD 142",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 142",
+    "values": {
+     "Star (component)": "HD 142 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.579,
+     "Stellar Class": "K5 V",
+     "Class (sort key)": 55,
+     "Effective temp (K)": 3922,
+     "Star data source": "Mass 0.579 M-sun and Teff 3922 K: Mugrauer 2019, MNRAS 490, 5088 (VizieR J/MNRAS/490/5088, table4) (Gaia DR2 photometry and evolutionary models; common-proper-motion index 85). Class: Reid, Hawley & Gizis 1995, AJ 110, 1838 (K5V, via SIMBAD); Mugrauer's 3922 K and Gaia BP-RP 1.65 suggest nearer K7-M0. = GJ 9002 = GJ 4.2 = the MSC's HD 142 B (WDS 00063-4905, HDO 180, 'Chp'). No luminosity or radius published. Added 6 Oct 2026.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": 566.984,
+     "Proper motion in Dec, μδ (mas/yr)": -17.387,
+     "Total proper motion, μ (arcsec/yr)": 0.567,
+     "Kinematics source": "PM: Gaia DR3",
+     "Gaia DR3 source_id": "4976894960284725632",
+     "Separation from": "HD 142",
+     "Separation (AU)": 101.7,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 3.88 arcsec, plx(HD 142) 38.1945 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 3.88 arcsec x 26.182 pc (HD 142's parallax). HD 142 B's own parallax is 38.2306 mas. Mugrauer 2019: 3.89 arcsec, 102 au; MSC: 4.1 arcsec."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 142: F7 V (host, planet host)\nHD 142 B: K5 V (companion, ~100 AU)",
+  "stars_note": "2 stars since 6 Oct 2026: HD 142 and HD 142 B (GJ 9002), 3.9 arcsec (~100 AU) away; MSC WDS 00063-4905 A,B 'Chp' (HDO 180); common proper motion and parallax confirmed with Gaia (Mugrauer 2019, MNRAS 490, 5088). Was 1.",
+  "sp_paragraph": "HD 142 (1 -> 2): HD 142 B added. Mass 0.579 M-sun and Teff 3922 K (Mugrauer 2019, MNRAS 490, 5088, Table 4); class K5 V (Reid et al. 1995, AJ 110, 1838); PM Gaia DR3 4976894960284725632; no luminosity published, left blank. INFERRED (orange): separation 101.7 AU = rho 3.88 arcsec (Gaia DR3 positions) x HD 142's Gaia DR3 distance (38.1945 mas); a sky-plane lower bound; Mugrauer 2019 gives 102 au. No solved orbit (the MSC's 818 yr is an estimate).",
+  "flags": [
+   "HD 142 B's class K5 V (Reid et al. 1995) sits awkwardly with Mugrauer 2019's Teff 3922 K and Gaia BP-RP 1.65 (~K7-M0); entered as published, with the tension written into the Star data source text.",
+   "The Planets tab names one planet 'HD 142 A d' while b and c are 'HD 142 b' / 'HD 142 c' and the host is 'HD 142'; inconsistent naming, not changed here.",
+   "The Known tab lists HD 142 B as 'Gaia DR3 4976894960284725632'. No published luminosity: the row will show 'no luminosity on file'."
+  ],
+  "sources_checked": [
+   "Mugrauer 2019, MNRAS 490, 5088, VizieR J/MNRAS/490/5088 tables 2-4 (HD142B: 0.579 M-sun, 3922 K, 102 au, CPM 85)",
+   "MSC, VizieR J/ApJS/235/6, WDS 00063-4905 (A,B 'Chp', HDO 180, est. 818 yr); ORB6: no orbit",
+   "SIMBAD: HD 142B K5V (1995AJ....110.1838R)",
+   "Gaia DR3, VizieR I/355/gaiadr3, queried 2026-10-06; I/355/paramp (no parameters for B)",
+   "Snapshot: Planets (HD 142 b, c, HD 142 A d), Unconfirmed / Rejected / Exomoons / Planetless -- no stellar entry"
+  ]
+ },
+ {
+  "system": "VHS J125601.92-125723.9",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host, planet host (the planet-mass companion VHS J125601.92-125723.9 b orbits A + B)",
+   "Luminosity (L-sun)": 0.001042,
+   "Star data source": "L: Dupuy et al. 2023, MNRAS 519, 1688 (arXiv:2208.08448), Sect. 3: log(L/L-sun) = -2.982 +/- 0.021 for A (combined -2.687 at the Gaia EDR3 21.14 pc, split by the K-band flux ratio). The Systems tab's 0.0007244 (log -3.14) matches the pair's combined light at the pre-Gaia 78.8 mas parallax, so it is not used here. Class, mass, Teff: as Systems sheet."
+  },
+  "rows": [
+   {
+    "after": "VHS J125601.92-125723.9",
+    "values": {
+     "Star (component)": "VHS J125601.92-125723.9 B",
+     "Role in system": "companion; with A a 7.3 yr pair at the hydrogen-burning limit; the planet-mass b orbits both",
+     "Mass (M-sun)": 0.0706,
+     "Stellar Class": "M7.5",
+     "Class (sort key)": 67.5,
+     "Star data source": "Dupuy et al. 2023, MNRAS 519, 1688 (arXiv:2208.08448): total mass 0.141 +/- 0.008 M-sun, '74 +/- 4 M-Jup' each if the mass ratio is near unity (their fitted M_A/M_tot = 0.45 +/- 0.08); log(L/L-sun) = -2.994 +/- 0.021 for B; dK = 0.033 mag between A and B; cooling age 140 +/- 20 Myr. Class: Gauza et al. 2015 (ApJ 804, 96), M7.5 for the unresolved pair, which the near-equal fluxes make apply to both. No component Teff published (combined-light BT-Settl fit: 2700 K). = the MSC's VHS 1256 Ab (WDS 12560-1257 Aa,Ab 'v', SJM 1); the MSC's 'B' is the planet-mass VHS J125601.92-125723.9 b on the Planets tab. Unresolved in Gaia DR3. Added 6 Oct 2026.",
+     "Age (Gyr)": 0.14,
+     "Luminosity (L-sun)": 0.001014,
+     "Orbital eccentricity (e)": 0.883,
+     "Orbit described": "VHS J125601.92-125723.9 + VHS J125601.92-125723.9 B",
+     "Orbit source": "Dupuy et al. 2023, MNRAS 519, 1688 (arXiv:2208.08448): a = 1.96 +/- 0.03 AU, P = 7.31 +/- 0.02 yr, e = 0.8826 (+0.0025/-0.0024), dynamical total mass 0.141 +/- 0.008 M-sun (Keck AO imaging and aperture masking)",
+     "Separation from": "VHS J125601.92-125723.9",
+     "Separation (AU)": 1.96,
+     "Separation type": "semi-major axis",
+     "Separation source": "Dupuy et al. 2023, MNRAS 519, 1688 (arXiv:2208.08448): a = 1.96 +/- 0.03 AU, P = 7.31 +/- 0.02 yr, e = 0.8826 (+0.0025/-0.0024), dynamical total mass 0.141 +/- 0.008 M-sun (Keck AO imaging and aperture masking)"
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "VHS J125601.92-125723.9: M7.5 (host, planet host; with B a 7.3 yr pair)\nVHS J125601.92-125723.9 B: M7.5 (companion; the planet-mass b orbits A + B)",
+  "stars_note": "2 stars since 6 Oct 2026: the host is a 0.1 arcsec binary, A + B (Stone et al. 2016; Rich et al. 2016), with an orbit and a dynamical total mass of 0.141 M-sun in Dupuy et al. 2023 (MNRAS 519, 1688): a = 1.96 AU, P = 7.31 yr, e = 0.883. The MSC (WDS 12560-1257) calls the pair Aa,Ab and the wide companion B; that companion is the planet-mass VHS J125601.92-125723.9 b on the Planets tab (12 or 16 M-Jup, Dupuy et al. 2023) and is not counted. Was 1.",
+  "sp_paragraph": "VHS J125601.92-125723.9 (1 -> 2): the host's binary companion B added. All values published in Dupuy et al. 2023, MNRAS 519, 1688: orbit (a 1.96 AU, P 7.31 yr, e 0.883), total mass 0.141 M-sun with 74 M-Jup = 0.0706 M-sun per component for a near-unity mass ratio, component luminosities log L = -2.982 (A) and -2.994 (B) at the Gaia EDR3 distance, cooling age 140 +/- 20 Myr; class M7.5 (Gauza et al. 2015, unresolved). The host row's luminosity is overridden with Dupuy's A value: the Systems tab's 0.0007244 is consistent with the pair's combined light at the superseded 78.8 mas parallax. No orange cells: the masses and luminosities are unit conversions of published values. The new star is named B (Dupuy et al.), not the MSC's Ab; the MSC's B is the planet-mass b.",
+  "flags": [
+   "SYSTEMS TAB LUMINOSITY LOOKS STALE: Host luminosity 0.0007244 L-sun (log -3.14) matches the A+B combined light scaled to Gauza et al. 2015's 78.8 mas parallax ((12.69 / 21.14 pc)^2 x 10^-2.687 = 7.4e-4) -- an inference; the cell names no source. Dupuy et al. 2023 give log L = -2.982 per component at the Gaia distance (0.00104). The Multi-stars host row is overridden here; the Systems cell, its solvent bands and the Planets tab's host luminosity for b still use the old value and are for the owner to decide.",
+   "Naming: the new star is 'VHS J125601.92-125723.9 B' (Dupuy et al. 2023's A / B / b). The MSC's 'VHS 1256 B' is the planet b, and catalog_loader.match_key() folds 'X B' and 'X b' together -- the same pattern as 41 existing Multi-stars rows (tau Boo B / tau Boo b, 55 Cnc B, ...). If the owner prefers no case-only collision here, use the MSC's 'Ab' instead.",
+   "The per-component mass (0.0706 M-sun) assumes Dupuy's near-unity mass ratio; their direct fit is poorly constrained (M_A/M_tot = 0.45 +/- 0.08). The host's Systems mass 0.07 is consistent and left alone.",
+   "The planet b (16.0 M-Jup on Planets, '>13 MJ - likely BD') stays a planet under the owner's rule for brown dwarfs already on Planets (Dupuy et al. 2023: 12.0 or 16 M-Jup, bimodal)."
+  ],
+  "sources_checked": [
+   "Dupuy et al. 2023, MNRAS 519, 1688 (arXiv:2208.08448): orbit, total mass, component luminosities, age",
+   "Gauza et al. 2015, ApJ 804, 96 (spectral type M7.5, as cited by Dupuy et al. 2023); Stone et al. 2016; Rich et al. 2016",
+   "MSC, VizieR J/ApJS/235/6, WDS 12560-1257 (A,B 'Ch'; Aa,Ab 'v', SJM 1, 9.5 yr estimate)",
+   "Gaia DR3, VizieR I/355/gaiadr3, queried 2026-10-06: one unresolved source 3526198184723289472, RUWE 7.30",
+   "Snapshot: Planets (VHS J125601.92-125723.9 b), Unconfirmed / Rejected / Exomoons / Planetless -- no stellar companion entry"
+  ]
+ },
+ {
+  "system": "eps Ind A",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 3,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "eps Ind A",
+    "values": {
+     "Star (component)": "eps Ind Ba",
+     "Role in system": "brown dwarf, companion of eps Ind A; with Bb the binary eps Ind B",
+     "Mass (M-sun)": 0.06388,
+     "Stellar Class": "T1-1.5",
+     "Effective temp (K)": 1312,
+     "Star data source": "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077): dynamical mass 66.92 +/- 0.36 M-Jup; spectral type T1-1.5; Teff 1312 +/- 13 K (Saumon & Marley 2008 hybrid models from the mass and luminosity; King et al. 2010's atmosphere fits: 1300-1340 K); log(L/L-sun) = -4.691 +/- 0.017 (King et al. 2010, A&A 510, A99, rescaled by Chen et al. to their 274.99 mas parallax); age 3.5 (+0.8/-1.0) Gyr from A's activity. The Gaia DR3 source is the unresolved Ba+Bb (= the Known tab's 'GJ 845 B'). MSC WDS 22034-5647 A,B 'Cmp' (SOZ 1). Added 6 Oct 2026.",
+     "Age (Gyr)": 3.5,
+     "Luminosity (L-sun)": 2.037e-05,
+     "Proper motion in RA, μα·cos δ (mas/yr)": 3981.977,
+     "Proper motion in Dec, μδ (mas/yr)": -2466.832,
+     "Total proper motion, μ (arcsec/yr)": 4.684,
+     "Kinematics source": "PM: Gaia DR3 | unresolved Ba+Bb photocentre, RUWE 4.30 -- the proper motion includes the 11 yr orbit",
+     "Gaia DR3 source_id": "6412596012146801152",
+     "Separation from": "eps Ind A",
+     "Separation (AU)": 1464.3,
+     "Separation type": "projected",
+     "Separation source": "Gaia DR3 gaia_source positions and primary parallax, queried 2026-10-06: rho 402.46 arcsec, plx(eps Ind A) 274.8431 mas"
+    },
+    "orange": {
+     "Separation (AU)": "INFERRED: Gaia DR3 projected separation, rho 402.46 arcsec x 3.638 pc (eps Ind A's parallax). B is the unresolved Ba+Bb photocentre (Gaia DR3 6412596012146801152, plx 270.66 +/- 0.69 mas, RUWE 4.30). MSC: 402.3 arcsec."
+    },
+    "notes": {}
+   },
+   {
+    "after": "eps Ind Ba",
+    "values": {
+     "Star (component)": "eps Ind Bb",
+     "Role in system": "brown dwarf, companion of eps Ind Ba",
+     "Mass (M-sun)": 0.05083,
+     "Stellar Class": "T6",
+     "Effective temp (K)": 972,
+     "Star data source": "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077): dynamical mass 53.25 +/- 0.29 M-Jup; spectral type T6; Teff 972 +/- 13 K (SM08 hybrid models; King et al. 2010's atmosphere fits: 880-940 K; ATMO-2020: 992 K); log(L/L-sun) = -5.224 +/- 0.020 (King et al. 2010, rescaled by Chen et al.); age 3.5 Gyr. Unresolved in Gaia DR3. MSC Ba,Bb 'V' (VLK 1). Added 6 Oct 2026.",
+     "Age (Gyr)": 3.5,
+     "Luminosity (L-sun)": 5.97e-06,
+     "Orbital eccentricity (e)": 0.54042,
+     "Orbit described": "eps Ind Ba + eps Ind Bb",
+     "Orbit source": "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077), Table 4: P = 11.0197 +/- 0.0076 yr, a = 661.58 +/- 0.37 mas = 2.4058 +/- 0.0040 AU, e = 0.54042 +/- 0.00063, i = 77.082 +/- 0.032 deg; system mass 120.17 +/- 0.62 M-Jup (VLT NACO relative and FORS2 absolute astrometry)",
+     "Separation from": "eps Ind Ba",
+     "Separation (AU)": 2.4058,
+     "Separation type": "semi-major axis",
+     "Separation source": "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077), Table 4: P = 11.0197 +/- 0.0076 yr, a = 661.58 +/- 0.37 mas = 2.4058 +/- 0.0040 AU, e = 0.54042 +/- 0.00063, i = 77.082 +/- 0.032 deg; system mass 120.17 +/- 0.62 M-Jup (VLT NACO relative and FORS2 absolute astrometry)"
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "eps Ind A: K5 V (host, planet host)\neps Ind Ba: T1-1.5 (brown dwarf, ~1460 AU from A)\neps Ind Bb: T6 (brown dwarf, 11 yr orbit with Ba)",
+  "stars_note": "3 stars since 6 Oct 2026, two of them brown dwarfs (counted, by the owner's rule): eps Ind Ba (T1-1.5) and Bb (T6), an 11.0 yr, 2.41 AU binary 402 arcsec (~1460 AU) from eps Ind A (Scholz et al. 2003; McCaughrean et al. 2004; dynamical masses 66.9 and 53.3 M-Jup, Chen et al. 2022, AJ 163, 288). MSC WDS 22034-5647: A,B 'Cmp', Ba,Bb 'V'. Was 1.",
+  "sp_paragraph": "eps Ind A (1 -> 3): the brown dwarfs eps Ind Ba and Bb added. Masses (66.92 and 53.25 M-Jup), spectral types (T1-1.5, T6), Teff (1312, 972 K, evolutionary-model values from mass and luminosity), luminosities (log L -4.691, -5.224, King et al. 2010 rescaled), the Ba-Bb orbit (a 2.4058 AU, e 0.54042, P 11.02 yr) and the 3.5 Gyr age: all as published in Chen et al. 2022, AJ 163, 288; M-Jup -> M-sun at 1047.57 is a unit conversion. Kinematics: Gaia DR3 6412596012146801152, the unresolved pair. INFERRED (orange): Ba's separation from A, 1464.3 AU = rho 402.46 arcsec (Gaia DR3 positions; B's photocentre) x eps Ind A's Gaia DR3 distance (274.8431 mas); a sky-plane lower bound; the Ba-Bb offset (0.66 arcsec) is under 0.2% of it.",
+  "flags": [
+   "Brown dwarfs, counted as stars per the owner's 4 Oct rule; Class (sort key) left blank (T dwarfs), like existing rows.",
+   "The Gaia DR3 source_id 6412596012146801152 (= the Known tab's 'GJ 845 B') is the unresolved pair; it goes on Ba's row only, Bb's is blank. Its parallax (270.66 mas) is 6 sigma off A's (274.84) because of the unmodelled 11 yr orbit; Chen et al. 2022 measure 274.99 +/- 0.43 mas for B.",
+   "eps Ind A's Systems row has no Gaia DR3 source_id; it is 6412595290592307840 (G 4.32, plx 274.8431). Outside this spec; noted for the owner.",
+   "eps Ind A b (Planets tab, 6.5 M-Jup, imaged with JWST) is unaffected."
+  ],
+  "sources_checked": [
+   "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077): abstract, Sect. 6.3, Table 4, Sect. 7",
+   "King et al. 2010, A&A 510, A99 (luminosities, atmosphere Teff), as used by Chen et al. 2022",
+   "MSC, VizieR J/ApJS/235/6, WDS 22034-5647 (A,B 'Cmp', SOZ 1; Ba,Bb 'V', VLK 1)",
+   "ORB6 (orb6orbits.txt, 2026-07-09), 22034-5647 VLK 1 Ba,Bb: P 11.2 yr, a 0.67 arcsec, Mcg2009",
+   "Gaia DR3, VizieR I/355/gaiadr3, 480 arcsec cone with pmRA > 1000 mas/yr, queried 2026-10-06",
+   "Snapshot: Planets (eps Ind A b), Unconfirmed / Rejected / Exomoons / Planetless -- no eps Ind B entry; Known 'GJ 845 B'"
+  ]
+ },
+ {
+  "system": "HD 3651",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 3651",
+    "values": {
+     "Star (component)": "HD 3651 B",
+     "Role in system": "brown dwarf, companion",
+     "Mass (M-sun)": 0.051,
+     "Stellar Class": "T7.5",
+     "Effective temp (K)": 810,
+     "Star data source": "Luhman et al. 2007, ApJ 654, 570 (arXiv:astro-ph/0609464): discovery (Spitzer), T7.5 +/- 0.5, Teff 810 +/- 50 K and mass 0.051 +/- 0.014 M-sun (evolutionary models from the luminosity at an assumed 7 Gyr), log(L/L-sun) = -5.60 +/- 0.05. Liu et al. 2007 (ApJ 660, 1507): T7.5, log L -5.58 +/- 0.05, Teff 780-840 K, 40-72 M-Jup; Burgasser 2007 (ApJ 658, 617): T8, 790 +/- 30 K, 0.033 +/- 0.013 M-sun. Independently found by Mugrauer et al. 2006. = 54 Psc B = the MSC's HD 3651 B (WDS 00394+2115, LUH 3, 'Cmp'). Too faint for Gaia DR3. Added 6 Oct 2026.",
+     "Luminosity (L-sun)": 2.512e-06,
+     "Separation from": "HD 3651",
+     "Separation (AU)": 476,
+     "Separation type": "projected",
+     "Separation source": "Luhman et al. 2007, ApJ 654, 570 (arXiv:astro-ph/0609464): 42.9 arcsec, projected 476 AU (at the Hipparcos 11.1 pc; Gaia DR3's 11.108 pc gives the same)"
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 3651: K0 V (host, planet host)\nHD 3651 B: T7.5 (brown dwarf, ~480 AU)",
+  "stars_note": "2 stars since 6 Oct 2026, one a brown dwarf (counted, by the owner's rule): HD 3651 B (54 Psc B), a T7.5 dwarf 42.9 arcsec (476 AU) from HD 3651 (Luhman et al. 2007, ApJ 654, 570; Mugrauer et al. 2006; Liu et al. 2007, ApJ 660, 1507). MSC WDS 00394+2115 A,B 'Cmp'. Was 1.",
+  "sp_paragraph": "HD 3651 (1 -> 2): the T7.5 brown dwarf HD 3651 B added. Class, Teff 810 K, mass 0.051 M-sun, log L -5.60 and the 476 AU projected separation all as published in Luhman et al. 2007, ApJ 654, 570 (L = 10^-5.60 is a unit conversion). Alternatives: Liu et al. 2007 (log L -5.58, 780-840 K, 40-72 M-Jup) and Burgasser 2007 (T8, 790 K, 0.033 M-sun). No orange cells; no Gaia DR3 source (too faint).",
+  "flags": [
+   "Brown dwarf, counted per the owner's rule; Class (sort key) left blank (T dwarf).",
+   "Its mass is model-dependent: 0.051 +/- 0.014 (Luhman 2007, at 7 Gyr) vs 0.033 +/- 0.013 M-sun (Burgasser 2007, 0.7-4.7 Gyr); the Systems age for HD 3651 is 3.0 Gyr. Luhman's is entered; no dynamical mass exists.",
+   "The separation is the published projected 476 AU (not orange): B has no Gaia DR3 position to compute one from.",
+   "The MSC comment 'LUH_3 AC DR2-HIP?' hints at a proper-motion anomaly of A; the MSC lists no further pair and none is added."
+  ],
+  "sources_checked": [
+   "Luhman et al. 2007, ApJ 654, 570 (arXiv:astro-ph/0609464): Teff, mass, log L, separation",
+   "Liu, Leggett & Chiu 2007, ApJ 660, 1507 (arXiv:astro-ph/0701111): abstract",
+   "Burgasser 2007, ApJ 658, 617 (arXiv:astro-ph/0611542): abstract",
+   "MSC, VizieR J/ApJS/235/6, WDS 00394+2115 (A,B 'Cmp', LUH 3)",
+   "Gaia DR3, VizieR I/355/gaiadr3, 60 arcsec cone, queried 2026-10-06 (no counterpart for B)",
+   "SIMBAD: 54 Psc B, T7.5 (2007ApJ...654..570L)",
+   "Snapshot: Planets (HD 3651 b), Unconfirmed / Rejected / Exomoons / Planetless / Known -- no entry for B"
+  ]
+ }
+]

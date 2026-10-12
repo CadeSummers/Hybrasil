@@ -1,0 +1,1605 @@
+{
+ "agent": "M1",
+ "items": [
+  {
+   "name": "TOI-2427 c",
+   "tab": "Planets within 100 ly",
+   "action": "add_planet",
+   "current": {},
+   "fields": {
+    "Planet": {
+     "value": "TOI-2427 c",
+     "source": "Schmerling et al. 2025, A&A 699, A185, Sect. 4 and Table 4",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "TOI-2427",
+     "source": "Systems within 100 ly column A (row 175)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "TOI-2427",
+     "source": "same star as TOI-2427 b (Planets row 531, Systems row 175)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "K7 V",
+     "source": "Schmerling et al. 2025, Table 1 (spectral type K7 V)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.10465319723732,
+     "source": "copied from the TOI-2427 b row (Planets row 531) / Systems row 175 so both planets share one host value",
+     "url": null,
+     "derived": false,
+     "method": "Schmerling et al. 2025 Sect. 3.1 give L = 0.110 +/- 0.012 L_sun (consistent within 1 sigma)"
+    },
+    "HZ inner, optimistic (au)": {
+     "value": 0.258244516238883,
+     "source": "copied from TOI-2427 b row 531 (same host)",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu 2013 with L 0.104653, Teff 4072 K (sheet's own values)"
+    },
+    "HZ inner, conservative (au)": {
+     "value": 0.342619130326376,
+     "source": "copied from TOI-2427 b row 531",
+     "url": null,
+     "derived": true,
+     "method": "as above"
+    },
+    "HZ outer, conservative (au)": {
+     "value": 0.629170070182261,
+     "source": "copied from TOI-2427 b row 531",
+     "url": null,
+     "derived": true,
+     "method": "as above"
+    },
+    "HZ outer, optimistic (au)": {
+     "value": 0.660787191370369,
+     "source": "copied from TOI-2427 b row 531",
+     "url": null,
+     "derived": true,
+     "method": "as above"
+    },
+    "Mass (M-earth)": {
+     "value": 6.46,
+     "source": "Schmerling et al. 2025, Table 4 (Mc sin ic = 6.46 +0.79/-0.78 M_E; note a: minimum mass)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Mass type": {
+     "value": "Msini",
+     "source": "Schmerling et al. 2025, Table 4 note a",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "OEC mass (M-Jup) -- cross-check": {
+     "value": null,
+     "source": "not in NASA pscomppars; OEC not checked",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": null,
+     "source": "non-transiting; Table 4 gives only a Forecaster estimate (2.7 +1.1/-0.8 R_E), not a measurement -- leave blank",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Orbital period (d)": {
+     "value": 5.15,
+     "source": "Schmerling et al. 2025, Table 3 (P = 5.150 +/- 0.011 d)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.05,
+     "source": "Schmerling et al. 2025, Table 4 (a = 0.05 +/- 0.01 au)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Eccentricity": {
+     "value": 0.089,
+     "source": "Schmerling et al. 2025, Table 4 (e = 0.089 +0.116/-0.062; consistent with zero, Sect. 4.1)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "Schmerling et al. 2025, A&A 699, A185, Tables 3-4 (HARPS RVs): P 5.150 +/- 0.011 d; a 0.05 +/- 0.01 au; e 0.089 +0.116/-0.062 (consistent with 0); Msini 6.46 +0.79/-0.78 M_E. Non-transiting. Not in NASA pscomppars (queried 2026-09-27).",
+     "source": "Schmerling et al. 2025",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "Schmerling et al. 2025 abstract: 'We also discovered the presence of a second non-transiting planetary companion with an orbital period of 5.15 d'",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": null,
+     "source": "none (RV discovery)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": null,
+     "source": "n/a",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Schmerling et al. 2025, 'The TOI-2427 system: Two close-in planets orbiting a late K-dwarf star', A&A 699, A185, doi:10.1051/0004-6361/202452620",
+     "source": "journal",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Radial velocity",
+     "source": "Schmerling et al. 2025 (HARPS)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Schmerling et al. 2025 (A&A 699, A185) report a second, non-transiting planet at 5.15 d (Msini 6.46 M_E) from HARPS RVs; it is on no tab of the sheet. NASA pscomppars does not list it yet, so every value comes from the paper.",
+   "confidence": "high",
+   "notes": "Checked: no TOI-2427 row on Unconfirmed or Rejected; only TOI-2427 b on Planets (row 531). Host row exists: 'TOI-2427' (Systems row 175). c is near 4:1 with b; REM analysis (Sect. 4.3) finds the solution stable. Values read from the Chalmers repository copy of the published version (the A&A PDF is behind a captcha)."
+  },
+  {
+   "name": "TOI-2427 b",
+   "tab": "Planets within 100 ly",
+   "action": "correct_values",
+   "current": {
+    "Mass (M-earth)": "",
+    "Mass type": "",
+    "Radius (R-Jup)": 0.161,
+    "Orbit data source / flags": "OEC 2026-07-31"
+   },
+   "fields": {
+    "Mass (M-earth)": {
+     "value": 5.69,
+     "source": "Schmerling et al. 2025, Table 4 (Mp = 5.69 +0.51/-0.50 M_E; transiting, so a true mass)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Mass type": {
+     "value": "Mass",
+     "source": "Schmerling et al. 2025, Table 4",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": 0.146313,
+     "source": "Schmerling et al. 2025, Table 4 (Rp = 1.64 +0.12/-0.11 R_E)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": true,
+     "method": "1.64 R_E / 11.2089 (sheet constant C547)"
+    },
+    "Orbit data source / flags": {
+     "value": "OEC 2026-07-31; mass and radius Schmerling et al. 2025, A&A 699, A185, Table 4 (HARPS: Mp 5.69 +0.51/-0.50 M_E, Rp 1.64 +0.12/-0.11 R_E, e 0.074 +0.076/-0.052)",
+     "source": "Schmerling et al. 2025",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Needed so the TOI-2427 host row's mass list is complete: the b row has no mass although Schmerling et al. 2025 measure 5.69 M_E (HARPS). Their radius 1.64 R_E supersedes the validation-paper radius (Giacalone et al. 2022, 1.80 R_E) the row carries.",
+   "confidence": "high",
+   "notes": "Period and a on the row (1.3060011 d, 0.0202 au) agree with Schmerling Tables 3-4 (1.305962 d, 0.0202 au); left alone. B11 flagged the same missing mass last run."
+  },
+  {
+   "name": "TOI-2427",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Confirmed planets": 1,
+    "Planet masses (M-earth)": "TOI-2427 b:—",
+    "Mass type": ""
+   },
+   "fields": {
+    "Confirmed planets": {
+     "value": 2,
+     "source": "TOI-2427 b + c (Schmerling et al. 2025)",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Planet masses (M-earth)": {
+     "value": "TOI-2427 b:5.69\nTOI-2427 c:6.46",
+     "source": "Schmerling et al. 2025, Table 4",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    },
+    "Mass type": {
+     "value": "Mass, Msini",
+     "source": "b transiting (true mass), c Msini",
+     "url": "https://research.chalmers.se/publication/547605/file/547605_Fulltext.pdf",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Adds TOI-2427 c, and b's measured mass, to the host row.",
+   "confidence": "high",
+   "notes": "If the writer does not adopt b's mass, use 'TOI-2427 b:—' + newline + 'TOI-2427 c:6.46' and Mass type 'Msini'. HZ planet names unchanged (c at 0.05 au is well inside the 0.258 au optimistic inner edge)."
+  },
+  {
+   "name": "TOI-2267 b",
+   "tab": "Planets within 100 ly",
+   "action": "add_planet",
+   "current": {},
+   "fields": {
+    "Planet": {
+     "value": "TOI-2267 b",
+     "source": "NASA pscomppars pl_name, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "TOI-2267 A",
+     "source": "no Systems row exists yet -- see the 'TOI-2267 A' update_host item (new row)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "TOI-2267 A",
+     "source": "NASA pscomppars hostname, queried 2026-09-27 (assignment uncertain; see notes)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M5 V",
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0033,
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2 (SED): 3.3 +/- 0.3 x 10^-3 L_sun = NASA pscomppars st_lum",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-earth)": {
+     "value": 0.972,
+     "source": "NASA pscomppars pl_bmasse, reflink 'Calculated Value' (mass-radius relation, not a measurement)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": true,
+     "method": "NASA Exoplanet Archive M-R relation applied to the radius"
+    },
+    "Mass type": {
+     "value": "M-R relationship",
+     "source": "NASA pscomppars pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": 0.089215,
+     "source": "NASA pscomppars pl_rade = 1.0 +/- 0.11 R_E (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": true,
+     "method": "R_E / 11.2089 (sheet constant C547)"
+    },
+    "Orbital period (d)": {
+     "value": 2.28909,
+     "source": "NASA pscomppars pl_orbper (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.0205,
+     "source": "NASA pscomppars pl_orbsmax (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Eccentricity": {
+     "value": null,
+     "source": "circular fits; pscomppars pl_orbeccen empty",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Zúñiga-Fernández et al. 2025; a Zúñiga-Fernández et al. 2025. Primary-host solution (ZF25 Table 11): Rp 1.00 +/- 0.11 R_E, a 0.0205 +/- 0.0025 au; if it orbits B: Rp 1.22 +/- 0.29 R_E, a 0.0127 au. Host star not determined: the discovery papers could not assign b and c to A or B (ZF25 Sect. 8.3); NASA follows the primary-host solution.",
+     "source": "NASA pscomppars",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "NASA pscomppars soltype 'Published Confirmed' (statistically validated)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": "TOI-2267.03",
+     "source": "NASA TOI table, TIC 459837008, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": "CP",
+     "source": "NASA TOI table tfopwg_disp, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Zúñiga-Fernández et al. 2025, 'Two warm Earth-sized exoplanets and an Earth-sized candidate in the M5V-M6V binary system TOI-2267', A&A 702, A85 (arXiv:2508.14176)",
+     "source": "journal",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Transit (TESS)",
+     "source": "validation paper",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "HZ inner, optimistic (au)": {
+     "value": 0.046932,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ inner, conservative (au)": {
+     "value": 0.061762,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, conservative (au)": {
+     "value": 0.119185,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, optimistic (au)": {
+     "value": 0.126656,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    }
+   },
+   "reason": "Validated by Zúñiga-Fernández et al. 2025 (A&A 702, A85) and listed confirmed in NASA pscomppars; the system is on no tab of the sheet under any alias (G 222-3, LP 4-80, NLTT 12645, LSPM J0420+8454, Gaia DR3 571488283984760960).",
+   "confidence": "high",
+   "notes": "Needs the new Systems row first ('TOI-2267 A' item). Host star not determined: the discovery papers could not assign b and c to A or B (ZF25 Sect. 8.3); NASA follows the primary-host solution. Values match ZF25 Table 11 'Primary host' column (P 2.2890900 d)."
+  },
+  {
+   "name": "TOI-2267 c",
+   "tab": "Planets within 100 ly",
+   "action": "add_planet",
+   "current": {},
+   "fields": {
+    "Planet": {
+     "value": "TOI-2267 c",
+     "source": "NASA pscomppars pl_name, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "TOI-2267 A",
+     "source": "no Systems row exists yet -- see the 'TOI-2267 A' update_host item (new row)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "TOI-2267 A",
+     "source": "NASA pscomppars hostname, queried 2026-09-27 (assignment uncertain; see notes)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M5 V",
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0033,
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2 (SED): 3.3 +/- 0.3 x 10^-3 L_sun = NASA pscomppars st_lum",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-earth)": {
+     "value": 1.55,
+     "source": "NASA pscomppars pl_bmasse, reflink 'Calculated Value' (mass-radius relation, not a measurement)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": true,
+     "method": "NASA Exoplanet Archive M-R relation applied to the radius"
+    },
+    "Mass type": {
+     "value": "M-R relationship",
+     "source": "NASA pscomppars pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": 0.101705,
+     "source": "NASA pscomppars pl_rade = 1.14 +/- 0.13 R_E (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": true,
+     "method": "R_E / 11.2089 (sheet constant C547)"
+    },
+    "Orbital period (d)": {
+     "value": 3.4950412,
+     "source": "NASA pscomppars pl_orbper (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.0263,
+     "source": "NASA pscomppars pl_orbsmax (Zúñiga-Fernández et al. 2025)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Eccentricity": {
+     "value": null,
+     "source": "circular fits; pscomppars pl_orbeccen empty",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Zúñiga-Fernández et al. 2025; a Zúñiga-Fernández et al. 2025. Primary-host solution (ZF25 Table 11): Rp 1.14 +/- 0.13 R_E, a 0.0263 +0.0040/-0.0036 au; if it orbits B: Rp 1.36 +/- 0.33 R_E, a 0.0145 au. Near 3:2 with b (P_c/P_b = 1.5268). Host star not determined: the discovery papers could not assign b and c to A or B (ZF25 Sect. 8.3); NASA follows the primary-host solution.",
+     "source": "NASA pscomppars",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "NASA pscomppars soltype 'Published Confirmed' (statistically validated)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": "TOI-2267.01",
+     "source": "NASA TOI table, TIC 459837008, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": "CP",
+     "source": "NASA TOI table tfopwg_disp, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Zúñiga-Fernández et al. 2025, 'Two warm Earth-sized exoplanets and an Earth-sized candidate in the M5V-M6V binary system TOI-2267', A&A 702, A85 (arXiv:2508.14176)",
+     "source": "journal",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Transit (TESS)",
+     "source": "validation paper",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "HZ inner, optimistic (au)": {
+     "value": 0.046932,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ inner, conservative (au)": {
+     "value": 0.061762,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, conservative (au)": {
+     "value": 0.119185,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, optimistic (au)": {
+     "value": 0.126656,
+     "source": "derived from L=0.0033 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=3030 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    }
+   },
+   "reason": "Validated by Zúñiga-Fernández et al. 2025 and listed confirmed in NASA pscomppars; not on the sheet.",
+   "confidence": "high",
+   "notes": "As for TOI-2267 b."
+  },
+  {
+   "name": "TOI-2267 d",
+   "tab": "Planets within 100 ly",
+   "action": "add_planet",
+   "current": {},
+   "fields": {
+    "Planet": {
+     "value": "TOI-2267 d",
+     "source": "NASA pscomppars pl_name, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "TOI-2267 A",
+     "source": "no Systems row exists yet -- see the 'TOI-2267 A' update_host item (new row)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "TOI-2267 B",
+     "source": "NASA pscomppars hostname, queried 2026-09-27 (assignment uncertain; see notes)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M6 V",
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0011,
+     "source": "Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2), Table 2 (SED): 1.1 +/- 0.3 x 10^-3 L_sun = NASA pscomppars st_lum",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Mass (M-earth)": {
+     "value": 3.78,
+     "source": "NASA pscomppars pl_bmasse, reflink 'Calculated Value' (mass-radius relation, not a measurement)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": true,
+     "method": "NASA Exoplanet Archive M-R relation applied to the radius"
+    },
+    "Mass type": {
+     "value": "M-R relationship",
+     "source": "NASA pscomppars pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": 0.15791,
+     "source": "NASA pscomppars pl_rade = 1.77 +/- 0.43 R_E (Greklek-McKeon et al. 2026)",
+     "url": "https://arxiv.org/abs/2512.10007",
+     "derived": true,
+     "method": "R_E / 11.2089 (sheet constant C547)"
+    },
+    "Orbital period (d)": {
+     "value": 2.0344671,
+     "source": "NASA pscomppars pl_orbper (Greklek-McKeon et al. 2026)",
+     "url": "https://arxiv.org/abs/2512.10007",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.0145,
+     "source": "NASA pscomppars pl_orbsmax (Greklek-McKeon et al. 2026)",
+     "url": "https://arxiv.org/abs/2512.10007",
+     "derived": false,
+     "method": null
+    },
+    "Eccentricity": {
+     "value": null,
+     "source": "circular fits; pscomppars pl_orbeccen empty",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Greklek-McKeon et al. 2026; a Greklek-McKeon et al. 2026. Secondary-host solution as adopted by NASA (Greklek-McKeon et al. 2026, Table 2): Rp 1.77 +/- 0.43 R_E, a 0.0145 +0.0006/-0.0007 au; primary-host alternative: Rp 0.98 +/- 0.09 R_E, a 0.0174 +/- 0.0003 au (likelihood ratio 1.5 for the primary, not significant). ZF25 found all three planets on one star dynamically unstable, which is why d sits on the other star from b and c. NASA TOI table still says PC.",
+     "source": "NASA pscomppars",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "NASA pscomppars soltype 'Published Confirmed' (statistically validated)",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": "TOI-2267.02",
+     "source": "NASA TOI table, TIC 459837008, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": "PC",
+     "source": "NASA TOI table tfopwg_disp, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Greklek-McKeon et al. 2026, 'Validation of a Third Earth-sized Planet in the TOI-2267 Binary System', AJ 171, 97 (arXiv:2512.10007)",
+     "source": "journal",
+     "url": "https://arxiv.org/abs/2512.10007",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Transit (TESS)",
+     "source": "validation paper",
+     "url": "https://arxiv.org/abs/2512.10007",
+     "derived": false,
+     "method": null
+    },
+    "HZ inner, optimistic (au)": {
+     "value": 0.027141,
+     "source": "derived from L=0.0011 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=2930 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ inner, conservative (au)": {
+     "value": 0.035694,
+     "source": "derived from L=0.0011 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=2930 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, conservative (au)": {
+     "value": 0.069187,
+     "source": "derived from L=0.0011 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=2930 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, optimistic (au)": {
+     "value": 0.073637,
+     "source": "derived from L=0.0011 L_sun (Zúñiga-Fernández et al. 2025, A&A 702, A85 (arXiv:2508.14176v2) Table 2) and Teff=2930 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    }
+   },
+   "reason": "Validated by Greklek-McKeon et al. 2026 (AJ 171, 97; TRICERATOPS+ with Palomar/WIRC transits) and confirmed in NASA pscomppars, which places it on TOI-2267 B. The NASA TOI table still shows PC for TOI-2267.02.",
+   "confidence": "medium",
+   "notes": "Confirmed status is secure; the host is not: the paper is 'unable to conclusively assign a host'. If the writer prefers the primary: Planet-host star 'TOI-2267 A', L 0.0033, HZ as for b/c, a 0.0174 au, Radius 0.087431 R_J (0.98 R_E), and drop the NASA M-R mass (3.78 M_E, computed from the 1.77 R_E secondary-host radius). pscomppars st_teff for d is ExoFOP's 3022 K; the HZ here uses ZF25's 2930 K for B."
+  },
+  {
+   "name": "TOI-2267 A",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "(row)": "does not exist -- no Systems or Multi-stars row for TOI-2267 under any alias"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "TOI-2267 A",
+     "source": "NASA pscomppars hostname of b and c",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 73.54,
+     "source": "Gaia DR3 571488283984760960 parallax 44.3496 +/- 0.3556 mas",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": true,
+     "method": "3261.56 / 44.3496 = 73.54 +/- 0.59 ly; ZF25 Table 2 gives 22.55 +/- 0.19 pc = 73.55 ly"
+    },
+    "Stars in system": {
+     "value": 2,
+     "source": "ZF25 Table 2 and Sect. 9 (M5V + M6V, ~8 au projected separation)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "System stars": {
+     "value": "TOI-2267 A: M5 V (host, planet host)\nTOI-2267 B: M6 V (planet host)",
+     "source": "ZF25 Table 2; host roles per NASA pscomppars",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Confirmed planets": {
+     "value": 3,
+     "source": "NASA pscomppars sy_pnum = 3",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host mass (M-sun)": {
+     "value": 0.171,
+     "source": "ZF25 Table 2 (0.1710 +/- 0.0079)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M5 V",
+     "source": "ZF25 Table 2",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3030,
+     "source": "ZF25 Table 2 (3030 +/- 100 K, SED)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Metallicity [Fe/H]": {
+     "value": 0.164,
+     "source": "ZF25 Table 2 (0.164 +/- 0.11, from Dittmann et al. 2016)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0033,
+     "source": "ZF25 Table 2 (3.3 +/- 0.3 x 10^-3 L_sun)",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "Planet masses (M-earth)": {
+     "value": "TOI-2267 b:0.97\nTOI-2267 c:1.55\nTOI-2267 d:3.78",
+     "source": "NASA pscomppars pl_bmasse",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": true,
+     "method": "NASA 'Calculated Value' (M-R relation)"
+    },
+    "Mass type": {
+     "value": "M-R relationship",
+     "source": "NASA pscomppars pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "571488283984760960",
+     "source": "SIMBAD ident: TOI-2267 = G 222-3 = Gaia DR3 571488283984760960; ZF25 Table 1",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "TOI-2267 A; TOI-2267 B",
+     "source": "NASA pscomppars hostname",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M5 V; M6 V",
+     "source": "ZF25 Table 2",
+     "url": "https://arxiv.org/abs/2508.14176",
+     "derived": false,
+     "method": null
+    },
+    "RA (deg, ICRS)": {
+     "value": 65.052681,
+     "source": "SIMBAD basic.ra (J2000, G 222-3)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Dec (deg, ICRS)": {
+     "value": 84.901743,
+     "source": "SIMBAD basic.dec (J2000)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "New host row needed before TOI-2267 b, c, d can be added: the system (73.5 ly) is on no tab. Multi-stars also needs TOI-2267 A and TOI-2267 B rows (separation 0.384-0.408 arcsec, ~8 au projected; Greklek-McKeon abstract, ZF25 Table 4).",
+   "confidence": "medium",
+   "notes": "Gaia DR3 does not resolve the pair: one source, RUWE 13.7, so the parallax (44.35 +/- 0.36 mas) is less reliable than usual; SIMBAD plx agrees. B: Teff 2930 +/- 160 K, M 0.0989 +/- 0.0130 M_sun, L 1.1 +/- 0.3 x 10^-3 L_sun (ZF25 Table 2). Kinematics: Gaia pmra 182.388, pmdec -213.503 mas/yr; no Gaia RV; combined RV -19.0 +/- 0.3 km/s from IR spectra (ZF25 Table 2). HZ distance string for A: 0.047 - 0.127 (conservative: 0.062 - 0.119). Queries: SIMBAD `select i.id,b.main_id,b.ra,b.dec,b.plx_value from ident i join basic b on b.oid=i.oidref where i.id='TOI-2267'`; Gaia `select source_id,ra,dec,parallax,parallax_error,phot_g_mean_mag,ruwe,pmra,pmdec from gaiadr3.gaia_source where source_id=571488283984760960`."
+  },
+  {
+   "name": "Gliese 48 b",
+   "tab": "Planets within 100 ly",
+   "action": "add_planet",
+   "current": {},
+   "fields": {
+    "Planet": {
+     "value": "Gliese 48 b",
+     "source": "NASA pscomppars pl_name, queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "Gliese 48",
+     "source": "no Systems row exists -- see the 'Gliese 48' update_host item (new row)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "Gliese 48",
+     "source": "NASA pscomppars hostname",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M3.5 V",
+     "source": "NASA pscomppars st_spectype (Conzo et al. 2026 Table 2); SIMBAD gives M3.0V",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0273,
+     "source": "Conzo et al. 2026, Table 2 and Sect. 4.1 (0.0273 +/- 0.0023 L_sun) = NASA pscomppars st_lum",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": true,
+     "method": "The paper's own Stefan-Boltzmann value from R = 0.463 +/- 0.010 R_sun (Cifuentes et al. 2025) and Teff = 3450 +/- 50 K"
+    },
+    "Mass (M-earth)": {
+     "value": 8.11,
+     "source": "Conzo et al. 2026, Table 2 (Msini = 8.11 +/- 1.63 M_E) = NASA pscomppars",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Mass type": {
+     "value": "Msini",
+     "source": "NASA pscomppars pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": null,
+     "source": "non-transiting (TESS excludes a transit, Conzo Sect. 3); pscomppars 2.77 R_E is an archive 'Calculated Value' -- leave blank",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Orbital period (d)": {
+     "value": 39.6299,
+     "source": "Conzo et al. 2026, Table 2 (39.6299 +/- 0.29 d) = NASA pscomppars",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.1752,
+     "source": "Conzo et al. 2026, Table 2 (0.1752 +/- 0.0011 au, Kepler III) = NASA pscomppars",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Eccentricity": {
+     "value": 0,
+     "source": "Conzo et al. 2026, Sect. 2.3 (fixed at 0; free fit 0.08, consistent with circular) = NASA pscomppars",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "NASA Exoplanet Archive pscomppars, queried 2026-09-27: P Conzo et al. 2026; a Conzo et al. 2026; e Conzo et al. 2026 (fixed at 0). Found in archival CARMENES VIS/NIR + HIRES RVs; K = 2.38 +/- 0.24 m/s beside a 51.5 d rotation signal. CARMENES DR1 (Ribas et al. 2023, Table C.1, J01025+716) reported the star's strongest RV signal at 43.53 d and flagged it 'dLW' (activity).",
+     "source": "NASA pscomppars; Conzo et al. 2026",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "NASA pscomppars soltype 'Published Confirmed'",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": null,
+     "source": "none",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": null,
+     "source": "n/a",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Conzo, Moriconi & Correa Jr. 2026, 'Detection and characterization of the temperate super-earth Gliese 48 b', OEJV 273, 1 (arXiv:2605.11123v2)",
+     "source": "journal",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Radial velocity",
+     "source": "Conzo et al. 2026",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "HZ inner, optimistic (au)": {
+     "value": 0.133924,
+     "source": "derived from L=0.0273 L_sun (Conzo et al. 2026 Table 2) and Teff=3450 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ inner, conservative (au)": {
+     "value": 0.176881,
+     "source": "derived from L=0.0273 L_sun (Conzo et al. 2026 Table 2) and Teff=3450 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, conservative (au)": {
+     "value": 0.334717,
+     "source": "derived from L=0.0273 L_sun (Conzo et al. 2026 Table 2) and Teff=3450 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    },
+    "HZ outer, optimistic (au)": {
+     "value": 0.353672,
+     "source": "derived from L=0.0273 L_sun (Conzo et al. 2026 Table 2) and Teff=3450 K",
+     "url": null,
+     "derived": true,
+     "method": "Kopparapu et al. 2013 (erratum-corrected) coefficients exactly as data/unconfirmed_search/pack/hz.py (recent Venus, runaway greenhouse, maximum greenhouse, early Mars): d = sqrt(L / S_eff(Teff)); uncertainty follows sqrt(L), about 5-10%."
+    }
+   },
+   "reason": "NASA pscomppars lists Gliese 48 b as Published Confirmed (Conzo et al. 2026, OEJV 273, 1): P 39.63 d, Msini 8.11 M_E. Neither the planet nor its host (GJ 48 = Ross 318 = HIP 4856, 26.85 ly) is on any tab.",
+   "confidence": "medium",
+   "notes": "Added because NASA lists it, but the evidence is thinner than usual: a re-analysis of archival RVs by an amateur group (Gruppo Astrofili Palidoro) in the Open European Journal on Variable stars; K = 2.38 m/s beside a 51.5 d rotation; CARMENES DR1 attributed the star's strongest RV periodicity (43.53 d) to activity (Ribas et al. 2023, arXiv:2302.10528, Tab/occurrence_signals.tex row J01025+716). The paper also quotes a wrong distance (8.58 pc; Gaia DR3 gives 8.233 pc). At a = 0.1752 au against a conservative inner edge of 0.1769 au it is in the optimistic HZ, warmer side, within 1% of the conservative edge (a boundary case by the Legend's rule). Teklu et al. 2025 (A&A 702, A68, HIRES) not checked. The writer may prefer tier 'strong' on the Unconfirmed tab instead."
+  },
+  {
+   "name": "Gliese 48",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "(row)": "does not exist -- no row under Gliese 48, GJ 48, Ross 318, LHS 131, HIP 4856 or its Gaia id"
+   },
+   "fields": {
+    "System / Host": {
+     "value": "Gliese 48",
+     "source": "NASA pscomppars hostname",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Distance (ly)": {
+     "value": 26.85,
+     "source": "Gaia DR3 533621859441169920 parallax 121.4598 +/- 0.0158 mas",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": true,
+     "method": "3261.56 / 121.4598 = 26.853 +/- 0.004 ly (NASA sy_dist 8.23366 pc agrees)"
+    },
+    "Stars in system": {
+     "value": 1,
+     "source": "NASA pscomppars sy_snum = 1",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Confirmed planets": {
+     "value": 1,
+     "source": "NASA pscomppars sy_pnum = 1",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Host mass (M-sun)": {
+     "value": 0.47,
+     "source": "Conzo et al. 2026 Table 2 (0.470 +/- 0.010, from Cifuentes et al. 2025)",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Stellar Class": {
+     "value": "M3.5 V",
+     "source": "NASA pscomppars st_spectype; SIMBAD M3.0V",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Effective temp (K)": {
+     "value": 3450,
+     "source": "Conzo et al. 2026 Table 2 (3450 +/- 50 K) = NASA st_teff",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.0273,
+     "source": "Conzo et al. 2026 Table 2 = NASA st_lum (-1.56384 dex)",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": true,
+     "method": "Stefan-Boltzmann from R and Teff (the paper's)"
+    },
+    "Planet masses (M-earth)": {
+     "value": "Gliese 48 b:8.11",
+     "source": "Conzo et al. 2026 Table 2",
+     "url": "https://arxiv.org/abs/2605.11123",
+     "derived": false,
+     "method": null
+    },
+    "Mass type": {
+     "value": "Msini",
+     "source": "NASA pl_bmassprov",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Gaia DR3 source_id": {
+     "value": "533621859441169920",
+     "source": "SIMBAD ident GJ 48 = HIP 4856 = Gaia DR3 533621859441169920; Gaia DR3 plx 121.4598 mas, G 8.94, RUWE 1.00",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host star": {
+     "value": "Gliese 48",
+     "source": "NASA",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "Planet-host class": {
+     "value": "M3.5 V",
+     "source": "NASA st_spectype",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,hostname,pl_orbper,pl_orbsmax,pl_orbeccen,pl_bmasse,pl_bmassprov,pl_rade,st_lum,st_teff,st_spectype,pl_orbper_reflink,pl_orbsmax_reflink+from+pscomppars+where+hostname+like+'TOI-2267%25'+or+hostname+like+'Gliese+48%25'",
+     "derived": false,
+     "method": null
+    },
+    "RA (deg, ICRS)": {
+     "value": 15.634314,
+     "source": "SIMBAD basic.ra (J2000, Ross 318)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Dec (deg, ICRS)": {
+     "value": 71.679816,
+     "source": "SIMBAD basic.dec (J2000)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "New host row needed for Gliese 48 b; the star (26.85 ly) is not on the Systems tab.",
+   "confidence": "high",
+   "notes": "Kinematics for the writer: Gaia DR3 pmra 1746.701, pmdec -381.762 mas/yr, RV 1.343 km/s. HZ distance string: 0.134 - 0.354 (conservative: 0.177 - 0.335), from hz.py with L 0.0273, Teff 3450. SIMBAD query: `select i.id,b.main_id,b.ra,b.dec,b.plx_value,b.sp_type from ident i join basic b on b.oid=i.oidref where i.id='GJ 48'`."
+  },
+  {
+   "name": "TOI-4324.01",
+   "tab": "Unconfirmed within 100 ly",
+   "action": "move_to_planets",
+   "current": {
+    "Planet": "TOI-4324.01",
+    "Orbital period (d)": 6.2509468,
+    "Radius (R-Jup)": 0.10087359152102347,
+    "Semi-major axis (au)": 0.048368,
+    "Confidence tier": "strong",
+    "Disposition (TFOPWG)": "PC",
+    "Source / discovery reference": "NASA Exoplanet Archive, TESS Project Candidates (TOI) table, retrieved 2026-08-25"
+   },
+   "fields": {
+    "Planet": {
+     "value": "TOI-4324 b",
+     "source": "Collier et al. 2026, arXiv:2608.21560v3, Table 3 (name as validated)",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Host system (primary star)": {
+     "value": "HIP 47619",
+     "source": "Systems row 392 (TIC 408416746 = HIP 47619 = GJ 3563 = TOI-4324 per SIMBAD ids)",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Orbital period (d)": {
+     "value": 6.2509291,
+     "source": "Collier et al. 2026, Table 3 (6.2509291 +0.0000060/-0.0000057 d)",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Radius (R-Jup)": {
+     "value": 0.109734,
+     "source": "Collier et al. 2026, Table 3 (Rp = 1.23 +/- 0.06 R_E)",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": true,
+     "method": "1.23 / 11.2089"
+    },
+    "Semi-major axis (au)": {
+     "value": 0.04845,
+     "source": "Collier et al. 2026 Table 3 a/R* = 26.35 +0.88/-0.94, times TIC R* = 0.395397 R_sun (NASA TOI table st_rad)",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": true,
+     "method": "a = (a/R*) x R* = 26.35 x 0.395397 x 0.0046505 au = 0.04845 +/- 0.0017 au; Kepler III with the sheet's M* 0.386 gives 0.04835, so the row's existing 0.048368 may equally be kept"
+    },
+    "Host luminosity (L-sun)": {
+     "value": 0.020634,
+     "source": "keep the existing Unconfirmed-row value (same host, HIP 47619)",
+     "url": null,
+     "derived": true,
+     "method": "as on the row"
+    },
+    "Mass (M-earth)": {
+     "value": null,
+     "source": "no measured mass; Collier Table 7 gives 2.02 M_E from a mass-radius estimate only -- leave blank as for TOI-2540 b / TOI-5961 b / TOI-6662 b",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Orbit data source / flags": {
+     "value": "VALIDATED 27 Sep 2026 (moved from Unconfirmed): statistically validated with TRICERATOPS plus high-resolution imaging by Collier et al. 2026, Table 3 (FPP 7.6e-9; 0.13 without the Gemini/'Alopeke contrast curve, so the validation depends on the imaging); TFOPWG CP since 2026-08-25. Not yet in NASA pscomppars (queried 2026-09-27). P and Rp from Collier Table 3; a derived from their a/R*.",
+     "source": "Collier et al. 2026",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Confidence tier": {
+     "value": "confirmed",
+     "source": "Collier et al. 2026, Table 3 ('The 64 newly validated planets') and Table 7",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Candidate designation (TOI / KOI / other)": {
+     "value": "TOI-4324.01",
+     "source": "NASA TOI table",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Disposition (TFOPWG)": {
+     "value": "CP",
+     "source": "NASA TOI table tfopwg_disp (rowupdate 2026-08-25), queried 2026-09-27",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+toi,tfopwg_disp,pl_orbper,rowupdate+from+toi+where+toi+in+(2267.01,2267.02,2267.03,4324.01,4353.01)",
+     "derived": false,
+     "method": null
+    },
+    "Source / discovery reference": {
+     "value": "Collier et al. 2026, 'Assessing the Impact of High-Resolution Imaging on Statistical Validation of TESS Planet Candidates', arXiv:2608.21560v3 (accepted to AAS Journals 2026-08-20), Table 3 (newly validated planets)",
+     "source": "arXiv",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Vetting date / last updated": {
+     "value": "2026-09-27",
+     "source": "this check",
+     "url": null,
+     "derived": false,
+     "method": null
+    },
+    "Detection method": {
+     "value": "Transit (TESS)",
+     "source": "TOI",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Now has a paper: Collier et al. 2026 (arXiv:2608.21560v3, accepted to AAS Journals) validate TOI-4324 b in Table 3 -- the same paper behind today's moves of TOI-2540 b, TOI-5961 b and TOI-6662 b. Move it to Planets as TOI-4324 b.",
+   "confidence": "high",
+   "notes": "The previous run missed the paper because the arXiv API's title/abstract search does not see names inside tables. HZ columns carry over unchanged (0.11636 / 0.153723 / 0.290491 / 0.306834); at a = 0.0485 au the planet stays 'Closer than HZ'. Collier's text: 'TOI-4324 b (Rp = 1.23 R_E, P = 6.25 d) is a small planet around an M dwarf whose validation depends on the contrast curve: without imaging it would fall to possible-planet status (FPP_noCC = 0.132)'. The writer kept TOI-table orbits for the three planets moved today; either choice is defensible. No other Unconfirmed TOI appears in Collier et al. 2026 (checked by name against the full text)."
+  },
+  {
+   "name": "HIP 47619",
+   "tab": "Systems within 100 ly",
+   "action": "update_host",
+   "current": {
+    "Confirmed planets": 0,
+    "Planet masses (M-earth)": ""
+   },
+   "fields": {
+    "Confirmed planets": {
+     "value": 1,
+     "source": "TOI-4324 b validated, Collier et al. 2026 Table 3",
+     "url": "https://arxiv.org/html/2608.21560v3",
+     "derived": false,
+     "method": null
+    },
+    "Planet masses (M-earth)": {
+     "value": "TOI-4324 b:—",
+     "source": "no measured mass (style as 'LP 791-18 b:—')",
+     "url": null,
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Host row follows the move of TOI-4324 b to Planets.",
+   "confidence": "high",
+   "notes": "The host rows touched today for TOI-2540 b, TOI-5961 b and TOI-6662 b left Planet masses blank; the writer may prefer blank here for consistency."
+  },
+  {
+   "name": "Kapteyn",
+   "tab": "Systems within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Gaia DR3 source_id": ""
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "4810594479418041856",
+     "source": "SIMBAD 'NAME Kapteyn's star' = HD 33793 -> Gaia DR3 4810594479418041856; Gaia DR3 plx 254.1986 +/- 0.0168 mas, G 8.064 (V 8.853), RUWE 1.17; Hipparcos best neighbour of HIP 24186",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Kapteyn's star is Gaia DR3 4810594479418041856: SIMBAD, the Gaia-Hipparcos crossmatch (HIP 24186) and NASA pscomppars agree; parallax 254.1986 mas = 12.83 ly matches the row's distance, and SIMBAD's J2000 position (77.919124, -45.018434) is exactly the row's RA/Dec.",
+   "confidence": "high",
+   "notes": "Queries -- SIMBAD TAP: `select n.id, b.main_id, b.ra, b.dec, b.plx_value, b.plx_err, b.sp_type, f.G, g.id as gaia from ident n join basic b on b.oid=n.oidref left join allfluxes f on f.oidref=b.oid left join ident g on g.oidref=b.oid and g.id like 'Gaia DR3%' where n.id in ('Kapteyn''s star','HD 33793','55 Cnc','55 Cnc B','GJ 338 A','GJ 338 B','HD 79210','HD 79211','HIP 43587')`; Gaia DR3 TAP: `select source_id, ra, dec, parallax, parallax_error, phot_g_mean_mag, ruwe, pmra, pmdec, radial_velocity from gaiadr3.gaia_source where source_id in (4810594479418041856,704967037090946688,704966762213039488,1022456139210632064,1022456104850892928)`; Gaia-Hipparcos crossmatch: `select g.source_id, h.original_ext_source_id from gaiadr3.hipparcos2_best_neighbour h join gaiadr3.gaia_source g on g.source_id=h.source_id where h.original_ext_source_id in (24186,43587,45343)`. SIMBAD's J2000 positions are the Gaia DR3 epoch-2016 positions propagated with the Gaia proper motion (checked by hand for Kapteyn: 6.49 and -5.71 arcsec/yr over 16 yr reproduce the offset); SIMBAD parallaxes are Gaia DR3's to the last digit."
+  },
+  {
+   "name": "55 Cnc A",
+   "tab": "Systems within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Gaia DR3 source_id": ""
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "704967037090946688",
+     "source": "SIMBAD '* rho01 Cnc' (55 Cnc, HIP 43587) -> Gaia DR3 704967037090946688; plx 79.4482 +/- 0.0429 mas, G 5.733, RUWE 0.86; Hipparcos best neighbour of HIP 43587",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "55 Cnc A (rho1 Cnc A, HIP 43587) is Gaia DR3 704967037090946688: plx 79.4482 mas = 41.05 ly equals the row's distance; SIMBAD J2000 (133.149213, 28.330821) equals the row's RA/Dec; G 5.73 fits the G8 V primary. The id belongs on both of A's rows: Systems row 81 (column A = 55 Cnc A) and Multi-stars row 25 (component 55 Cnc A), which is blank too.",
+   "confidence": "high",
+   "notes": "Multi-stars row 26 (55 Cnc B) is also blank: B is Gaia DR3 704966762213039488 (separate item). Queries -- SIMBAD TAP: `select n.id, b.main_id, b.ra, b.dec, b.plx_value, b.plx_err, b.sp_type, f.G, g.id as gaia from ident n join basic b on b.oid=n.oidref left join allfluxes f on f.oidref=b.oid left join ident g on g.oidref=b.oid and g.id like 'Gaia DR3%' where n.id in ('Kapteyn''s star','HD 33793','55 Cnc','55 Cnc B','GJ 338 A','GJ 338 B','HD 79210','HD 79211','HIP 43587')`; Gaia DR3 TAP: `select source_id, ra, dec, parallax, parallax_error, phot_g_mean_mag, ruwe, pmra, pmdec, radial_velocity from gaiadr3.gaia_source where source_id in (4810594479418041856,704967037090946688,704966762213039488,1022456139210632064,1022456104850892928)`; Gaia-Hipparcos crossmatch: `select g.source_id, h.original_ext_source_id from gaiadr3.hipparcos2_best_neighbour h join gaiadr3.gaia_source g on g.source_id=h.source_id where h.original_ext_source_id in (24186,43587,45343)`. SIMBAD's J2000 positions are the Gaia DR3 epoch-2016 positions propagated with the Gaia proper motion (checked by hand for Kapteyn: 6.49 and -5.71 arcsec/yr over 16 yr reproduce the offset); SIMBAD parallaxes are Gaia DR3's to the last digit."
+  },
+  {
+   "name": "55 Cnc A",
+   "tab": "Multi-stars within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Star (component)": "55 Cnc A",
+    "Gaia DR3 source_id": ""
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "704967037090946688",
+     "source": "as for the Systems row (SIMBAD + Gaia DR3 + Hipparcos crossmatch)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Multi-stars row 25 (component 55 Cnc A) has no id; same star as Systems row 81.",
+   "confidence": "high",
+   "notes": "Row 25 of Multi-stars within 100 ly."
+  },
+  {
+   "name": "55 Cnc B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Star (component)": "55 Cnc B",
+    "Gaia DR3 source_id": ""
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "704966762213039488",
+     "source": "SIMBAD '* rho01 Cnc B' -> Gaia DR3 704966762213039488; plx 79.656 +/- 0.0475 mas (40.95 ly), G 11.683, RUWE 1.52; SIMBAD sp. type M4.5V",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Multi-stars row 26 (55 Cnc B, the M4.5 V planet host) has no id; B is resolved in Gaia DR3, 85 arcsec from A, with a parallax equal to A's within 0.21 mas.",
+   "confidence": "high",
+   "notes": "Queries -- SIMBAD TAP: `select n.id, b.main_id, b.ra, b.dec, b.plx_value, b.plx_err, b.sp_type, f.G, g.id as gaia from ident n join basic b on b.oid=n.oidref left join allfluxes f on f.oidref=b.oid left join ident g on g.oidref=b.oid and g.id like 'Gaia DR3%' where n.id in ('Kapteyn''s star','HD 33793','55 Cnc','55 Cnc B','GJ 338 A','GJ 338 B','HD 79210','HD 79211','HIP 43587')`; Gaia DR3 TAP: `select source_id, ra, dec, parallax, parallax_error, phot_g_mean_mag, ruwe, pmra, pmdec, radial_velocity from gaiadr3.gaia_source where source_id in (4810594479418041856,704967037090946688,704966762213039488,1022456139210632064,1022456104850892928)`; Gaia-Hipparcos crossmatch: `select g.source_id, h.original_ext_source_id from gaiadr3.hipparcos2_best_neighbour h join gaiadr3.gaia_source g on g.source_id=h.source_id where h.original_ext_source_id in (24186,43587,45343)`. SIMBAD's J2000 positions are the Gaia DR3 epoch-2016 positions propagated with the Gaia proper motion (checked by hand for Kapteyn: 6.49 and -5.71 arcsec/yr over 16 yr reproduce the offset); SIMBAD parallaxes are Gaia DR3's to the last digit."
+  },
+  {
+   "name": "GJ 338 A",
+   "tab": "Systems within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Gaia DR3 source_id": "1022456104850892928",
+    "RA (deg, ICRS)": 138.602845,
+    "Dec (deg, ICRS)": 52.686362,
+    "Radial velocity (km/s)": 11.97,
+    "Proper motion in RA, μα·cos δ (mas/yr)": -1573.04,
+    "Proper motion in Dec, μδ (mas/yr)": -659.906
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "1022456139210632064",
+     "source": "SIMBAD 'GJ 338 A' = HD 79210 -> Gaia DR3 1022456139210632064; plx 157.8879 +/- 0.0197 mas, G 6.976, RUWE 1.08; Hipparcos best neighbour of HIP 45343",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "RA (deg, ICRS)": {
+     "value": 138.594895,
+     "source": "SIMBAD basic.ra for HD 79210 (J2000)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Dec (deg, ICRS)": {
+     "value": 52.686609,
+     "source": "SIMBAD basic.dec for HD 79210 (J2000)",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 10.642,
+     "source": "Gaia DR3 radial_velocity of 1022456139210632064",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -1545.787,
+     "source": "Gaia DR3 pmra of 1022456139210632064",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -569.053,
+     "source": "Gaia DR3 pmdec of 1022456139210632064",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "The row's id 1022456104850892928 is GJ 338 B (HD 79211, the planet host). GJ 338 A (HD 79210, HIP 45343) is Gaia DR3 1022456139210632064. The rest of the row's astrometry (RA/Dec, RV, proper motions, and the total PM, space velocity and galactic columns built on them) is B's too, so changing only the id would leave the row inconsistent.",
+   "confidence": "high",
+   "notes": "Convention check: other two-star rows (16 Cyg A, GJ 1177 A) carry the column-A star's id, not the planet host's. The two stars share the parallax (A 157.8879, B 157.8825 mas), so Distance is unaffected. Total PM, space velocity, l/b and motion direction must be recomputed if the row is repointed to A; I did not recompute them. Queries -- SIMBAD TAP: `select n.id, b.main_id, b.ra, b.dec, b.plx_value, b.plx_err, b.sp_type, f.G, g.id as gaia from ident n join basic b on b.oid=n.oidref left join allfluxes f on f.oidref=b.oid left join ident g on g.oidref=b.oid and g.id like 'Gaia DR3%' where n.id in ('Kapteyn''s star','HD 33793','55 Cnc','55 Cnc B','GJ 338 A','GJ 338 B','HD 79210','HD 79211','HIP 43587')`; Gaia DR3 TAP: `select source_id, ra, dec, parallax, parallax_error, phot_g_mean_mag, ruwe, pmra, pmdec, radial_velocity from gaiadr3.gaia_source where source_id in (4810594479418041856,704967037090946688,704966762213039488,1022456139210632064,1022456104850892928)`; Gaia-Hipparcos crossmatch: `select g.source_id, h.original_ext_source_id from gaiadr3.hipparcos2_best_neighbour h join gaiadr3.gaia_source g on g.source_id=h.source_id where h.original_ext_source_id in (24186,43587,45343)`. SIMBAD's J2000 positions are the Gaia DR3 epoch-2016 positions propagated with the Gaia proper motion (checked by hand for Kapteyn: 6.49 and -5.71 arcsec/yr over 16 yr reproduce the offset); SIMBAD parallaxes are Gaia DR3's to the last digit."
+  },
+  {
+   "name": "GJ 338 A",
+   "tab": "Multi-stars within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Star (component)": "GJ 338 A",
+    "Gaia DR3 source_id": "1022456104850892928",
+    "Radial velocity (km/s)": 11.97,
+    "Proper motion in RA, μα·cos δ (mas/yr)": -1573.04,
+    "Proper motion in Dec, μδ (mas/yr)": -659.906
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "1022456139210632064",
+     "source": "as above (HD 79210)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 10.642,
+     "source": "Gaia DR3 radial_velocity of 1022456139210632064",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -1545.787,
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -569.053,
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Multi-stars row 14 (component GJ 338 A) carries B's id and B's Gaia kinematics (RV 11.97 and pm -1573.04/-659.906 are exactly B's Gaia DR3 values).",
+   "confidence": "high",
+   "notes": "B's values belong on Multi-stars row 13 (GJ 338 B), which has no id and no kinematics -- next item. Total PM and space velocity on row 14 need recomputing."
+  },
+  {
+   "name": "GJ 338 B",
+   "tab": "Multi-stars within 100 ly",
+   "action": "set_gaia_id",
+   "current": {
+    "Star (component)": "GJ 338 B",
+    "Gaia DR3 source_id": ""
+   },
+   "fields": {
+    "Gaia DR3 source_id": {
+     "value": "1022456104850892928",
+     "source": "SIMBAD 'GJ 338 B' = HD 79211 -> Gaia DR3 1022456104850892928; plx 157.8825 +/- 0.0211 mas, G 7.054, RUWE 1.12; also NASA's gaia id for GJ 338 B b's host",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Radial velocity (km/s)": {
+     "value": 11.97,
+     "source": "Gaia DR3 radial_velocity of 1022456104850892928",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in RA, μα·cos δ (mas/yr)": {
+     "value": -1573.04,
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    },
+    "Proper motion in Dec, μδ (mas/yr)": {
+     "value": -659.906,
+     "source": "Gaia DR3",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Multi-stars row 13 (GJ 338 B, the planet host) has no id; its id and kinematics are the ones now sitting on the GJ 338 A rows.",
+   "confidence": "high",
+   "notes": "A and B are ~17 arcsec apart and differ by only 0.08 mag in G, so identification rests on SIMBAD's HD 79210/79211 cross-identifiers and the Hipparcos crossmatch (HIP 45343 -> A), not on magnitude."
+  },
+  {
+   "name": "TOI-4353.01",
+   "tab": "Unconfirmed within 100 ly",
+   "action": "correct_values",
+   "current": {
+    "Orbital period (d)": 718.1809317,
+    "Semi-major axis (au)": 1.175518,
+    "Radius (R-Jup)": 0.1218057971790274,
+    "HZ position": "Farther than HZ"
+   },
+   "fields": {
+    "Orbital period (d)": {
+     "value": 39.8991,
+     "source": "Tschudi 2026, arXiv:2607.23781v3, Sect. V.1 and Table 10 (P = 39.8991(3) d, T0 = 1427.014(5) BTJD, four transits over 2577 d)",
+     "url": "https://arxiv.org/html/2607.23781",
+     "derived": false,
+     "method": null
+    },
+    "Semi-major axis (au)": {
+     "value": 0.1711,
+     "source": "Kepler III from P = 39.8991 d and host mass 0.42 M_sun (Systems row 405)",
+     "url": null,
+     "derived": true,
+     "method": "a = (M P^2)^(1/3), P in years: 0.17113 au; scaling the row's own 1.175518 au by (39.8991/718.1809)^(2/3) gives 0.17122. About 2-3% from the host mass."
+    },
+    "Radius (R-Jup)": {
+     "value": 0.124901,
+     "source": "Tschudi 2026, Table 10 (Rp = 1.4 +/- 0.1 R_E, CHIRON-revised; R* = 0.426 +/- 0.012 R_sun from the Mann et al. M_Ks relation)",
+     "url": "https://arxiv.org/html/2607.23781",
+     "derived": true,
+     "method": "1.4 / 11.2089"
+    },
+    "Orbit data source / flags": {
+     "value": "PERIOD CORRECTED 27 Sep 2026: Tschudi 2026 (arXiv:2607.23781v3, submitted to A&A; Sect. V.1, Table 10) sees two consecutive transits 39.899 d apart (one in sector 97) and fits four transits over 2577 d: P = 39.8991 d, an exact 18:1 alias of the TOI table's 718.18 d duotransit baseline (sectors 4 and 31). ExoFOP's TOI note already says 'period may be shorter than max period 718.181 days'. Rp 1.4 +/- 0.1 R_E, S = 0.95 +/- 0.19 S_E (optimistic HZ); FPP 64% (on-target-EB limited), FLAG_LOWSENS; CHIRON single-lined and SOAR speckle clear both false-positive channels. a derived by Kepler III. The TOI table (rowupdate 2025-10-26) still lists 718.18 d. || TOI candidate -- mass and eccentricity not in the TOI table; luminosity, HZ bounds DERIVED from stellar parameters (see Sources & Provenance)",
+     "source": "Tschudi 2026; ExoFOP",
+     "url": "https://arxiv.org/html/2607.23781",
+     "derived": false,
+     "method": null
+    }
+   },
+   "reason": "Adopt P = 39.8991 d. The catalogued 718.18 d is only the gap between the two SPOC transits (sectors 4 and 31), and ExoFOP itself calls it a maximum; Tschudi 2026 observes two consecutive transits 39.899 d apart, with a coherent four-transit ephemeris. At a = 0.171 au the candidate moves from 'Farther than HZ' to the optimistic HZ (warmer side).",
+   "confidence": "medium",
+   "notes": "The paper is unrefereed, by a single independent researcher. The period rests on the observed consecutive-transit spacing, exactly 718.18/18, so I rate this correction more secure than the paper's other claims. Keep tier 'strong' and disposition 'PC' (NASA TOI table and ExoFOP both PC). NASA TOI table queried 2026-09-27: pl_orbper 718.1809317, rowupdate 2025-10-26. ExoFOP JSON (https://exofop.ipac.caltech.edu/tess/target.php?id=176797879&json): sectors '4,31', note 'period may be shorter than max period 718.181 days', SOAR speckle 2021-10-01, CHIRON 2022-01-23 and 2023-02-09. The companion row 'TOI-4353 candidate P=2.93d' (Tschudi's TOI-4353.02) is unaffected. Stellar flux on the sheet becomes ~0.95 S_E (0.027842 / 0.1711^2)."
+  },
+  {
+   "name": "UCAC4 123-150641 b",
+   "tab": "(not on any tab)",
+   "action": "no_change",
+   "current": {
+    "(row)": "not on Systems, Multi-stars, Planets, Unconfirmed, Rejected or Exomoons (every cell of every tab searched for 'UCAC4' and '150641')"
+   },
+   "fields": {},
+   "reason": "It exists only as an exoplanet.eu 'Candidate' from Mékarnia et al. 2016 (MNRAS 463, 45; ASTEP 400 transit survey): Rp 1.93 +/- 0.2 R_J, a 0.0606 AU, b 0.085, no period, star at RA 15:51:34.4 Dec -65:35:29.2. The star is Gaia DR3 5822549041367955456 (0.23 arcsec from that position, G 14.63), parallax 0.641 +/- 0.123 mas, about 1.6 kpc (~5000 ly): far outside 100 ly. Nothing to add.",
+   "confidence": "high",
+   "notes": "exoplanet.eu page https://exoplanet.eu/catalog/ucac4_123_150641_b--10522/ (fetched 2026-09-27; the previous run's fetch failed, the URL needs the --10522 suffix). SIMBAD 'UCAC4 123-150641' plx 0.6411 mas, the same Gaia source. RUWE 6.7 (likely a binary); a 1.93 R_J companion is more likely an eclipsing binary than a planet. exoplanet.eu labels the detection method 'Imaging' although the source is a transit survey. I could not open the MNRAS candidate table (OUP returns 403); the abstract (ANU research portal) confirms 43 transit candidates from 2010-2012. Queries: Gaia `select source_id,ra,dec,parallax,parallax_error,phot_g_mean_mag,ruwe from gaiadr3.gaia_source where 1=CONTAINS(POINT(ra,dec),CIRCLE(237.893333,-65.591444,0.0028))`; exoplanet.eu POST /catalog/json/ with sSearch=UCAC4, status_2=on."
+  }
+ ],
+ "incidental_finds": [
+  "GJ 338 A, Systems row 202: besides the Gaia id, the RA/Dec (138.602845, 52.686362), RV 11.97 and proper motions -1573.04/-659.906 (and the total PM, space velocity and galactic columns built on them) are GJ 338 B's (Gaia DR3 1022456104850892928). A: J2000 138.594895, 52.686609; Gaia DR3 RV 10.642, pm -1545.787/-569.053. Multi-stars row 14 (GJ 338 A) has the same problem; row 13 (GJ 338 B) is empty. Source: Gaia DR3 gaia_source and SIMBAD basic (queries in the GJ 338 items).",
+  "Gliese 48 (GJ 48 = Ross 318 = HIP 4856, M3.5 V, 26.85 ly, Gaia DR3 533621859441169920) was missing from the Systems tab altogether, apart from its new planet. CARMENES DR1 (Ribas et al. 2023, arXiv:2302.10528, Table C.1 row J01025+716) lists its strongest RV signal at 43.53 d with the remark 'dLW' (activity), and Conzo et al. 2026 quote a Gaia DR3 distance of 8.58 pc where Gaia DR3 gives 8.233 pc (plx 121.4598 mas).",
+  "TOI-2267 needs two Multi-stars rows (A: M5 V, 0.171 M_sun, 3030 K, 3.3e-3 L_sun; B: M6 V, 0.0989 M_sun, 2930 K, 1.1e-3 L_sun; separation 0.384-0.408 arcsec, ~8 au projected; Zúñiga-Fernández et al. 2025 Tables 2 and 4, arXiv:2508.14176). Gaia DR3 does not resolve the pair (one source, RUWE 13.7).",
+  "Collier et al. 2026 (arXiv:2608.21560v3) is the paper for TOI-4324 b; no other TOI still on the Unconfirmed tab appears in its text (checked by name). TOI-2540.02 is a separate candidate the paper does not validate.",
+  "NASA TOI table still shows TOI-2267.02 (= TOI-2267 d) as PC although Greklek-McKeon et al. 2026 (AJ 171, 97) validated it and pscomppars lists it confirmed.",
+  "exoplanet.eu gives UCAC4 123-150641 b the detection method 'Imaging'; its source (Mékarnia et al. 2016, ASTEP 400) is a transit survey, and the star is ~1.6 kpc away (Gaia DR3 5822549041367955456)."
+ ]
+}

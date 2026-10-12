@@ -1,0 +1,3052 @@
+{
+ "tabs": {
+  "Planets within 100 ly": {
+   "cells": [
+    {
+     "planet": "HD 63433 c",
+     "value": "Prograde (vs stellar spin; λ 1°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -1 +35/-32 deg, 2020AJ....160..193D (Abstract and Sect. 5 (red-noise residual-permutation result; host named TOI-1726); the white-noise fit in Sect. 4 gives -6 +28/-25). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "AU Mic b",
+     "value": "Prograde (vs stellar spin; λ 4.7°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -4.7 +6.8/-6.4 deg, 2020ApJ...899L..13H (Abstract (Subaru/IRD Doppler shadow)). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "GJ 436 b",
+     "value": "Polar (vs stellar spin; ψ 103°)",
+     "note": "SOURCE: 2022A&A...663A.160B (Abstract; Sect. 5.2 and Table 1 (i* = 35.7 +5.9/-7.6 or 144.2 +7.6/-5.9)): psi = 103.2 +12.8/-11.5 deg. The paper's words: 'confirm the polar orbit of GJ 436b' (Abstract (title: 'The polar orbit of the warm Neptune GJ436b seen with VLT/ESPRESSO'))."
+    },
+    {
+     "planet": "HD 189733 b",
+     "value": "Prograde (vs stellar spin; ψ 14°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 13.6 +6.9/-6.9 deg, 2024A&A...682A..28C (Abstract; Sect. 4.3 (i* ~ 71.87 deg; differential rotation breaks the degeneracy)).",
+     "orange": true
+    },
+    {
+     "planet": "TRAPPIST-1 b",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "TRAPPIST-1 f",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "55 Cnc e",
+     "value": "Prograde (vs stellar spin; ψ 23°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 23 +14/-12 deg, 2023NatAs...7..198Z (Abstract and Sect. 2; Methods Sect. 4.4 prints +15/-12 (internal rounding difference)).",
+     "orange": true
+    },
+    {
+     "planet": "HD 39091 c",
+     "value": "Prograde (vs stellar spin; ψ 27°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 26.9 +5.8/-4.7 deg, 2021MNRAS.502.2893K (Table 4 and end of Sect. 3.3 (i* = 90.1 +/- 17.3)).",
+     "orange": true
+    },
+    {
+     "planet": "Mercury",
+     "value": "Prograde (vs stellar spin; ψ 3.38°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 3.38 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 3.381 deg).",
+     "orange": true
+    },
+    {
+     "planet": "Venus",
+     "value": "Prograde (vs stellar spin; ψ 3.86°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 3.86 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 3.858 deg).",
+     "orange": true
+    },
+    {
+     "planet": "GJ 9827 d",
+     "value": "Prograde (vs stellar spin; ψ 33°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 33 +16/-24 deg, 2026A&A...710A.242F (Abstract (star seen near equator-on from R*, P_rot)).",
+     "orange": true
+    },
+    {
+     "planet": "GJ 9827 c",
+     "value": "Prograde (vs stellar spin; ψ 46°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 46 +22/-30 deg, 2026A&A...710A.242F (Abstract (star seen near equator-on from R*, P_rot)).",
+     "orange": true
+    },
+    {
+     "planet": "Saturn",
+     "value": "Prograde (vs stellar spin; ψ 5.51°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 5.51 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 5.505 deg).",
+     "orange": true
+    },
+    {
+     "planet": "Mars",
+     "value": "Prograde (vs stellar spin; ψ 5.65°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 5.65 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 5.651 deg).",
+     "orange": true
+    },
+    {
+     "planet": "GJ 9827 b",
+     "value": "Prograde (vs stellar spin; ψ 54°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 54 +26/-38 deg, 2026A&A...710A.242F (Abstract (star seen near equator-on from R*, P_rot)).",
+     "orange": true
+    },
+    {
+     "planet": "TOI-2134 c",
+     "value": "Prograde (vs stellar spin; λ 59°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = 59 +31/-31 deg, 2026arXiv260701027R (Abstract and Sect. 7 'Rossiter-McLaughlin effect' (PARAS-2, partial transit; 4.7-sigma 'potential detection'); published MNRAS 550 (2026), DOI 10.1093/mnras/stag1265). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "Jupiter",
+     "value": "Prograde (vs stellar spin; ψ 6.09°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 6.09 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.091 deg).",
+     "orange": true
+    },
+    {
+     "planet": "Neptune",
+     "value": "Prograde (vs stellar spin; ψ 6.43°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 6.43 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.431 deg).",
+     "orange": true
+    },
+    {
+     "planet": "Uranus",
+     "value": "Prograde (vs stellar spin; ψ 6.48°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 6.48 deg, 2018CeMDA.130...22A (Computed, not a printed value: angle between the J2000 orbit normal (JPL Standish 'Keplerian elements for approximate positions', i and Omega) and the IAU solar pole (alpha0 = 286.13, delta0 = 63.87; Archinal+2018 Table 1). Recomputed here: 6.479 deg).",
+     "orange": true
+    },
+    {
+     "planet": "AU Mic c",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Yu+2025 |lambda| = 67.8 deg sits on the 70-deg line with errors spanning 19-100 deg; Lin+2026 finds a bimodal posterior (aligned -10 +/- 16 vs polar 87 +36/-29). No psi. 'A possible misaligned orbit for the young planet AU Mic c' (2025MNRAS.536.2046Y, Title; Lin+2026 abstract: 'cannot rule out a polar solution'). | UNCLEAR or WEAK (weak), drawn prograde: The 171.91 deg is a projected spin-orbit angle computed from a TTV dynamical model in which b is aligned by construction, so it is not an independent b-c mutual inclination; the fit has more parameters than c transits. RM spectroscopy (Lin et al. 2026, 2026ApJ..1005L..25L) gives aligned (~0 deg) or polar (~90 deg) solutions for c and argues coplanarity with b is more plausible dynamically. Mostly a spin-orbit question for the other agent. 'suggesting that planet c is significantly misaligned and presumably has a retrograde orbit' (2025A&A...694A.137B)."
+    },
+    {
+     "planet": "Earth",
+     "value": "Prograde (vs stellar spin; ψ 7.155°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 7.155 +0.002/-0.002 deg, 2005ApJ...621L.153B (Beck & Giles 2005 (helioseismic solar rotation axis); NOT re-read here (ADS captcha, no arXiv copy found); value as in our cell).",
+     "orange": true
+    },
+    {
+     "planet": "HD 63433 b",
+     "value": "Prograde (vs stellar spin; λ 8°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = 8.0 +33.0/-45.0 deg, 2020AJ....160..179M (Table 6, 'e, omega free' column (HARPS-N RM); the 'e, omega fixed' column gives 1.0 +41.0/-43.0 (the value NEA lists)). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "TRAPPIST-1 e",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "GJ 3470 b",
+     "value": "Polar (vs stellar spin; ψ 95°)",
+     "note": "SOURCE: 2022ApJ...931L..15S (Abstract; Sect. 6 and Table 4 (i* = 46 +27/-20)): psi = 95 +9/-8 deg. The paper's words: 'revealing that GJ 3470b is on a polar orbit' (Abstract (title: 'The Warm Neptune GJ 3470b has a Polar Orbit'))."
+    },
+    {
+     "planet": "GJ 238 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Barnard's star e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Proxima Cen d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Barnard's star d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Barnard's star b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TRAPPIST-1 h",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Barnard's star c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TRAPPIST-1 d",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "L 98-59 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 367 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-540 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "YZ Cet b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Teegarden's Star d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 56998 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LP 791-18 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 56998 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 475 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gliese 12 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 192-15 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Proxima Cen b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Teegarden's Star c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "AU Mic d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1002 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "YZ Cet d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1061 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "YZ Cet c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Teegarden's Star b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6324 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 273 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 1069 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1450 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TRAPPIST-1 c",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "TRAPPIST-1 g",
+     "value": "Prograde (vs stellar spin; λ 2°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from lambda = -2 +17/-19 deg, 2023AJ....165..129B (Table 3 and Sect. 3.2: shared-obliquity fit to b, c, d, e, f, g (preferred by BIC, dBIC = -16.2); MAROON-X RM). lambda alone is the sky-projected angle; the true psi can be larger.",
+     "orange": true
+    },
+    {
+     "planet": "GJ 1252 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1002 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 261-6 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Ross 128 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6255 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 887 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-270 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1450 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LTT 1445 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4336 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1815 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 98-59 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1061 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 393 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 215152 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3929 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "tau Cet g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3138 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1061 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 215152 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "tau Cet h",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 357 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4552 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1132 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3473 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 806 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 1061 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1140 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 98-59 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3323 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5789 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 260655 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 20794 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5388 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3378 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3323 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1478 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134606 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 3844 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LTT 3780 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-771 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 581 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 264-012 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3998 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 327 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-244 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 411 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LTT 1445 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 486 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 725 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 98-59 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 215152 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 625 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 98-59 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-771 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 215152 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 273 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1132 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 740 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 4274 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 20794 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 15 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1468 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 260655 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-198 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3293 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4336 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 357 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 1061 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 96700 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3988 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 143 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "rho CrB e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 264-012 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 676 A d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 251 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 251 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 887 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "tau Cet f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CD Cet b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Ross 508 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164922 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 9-40 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 40307 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 341 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6008 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 168-9 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1468 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 367 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 156668 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3138 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-270 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-260 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5789 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3090 b",
+     "value": "Retrograde (vs stellar spin; ψ 136°)",
+     "note": "SOURCE: 2026A&A...713L..15C (Abstract; Sect. 3; Table C.1 combined psi (south 138 +23/-18, north 134 +24/-19)): psi = 136 +24/-18 deg. The paper's words: 'we find that the planet is on a retrograde orbit' (Abstract (title: 'Upside down: GJ3090 b the first retrograde exoplanet around an M dwarf'); conclusions: polar (psi = 90) excluded at 2.5 sigma)."
+    },
+    {
+     "planet": "TOI-836 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39194 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "L 363-38 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 136352 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 20794 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2443 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1452 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 48948 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4529 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-776 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5789 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "61 Vir b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-912 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 93083 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39194 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 514 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 40307 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 433 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc B c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 176986 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4438 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HN Lib b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 22496 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1140 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 49 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134606 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3929 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1801 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 806 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 20794 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 536 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 367 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 433 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3998 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 887 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 357 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 207496 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-270 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1289 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 7924 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 57274 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 125595 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 536 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 1461 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 7924 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 180 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 887 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3341 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 154088 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 40307 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 686 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 676 A e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 176986 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 163 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 581 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3998 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 876 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 238090 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-776 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 189567 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 40307 g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3942 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LP 791-18 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 181433 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 48948 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1265 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3473 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39194 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "K2-415 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 180 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3293 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 414 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 155918 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 1061 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 7924 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3779 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LTT 3780 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 38594 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3082 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 97658 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 4274 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 285968 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3634 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 410 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1214 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 189567 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39855 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 54373 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "KOBE-1 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 480 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 45184 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 136352 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 96700 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 685 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134606 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2134 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2018 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 86728 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 216520 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 40307 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 168009 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-836 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9689 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 176986 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 13808 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3090 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134060 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 69830 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 216520 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3138 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164922 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 48948 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 338 B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 163 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1151 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1080 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 724 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 18143 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 422 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 674 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 103949 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 13808 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 136352 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134606 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3222 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5789 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 69830 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9404 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 190360 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 45184 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "DMPP-4 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 180617 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "KOBE-1 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 54373 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 96700 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 107772 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164922 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 211970 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 27.1 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 378 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 3154 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 104067 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LSPM J2116+0234 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39091 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 411 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 141004 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 720 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 192-15 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 42618 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 4845 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 876 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 207897 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 177565 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-11 4672 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-1231 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 190007 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 4308 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 687 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164595 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 2056 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 4276 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 192310 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 687 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 153557 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 99492 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 90156 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 69830 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "61 Vir c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 153557 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 581 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3293 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "AU Mic e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 328 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 147379 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 16417 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 143 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3293 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 192310 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 99492 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 190360 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 127506 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "rho CrB c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134060 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 163 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 115404 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 156668 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 15 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 199509 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134606 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 38594 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-06 1339 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 414 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 3765 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 104067 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 218566 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 21411 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 8326 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9066 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1148 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 46375 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 3651 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 204941 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 101930 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 649 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 142 A d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1148 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TYC 2187-512-1 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219134 h",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 113538 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 12961 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164922 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 114386 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 57274 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 102195 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 93083 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3512 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3512 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 75289 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 57274 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "47 UMa c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9773 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 192263 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "51 Peg b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-11 4672 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 181433 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-210397 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "ups And b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: Planet b's inclination is unmeasured. Deitrick et al. 2015 find 10 stable 3D configurations, six with b retrograde relative to c and d, but 'cautiously favor prograde orbits for planet b' (Sect. 5) and adopt prograde PRO1 as best estimate. Not evidence either way. 'In six of these cases, planet b orbits retrograde with respect to planets c and d.' (2015ApJ...798...46D)."
+    },
+    {
+     "planet": "HIP 86221 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 876 c",
+     "value": "Prograde (vs other planets)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from Resonant c-b pair nearly coplanar (< 6.2 deg at 99%); b-e < 28.5 deg.. Applies equally to GJ 876 b; GJ 876 e within 28.5 deg of b.",
+     "orange": true
+    },
+    {
+     "planet": "HD 181433 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134987 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 179 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 34222 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "7 CMa c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 128356 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 849 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 179949 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 113538 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 10647 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 849 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 832 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "eps Eri b",
+     "value": "Prograde (vs debris disk)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from Near-coplanar with the outer debris ring (Thompson et al. 2025, arXiv:2502.20561). arXiv:2609.19131 (2026, with JWST NIRCam and a Gaussian prior on Phi centred at 0, sigma 10 deg) finds Phi = 14 +/- 4 deg (Sect. 4.3). Llop-Sayson et al. 2021 (2021AJ....162..181L) had a higher, poorly constrained planet inclination ~2 sigma from the disk's 34 deg..",
+     "orange": true
+    },
+    {
+     "planet": "HD 60532 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "rho CrB b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 114783 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 114386 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 154345 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 52265 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 30562 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 142 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 210277 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 19994 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 317 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 217107 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "kap CrB b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "psi1 Dra B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 27442 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 134987 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "47 UMa d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 463 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 82943 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 317 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 190360 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 128311 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "16 Cyg B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 140901 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "alf Ari b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "7 CMa b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 508.2 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 114783 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 82943 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "ups And c",
+     "value": "Prograde (vs other planets; 30°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from 2010ApJ...715.1203M (Abstract (HST FGS + RV); value as 29.917 +/- 1 deg quoted in 2015ApJ...798...46D Sect. 1): mutual inclination 29.917 +1.0/-1.0 deg. ups And B is a wide M-dwarf companion; no planet-vs-binary angle measured. McArthur's HST astrometric inclinations (i_c = 7.868 +/- 1.003, i_d = 23.758 +/- 1.316 deg) have not been independently re-derived in anything found here.",
+     "orange": true
+    },
+    {
+     "planet": "HD 70642 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 79431 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "nu Oct A b",
+     "value": "Retrograde (vs binary orbit; 174°)",
+     "note": "SOURCE: 2026A&A...712A.247C (Sect. 4 (inclined case): best low-diffusion fit i = 174.1 deg, Omega = 286.7 deg, relative to the nu Oct B orbit; no error bar quoted. Sect. 5: ~90% of low-diffusion solutions have i >= 170 deg; stable inclined orbits only for i > 160 deg.): mutual inclination 174.1 deg. The paper's words: 'Stable fits to all radial velocity data require the planetary orbit to be retrograde and practically coplanar.' (2025Natur.641..866C, Abstract (Nature; full text paywalled, abstract read on nature.com)). Ramm et al. 2021 (MNRAS 502, 2793) is an activity analysis; it defines 'type-2 retrograde' = retrograde relative to the two stellar orbits and gives no new mutual-inclination value (its Table 2 summarises R09/R16/Gozdziewski 2013 and notes Quarles 2012 and Gozdziewski 2013 favour a coplanar orbit 'which R16 could not confirm'). Sky-plane I1 = 108.2 deg is NOT itself the retrograde evidence; the retrograde statement is about the mutual inclination with the binary. Signor et al. 2026 bibcode first-author initial is 'C' (Cefali Signor). Planet's secondary B is a white dwarf (Cheng et al. 2025)."
+    },
+    {
+     "planet": "GJ 896 A b",
+     "value": "Retrograde (vs binary orbit; 148°)",
+     "note": "SOURCE: 2022AJ....164...93C (Sect. 5.5 (Mutual Inclination Angle), Eq. 13; abstract. Alternative node (Omega_Ab + 180) gives 67 deg but is unstable within a few thousand yr (Sect. 5.6). No uncertainty quoted for Phi.): mutual inclination 148 deg. The paper's words: 'The planetary and binary orbits are found to be in a retrograde configuration' (2022AJ....164...93C, Abstract; also Sect. 6: 'consistent with both orbits being retrograde'). The binary's i > 90 deg in the sky frame only means clockwise on the sky; the retrograde claim rests on the 148 deg mutual inclination. Searches (SIMBAD refs, web) found no later paper confirming or disputing the planet or the angle."
+    },
+    {
+     "planet": "HR 810 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 876 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 62509 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "bet Pic d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 328 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 60532 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "47 UMa b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 150706 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3021 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "AF Lep b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Line-of-sight inclinations agree, but there is no lambda or psi; Zhang+2023 says either alignment or misalignment is possible. 'the agreement of the inclination angles is nevertheless consistent with spin-orbit alignment' (2023ApJ...950L..19F, Sect. 4.5)."
+    },
+    {
+     "planet": "HD 128311 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 504 b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Only a minimum obliquity: median 97 deg, but the posterior extends to 0. Both papers lean 'likely misaligned'. Bound: psi >= 97.3 (2023AJ....165..164B). 'GJ 504A and b may have a spin-orbit misalignment' (2018A&A...618A..63B, Sect. 7.2)."
+    },
+    {
+     "planet": "ups And d",
+     "value": "Prograde (vs other planets; 30°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from 2010ApJ...715.1203M (Abstract; see ups And c): mutual inclination 29.917 +1.0/-1.0 deg.",
+     "orange": true
+    },
+    {
+     "planet": "HD 216437 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 160691 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "tau Boo b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Line-of-sight inclinations agree; lambda is unmeasured (non-transiting), so psi is unconstrained. 'consistent with the assumption of a well-aligned, coplanar system' (2019A&A...625A..59J, Abstract; Sect. 6.1 adds that the sky-projected alignment is unconstrained). | UNCLEAR or WEAK (weak), drawn prograde: Only line-of-sight inclinations compared: tau Boo Ab orbit, tau Boo B orbit and the stellar spin all ~45 deg. Planet node unknown, so no true mutual inclination. 'consistent with the assumption of a well-aligned, coplanar system' (2019A&A...625A..59J)."
+    },
+    {
+     "planet": "HD 217107 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 160691 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 86 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 70849 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-210397 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 222237 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 75302 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 676 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 155918 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Ross 458 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 87883 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "eps Ind A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "gam Cep b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: Single point value 113.9 deg (just over the 110 deg line; the paper itself calls it 'nearly perpendicular'). It is computed from the planet's sky inclination and node I1 = 5.7 deg, Omega1 = 37.5 deg adopted from the re-reduced Hipparcos intermediate data of Reffert & Quirrenbach 2011 (2011A&A...527A.140R), an alternative I1 = 173.1 deg, Omega1 = 356.1 deg also being listed, with the binary's I2/Omega2 from Neuhauser et al. 2007. No error propagated; the Hipparcos detection of a ~2 au planet's reflex orbit is marginal. Treat as a weak hint of a near-polar/retrograde orbit, not a measurement. Angle 113.9 deg (2022AJ....164..177H, Sect. 2.2 (Eq. 2): i_mut = 113.9 deg for I1 = 5.7 deg; no uncertainty quoted). 'occupies a nearly perpendicular planetary orbit relative to the binary' (2022AJ....164..177H)."
+    },
+    {
+     "planet": "HD 160691 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WD 0806-661 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "70 Vir b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "COCONUTS-2 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "14 Her c",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: 14 Her b-c mutual inclination: 32 or 145 deg (JWST 2025); Xiao & Feng 2025 favour 35 deg, Lu et al. 2026 call it unresolved. Angle 35.3 deg (2025RNAAS...9..187X, Abstract (same b-c pair angle as 14 Her b)). "
+    },
+    {
+     "planet": "HD 111232 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "bet Pic c",
+     "value": "Prograde (vs other planets)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from Coplanar with b (Brandt et al. 2021; also Nowak et al. 2020 i_b = 88.99 +/- 0.01, i_c = 89.17 +/- 0.50 deg as quoted there)..",
+     "orange": true
+    },
+    {
+     "planet": "bet Pic b",
+     "value": "Prograde (vs stellar spin; ψ 3°)",
+     "note": "INFERRED: classified prograde by this project's thresholds (prograde under 70 deg, polar 70-110 deg, retrograde over 110 deg (psi where measured, else |lambda|)) from psi = 3 +5/-5 deg, 2020ApJ...897L...8K (Sect. 4, Eq. 4 (asteroseismic i* with the GRAVITY orbit i_p = 89.04, Omega_p = 31.88)).",
+     "orange": true
+    },
+    {
+     "planet": "14 Her b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: 14 Her b-c mutual inclination: 32 or 145 deg (JWST 2025); Xiao & Feng 2025 favour 35 deg, Lu et al. 2026 call it unresolved. Angle 35.3 deg (2025RNAAS...9..187X, Abstract (arXiv:2506.13580): psi_bc, after adding Gaia DR2 astrometry). 'a definitive and unambiguous mutual inclination of psi_bc = 35.3 (+6.8/-7.3) deg' (2025RNAAS...9..187X)."
+    },
+    {
+     "planet": "HD 33564 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9714 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 219077 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 18143 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 115404 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "51 Eri b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Minimum obliquity only, consistent with 0 (Bowler+2023: 'No Evidence' of misalignment) Bound: psi >= 54.4 (2023AJ....165..164B). "
+    },
+    {
+     "planet": "HD 142 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 900 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 149806 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 676 A c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WD 1856+534 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 39091 b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (substantial), drawn prograde: pi Men b (astrometric cold Jupiter) vs transiting pi Men c. Non-coplanarity is substantial (De Rosa et al. 2020 Sect. 4.4: 95% interval 34.5-140.6 deg; Xuan & Wyatt 2020 Sect. 3.4: 49-131 deg at 1 sigma, 28-152 deg at 2 sigma; Damasso et al. 2020: 52.3-128.8 deg at 1 sigma). But the node of c is unknown, so every paper's distribution is symmetric about 90 deg with peaks near 50 and 130 deg: prograde-misaligned, polar and retrograde are all allowed. Cannot be classed. 'strongly excluding a co-planar scenario for the two planets within this system' (2020A&A...640A..73D)."
+    },
+    {
+     "planet": "VHS J125601.92-125723.9 b",
+     "value": "Retrograde (vs host binary orbit; 118°)",
+     "note": "SOURCE: 2024AJ....168..270P (Table 3 (psi_AB-o, true deprojected orbit-orbit mutual inclination; mode and 68% HDI), Sect. 3.6. Dupuy et al. 2023 Sect. 6: 115 +/- 14 deg (2023MNRAS.519.1688D); Sect. 7 summary quotes 116 +/- 16 deg.): mutual inclination 118 +12/-16 deg. The paper's words: 'a retrograde, nearly polar tertiary orbits an extremely low-mass substellar binary' (2026ApJ...998..122H, Abstract (arXiv:2509.21452)). Companion mass straddles the deuterium-burning limit (bimodal 12 / 16 MJup), listed as a planet in our table. Poon et al. 2024 also measure the companion's spin obliquity 90 +/- 25 deg (spin, not orbit; out of scope)."
+    },
+    {
+     "planet": "HD 111232 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HN Peg b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 196-3 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 153557 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CD-35 2722 b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR, drawn prograde: Minimum obliquity only; the 95% CI reaches 0 (Bowler+2023 flags 'Likely' misaligned, P(Delta i > 10) = 0.903) Bound: psi >= 54.8 (2023AJ....165..164B). "
+    },
+    {
+     "planet": "HD 160691 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1678 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1678 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LP 791-18 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "K2-129 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2427 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 63433 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5799 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5799 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 1678 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6716 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4527 01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2194 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 523 b",
+     "value": "Polar (vs stellar spin; ψ ≥ 71°)",
+     "note": "SOURCE: 2026arXiv260324682K (Abstract; Sect. 5.1 'High Orbital Obliquity' (from i* = 17.6 +5.0/-4.7 via v sin i, P_rot, R*)): psi >= 71.4 +4.7/-5.0 deg. The paper's words: 'Likely on a Polar Orbit' (Title)."
+    },
+    {
+     "planet": "Gl 725 B c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2540 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5961 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6662 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2427 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2267 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2267 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2267 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gliese 48 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4324 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "eps Ind Ba",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 3651 B",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 570 G",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "ksi UMa D",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 867 Bb",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 569 Bb",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "alf Gem Cc",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "pi1 Cnc Ea",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 9829 C",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD+37 1091 Ab",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "VHS J125601.92-125723.9 B",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 310.1 Bb",
+     "value": "Prograde (assumed)"
+    }
+   ],
+   "spin": [
+    {
+     "planet": "GJ 3470 b",
+     "expect": "97 +16/-11 (psi; Stefansson+2022, TEPCat)",
+     "value": "95 +9/-8 (psi; Stefansson+2022, ApJL 931 L15 Table 4)",
+     "note": "SOURCE: 2022ApJ...931L..15S (Stefansson et al. 2022, ApJL 931, L15), abstract, Sect. 6 and Table 4: psi = 95 +9/-8 deg, lambda = 98 +15/-12 deg. The cell held the arXiv v1 numbers (97 +16/-11) that TEPCat still lists; the published version (arXiv:2111.01295v2) supersedes them."
+    },
+    {
+     "planet": "GJ 3090 b",
+     "expect": "Data Sparse, Modeled in Sync with Stellar Spin Axis",
+     "value": "136 +24/-18 (psi; Carteret+2026)",
+     "note": "SOURCE: 2026A&A...713L..15C (Carteret et al. 2026, A&A 713, L15, arXiv:2609.24870), abstract and Table C.1: psi = 136 +24/-18 deg; lambda = 208 +15/-18 deg (= -152). NIRPS RM-Revolutions over five transits. 'the first planet on a retrograde orbit discovered around an M dwarf'."
+    }
+   ]
+  },
+  "Unconfirmed within 100 ly": {
+   "cells": [
+    {
+     "planet": "TOI-6276.03",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6599.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-7049.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6713.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2009.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6284.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5084.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6245.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5735.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6978.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4642.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5507.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4328.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4353.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6981.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-5974.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2142.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-802.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-7052.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2540.02",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6714.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "55 Cnc g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Proxima Cen c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "alf Cen A b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: Unconfirmed JWST/MIRI candidate (one sighting plus non-detections). Orbits fitted to S1+C1 and stability give two degenerate families relative to the alpha Cen AB orbit; neither is preferred. Retrograde family: 126 +/- 10, 123 +/- 11, 115 +/- 5 (a < 2 au) and 126 +/- 10, 122 +/- 9, 115 +/- 5 deg (a > 2 au) for no-RV / K<6 / K<3 m/s cases; prograde family: 54 +/- 11, 58 +/- 11, 70 +/- 4 and 49 +/- 12, 51 +/- 11, 64 +/- 6 deg. 'significantly inclined with respect to the alpha Cen AB orbital plane (i_mutual ~ 50 deg, prograde, or ~ 130 deg, retrograde)' (2025ApJ...989L..22B)."
+    },
+    {
+     "planet": "Planet Nine",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TRAPPIST-1 i",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 667 C d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 887 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 158259 g",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TVLM 513-46546 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 92945 candidate (PMa, a~15 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "iot Hyi candidate (PMa, a~18 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 155555 AB candidate (PMa, a~7 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 80-21 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 359 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1074 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 21 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 548 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3822 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3822 candidate P=661d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 300 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 654 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 739 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 739 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 739 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 620 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 620 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 911 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 729 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "18 Sco b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 161098 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 161098 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 23439 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 109647 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1177 B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 2049 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 2049 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 205 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3325 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3325 candidate P=1.92d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3543 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 397 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 529 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 553.1 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 588 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 588 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 69 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 784 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 821 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4506.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 163 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 163 f",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Teegarden's Star candidate P=7.7d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 192310 candidate P=24.6d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-06 1339 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-06 1339 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3090 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 411 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 273 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 273 e",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LTT 1445 A d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1132 d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 806 candidate P=13.6d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 192-15 candidate P=69.9d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "kap CrB c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 168009 candidate P=61.3d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 150706 candidate P=20.83d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 164595 candidate (RV trend)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 3765 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 204941 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2443 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 2056 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-2018 candidate P=11.24d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3942 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 740 candidate P=3363d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 410 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 410 candidate P=2.997d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 285968 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 514 candidate P=63.7d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 480 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HIP 79431 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gl 725 B b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 179 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 4276 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1252 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3634 candidate outer companion (RV drift, P>200d)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Wolf 327 candidate outer companion (RV trend)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4438 candidate P=74d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HN Lib c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 3844 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1151 candidate (long-term RV curvature)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 261-6 candidate P=0.95d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 65 b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: Unconfirmed GRAVITY astrometric candidate (156 d, ~36 Earth masses). Fit is degenerate among four solutions (two host stars x two nodes); the prograde ones are shown as 'favored from a dynamical point of view' (Sect. 4, orbit fitting). Delta i is a difference of sky inclinations, not a full 3D angle. Angle 30 deg (2024A&A...685L...9G, Sect. 5: Delta i ~ 30 +/- 10 deg between the planet orbit (i_p ~ 90 deg, Table 2) and the binary/stellar equatorial planes). 'the planetary orbit plane has a moderate-to-high inclination of i > 30 deg with respect to the stellar pair' (2024A&A...685L...9G)."
+    },
+    {
+     "planet": "GD 140 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LAWD 37 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Van Maanen 2 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 107146 candidate (PMa, a 2.5-20 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 161-71 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WD 2105-820 candidate (IR excess, a<4 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WD 2149+021 candidate (IR excess, a<8 au)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WD 0644+025 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "61 Cyg b",
+     "value": "Prograde (assumed)",
+     "note": "UNCLEAR or WEAK (weak), drawn prograde: Unconfirmed velocity-anomaly candidate. arXiv:2609.32893 (Worlds Next Door V, Sect. 3/Fig. 3-4) only maps which mutual inclinations relative to the 61 Cyg AB orbit are dynamically stable: near-polar (~80-100 deg) orbits are entirely unstable; prograde and retrograde both allowed. No measured angle. "
+    },
+    {
+     "planet": "del Pav b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TIC 409891396.01",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CM Dra (AB) b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "13 Ori b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "EO Psc b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6284 candidate P=5.24d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-6284 candidate P=7.35d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TOI-4353 candidate P=2.93d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gaia DR3 5796338299045711232 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "Gaia DR3 198464052134353536 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TIC 417927999 candidate P=1.57d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "TIC 77634567 candidate P=4.12d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 412 A candidate (single transit, CTOI 252803603.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "61 Cyg A candidate (single transit, CTOI 165602000.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 4248 candidate (single transit, CTOI 197736350.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 257 A candidate (single transit, CTOI 130370378.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 14 candidate P=1.320d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 1157 candidate P=7.588d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CD-45 543 A candidate P=18.446d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "G 217-18 candidate P=0.674d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 194640 candidate P=4.62d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "PM J20223+3217 candidate (single transit, CTOI 136324903.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "PM J00468+1603 candidate (single transit, CTOI 333136751.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "UPM J0805-3522 candidate P=1.168d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "SCR J1124-3900 candidate P=8.124d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "UPM J1831+6524 candidate P=14.360d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "PM J04191+0944 candidate (single transit, CTOI 365463946.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LSPM J2028+0524 candidate P=1.082d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LHS 6184 candidate (single transit, CTOI 77560191.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "UPM J2155-2803 candidate (single transit, CTOI 53952541.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "LP 985-32 candidate P=13.451d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 237 B candidate P=14.834d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 151613 candidate P=22.705d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 161284 candidate P=1.442d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 361 candidate (single transit, CTOI 289624436.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 128020 candidate (single transit, CTOI 421472503.01)",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 433 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 180 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "DE CVn b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "alf Tau b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD-06 1339 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 140901 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 1461 c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "HD 147513 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "61 Vir d",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "RR Cae b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 160.2 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "WISEP J121756.91+162640.2 A b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CWISEP J193518.59-154620.3 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "DENIS-P J082303.1-491201 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "CFBDSIR J145829+101343 b",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "psi1 Dra B c",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "tau Cyg Ab",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD+39 496 Bb",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "BD+39 496 Bc",
+     "value": "Prograde (assumed)"
+    },
+    {
+     "planet": "GJ 3347 Aa2",
+     "value": "Prograde (assumed)"
+    }
+   ]
+  }
+ },
+ "flagged": [
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "GJ 436 b",
+   "value": "Polar (vs stellar spin; ψ 103°)",
+   "note": "SOURCE: 2022A&A...663A.160B (Abstract; Sect. 5.2 and Table 1 (i* = 35.7 +5.9/-7.6 or 144.2 +7.6/-5.9)): psi = 103.2 +12.8/-11.5 deg. The paper's words: 'confirm the polar orbit of GJ 436b' (Abstract (title: 'The polar orbit of the warm Neptune GJ436b seen with VLT/ESPRESSO'))."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "GJ 3470 b",
+   "value": "Polar (vs stellar spin; ψ 95°)",
+   "note": "SOURCE: 2022ApJ...931L..15S (Abstract; Sect. 6 and Table 4 (i* = 46 +27/-20)): psi = 95 +9/-8 deg. The paper's words: 'revealing that GJ 3470b is on a polar orbit' (Abstract (title: 'The Warm Neptune GJ 3470b has a Polar Orbit'))."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "GJ 3090 b",
+   "value": "Retrograde (vs stellar spin; ψ 136°)",
+   "note": "SOURCE: 2026A&A...713L..15C (Abstract; Sect. 3; Table C.1 combined psi (south 138 +23/-18, north 134 +24/-19)): psi = 136 +24/-18 deg. The paper's words: 'we find that the planet is on a retrograde orbit' (Abstract (title: 'Upside down: GJ3090 b the first retrograde exoplanet around an M dwarf'); conclusions: polar (psi = 90) excluded at 2.5 sigma)."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "nu Oct A b",
+   "value": "Retrograde (vs binary orbit; 174°)",
+   "note": "SOURCE: 2026A&A...712A.247C (Sect. 4 (inclined case): best low-diffusion fit i = 174.1 deg, Omega = 286.7 deg, relative to the nu Oct B orbit; no error bar quoted. Sect. 5: ~90% of low-diffusion solutions have i >= 170 deg; stable inclined orbits only for i > 160 deg.): mutual inclination 174.1 deg. The paper's words: 'Stable fits to all radial velocity data require the planetary orbit to be retrograde and practically coplanar.' (2025Natur.641..866C, Abstract (Nature; full text paywalled, abstract read on nature.com)). Ramm et al. 2021 (MNRAS 502, 2793) is an activity analysis; it defines 'type-2 retrograde' = retrograde relative to the two stellar orbits and gives no new mutual-inclination value (its Table 2 summarises R09/R16/Gozdziewski 2013 and notes Quarles 2012 and Gozdziewski 2013 favour a coplanar orbit 'which R16 could not confirm'). Sky-plane I1 = 108.2 deg is NOT itself the retrograde evidence; the retrograde statement is about the mutual inclination with the binary. Signor et al. 2026 bibcode first-author initial is 'C' (Cefali Signor). Planet's secondary B is a white dwarf (Cheng et al. 2025)."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "GJ 896 A b",
+   "value": "Retrograde (vs binary orbit; 148°)",
+   "note": "SOURCE: 2022AJ....164...93C (Sect. 5.5 (Mutual Inclination Angle), Eq. 13; abstract. Alternative node (Omega_Ab + 180) gives 67 deg but is unstable within a few thousand yr (Sect. 5.6). No uncertainty quoted for Phi.): mutual inclination 148 deg. The paper's words: 'The planetary and binary orbits are found to be in a retrograde configuration' (2022AJ....164...93C, Abstract; also Sect. 6: 'consistent with both orbits being retrograde'). The binary's i > 90 deg in the sky frame only means clockwise on the sky; the retrograde claim rests on the 148 deg mutual inclination. Searches (SIMBAD refs, web) found no later paper confirming or disputing the planet or the angle."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "VHS J125601.92-125723.9 b",
+   "value": "Retrograde (vs host binary orbit; 118°)",
+   "note": "SOURCE: 2024AJ....168..270P (Table 3 (psi_AB-o, true deprojected orbit-orbit mutual inclination; mode and 68% HDI), Sect. 3.6. Dupuy et al. 2023 Sect. 6: 115 +/- 14 deg (2023MNRAS.519.1688D); Sect. 7 summary quotes 116 +/- 16 deg.): mutual inclination 118 +12/-16 deg. The paper's words: 'a retrograde, nearly polar tertiary orbits an extremely low-mass substellar binary' (2026ApJ...998..122H, Abstract (arXiv:2509.21452)). Companion mass straddles the deuterium-burning limit (bimodal 12 / 16 MJup), listed as a planet in our table. Poon et al. 2024 also measure the companion's spin obliquity 90 +/- 25 deg (spin, not orbit; out of scope)."
+  },
+  {
+   "tab": "Planets within 100 ly",
+   "planet": "GJ 523 b",
+   "value": "Polar (vs stellar spin; ψ ≥ 71°)",
+   "note": "SOURCE: 2026arXiv260324682K (Abstract; Sect. 5.1 'High Orbital Obliquity' (from i* = 17.6 +5.0/-4.7 via v sin i, P_rot, R*)): psi >= 71.4 +4.7/-5.0 deg. The paper's words: 'Likely on a Polar Orbit' (Title)."
+  }
+ ],
+ "sp_column_rows": [
+  [
+   "PLANETS WITHIN 100 LY",
+   [
+    "Orbit Direction",
+    "Measured where a paper measured it: the spin-orbit angle (Rossiter-McLaughlin / Doppler tomography; TEPCat and the papers, data/orbit_direction/research/spin.json) or the orbit against a binary companion, a host binary or the other planets (astrometry, imaging; research/orbits.json). Written '<Direction> (vs <reference>; <angle>)'. Every other planet reads 'Prograde (assumed)' -- the model's default, not a measurement (no border, as the Data Sparse spin-orbit cells).",
+    "High where the paper states polar/retrograde (plain cell, SOURCE note); a direction classified from a published angle by this project's thresholds (prograde < 70 deg, polar 70-110, retrograde > 110; psi where known, else |lambda|) is boxed orange with an INFERRED note. Weak or ambiguous results stay 'assumed', with a note saying what is known.",
+    "Each measured cell's note names the bibcode and table or section; the 7 polar/retrograde planets were checked against the papers' own text (data/orbit_direction/README.md)."
+   ]
+  ],
+  [
+   "UNCONFIRMED PLANETS -- SOURCES AND SELECTION",
+   [
+    "Orbit Direction",
+    "As on the Planets sheet. No unconfirmed planet has a spin-orbit or orbit-orbit measurement strong enough to draw, so every row reads 'Prograde (assumed)'; candidates with a weak or ambiguous result carry a note (e.g. alf Cen A b).",
+    "Assumed throughout",
+    "The notes name the papers; data/orbit_direction/research/."
+   ]
+  ]
+ ],
+ "sp_lines": [
+  "",
+  "2026-10-10: ORBIT DIRECTION COLUMN ADDED to Planets within 100 ly and Unconfirmed within 100 ly (data/orbit_direction/, log write_log.json).",
+  "Why: nu Oct A b orbits retrograde against its binary (Ramm et al. 2009/2021; Cheng et al. 2025, Nature 641, 866) but was drawn prograde -- every catalog planet was drawn coplanar and prograde. Each planet on both tabs was checked for a measured or well-evidenced polar or retrograde orbit.",
+  "Polar or retrograde: GJ 436 b: Polar (vs stellar spin; ψ 103°); GJ 3470 b: Polar (vs stellar spin; ψ 95°); GJ 3090 b: Retrograde (vs stellar spin; ψ 136°); nu Oct A b: Retrograde (vs binary orbit; 174°); GJ 896 A b: Retrograde (vs binary orbit; 148°); VHS J125601.92-125723.9 b: Retrograde (vs host binary orbit; 118°); GJ 523 b: Polar (vs stellar spin; ψ ≥ 71°).",
+  "Against the star's spin (polar/retrograde) the viewer tilts the star's spin axis by the angle; against a binary companion it draws the planet going round the other way, the star's axis assumed (dashed) to follow the binary. Everything else reads 'Prograde (assumed)'.",
+  "Spin-orbit column corrected: GJ 3470 b to the published psi = 95 +9/-8 (was arXiv v1's 97 +16/-11); GJ 3090 b filled, psi = 136 +24/-18 (Carteret et al. 2026).",
+  "Not drawn as misaligned, weak or ambiguous: gam Cep b (113.9 deg vs binary, marginal Hipparcos inclination), 14 Her b-c (32 or 145 deg), pi Men b-c (52-129 deg, sense unknown), AU Mic c (aligned or polar), alf Cen A b; lower bounds only for GJ 504 b, 51 Eri b, CD-35 2722 b. Their cells carry the note."
+ ]
+}

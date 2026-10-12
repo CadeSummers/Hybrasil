@@ -1,0 +1,252 @@
+{
+  "agent": "S1",
+  "items": [
+    {
+      "name": "DE CVn",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 402,
+      "gaia_dr3": "1550299304833675392",
+      "current": {
+        "Stellar Class": "DA",
+        "Host mass (M-sun)": 0.51,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 8000,
+          "source": "van den Besselaar et al. 2007, A&A 466, 1031, abstract and Sect. 3.1 / Sect. 4: white dwarf Teff = 8000 +/- 1000 K (composite-spectrum fit, log g = 7.5 models)",
+          "url": "https://arxiv.org/abs/astro-ph/0701560",
+          "derived": false,
+          "method": null
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.0172,
+          "source": "Derived from van den Besselaar et al. 2007 (A&A 466, 1031, abstract: R_WD = 0.0136 +0.0008/-0.0002 Rsun, Teff_WD = 8000 +/- 1000 K; R_M = 0.37 +0.06/-0.007 Rsun, M3V) and Han et al. 2018 (ApJ 868, 53, Sect. 4.2: T2 = 3400 K adopted for the M3V secondary)",
+          "url": "https://arxiv.org/abs/1811.08625",
+          "derived": true,
+          "method": "Combined luminosity of the eclipsing pair that the planet orbits: L = L_WD + L_M, each (R/Rsun)^2 (Teff/5772 K)^4. L_WD = 6.8e-4 (16-84%: 4.1e-4 to 1.14e-3). L_M = 0.01648 (16-84%: 0.0149 to 0.0226), assuming +/-100 K on Han's 3400 K, which is quoted without an error. L_total = 0.0172 (16-84%: 0.0157 to 0.0234). The upper tail comes from the asymmetric +0.06 Rsun on the M-dwarf radius."
+        }
+      },
+      "reason": "The row is the white dwarf. Its class is DA, and its 0.51 Msun is the WD mass (M1) of van den Besselaar et al. 2007, which Han et al. 2018 adopt. The WD's Teff is 8000 K. DE CVn b is circumbinary: Han et al. 2018 (Sect. 4.2) call it a third body 'orbiting the binary DE CVn'. So the planet's host is the WD + M3V pair, and its luminosity is the pair's combined total, which the M dwarf dominates.",
+      "confidence": "medium",
+      "notes": "Which star each value describes: the Stellar Class 'DA', the mass 0.51 and the Teff 8000 K are the white dwarf, which is the row's own star. The Gaia DR3 id 1550299304833675392 is the unresolved pair (SIMBAD 'V* DE CVn', sp_type 'M3V+DA'). The Host luminosity of 0.0172 is the planet host, meaning both stars together; 96% of it is the M dwarf. Where the automated values came from: NASA pscomppars gives st_teff = 3579 K, st_lum = -1.574 dex (= 0.02667), st_rad = 0.4248 Rsun and logg = 4.80, all reflinked to TICv8 (Stassun et al. 2019). That is a main-sequence dwarf fit to the blended source. It describes the M dwarf, contaminated by the WD. It is not the white dwarf and must not go on a DA row. It also overstates the M dwarf's own L: 0.0267, against 0.0165 from the eclipse radius. Alternative, if the writer decides the column should carry the row's own star rather than the circumbinary host: the WD-only L is 6.8e-4 (+4.5e-4/-2.7e-4), derived from the same inputs. Structural caveat: a single-star row pairing the WD's Teff (8000 K) with a luminosity dominated by a 3400 K M dwarf will get the wrong Kopparapu star-colour factor. The clean fix is a two-star system; see incidental_finds. DE CVn is in neither Gentile Fusillo 2021 nor O'Brien 2024 (its colours are composite), so there is no Gaia-photometric WD fit to cross-check against. The eclipse-timing planet itself is contested in later ETV work. I did not open those papers and cite none."
+    },
+    {
+      "name": "Gaia DR3 4698424845771339520",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 403,
+      "gaia_dr3": "4698424845771339520",
+      "current": {
+        "Stellar Class": "DAZ",
+        "Host mass (M-sun)": 0.58,
+        "Effective temp (K)": 6380,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.000251,
+          "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0141-675, log L/Lsun = -3.60 +/- 0.04 (Teff 6380 +/- 120 K, log g 7.97 +/- 0.03, M 0.57 +/- 0.03, H model)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/154/32/table4",
+          "derived": false,
+          "method": "10^-3.60 = 2.51e-4; 1-sigma range 2.29e-4 to 2.75e-4"
+        }
+      },
+      "reason": "Subasavage et al. 2017 publish log L = -3.60 +/- 0.04 for WD 0141-675. It is the same fit as the row's 6380 K. Rogers et al. 2024 (MNRAS 527, 977, Table 1) list these Subasavage 2017 parameters as the literature solution, and that table is where the row's 6380 K, 0.58 Msun and 8.02 Gyr come from.",
+      "confidence": "high",
+      "notes": "Describes WD 0141-675, the row's own star, which is also its Planet-host entry (single star; its Gaia astrometric planet candidate was retracted, per Rogers et al. 2024, https://arxiv.org/abs/2310.05778). Cross-checks: R = sqrt(GM/g), L = R^2 T^4 applied to Subasavage's Teff, log g and mass gives log L = -3.602. O'Brien 2024 (H atmosphere, Gaia photometric: Teff 6350 +/- 32 K, log g 7.981, M 0.578) and GF21 (H: 6349.6 K, 7.980, 0.578) agree. Rogers et al. 2024's own fits: 6421 +/- 90 K, log g 8.10 (spectroscopic); 6321 +/- 50 K, log g 7.97 (photometric). None of these publish a luminosity."
+    },
+    {
+      "name": "WD 0806-661",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 404,
+      "gaia_dr3": "5274517467840296832",
+      "current": {
+        "Stellar Class": "DQ",
+        "Host mass (M-sun)": 0.62,
+        "Effective temp (K)": 5700,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.00159,
+          "source": "O'Brien et al. 2024, MNRAS 527, 8687, Table A1 (VizieR J/MNRAS/527/8687/tablea1), queried 2026-09-27: WDJ080653.75-661816.70, SpType DQ, Comp He, Teff 10393 +/- 114 K, log g 8.041 +/- 0.023, M 0.605 +/- 0.014. The same values are adopted by Leggett & Tremblin 2026 (ApJ 1005, 189, Sect. 2.1, arXiv:2606.04294)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/527/8687/tablea1",
+          "derived": true,
+          "method": "R = sqrt(G M / g); L = (R/Rsun)^2 (Teff/5772 K)^4, with GM_sun = 1.3271244e26 cm^3 s^-2 and Rsun = 6.957e10 cm. Uncertainty from a 200,000-draw Monte Carlo over the quoted 1-sigma errors (16th-84th percentile). Check: the same formula applied to Subasavage 2017's own Teff/log g/mass reproduces its published log L to within 0.003 dex for WD 0141-675, WD 0644+025 and WD 2105-820. Result: R = 0.01229 Rsun, L = 1.59e-3 (16-84%: 1.48e-3 to 1.71e-3), log L = -2.800 +/- 0.03."
+        }
+      },
+      "reason": "No published luminosity was found. The most recent paper on the system, Leggett & Tremblin 2026 (Sect. 2.1), adopts O'Brien et al. 2024's He-rich DQ solution: 10393 K, 0.605 Msun and a cooling age of 0.63 Gyr. L is derived from that solution.",
+      "confidence": "medium",
+      "notes": "Describes WD 0806-661, the row's own star. It hosts WD 0806-661 b, a wide Y-dwarf companion at 2500 AU projected separation. IMPORTANT: the row's Teff of 5700 K is inconsistent with every modern source. O'Brien 2024 gives 10393 K, which Leggett & Tremblin 2026 and the NASA archive adopt (NASA's st_teff is reflinked to Leggett & Tremblin 2026). GF21 gives 10721 +/- 102 K (He) and 10393 K (mixed). Luhman et al. 2011 (arXiv:1102.5411, Sect. 4) quote Subasavage et al. 2009's cooling age of 670 +/- 40 Myr at 0.62 Msun, which also requires a star near 10,000 K, not 5700 K. I could not find where 5700 K came from. The luminosity above assumes 10393 K. At 5700 K it would be about 11 times lower. Recommend correcting Teff to 10393 (see incidental_finds). The row's 0.62 Msun is Subasavage et al. 2009, as quoted in Luhman et al. 2011 Table 1; 0.605 +/- 0.014 is the newer value. Atmosphere: He, which matches the DQ type. The GF21 H solution (10918 K) was not used."
+    },
+    {
+      "name": "GD 140",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 417,
+      "gaia_dr3": "4019458647338779648",
+      "current": {
+        "Stellar Class": "DA2.2 white dwarf",
+        "Host mass (M-sun)": 0.97,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 22470,
+          "source": "Gianninas, Bergeron & Ruiz 2011, ApJ 743, 138, Table 5 (VizieR J/ApJ/743/138/table5), queried 2026-09-27: WD 1134+300 (GD 140 = LB 10276), DA2.2, Teff 22470 +/- 342 K, log g 8.56 +/- 0.05, M 0.97 +/- 0.03 (spectroscopic Balmer-line fit)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/743/138/table5",
+          "derived": false,
+          "method": null
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.0168,
+          "source": "Derived from Gianninas, Bergeron & Ruiz 2011, ApJ 743, 138, Table 5 (VizieR J/ApJ/743/138/table5), queried 2026-09-27 (Teff 22470 +/- 342 K, log g 8.56 +/- 0.05, M 0.97 +/- 0.03)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/743/138/table5",
+          "derived": true,
+          "method": "R = sqrt(G M / g); L = (R/Rsun)^2 (Teff/5772 K)^4, with GM_sun = 1.3271244e26 cm^3 s^-2 and Rsun = 6.957e10 cm. Uncertainty from a 200,000-draw Monte Carlo over the quoted 1-sigma errors (16th-84th percentile). Check: the same formula applied to Subasavage 2017's own Teff/log g/mass reproduces its published log L to within 0.003 dex for WD 0141-675, WD 0644+025 and WD 2105-820. Result: R = 0.00856 Rsun, L = 0.0168 (16-84%: 0.0147 to 0.0192), log L = -1.774 +/- 0.058."
+        }
+      },
+      "reason": "The row's 0.97 Msun and class DA2.2 match the Gianninas et al. 2011 spectroscopic fit exactly, so the Teff comes from the same fit: 22470 K. No published luminosity was found, so L is derived from that fit.",
+      "confidence": "medium",
+      "notes": "Describes GD 140 (WD 1134+300), the row's own star, which is also its Planet-host entry. Atmosphere: H (DA). Cross-check: the O'Brien 2024 / GF21 Gaia-photometric H solution is Teff 21336 +/- 427 K, log g 8.517, M 0.944. The same formula gives L = 0.0164 from it, within 3% of the adopted value. O'Brien's DA type is from 2018MNRAS.480.3942H. I found no dedicated planet or debris paper for GD 140."
+    },
+    {
+      "name": "LAWD 37",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 423,
+      "gaia_dr3": "5332606522595645952",
+      "current": {
+        "Stellar Class": "DQ white dwarf",
+        "Host mass (M-sun)": 0.61,
+        "Effective temp (K)": 7600,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.000525,
+          "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 1142-645 (LAWD 37), DQ, He(+C) model, Teff 7880 +/- 180 K, log g 8.04 +/- 0.03, M 0.60 +/- 0.02, log L/Lsun = -3.28 +/- 0.05",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/154/32/table4",
+          "derived": false,
+          "method": "10^-3.28 = 5.25e-4; 1-sigma range 4.68e-4 to 5.89e-4"
+        }
+      },
+      "reason": "Subasavage et al. 2017 publish log L = -3.28 +/- 0.05 for LAWD 37 (WD 1142-645), from a He(+C) model fit.",
+      "confidence": "high",
+      "notes": "Describes LAWD 37, the row's own star, which is also its Planet-host entry. Atmosphere: He (DQ). Cross-check: O'Brien 2024 (He: Teff 8062 +/- 60 K, log g 8.058, M 0.612) gives a derived L of 5.59e-4, which agrees within 1 sigma. Caveat: the row's Teff of 7600 K matches neither Subasavage 2017 (7880 +/- 180 K) nor O'Brien 2024 (8062 K), and I could not find its source. At 7600 K with the same radius, L would be 13% lower (4.5e-4). The row's 0.61 Msun is consistent with both 0.60 and 0.612. I did not open McGill et al. 2023 (the microlensing mass) and cite nothing from it."
+    },
+    {
+      "name": "Van Maanen 2",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 424,
+      "gaia_dr3": "2552928187080872832",
+      "current": {
+        "Stellar Class": "DZ7.5 white dwarf",
+        "Host mass (M-sun)": 0.68,
+        "Effective temp (K)": 6130,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.000162,
+          "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0046+051 (van Maanen 2), DZ, He(+H,Ca) model, Teff 6130 +/- 110 K, log g 8.16 +/- 0.03, M 0.67 +/- 0.02, log L/Lsun = -3.79 +/- 0.04",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/154/32/table4",
+          "derived": false,
+          "method": "10^-3.79 = 1.62e-4; 1-sigma range 1.48e-4 to 1.78e-4"
+        }
+      },
+      "reason": "Subasavage et al. 2017 publish log L = -3.79 +/- 0.04 for van Maanen 2. It is the same fit as the row's 6130 K, and its 0.67 Msun matches the row's 0.68.",
+      "confidence": "high",
+      "notes": "Describes van Maanen 2 (WD 0046+051), the row's own star, which is also its Planet-host entry. Atmosphere: He (DZ). Cross-check: O'Brien 2024 (He: Teff 6455 +/- 34 K, log g 8.263, M 0.741) gives a derived L of 1.73e-4, 7% higher and within 2 sigma. Coutu et al. 2019 list it in their Table 1 (J0049+0523, 'Wolf 28', DZ); I did not pull their Table 4 parameters."
+    },
+    {
+      "name": "WD 0644+025",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 425,
+      "gaia_dr3": "3126453655659835136",
+      "current": {
+        "Stellar Class": "DA7.0 white dwarf",
+        "Host mass (M-sun)": 0.95,
+        "Effective temp (K)": 6943,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.000162,
+          "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 0644+025, DA, H model, Teff 7200 +/- 100 K, log g 8.61 +/- 0.02, M 0.99 +/- 0.01, log L/Lsun = -3.79 +/- 0.03",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/154/32/table4",
+          "derived": false,
+          "method": "10^-3.79 = 1.62e-4; 1-sigma range 1.51e-4 to 1.74e-4"
+        }
+      },
+      "reason": "Subasavage et al. 2017 publish log L = -3.79 +/- 0.03 for WD 0644+025. The planet paper (MEAD II, arXiv:2601.18965, AJ 171, 183) gives Teff, log g, mass and age but no luminosity; its parameters give 1.52e-4 by derivation, within 7% of the published value.",
+      "confidence": "high",
+      "notes": "Describes WD 0644+025, the row's own star, which is also its Planet-host entry. Atmosphere: H (DA). The row's 6943 K, 0.95 Msun and 4.54 Gyr are MEAD II's adopted photometric solution (Sect. 3: Teff = 6943 +/- 68 K, log g = 8.555 +/- 0.013, M = 0.95, total age 4.54 Gyr). Alternative, if the writer wants a luminosity internally consistent with that solution: derived L = 1.52e-4 (16-84%: 1.45e-4 to 1.60e-4), log L = -3.818, using R = sqrt(GM/g) and L = R^2 (Teff/5772)^4 with M = 0.95 and log g = 8.555. MEAD II also quotes O'Brien 2024 at 7109 +/- 50 K and Blouin et al. at 6995 +/- 60 K."
+    },
+    {
+      "name": "WD 2105-820",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 426,
+      "gaia_dr3": "6348672845649310464",
+      "current": {
+        "Stellar Class": "DAZ white dwarf (magnetic)",
+        "Host mass (M-sun)": 0.7,
+        "Effective temp (K)": 9890,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.000912,
+          "source": "Subasavage et al. 2017, AJ 154, 32, Table 4 (VizieR J/AJ/154/32/table4, column Lum = log L/Lsun), queried 2026-09-27: WD 2105-820, DAZH, H model, Teff 9820 +/- 240 K, log g 8.29 +/- 0.04, M 0.78 +/- 0.03, log L/Lsun = -3.04 +/- 0.05",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/154/32/table4",
+          "derived": false,
+          "method": "10^-3.04 = 9.12e-4; 1-sigma range 8.13e-4 to 1.02e-3"
+        }
+      },
+      "reason": "Subasavage et al. 2017 publish log L = -3.04 +/- 0.05. The characterisation paper, Debes et al. 2025 (Table 2), is where the row's 9890 K and 0.7 Msun come from and publishes no luminosity; its values give 1.04e-3 by derivation, within 1.5 sigma of the published figure.",
+      "confidence": "medium",
+      "notes": "Describes WD 2105-820, the row's own star, which is also its Planet-host entry. Atmosphere: H (O'Brien 2024 types it DAZH). Debes et al. 2025 Table 2 gives Teff 9890 K (no error quoted; footnoted 'Based on the parameters determined in Gentile Fusillo et al.'), log g 8.20 +/- 0.03, M 0.7 +/- 0.06, t_cool 0.83 +/- 0.1 Gyr and t_MS 1.6 Gyr. Alternative, consistent with the row's own Teff and mass: derived L = 1.04e-3 (16-84%: 9.3e-4 to 1.17e-3), log L = -2.98, assuming +/-84 K on Teff (GF21's error). O'Brien 2024 / GF21 H (9914 +/- 84 K, log g 8.242, M 0.751) gives about 9.6e-4 by the same formula. Recommend the published 9.12e-4."
+    },
+    {
+      "name": "WD 2149+021",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "sheet_row": 427,
+      "gaia_dr3": "2693940725141960192",
+      "current": {
+        "Stellar Class": "metal-polluted white dwarf",
+        "Host mass (M-sun)": 0.62,
+        "Effective temp (K)": 17840,
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Host luminosity (L-sun)": {
+          "value": 0.0152,
+          "source": "Derived from Debes et al. 2025, AJ (doi 10.3847/1538-3881/ade68c), 'Metal Polluted White Dwarfs with 21 um IR excesses from JWST/MIRI: Planets or Dust?', Table 2: WD 2149+021, Teff 17840 +/- 160 K, log g 8.01 +/- 0.01, M 0.62 +/- 0.01, d 22.56 pc",
+          "url": "https://arxiv.org/abs/2506.21224",
+          "derived": true,
+          "method": "R = sqrt(G M / g); L = (R/Rsun)^2 (Teff/5772 K)^4, with GM_sun = 1.3271244e26 cm^3 s^-2 and Rsun = 6.957e10 cm. Uncertainty from a 200,000-draw Monte Carlo over the quoted 1-sigma errors (16th-84th percentile). Check: the same formula applied to Subasavage 2017's own Teff/log g/mass reproduces its published log L to within 0.003 dex for WD 0141-675, WD 0644+025 and WD 2105-820. Result: R = 0.01289 Rsun, L = 0.0152 (16-84%: 0.0145 to 0.0159), log L = -1.819 +/- 0.02."
+        }
+      },
+      "reason": "No published luminosity was found. Debes et al. 2025 (Table 2) is the JWST/MIRI paper reporting the 21 um excess and the source of the row's 17840 K and 0.62 Msun; it gives Teff, log g and mass, and L is derived from those. WD 2149+021 is not in Subasavage et al. 2017.",
+      "confidence": "medium",
+      "notes": "Describes WD 2149+021 (G93-48), the row's own star, which is also its Planet-host entry. Atmosphere: H. Cross-checks by the same formula: Gianninas 2011 spectroscopic (DA2.8, 18170 +/- 266 K, log g 8.01, M 0.62) gives L = 0.0164; O'Brien 2024 / GF21 H (17508 +/- 338 K, log g 7.981, M 0.608) gives about 0.0144. The Stellar Class is not blank, but 'metal-polluted white dwarf' is a description, not a spectral class. O'Brien 2024 types it DAZ (ref 2015ApJS..219...19L); SIMBAD and Gianninas 2011 give DA2.8. Suggest 'DAZ white dwarf' or 'DAZ2.8 white dwarf'; see incidental_finds."
+    }
+  ],
+  "incidental_finds": [
+    "Systems within 100 ly row 404, WD 0806-661: Effective temp (K) = 5700 looks wrong. O'Brien et al. 2024 (MNRAS 527, 8687, Table A1; VizieR J/MNRAS/527/8687/tablea1) give 10393 +/- 114 K (He-rich DQ, M 0.605 +/- 0.014), and Leggett & Tremblin 2026 (https://arxiv.org/abs/2606.04294, Sect. 2.1) and NASA pscomppars adopt that value. GF21 (He) gives 10721 K. Recommend Teff 10393, and optionally mass 0.605. Planet-host class is also blank; it should be 'DQ'.",
+    "Systems within 100 ly row 402, DE CVn: Stars in system = 1 and System stars is blank, but DE CVn is an eclipsing WD + M3V binary (van den Besselaar et al. 2007, https://arxiv.org/abs/astro-ph/0701560): M_WD 0.51 +0.06/-0.02, R_WD 0.0136 Rsun, Teff 8000 +/- 1000 K; M_M 0.41 +/- 0.06, R_M 0.37 +0.06/-0.007 Rsun, M3V; P = 0.3641394 d. The system has no Multi-stars rows, and Planet-host class is blank. On Planets within 100 ly (row 506), DE CVn b has 'Orbits the primary?' = yes, but Han et al. 2018 (https://arxiv.org/abs/1811.08625, Sect. 4.2) call it a third body 'orbiting the binary DE CVn': it is circumbinary.",
+    "NASA Exoplanet Archive pscomppars, DE CVn: st_teff 3579 K, st_lum -1.574, st_rad 0.4248 and st_logg 4.80 are TICv8 (Stassun et al. 2019) single-dwarf values for the blended source. They must never be applied to the white dwarf. Any automated pass that reads st_teff or st_lum for WD hosts from pscomppars should skip TIC-reflinked values.",
+    "Systems within 100 ly row 427, WD 2149+021: Stellar Class 'metal-polluted white dwarf' is not a spectral class. O'Brien et al. 2024 Table A1 give DAZ (ref 2015ApJS..219...19L); SIMBAD and Gianninas et al. 2011 give DA2.8. Luminosity class reads 'No luminosity class' and should be 'White dwarf', as on the other WD rows.",
+    "Systems within 100 ly row 426, WD 2105-820: Age (Gyr) = 1.6 is Debes et al. 2025 Table 2's t_MS (progenitor main-sequence lifetime, 1.6 +0.8/-0.24 Gyr), not the total age. The total is t_cool 0.83 +/- 0.1 plus t_MS 1.6, about 2.4 Gyr (https://arxiv.org/abs/2506.21224).",
+    "Systems within 100 ly row 423, LAWD 37: I found no source for Effective temp = 7600 K. Subasavage 2017 give 7880 +/- 180 K; O'Brien 2024 give 8062 +/- 60 K."
+  ]
+}

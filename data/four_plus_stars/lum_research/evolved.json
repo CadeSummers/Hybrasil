@@ -1,0 +1,175 @@
+[
+  {
+    "component": "iot UMa Aa",
+    "outcome": "published",
+    "luminosity_lsun": 9.632,
+    "luminosity_range": [
+      9.521,
+      9.741
+    ],
+    "applies_to_component_alone": true,
+    "source": "Gaia Collaboration, Creevey et al. 2023, A&A 674, A26 (Gaia DR3 FLAME, I/355/paramp)",
+    "identifier": "VizieR I/355/paramp; Gaia DR3 1014058103758571520",
+    "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=I/355/paramp&Source=1014058103758571520&-out=Source,Teff,Rad,Lum-Flame,b_Lum-Flame,B_Lum-Flame,Rad-Flame,Flags-Flame",
+    "quote": "1014058103758571520\t 7498.3286\t   1.8435\t 9.632e+00\t 9.521e+00\t 9.741e+00\t  1.8389\t 0  (Source Teff Rad Lum-Flame b_Lum-Flame B_Lum-Flame Rad-Flame Flags-Flame); gaiadr3: G 3.120973, Plx 68.0010 +/- 0.4223, RUWE 4.840",
+    "radius_rsun": 1.8389,
+    "teff_k": 7498,
+    "derivation": null,
+    "wikipedia": {
+      "page": "Iota Ursae Majoris",
+      "url": "https://en.wikipedia.org/wiki/Iota_Ursae_Majoris",
+      "cited_source": "L 8.98 and R 1.67: Gaspar, Rieke & Ballering 2016, ApJ 826, 171 (2016ApJ...826..171G, arXiv:1604.07403); Teff 8242 K: Draper et al. 2018, ApJ 857, 93 (2018ApJ...857...93D)",
+      "cited_url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/826/171/table1&HD=76644&-out.all",
+      "cross_check": "Gaspar table1 row verified: '176 1 0 44127 76644 DE,KS 14.5 1.71 8.98 1.67 0.750' (Dist pc, M*, L*, R*, Age). Infobox R 1.67 with infobox Teff 8242 K gives 1.67^2 (8242/5772)^4 = 11.6 Lsun vs 8.98 listed: 29% apart, borderline fail (the two come from different papers; Gaspar's own R and L imply Teff ~7730 K). Gaspar used 14.5 pc vs workbook 14.70 pc (factor 1.03)."
+    },
+    "nature": "A7 IV subgiant (A-type, slightly evolved)",
+    "notes": "Whole light of iot UMa A, which is effectively Aa alone: Zhuchkov et al. 2012 (Astron. Rep. 56, 512, 2012ARep...56..512Z) abstract: 'The companion in the close Aa subsystem is most likely a white dwarf with a mass of approximately 1.0 +/- 0.3 M_sun' (never seen directly). The MSC (J/ApJS/235/6) instead lists Ab as 0.75 Msun ('S1?,a', P = 11.02 yr, no V magnitude); even a 0.75 Msun main-sequence star (Pecaut & Mamajek: K4V 0.73 Msun, logL -0.69, i.e. 0.20 Lsun) would be ~2% of the total. B and C (V 10.8/11.0, M dwarfs) are 9 arcsec away and are separate Gaia sources. RUWE 4.84 reflects the Aa,Ab orbital motion, not a resolved blend; the DR3 parallax 68.00 mas equals the workbook distance (47.96 ly). Independent check: V 3.14 (MSC), DM 0.837 at 68.00 mas, M_V 2.30, BC_V +0.01 (Pecaut & Mamajek A7V-A8V) gives 9.4 Lsun. Other whole-light values: Zorec & Royer 2012 11.04 (prior pass), Gaspar 2016 8.98, McDonald 2017 9.10. Teff is poorly agreed: 7260 +/- 70 K (Zhuchkov 2012 abstract), 7498 K (Gaia GSP-Phot), 7907 K (Zorec & Royer), 8242 K (Draper 2018). No interferometric diameter found (Boyajian 2012/2013 tables do not include HD 76644). Spread of literature L: 9.0-11.0."
+  },
+  {
+    "component": "tau Cyg Aa",
+    "outcome": "derivable",
+    "luminosity_lsun": 10.28,
+    "luminosity_range": [
+      10.28,
+      10.51
+    ],
+    "applies_to_component_alone": true,
+    "source": "Fuhrmann 2008, MNRAS 384, 173 ('Nearby stars of the Galactic disc and halo - IV'), tau Cyg section",
+    "identifier": "2008MNRAS.384..173F; doi:10.1111/j.1365-2966.2007.12671.x",
+    "url": "https://academic.oup.com/mnras/article/384/1/173/1032434",
+    "quote": "The revised stellar parameters for tau Cyg A and B are now as follows: Teff,A ~ 6600 K, log gA ~ 3.87, RA ~ 2.48 R_sun, VA ~ 3.80, MV,A ~ 2.26, Mbol,A ~ 2.21, and Teff,B ~ 5670 K, log gB ~ 4.52, RB ~ 0.93 R_sun, VB ~ 6.69, MV,B ~ 5.15, Mbol,B ~ 5.00.",
+    "radius_rsun": 2.48,
+    "teff_k": 6600,
+    "derivation": "Component-resolved M_bol printed by Fuhrmann 2008 (deblended with the Hipparcos Delta Hp = 2.89 mag): L = 10^(0.4 (4.74 - 2.21)) = 10.28 Lsun (Mbol_sun = 4.74, IAU 2015; with 4.75 it is 10.38). Same paper's R and Teff: L = 2.48^2 x (6600/5772)^4 = 10.51 Lsun. Range given = the two. B alone: Mbol 5.00 -> 0.79 Lsun.",
+    "wikipedia": {
+      "page": "Tau Cygni",
+      "url": "https://en.wikipedia.org/wiki/Tau_Cygni",
+      "cited_source": "No luminosity in the infobox. R 2.48, Teff 6600 K, M 1.65 (A) and R 0.93, Teff 5670 K, M 1.03 (B) cited to Fuhrmann 2008, MNRAS 384, 173 (2008MNRAS.384..173F)",
+      "cited_url": "https://doi.org/10.1111/j.1365-2966.2007.12671.x",
+      "cross_check": "Infobox R/Teff give 2.48^2 (6600/5772)^4 = 10.51 Lsun for A, consistent with Fuhrmann's Mbol (10.3). Infobox also shows component V 3.80 / 6.69."
+    },
+    "nature": "F2 IV subgiant (Fuhrmann: Teff 6600 K, log g 3.87, ~1.65 Msun)",
+    "notes": "Fuhrmann's M_V,A = 2.26 for V_A = 3.80 implies a distance modulus of 1.54 (~20.3 pc, ~66.3 ly), matching the workbook's 66.35 ly. MSC (J/ApJS/235/6) per-component V: A 3.79, B 6.68 (AB 3.72), consistent. MSC's 'Ab' (A?, 2.2 yr, 'VB6 Planet?') has no mass or light. This replaces the prior pass's combined-light Zorec & Royer 12.69 / TIC 10.09; B contributes ~0.8 Lsun. Fuhrmann's Mbol_sun convention was not checked; it shifts L by <=1%."
+  },
+  {
+    "component": "alf2 Lib Aa",
+    "outcome": "derivable",
+    "luminosity_lsun": 19.89,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Waisberg, Klein & Katz 2023, RNAAS 7, 180 ('Hidden Companions to Intermediate-mass Stars. X. Solving for the Mass Ratio in the Spectroscopic Binary Zubenelgenubi = alpha2 Librae')",
+    "identifier": "2023RNAAS...7..180W; doi:10.3847/2515-5172/acf28f",
+    "url": "https://iopscience.iop.org/article/10.3847/2515-5172/acf28f",
+    "quote": "We found that the primary is a M_Aa = 1.95 M_sun A2V star (T_Aa = 8200 K, R_Aa = 2.21 R_sun) ... the secondary is a M_Ab = 1.79 M_sun A7V star (T_Ab = 7930 K, R_Ab = 1.92 R_sun) ... The isochrone fit predicts magnitude differences Delta V_T = 0.44 and Delta B_T = 0.49.",
+    "radius_rsun": 2.21,
+    "teff_k": 8200,
+    "derivation": "L = R^2 (Teff/5772)^4 = 2.21^2 x (8200/5772)^4 = 4.884 x 4.073 = 19.9 Lsun, both inputs from Waisberg et al. 2023 (MIST isochrone fit to Tycho V_T, B_T, 2MASS K and the VLTI/GRAVITY K-band flux ratio 74.7%, at d = 23.24 pc from van Leeuwen 2007). Ab from the same paper: 1.92^2 (7930/5772)^4 = 13.1 Lsun.",
+    "wikipedia": {
+      "page": "Alpha Librae",
+      "url": "https://en.wikipedia.org/wiki/Alpha_Librae",
+      "cited_source": "No luminosity in the infobox. alpha2 Lib A: M 1.95, R 2.21, Teff 8200 K; B (= Ab): M 1.79, R 1.92, Teff 7930 K, all cited to Waisberg, Klein & Katz 2023, RNAAS 7, 180 (2023RNAAS...7..180W)",
+      "cited_url": "https://doi.org/10.3847/2515-5172/acf28f",
+      "cross_check": "Same R/Teff as the derivation: 19.9 Lsun (Aa). No listed L to compare."
+    },
+    "nature": "A-type (A2V per Waisberg; MSC A3IV for the blend), the rapidly rotating member of the 70.3-d SB2",
+    "notes": "Identification: Aa is the more massive star (1.95 Msun, matching the workbook's 1.97) and the brighter one in Waisberg's fit; Fuhrmann et al. 2014 (MNRAS 437, 2303) call it the rapidly rotating, 'almost invisible' A-type primary. Distance 23.24 pc = 75.8 ly, as in the workbook. Checks: combined V 2.75 (MSC), DM 1.831, BC_V -0.03 (Pecaut & Mamajek A3V-A4V) give 34.7 Lsun for Aa+Ab, against 19.9 + 13.1 = 33.0 from Waisberg; the Delta V_T = 0.44 split gives Aa 60% = 20.8 Lsun. The MSC's own split (Aa 3.15, Ab 4.03, dV 0.88; source not given, its note also quotes an occultation dB = 0.4) would give 69% = 24.0 Lsun; Zorec & Royer's combined 41.2 x 0.60 = 24.7. Plausible range ~20-25 Lsun; Waisberg's is the only direct component solution. Waisberg prints no uncertainties."
+  },
+  {
+    "component": "kap Tuc Aa",
+    "outcome": "derivable",
+    "luminosity_lsun": 3.95,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Tokovinin 2020, AJ 159, 265 (component V, Teff, adopted parallax) + Pecaut & Mamajek 2013 (BC_V)",
+    "identifier": "2020AJ....159..265T; arXiv:2005.04057; doi:10.3847/1538-3881/ab8af1; 2013ApJS..208....9P",
+    "url": "https://arxiv.org/pdf/2005.04057v2",
+    "quote": "Tokovinin 2020 Table 1 (kap Tuc A): HD 7788, V 4.88, G 4.79, F6IV, Teff 6513 K, mass 1.35, plx 47.66 (system, boldface); text: 'The average parallax of other stars unaffected by acceleration (47.66 mas, distance 21.0 pc) is adopted.' Mamajek table: 'F5V 6550 ... BCv -0.02' and 'F6V 6350 ... BCv -0.03'.",
+    "radius_rsun": null,
+    "teff_k": 6513,
+    "derivation": "M_V = V - 5 log10(100/plx) = 4.88 - 1.609 = 3.271 (V and plx 47.66 mas from Tokovinin 2020); BC_V(6513 K) = -0.022 (linear between Pecaut & Mamajek F5V and F6V); M_bol = 3.249; L = 10^(0.4 (4.74 - 3.249)) = 3.95 Lsun. At the workbook distance (75.87 ly, plx 42.99) the same photometry would give 4.85 Lsun.",
+    "wikipedia": {
+      "page": "Kappa Tucanae",
+      "url": "https://en.wikipedia.org/wiki/Kappa_Tucanae",
+      "cited_source": "L 4.59 +/- 0.31, R 1.71 +/- 0.05, Teff 6457 (+57/-66) K: Harada et al. 2024, ApJS 272, 30 (2024ApJS..272...30H, arXiv:2401.03047; VizieR J/ApJS/272/30 table4, ARIADNE SED fit)",
+      "cited_url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/272/30/table4.dat",
+      "cross_check": "1.71^2 (6457/5772)^4 = 4.58 Lsun, passes. But Harada's row uses Dist 23.2606 pc / plx 42.9912 (A's own DR3 parallax, RUWE 10.4): verified row 'HIP 5896 A HD 7788 A ... kap Tuc A ... 23.2606 42.9912 1.0581', SED fit 'Teff 6457 R 1.71 L 4.59 0.31 0.31'. Rescaled to 20.98 pc it is 3.73 +/- 0.25 Lsun."
+    },
+    "nature": "F6 IV subgiant (slightly evolved F star)",
+    "notes": "DISTANCE FLAG: the workbook's 75.87 ly comes from A's Gaia DR3 parallax 42.99 mas, which is corrupted by the Aa,Ab acceleration (RUWE 10.41). Tokovinin 2020 adopts 47.66 mas (B, C, D: 47.653, 47.528, 47.662 mas in Table 1), i.e. 21.0 pc = 68.4 ly; L scales by (47.66/42.99)^2 = 1.229 between the two. The value given is at 68.4 ly; consider correcting the workbook distance. Consistency at 47.66 mas: Gaia DR3 FLAME (I/355/paramp, 4692263148249862016) Lum-Flame 4.737 (4.533-4.959) at 42.99 mas -> 3.85 (3.69-4.04); Harada 2024 4.59 -> 3.73. Ab is astrometric only (MSC 0.20 Msun, q~0.1-0.15, P~22 yr): an M4-ish dwarf, <0.5% of the light. B (V 7.54, 5-7 arcsec) is a separate Gaia source. This supersedes the prior pass's McDonald 2017 4.21 (SED Teff 5775 K)."
+  },
+  {
+    "component": "chi Cet Aa",
+    "outcome": "published",
+    "luminosity_lsun": 5.559,
+    "luminosity_range": [
+      5.322,
+      5.796
+    ],
+    "applies_to_component_alone": true,
+    "source": "Stassun et al. 2019, AJ 158, 138 (TESS Input Catalog v8; row read from TIC v8.2, Paegert et al. 2021)",
+    "identifier": "VizieR IV/39/tic82; TIC 24910738; doi:10.3847/1538-3881/ab3467",
+    "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=IV/39/tic82&-c=027.3962782+-10.6864086&-c.rs=3&-out=TIC,HIP,Vmag,Teff,e_Teff,Rad,e_Rad,Lum,e_Lum,Mass,LClass,Disp,Plx",
+    "quote": "24910738  8497  4.655  6342.5  111.9  1.953  0.070  5.55937  0.23685  1.260  DWARF  42.9611  (TIC HIP Vmag Teff e_Teff Rad e_Rad Lum e_Lum Mass LClass Plx) [re-queried 9 Oct 2026]",
+    "radius_rsun": 1.953,
+    "teff_k": 6342,
+    "derivation": null,
+    "wikipedia": {
+      "page": "Chi Ceti",
+      "url": "https://en.wikipedia.org/wiki/Chi_Ceti",
+      "cited_source": "L 5.6, R 1.95, Teff 6342 K, M 1.26: Stassun et al. 2019, AJ 158, 138 (2019AJ....158..138S) - the same TIC row",
+      "cited_url": "https://doi.org/10.3847/1538-3881/ab3467",
+      "cross_check": "1.95^2 (6342/5772)^4 = 5.54 Lsun vs 5.6: passes (same source)."
+    },
+    "nature": "F-type, slightly evolved (TIC R 1.95 Rsun; MSC F3III, Gray 2003 F2 III-IV, SIMBAD F0V)",
+    "notes": "Decision: the whole-light value IS effectively Aa's. Evidence: Ab is known only astrometrically/spectroscopically (MSC J/ApJS/235/6: 'A,s', P = 6.765 yr, 0.194 arcsec, Mass2 0.58 Msun flag q, comment 'dRV=1.6km/s VB6 q=0.38'), no magnitude measured. A 0.57-0.59 Msun dwarf is K9V-M0V in Pecaut & Mamajek (Msun 0.59/0.57, logL -1.10/-1.16 -> 0.069-0.079 Lsun, M_V 8.56-8.80), i.e. ~1.3% of 5.56 Lsun bolometrically and Delta V ~5.8-6.0 mag against A's M_V 2.82 (V 4.67, plx 42.58), i.e. ~0.4% of the V-band flux the TIC fit rests on. Gaia DR3 RUWE(A) = 0.86 and no FLAME value. TIC's parallax 42.96 mas vs workbook 42.58 mas (76.6 ly): at the workbook distance L = 5.66 (factor 1.018). Cross-check McDonald 2017: 5.78 (prior pass). The workbook's 'Giant' luminosity class (MSC F3III) is doubtful for R ~1.95 Rsun."
+  },
+  {
+    "component": "ksi Sco A",
+    "outcome": "derivable",
+    "luminosity_lsun": 7.25,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Tokovinin 2020, AJ 159, 265 (component V, Teff, distance modulus) + Pecaut & Mamajek 2013 (BC_V)",
+    "identifier": "2020AJ....159..265T; arXiv:2005.04057; doi:10.3847/1538-3881/ab8af1; 2013ApJS..208....9P",
+    "url": "https://arxiv.org/pdf/2005.04057v2",
+    "quote": "Tokovinin 2020 Table 1: 'A 144070 4.84 4.772 ... 6532 1.53', 'B 144069 4.86 4.767 ... 6532 1.53', '(A+B) ... 4.10 ... F5IV ... 3.06 35.776'; text: 'The average parallax of 35.84+/-0.03 mas is adopted in the following (distance 27.9 pc, distance modulus 2.23 mag).' and 'For A and B, Te = 6532 K is adopted (Ramirez et al. 2013)'. Mamajek table: 'F5V 6550 ... BCv -0.02', 'F6V 6350 ... BCv -0.03'.",
+    "radius_rsun": null,
+    "teff_k": 6532,
+    "derivation": "M_V = 4.84 - 2.23 = 2.61 (Tokovinin 2020 V_A and distance modulus); BC_V(6532 K) = -0.021 (linear between Pecaut & Mamajek F5V and F6V); M_bol = 2.589; L = 10^(0.4 (4.74 - 2.589)) = 7.25 Lsun. B by the same route: V 4.86 -> 7.12 Lsun.",
+    "wikipedia": {
+      "page": "Xi Scorpii",
+      "url": "https://en.wikipedia.org/wiki/Xi_Scorpii",
+      "cited_source": "No luminosity or radius in the infobox. Teff 6532 K and mass 1.53 for A and B cited to Tokovinin 2020, AJ 159, 265; component V '(5.16 / 4.87 / 7.30)' cited to the Sixth Catalog of Orbits of Visual Binary Stars",
+      "cited_url": "https://doi.org/10.3847/1538-3881/ab8af1",
+      "cross_check": "No R/Teff pair available to cross-check. Note Wikipedia's ORB6 magnitudes (5.16/4.87) differ from Tokovinin's and the MSC's 4.84/4.86; with V = 5.16, A would be 5.4 Lsun - Tokovinin's photometry sums correctly to the measured A+B 4.10, so it is preferred."
+    },
+    "nature": "F5 IV subgiant (Tokovinin: A and B 'have evolved off the main sequence', ~2 Gyr)",
+    "notes": "Tokovinin's Teff is one blended-light value (Ramirez et al. 2013) applied to both near-twins, so BC is shared; the two stars differ only through V (and the isochrone is vertical there, so equal colour with slightly different L is expected per the paper). Check: 4.84 and 4.86 combine to 4.097, matching the A+B 4.10. Distance: Tokovinin's 35.84 mas vs workbook 91.46 ly (35.66 mas, A's own DR3 parallax, biased by the AB orbit per Tokovinin): at the workbook distance L = 7.32 (factor 1.010). Gaia DR3 has no FLAME value for A (RUWE 1.31). No interferometric radius found."
+  },
+  {
+    "component": "nu Sco Da",
+    "outcome": "derivable",
+    "luminosity_lsun": 53.0,
+    "luminosity_range": [
+      25.0,
+      70.0
+    ],
+    "applies_to_component_alone": false,
+    "source": "Tycho Double Star Catalogue (Fabricius et al. 2002, I/276) photometry of nu Sco D + Pecaut & Mamajek 2013 (intrinsic colours, BC_V) + workbook parallax",
+    "identifier": "VizieR I/276/catalog (TDSC 41387 D); 2002A&A...384..180F; 2013ApJS..208....9P",
+    "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=I/276/catalog&-c=242.9945+-19.4500&-c.rs=30&-out.all",
+    "quote": "TDSC: '41387 C ... BTmag 6.61 0.02 VTmag 6.60 0.01 ... 16120-1928 ... 145501 A 335.8 41.34' and '41387 D ... BTmag 7.54 0.02 VTmag 7.23 0.01 ... 16120-1928 ... 145501 C 52.2 2.46'. Zorec & Royer 2012 (J/A+A/537/A120): '145501 B8V+B9VpSi 4.070 0.003 1.8810 0.0970 2.90 ... CP CB'. Mamajek: 'B8V 12300 ... BCv -0.73 ... B-V -0.109', 'B9V 10700 ... -0.42 ... Mv 0.50', 'A0V 9700 ... -0.21 ... Mv 0.99'.",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": "LOW CONFIDENCE. V(D) = V_T 7.23 (TDSC; V_T - V is a few hundredths for B9-A0). Reddening from neighbour C (2.4 arcsec): TDSC Bt-Vt(C) = 0.01 vs B8V intrinsic -0.107 -> E ~0.12; Gaia BP-RP(C) = 0.244 vs <= -0.12 intrinsic -> E(B-V) ~0.3; adopted E(B-V) = 0.20, A_V = 3.1 E(B-V) = 0.62 (range 0.37-0.93). DM = 5.756 (workbook 461.98 ly = 7.06 mas). M_V = 7.23 - 0.62 - 5.756 = 0.85. BC_V = -0.42 (B9V, the CD blend type 'B8V+B9VpSi' assigns B9 to the fainter star). M_bol = 0.43, L = 10^(0.4 (4.74 - 0.43)) = 53 Lsun. Low end: V 7.57 (MSC), A_V 0.37, BC -0.21 (A0V) -> 25 Lsun. High end: V 7.23, A_V 0.93, BC -0.42 -> 70 Lsun.",
+    "wikipedia": {
+      "page": "Nu Scorpii",
+      "url": "https://en.wikipedia.org/wiki/Nu_Scorpii",
+      "cited_source": "No luminosity, radius or Teff for D. D: B9V (body text, uncited), V 7.23 (Fabricius et al. 2002, Tycho); distance 454.7 +/- 0.9 ly from D's own Gaia DR3 parallax. Body text says D is likely a spectroscopic binary and 'very little is known about Nu Scorpii Db'.",
+      "cited_url": "https://en.wikipedia.org/wiki/Nu_Scorpii",
+      "cross_check": "Nothing to cross-check."
+    },
+    "nature": "late-B / early-A dwarf (B9V-B9.5V by catalogue type, B9III in the MSC), possibly the Si-peculiar member of CD; itself an unresolved pair Da,Db",
+    "notes": "What is known: D = nu2 Sco B = HD 145501B, 2.4 arcsec from C (HD 145501A). The MSC marks D as Da,Db with code 's,a' (suspected spectroscopic, from 1983A&AS...52..471, plus astrometric: Gaia DR3 RUWE 4.707, plx 7.173 +/- 0.140); no orbit, period or mass ratio exists. Db's 0.5 Msun in the workbook is an inferred placeholder; if Db is a low-mass star its light is negligible and L(D) ~ L(Da), but nothing excludes a more luminous Db. Gaia DR3 gives no astrophysical parameters for D; TIC v8.2's 19.8 Lsun / 7624 K uses blended colours (prior pass). Photometry is inconsistent at the 0.3-mag level: V_T 7.23 (TDSC), V 7.57 for D and 7.39 for Da (both in the MSC), Gaia G 7.520 with BP/RP excess 1.26 (C's 1.21) - the 2.4 arcsec pair contaminates BP/RP. D's Bt-Vt (0.31) and BP-RP (0.39) are redder than C's (0.01, 0.24) by ~0.15, consistent with D being cooler than C under common reddening. Combined-light consistency: Zorec & Royer give HD 145501 (C+D) logL 1.881 (76 Lsun); Kochukhov & Bagnulo 2006 give logL 2.31 +/- 0.13 (204) at 133 pc; Gaia FLAME for C alone is 154.7. These disagree among themselves by a factor ~2, so no subtraction is meaningful. The MSC's 1.96 Msun (from absolute magnitude) corresponds to ~A2V, ~24 Lsun in Pecaut & Mamajek, i.e. at the low end, probably without an extinction correction. Distance: 7.06 mas (workbook, A's parallax) vs D's 7.17 mas: factor 0.97. Use only with an orange border; 'none' is defensible if a component-resolved Teff is required."
+  }
+]

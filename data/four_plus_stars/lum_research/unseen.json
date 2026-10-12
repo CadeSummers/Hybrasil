@@ -1,0 +1,192 @@
+[
+  {
+    "component": "ksi UMa Bb",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Fuhrmann, Chini, Kaderhandt, Chen & Lachaume 2016, MNRAS 459, 1682 ('Evidence for very nearby hidden white dwarfs')",
+    "identifier": "2016MNRAS.459.1682F; doi:10.1093/mnras/stw760",
+    "url": "https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw760",
+    "quote": "Abstract: '[Ba/Fe] = +0.37 dex for its G-type xi UMa Ba primary' (vs +0.12 dex for xi UMa A); text: M_Bb = 0.17 (+0.13/-0.05) M_sun with 'a reduced inclination' i = 12.7 deg; a red dwarf Bb 'would be at least four magnitudes fainter' and 'this should be restricted to' M_Bb <= 0.50 M_sun, yet 'the case of a Bb red dwarf must be considered highly implausible'; 'there is hence straight evidence that xi UMa Bb is best explained as the mass and barium donor for xi UMa Ba.' (fragments via WebFetch of the OUP page; OUP blocks direct download, so the numbers come through the fetch tool's reading, not a PDF)",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "Xi Ursae Majoris",
+      "url": "https://en.wikipedia.org/wiki/Xi_Ursae_Majoris",
+      "cited_source": "Infobox mass 0.14 (+0.05/-0.09) for Bb, uncited; nature text cites Kaler 'Alula Australis' web page (red dwarf) and Fuhrmann et al. 2016 (white dwarf)",
+      "cited_url": "https://doi.org/10.1093/mnras/stw760",
+      "cross_check": "no L, R or Teff for Bb in the infobox; nothing to cross-check"
+    },
+    "nature": "white dwarf (favoured by the literature, not confirmed); M dwarf considered 'highly implausible' by Fuhrmann et al. 2016",
+    "notes": "VERDICT: white dwarf, from barium pollution of Ba (Bb as the s-process donor). Evidence: Ba has [Ba/Fe] = +0.37 vs +0.12 in A (same system, so same age and composition). The authors' own dynamical mass is M_Bb = 0.17 (+0.13/-0.05) M_sun at i = 12.7 deg. That SUPERSEDES the workbook's Fuhrmann 2008 value of 0.14 at i ~ 15 deg. A WD that light would have to be a He-core remnant of the mass transfer they invoke. They say the WD mass cannot be constrained from the present 4-d period because of orbital decay; a 0.38 M_sun Bb would match Soderhjelm 1999's mass sum. No L, Teff, or UV/X-ray detection of Bb itself is published. Corroboration: MSC (VizieR J/ApJS/235/6) systems row 11182+3132 Ba,Bb has SpT2 'WD?' and Mass2 0.04 'm', and its notes row says 'Ba is a barium star, hence Bb is likely a WD' [2016MNRAS.459.1682F]. Kirkpatrick et al. (20-pc census, arXiv:2312.03639) list xi UMa Bb in their Table 10 of white dwarfs as a 'Conjecture': 'xi UMa Ba has an enhanced barium abundance, leading Fuhrmann et al. (2016) to speculate that xi UMa Bb is a white dwarf and the donor responsible for the extra barium content.' CONSEQUENCE: a main-sequence mass-luminosity relation must NOT be applied. Any L would need a WD cooling model with an unknown cooling age. The workbook class 'WD?' is consistent with the literature."
+  },
+  {
+    "component": "HD 151613 B",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Kervella, Arenou & Thevenin 2022, A&A 657, A7 (proper-motion anomaly); MSC web entry WDS 16453+5647 (Tokovinin)",
+    "identifier": "VizieR J/A+A/657/A7/tablea1 (HIP 82020); https://astro.ulb.ac.be/msc/system/16453+5647/",
+    "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A%2bA/657/A7&HIP=82020",
+    "quote": "Kervella 2022 row HIP 82020 (HD 151613): RUWE 7.459, snrPMaH2EG3a 9.17, snrPMaH2G2 34.98, M1 1.56 Msun, M2(3 au) 851.02 MJup, M2(5 au) 494.05 MJup, M2(10 au) 619.00 MJup, M2(30 au) 1875.93 MJup. MSC web JSON: A,B type 'A,s', P 3.7939 y, mass1 1.53 's', mass2 0.92 'q', comment 'MCA_44?'; notes: 'DR3: RUWE=7.5. Only 2 spekle resolutions, bogus? TESS: eclipsing P=8.40d' and 'Prsa et al. TESS EB catalog P=8.40d no amplitude given' (2022ApJS..258...16P).",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "HD 151613",
+      "url": "https://en.wikipedia.org/wiki/HD_151613",
+      "cited_source": "Pourbaix et al. 2004 (SB9), Hartkopf & Mason 2009 (speckle), Abt 2009 (MK class)",
+      "cited_url": "",
+      "cross_check": "Wikipedia says nothing about the companion's nature, mass or brightness"
+    },
+    "nature": "undecided -- no paper found that calls it a white dwarf or classifies it at all",
+    "notes": "No literature verdict. Searched: SIMBAD's 85 references since 1990 (speckle series, SB9, Jancart et al. 2005 astrometric SB9 orbits -- HIP 82020 is in none of its tables -- Abt 2009, Kervella 2019/2022, Brandt HGCA, Prsa 2022), Wikipedia, and the MSC. None discusses the companion's nature. BETTER MASS: the Hipparcos-Gaia anomaly (Kervella 2022) needs M2 ~ 0.81 Msun (851 MJup) at 3 au for a DARK companion. The Hipparcos DMSA/O orbit (P 3.79 yr, a0 39.26 mas) implies a relative orbit of ~3.2 au, so ~0.8 Msun is the dark-companion mass; the MSC adopts 0.92 Msun ('q'). A luminous companion would have to be heavier still, because photocentre motion scales as B - beta. My own arithmetic (not published): A has M_V = 4.84 + 5 log10(37.35/100) = 2.70. A 0.8-0.9 Msun K dwarf (M_V ~ 5.5-6) would be ~3 mag fainter in V and ~2 mag in K, easy to miss in a single-lined spectrum of a broad-lined F2 V star. So SB1 status does NOT by itself demand a white dwarf; a massive ~0.8 Msun WD is equally allowed. Speckle: MCA 44 was resolved only twice (1977, 1981; 0.041 and 0.047 arcsec) and unresolved in ~20 other attempts; the MSC flags it 'bogus?'. If those two resolutions were real they would argue for a luminous MS companion, but the MSC doubts them. The MSC also notes TESS eclipses at P = 8.40 d (Prsa et al. 2022), a possible third, inner body (Aa,Ab) not on the workbook. The SB9 363.57-d orbit (Abt 1965, grade 2) conflicts with the 1385.7-d Hipparcos period; the Abt orbit is the suspect one. Do not apply a main-sequence mass-luminosity relation until the nature is settled."
+  },
+  {
+    "component": "HD 207496 Bb",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Gaia Collaboration (Arenou et al.) 2023, Gaia DR3 binary_masses; Zhang et al. 2026, AJ 171, 77 (TOI-1099)",
+    "identifier": "gaiadr3.binary_masses source_id 6356417496318028928; arXiv:2509.25332",
+    "url": "https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_performance_verification/ssec_dm_binary_masses.html",
+    "quote": "binary_masses row: source_id 6356417496318028928, m1 0.55678296 (0.43284905-0.6061167), m2 null, m2_lower 0.1994282, m2_upper 0.64513415, fluxratio null, fluxratio_lower 0.08, fluxratio_upper 0.59, combination_method Orbital+M1, m1_ref IsocLum, flag (empty). Doc: m2_lower 'corresponds to the lower confidence level (16%) of the secondary mass obtained with fluxratio_lower'; 'fluxratio_upper corresponds to the maximum fluxratio compatible with both components being on the main sequence'; flag 'AMRFClassIII' marks compact-object companions. Zhang et al.: 'Gaia DR3 identifies HIP TOI-1099B as the source associated with the NSS two-body orbital solution (period = 1046 days, mass ratio 0.2), implying that the system is a hierarchical triple in which the primary star A is orbited by an unresolved binary.'",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "",
+      "url": "",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": ""
+    },
+    "nature": "undecided; Gaia DR3 treats it as a main-sequence (luminous) companion of 0.20-0.65 Msun -- NOT flagged as a dark/compact companion",
+    "notes": "CORRECTION to the workbook note: the Gaia DR3 binary_masses range 0.199-0.645 Msun is NOT a 'dark companion' lower bound. Both ends assume a luminous main-sequence companion: m2_lower goes with G-band flux ratio 0.08, and m2_upper with 0.59, the maximum compatible with both stars on the MS. The flag column is empty, so Gaia's AMRF test did not class it as a compact-object companion. A truly dark companion would give an even smaller m2 than 0.199. An M dwarf of ~0.2-0.65 Msun is therefore the natural reading, but no paper settles it. No L: B's own combined luminosity is unpublished (Gaia DR3 has no FLAME/GSP-Phot for 6356417496318028928; G 10.84, BP-RP 2.43, RUWE 37.8), and the flux-ratio interval (0.08-0.59) is too wide to split anything. Zhang et al. 2026 (orvara fit of the A-B visual orbit) treat B as one 0.63 Msun body ('K-dwarf companion ... Gaia DR3 6356417496318028928') and add 10% to its mass uncertainty because it is an unresolved pair. They quote 'mass ratio 0.2' for the NSS orbit, but the archive's nss_two_body_orbit row has no such value (mass_ratio null; OrbitalTargetedSearch, P 1048.57 d, e 0.406, significance 278)."
+  },
+  {
+    "component": "HD 23439 Bb",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Tokovinin, Duquennoy, Halbwachs & Mayor 1994, A&A 282, 831 ('Spectroscopic orbits of three K dwarf stars')",
+    "identifier": "1994A&A...282..831T; VizieR J/A+A/282/831",
+    "url": "https://dc.g-vo.org/rr/q/lp/custom/CDS.VizieR/J/A+A/282/831",
+    "quote": "'The spectroscopic orbits of single-lined binary dwarfs HD 23439B, HD 237287 and HD 217580 are derived ... The estimated minimum mass of secondary component corresponds to that of M-type dwarf for the first 2 systems'",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "",
+      "url": "",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": ""
+    },
+    "nature": "M dwarf (presumed from the minimum mass; never detected)",
+    "notes": "The only verdict in print is Tokovinin et al. 1994: the minimum mass 'corresponds to that of M-type dwarf'. The orbit is confirmed independently: SB9 1490 (Tokovinin 1994: P 48.6495 d, e 0.666, K1 10.11) and SB9 2326 (Latham 2002: P 48.6521, e 0.6614, K1 10.11). MSC (VizieR J/ApJS/235/6, 03470+4126 Ba,Bb): type 'S1,a', Mass2 0.12 'm', comment 'SB9_2326 RUWE=2.2'. Hirsch et al. 2021 (AJ 161, 134) Table 4 lists Bb at 0.12 +/- 0.01 'Dyn'; that is the same minimum mass, not a true mass. No true mass exists: Gaia DR3 231113740685855616 (Ba) has RUWE 2.20, non_single_star 0, no NSS orbit and no binary_masses row, and is not in Kervella 2022. My arithmetic (not published): with M_Ba 0.75 and the minimum-mass orbit, Ba's photocentre orbit is >= ~1.4 mas, consistent with RUWE 2.2. A white dwarf (>= 0.5 Msun) would need sin i <= 0.30 (i <~ 17.6 deg; a-priori probability ~4-5% for random orientation). No barium/s-process or UV evidence has been reported, so a MS mass-luminosity relation is the defensible choice, though it remains an inference. Side findings (not this star): Hirsch 2021 report a 45.7-d RV periodicity in HD 23439 A as a planet candidate, which they doubt because it is 'suspiciously close' to B's 48.6-d SB1 period. An et al. 2025 (ApJS 280, 61, arXiv:2508.08374) Table 6 row HIP 17666 gives M2 0.104 (+0.120/-0.056) Msun, a 39 AU, e 0.70, fitted with Gaia relative astrometry of the 2nd source; exoplanet.eu reads this as a third companion of A. Neither changes Bb."
+  },
+  {
+    "component": "GJ 187.2 Ab",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Krisciunas et al. 1993, MNRAS 263, 781 ('The 9 Aurigae system'); Krisciunas et al. 1995, MNRAS 273, 662; Aerts & Krisciunas 1996, MNRAS 278, 877",
+    "identifier": "arXiv:astro-ph/9304008; arXiv:astro-ph/9407094; arXiv:astro-ph/9509084",
+    "url": "https://arxiv.org/abs/astro-ph/9304008",
+    "quote": "Krisciunas 1993 sec. 2.1 'A close companion ?': 'Abt (1965) initially reported that 9 Aur A is a spectroscopic binary with an orbital period of 391.7 days. However, subsequently Abt & Levy (1974) \"could not confirm the previous orbit\" and concluded that its radial velocity was constant, i.e. that the primary had no close companion. Hartkopf & McAlister (1984) ... found nothing to a limit in angular separation of 0.03 arcsec, but would have been unable to detect a close companion if it were more than 2.5 magnitudes fainter'. Abstract: 'There is no evidence for a close, interacting companion or ring of dust, either from infrared, ultraviolet, or speckle data.'",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "",
+      "url": "",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": ""
+    },
+    "nature": "probably NONEXISTENT -- the 391.7-d SB1 orbit is refuted; the RV variability of 9 Aur A is g-mode pulsation (gamma Dor class)",
+    "notes": "GJ 187.2 = 9 Aur (WDS 05067+5136, HD 32537, HIP 23783); Kervella 2022 plx 37.09 mas matches the workbook's 88.01 ly. The orbit (Abt 1965, SB9 295, grade 2) was not confirmed by Abt & Levy 1974, who found the RV constant. Krisciunas et al. 1995 (astro-ph/9407094) find that RV, line widths and line depths vary with the photometric frequencies f1 0.795 and f2 0.345 c/d. They write that 'a variety of other explanations have already been discounted (e.g. interactions with a close companion ...)' and that there is 'very strong evidence that 9 Aurigae exhibits non-radial g-mode pulsations'. Their RVs span -5.50 to +5.15 km/s on a ~2.9-d period, comparable to Abt's K = 5.8 km/s. Aerts & Krisciunas 1996 model the two periods as an l=3, |m|=1 mode. MSC (VizieR J/ApJS/235/6, 05067+5136): row Aa,Ab is type 'S1??', Mass2 0.29 'm', comment 'SB9_295 false?'; notes '1996MNRAS.278.877 Aerts, Krisciunas: pulsations, not SB.' and 'DR3: RUWE(A,C,D,B) = 1.6, 1.0, 14.4, 1.7'. Kervella 2022 PMa for HIP 23783: S/N 3.57 (H-EG3a) and 0.63 (H-G2), M2(3 au) only 18.35 MJup, so no stellar-mass companion signal at au scales. A 1.07-yr orbit would also have produced a ~7 mas Hipparcos wobble, and Hipparcos has no orbital solution. RECOMMENDATION: treat Ab as spurious (candidate for removal or Rejected), not as a star needing L. Aside: Krisciunas 1993 say 9 Aur E 'if it is a member of the system, probably is a normal white dwarf' -- a different component."
+  },
+  {
+    "component": "HR 1099 Bb",
+    "outcome": "none",
+    "luminosity_lsun": null,
+    "luminosity_range": null,
+    "applies_to_component_alone": true,
+    "source": "Tokovinin & Gorynya 2001, A&A 374, 227 (SB9 no. 1523); Gaia DR3 gaia_source 3263936658312134272 (HR 1099 B)",
+    "identifier": "2001A&A...374..227T; VizieR B/sb9/orbits Seq=1523; Gaia DR3 3263936658312134272",
+    "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9/orbits&Seq=1523",
+    "quote": "SB9 1523: Per 1152.0 +/- 44.0 d, T0 2450362.0 +/- 85.0, e 0.40 +/- 0.22, omega 88 +/- 31, K1 1.76 +/- 0.55 km/s, V0 -15.94 +/- 0.17, rms 0.33, N 12, ref 2001A&A...374..227T. MSC 03368+0035 Ba,Bb 'S1' P 1152 d, Mass1 0.79 'v', Mass2 0.07 'm'. Gaia DR3 3263936658312134272: G 8.519, BP-RP 1.180, plx 33.866, RUWE 1.0334, astrometric_excess_noise 0.0937 mas, non_single_star 0, RV -15.34, rv_chisq_pvalue 0.295, rv_amplitude_robust 0.755 km/s, rv_nb_transits 6.",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": null,
+    "wikipedia": {
+      "page": "HR 1099",
+      "url": "https://en.wikipedia.org/wiki/HR_1099",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": "Wikipedia does not mention Bb"
+    },
+    "nature": "unknown -- no published verdict; minimum mass 0.07 Msun sits at the star/brown-dwarf boundary, and the orbit itself is in doubt",
+    "notes": "No paper found that discusses Bb's nature or brightness. The discovery paper's full text (A&A 374, 227) could not be fetched: aanda.org returns 403 and ADS is blocked. Its abstract (VizieR ReadMe J/A+A/374/227) does not mention HR 1099, though its table1 lists 'HD 22468 B ... HR 1099' with 12 RVs. Whatever the 9 Oct 'star' settlement rested on, the evidence in hand is only the minimum mass 0.07 Msun (MSC 'm'). At random inclination the true mass is most likely above the H-burning limit, but that is a statistical argument, not an observation. STRONG CAVEAT (my analysis, not published): the orbit is a 3.2-sigma K (1.76 +/- 0.55 km/s) from 12 RVs, with e uncertain by +/-0.22. If it is real, a1 sin i = 9.192e-5 x K1 x P x sqrt(1-e^2) = 0.171 AU = 5.8 mas at 33.87 mas. That is a lower bound: it grows for i < 90 deg, and a dark or faint companion cannot cancel it. Gaia DR3's 34-month baseline covers ~0.9 of that period, so a >= 5.8 mas photocentre orbit on a G = 8.5 star should give a large RUWE and an NSS solution. Instead RUWE = 1.03 and excess noise = 0.09 mas, and Gaia's 6 RV transits have a robust amplitude of 0.76 km/s (p = 0.29 for constancy) against the ~3.5 km/s peak-to-peak the orbit predicts. Kervella 2022 PMa for HIP 16846 (that is A, HD 22468): S/N 1.05/4.71. Gaia DR3 therefore argues that the 1152-d SB1 orbit is spurious, or much smaller than published. Recommend re-opening Bb's status (hollow/hypothetical) rather than deriving any L. No L or flux ratio exists in any case."
+  },
+  {
+    "component": "GJ 376 Bb",
+    "outcome": "derivable",
+    "luminosity_lsun": 0.0009,
+    "luminosity_range": [
+      0.0009,
+      0.00112
+    ],
+    "applies_to_component_alone": true,
+    "source": "Winters et al. 2026, ApJ 1004, 224 ('Radial and Rotational Velocities of a Volume-Complete Sample of M Dwarfs with Masses 0.1-0.3 Msun within 15 parsecs') + Pecaut & Mamajek 2013 dwarf table (online version 2022.04.16) + 2MASS + Gaia DR3",
+    "identifier": "2026ApJ..1004..224W; arXiv:2602.00382",
+    "url": "https://arxiv.org/abs/2602.00382",
+    "quote": "'GJ 376B (10:00 +31:55) was a suspected unresolved binary based on its overluminosity (Gizis et al. 2000; Raghavan et al. 2010), and we confirm that it is double-lined with an orbital period of 945 d. We estimate a flux ratio of 0.7, a mass ratio of 1.03 +/- 0.04 and a gamma velocity of 55.97 +/- 1.08 km s-1 from our spectra. This object has a RUWE value of 8.4 in the Gaia DR3. This new binary is part of a new hierarchical triple system at 14.5 pc with a solar-type primary component at a separation of 134. We will present the spectroscopic orbit for this system in an upcoming publication.' Conclusions: 'Within 15 pc, LP 69-457 and GJ 376B are two new double-lined binaries'. Flux ratios are 'fluxB/fluxA', measured with todcor on TRES spectra (TRES order ~7100-7150 A).",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": "Combined K of GJ 376 B: 2MASS 10005030+3155459 Ks = 9.275 +/- 0.018 (VizieR II/246). Distance from the Gaia DR3 parallax of GJ 376 A (746545172372256384), 66.996 +/- 0.092 mas; B's own 66.93 has RUWE 8.4. M_Ks(B+Bb) = 9.275 + 5 log10(0.066996) + 5 = 8.405. Split with the Winters et al. 2026 flux ratio f = 0.7 (Bb/Ba, red optical), taken as the K-band and bolometric ratio: M_Ks(Bb) = 8.405 + 2.5 log10((1+f)/f) = 9.369; M_Ks(Ba) = 8.981. logL from M_Ks by linear interpolation in Pecaut & Mamajek's dwarf table (https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt, v2022.04.16): M6V M_Ks 9.22, logL -2.98; M6.5V M_Ks 9.50, logL -3.10. Result: logL(Bb) = -3.044, L = 0.00090 Lsun (Ba 0.00134). Range: if the K-band ratio is nearer unity (the mass ratio 1.03 +/- 0.04 says near-twins), f = 1 gives M_Ks 9.158, logL -2.952, L = 0.00112. Range [0.00090, 0.00112].",
+    "wikipedia": {
+      "page": "",
+      "url": "",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": ""
+    },
+    "nature": "M dwarf (confirmed: double-lined, near-twin of Ba; ~M6-M6.5 by M_Ks)",
+    "notes": "Bb is no longer 'suspected': Winters et al. 2026 detect it spectroscopically (SB2, P = 945 d). Consequences for the workbook beyond L: (1) Mass: q = 1.03 +/- 0.04, so Bb ~ Ba. Hirsch et al. 2021 assign 0.10 Msun each by spectral type, and M_Ks 9.37 corresponds to ~0.1 Msun in the same Mamajek table, so 0.1 stands, now as an equal-mass statement rather than a guess. (2) Separation: my Kepler arithmetic with P = 945 d and M_tot ~0.2 Msun gives a ~ 1.1 AU, not the assumed 3 AU; the spectroscopic orbit itself is still 'upcoming'. (3) Drawing status: no longer hypothetical. The flux ratio is optical (~7100 A), not K or bolometric; for near-equal M dwarfs the bolometric ratio should lie between 0.7 and 1, hence the range. Independent checks: POKEMON speckle (Clark et al. 2024, AJ 167, 56; VizieR J/AJ/167/56 table1 row 2MASS J10005030+3155459: Ndet 0, Comp? N) did not resolve it, consistent with ~1.1 AU = 0.07 arcsec. TIC v8.2 172954298 gives Lum 0.00178 +/- 0.00051 for the blend, but its row has no parallax (Plx/Dist blank), so it was not used. Gizis et al. 2000 quote M_K 8.19 for B from the Hipparcos parallax. With Gaia DR3 the blend is M_Ks 8.41, still ~1.2 mag brighter than a single M6.5 dwarf (their 9.60), consistent with a near-equal pair."
+  },
+  {
+    "component": "HD 149806 Bb",
+    "outcome": "derivable",
+    "luminosity_lsun": 0.017,
+    "luminosity_range": [
+      0.011,
+      0.017
+    ],
+    "applies_to_component_alone": true,
+    "source": "An et al. 2025, ApJS 280, 61 (dynamical mass of HD 149806 B from RV + WDS astrometry); Hirsch et al. 2021, AJ 161, 134 (resolution, contrasts); 2MASS; Gaia DR3; Pecaut & Mamajek dwarf table v2022.04.16",
+    "identifier": "2025ApJS..280...61A, arXiv:2508.08374 Table 6 row HIP 81375; 2021AJ....161..134H, arXiv:2012.09190 Table 3",
+    "url": "https://arxiv.org/abs/2508.08374",
+    "quote": "An et al. 2025 Table 6 ('MCMC result of stellar companions'), row 81375: RV jitter 3.47 (+0.41/-0.35) m/s, M1 0.976 (+0.049/-0.048) Msun, M2 0.829 (+0.022/-0.023) Msun, semi-major axis 96 (+38/-25) AU, inclination 102.7 (+14.0/-5.7) deg, period 700 (+450/-260) yr, e 0.41 (+0.45/-0.20); Table 5 row 81375: RV 'CLS', RelAST 'WDS'. Hirsch 2021 Table 3: '149806 81375 Ba 2457498.9480 ShaneAO Ks 6.300 +/- 0.005 17.3 +/- 0.1 2.130 +/- 0.001 Aper'; '... Ba 2457943.7561 ShaneAO BrG 6.290 +/- 0.005 17.4 +/- 0.1 2.370 +/- 0.004 Aper'; '... Bb 2457554.8106 Palomar BrG 6.249 +/- 0.005 20.2 +/- 0.1 2.480 +/- 0.020 Aper'; Table 4: 'Ba 0.95 Spec 0.43 +/- 0.03 Phot ... 127.76 +/- 6.96 Proj', Bb row with no mass.",
+    "radius_rsun": null,
+    "teff_k": null,
+    "derivation": "B (Ba+Bb, unresolved) is 2MASS 16370858+0015216, Ks = 7.282 +/- 0.038. A is 16370844+0015157, Ks 5.183; the difference of 2.10 matches Hirsch's ShaneAO Delta-Ks of 2.130. B has no Gaia parallax, so use A's: Gaia DR3 4383374219923745024, plx 49.204 +/- 0.022 mas. M_Ks(B total) = 7.282 + 5 log10(0.049204) + 5 = 5.742. Split: there is no published Ba/Bb flux ratio, so the ratio is INFERRED from An et al. 2025's dynamical mass of B, 0.829 Msun. A single star with M_Ks 5.74 is ~0.6 Msun, and for a fixed total mass the combined K light is lowest when the components are equal, so 0.83 Msun at this brightness requires a near-equal pair. An equal split gives each M_Ks 6.495, which the same table puts at ~0.375 Msun (total ~0.75, already slightly under 0.83). Equal split, f = 1: M_Ks(Bb) = 5.742 + 0.753 = 6.495. Interpolating Pecaut & Mamajek between M2.5V (M_Ks 6.18, logL -1.64) and M3V (6.55, -1.79) gives logL -1.768, L = 0.0171 Lsun. Lower bound with f = 0.5 (Bb 0.75 mag fainter in K): M_Ks 6.935, between M3V and M3.5V (7.10, -2.03), giving logL -1.958, L = 0.0110. Adopt 0.017 (twin, favoured by the mass), range [0.011, 0.017].",
+    "wikipedia": {
+      "page": "",
+      "url": "",
+      "cited_source": "",
+      "cited_url": "",
+      "cross_check": ""
+    },
+    "nature": "M dwarf (early-mid M, ~M3; near-equal companion of Ba) -- inferred, not spectroscopically seen",
+    "notes": "Why it is derivable now: An et al. 2025 measured B's total dynamical mass, 0.829 +/- 0.02 Msun, from the A-B orbit (CLS RVs of A plus WDS relative astrometry). Hirsch 2021's photometric mass for 'Ba' (0.43) came from B's unresolved light, so 0.829 - 0.43 = 0.40 Msun for Bb. That agrees with the near-twin split and is well above the workbook's assumed 0.27; suggest ~0.4 Msun for Bb. The MSC note says 'B is above MS, assumed binary', and the dynamical mass and the overluminosity agree with it. WHY NOT FROM HIRSCH'S CONTRAST: the Palomar/PHARO 'Bb' measurement (Delta-BrG 2.480 +/- 0.020 from A) holds nearly all of B's light; the ShaneAO Delta-BrG for unresolved B is 2.370 +/- 0.004. Subtracting fluxes leaves 0.0108 of A's flux for the other component (Delta 4.92 mag), which contradicts both a twin and the 0.83 Msun mass. Cross-instrument contrasts in the same table disagree by far more than their errors (e.g. HD 23439 Ba: ShaneAO BrG 0.28 vs Palomar BrG 0.780; HD 149806 itself: ShaneAO Ks 2.130 vs BrG 2.370). The PHARO PA (20.2 deg) also differs from ShaneAO's (17.3-17.4 deg) by ~0.3 arcsec at 6.3 arcsec. The 'Bb' entry is therefore probably B itself (or one star of a pair, with a calibration offset), not a clean Ba/Bb contrast. Gaia DR3 4383374254283483648 (B): G 11.318, BP-RP 2.786, 2-parameter solution only. At A's distance its M_G(total) is 9.78, ~0.75 mag brighter than a single M3-M3.5 dwarf, again consistent with a twin. Distance: 49.204 mas = 20.32 pc = 66.3 ly (workbook 66.12)."
+  }
+]

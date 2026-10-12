@@ -1,0 +1,39 @@
+{
+  "_comment": "The viewer's About panel (three_viewer.js, aboutDialog). Content only: fill in a DOI or a handle here and the panel shows it; null hides that line. docs/architecture/web-app.md.",
+  "title": "Hybrasil Star and Exoplanet Map",
+  "dataset_title": "Hybrasil Star and Exoplanet Dataset",
+  "dataset_description": "The stars, planets, moons and orbits of the star systems within 100 light years of the Sun, with the multiple-star hierarchies, the S-stars round Sgr A* and the solvent chemistry behind the bands. Every value carries its source, and values copied from Wikipedia or inferred rather than measured are marked as such.",
+  "tagline": "An interactive map of nearby star systems, their stars, planets and moons drawn from published orbits, with the bands round each star where common solvents could be liquid.",
+  "year": 2026,
+  "keywords": ["astronomy", "exoplanets", "star systems", "multiple stars", "orbital mechanics", "solvent bands", "habitable zone", "visualization"],
+  "author": {
+    "name": "Cade Summers",
+    "family": "Summers",
+    "given": "Cade",
+    "orcid": "0009-0007-0361-4779",
+    "github": "CadeSummers"
+  },
+  "site": "https://hybrasil.app",
+  "source": "https://github.com/CadeSummers/hybrasil",
+  "contact": "cade@hybrasil.app",
+  "licences": {
+    "code": {"name": "AGPL-3.0-or-later", "url": "https://www.gnu.org/licenses/agpl-3.0.html"},
+    "data": {"name": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/"}
+  },
+  "dois": {"software": null, "dataset": null},
+  "support": {"ko_fi": null, "patreon": null},
+  "credits": [
+    ["Milky Way background", "NASA/Goddard Space Flight Center Scientific Visualization Studio, Deep Star Maps 2020", "https://svs.gsfc.nasa.gov/4851"],
+    ["Star positions and motions", "ESA Gaia DR2 and DR3, processed by the Gaia DPAC", "https://www.cosmos.esa.int/gaia"],
+    ["Planets", "NASA Exoplanet Archive, operated by Caltech/IPAC", "https://exoplanetarchive.ipac.caltech.edu"],
+    ["Nearby stars", "Fifth Catalogue of Nearby Stars, CNS5 (Golovin et al. 2023)", "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/670/A19"],
+    ["Multiple stars", "Multiple Star Catalog (Tokovinin 2018)", "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/235/6"],
+    ["Binary orbits", "Sixth Catalog of Orbits of Visual Binary Stars (ORB6) and the Washington Double Star Catalog", "http://www.astro.gsu.edu/wds/"],
+    ["Spectroscopic orbits", "Ninth Catalogue of Spectroscopic Binary Orbits, SB9 (Pourbaix et al. 2004)", "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9"],
+    ["S-stars round Sgr A*", "Gillessen et al. 2017 and the GRAVITY Collaboration", "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/837/30"],
+    ["Star colours and classes", "E. Mamajek, A Modern Mean Dwarf Stellar Color and Effective Temperature Sequence", "http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt"],
+    ["Catalogue access", "SIMBAD and VizieR, CDS, Strasbourg", "https://cds.unistra.fr"],
+    ["Some values", "Wikipedia, CC BY-SA, each marked in the dataset with the source it cites", "https://www.wikipedia.org"],
+    ["Rendering", "three.js and Plotly (MIT licence)", "https://threejs.org"]
+  ]
+}

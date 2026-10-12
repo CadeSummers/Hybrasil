@@ -1,0 +1,1859 @@
+{
+ "agent_id": "K030",
+ "batch": "K030",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 12935|",
+   "name": "GJ 12935",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. CWISEP J201146.45-481259.7 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 13167|",
+   "name": "GJ 13167",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J21543318+5942187 (BD* T6)."
+  },
+  {
+   "key": "GJ 10001|",
+   "name": "GJ 10001",
+   "done": true,
+   "rv": {
+    "value": 6.4,
+    "err": 0.5,
+    "src": "H21",
+    "where": "VizieR J/ApJS/257/45/dwarfT (= table5), ID J0000+2554 (SimbadName 2MASS J00001354+2554180), RV = 6.4 -0.5/+0.4 km/s (larger side given); table4: single Keck/NIRSPEC epoch 2019 Oct 17, order 58, no literature RV",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 10744|",
+   "name": "GJ 10744",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": -5.2,
+    "pmdec": -433.0,
+    "err": 1.0,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/tablea1, Name WISE 0513+0608 (WISEPA J051317.28+060814.7), pmRA = -5.2 +/- 0.5, pmDE = -433.0 +/- 1.0 mas/yr (err = larger)",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021 J/ApJS/253/7, Best+2020 J/AJ/159/257, Best+2021 J/AJ/161/42, Kirkpatrick+2019 J/ApJS/240/19, CatWISE2020 II/365, Faherty+2009 J/AJ/137/1 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. 2MASS J05131727+0608190 = WISEPA J051317.28+060814.7 (T6.5, plx 70.8 mas). CatWISE2020 gives 5.7 +/- 12.9, -455.2 +/- 14.6."
+  },
+  {
+   "key": "GJ 11801|",
+   "name": "GJ 11801",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS2MASS J1231+0847 (BD* T6)."
+  },
+  {
+   "key": "GJ 10110|",
+   "name": "GJ 10110",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J00402492+0900547 (BD* T7)."
+  },
+  {
+   "key": "GJ 10802|",
+   "name": "GJ 10802",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J054047.00+483232.4 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 12847|",
+   "name": "GJ 12847",
+   "done": true,
+   "rv": {
+    "value": -36.9,
+    "err": 5.1,
+    "src": "F24",
+    "where": "Faherty et al. 2024 Nature (arXiv 2404.10977 LaTeX) Extended Data target table, row RV, W1935 column: -36.9 +/- 5.1 km/s; Sect. 'Radial Velocity': JWST/NIRSpec G395H correlated with Lacy & Burrows 2023 models",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "F24": {
+     "citation": "Faherty et al. 2024, Nature 628, 511 (arXiv 2404.10977)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2024Natur.628..511F",
+     "what": "JWST/NIRSpec G395H spectrum and RV of the Y dwarf W1935"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Confirms SIMBAD's rejected value (-36.9, quality D, 2024Natur.628..511F): it is a real measurement, quality D only because of the 5 km/s error. W1935 = CWISE J193518.61-154620.7 (Y dwarf)."
+  },
+  {
+   "key": "GJ 10065 B|",
+   "name": "GJ 10065 B",
+   "done": true,
+   "rv": {
+    "value": -7.27,
+    "err": 1.35,
+    "src": "K10",
+    "where": "Konopacky et al. 2010 (arXiv 1001.4800 LaTeX) tab5.tex 'Radial Velocity Measurements', row LP 349-25AB, 2009 Jun 12, column 'Rad. Velocity Secondary (km/s)': -7.27 +/- 1.35 (heliocentric, Keck NIRSPEC+AO, component B resolved)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "K10": {
+     "citation": "Konopacky et al. 2010, ApJ 711, 1087 (arXiv 1001.4800)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2010ApJ...711.1087K",
+     "what": "Keck NIRSPEC+AO resolved component RVs of very-low-mass binaries"
+    },
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Component B's own RV, most precise of four epochs: -6.57 +/- 2.50 (2006 Dec 16), -5.50 +/- 3.02 (2007 Dec 4), -6.78 +/- 1.84 (2008 Dec 19), -7.27 +/- 1.35 (2009 Jun 12); not averaged. System centre-of-mass velocity from the same paper (tab7, absolute orbit): -8.0 +/- 0.5 km/s, system-level and not used as B's. Primary A: -11.91 +/- 1.33 ... -8.16 +/- 0.49; Hsu+2021 dwarf20pc -11.9 +/- 1.3 (ref 720 = Konopacky 2010) is A's first epoch. Reiners & Basri 2009 -16.8 +/- 3.0 and SIMBAD's -15.8 (2012AJ....144...99D) are unresolved/system values. PM: only system values exist - Gaia DR3 2799992744809482112 (photocentre) 392.717 +/- 0.471, -186.588 +/- 0.399; CatWISE2020 400.6 +/- 4.5, -178.9 +/- 3.8 mas/yr - not reported as B's own. LAMOST DR11 MRS -393.6 and Verberne+2024 614.7 km/s are failed fits."
+  },
+  {
+   "key": "GJ 11833|",
+   "name": "GJ 11833",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. CWISEP J124138.41-820051.9 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 11900|",
+   "name": "GJ 11900",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No RV found. The DESI SpecDis and LAMOST DR11 rows 4 arcsec away belong to Gaia DR3 3690955226141964928 (pm -5.7, -2.2 mas/yr), a background star, not this T9 dwarf."
+  },
+  {
+   "key": "GJ 10788|",
+   "name": "GJ 10788",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J053516.80-750024.9 (BD* Y1V)."
+  },
+  {
+   "key": "GJ 10089|",
+   "name": "GJ 10089",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. CFBDS J003402-005206 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 11496|",
+   "name": "GJ 11496",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS J102940.52+093514.6 (BD* T8)."
+  },
+  {
+   "key": "GJ 10467|",
+   "name": "GJ 10467",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. CWISE J032109.83+693203.8 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 11128|",
+   "name": "GJ 11128",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS J075003.88+272545.4 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 13413|",
+   "name": "GJ 13413",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISEP J234446.25+103415.8 (BD* T9)."
+  },
+  {
+   "key": "Gaia DR3 4114677389434590720|4114677389434590720",
+   "name": "Gaia DR3 4114677389434590720",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row"
+   ],
+   "notes": "No RV found. SIMBAD knows the source only by its Gaia DR3 name. Gaia DR3 gives plx 67.94 mas but no G magnitude, in a crowded bulge field (RA 259.66, Dec -22.83); a 5-parameter solution without photometry there may be spurious - worth checking that this is a real nearby object."
+  },
+  {
+   "key": "GJ 11556|",
+   "name": "GJ 11556",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J105257.95-194250.2 (BD* T7.5)."
+  },
+  {
+   "key": "GJ 11225|",
+   "name": "GJ 11225",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J08264116-1640382 (BD* L9)."
+  },
+  {
+   "key": "GJ 12773|",
+   "name": "GJ 12773",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J19010601+4718136 (BD* T5)."
+  },
+  {
+   "key": "GJ 13257|",
+   "name": "GJ 13257",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J22372056+7228351 (BD* T6)."
+  },
+  {
+   "key": "GJ 11876|",
+   "name": "GJ 11876",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J125804.90-441232.5 (BD* T6.0)."
+  },
+  {
+   "key": "GJ 13345|",
+   "name": "GJ 13345",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J23185497-1301106 (BD* T5)."
+  },
+  {
+   "key": "GJ 12666|",
+   "name": "GJ 12666",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025",
+    "Clarke+2010 J/MNRAS/402/575 table2 (SIPS 1826-6542, M6.5): no RV"
+   ],
+   "notes": "No RV found. SCR J1826-6542 = SIPS 1826-6542, M6.5 (Clarke+2010). Gaia DR3 6437414738363953536 is a 2-parameter solution (no plx/PM). Verberne+2024 645.9 +/- 282.5 km/s is a failed fit."
+  },
+  {
+   "key": "GJ 10539|",
+   "name": "GJ 10539",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. UGPS J035532.00+474358.8 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 11623 B|",
+   "name": "GJ 11623 B",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": -980.1,
+    "pmdec": -312.0,
+    "err": 1.2,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/tablea1, Name WISE 1122+2550 (WISEPC J112254.73+255021.5), pmRA = -980.1 +/- 1.2, pmDE = -312.0 +/- 0.8 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021, Best+2020, Best+2021, Kirkpatrick+2019, CatWISE2020, Faherty+2009 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. 2MASS J11225550+2550250 = WISEPC J112254.73+255021.5 (T6), detected as a single object, so the PM is its own. Alternatives: Best+2020 (SIMBAD pm_bibcode 2020AJ....159..257B) -1011.9, -323.8 (+/-3.0); CatWISE2020 -1040.2 +/- 14.8, -360.3 +/- 15.5."
+  },
+  {
+   "key": "GJ 12367|",
+   "name": "GJ 12367",
+   "done": true,
+   "rv": {
+    "value": -5.9,
+    "err": 2.2,
+    "src": "ZO07",
+    "where": "Zapatero Osorio et al. 2007 (arXiv 0706.0784 LaTeX) Table 'Heliocentric velocities of our sample', row 2MASS J16322911+1904407: v_h = -5.9 +/- 2.2 km/s against template 2M2224-01 (single Keck/NIRSPEC epoch 2001 Jun 15)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "ZO07": {
+     "citation": "Zapatero Osorio et al. 2007, ApJ 666, 1205 (arXiv 0706.0784)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2007ApJ...666.1205Z",
+     "what": "Keck/NIRSPEC heliocentric RVs of L and T dwarfs"
+    },
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Same spectrum against template vB10 gives -5.5 +/- 3.7 (the more precise template value picked; not averaged). Hsu+2021 dwarf20pc lists -6.0 +/- 2.0 with ref code 758 (Bailer-Jones 2004), but Bailer-Jones 2004 (astro-ph/0403013) does not contain this object and neither does Blake 2007 (0705.3901) or Blake 2010; the value most likely comes from ZO07 (code 759), consistent with the known off-by-one in Hsu's codes. ZO07 also quotes an older literature value '+5:' (uncertain) from Mohanty & Basri 2003. Schmidt+2010 J/AJ/139/1808 has no RV for it."
+  },
+  {
+   "key": "GJ 11118|",
+   "name": "GJ 11118",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J074457.25+562821.0 (BD* T8)."
+  },
+  {
+   "key": "GJ 11424|",
+   "name": "GJ 11424",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J09560810-1447065 (BD* L9)."
+  },
+  {
+   "key": "GJ 11532|",
+   "name": "GJ 11532",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": 56.0,
+    "pmdec": -75.1,
+    "err": 5.2,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/tablea1, Name WISE 1042-3842, pmRA = 56.0 +/- 4.1, pmDE = -75.1 +/- 5.2 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021, Kirkpatrick+2019, CatWISE2020 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. CatWISE2020 84.5 +/- 23.3, -100.3 +/- 27.0."
+  },
+  {
+   "key": "GJ 11886|",
+   "name": "GJ 11886",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS J130217.21+130851.2 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 12216|",
+   "name": "GJ 12216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J152305.10+312537.6 (BD* T6.5pec)."
+  },
+  {
+   "key": "GJ 12528 B|",
+   "name": "GJ 12528 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "Konopacky+2010 (arXiv 1001.4800) RV table: not included",
+    "Hsu+2021 dwarf20pc: no entry",
+    "PM: Kirkpatrick+2021, CatWISE2020, Faherty+2009"
+   ],
+   "notes": "No component RV found. LP 388-55 = LSPM J1735+2634 AB (M7.5+L0, ~0.3 arcsec). PM: system values only - Gaia DR3 4594186745414679680 141.579, -289.130; CatWISE2020 146.75 +/- 3.9, -320.58 +/- 3.8; Kirkpatrick+2021 tablea1 'LSPM 1735+2634B' 149.6 +/- 0.7, -319.2 +/- 0.8 (system astrometry assigned to B); Faherty+2009 190 +/- 80, -320 +/- 90 mas/yr - not reported as B's own. Verberne+2024 959.95 km/s is a failed fit."
+  },
+  {
+   "key": "GJ 10382|",
+   "name": "GJ 10382",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J024714.52+372523.5 (BD* T8)."
+  },
+  {
+   "key": "GJ 13315|",
+   "name": "GJ 13315",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J230228.68-713441.6 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 760|",
+   "name": "GJ 760",
+   "done": true,
+   "rv": {
+    "value": -34.0,
+    "err": 0.2,
+    "src": "G06",
+    "where": "VizieR III/252/table8, HIP 95501: RV = -34.0 +/- 0.2 km/s (o_RV = 2 sources combined by Gontcharov)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "G06": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (VizieR III/252)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2006AstL...32..759G",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "K04": {
+     "citation": "Kharchenko, Piskunov & Scholz 2004, AN 325, 439 (VizieR III/239, CRVAD)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2004AN....325..439K",
+     "what": "RVs of Hipparcos/ASCC stars per CCDM component, from the GCRV"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "del Aql, F1IV-V rapid rotator and astrometric binary (no SB9 orbit found, no published gamma velocity). Alternatives: Kharchenko III/239 and Barbier-Brossat III/213 (GCRV) -30.1 (91 obs, quality A); Duflot WEB -30.1; Gaia DR3 -36.59 +/- 7.82 (the SIMBAD-rejected value, RV amplitude 20.6 km/s). The ~4 km/s spread between compilations is real; Gontcharov chosen as the most precise."
+  },
+  {
+   "key": "GJ 12782|",
+   "name": "GJ 12782",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J19062476+4508112 (BD* T6)."
+  },
+  {
+   "key": "GJ 11554|",
+   "name": "GJ 11554",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISEA J105130.02-213859.9 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 10169|",
+   "name": "GJ 10169",
+   "done": true,
+   "rv": {
+    "value": 8.2,
+    "err": 0.5,
+    "src": "V17",
+    "where": "Vos et al. 2017 (arXiv 1705.06045 LaTeX) table of vsini/RV/Teff/logg, row 2M0107+00: RV = 8.2 +/- 0.5 km/s (Keck/NIRSPEC N7, 2011-09-07)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "V17": {
+     "citation": "Vos et al. 2017, ApJ 842, 78 (arXiv 1705.06045)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2017ApJ...842...78V",
+     "what": "Keck/NIRSPEC vsini and RV of variable L/T dwarfs"
+    },
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Hsu+2021 dwarf20pc lists the same 8.2 +/- 0.5 with ref code 771 (Terrien 2015), which is Vos 2017 (code 772) after the known off-by-one. SIMBAD's rejected 2.998 km/s (type z, SDSS 2008ApJS..175..297A) is a redshift artefact."
+  },
+  {
+   "key": "GJ 12581|",
+   "name": "GJ 12581",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J17545447+1649196 (BD* T5.5)."
+  },
+  {
+   "key": "GJ 11332|",
+   "name": "GJ 11332",
+   "done": true,
+   "rv": {
+    "value": 37.8,
+    "err": 1.6,
+    "src": "H21",
+    "where": "VizieR J/ApJS/257/45/dwarfT (= table5), ID J0909+6525 (SimbadName 2MASS J09090085+6525275), RV = 37.8 +/- 1.6 km/s; table4: single Keck/NIRSPEC epoch 2010 Dec 26, order 33",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Unresolved spectral-binary candidate (T1.5+T2.5, Burgasser+2010); the RV is of the blended light, which is what this row is."
+  },
+  {
+   "key": "GJ 13128|6558741070485093632",
+   "name": "GJ 13128",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row"
+   ],
+   "notes": "No RV found. 2MASS J21415505-5118506, L6pec, Gaia DR3 6558741070485093632."
+  },
+  {
+   "key": "GJ 11915|",
+   "name": "GJ 11915",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISEA J131833.96-175826.3 (BD* T8)."
+  },
+  {
+   "key": "GJ 11010|",
+   "name": "GJ 11010",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J06560926+4205301 (BD* T3)."
+  },
+  {
+   "key": "GJ 12244|",
+   "name": "GJ 12244",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASSI J1534498-295227 (BD* T4.5+T5)."
+  },
+  {
+   "key": "GJ 13401|",
+   "name": "GJ 13401",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASSI J2339101+135230 (BD* T5.4)."
+  },
+  {
+   "key": "GJ 10994|",
+   "name": "GJ 10994",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J06475076-1546179 (BD* L9.5)."
+  },
+  {
+   "key": "GJ 11526 B|5443030200460964480",
+   "name": "GJ 11526 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "No RV for CD-36 6589 B (Gaia DR3 5443030200460964480, no Gaia RV). Primary CD-36 6589 A (Gaia DR3 5443030196164951168): Gaia DR3 60.79 +/- 0.27; Soubiran+2018 60.301 (A/system) - not used for B."
+  },
+  {
+   "key": "GJ 10974|",
+   "name": "GJ 10974",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No RV found. Gagne+2014 J/ApJ/783/121 lists the object (ISpT Lp) with no RV."
+  },
+  {
+   "key": "GJ 11311|",
+   "name": "GJ 11311",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS J090116.23-030635.0 (BD* T7.5)."
+  },
+  {
+   "key": "GJ 10130|",
+   "name": "GJ 10130",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J00492826+0440575 (BD* L9)."
+  },
+  {
+   "key": "GJ 12809|",
+   "name": "GJ 12809",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": 384.6,
+    "pmdec": 419.7,
+    "err": 2.5,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/plx, PName 1919+3045 (WISE J191915.54+304558.4), pmRA = 384.6 +/- 2.3, pmDE = 419.7 +/- 2.5 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021, Best+2020, Best+2021, CatWISE2020 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. Row identified by position (no SIMBAD id in batch): 2MASS J19191519+3045536 = WISE J191915.54+304558.4, L6 (Kirkpatrick) / L9 (Best), plx 62.5 mas = 52.2 ly, matching the batch distance. Best+2020 J/AJ/159/257/table4 absolute PM 388.9 +/- 3.5, 411.5 +/- 3.9; CatWISE2020 416.7 +/- 6.5, 426.2 +/- 5.8."
+  },
+  {
+   "key": "GJ 263|",
+   "name": "GJ 263",
+   "done": true,
+   "rv": {
+    "value": -5.8,
+    "err": 0.3,
+    "src": "G06",
+    "where": "VizieR III/252/table8, HIP 34104 (Ross 54): RV = -5.8 +/- 0.3 km/s (o_RV = 2 sources combined by Gontcharov)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "G06": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (VizieR III/252)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2006AstL...32..759G",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025",
+    "Beuzit et al. 2004 (arXiv astro-ph/0106277 LaTeX) Gl 263 section: period only, no gamma",
+    "Sperauskas+2019 J/A+A/626/A31 and SB9: not listed",
+    "Cortes-Contreras+2024 J/A+A/692/A206 tableb1: no RV"
+   ],
+   "notes": "CAUTION: Ross 54 = Gl 263 is an eccentric spectroscopic binary (P = 1313 d from 28 CORAVEL RVs, resolved at 0.11 arcsec; Beuzit+2004) with no published systemic velocity, so this compiled mean is not a gamma velocity. Alternatives: PMSU III/198 -1.1 (+/-10); Gaia DR3 3046530292874936448 -20.96 +/- 22.89 (RV amplitude 167 km/s, the rejected value). The batch J2016 position is 1.2 arcsec from the Gaia DR3 position."
+  },
+  {
+   "key": "GJ 12609|",
+   "name": "GJ 12609",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISEP J180435.40+311706.1 (BD* T9.5:)."
+  },
+  {
+   "key": "GJ 10431|",
+   "name": "GJ 10431",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J030919.67-501614.3 (BD* T7)."
+  },
+  {
+   "key": "GJ 10952|",
+   "name": "GJ 10952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. CWISEP J063428.10+504925.9 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 12391|",
+   "name": "GJ 12391",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J163932.74+184049.0 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 13454|",
+   "name": "GJ 13454",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J23571646+1227475 (BD* T6)."
+  },
+  {
+   "key": "GJ 12015|",
+   "name": "GJ 12015",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J14003541-3850109 (BD* T4)."
+  },
+  {
+   "key": "GJ 10730|",
+   "name": "GJ 10730",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J05065012+5236338 (BD* T4.5)."
+  },
+  {
+   "key": "GJ 10805|",
+   "name": "GJ 10805",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J05423145-1628323 (BD* T6.5)."
+  },
+  {
+   "key": "GJ 13176|",
+   "name": "GJ 13176",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J215751.35+265931.4 (BD* T7)."
+  },
+  {
+   "key": "GJ 13390|",
+   "name": "GJ 13390",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J233226.49-432510.6 (BD* T9:)."
+  },
+  {
+   "key": "GJ 13410|",
+   "name": "GJ 13410",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J23435046-7418485 (BD* T6)."
+  },
+  {
+   "key": "GJ 10079|",
+   "name": "GJ 10079",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J003231.09-494651.4 (BD* T8.5)."
+  },
+  {
+   "key": "GJ 11078|",
+   "name": "GJ 11078",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J072312.44+340313.5 (BD* T9:)."
+  },
+  {
+   "key": "GJ 11918|",
+   "name": "GJ 11918",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": -559.0,
+    "pmdec": -50.9,
+    "err": 1.4,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/tablea1, Name WISE 1320+6034, pmRA = -559.0 +/- 1.4, pmDE = -50.9 +/- 0.8 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021, Kirkpatrick+2019, CatWISE2020 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. CatWISE2020 -544.2 +/- 15.7, -63.9 +/- 15.7."
+  },
+  {
+   "key": "GJ 781 B|",
+   "name": "GJ 781 B",
+   "done": true,
+   "rv": {
+    "value": -37.8,
+    "err": 5.0,
+    "src": "H26",
+    "where": "Hsu et al. 2026 (arXiv 2609.28746 LaTeX) table tab:rv_uvw, row 'Wolf 1130 C': RV = -37.8 +/- 0.3 (sampling) +/- 5 (systematic) km/s, JWST/NIRSpec G395H, GO 4668, 2024-08-30; err given = 5.0",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "H26": {
+     "citation": "Hsu et al. 2026, arXiv 2609.28746, \"Metal-poor Brown Dwarf Kinematics from JWST NIRSpec Spectroscopy\"",
+     "url": "https://arxiv.org/abs/2609.28746",
+     "what": "JWST/NIRSpec G395H RVs of 23 L/T/Y dwarfs (stat +/- 5 km/s systematic)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Naming: SIMBAD's main id for this T8p dwarf is 'Wolf 1130 B', but the literature (Mace 2013/2018, Hsu 2026) calls the T dwarf Wolf 1130 C (WISE J200520.38+542433.9) and the white dwarf Wolf 1130 B. Position (301.335, 54.409) and PM (-1159.5, -904.0 in Hsu 2026; -1156.2, -904.4 in the batch) confirm it is the T dwarf. The table's literature RV -33 +/- 1 (Mace 2018) is the systemic velocity of the sdM1+WD inner binary Wolf 1130 AB (IGRINS), not of the T dwarf."
+  },
+  {
+   "key": "GJ 12578|",
+   "name": "GJ 12578",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J175328.50-590447.5 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 10475|",
+   "name": "GJ 10475",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J032517.69-385454.1 (BD* T9)."
+  },
+  {
+   "key": "GJ 11535|",
+   "name": "GJ 11535",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No RV found. SIMBAD's rejected 272.7 km/s (type z, SDSS 2009ApJS..182..543A) is a redshift artefact. Schmidt+2010 J/AJ/139/1808 table6 has no RV."
+  },
+  {
+   "key": "GJ 13156 B|",
+   "name": "GJ 13156 B",
+   "done": true,
+   "rv": null,
+   "pm": {
+    "pmra": 414.27,
+    "pmdec": -211.19,
+    "err": 2.67,
+    "src": "K21",
+    "where": "VizieR J/ApJS/253/7/tablea1, Name 2MASS 2151-4853, pmRA = 414.27 +/- 0.9, pmDE = -211.19 +/- 2.67 mas/yr",
+    "wikipedia": false
+   },
+   "sources": {
+    "K21": {
+     "citation": "Kirkpatrick et al. 2021, ApJS 253, 7 (VizieR J/ApJS/253/7)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253....7K",
+     "what": "Spitzer/WISE astrometry of the 20-pc L/T/Y census"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "PM: Kirkpatrick+2021, CatWISE2020, Faherty+2009 (15 arcsec cone at J2016)"
+   ],
+   "notes": "No RV found. 2MASS J21513839-4853542 (T4) is a wide companion detected on its own, so the PM is its own. Alternatives: SIMBAD (2013MNRAS.433.2054S) 414.7, -201.7; CatWISE2020 420.1 +/- 9.0, -210.3 +/- 9.3; Faherty+2009 520 +/- 70, -220 +/- 40."
+  },
+  {
+   "key": "GJ 10418|",
+   "name": "GJ 10418",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J030237.56-581740.2 (BD* Y0:)."
+  },
+  {
+   "key": "GJ 11463|",
+   "name": "GJ 11463",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. ULAS J101243.53+102101.6 (BD* T5.5)."
+  },
+  {
+   "key": "GJ 11630|",
+   "name": "GJ 11630",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J11243854-0421504 (BD* T7)."
+  },
+  {
+   "key": "GJ 12554|",
+   "name": "GJ 12554",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J17430367+4211558 (BD* T4.5)."
+  },
+  {
+   "key": "GJ 10492|",
+   "name": "GJ 10492",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J03305326-0350280 (BD* L9:)."
+  },
+  {
+   "key": "GJ 10801|",
+   "name": "GJ 10801",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J05402601-1802399 (BD* T5)."
+  },
+  {
+   "key": "GJ 11143|",
+   "name": "GJ 11143",
+   "done": true,
+   "rv": {
+    "value": 22.3,
+    "err": 2.7,
+    "src": "H21",
+    "where": "VizieR J/ApJS/257/45/dwarfT (= table5), ID J0755+2212 (SimbadName 2MASS J07554795+2212169 = 2MASSI J0755480+221218, 1.5 arcsec), RV = 22.3 -1.7/+2.7 km/s (larger side given); table4: single Keck/NIRSPEC epoch 2021 Jan 1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 11644|",
+   "name": "GJ 11644",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J11322058-3809562 (BD* L7.0)."
+  },
+  {
+   "key": "GJ 13278|",
+   "name": "GJ 13278",
+   "done": true,
+   "rv": {
+    "value": -16.0,
+    "err": 0.9,
+    "src": "V18",
+    "where": "Vos et al. 2018 (arXiv 1710.07194 LaTeX) Sect. '2M2244+20 Membership in AB Doradus' and results table: measured RV of 2M2244 = -16.0 +/- 0.9 km/s (Keck/NIRSPEC N7 forward-model fit)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "V18": {
+     "citation": "Vos et al. 2018, MNRAS 474, 1041 (arXiv 1710.07194)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.1041V",
+     "what": "Keck/NIRSPEC RV and vsini of W0047 and 2M2244+2043"
+    },
+    "H21": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45 (VizieR J/ApJS/257/45)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2021ApJS..257...45H",
+     "what": "Keck/NIRSPEC RVs of T dwarfs (table5/dwarfT) and compiled RVs of late-M/L dwarfs within 20 pc (table8/dwarf20pc)"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Hsu+2021 dwarf20pc lists -16.0 +/- 0.9 with ref code 772 (= Vos 2018, code 773, after the off-by-one). Faherty+2016 J/ApJS/225/10 lists -15.5 +/- 1.7 flagged ':'; that number is the BANYAN predicted RV of Gagne+2014 (as Vos 2018 states), not a measurement."
+  },
+  {
+   "key": "GJ 12073 B|",
+   "name": "GJ 12073 B",
+   "done": true,
+   "rv": {
+    "value": -24.8,
+    "err": 5.0,
+    "src": "H26",
+    "where": "Hsu et al. 2026 (arXiv 2609.28746 LaTeX) table 'Measured Radial Velocities and Derived UVW Velocities' (tab:rv_uvw), row HD 126053 B: RV = -24.8 +/- 0.3 (sampling) +/- 5 (systematic) km/s, JWST/NIRSpec G395H, GO 4668, 2025-02-28; err given = 5.0 (systematic dominates)",
+    "wikipedia": false
+   },
+   "pm": {
+    "pmra": 281.48,
+    "pmdec": -492.01,
+    "err": 19.56,
+    "src": "B13",
+    "where": "VizieR J/MNRAS/433/457/table5, row ULAS J142320.79+011638.2 (T8p): pmRA = 281.48 +/- 19.56, pmDE = -492.01 +/- 17.36 mas/yr (err = larger)",
+    "wikipedia": false
+   },
+   "sources": {
+    "H26": {
+     "citation": "Hsu et al. 2026, arXiv 2609.28746, \"Metal-poor Brown Dwarf Kinematics from JWST NIRSpec Spectroscopy\"",
+     "url": "https://arxiv.org/abs/2609.28746",
+     "what": "JWST/NIRSpec G395H RVs of 23 L/T/Y dwarfs (stat +/- 5 km/s systematic)"
+    },
+    "B13": {
+     "citation": "Burningham et al. 2013, MNRAS 433, 457 (VizieR J/MNRAS/433/457)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2013MNRAS.433..457B",
+     "what": "UKIDSS LAS T dwarf proper motions"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "Row identified as HD 126053 B (= Gl 547 B, ULAS J142320.79+011638.2, WISE J142320.84+011638.0, sdT8/T8), the only object at the J2016 position; the batch had no SIMBAD id. The same RV table gives RV_lit -19.21 +/- 0.03 for the PRIMARY HD 126053 (Soubiran 2018), not used. PM alternatives for B itself: CatWISE2020 II/365 (J142320.90+011635.3) 190.1 +/- 29.6, -524.2 +/- 33.0 mas/yr. Kirkpatrick+2021 tablea1 'Gl 547B' 223.54 +/- 0.07, -478.32 +/- 0.06 is the primary's Gaia astrometry adopted for B, not B's own."
+  },
+  {
+   "key": "GJ 12039|",
+   "name": "GJ 12039",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISE J141127.88-481151.5 (BD? no SpT)."
+  },
+  {
+   "key": "GJ 12158|",
+   "name": "GJ 12158",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "No RV found. LP 22-174 = Gaia DR3 1701049564545336192 (2-parameter solution, G = 14.9)."
+  },
+  {
+   "key": "GJ 11115|",
+   "name": "GJ 11115",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J07420130+2055198 (BD* T5)."
+  },
+  {
+   "key": "GJ 11856|",
+   "name": "GJ 11856",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. PSO J192.5647+26.4796 (BD* T6.5)."
+  },
+  {
+   "key": "GJ 13424|",
+   "name": "GJ 13424",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. WISEP J234841.10-102844.4 (BD* T7)."
+  },
+  {
+   "key": "GJ 11905 A|",
+   "name": "GJ 11905 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "Schlieder+2014 (arXiv 1401.0947), Dupuy+2016 (arXiv 1605.07182), Forbrich+2016 (arXiv 1605.07177) LaTeX sources read",
+    "PM: CatWISE2020, Cortes-Contreras+2024 J/A+A/692/A206"
+   ],
+   "notes": "NLTT 33370 AB = LP 497-33 = LSPM J1314+1320 AB, equal-mass M7+M7 binary, 0.1-0.2 arcsec. RV: Schlieder et al. 2014 (arXiv 1401.0947, Sect. on RVs) resolved one preliminary epoch into 'primary' -20.2 +/- 1.2 and 'secondary' -0.5 +/- 1.5 km/s, system velocity -10.4 +/- 1.0 (validated by the Dupuy+2016 mass ratio); the mapping of these peaks to A/B is not stated and the components move ~+/-10 km/s in the orbit, so no component RV is reported. Unresolved values: SIMBAD's rejected APOGEE -2.37 (2020AJ....160..120J), APOGEE DR17 visits -5.3 to -10.6, Fouque+2018 -8.02 +/- 40.5, Newton+2014 -9 +/- 5, West+2015 -16.5, Jeffers+2018 2.47/-19.72/-27.24, Gaia DR3 8.22 +/- 27.53, Terrien+2015 22.2 +/- 9.5. PM: system values only - barycentric pmRA = -247.99 +/- 0.10, pmDE = -183.58 +/- 0.22 mas/yr from the joint VLBA+Keck astrometric/orbit fit (Forbrich et al. 2016, arXiv 1605.07177, abstract); Cortes-Contreras+2024 -247.4 +/- 1.2, -185.2 +/- 1.1; CatWISE2020 -246.3 +/- 4.2, -174.8 +/- 4.1 - not reported as a component's own. GJ 11905 A and GJ 11906 B both point at this one SIMBAD object."
+  },
+  {
+   "key": "GJ 11906 B|",
+   "name": "GJ 11906 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "Schlieder+2014 (arXiv 1401.0947), Dupuy+2016 (arXiv 1605.07182), Forbrich+2016 (arXiv 1605.07177) LaTeX sources read",
+    "PM: CatWISE2020, Cortes-Contreras+2024 J/A+A/692/A206"
+   ],
+   "notes": "NLTT 33370 AB = LP 497-33 = LSPM J1314+1320 AB, equal-mass M7+M7 binary, 0.1-0.2 arcsec. RV: Schlieder et al. 2014 (arXiv 1401.0947, Sect. on RVs) resolved one preliminary epoch into 'primary' -20.2 +/- 1.2 and 'secondary' -0.5 +/- 1.5 km/s, system velocity -10.4 +/- 1.0 (validated by the Dupuy+2016 mass ratio); the mapping of these peaks to A/B is not stated and the components move ~+/-10 km/s in the orbit, so no component RV is reported. Unresolved values: SIMBAD's rejected APOGEE -2.37 (2020AJ....160..120J), APOGEE DR17 visits -5.3 to -10.6, Fouque+2018 -8.02 +/- 40.5, Newton+2014 -9 +/- 5, West+2015 -16.5, Jeffers+2018 2.47/-19.72/-27.24, Gaia DR3 8.22 +/- 27.53, Terrien+2015 22.2 +/- 9.5. PM: system values only - barycentric pmRA = -247.99 +/- 0.10, pmDE = -183.58 +/- 0.22 mas/yr from the joint VLBA+Keck astrometric/orbit fit (Forbrich et al. 2016, arXiv 1605.07177, abstract); Cortes-Contreras+2024 -247.4 +/- 1.2, -185.2 +/- 1.1; CatWISE2020 -246.3 +/- 4.2, -174.8 +/- 4.1 - not reported as a component's own. GJ 11905 A and GJ 11906 B both point at this one SIMBAD object."
+  },
+  {
+   "key": "GJ 12924|",
+   "name": "GJ 12924",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J20080450-0834266 (BD* T5.5)."
+  },
+  {
+   "key": "GJ 743.1|",
+   "name": "GJ 743.1",
+   "done": true,
+   "rv": {
+    "value": -51.3,
+    "err": 0.8,
+    "src": "K04",
+    "where": "VizieR III/239/catalog recno 26953: HIP 93825, HD 177475, CCDM 19064-3704B (component B), GCRV 28331, RV = -51.3 +/- 0.8 km/s (o_RV = 13)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "K04": {
+     "citation": "Kharchenko, Piskunov & Scholz 2004, AN 325, 439 (VizieR III/239, CRVAD)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2004AN....325..439K",
+     "what": "RVs of Hipparcos/ASCC stars per CCDM component, from the GCRV"
+    },
+    "G06": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (VizieR III/252)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2006AstL...32..759G",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "gam CrA B (HD 177475), F8 component of the ~1.3-arcsec visual binary gam CrA. Component A in the same catalog: HD 177474, GCRV 28330, -53.3 +/- 0.8. System: Gontcharov III/252 -51.6 +/- 0.3 for HIP 93825 (not component-specific). Older component-B values in SIMBAD: Feast 1970 -51.0 (5 obs, the rejected D value), Evans 1979 -51.6, Evans 1957 -50.8, Andrews 1957 -52.4. Gaia DR3 has both components without RV. These are photographic-era velocities."
+  },
+  {
+   "key": "GJ 11458|",
+   "name": "GJ 11458",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "Rice+2019 (arXiv 1904.10579) LaTeX: 2M1010-0406 appears only in an equivalent-width table, no RV"
+   ],
+   "notes": "No RV found. 2MASSI J1010148-040649, L6."
+  },
+  {
+   "key": "GJ 11004|",
+   "name": "GJ 11004",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J06522224+4127366 (BD* T0)."
+  },
+  {
+   "key": "GJ 13216|",
+   "name": "GJ 13216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J22153705+2110554 (BD* T0+T2?)."
+  },
+  {
+   "key": "GJ 10816|",
+   "name": "GJ 10816",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J05460119-0959472 (BD* T5)."
+  },
+  {
+   "key": "GJ 10430|",
+   "name": "GJ 10430",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "DESI DR1 desi_dr1.mws (NOIRLab Data Lab TAP) and SDSS DR19 mwm_apogee_allstar / mwm_boss_allstar (SkyServer SQL), by Gaia DR3 id: no row",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "No measured RV found. Gagne+2015 (BANYAN V, J/ApJ/798/73/table8) lists RVel = 11.6 +/- 2.4 for 2MASS J03090022-4924513 (LEHPM 3115, Argus candidate); that is a BANYAN predicted RV, not a measurement. Gaia DR3 4749451668588577920 is a 2-parameter solution; Verberne+2024 203.98 +/- 567.37 is a failed fit."
+  },
+  {
+   "key": "GJ 264 C|",
+   "name": "GJ 264 C",
+   "done": true,
+   "rv": {
+    "value": 89.048,
+    "err": 0.004,
+    "src": "S11",
+    "where": "Sahlmann et al. 2011 (arXiv 1009.5991 LaTeX) orbital-parameter table, row HD 53680: gamma_C07 = 89.048 +/- 0.004 km/s (CORALIE-07 systemic velocity; gamma_C98 = 89.065 +/- 0.005), P = 1688.6 d, K1 = 1.240 km/s",
+    "wikipedia": false
+   },
+   "pm": {
+    "pmra": -91.391,
+    "pmdec": 434.521,
+    "err": 0.684,
+    "src": "GDR2",
+    "where": "VizieR I/345/gaia2, Gaia DR2 5559266893257154176 (HD 53680): pmRA = -91.391 +/- 0.655, pmDE = 434.521 +/- 0.684 mas/yr (err = larger)",
+    "wikipedia": false
+   },
+   "sources": {
+    "S11": {
+     "citation": "Sahlmann et al. 2011, A&A 525, A95 (arXiv 1009.5991)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2011A&A...525A..95S",
+     "what": "CORALIE spectroscopic orbit of HD 53680 (systemic velocities per instrument)"
+    },
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018, A&A 616, A1 (Gaia DR2, VizieR I/345/gaia2)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2018A&A...616A...1G",
+     "what": "Gaia DR2 astrometry"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "Row identified as HD 53680 = GJ 264 = WDS J07040-4337C / CCDM J07039-4336C (DUN 38 C), the SIMBAD main id given; the batch J2016 position is ~10 arcsec from HD 53680's Gaia position. HD 53680 is a spectroscopic + astrometric binary (M-dwarf companion, i = 164 deg), so the systemic velocity is reported; the two CORALIE gammas differ only by the instrument zero point. Alternatives: SB9 Seq 3884 V0 = 89.45 (flag a); Gaia DR2 88.76 +/- 0.37; Gaia DR3 90.78 +/- 9.07; GCRV 88.0; Tokovinin 2015 90.1 (1 obs). PM: Gaia DR3 has no PM (2-parameter solution). Hipparcos I/311 gives -75.64 +/- 0.97, 393.5 +/- 1.46 mas/yr; the large difference from Gaia DR2 reflects the 4.6-yr astrometric orbit, so both are perturbed."
+  },
+  {
+   "key": "GJ 10181|",
+   "name": "GJ 10181",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated"
+   ],
+   "notes": "No published RV found. 2MASS J01115467-5053387 (BD* T1.5)."
+  },
+  {
+   "key": "GJ 913|",
+   "name": "GJ 913",
+   "done": true,
+   "rv": {
+    "value": 1.0,
+    "err": 0.13,
+    "src": "S19",
+    "where": "Systemic velocity V0 = 1.00 +/- 0.13 km/s of the SB1 orbit (P = 872.9 d, K1 = 8.43 km/s, 18 RVs): SB9 B/sb9/orbits Seq 3774 (HIP 118212, ref 2019A&A...626A..31S) and VizieR J/A+A/626/A31/table1 row HIP 118212 (<RV> = 1.0)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S19": {
+     "citation": "Sperauskas, Deveikis & Tokovinin 2019, A&A 626, A31 (VizieR J/A+A/626/A31; SB9 B/sb9 Seq 3774)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2019A&A...626A..31S",
+     "what": "Spectroscopic orbits of nearby K/M dwarfs (systemic velocity V0)"
+    },
+    "G06": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (VizieR III/252)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2006AstL...32..759G",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP basic+mesVelocities (by SIMBAD main id): no usable RV unless stated in notes",
+    "VizieR position crossmatch (J2016 position carried to J2000 with the PM, 6 arcsec, chunks of 30): Hsu+2021 J/ApJS/257/45, Reiners&Basri 2009 J/ApJ/705/1416, Burgasser+2015 J/ApJS/220/18, Blake+2010 J/ApJ/723/684, Kiman+2019 J/AJ/157/231, Schmidt+2010 J/AJ/139/1808, Faherty+2016 J/ApJS/225/10, Cheng+2025 J/MNRAS/538/3144, DESI SpecDis J/AJ/170/171, Verberne+2024 J/A+A/684/A29, Hsu+2024 J/ApJS/274/40, Li+2025 J/ApJS/281/58, APOGEE DR17 III/286, RAVE DR6 III/283, LAMOST DR11 V/162, Zhang+2022 J/ApJS/258/26, PMSU III/198, Newton+2014 J/AJ/147/20, Gizis+2002 J/AJ/123/3356, Lafarga+2020 J/A+A/636/A36, Reiners+2018 J/A+A/612/A49, Jeffers+2018 J/A+A/614/A76, Latham+2002 J/AJ/124/1144, Fouque+2018 J/MNRAS/475/1960, Terrien+2015 J/ApJS/220/16, Shkolnik+2012 J/ApJ/758/56, Malo+2014 J/ApJ/788/81, GALAH DR4 J/other/PASA/42.51, West+2008 J/AJ/135/785, West+2011 J/AJ/141/97, Schmidt+2015 J/AJ/149/158, Seifahrt+2010 J/A+A/512/A37, Gagne+2014 J/ApJ/783/121, Anguiano+2017 J/MNRAS/469/2102, SPY J/A+A/447/173 and J/A+A/638/A131: no match unless stated",
+    "Name search of LaTeX sources: Prato+2015 Table 2 (arXiv 1506.02771), Cheng+2024 RV table (arXiv 2409.03706), Hsu+2026 JWST G395H RV table (arXiv 2609.28746): no match unless stated",
+    "SIMBAD bibliography of the object filtered on RV/kinematics/NIRSPEC/high-resolution titles: no further RV source unless stated",
+    "VizieR name queries: III/252, V/130, J/A+A/616/A7, B/sb9, J/A+A/626/A31, III/213, III/239, J/A+A/546/A61, I/355 (Gaia DR3), Lafarga+2020, Reiners+2018, Jeffers+2018, Latham+2002, Fouque+2018, PMSU, Li+2025"
+   ],
+   "notes": "BD+45 4378 = HIP 118212 is a spectroscopic binary, so the gamma velocity is reported (rule 3.2). Alternatives: Gontcharov III/252 5.8 +/- 0.6; Gaia DR2 2.65 +/- 1.19; Fouque+2018 7.09; Kharchenko III/239 3.6 +/- 0.8; PMSU 14.4; Gaia DR3 -23.77 +/- 15.28 (amplitude 140 km/s, the rejected value)."
+  }
+ ]
+}

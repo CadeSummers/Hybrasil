@@ -1,0 +1,4472 @@
+{
+ "columns": {
+  "Time of periastron (JD)": "BI",
+  "RA (deg, ICRS)": "BJ",
+  "Dec (deg, ICRS)": "BK",
+  "Position source": "BL",
+  "Barycentre from": "BM",
+  "Barycentre offset (AU)": "BN"
+ },
+ "counts": {
+  "T": 99,
+  "T_years": 70,
+  "T_missing": 169,
+  "pos": {
+   "exact": 212,
+   "prefix": 296,
+   "main": 28
+  },
+  "bary": 152,
+  "bary_weak": 68,
+  "bary_blank": 34
+ },
+ "orange": [
+  "'Planetless 4+ Stars'!BN3",
+  "'Planetless 4+ Stars'!BN4",
+  "'Planetless 4+ Stars'!BN9",
+  "'Planetless 4+ Stars'!BN10",
+  "'Planetless 4+ Stars'!BN11",
+  "'Planetless 4+ Stars'!BN17",
+  "'Planetless 4+ Stars'!BN18",
+  "'Planetless 4+ Stars'!BN20",
+  "'Planetless 4+ Stars'!BN25",
+  "'Planetless 4+ Stars'!BN27",
+  "'Planetless 4+ Stars'!BN31",
+  "'Planetless 4+ Stars'!BN33",
+  "'Planetless 4+ Stars'!BN39",
+  "'Planetless 4+ Stars'!BN46",
+  "'Planetless 4+ Stars'!BN49",
+  "'Planetless 4+ Stars'!BN51",
+  "'Planetless 4+ Stars'!BN61",
+  "'Planetless 4+ Stars'!BN63",
+  "'Planetless 4+ Stars'!BN67",
+  "'Planetless 4+ Stars'!BN69",
+  "'Planetless 4+ Stars'!BN73",
+  "'Planetless 4+ Stars'!BN74",
+  "'Planetless 4+ Stars'!BN79",
+  "'Planetless 4+ Stars'!BN80",
+  "'Planetless 4+ Stars'!BN82",
+  "'Planetless 4+ Stars'!BN85",
+  "'Planetless 4+ Stars'!BN86",
+  "'Planetless 4+ Stars'!BN92",
+  "'Planetless 4+ Stars'!BN97",
+  "'Planetless 4+ Stars'!BN98",
+  "'Planetless 4+ Stars'!BN103",
+  "'Planetless 4+ Stars'!BN104",
+  "'Planetless 4+ Stars'!BN107",
+  "'Planetless 4+ Stars'!BN111",
+  "'Planetless 4+ Stars'!BN112",
+  "'Planetless 4+ Stars'!BN117",
+  "'Planetless 4+ Stars'!BN119",
+  "'Planetless 4+ Stars'!BN123",
+  "'Planetless 4+ Stars'!BN125",
+  "'Planetless 4+ Stars'!BN130",
+  "'Planetless 4+ Stars'!BN135",
+  "'Planetless 4+ Stars'!BN141",
+  "'Planetless 4+ Stars'!BN144",
+  "'Planetless 4+ Stars'!BN147",
+  "'Planetless 4+ Stars'!BN153",
+  "'Planetless 4+ Stars'!BN159",
+  "'Planetless 4+ Stars'!BN160",
+  "'Planetless 4+ Stars'!BN165",
+  "'Planetless 4+ Stars'!BN167",
+  "'Planetless 4+ Stars'!BN171",
+  "'Planetless 4+ Stars'!BN173",
+  "'Planetless 4+ Stars'!BN183",
+  "'Planetless 4+ Stars'!BN187",
+  "'Planetless 4+ Stars'!BN191",
+  "'Planetless 4+ Stars'!BN193",
+  "'Planetless 4+ Stars'!BN199",
+  "'Planetless 4+ Stars'!BN203",
+  "'Planetless 4+ Stars'!BN205",
+  "'Planetless 4+ Stars'!BN209",
+  "'Planetless 4+ Stars'!BN210",
+  "'Planetless 4+ Stars'!BN215",
+  "'Planetless 4+ Stars'!BN221",
+  "'Planetless 4+ Stars'!BN223",
+  "'Planetless 4+ Stars'!BN227",
+  "'Planetless 4+ Stars'!BN228",
+  "'Planetless 4+ Stars'!BN233",
+  "'Planetless 4+ Stars'!BN234",
+  "'Planetless 4+ Stars'!BN239",
+  "'Planetless 4+ Stars'!BN245",
+  "'Planetless 4+ Stars'!BN246",
+  "'Planetless 4+ Stars'!BN251",
+  "'Planetless 4+ Stars'!BN254",
+  "'Planetless 4+ Stars'!BN257",
+  "'Planetless 4+ Stars'!BN263",
+  "'Planetless 4+ Stars'!BN264",
+  "'Planetless 4+ Stars'!BN269",
+  "'Planetless 4+ Stars'!BN270",
+  "'Planetless 4+ Stars'!BN273",
+  "'Planetless 4+ Stars'!BN277",
+  "'Planetless 4+ Stars'!BN279",
+  "'Planetless 4+ Stars'!BN283",
+  "'Planetless 4+ Stars'!BN285",
+  "'Planetless 4+ Stars'!BN289",
+  "'Planetless 4+ Stars'!BN290",
+  "'Planetless 4+ Stars'!BN293",
+  "'Planetless 4+ Stars'!BN297",
+  "'Planetless 4+ Stars'!BN298",
+  "'Planetless 4+ Stars'!BN303",
+  "'Planetless 4+ Stars'!BN305",
+  "'Planetless 4+ Stars'!BN311",
+  "'Planetless 4+ Stars'!BN313",
+  "'Planetless 4+ Stars'!BN314",
+  "'Planetless 4+ Stars'!BN319",
+  "'Planetless 4+ Stars'!BN331",
+  "'Planetless 4+ Stars'!BN337",
+  "'Planetless 4+ Stars'!BN343",
+  "'Planetless 4+ Stars'!BN345",
+  "'Planetless 4+ Stars'!BN349",
+  "'Planetless 4+ Stars'!BN350",
+  "'Planetless 4+ Stars'!BN352",
+  "'Planetless 4+ Stars'!BN355",
+  "'Planetless 4+ Stars'!BN359",
+  "'Planetless 4+ Stars'!BN365",
+  "'Planetless 4+ Stars'!BN371",
+  "'Planetless 4+ Stars'!BN373",
+  "'Planetless 4+ Stars'!BN377",
+  "'Planetless 4+ Stars'!BN378",
+  "'Planetless 4+ Stars'!BN380",
+  "'Planetless 4+ Stars'!BN385",
+  "'Planetless 4+ Stars'!BN391",
+  "'Planetless 4+ Stars'!BN393",
+  "'Planetless 4+ Stars'!BN397",
+  "'Planetless 4+ Stars'!BN399",
+  "'Planetless 4+ Stars'!BN403",
+  "'Planetless 4+ Stars'!BN409",
+  "'Planetless 4+ Stars'!BN411",
+  "'Planetless 4+ Stars'!BN415",
+  "'Planetless 4+ Stars'!BN421",
+  "'Planetless 4+ Stars'!BN422",
+  "'Planetless 4+ Stars'!BN423",
+  "'Planetless 4+ Stars'!BN431",
+  "'Planetless 4+ Stars'!BN432",
+  "'Planetless 4+ Stars'!BN434",
+  "'Planetless 4+ Stars'!BN439",
+  "'Planetless 4+ Stars'!BN445",
+  "'Planetless 4+ Stars'!BN447",
+  "'Planetless 4+ Stars'!BN453",
+  "'Planetless 4+ Stars'!BN457",
+  "'Planetless 4+ Stars'!BN463",
+  "'Planetless 4+ Stars'!BN464",
+  "'Planetless 4+ Stars'!BN467",
+  "'Planetless 4+ Stars'!BN471",
+  "'Planetless 4+ Stars'!BN477",
+  "'Planetless 4+ Stars'!BN483",
+  "'Planetless 4+ Stars'!BN485",
+  "'Planetless 4+ Stars'!BN489",
+  "'Planetless 4+ Stars'!BN490",
+  "'Planetless 4+ Stars'!BN495",
+  "'Planetless 4+ Stars'!BN496",
+  "'Planetless 4+ Stars'!BN499",
+  "'Planetless 4+ Stars'!BN503",
+  "'Planetless 4+ Stars'!BN505",
+  "'Planetless 4+ Stars'!BN509",
+  "'Planetless 4+ Stars'!BN510",
+  "'Planetless 4+ Stars'!BN515",
+  "'Planetless 4+ Stars'!BN517",
+  "'Planetless 4+ Stars'!BN521",
+  "'Planetless 4+ Stars'!BN522",
+  "'Planetless 4+ Stars'!BN527",
+  "'Planetless 4+ Stars'!BN528",
+  "'Planetless 4+ Stars'!BN529",
+  "'Planetless 4+ Stars'!BN533"
+ ],
+ "sp_rows": [
+  5393,
+  5399
+ ],
+ "title": "hy-brasil-20260930-1043",
+ "rows": {
+  "GJ 570 A": [
+   "",
+   224.366953,
+   -21.415949,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 570 AB": [
+   "",
+   224.366953,
+   -21.415949,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 570 A",
+   105.886089
+  ],
+  "GJ 570 B": [
+   2337954.2096,
+   224.360555,
+   -21.411549,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 570 Ba",
+   0.366343
+  ],
+  "GJ 570 Ba": [
+   "",
+   224.360555,
+   -21.411549,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 570 Bb": [
+   2450270.2034,
+   224.360555,
+   -21.411549,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 570 G": [
+   "",
+   224.3125,
+   -21.363333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component G (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 644 A": [
+   "",
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 644 AC": [
+   "",
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AC itself, so the record whose label prefixes it",
+   "GJ 644 AB",
+   74.241645
+  ],
+  "GJ 644 AB": [
+   "",
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 644 A",
+   0.900968
+  ],
+  "GJ 644 B": [
+   2448476.4989,
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "GJ 644 Ba",
+   0.016322
+  ],
+  "GJ 644 Ba": [
+   "",
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ba itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 644 Bb": [
+   2450919.0196,
+   253.869823,
+   -8.33633,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Bb itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 644 C": [
+   "",
+   253.854962,
+   -8.322725,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 644 F": [
+   "",
+   253.896782,
+   -8.394772,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ksi UMa Aa": [
+   "",
+   169.545836,
+   31.529167,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ksi UMa AB": [
+   "",
+   169.545836,
+   31.529167,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "ksi UMa A",
+   8.835374
+  ],
+  "ksi UMa A": [
+   "",
+   169.545836,
+   31.529167,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "ksi UMa Aa",
+   0.120052
+  ],
+  "ksi UMa Ab": [
+   2448728.516,
+   169.545836,
+   31.529167,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ksi UMa B": [
+   2427874.9762,
+   169.54555,
+   31.529289,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "ksi UMa Ba",
+   0.001965
+  ],
+  "ksi UMa Ba": [
+   "",
+   169.54555,
+   31.529289,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ksi UMa Bb": [
+   2425000.0,
+   169.54555,
+   31.529289,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ksi UMa D": [
+   "",
+   169.661607,
+   31.426981,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "mu Her Aa": [
+   "",
+   266.614586,
+   27.720398,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "mu Her A": [
+   "",
+   266.614586,
+   27.720398,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "mu Her Aa",
+   5.024995
+  ],
+  "mu Her Ab": [
+   2422726.9239,
+   266.614586,
+   27.720398,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "mu Her BC": [
+   "",
+   266.604784,
+   27.717039,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "mu Her B",
+   5.418223
+  ],
+  "mu Her B": [
+   "",
+   266.604784,
+   27.717039,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "mu Her C": [
+   2454588.8271,
+   266.614586,
+   27.720398,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for C itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 867 Aa": [
+   "",
+   339.690027,
+   -20.621157,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 867 A": [
+   "",
+   339.690027,
+   -20.621157,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 867 Aa",
+   0.02313
+  ],
+  "GJ 867 Ab": [
+   2437144.1211,
+   339.690027,
+   -20.621157,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 867 B": [
+   "",
+   339.688798,
+   -20.614411,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 867 Ba",
+   0.00349
+  ],
+  "GJ 867 Ba": [
+   "",
+   339.688798,
+   -20.614411,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 867 Bb": [
+   2456160.5611,
+   339.688798,
+   -20.614411,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 569 Aa": [
+   "",
+   223.621817,
+   16.101055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 569 A": [
+   "",
+   223.621817,
+   16.101055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 569 Aa",
+   ""
+  ],
+  "GJ 569 Ab": [
+   "",
+   223.621817,
+   16.101055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 569 B": [
+   "",
+   223.622577,
+   16.102393,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 569 Ba",
+   0.373058
+  ],
+  "GJ 569 Ba": [
+   "",
+   223.622577,
+   16.102393,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 569 Bb": [
+   2452695.0463,
+   223.622577,
+   16.102393,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 275.2 Ba": [
+   "",
+   112.697333,
+   48.174333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 275.2 A": [
+   "",
+   112.67816,
+   48.199255,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 275.2 Aa",
+   ""
+  ],
+  "GJ 275.2 Aa": [
+   "",
+   112.67816,
+   48.199255,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 275.2 Ab": [
+   2440441.1706,
+   112.67816,
+   48.199255,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 275.2 B": [
+   "",
+   112.697333,
+   48.174333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 275.2 Ba",
+   2.843865
+  ],
+  "GJ 275.2 Bb": [
+   2441025.5581,
+   112.697333,
+   48.174333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Aur A": [
+   "",
+   79.172087,
+   45.999027,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "alf Aur AB": [
+   "",
+   79.172087,
+   45.999027,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "alf Aur A",
+   0.360916
+  ],
+  "alf Aur B": [
+   2448147.5983,
+   79.172087,
+   45.999027,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "alf Aur HL": [
+   "",
+   79.349427,
+   45.839702,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component H (RAJ2000/DEJ2000); no record for HL itself, so the record whose label prefixes it",
+   "alf Aur H",
+   11.79841
+  ],
+  "alf Aur H": [
+   "",
+   79.349427,
+   45.839702,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component H (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "alf Aur L": [
+   2416358.0861,
+   79.349802,
+   45.838695,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component L (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 2130 A": [
+   "",
+   266.553103,
+   -32.102615,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 2130 BC": [
+   "",
+   266.560069,
+   -32.102409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "GJ 2130 B",
+   ""
+  ],
+  "GJ 2130 B": [
+   "",
+   266.560069,
+   -32.102409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 2130 Ba",
+   ""
+  ],
+  "GJ 2130 Ba": [
+   "",
+   266.560069,
+   -32.102409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2130 Bb": [
+   "",
+   266.560069,
+   -32.102409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2130 C": [
+   "",
+   266.560069,
+   -32.102409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for C itself, so the system's main record",
+   "",
+   ""
+  ],
+  "iot UMa Aa": [
+   "",
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "iot UMa A": [
+   "",
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "iot UMa Aa",
+   2.060039
+  ],
+  "iot UMa Ab": [
+   2416342.0,
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "iot UMa BC": [
+   2462136.5572,
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for BC itself, so the system's main record",
+   "iot UMa B",
+   5.095069
+  ],
+  "iot UMa B": [
+   "",
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "iot UMa C": [
+   2451215.8154,
+   134.801888,
+   48.041823,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for C itself, so the system's main record",
+   "",
+   ""
+  ],
+  "CD-65 332 Aa": [
+   "",
+   82.187073,
+   -65.448647,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-65 332 A": [
+   "",
+   82.187073,
+   -65.448647,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "CD-65 332 Aa",
+   0.441693
+  ],
+  "CD-65 332 Ab": [
+   2448557.5827,
+   82.187073,
+   -65.448647,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-65 332 B": [
+   "",
+   82.185392,
+   -65.446086,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "CD-65 332 Ba",
+   0.351055
+  ],
+  "CD-65 332 Ba": [
+   "",
+   82.185392,
+   -65.446086,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-65 332 Bb": [
+   2452888.6612,
+   82.185392,
+   -65.446086,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1021 A": [
+   "",
+   11.439968,
+   -47.551983,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 1021 AB": [
+   "",
+   11.439968,
+   -47.551983,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 1021 A",
+   84.377179
+  ],
+  "GJ 1021 BD": [
+   "",
+   11.434831,
+   -47.549101,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BD itself, so the record whose label prefixes it",
+   "GJ 1021 B",
+   6.255162
+  ],
+  "GJ 1021 B": [
+   "",
+   11.434831,
+   -47.549101,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 1021 D": [
+   "",
+   11.434702,
+   -47.548908,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 1021 C": [
+   "",
+   11.423197,
+   -47.558564,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "alf Gem Aa": [
+   "",
+   113.650002,
+   31.888639,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem AB": [
+   "",
+   113.650002,
+   31.888639,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "alf Gem A",
+   44.701456
+  ],
+  "alf Gem A": [
+   "",
+   113.650002,
+   31.888639,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "alf Gem Aa",
+   0.017034
+  ],
+  "alf Gem Ab": [
+   2455817.7868,
+   113.650002,
+   31.888639,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem B": [
+   2436785.0961,
+   113.650417,
+   31.888492,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "alf Gem Ba",
+   0.009287
+  ],
+  "alf Gem Ba": [
+   "",
+   113.650417,
+   31.888492,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem Bb": [
+   2456705.494,
+   113.650417,
+   31.888492,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem C": [
+   3403365.7034,
+   113.656031,
+   31.869494,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "alf Gem Cab",
+   0.616034
+  ],
+  "alf Gem Cab": [
+   "",
+   113.656031,
+   31.869494,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cab itself, so the record whose label prefixes it",
+   "alf Gem Ca",
+   0.009065
+  ],
+  "alf Gem Ca": [
+   "",
+   113.656031,
+   31.869494,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem Cb": [
+   2424989.1,
+   113.656031,
+   31.869494,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Gem Cc": [
+   2454805.0,
+   113.656031,
+   31.869494,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cc itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1006 Aa": [
+   "",
+   4.060944,
+   19.860428,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1006 A": [
+   "",
+   4.060944,
+   19.860428,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 1006 Aab",
+   ""
+  ],
+  "GJ 1006 Aab": [
+   "",
+   4.060944,
+   19.860428,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aab itself, so the record whose label prefixes it",
+   "GJ 1006 Aa",
+   0.010286
+  ],
+  "GJ 1006 Ab": [
+   2457709.24,
+   4.060944,
+   19.860428,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1006 Ac": [
+   "",
+   4.060944,
+   19.860428,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ac itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1006 B": [
+   "",
+   4.067304,
+   19.864021,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 319 Aa": [
+   "",
+   130.685555,
+   9.5567,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 319 AB": [
+   "",
+   130.685555,
+   9.5567,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 319 A",
+   14.912672
+  ],
+  "GJ 319 A": [
+   "",
+   130.685555,
+   9.5567,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 319 Aa",
+   0.020235
+  ],
+  "GJ 319 Ab": [
+   2444297.7,
+   130.685555,
+   9.5567,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 319 B": [
+   2424282.8557,
+   130.685921,
+   9.556762,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 319 C": [
+   "",
+   130.717619,
+   9.553103,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 2069 Aa1": [
+   "",
+   127.906565,
+   19.394135,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2069 A": [
+   "",
+   127.906565,
+   19.394135,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 2069 Aa",
+   2.482417
+  ],
+  "GJ 2069 Aa": [
+   "",
+   127.906565,
+   19.394135,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "GJ 2069 Aa1",
+   0.017513
+  ],
+  "GJ 2069 Aa2": [
+   2450207.8,
+   127.906565,
+   19.394135,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2069 Ab": [
+   2449094.4887,
+   127.906565,
+   19.394135,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2069 B": [
+   "",
+   127.905907,
+   19.397115,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 2069 Ba",
+   5.634575
+  ],
+  "GJ 2069 Ba": [
+   "",
+   127.905907,
+   19.397115,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 2069 Bb": [
+   2447709.1616,
+   127.905907,
+   19.397115,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3389 A": [
+   "",
+   93.438731,
+   -23.861937,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3389 AB": [
+   "",
+   93.438731,
+   -23.861937,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 3389 A",
+   154.132768
+  ],
+  "GJ 3389 B": [
+   "",
+   93.439191,
+   -23.86877,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 3389 Ba",
+   1.751281
+  ],
+  "GJ 3389 Ba": [
+   "",
+   93.439191,
+   -23.86877,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3389 Bb": [
+   2459021.9178,
+   93.439191,
+   -23.86877,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3389 C": [
+   "",
+   93.44657,
+   -23.906894,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J07495087-0317194 A": [
+   "",
+   117.461956,
+   -3.288667,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J07495087-0317194 AC": [
+   "",
+   117.461956,
+   -3.288667,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AC itself, so the record whose label prefixes it",
+   "2MASS J07495087-0317194 A",
+   20.623201
+  ],
+  "2MASS J07495087-0317194 C": [
+   "",
+   117.461544,
+   -3.288827,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J07495087-0317194 B": [
+   "",
+   117.425598,
+   -3.342765,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "2MASS J07495087-0317194 Ba",
+   0.280617
+  ],
+  "2MASS J07495087-0317194 Ba": [
+   "",
+   117.425598,
+   -3.342765,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J07495087-0317194 Bb": [
+   "",
+   117.425598,
+   -3.342765,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 264.1 A": [
+   "",
+   105.988815,
+   -43.608036,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 264.1 AB": [
+   "",
+   105.988815,
+   -43.608036,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 264.1 A",
+   161.323885
+  ],
+  "GJ 264.1 B": [
+   "",
+   105.995502,
+   -43.611353,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 264.1 C": [
+   "",
+   105.95913,
+   -43.561326,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "GJ 264.1 Ca",
+   0.130848
+  ],
+  "GJ 264.1 Ca": [
+   "",
+   105.95913,
+   -43.561326,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 264.1 Cb": [
+   2454182.8969,
+   105.95913,
+   -43.561326,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 171.2 Aa": [
+   "",
+   69.201078,
+   27.132153,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 171.2 A": [
+   "",
+   69.201078,
+   27.132153,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 171.2 Aab",
+   ""
+  ],
+  "GJ 171.2 Aab": [
+   "",
+   69.201078,
+   27.132153,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aab itself, so the record whose label prefixes it",
+   "GJ 171.2 Aa",
+   0.009158
+  ],
+  "GJ 171.2 Ab": [
+   2446999.42,
+   69.201078,
+   27.132153,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 171.2 Ac": [
+   "",
+   69.201078,
+   27.132153,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ac itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 171.2 B": [
+   "",
+   69.187074,
+   27.164315,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3481 A": [
+   "",
+   122.054853,
+   21.10497,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3481 B": [
+   "",
+   122.056574,
+   21.102597,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 3481 Ba",
+   3.307883
+  ],
+  "GJ 3481 Ba": [
+   "",
+   122.056574,
+   21.102597,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "GJ 3481 Ba1",
+   ""
+  ],
+  "GJ 3481 Ba1": [
+   "",
+   122.056574,
+   21.102597,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3481 Ba2": [
+   "",
+   122.056574,
+   21.102597,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3481 Bb": [
+   "",
+   122.056574,
+   21.102597,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 225.2 C": [
+   "",
+   90.080734,
+   -31.030026,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 225.2 AB": [
+   "",
+   90.080697,
+   -31.030825,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 225.2 A",
+   7.80293
+  ],
+  "GJ 225.2 A": [
+   "",
+   90.080697,
+   -31.030825,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 225.2 B": [
+   2450759.2627,
+   90.080697,
+   -31.030825,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 225.2 CE": [
+   2347815.7489,
+   90.080734,
+   -31.030026,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for CE itself, so the record whose label prefixes it",
+   "GJ 225.2 C",
+   1.877052
+  ],
+  "GJ 225.2 E": [
+   2457571.0297,
+   90.080697,
+   -31.030825,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for E itself, so the system's main record",
+   "",
+   ""
+  ],
+  "13 Cyg A": [
+   "",
+   294.110552,
+   50.221173,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "13 Cyg AB": [
+   "",
+   294.110552,
+   50.221173,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "13 Cyg A",
+   8.427978
+  ],
+  "13 Cyg B": [
+   "",
+   294.110552,
+   50.221173,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "13 Cyg E": [
+   "",
+   294.059973,
+   50.219466,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "13 Cyg Ea",
+   ""
+  ],
+  "13 Cyg Ea": [
+   "",
+   294.059973,
+   50.219466,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ea itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "13 Cyg Eb": [
+   "",
+   294.059973,
+   50.219466,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Eb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 734 Aa": [
+   "",
+   283.723508,
+   10.977875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 734 AB": [
+   "",
+   283.723508,
+   10.977875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 734 A",
+   25.013639
+  ],
+  "GJ 734 A": [
+   "",
+   283.723508,
+   10.977875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 734 Aa",
+   ""
+  ],
+  "GJ 734 Ab": [
+   "",
+   283.723508,
+   10.977875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 734 B": [
+   "",
+   283.724268,
+   10.978821,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 734 C": [
+   "",
+   283.571328,
+   10.969233,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "BD+78 826 A": [
+   "",
+   349.860994,
+   79.00352,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "BD+78 826 AE": [
+   "",
+   349.860994,
+   79.00352,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AE itself, so the record whose label prefixes it",
+   "BD+78 826 AB",
+   29.429417
+  ],
+  "BD+78 826 AB": [
+   "",
+   349.860994,
+   79.00352,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "BD+78 826 A",
+   71.109274
+  ],
+  "BD+78 826 B": [
+   "",
+   349.851954,
+   79.00106,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "BD+78 826 E": [
+   "",
+   350.724143,
+   78.79406,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "BD+78 826 C": [
+   "",
+   350.724279,
+   78.794047,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 231.1 Aa": [
+   "",
+   94.317078,
+   5.099979,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 231.1 A": [
+   "",
+   94.317078,
+   5.099979,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 231.1 Aa",
+   4.151728
+  ],
+  "GJ 231.1 Ab": [
+   2450832.3111,
+   94.317078,
+   5.099979,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 231.1 E": [
+   "",
+   94.294291,
+   5.117392,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "GJ 231.1 Ea",
+   3.663134
+  ],
+  "GJ 231.1 Ea": [
+   "",
+   94.294291,
+   5.117392,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ea itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 231.1 Eb": [
+   "",
+   94.294291,
+   5.117392,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Eb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4176 Aa": [
+   "",
+   315.317047,
+   33.242582,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4176 A": [
+   "",
+   315.317047,
+   33.242582,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 4176 Aa",
+   2.044083
+  ],
+  "GJ 4176 Ab": [
+   "",
+   315.317047,
+   33.242582,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4176 B": [
+   "",
+   315.336065,
+   33.241222,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 4176 Ba",
+   1.208708
+  ],
+  "GJ 4176 Ba": [
+   "",
+   315.336065,
+   33.241222,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4176 Bb": [
+   "",
+   315.336065,
+   33.241222,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 119 A": [
+   "",
+   44.143793,
+   55.437123,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 119 AC": [
+   "",
+   44.143793,
+   55.437123,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AC itself, so the record whose label prefixes it",
+   "GJ 119 A",
+   ""
+  ],
+  "GJ 119 C": [
+   "",
+   44.143793,
+   55.437123,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for C itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 119 B": [
+   "",
+   44.146831,
+   55.441432,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 119 Ba",
+   ""
+  ],
+  "GJ 119 Ba": [
+   "",
+   44.146831,
+   55.441432,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 119 Bb": [
+   "",
+   44.146831,
+   55.441432,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "tau Cyg Aa": [
+   "",
+   318.6973,
+   38.044334,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "tau Cyg AB": [
+   "",
+   318.6973,
+   38.044334,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "tau Cyg A",
+   6.69697
+  ],
+  "tau Cyg A": [
+   "",
+   318.6973,
+   38.044334,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "tau Cyg Aa",
+   ""
+  ],
+  "tau Cyg Ab": [
+   2453138.4869,
+   318.6973,
+   38.044334,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "tau Cyg B": [
+   2447552.5092,
+   318.6973,
+   38.044334,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "tau Cyg F": [
+   "",
+   318.695337,
+   38.020756,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000)",
+   "tau Cyg Fa",
+   3.164272
+  ],
+  "tau Cyg Fa": [
+   "",
+   318.695337,
+   38.020756,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000); no record for Fa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "tau Cyg Fb": [
+   "",
+   318.695337,
+   38.020756,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000); no record for Fb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "pi1 Cnc Aa": [
+   "",
+   138.073119,
+   14.99604,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "pi1 Cnc A": [
+   "",
+   138.073119,
+   14.99604,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "pi1 Cnc Aa",
+   1.094783
+  ],
+  "pi1 Cnc Ab": [
+   2444236.0735,
+   138.073119,
+   14.99604,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "pi1 Cnc E": [
+   "",
+   138.061208,
+   14.994333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "pi1 Cnc Ea",
+   5.39166
+  ],
+  "pi1 Cnc Ea": [
+   "",
+   138.061208,
+   14.994333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ea itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "pi1 Cnc Eb": [
+   "",
+   138.061208,
+   14.994333,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Eb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "NLTT 14412 Aa": [
+   "",
+   75.817069,
+   21.398912,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "NLTT 14412 A": [
+   "",
+   75.817069,
+   21.398912,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "NLTT 14412 Aa",
+   ""
+  ],
+  "NLTT 14412 Ab": [
+   "",
+   75.817069,
+   21.398912,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "NLTT 14412 B": [
+   "",
+   75.773458,
+   21.376722,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "NLTT 14412 Ba",
+   2.768619
+  ],
+  "NLTT 14412 Ba": [
+   "",
+   75.773458,
+   21.376722,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "NLTT 14412 Bb": [
+   "",
+   75.773458,
+   21.376722,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "17 Cyg A": [
+   "",
+   296.606666,
+   33.727601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "17 Cyg AB": [
+   "",
+   296.606666,
+   33.727601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "17 Cyg A",
+   191.924849
+  ],
+  "17 Cyg B": [
+   "",
+   296.614786,
+   33.730287,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "17 Cyg FG": [
+   "",
+   296.389695,
+   33.602005,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000); no record for FG itself, so the record whose label prefixes it",
+   "17 Cyg F",
+   21.345488
+  ],
+  "17 Cyg F": [
+   "",
+   296.389695,
+   33.602005,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component F (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "17 Cyg G": [
+   2431565.7851,
+   296.389951,
+   33.601262,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component G (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 586 Aa": [
+   "",
+   232.040078,
+   -9.348042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 586 AB": [
+   "",
+   232.040078,
+   -9.348042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 586 A",
+   382.352939
+  ],
+  "GJ 586 A": [
+   "",
+   232.040078,
+   -9.348042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 586 Aa",
+   0.896735
+  ],
+  "GJ 586 Ab": [
+   2454196.3013,
+   232.040078,
+   -9.348042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 586 B": [
+   "",
+   232.050879,
+   -9.357862,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 586 C": [
+   "",
+   231.937744,
+   -9.025618,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "50 Per E": [
+   "",
+   62.152572,
+   38.039739,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "50 Per AB": [
+   "",
+   61.893163,
+   38.074546,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "50 Per A",
+   47.96747
+  ],
+  "50 Per A": [
+   "",
+   61.893163,
+   38.074546,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "50 Per B": [
+   2477111.4873,
+   62.152572,
+   38.039739,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "50 Per Ba",
+   ""
+  ],
+  "50 Per Ba": [
+   "",
+   62.152572,
+   38.039739,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ba itself, so the system's main record",
+   "",
+   ""
+  ],
+  "50 Per Bb": [
+   "",
+   62.152572,
+   38.039739,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Bb itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 490 Aa": [
+   "",
+   194.417548,
+   35.225019,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 490 A": [
+   "",
+   194.417548,
+   35.225019,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 490 Aa",
+   0.946483
+  ],
+  "GJ 490 Ab": [
+   2455291.9184,
+   194.417548,
+   35.225019,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 490 B": [
+   "",
+   194.413802,
+   35.221986,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 490 Ba",
+   1.676887
+  ],
+  "GJ 490 Ba": [
+   "",
+   194.413802,
+   35.221986,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 490 Bb": [
+   "",
+   194.413802,
+   35.221986,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 60 A": [
+   "",
+   23.7542,
+   -29.910373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 60 AB": [
+   "",
+   23.7542,
+   -29.910373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 60 A",
+   2.31203
+  ],
+  "GJ 60 B": [
+   2455243.3411,
+   23.7542,
+   -29.910373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "GJ 60 Ba",
+   0.006692
+  ],
+  "GJ 60 Ba": [
+   "",
+   23.7542,
+   -29.910373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ba itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 60 Bb": [
+   "",
+   23.7542,
+   -29.910373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Bb itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 60 C": [
+   2435196.2926,
+   23.754089,
+   -29.909804,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "HR 2468 Aa": [
+   "",
+   99.501332,
+   -61.533373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2468 AB": [
+   "",
+   99.501332,
+   -61.533373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "HR 2468 A",
+   15.16795
+  ],
+  "HR 2468 A": [
+   "",
+   99.501332,
+   -61.533373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "HR 2468 Aa",
+   0.196596
+  ],
+  "HR 2468 Ab": [
+   "",
+   99.501332,
+   -61.533373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2468 B": [
+   2463926.2439,
+   99.501332,
+   -61.533373,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "HR 2468 C": [
+   "",
+   99.958431,
+   -61.478203,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 4317 Aa": [
+   "",
+   348.988265,
+   -81.37261,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4317 A": [
+   "",
+   348.988265,
+   -81.37261,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 4317 Aa",
+   1.710612
+  ],
+  "GJ 4317 Ab": [
+   "",
+   348.988265,
+   -81.37261,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4317 B": [
+   "",
+   348.987328,
+   -81.372062,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 4317 Ba",
+   ""
+  ],
+  "GJ 4317 Ba": [
+   "",
+   348.987328,
+   -81.372062,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 4317 Bb": [
+   "",
+   348.987328,
+   -81.372062,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9172 Aa": [
+   "",
+   75.57099,
+   -56.080601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9172 AC": [
+   "",
+   75.57099,
+   -56.080601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AC itself, so the record whose label prefixes it",
+   "GJ 9172 A",
+   32.434969
+  ],
+  "GJ 9172 A": [
+   "",
+   75.57099,
+   -56.080601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 9172 Aa",
+   0.756712
+  ],
+  "GJ 9172 Ab": [
+   "",
+   75.57099,
+   -56.080601,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9172 C": [
+   "",
+   75.569442,
+   -56.0814,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9172 B": [
+   "",
+   75.594048,
+   -56.098394,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 120.1 Ca": [
+   "",
+   44.305008,
+   -24.975091,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 120.1 AB": [
+   "",
+   44.311209,
+   -24.969418,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 120.1 A",
+   14.990585
+  ],
+  "GJ 120.1 A": [
+   "",
+   44.311209,
+   -24.969418,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 120.1 B": [
+   2404282.5946,
+   44.311209,
+   -24.969418,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 120.1 C": [
+   "",
+   44.305008,
+   -24.975091,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "GJ 120.1 Ca",
+   0.659476
+  ],
+  "GJ 120.1 Cb": [
+   2454133.3701,
+   44.305008,
+   -24.975091,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 118.2 B": [
+   "",
+   43.911676,
+   26.872099,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 118.2 AB": [
+   "",
+   43.912748,
+   26.873215,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 118.2 A",
+   52.583517
+  ],
+  "GJ 118.2 A": [
+   "",
+   43.912748,
+   26.873215,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 118.2 Aa",
+   ""
+  ],
+  "GJ 118.2 Aa": [
+   "",
+   43.912748,
+   26.873215,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 118.2 Ab": [
+   "",
+   43.912748,
+   26.873215,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 118.2 C": [
+   "",
+   43.899079,
+   26.872351,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 629 Aa1": [
+   "",
+   247.875107,
+   -39.012263,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 629 A": [
+   "",
+   247.875107,
+   -39.012263,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 629 Aa",
+   0.48038
+  ],
+  "GJ 629 Aa": [
+   "",
+   247.875107,
+   -39.012263,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "GJ 629 Aa1",
+   0.109483
+  ],
+  "GJ 629 Aa2": [
+   2424336.0508,
+   247.875107,
+   -39.012263,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 629 Ab": [
+   "",
+   247.875107,
+   -39.012263,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 629 C": [
+   "",
+   247.87571,
+   -39.014275,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "sig CrB Aa": [
+   "",
+   243.670219,
+   33.858612,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "sig CrB AB": [
+   "",
+   243.670219,
+   33.858612,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "sig CrB A",
+   37.467789
+  ],
+  "sig CrB A": [
+   "",
+   243.670219,
+   33.858612,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "sig CrB Aa",
+   0.013315
+  ],
+  "sig CrB Ab": [
+   2450127.6172,
+   243.670219,
+   33.858612,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "sig CrB B": [
+   2387700.1971,
+   243.668271,
+   33.857555,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "sig CrB E": [
+   "",
+   243.484356,
+   33.77337,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "sig CrB Ea",
+   0.650139
+  ],
+  "sig CrB Ea": [
+   "",
+   243.484356,
+   33.77337,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ea itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "sig CrB Eb": [
+   2438030.572,
+   243.484356,
+   33.77337,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Eb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+08 2134 Aa": [
+   "",
+   133.068337,
+   8.062853,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+08 2134 A": [
+   "",
+   133.068337,
+   8.062853,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "BD+08 2134 Aa",
+   0.022467
+  ],
+  "BD+08 2134 Ab": [
+   "",
+   133.068337,
+   8.062853,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+08 2134 B": [
+   "",
+   133.067872,
+   8.063723,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "BD+08 2134 Ba",
+   0.04009
+  ],
+  "BD+08 2134 Ba": [
+   "",
+   133.067872,
+   8.063723,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+08 2134 Bb": [
+   "",
+   133.067872,
+   8.063723,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf2 Lib Aa": [
+   "",
+   222.719908,
+   -16.041611,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf2 Lib A": [
+   "",
+   222.719908,
+   -16.041611,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "alf2 Lib Aa",
+   0.228441
+  ],
+  "alf2 Lib Ab": [
+   2455294.3,
+   222.719908,
+   -16.041611,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf2 Lib B": [
+   "",
+   222.67155,
+   -15.99721,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "alf2 Lib Ba",
+   2.517858
+  ],
+  "alf2 Lib Ba": [
+   "",
+   222.67155,
+   -15.99721,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf2 Lib Bb": [
+   2459561.5997,
+   222.67155,
+   -15.99721,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "kap Tuc Aa": [
+   "",
+   18.942551,
+   -68.875875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "kap Tuc AB": [
+   "",
+   18.942551,
+   -68.875875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "kap Tuc A",
+   50.205952
+  ],
+  "kap Tuc A": [
+   "",
+   18.942551,
+   -68.875875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "kap Tuc Aa",
+   1.299627
+  ],
+  "kap Tuc Ab": [
+   "",
+   18.942551,
+   -68.875875,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "kap Tuc B": [
+   2365164.7534,
+   18.940189,
+   -68.874844,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "kap Tuc CD": [
+   "",
+   18.754546,
+   -68.818963,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for CD itself, so the record whose label prefixes it",
+   "kap Tuc C",
+   12.779658
+  ],
+  "kap Tuc C": [
+   "",
+   18.754546,
+   -68.818963,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "kap Tuc D": [
+   2421959.9153,
+   18.753474,
+   -68.818801,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "HR 8526 A": [
+   "",
+   336.463146,
+   -75.015688,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "HR 8526 AB": [
+   "",
+   336.463146,
+   -75.015688,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "HR 8526 A",
+   266.981613
+  ],
+  "HR 8526 B": [
+   "",
+   336.485623,
+   -75.01454,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "HR 8526 Ba",
+   3.055841
+  ],
+  "HR 8526 Ba": [
+   "",
+   336.485623,
+   -75.01454,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 8526 Bb": [
+   2456344.3272,
+   336.485623,
+   -75.01454,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 8526 C": [
+   "",
+   336.685066,
+   -75.061815,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "zet1 Cnc A": [
+   "",
+   123.053523,
+   17.647948,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "zet1 Cnc AB": [
+   "",
+   123.053523,
+   17.647948,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "zet1 Cnc A",
+   9.790753
+  ],
+  "zet1 Cnc B": [
+   2425585.3094,
+   123.053176,
+   17.647559,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "zet1 Cnc C": [
+   2378720.608,
+   123.054998,
+   17.648491,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "zet1 Cnc Ca",
+   4.27628
+  ],
+  "zet1 Cnc Ca": [
+   "",
+   123.054998,
+   17.648491,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet1 Cnc Cb": [
+   2451421.2276,
+   123.054998,
+   17.648491,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "zet1 Cnc Cb1",
+   ""
+  ],
+  "zet1 Cnc Cb1": [
+   "",
+   123.054998,
+   17.648491,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet1 Cnc Cb2": [
+   "",
+   123.054998,
+   17.648491,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "chi Cet Aa": [
+   "",
+   27.396262,
+   -10.686409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "chi Cet A": [
+   "",
+   27.396262,
+   -10.686409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "chi Cet Aa",
+   0.350076
+  ],
+  "chi Cet Ab": [
+   2449312.9036,
+   27.396262,
+   -10.686409,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "chi Cet BC": [
+   "",
+   27.347287,
+   -10.703634,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "chi Cet B",
+   33.658427
+  ],
+  "chi Cet B": [
+   "",
+   27.347287,
+   -10.703634,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "chi Cet Ba",
+   1.432765
+  ],
+  "chi Cet Ba": [
+   "",
+   27.347287,
+   -10.703634,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "chi Cet Bb": [
+   "",
+   27.347287,
+   -10.703634,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "chi Cet C": [
+   "",
+   27.34706,
+   -10.701763,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "iot Leo A": [
+   "",
+   170.98109,
+   10.5295,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "iot Leo AB": [
+   "",
+   170.98109,
+   10.5295,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "iot Leo A",
+   16.642196
+  ],
+  "iot Leo B": [
+   2432844.1328,
+   170.98109,
+   10.5295,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "iot Leo C": [
+   "",
+   170.958136,
+   10.618952,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "iot Leo Ca",
+   ""
+  ],
+  "iot Leo Ca": [
+   "",
+   170.958136,
+   10.618952,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "iot Leo Cb": [
+   "",
+   170.958136,
+   10.618952,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-77 1092 Aa": [
+   "",
+   328.714039,
+   -77.338051,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-77 1092 A": [
+   "",
+   328.714039,
+   -77.338051,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "CD-77 1092 Aa",
+   ""
+  ],
+  "CD-77 1092 Ab": [
+   "",
+   328.714039,
+   -77.338051,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-77 1092 C": [
+   "",
+   328.706281,
+   -77.336801,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "CD-77 1092 Ca",
+   ""
+  ],
+  "CD-77 1092 Ca": [
+   "",
+   328.706281,
+   -77.336801,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-77 1092 Cb": [
+   "",
+   328.706281,
+   -77.336801,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1108 Aa": [
+   "",
+   122.234783,
+   32.819778,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1108 A": [
+   "",
+   122.234783,
+   32.819778,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 1108 Aa",
+   1.352503
+  ],
+  "GJ 1108 Ab": [
+   2454703.294,
+   122.234783,
+   32.819778,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1108 B": [
+   "",
+   122.230974,
+   32.817913,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 1108 Ba",
+   ""
+  ],
+  "GJ 1108 Ba": [
+   "",
+   122.230974,
+   32.817913,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 1108 Bb": [
+   "",
+   122.230974,
+   32.817913,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3376 Aa": [
+   "",
+   89.589755,
+   -4.650728,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3376 AB": [
+   "",
+   89.589755,
+   -4.650728,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 3376 A",
+   18.371036
+  ],
+  "GJ 3376 A": [
+   "",
+   89.589755,
+   -4.650728,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 3376 Aa",
+   ""
+  ],
+  "GJ 3376 Ab": [
+   "",
+   89.589755,
+   -4.650728,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3376 B": [
+   2481129.1515,
+   89.590091,
+   -4.650069,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3376 D": [
+   "",
+   89.571578,
+   -4.633808,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "alf Leo Aa": [
+   "",
+   152.093582,
+   11.967194,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Leo A": [
+   "",
+   152.093582,
+   11.967194,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "alf Leo Aa",
+   0.028762
+  ],
+  "alf Leo Ab": [
+   2444526.3,
+   152.093582,
+   11.967194,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "alf Leo BC": [
+   "",
+   152.053211,
+   11.996964,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "alf Leo B",
+   18.934195
+  ],
+  "alf Leo B": [
+   "",
+   152.053211,
+   11.996964,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "alf Leo C": [
+   "",
+   152.052716,
+   11.996952,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "zet UMa Aa": [
+   "",
+   200.980911,
+   54.925419,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet UMa AB": [
+   "",
+   200.980911,
+   54.925419,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "zet UMa A",
+   106.224365
+  ],
+  "zet UMa A": [
+   "",
+   200.980911,
+   54.925419,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "zet UMa Aa",
+   0.119375
+  ],
+  "zet UMa Ab": [
+   2447636.2,
+   200.980911,
+   54.925419,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet UMa B": [
+   "",
+   200.984625,
+   54.921788,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "zet UMa Ba",
+   0.088373
+  ],
+  "zet UMa Ba": [
+   "",
+   200.984625,
+   54.921788,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet UMa Bb": [
+   2437294.3984,
+   200.984625,
+   54.921788,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet UMa C": [
+   "",
+   201.306376,
+   54.987918,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "zet UMa Ca",
+   3.906378
+  ],
+  "zet UMa Ca": [
+   "",
+   201.306376,
+   54.987918,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "zet UMa Cb": [
+   "",
+   201.306376,
+   54.987918,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J15472982-2755121 A": [
+   "",
+   236.874245,
+   -27.920036,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J15472982-2755121 AB": [
+   "",
+   236.874245,
+   -27.920036,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "2MASS J15472982-2755121 A",
+   11.123437
+  ],
+  "2MASS J15472982-2755121 B": [
+   "",
+   236.874245,
+   -27.920036,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "2MASS J15472982-2755121 C": [
+   "",
+   236.895413,
+   -27.895254,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "2MASS J15472982-2755121 Ca",
+   ""
+  ],
+  "2MASS J15472982-2755121 Ca": [
+   "",
+   236.895413,
+   -27.895254,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J15472982-2755121 Cb": [
+   "",
+   236.895413,
+   -27.895254,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 754.2 A": [
+   "",
+   289.912495,
+   37.33054,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 754.2 AB": [
+   "",
+   289.912495,
+   37.33054,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 754.2 A",
+   0.591979
+  ],
+  "GJ 754.2 B": [
+   2458142.7068,
+   289.912495,
+   37.33054,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 754.2 C": [
+   "",
+   289.902035,
+   37.335508,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "GJ 754.2 Ca",
+   ""
+  ],
+  "GJ 754.2 Ca": [
+   "",
+   289.902035,
+   37.335508,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 754.2 Cb": [
+   "",
+   289.902035,
+   37.335508,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9829 A": [
+   "",
+   352.881262,
+   -4.087403,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9829 AD": [
+   "",
+   352.881262,
+   -4.087403,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AD itself, so the record whose label prefixes it",
+   "GJ 9829 A",
+   27.508959
+  ],
+  "GJ 9829 D": [
+   "",
+   352.87896,
+   -4.08986,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9829 BC": [
+   "",
+   352.756781,
+   -4.105421,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "GJ 9829 B",
+   4.325203
+  ],
+  "GJ 9829 B": [
+   "",
+   352.756781,
+   -4.105421,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9829 C": [
+   "",
+   352.881262,
+   -4.087403,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for C itself, so the system's main record",
+   "",
+   ""
+  ],
+  "GJ 310.1 Aa": [
+   "",
+   128.962406,
+   6.620214,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 310.1 AB": [
+   "",
+   128.962406,
+   6.620214,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 310.1 A",
+   77.668072
+  ],
+  "GJ 310.1 A": [
+   "",
+   128.962406,
+   6.620214,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 310.1 Aa",
+   0.037282
+  ],
+  "GJ 310.1 Ab": [
+   2446781.3008,
+   128.962406,
+   6.620214,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 310.1 B": [
+   2835779.3265,
+   128.963598,
+   6.622767,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 310.1 Ba",
+   0.437272
+  ],
+  "GJ 310.1 Ba": [
+   "",
+   128.963598,
+   6.622767,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 310.1 Bb": [
+   2455946.7976,
+   128.963598,
+   6.622767,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 310.1 G": [
+   "",
+   128.944917,
+   6.59152,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component G (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "BD+37 1091 Aa": [
+   "",
+   78.322647,
+   37.337274,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+37 1091 A": [
+   "",
+   78.322647,
+   37.337274,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "BD+37 1091 Aa",
+   1.012963
+  ],
+  "BD+37 1091 Ab": [
+   2469207.6461,
+   78.322647,
+   37.337274,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+37 1091 B": [
+   2414273.0,
+   78.326769,
+   37.34614,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "BD+37 1091 Ba",
+   ""
+  ],
+  "BD+37 1091 Ba": [
+   "",
+   78.326769,
+   37.34614,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+37 1091 Bb": [
+   "",
+   78.326769,
+   37.34614,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+39 496 Ba": [
+   "",
+   33.229117,
+   40.668389,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+39 496 B": [
+   "",
+   33.229117,
+   40.668389,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "BD+39 496 Ba",
+   0.477851
+  ],
+  "BD+39 496 Bb": [
+   2452330.14,
+   33.229117,
+   40.668389,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+39 496 A": [
+   "",
+   33.305563,
+   40.507588,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "BD+39 496 Aa",
+   3.153867
+  ],
+  "BD+39 496 Aa": [
+   "",
+   33.305563,
+   40.507588,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "BD+39 496 Ab": [
+   "",
+   33.305563,
+   40.507588,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9020 A": [
+   "",
+   10.197848,
+   -7.232609,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9020 AB": [
+   "",
+   10.197848,
+   -7.232609,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 9020 A",
+   98.185146
+  ],
+  "GJ 9020 B": [
+   "",
+   10.196341,
+   -7.23074,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9020 CD": [
+   "",
+   10.225647,
+   -7.229453,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for CD itself, so the record whose label prefixes it",
+   "GJ 9020 C",
+   10.384138
+  ],
+  "GJ 9020 C": [
+   "",
+   10.225647,
+   -7.229453,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9020 D": [
+   "",
+   10.22584,
+   -7.229749,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J19273089-4833528 A": [
+   "",
+   291.878647,
+   -48.564579,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J19273089-4833528 AB": [
+   "",
+   291.878647,
+   -48.564579,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "2MASS J19273089-4833528 A",
+   24.745727
+  ],
+  "2MASS J19273089-4833528 B": [
+   "",
+   291.878647,
+   -48.564579,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "2MASS J19273089-4833528 C": [
+   "",
+   291.625967,
+   -48.604356,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "2MASS J19273089-4833528 Ca",
+   ""
+  ],
+  "2MASS J19273089-4833528 Ca": [
+   "",
+   291.625967,
+   -48.604356,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J19273089-4833528 Cb": [
+   "",
+   291.625967,
+   -48.604356,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 187.2 A": [
+   "",
+   76.669294,
+   51.597722,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 187.2 AB": [
+   "",
+   76.669294,
+   51.597722,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 187.2 A",
+   32.825214
+  ],
+  "GJ 187.2 B": [
+   "",
+   76.671337,
+   51.59812,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 187.2 CD": [
+   "",
+   76.704895,
+   51.609586,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for CD itself, so the record whose label prefixes it",
+   "GJ 187.2 C",
+   19.49657
+  ],
+  "GJ 187.2 C": [
+   "",
+   76.704895,
+   51.609586,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 187.2 D": [
+   "",
+   76.703937,
+   51.60945,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ADS 9982 A": [
+   "",
+   243.987751,
+   7.357042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ADS 9982 AB": [
+   "",
+   243.987751,
+   7.357042,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "ADS 9982 A",
+   31.678755
+  ],
+  "ADS 9982 B": [
+   2417632.197,
+   243.988056,
+   7.357907,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ADS 9982 C": [
+   "",
+   244.131588,
+   7.432942,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "ADS 9982 Ca",
+   ""
+  ],
+  "ADS 9982 Ca": [
+   "",
+   244.131588,
+   7.432942,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ADS 9982 Cb": [
+   "",
+   244.131588,
+   7.432942,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "1 Hya Aa1": [
+   "",
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "1 Hya AB": [
+   "",
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "1 Hya A",
+   54.30073
+  ],
+  "1 Hya A": [
+   "",
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "1 Hya Aa",
+   1.283953
+  ],
+  "1 Hya Aa": [
+   "",
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "1 Hya Aa1",
+   0.004347
+  ],
+  "1 Hya Aa2": [
+   2422650.082,
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "1 Hya Ab": [
+   "",
+   126.145888,
+   -3.751247,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "1 Hya B": [
+   "",
+   126.14076,
+   -3.742887,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "1 Hya C": [
+   "",
+   126.21844,
+   -3.683859,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "1 Hya Ca",
+   ""
+  ],
+  "1 Hya Ca": [
+   "",
+   126.21844,
+   -3.683859,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "1 Hya Cb": [
+   "",
+   126.21844,
+   -3.683859,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2158 Aa": [
+   "",
+   91.167089,
+   -45.078915,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2158 AB": [
+   "",
+   91.167089,
+   -45.078915,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "HR 2158 A",
+   73.327057
+  ],
+  "HR 2158 A": [
+   "",
+   91.167089,
+   -45.078915,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "HR 2158 Aa",
+   0.062059
+  ],
+  "HR 2158 Ab": [
+   2457457.0819,
+   91.167089,
+   -45.078915,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2158 B": [
+   2345909.1847,
+   91.165757,
+   -45.080217,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "HR 2158 Ba",
+   0.054063
+  ],
+  "HR 2158 Ba": [
+   "",
+   91.165757,
+   -45.080217,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2158 Bb": [
+   2457004.908,
+   91.165757,
+   -45.080217,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 2158 C": [
+   "",
+   91.118497,
+   -45.036604,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3725 A": [
+   "",
+   186.807152,
+   27.024678,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3725 AB": [
+   "",
+   186.807152,
+   27.024678,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 3725 A",
+   35.695366
+  ],
+  "GJ 3725 B": [
+   2522215.2464,
+   186.807265,
+   27.025416,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3725 C": [
+   "",
+   186.739014,
+   27.014927,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "GJ 3725 Ca",
+   ""
+  ],
+  "GJ 3725 Ca": [
+   "",
+   186.739014,
+   27.014927,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3725 Cb": [
+   "",
+   186.739014,
+   27.014927,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9155 A": [
+   "",
+   66.050866,
+   -57.071338,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9155 AB": [
+   "",
+   66.050866,
+   -57.071338,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 9155 A",
+   106.30523
+  ],
+  "GJ 9155 B": [
+   2415020.3135,
+   66.048275,
+   -57.071947,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 9155 C": [
+   "",
+   66.047874,
+   -57.015221,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "GJ 9155 Ca",
+   3.695179
+  ],
+  "GJ 9155 Ca": [
+   "",
+   66.047874,
+   -57.015221,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Ca itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 9155 Cb": [
+   "",
+   66.047874,
+   -57.015221,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for Cb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J17061767+6438088 Aa": [
+   "",
+   256.573574,
+   64.635811,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J17061767+6438088 A": [
+   "",
+   256.573574,
+   64.635811,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "2MASS J17061767+6438088 Aa",
+   ""
+  ],
+  "2MASS J17061767+6438088 Ab": [
+   "",
+   256.573574,
+   64.635811,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "2MASS J17061767+6438088 BC": [
+   "",
+   256.867458,
+   64.624556,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "2MASS J17061767+6438088 B",
+   11.078427
+  ],
+  "2MASS J17061767+6438088 B": [
+   "",
+   256.867458,
+   64.624556,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "2MASS J17061767+6438088 C": [
+   "",
+   256.867172,
+   64.624584,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "CD-52 2036 Aa": [
+   "",
+   113.616736,
+   -52.968129,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-52 2036 A": [
+   "",
+   113.616736,
+   -52.968129,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "CD-52 2036 Aa",
+   0.230312
+  ],
+  "CD-52 2036 Ab": [
+   2448356.6995,
+   113.616736,
+   -52.968129,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-52 2036 B": [
+   "",
+   113.619785,
+   -52.96682,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "CD-52 2036 Ba",
+   ""
+  ],
+  "CD-52 2036 Ba": [
+   "",
+   113.619785,
+   -52.96682,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "CD-52 2036 Bb": [
+   "",
+   113.619785,
+   -52.96682,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "ksi Sco A": [
+   "",
+   241.092313,
+   -11.373205,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ksi Sco AC": [
+   "",
+   241.092313,
+   -11.373205,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AC itself, so the record whose label prefixes it",
+   "ksi Sco AB",
+   53.564177
+  ],
+  "ksi Sco AB": [
+   "",
+   241.092313,
+   -11.373205,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "ksi Sco A",
+   9.16994
+  ],
+  "ksi Sco B": [
+   2450529.1601,
+   241.092197,
+   -11.372962,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ksi Sco C": [
+   2534125.8311,
+   241.093571,
+   -11.371447,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ksi Sco DE": [
+   "",
+   241.108025,
+   -11.449383,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000); no record for DE itself, so the record whose label prefixes it",
+   "ksi Sco D",
+   161.026272
+  ],
+  "ksi Sco D": [
+   "",
+   241.108025,
+   -11.449383,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "ksi Sco E": [
+   "",
+   241.111327,
+   -11.449873,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 747.2 Aa": [
+   "",
+   287.224723,
+   34.062253,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 747.2 A": [
+   "",
+   287.224723,
+   34.062253,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 747.2 Aa",
+   4.465722
+  ],
+  "GJ 747.2 Ab": [
+   2449327.5498,
+   287.224723,
+   34.062253,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 747.2 B": [
+   "",
+   287.235532,
+   34.070671,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "GJ 747.2 Ba",
+   ""
+  ],
+  "GJ 747.2 Ba": [
+   "",
+   287.235532,
+   34.070671,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 747.2 Bb": [
+   "",
+   287.235532,
+   34.070671,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 7012 A": [
+   "",
+   281.362107,
+   -64.871299,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "HR 7012 B": [
+   "",
+   281.404412,
+   -64.862787,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "HR 7012 Ba",
+   0.903138
+  ],
+  "HR 7012 Ba": [
+   "",
+   281.404412,
+   -64.862787,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "HR 7012 Ba1",
+   ""
+  ],
+  "HR 7012 Ba1": [
+   "",
+   281.404412,
+   -64.862787,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 7012 Ba2": [
+   "",
+   281.404412,
+   -64.862787,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 7012 Bb": [
+   "",
+   281.404412,
+   -64.862787,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 1099 Aa": [
+   "",
+   54.197043,
+   0.587762,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 1099 A": [
+   "",
+   54.197043,
+   0.587762,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "HR 1099 Aa",
+   0.022846
+  ],
+  "HR 1099 Ab": [
+   2442767.3984,
+   54.197043,
+   0.587762,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 1099 B": [
+   2415020.3135,
+   54.195184,
+   0.587759,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "HR 1099 Ba",
+   0.166748
+  ],
+  "HR 1099 Ba": [
+   "",
+   54.195184,
+   0.587759,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "HR 1099 Bb": [
+   2450362.0,
+   54.195184,
+   0.587759,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "LP 395-8 Aa": [
+   "",
+   304.955265,
+   22.943448,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "LP 395-8 AB": [
+   "",
+   304.955265,
+   22.943448,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "LP 395-8 A",
+   16.562553
+  ],
+  "LP 395-8 A": [
+   "",
+   304.955265,
+   22.943448,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "LP 395-8 Aa",
+   0.007164
+  ],
+  "LP 395-8 Ab": [
+   2457620.075,
+   304.955265,
+   22.943448,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "LP 395-8 B": [
+   "",
+   304.955316,
+   22.94391,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "LP 395-8 C": [
+   "",
+   304.952603,
+   22.945282,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3347 Aa": [
+   "",
+   82.215117,
+   12.550813,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3347 AB": [
+   "",
+   82.215117,
+   12.550813,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "GJ 3347 A",
+   55.064761
+  ],
+  "GJ 3347 A": [
+   "",
+   82.215117,
+   12.550813,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 3347 Aa",
+   0.377702
+  ],
+  "GJ 3347 Ab": [
+   2453649.7695,
+   82.215117,
+   12.550813,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3347 B": [
+   "",
+   82.216697,
+   12.551362,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "GJ 3347 E": [
+   "",
+   82.235471,
+   12.531531,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000)",
+   "GJ 3347 Ea",
+   2.687722
+  ],
+  "GJ 3347 Ea": [
+   "",
+   82.235471,
+   12.531531,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Ea itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 3347 Eb": [
+   "",
+   82.235471,
+   12.531531,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component E (RAJ2000/DEJ2000); no record for Eb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "TYC 371-1053-1 Aa": [
+   "",
+   243.01936,
+   3.30576,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "TYC 371-1053-1 A": [
+   "",
+   243.01936,
+   3.30576,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "TYC 371-1053-1 Aa",
+   1.500745
+  ],
+  "TYC 371-1053-1 Ab": [
+   "",
+   243.01936,
+   3.30576,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "TYC 371-1053-1 B": [
+   "",
+   243.020923,
+   3.314833,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "TYC 371-1053-1 Ba",
+   6.835065
+  ],
+  "TYC 371-1053-1 Ba": [
+   "",
+   243.020923,
+   3.314833,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Ba itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "TYC 371-1053-1 Bb": [
+   "",
+   243.020923,
+   3.314833,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for Bb itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 173.1 Aa1": [
+   "",
+   69.927536,
+   9.87207,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa1 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 173.1 A": [
+   "",
+   69.927536,
+   9.87207,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "GJ 173.1 Aa",
+   17.380225
+  ],
+  "GJ 173.1 Aa": [
+   "",
+   69.927536,
+   9.87207,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "GJ 173.1 Aa1",
+   0.219271
+  ],
+  "GJ 173.1 Aa2": [
+   2456642.584,
+   69.927536,
+   9.87207,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa2 itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 173.1 Ab": [
+   2451471.485,
+   69.927536,
+   9.87207,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "GJ 173.1 B": [
+   "",
+   69.930255,
+   9.862985,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "G 132-50 Aa": [
+   "",
+   15.917299,
+   40.858055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "G 132-50 A": [
+   "",
+   15.917299,
+   40.858055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "G 132-50 Aa",
+   2.150814
+  ],
+  "G 132-50 Ab": [
+   "",
+   15.917299,
+   40.858055,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "G 132-50 BC": [
+   "",
+   15.925266,
+   40.854387,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000); no record for BC itself, so the record whose label prefixes it",
+   "G 132-50 B",
+   30.946774
+  ],
+  "G 132-50 B": [
+   "",
+   15.925266,
+   40.854387,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "G 132-50 C": [
+   "",
+   15.926183,
+   40.854323,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "m Hya A": [
+   "",
+   221.500344,
+   -25.443181,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "m Hya AD": [
+   "",
+   221.500344,
+   -25.443181,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AD itself, so the record whose label prefixes it",
+   "m Hya AB",
+   58.535461
+  ],
+  "m Hya AB": [
+   "",
+   221.500344,
+   -25.443181,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "m Hya A",
+   101.48681
+  ],
+  "m Hya B": [
+   "",
+   221.502462,
+   -25.444436,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component B (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "m Hya D": [
+   "",
+   221.504263,
+   -25.449677,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "m Hya C": [
+   "",
+   221.655328,
+   -25.397002,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "nu Sco Aa": [
+   "",
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aa itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "nu Sco AB": [
+   "",
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for AB itself, so the record whose label prefixes it",
+   "nu Sco A",
+   41.401877
+  ],
+  "nu Sco A": [
+   "",
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000)",
+   "nu Sco Aab",
+   2.362701
+  ],
+  "nu Sco Aab": [
+   "",
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Aab itself, so the record whose label prefixes it",
+   "nu Sco Aa",
+   0.033995
+  ],
+  "nu Sco Ab": [
+   2442185.5547,
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ab itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "nu Sco Ac": [
+   2457018.5643,
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for Ac itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "nu Sco B": [
+   2331745.0922,
+   242.998891,
+   -19.460691,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component A (RAJ2000/DEJ2000); no record for B itself, so the system's main record",
+   "",
+   ""
+  ],
+  "nu Sco CD": [
+   "",
+   242.993919,
+   -19.450184,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000); no record for CD itself, so the record whose label prefixes it",
+   "nu Sco C",
+   150.555675
+  ],
+  "nu Sco C": [
+   "",
+   242.993919,
+   -19.450184,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component C (RAJ2000/DEJ2000)",
+   "",
+   ""
+  ],
+  "nu Sco D": [
+   "",
+   242.994451,
+   -19.449911,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000)",
+   "nu Sco Da",
+   ""
+  ],
+  "nu Sco Da": [
+   "",
+   242.994451,
+   -19.449911,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000); no record for Da itself, so the record whose label prefixes it",
+   "",
+   ""
+  ],
+  "nu Sco Db": [
+   "",
+   242.994451,
+   -19.449911,
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6, Dec 2023 update), catalog record for component D (RAJ2000/DEJ2000); no record for Db itself, so the record whose label prefixes it",
+   "",
+   ""
+  ]
+ }
+}

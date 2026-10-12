@@ -1,0 +1,393 @@
+{
+  "agent": "S2",
+  "items": [
+    {
+      "name": "UPM J2155-2803",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.193,
+        "Effective temp (K)": 3223,
+        "Host luminosity (L-sun)": 0.00487
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp2155-2803: photometric SpType = 4.1 +/- 0.8 (scale starts at 0 = M0, so M4.1)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M4.1 +/- 0.8, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M4.1 +/- 0.8 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 6617978530741987456); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.193 M-sun, 3223 K, 0.00487 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. "
+    },
+    {
+      "name": "LSPM J2028+0524",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.198,
+        "Effective temp (K)": 3201,
+        "Host luminosity (L-sun)": 0.00492
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp2028+0524: photometric SpType = 4.1 +/- 0.8 (scale starts at 0 = M0, so M4.1)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M4.1 +/- 0.8, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M4.1 +/- 0.8 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 4246382183568597120); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.198 M-sun, 3201 K, 0.00492 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. "
+    },
+    {
+      "name": "LHS 6184",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.23,
+        "Effective temp (K)": 3188,
+        "Host luminosity (L-sun)": 0.00623
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1010-0507: photometric SpType = 3.9 +/- 0.7 (scale starts at 0 = M0, so M3.9)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M3.9 +/- 0.7, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M3.9 +/- 0.7 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 3779940798121520640); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.23 M-sun, 3188 K, 0.00623 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. SIMBAD main id is G 162-22 (= LHS 6184 = NLTT 23612). LAMOST DR4/DR5/DR7 low-resolution spectra exist at this position but are unusable (S/N_r ~2.6, pipeline class WDMagnetic / Unknown), so LAMOST gives no type."
+    },
+    {
+      "name": "UPM J0805-3522",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.229,
+        "Effective temp (K)": 3244,
+        "Host luminosity (L-sun)": 0.00661
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp0805-3522: photometric SpType = 3.9 +/- 0.7 (scale starts at 0 = M0, so M3.9)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M3.9 +/- 0.7, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M3.9 +/- 0.7 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 5544880780046222464); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.229 M-sun, 3244 K, 0.00661 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. Incidental: Thao et al. 2024 (AJ 168, 41; VizieR J/AJ/168/41/table3) list this star (Gaia DR3 5544880780046222464, TIC 144355325) as a MELANGE-5 candidate member (~210 Myr association); if it is young, a main-sequence photometric type and the TIC mass are less reliable."
+    },
+    {
+      "name": "SCR J1124-3900",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.244,
+        "Effective temp (K)": 3250,
+        "Host luminosity (L-sun)": 0.00739
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1124-3900: photometric SpType = 3.8 +/- 0.7 (scale starts at 0 = M0, so M3.8)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M3.8 +/- 0.7, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M3.8 +/- 0.7 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 5396029063372913664); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.244 M-sun, 3250 K, 0.00739 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. The discovery paper Boyd et al. 2011 (AJ 142, 10; Solar Neighborhood XXV; VizieR J/AJ/142/10) and Winters et al. 2015 (AJ 149, 5) give only photometric distances, no spectral type."
+    },
+    {
+      "name": "UPM J1831+6524",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "",
+        "Host mass (M-sun)": 0.242,
+        "Effective temp (K)": 3355,
+        "Host luminosity (L-sun)": 0.00828
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "~M4",
+          "source": "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list), 40pclist table, SPC ID Sp1831+6524: photometric SpType = 3.8 +/- 0.7 (scale starts at 0 = M0, so M3.8)",
+          "url": "https://arxiv.org/abs/2011.02069 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/645/A100/40pclist",
+          "derived": false,
+          "method": "PHOTOMETRIC estimate, not spectroscopic: Sebastian+2021 Sect. 2 invert the Filippazzo+2015 Teff(M_H) relation to get SpT. Published M3.8 +/- 0.7, rounded to the nearest half subtype (M4) and written with the leading ~ the column uses for estimated types."
+        }
+      },
+      "reason": "No spectroscopic spectral type is published for this star: SIMBAD has no sp_type, and a VizieR all-catalogue cone search (20 arcsec) plus the SIMBAD bibliography turned up only photometric estimates. The best is Sebastian et al. 2021 (A&A 645, A100), M3.8 +/- 0.7 photometric, so write ~M4.",
+      "confidence": "medium",
+      "notes": "Describes the row's own star (Gaia DR3 2256762188837557248); the row is single, so it is also the planet-host star. Mass, Teff and luminosity on this row are NOT blank (TIC v8.2 cool-dwarf values: 0.242 M-sun, 3355 K, 0.00828 L-sun), so nothing else needs filling. The class agrees with that Teff and mass, but they were not used to get it. Cook et al. 2016 (MNRAS 457, 2192; VizieR J/MNRAS/457/2192/njcmfull) give an independent photometric type from V-J (Lepine et al. 2013 relation): NSpL = 3.82 +/- 0.02, string M4.0 -- same answer. "
+    },
+    {
+      "name": "GJ 667 A",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "K3 V",
+        "Host mass (M-sun)": 0.73,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": 0.0190739944486896
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 4819,
+          "source": "Santos et al. 2005, A&A 437, 1127 (2005A&A...437.1127S), as catalogued in PASTEL (VizieR B/pastel/pastel, entry HD 156384): Teff = 4819 +/- 110 K, logg 4.66, [Fe/H] -0.43",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/pastel/pastel",
+          "derived": false,
+          "method": "Spectroscopic (Santos+2005). TIC v8.2 adopts the same value for HD 156384 (r_Teff = spect)."
+        }
+      },
+      "reason": "No Teff exists for GJ 667 A alone: A and B are 1.8 arcsec apart and every spectrum or SED is their combined light, dominated by A (about 1 mag brighter in V). The spectroscopic value with a stated error, which TIC v8.2 adopts, is Santos et al. 2005: 4819 +/- 110 K.",
+      "confidence": "low",
+      "notes": "Describes GJ 667 A, the row's own star (K3 V primary), measured in COMBINED A+B light (HD 156384 = GJ 667 AB). B (K5 V) pulls a blended Teff cooler, so A itself is probably no cooler than this. NOT the archive's 3350 K, which is GJ 667 C, the planet host. Published alternatives, all AB blends: Perrin et al. 1988 4941 K (PASTEL); PASTEL mean (Soubiran et al. 2022, A&A 663, A4, J/A+A/663/A4/meanpast) 4886 +/- 74 K from 2 values; AMBRE/FEROS automated 4653 K (J/A+A/690/A97) and 4645 K (J/A+A/704/A49); McDonald et al. 2017 SED 4651 K (J/MNRAS/471/770); Hardegree-Ullman et al. 2023 5032 +/- 383 K (photometric, J/AJ/165/267). The spread is 4645-5032 K, an uncertainty of about 150 K. I recommend 4819 because it is spectroscopic, has an error bar and is the value TIC adopts; a writer who prefers the most recent value could use AMBRE's 4653. CONSISTENCY FLAG: the Multi-stars GJ 667 A luminosity (0.173, orange) was derived with Teff = 4270 K (Johnson & Wright 1983), and every modern value is 400-750 K hotter. I did not open the Santos 2005 paper itself; the value comes from the PASTEL catalogue query."
+    },
+    {
+      "name": "HIP 86221",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "K5 V",
+        "Host mass (M-sun)": 0.79,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": 0.1708
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 4460,
+          "source": "Houdebine et al. 2019, AJ 158, 56, Table 2 (VizieR J/AJ/158/56/table2, star MCC 795A at the HIP 86221 position): Teffmean = 4460 +/- 24 K (Teff1 = 4484 from their (R-I)c calibration, Teff2 = 4435 from the literature)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/158/56/table2",
+          "derived": false,
+          "method": "Photometric (R-I)c calibration averaged with a literature value; combined A+B light."
+        }
+      },
+      "reason": "No Teff exists for HIP 86221 A alone: A and B are 0.29 arcsec apart and Gaia gives only a 2-parameter solution, so every Teff is for the A+B blend. The most recent refereed value is Houdebine et al. 2019: 4460 +/- 24 K.",
+      "confidence": "low",
+      "notes": "Describes the row's star HIP 86221 (= BD+27 2853 = GJ 9595, the planet host, presumed to be A) but is measured in COMBINED A+B light. B is ~0.59 mag fainter (about K7), so A alone is probably a little hotter. The discovery paper, Paredes et al. 2021 (arXiv:2111.15028), gives no Teff (checked Table 2 and Sect. 5.2.4). Other published blended values: McDonald et al. 2017 SED 4388 K (J/MNRAS/471/770; also in HPIC), Oelkers et al. 2018 4415 K (J/AJ/155/39), Stevens et al. 2017 4492 K (J/AJ/154/259). The range is 4388-4492 K. Houdebine 2019 give spectral type sdK4.6 and used C's Gaia DR2 parallax (31.09 mas) for this pair; that affects only their radius, not the colour Teff."
+    },
+    {
+      "name": "psi1 Dra A",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "F5 IV-V",
+        "Host mass (M-sun)": "",
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": 2.21,
+        "Gaia DR3 source_id": ""
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 6544,
+          "source": "Endl et al. 2016, ApJ 818, 34 (arXiv:1512.02965), Table 10 row 3: psi1 Dra A Teff = 6544 +/- 42 K (strict differential analysis relative to psi1 Dra B)",
+          "url": "https://arxiv.org/abs/1512.02965",
+          "derived": false,
+          "method": "Spectroscopic: Fe-line excitation/ionisation balance (MOOG), differential to B."
+        },
+        "Host mass (M-sun)": {
+          "value": 1.44,
+          "source": "Casagrande et al. 2011, A&A 530, A138 (Geneva-Copenhagen re-analysis), VizieR J/A+A/530/A138/catalog, HIP 86614 (HD 162003, m_Name A): Padova Bayesian mass, median 1.44 M-sun (16-84%: 1.41-1.47); IRFM Teff 6542 K",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/530/A138/catalog",
+          "derived": false,
+          "method": "Isochrone (Padova) Bayesian mass from IRFM Teff, [Fe/H] and Hipparcos parallax."
+        },
+        "Gaia DR3 source_id": {
+          "value": "1651268660203160448",
+          "source": "Gaia DR3 gaia_source (queried 2026-09-27) and SIMBAD ident (HD 162003 = Gaia DR3 1651268660203160448): plx 43.950 +/- 0.862 mas, G 4.444, BP-RP 0.608, RUWE 3.43; 29.9 arcsec from psi1 Dra B (1651268763282397312, plx 44.050)",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": "SIMBAD cross-id, confirmed by position (0.4 arcsec from the row's RA/Dec), parallax (matches the Multi-stars note, 43.9499 mas) and brightness (the only G < 6 source in the field besides B)."
+        }
+      },
+      "reason": "Endl et al. 2016 (Table 10) measured psi1 Dra A itself: Teff 6544 +/- 42 K (6546 +/- 56 K against the Sun). Endl et al. do not derive A's mass, so the mass comes from Casagrande et al. 2011: 1.44 M-sun.",
+      "confidence": "medium",
+      "notes": "All values describe psi1 Dra A (HD 162003, HIP 86614), the row's own star, NOT the planet host psi1 Dra B (the archive values Teff 6212 K and M 1.19 are B's). TEFF: Endl 2016 Table 10 gives 6546 +/- 56 (Sun reference) and 6544 +/- 42 (B reference); their Casagrande colour calibration gives 6519 +/- 20. Others: Casagrande 2011 IRFM 6542, Luck 2017 6573 +/- 49 (J/AJ/153/21), Brewer et al. 2016 6411 (J/ApJS/225/32, also TIC). MASS: the sources span 1.19-1.48. Casagrande 2011 gives 1.44 (Padova) and 1.47 (BaSTI). Brewer 2016 gives an isochrone mass of 1.46 (1.43-1.52) but a spectroscopic-logg mass of 1.30 +/- 0.17. Endl 2016 Table 5 ADOPTS 1.430 for its A-C orbit fit and quotes Toyota et al. 2009 M_A ~1.38 in Sect. 5.2.2 (the Multi-stars A row has 1.38). Luck 2017 gives a mean of 1.26 and David & Hillenbrand 2015 give 1.19 (1.1-1.3; J/ApJ/804/146). I recommend 1.44 because it comes with a Teff (6542) that matches Endl's spectroscopic Teff and agrees with Endl's adopted 1.430 and Brewer's isochrone 1.46. CAVEAT: A is an SB1 with a stellar companion C (Endl 2016 Table 5: P = 6649 d, m sin i = 551 MJup ~0.53 M-sun, a = 8.7 AU), whose light could bias photometric masses slightly. GAIA: RUWE 3.43 and the 0.86 mas parallax error reflect the A-C orbit and the star's brightness (G 4.4). The brief asked for A's Gaia id and the cell is blank on this row, so I put it under the Gaia DR3 source_id header. The row's luminosity 2.21 is psi1 Dra B's (the planet host), as the column defines; I left it alone."
+    },
+    {
+      "name": "GJ 237",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "M2.5V (B component)",
+        "Host mass (M-sun)": 0.574,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": "",
+        "Gaia DR3 source_id": "5568872398635858816",
+        "Planet-host star": "GJ 237"
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 3553,
+          "source": "Gaidos et al. 2014, MNRAS 443, 2561 (CONCH-SHELL), VizieR J/MNRAS/443/2561/stars, PM I06318-4332S = 2MASS J06315093-4332052 (GJ 237 B): Teff = 3553 +/- 74 K, n_Teff = PHX",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/443/2561/stars",
+          "derived": false,
+          "method": "Spectroscopic: PHOENIX model fit to a moderate-resolution spectrum."
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.0212,
+          "source": "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse), Table 1 (VizieR J/AJ/165/267/table1), Gaia DR3 5568872398635858816 = CD-43 2523B: Lum = 2.12e-2 +/- 6.5e-4 L-sun at 23.77 pc",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/165/267/table1",
+          "derived": false,
+          "method": "Bolometric: Gaia G magnitude + the Gaia DR3 bolometric-correction tool + Gaia distance (paper Sect. 2.5, arXiv:2304.12490)."
+        }
+      },
+      "reason": "The row's Gaia id is GJ 237 B (CD-43 2523B), and B is also the planet host: the ExoFOP CTOI is on TIC 293689267 = Gaia DR3 5568872398635858816. Both values therefore describe B: Teff 3553 +/- 74 K (Gaidos et al. 2014) and bolometric L 0.0212 L-sun (Hardegree-Ullman et al. 2023).",
+      "confidence": "medium",
+      "notes": "Both values describe GJ 237 B, which is both the row's own star and the planet host (CTOI 293689267.01 on the ExoFOP CTOI list, P = 14.83 d, from ORION). A is CD-43 2523 A = HIP 31126 = Gaia DR3 5568872394338114560 (Gaidos: Teff 3821, M0; HU2023: L 0.0716). The Planet-host star cell says \"GJ 237\", but SIMBAD resolves \"GJ 237\" to A (CD-43 2523), so the writer may want \"GJ 237 B\" there. LUMINOSITY ALTERNATIVES: Gaidos 2014 give L = 0.025 +/- 0.007, but that is NOT a flux measurement: Gaidos Sect. 4.3 derive R, L and M from Teff through the Mann, Gaidos & Ansdell 2013 relations and advise users to prefer parallax-based values. Tuchow et al. 2025 (PASP 137, 104402, HWO TSS25 list, J/PASP/137/J4402/list2025) give log L = -1.573 (0.0267), a compiled value whose origin the table does not state. B's 2MASS Ks is corrupt (e_Ks = 9.998), so no K-band BC route exists. TEFF ALTERNATIVES: HU2023 3447 +/- 115 (photometric); HPIC 3321 is Gaia GSP-Spec (the value the writer rejected). Incidental in the same row: Host mass 0.574 is TIC v8.2 with s_Mass 1.507 (no constraint); Gaidos 2014 give B 0.43 +/- 0.07 M-sun (Teff-relation based)."
+    },
+    {
+      "name": "GJ 4248",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "M3.5V",
+        "Host mass (M-sun)": 0.244,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 3323,
+          "source": "Maldonado et al. 2020, A&A 644, A68 (HADES XII), Table A.1 (VizieR J/A+A/644/A68/tablea1), star LHS 3746 = GJ 4248: Teff = 3323 +/- 68 K",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/644/A68/tablea1",
+          "derived": false,
+          "method": "Spectroscopic (HARPS/HARPS-N pseudo-equivalent-width ratios, Maldonado+2015 calibration)."
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.0074,
+          "source": "Pass et al. 2023, AJ 166, 11, Table 2 (VizieR J/AJ/166/11/table2), LHS 3746 = 2MASS J22022935-3704512: Lum = 0.0074 L-sun",
+          "url": "https://arxiv.org/abs/2305.19357 ; https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/166/11/table2",
+          "derived": false,
+          "method": "Bolometric: Winters+2021 photometry with the Pecaut & Mamajek 2013 and Mann et al. 2015 bolometric corrections, averaged, at the Gaia distance (paper Sect. 4). No uncertainty tabulated."
+        }
+      },
+      "reason": "GJ 4248 (L 499-56 = LHS 3746) is single and is its own planet host (single-transit CTOI 197736350.01). Bolometric L is 0.0074 L-sun from Pass et al. 2023, confirmed by two independent values (0.00708 and 0.00732). Spectroscopic Teff is 3323 +/- 68 K from Maldonado et al. 2020.",
+      "confidence": "medium",
+      "notes": "Both values describe GJ 4248 itself (the row star is the planet host). L AGREEMENT: Ment & Charbonneau 2023 (AJ 165, 265, J/AJ/165/265/table1) 0.00708; Hardegree-Ullman et al. 2023 (J/AJ/165/267) 0.00732; Pass 2023 0.0074. REJECT Gaidos et al. 2014 L = 0.015 +/- 0.006: it comes from their Teff (3425 K) through an empirical relation rather than a measurement, and it is 2x the parallax-based values. TEFF ALTERNATIVES (all within ~130 K): Fouque et al. 2018 (MNRAS 475, 1960, Table A6, their own measurement, code 1) 3293 +/- 17; Houdebine et al. 2019 (J/AJ/158/56) 3345 +/- 12 (photometric); Houdebine et al. 2016 3359 +/- 100; Gaidos 2014 3425 +/- 85; Hojjatpanah et al. 2019 3434 +/- 92; Stelzer et al. 2013 3241. I recommend Maldonado 2020 as the most recent spectroscopic value with a stated error. Gaia GSP-Spec 3132 K is 110-300 K cooler than all of these and should not be used. Incidental: Kirkpatrick et al. 2024 (20-pc census, J/ApJS/271/55 table4) give L 499-56 optical type M3 V (Henry et al. 2018), Gaidos 2014 give M4, and the row says M3.5V. Maldonado 2020 list mass 0.16 +/- 0.13 and R 0.19, inconsistent with the row's 0.244 and with Pass 2023's 0.251, so do not take the mass from Maldonado."
+    },
+    {
+      "name": "GJ 65",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "M",
+        "Host mass (M-sun)": 0.122,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": "",
+        "Gaia DR3 source_id": "5140693571158739840",
+        "Planet-host star": "GJ 65"
+      },
+      "fields": {
+        "Stellar Class": {
+          "value": "M5.5 V",
+          "source": "Kirkpatrick, Henry & McCarthy 1991, ApJS 77, 417, as listed for G 272-61 A in Kirkpatrick et al. 2024 (ApJS 271, 55, 20-pc census, Table 4, SpTOpt; VizieR J/ApJS/271/55/table4) and in SIMBAD (GJ 65 A = G 272-61A, sp_bibcode 1991ApJS...77..417K)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/271/55/table4",
+          "derived": false,
+          "method": "Optical spectroscopic classification."
+        },
+        "Effective temp (K)": {
+          "value": 2810,
+          "source": "Fouque et al. 2018, MNRAS 475, 1960, Table A6 (VizieR J/MNRAS/475/1960/tablea6), Gl 65A (BL Cet): Teff = 2810 K, source code 3",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/475/1960/tablea6",
+          "derived": false,
+          "method": "Code 3: Fouque+ derived it from the Mann et al. 2015 colour-Teff relation (their eq. 7, Table 2), published without an error bar. Not from the spectral type."
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.00153,
+          "source": "Hardegree-Ullman et al. 2023, AJ 165, 267, Table 1 (VizieR J/AJ/165/267/table1), Gaia DR3 5140693571158739840 = G 272-61A: Lum = 1.53e-3 +/- 5.2e-5 L-sun at 2.72 pc",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/165/267/table1",
+          "derived": false,
+          "method": "Bolometric: Gaia G + the Gaia DR3 BC tool + distance."
+        }
+      },
+      "reason": "The row is GJ 65 A (BL Cet; Gaia DR3 5140693571158739840). Class M5.5 V (Kirkpatrick et al. 1991), Teff 2810 K (Fouque et al. 2018) and L 0.00153 L-sun (Hardegree-Ullman et al. 2023) all match the Multi-stars GJ 65 A row, where the same L was written as an orange-bordered derivation.",
+      "confidence": "medium",
+      "notes": "All three values describe GJ 65 A, the row's own star. The system has no confirmed planet, so the Host luminosity column has no separate planet host to describe. The Planet-host star cell says \"GJ 65\" (the Multi-stars rows, oddly, name GJ 65 B as planet host; worth a look). CONSISTENCY with Multi-stars: that row has Teff 2810 (Fouque 2018 Table A6) and L 0.00153, derived from Kervella+2016 R = 0.165 and the Fouque Teff. HU2023 publish exactly 0.00153 as a bolometric value, so the Systems cell can hold a published (non-orange) value, and the Multi-stars cell could lose its orange border. CAVEAT: A and B are 2 arcsec apart (Gaia RUWE 12.4), so HU2023's Gaia G photometry of A may be slightly contaminated; its agreement with the independent R + Teff derivation suggests it is not badly off. Alternatives: HU2023 Teff 2845 +/- 80 (photometric). Cifuentes et al. 2020 list only the unresolved pair (BL Cet + UV Cet, M5.0 V+) with no Lbol, and GJ 65 is in neither Schweitzer 2019 nor Marfil 2021. Incidental: HU2023 give B (G 272-61B, Gaia 5140693571158946048) L = 9.72e-4, 35% below the Multi-stars B value of 0.00149."
+    },
+    {
+      "name": "TVLM 513-46546",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "M8.5V",
+        "Host mass (M-sun)": 0.07,
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": ""
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 2267,
+          "source": "Sanghi et al. 2023, ApJ 959, 63 (Hawaii Infrared Parallax Program VI), Table of Ultracool Fundamental Properties (Zenodo 8315643), TVLM 513-46546: teff_evo = 2267 +/- 205 K (BHAC15)",
+          "url": "https://zenodo.org/records/8315643 ; https://arxiv.org/abs/2309.03082",
+          "derived": false,
+          "method": "Semi-empirical: evolutionary-model (BHAC15) Teff from the measured Lbol and an age prior. Not from the spectral type."
+        },
+        "Host luminosity (L-sun)": {
+          "value": 0.000257,
+          "source": "Sanghi et al. 2023, ApJ 959, 63, Table of Ultracool Fundamental Properties (Zenodo 8315643): log(Lbol/Lsun) = -3.59 +/- 0.02 at Gaia DR3 plx 93.17 +/- 0.14 mas",
+          "url": "https://zenodo.org/records/8315643 ; https://arxiv.org/abs/2309.03082",
+          "derived": false,
+          "method": "Bolometric, from direct integration of an optical-to-mid-IR SED (SpeX prism + PS1 + WISE). Written as 10^-3.59 = 2.57e-4 (unit conversion only); 1-sigma range 2.45e-4 to 2.69e-4."
+        }
+      },
+      "reason": "Sanghi et al. 2023 give log Lbol = -3.59 +/- 0.02 (L = 2.57e-4 L-sun) from a flux-integrated SED at the Gaia DR3 parallax the sheet uses, with Teff 2267 +/- 205 K. Filippazzo et al. 2015 agree to within 0.02 dex.",
+      "confidence": "high",
+      "notes": "Both values describe TVLM 513-46546 (single; the row star is the planet host). ALTERNATIVE: Filippazzo et al. 2015 (ApJ 810, 158, Table 9, VizieR J/ApJ/810/158/table9) give log L = -3.57 +/- 0.01 (2.69e-4) at the older Dahn+2002 parallax 94.40 +/- 0.60 mas, with Teff 2242 +/- 55 K, R 1.05 RJup and M 75 +/- 11 MJup. Rescaled to the Gaia parallax their L would be ~2.76e-4 (a derived rescaling, not a published value). CAVEAT: Sanghi 2023 flag this object (lbol_flag TRUE: BT-Settl fit reduced chi2 = 140 > 50), meaning the model-filled optical/MIR flux may be less reliable; their Sect. 5.2 says the effect is small for M dwarfs. I recommend Sanghi for both cells so L and Teff form one self-consistent solution at the sheet's parallax. If the writer prefers the tighter Teff, Filippazzo's 2242 +/- 55 is equally published. Sanghi also give optical and NIR type M8.5 (Kirkpatrick+1995, Gizis+2002), agreeing with the row."
+    },
+    {
+      "name": "GJ 338 A",
+      "tab": "Systems within 100 ly",
+      "action": "fill",
+      "current": {
+        "Stellar Class": "M0 V",
+        "Host mass (M-sun)": "",
+        "Effective temp (K)": "",
+        "Host luminosity (L-sun)": 0.0779759687705151,
+        "Gaia DR3 source_id": "1022456139210632064",
+        "Planet-host star": "GJ 338 B"
+      },
+      "fields": {
+        "Effective temp (K)": {
+          "value": 4015,
+          "source": "Marfil et al. 2021, A&A 656, A162 (CARMENES, SteParSyn), Table 3 (VizieR J/A+A/656/A162/table3), Karmn J09143+526 = HD 79210: Teff1 = 4015 +/- 16 K (free run)",
+          "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/656/A162/table3",
+          "derived": false,
+          "method": "Spectroscopic: CARMENES VIS high-resolution spectral synthesis with SteParSyn (free log g run)."
+        }
+      },
+      "reason": "GJ 338 A (HD 79210, Gaia DR3 1022456139210632064) has a CARMENES spectroscopic Teff: Marfil et al. 2021, 4015 +/- 16 K. This agrees with Schweitzer et al. 2019 (4024 +/- 51 K).",
+      "confidence": "high",
+      "notes": "Describes GJ 338 A, the row's own star; the planet orbits GJ 338 B (HD 79211). ALTERNATIVES: Marfil 2021 fixed-logg run 4004 +/- 9; Schweitzer et al. 2019 (A&A 625, A68, Table B1, J/A+A/625/A68/tableb1, Gl 338A) 4024 +/- 51 (also Lum 0.0789, dM0.0); Gaidos et al. 2014 3991 +/- 66; Mann et al. 2015 (ApJ 804, 64, J/ApJ/804/64/stars) 3920 +/- 60 (alternate 3930 +/- 52), SpT K7.8; Fouque et al. 2018 3920 +/- 10; Cifuentes et al. 2020 SED 3900 (on a 100 K grid). The CARMENES values cluster at 4000-4025 K; Mann and Fouque are ~100 K cooler. I recommend Marfil 2021 as the most recent and highest-resolution analysis. Incidental: the row's Host mass is also blank. Cifuentes et al. 2020 (J/A+A/642/A115/tablea3, HD 79210) give 0.6341 M-sun, the value already on the Multi-stars GJ 338 A row; Schweitzer 2019 give MassMR 0.586 +/- 0.025. Incidental on class: SIMBAD gives A = K7V and B = M0V (Kirkpatrick 1991), but Kirkpatrick et al. 2024 (J/ApJS/271/55/table4) list HD 79210 = M0 V and HD 79211 = K7 V, also citing Kirkpatrick 1991, and CARMENES (Cifuentes 2020) give A M0.0 V. The sheet's M0 V for A matches the latter two."
+    }
+  ],
+  "incidental_finds": [
+    "Row numbers are not stable: my first read of Systems within 100 ly (2026-09-27) had GJ 237 at row 373, GJ 4248 at 376, GJ 65 at 377 and UPM J2155-2803 at 420; a later read matched the brief (49, 50, 55, 59, 66, 70, 118, 207, 245, 374, 418, 419, 420, 428). Key every write on the name or Gaia id.",
+    "GJ 237 row: Host mass 0.574 comes from TIC v8.2 with s_Mass = 1.507 M-sun (no constraint). Gaidos et al. 2014 (J/MNRAS/443/2561) give GJ 237 B 0.43 +/- 0.07 M-sun; Hardegree-Ullman 2023 give 0.575 +/- 0.575. Do not trust the 0.574.",
+    "GJ 667 A (Multi-stars): the orange-bordered luminosity 0.173 was derived with Teff = 4270 K (Johnson & Wright 1983). Every later spectroscopic or SED value for HD 156384 is 4645-4941 K (PASTEL, AMBRE, McDonald 2017); with R = 0.76 and Teff 4819 the same Stefan-Boltzmann derivation gives ~0.28, not 0.173. Worth re-checking.",
+    "GJ 65 B (Multi-stars): L 0.00149 (orange, from R = 0.159 and Teff 2842) vs the Hardegree-Ullman et al. 2023 bolometric 9.72e-4 for Gaia DR3 5140693571158946048 (J/AJ/165/267/table1). One of the two is off by 35%; B is 2 arcsec from A, so the Gaia photometry may be the problem.",
+    "GJ 4248: Kirkpatrick et al. 2024 (J/ApJS/271/55/table4) give optical type M3 V (Henry et al. 2018) against the sheet's M3.5V (SIMBAD, Reid 1995).",
+    "GJ 338 A/B: SIMBAD (A K7V, B M0V) and Kirkpatrick et al. 2024 Table 4 (A = HD 79210 M0 V, B = HD 79211 K7 V) swap the two Kirkpatrick 1991 types; CARMENES (Cifuentes 2020) give HD 79210 M0.0 V. The sheet has M0 V for both.",
+    "Gaia DR3 GSP-Spec Teff is unusable for M dwarfs at the grid edge: 4250 K for UPM J2155-2803, LSPM J2028+0524, UPM J0805-3522 and UPM J1831+6524 (run4/candidates.json), and 3132 K for GJ 4248 against 3241-3434 K from six papers.",
+    "UPM J0805-3522 is a candidate member of the ~210 Myr MELANGE-5 association (Thao et al. 2024, AJ 168, 41, J/AJ/168/41/table3). If it is young, its TIC main-sequence mass and radius may be off."
+  ]
+}

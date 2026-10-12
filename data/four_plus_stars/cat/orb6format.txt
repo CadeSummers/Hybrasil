@@ -1,0 +1,119 @@
+    Sixth Catalog of Orbits of Visual Binary Stars: format of text version
+
+The format of the Sixth Orbit Catalog has been extensively modified, in order to 
+address a couple shortcomings in the original format. First, some users of the 
+catalog requested that published formal errors for orbital elements be included 
+when available. Also, new techniques such as long-baseline interferometry have 
+in recent years yielded orbits with ever shorter periods and smaller semi-major 
+axes. The range in these values (for example, periods >100,000 years on the one 
+extreme, periods quoted to 0.00000001 years or less at the other) did not fit in 
+the number of characters initially allocated.
+
+Accordingly, the master file was widened considerably to accommodate both formal 
+errors and higher precisions. Flags have been added to the period and semi-major 
+axis columns, allowing periods to be quoted in centuries or days as well as 
+years, semi-major axes in milliarcseconds as well as arcseconds, and T0 in 
+modified Julian date as well as fractional Besselian year. (Codes for other 
+units, such as periods in hours or semi-major axes in micro-arcseconds, will be 
+added as needed).
+
+The format of the text version of the Sixth Catalog is as follows:
+
+
+ column  format           description
+    1    T1,2I2,F5.2,     epoch-2000 right ascension (hours, minutes, seconds).
+         A1,2I2,f4.1      epoch-2000 declination (degrees, minutes, seconds).
+    2    T20,A10          WDS designation (based on arcminute-accuracy epoch-
+                          2000 coordinates).
+    3    T31,A14          Discover designation and components, or other catalog 
+                          designation.
+    4    T46,I5           ADS (Aitken Double Star catalog) number.
+    5    T52,I6           HD catalog number.
+    6    T59,I6           Hipparcos catalog number.
+    7    T67,F5.2,A1      Magnitude of the primary (usually V), and flag:
+                            > = fainter than quoted magnitude
+                            < = brighter than quoted magnitude 
+                            v = variable magnitude
+                            k = magnitude is in K-band or other infrared band
+                            ? = magnitude is uncertain
+    8    T74,F5.2,A1      Magnitude of the secondary (usually V), and flag:
+                            > = fainter than quoted magnitude
+                            < = brighter than quoted magnitude 
+                            v = variable magnitude
+                            k = magnitude is in K-band or other infrared band
+                            ? = magnitude is uncertain
+    9    T82,F11.6,A1     Period (P) and code for units:
+                            m = minutes (not yet used!)
+                            h = hours (not yet used!)
+                            d = days
+                            y = years
+                            c = centuries (rarely used)
+   10    T95,F10.6        Published formal error in P (in same units as for P). 
+   11    T106,F9.5,A1     Semi-major axis (a) and code for units:
+                            a = arcseconds
+                            m = milliarcseconds (mas)
+                            M = arcminutes (used only for alp Cen + Proxima Cen)
+                            u = microarcseconds (uas - not yet used)
+   12    T117,F8.5        Error in a. Units are the same as for a.
+   13    T126,F8.4        Inclination (i), in degrees.
+   14    T135,F8.4        Error in i.
+   15    T144,F8.4,A1     Node (Omega), in degrees. An identified ascending node 
+                          is indicated by an asterisk following the value. If 
+                          the ascending node is later determined to off by 
+                          180deg, it is flipped, and a "q" code added to 
+                          indicate the change. 
+   16    T154,F8.4        Error in Omega.
+   17    T163,F12.6,A1    The time of periastron passage (T0) and code for units:
+                            c = centuries (fractional year / 100; used only for 
+                                alp Cen + Proxima Cen) 
+                            d = truncated Julian date (JD-2,400,000 days)
+                            m = modified Julian date  (MJD = JD-2,400,000.5 days)
+                            y = fractional Besselian year
+   18    T177,F10.6       Error in T0. Units are the same as for T0.
+   19    T188,F8.6        Eccentricity (e).
+   20    T197,F8.6        Error in e.
+   21    T206,F8.4,A1     Longitude of periastron (omega), in degrees, reckoned 
+                          from the node as listed. If the published omega value 
+                          is later determined to fall in the wrong quadrant, the 
+                          value is flipped by 180deg; a letter "q" indicates the 
+                          quadrant has been corrected.
+   22    T215,F8.4        Error in omega.
+   23    T224,I4          Equinox, if any, to which the node refers.
+   24    T229,I4          Date of the last observation used in the orbit 
+                          calculation, if published.
+   25    T234,I1          Orbit grade, ranging from 1 ("definitive") to 5 
+                          ("indeterminate"). Additionally, a grade of 8 is used
+                          for interferometric orbits based on visibilities 
+                          rather than rho and theta measures (hence not gradable
+                          by the present scheme) and a grade of 9 indicates an
+                          astrometric binary (also lacking rho and theta data).
+   26    T236,A1          A flag "n" to any notes for this system. 
+   27    T238,A8          A code for the reference (usually based on the name of 
+                          the first author and the date of publication).
+   28    T247,A18         Name of image file (png format) illustrating orbit and
+                          all associated measures in the Washington Double Star 
+                          database.
+
+
+Columns in the ephemeris file (orb6ephem.txt) are as follows: 
+(Note: ephemeris file was updated 6 Jul 2015, following discussion with users)
+
+ column   format               description
+    1     A10                  WDS designation, as above.
+    2     T12,A14              Discoverer designation, as above.
+    4     T28,A8               Reference code, as above.
+    5     5(F5.1,F7.3,4X)      Predicted values of theta and rho over a 5-year   
+       or 5(F5.1,F8.4,3X)      timespan. Theta is given in degrees and rho in 
+                               arcseconds. Rho values for a given pair are 
+                               listed to 1mas precision unless at least one 
+                               predicted value for that pair is under 10mas. In 
+                               this case all values for the pair are listed to 
+                               0.1mas precision.
+    6     T116,A20             Text indicating astrometric orbit or pair with 
+                               incomplete elements. Rho values are those of the 
+                               photocenter relative to the barycenter for 
+                               astrometric solutions. Obviously no theta or rho 
+                               values are listed for pairs with incomplete 
+                               elements.
+
+

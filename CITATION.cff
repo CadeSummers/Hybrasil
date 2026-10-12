@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below. If you use the data,
+  please cite the dataset listed under references.
+type: software
+title: Hybrasil Star and Exoplanet Map
+abstract: >-
+  An interactive map of nearby star systems, their stars, planets and moons
+  drawn from published orbits, with the bands round each star where common
+  solvents could be liquid.
+authors:
+  - family-names: Summers
+    given-names: Cade
+    orcid: "https://orcid.org/0009-0007-0361-4779"
+license: AGPL-3.0-or-later
+url: "https://hybrasil.app"
+repository-code: "https://github.com/CadeSummers/hybrasil"
+keywords:
+  - astronomy
+  - exoplanets
+  - star systems
+  - orbital mechanics
+  - solvent bands
+  - habitable zone
+  - visualization
+references:
+  - type: data
+    title: Hybrasil Star and Exoplanet Dataset
+    authors:
+      - family-names: Summers
+        given-names: Cade
+        orcid: "https://orcid.org/0009-0007-0361-4779"
+    year: 2026
+    license: CC-BY-SA-4.0
+    url: "https://hybrasil.app"
+    repository: "https://github.com/CadeSummers/hybrasil"

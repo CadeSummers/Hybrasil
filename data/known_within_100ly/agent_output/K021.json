@@ -1,0 +1,1723 @@
+{
+ "agent_id": "K021",
+ "batch": "K021",
+ "complete": true,
+ "objects": [
+  {
+   "key": "Gaia DR3 4116460625479832832|4116460625479832832",
+   "name": "Gaia DR3 4116460625479832832",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12601|4468009917744160000",
+   "name": "GJ 12601",
+   "done": true,
+   "rv": {
+    "value": -5.1,
+    "err": 0.7,
+    "src": "S1",
+    "where": "Gizis, Burgasser & Vrba 2015 (arXiv:1509.04690) Sect. 2.1 and Table 1, row vrad = -5.1 +/- 0.7 km/s (Keck II NIRSPEC R=20000 K-band, one night 2011 Jul 6, MCMC forward-model fit)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Gizis, Burgasser & Vrba 2015, AJ 150, 179",
+     "url": "https://arxiv.org/abs/1509.04690",
+     "what": "Keck/NIRSPEC RV of WISEP J180026.60+013453.1"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "arXiv 1509.04690 full text opened"
+   ],
+   "notes": "Single-epoch value (two nodded exposures). Same -5.1 +/- 0.7 is repeated in CNS5 (J/A+A/670/A19) and other compilations citing Gizis 2015. SIMBAD carries it as quality D. No Hsu 2021/2024 or APOGEE value found."
+  },
+  {
+   "key": "Gaia DR3 4106639409665617536|4106639409665617536",
+   "name": "Gaia DR3 4106639409665617536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 2021357367821916672|2021357367821916672",
+   "name": "Gaia DR3 2021357367821916672",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4064744580679707520|4064744580679707520",
+   "name": "Gaia DR3 4064744580679707520",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 11576|3985153334796556928",
+   "name": "GJ 11576",
+   "done": true,
+   "rv": {
+    "value": -3.176,
+    "err": 11.767,
+    "src": "S1",
+    "where": "VizieR J/AJ/157/231/table1, Source=3985153334796556928, cols RV/e_RV (MLSDSS RV from the SDSS spectrum)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Kiman et al. 2019, AJ 157, 231",
+     "url": "https://doi.org/10.3847/1538-3881/ab1753",
+     "what": "MLSDSS-GaiaDR2 M and L dwarf catalog with SDSS spectroscopic RVs"
+    },
+    "S2": {
+     "citation": "Schmidt et al. 2010, AJ 139, 1808",
+     "url": "https://doi.org/10.1088/0004-6256/139/5/1808",
+     "what": "SDSS L dwarf colors and kinematics"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics) reviewed"
+   ],
+   "notes": "Chosen by brief rule 3.3 (most recent large survey); low precision. Alternative: Schmidt et al. 2010 (J/AJ/139/1808/table6, row at 0.6\", SpT L5) RV = -8.7 +/- 6.6 km/s, also from SDSS spectroscopy and more precise -- the orchestrator may prefer it. Kiman's RVmean column (-10.7) is a modelled velocity component, not a measurement. SIMBAD's -50.97 (type z, 2009ApJS..182..543A) is an SDSS redshift, rejected upstream."
+  },
+  {
+   "key": "Gaia DR3 4078518437708170624|4078518437708170624",
+   "name": "Gaia DR3 4078518437708170624",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12599|4062783361232757632",
+   "name": "GJ 12599",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4144393271738280064|4144393271738280064",
+   "name": "Gaia DR3 4144393271738280064",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4043777203249417728|4043777203249417728",
+   "name": "Gaia DR3 4043777203249417728",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 13112|2273817675766257792",
+   "name": "GJ 13112",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4042095912529773440|4042095912529773440",
+   "name": "Gaia DR3 4042095912529773440",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4055676117988616320|4055676117988616320",
+   "name": "Gaia DR3 4055676117988616320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4303965875262889472|4303965875262889472",
+   "name": "Gaia DR3 4303965875262889472",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4052920604532958976|4052920604532958976",
+   "name": "Gaia DR3 4052920604532958976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4090983390605903744|4090983390605903744",
+   "name": "Gaia DR3 4090983390605903744",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 1835039899814573440|1835039899814573440",
+   "name": "Gaia DR3 1835039899814573440",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4064750765436152576|4064750765436152576",
+   "name": "Gaia DR3 4064750765436152576",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4043241672357266304|4043241672357266304",
+   "name": "Gaia DR3 4043241672357266304",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5175327809475722624|5175327809475722624",
+   "name": "Gaia DR3 5175327809475722624",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4091615545394673536|4091615545394673536",
+   "name": "Gaia DR3 4091615545394673536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4043212707085185152|4043212707085185152",
+   "name": "Gaia DR3 4043212707085185152",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4289207577370576384|4289207577370576384",
+   "name": "Gaia DR3 4289207577370576384",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4060205487418194688|4060205487418194688",
+   "name": "Gaia DR3 4060205487418194688",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12333|1329942262499164544",
+   "name": "GJ 12333",
+   "done": true,
+   "rv": {
+    "value": -21.0,
+    "err": 1.2,
+    "src": "S1",
+    "where": "VizieR J/A+A/512/A37/table2, row 2MASS J16154416+3559005 (0.9\" from PM-propagated J2000 position), cols RV/e_RV (VLT/UVES or Keck/HIRES high-resolution optical spectra)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Seifahrt, Reiners, Almaghrbi & Basri 2010, A&A 512, A37",
+     "url": "https://arxiv.org/abs/1001.1780",
+     "what": "High-resolution RVs and space motions of 43 nearby L dwarfs"
+    },
+    "S2": {
+     "citation": "Hsu et al. 2021, ApJS 257, 45",
+     "url": "https://doi.org/10.3847/1538-4365/ac1c7d",
+     "what": "BDKP V; 20 pc late-M/L compilation table"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "Blake+2010 J/ApJ/723/684, Burgasser+2015 J/ApJS/220/18: not listed",
+    "Reid et al. 2002 (astro-ph/0204285) source checked: object not in it"
+   ],
+   "notes": "Alternatives: Hsu et al. 2021 J/ApJS/257/45/dwarf20pc lists -20.2 +/- 0.9 as a previously published RV, citing Reid et al. 2002 (AJ 124, 519), but that paper (M6.5-L0.5 sample) does not contain this L3 dwarf, so the value's origin could not be verified and it was not used. Kiman+2019 SDSS -19.0 +/- 10.5; Schmidt+2010 SDSS -32.1 +/- 17.9. SIMBAD's -83.95 (type z) is an SDSS redshift, rejected upstream."
+  },
+  {
+   "key": "Gaia DR3 4090262901276246528|4090262901276246528",
+   "name": "Gaia DR3 4090262901276246528",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4118041414088901248|4118041414088901248",
+   "name": "Gaia DR3 4118041414088901248",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 263696736978069120|263696736978069120",
+   "name": "Gaia DR3 263696736978069120",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": "HD 37216B (L5 wide companion). No RV for B itself found; the primary's RV is not transferable (rule 5)."
+  },
+  {
+   "key": "Gaia DR3 4288584875819019392|4288584875819019392",
+   "name": "Gaia DR3 4288584875819019392",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4040109782194131584|4040109782194131584",
+   "name": "Gaia DR3 4040109782194131584",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4054865881000327808|4054865881000327808",
+   "name": "Gaia DR3 4054865881000327808",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4116499658183552384|4116499658183552384",
+   "name": "Gaia DR3 4116499658183552384",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4051557003823325952|4051557003823325952",
+   "name": "Gaia DR3 4051557003823325952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4053889274184047104|4053889274184047104",
+   "name": "Gaia DR3 4053889274184047104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5829313271270618752|5829313271270618752",
+   "name": "Gaia DR3 5829313271270618752",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4118031724615545344|4118031724615545344",
+   "name": "Gaia DR3 4118031724615545344",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5877245484216486272|5877245484216486272",
+   "name": "Gaia DR3 5877245484216486272",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4287802538945258496|4287802538945258496",
+   "name": "Gaia DR3 4287802538945258496",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 651750158907764224|651750158907764224",
+   "name": "Gaia DR3 651750158907764224",
+   "done": true,
+   "rv": {
+    "value": -7.102,
+    "err": 10.523,
+    "src": "S1",
+    "where": "VizieR J/AJ/157/231/table1, Source=651750158907764224, cols RV/e_RV (MLSDSS RV from the SDSS spectrum)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Kiman et al. 2019, AJ 157, 231",
+     "url": "https://doi.org/10.3847/1538-3881/ab1753",
+     "what": "MLSDSS-GaiaDR2 M and L dwarf catalog with SDSS spectroscopic RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics) reviewed"
+   ],
+   "notes": "= 2MASSI J0829066+145622 (L2). Low precision. Alternatives: Schmidt et al. 2010 J/AJ/139/1808/table6 -1.1 +/- 9.4 (SDSS); Popinchalk et al. 2021 J/ApJ/916/77 -7.0 +/- 11 (compiled, apparently Kiman's). SIMBAD's -59.96 (type z) is an SDSS redshift, rejected upstream."
+  },
+  {
+   "key": "Gaia DR3 4040361531789218560|4040361531789218560",
+   "name": "Gaia DR3 4040361531789218560",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12443|4140696473069943424",
+   "name": "GJ 12443",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12851|6641789348394399488",
+   "name": "GJ 12851",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found",
+    "Web search for the 2MASS designation with 'radial velocity'; Prato+2015 NIRSPEC (arXiv 1506.02771), Cooper+2024 GUCDS IV (arXiv 2409.03706) source tables grepped: not listed"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5899725308679263360|5899725308679263360",
+   "name": "Gaia DR3 5899725308679263360",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4041319657251387648|4041319657251387648",
+   "name": "Gaia DR3 4041319657251387648",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 11220|1089980859123284864",
+   "name": "GJ 11220",
+   "done": true,
+   "rv": {
+    "value": -19.6,
+    "err": 15.4,
+    "src": "S1",
+    "where": "Cooper et al. 2024 (arXiv:2409.03706) Table 'RVs measured in this work' (tables/radial_velocities.tex), row J0823+6125 (= Gaia DR3 1089980859123284864 in their target list), col Adopted RV = -19.6 +/- 15.4 (GTC/OSIRIS R2500I, single epoch 2015-11-30)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Cooper et al. 2024, MNRAS 534, 695 (Gaia Ultracool Dwarf Sample IV)",
+     "url": "https://arxiv.org/abs/2409.03706",
+     "what": "GTC/OSIRIS optical spectra and RVs of late-M and L dwarfs"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "arXiv 2409.03706 LaTeX source opened (RV table and target list)"
+   ],
+   "notes": "Low precision. Component values in the same row: line-centre -22.6 +/- 11.3, cross-correlation -12.9 +/- 12.7. This is the value SIMBAD carries as quality E (rejected upstream); confirmed from the paper itself."
+  },
+  {
+   "key": "Gaia DR3 4044170858584486016|4044170858584486016",
+   "name": "Gaia DR3 4044170858584486016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 1828025045683862400|1828025045683862400",
+   "name": "Gaia DR3 1828025045683862400",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4091885887771336832|4091885887771336832",
+   "name": "Gaia DR3 4091885887771336832",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 13003 B|6450595924275742848",
+   "name": "GJ 13003 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "Burgasser+2015 J/ApJS/220/18 and CNS5 J/A+A/670/A19 rows inspected"
+   ],
+   "notes": "Companion of SIPS J2045-6332 (Gaia DR3 6450595924277607040, G=17.6, ~1.3\" away). The only RV is Burgasser et al. 2015 (J/ApJS/220/18) 5.4 +/- 2.2 km/s (MagE) for 'J2045-6332', i.e. the primary / blended system; CNS5 (J/A+A/670/A19) copies 5.0 +/- 2.0 from it to both A and B. Not the B component's own measurement, so not reported."
+  },
+  {
+   "key": "Gaia DR3 6061641486952201216|6061641486952201216",
+   "name": "Gaia DR3 6061641486952201216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4048769119119681792|4048769119119681792",
+   "name": "Gaia DR3 4048769119119681792",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4040323357974802432|4040323357974802432",
+   "name": "Gaia DR3 4040323357974802432",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5537753986185229440|5537753986185229440",
+   "name": "Gaia DR3 5537753986185229440",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 10205|322492502798326144",
+   "name": "GJ 10205",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found",
+    "Web search for the 2MASS designation with 'radial velocity'; Prato+2015 NIRSPEC (arXiv 1506.02771), Cooper+2024 GUCDS IV (arXiv 2409.03706) source tables grepped: not listed"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4284947760072791296|4284947760072791296",
+   "name": "Gaia DR3 4284947760072791296",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 3032950877599630464|3032950877599630464",
+   "name": "Gaia DR3 3032950877599630464",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 3056233482992410496|3056233482992410496",
+   "name": "Gaia DR3 3056233482992410496",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4116798858520764288|4116798858520764288",
+   "name": "Gaia DR3 4116798858520764288",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4161431922366236928|4161431922366236928",
+   "name": "Gaia DR3 4161431922366236928",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5958063089269025664|5958063089269025664",
+   "name": "Gaia DR3 5958063089269025664",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4036629381214483712|4036629381214483712",
+   "name": "Gaia DR3 4036629381214483712",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4287391355960491520|4287391355960491520",
+   "name": "Gaia DR3 4287391355960491520",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4264316558278934912|4264316558278934912",
+   "name": "Gaia DR3 4264316558278934912",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4117996299612943744|4117996299612943744",
+   "name": "Gaia DR3 4117996299612943744",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4057683066003668608|4057683066003668608",
+   "name": "Gaia DR3 4057683066003668608",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4116447946722524032|4116447946722524032",
+   "name": "Gaia DR3 4116447946722524032",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4304383758403535872|4304383758403535872",
+   "name": "Gaia DR3 4304383758403535872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 13292|2403199614187542528",
+   "name": "GJ 13292",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found",
+    "Web search for the 2MASS designation with 'radial velocity'; Prato+2015 NIRSPEC (arXiv 1506.02771), Cooper+2024 GUCDS IV (arXiv 2409.03706) source tables grepped: not listed"
+   ],
+   "notes": "2MASS J22521073-1730134, resolved L4.5+T3.5 binary (Reid et al. 2006); no system or component RV found."
+  },
+  {
+   "key": "Gaia DR3 4043315786362194176|4043315786362194176",
+   "name": "Gaia DR3 4043315786362194176",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 10917|3432218798435750016",
+   "name": "GJ 10917",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4041787121483029504|4041787121483029504",
+   "name": "Gaia DR3 4041787121483029504",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 1940003540394774656|1940003540394774656",
+   "name": "Gaia DR3 1940003540394774656",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": "A J/MNRAS/486/251 (TESS CTL) row 5.2\" away with RV 18.7 is a different star (G=11.8, plx 0.6 mas), not this source."
+  },
+  {
+   "key": "Gaia DR3 4042971845234892288|4042971845234892288",
+   "name": "Gaia DR3 4042971845234892288",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 11022|3361210791323909504",
+   "name": "GJ 11022",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 6064323676840890112|6064323676840890112",
+   "name": "Gaia DR3 6064323676840890112",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4068962066817869440|4068962066817869440",
+   "name": "Gaia DR3 4068962066817869440",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4120083447654220160|4120083447654220160",
+   "name": "Gaia DR3 4120083447654220160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4268244769765287168|4268244769765287168",
+   "name": "Gaia DR3 4268244769765287168",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4320189542997799168|4320189542997799168",
+   "name": "Gaia DR3 4320189542997799168",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 2021184985050996224|2021184985050996224",
+   "name": "Gaia DR3 2021184985050996224",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "J2016 cone retried after a connection error: no RV"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4041319657249551232|4041319657249551232",
+   "name": "Gaia DR3 4041319657249551232",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 13274|1877650201620091008",
+   "name": "GJ 13274",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found",
+    "Web search for the 2MASS designation with 'radial velocity'; Prato+2015 NIRSPEC (arXiv 1506.02771), Cooper+2024 GUCDS IV (arXiv 2409.03706) source tables grepped: not listed"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 6034535845265993728|6034535845265993728",
+   "name": "Gaia DR3 6034535845265993728",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4041316839881594112|4041316839881594112",
+   "name": "Gaia DR3 4041316839881594112",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 10142|5001668709601989248",
+   "name": "GJ 10142",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found",
+    "Web search for the 2MASS designation with 'radial velocity'; Prato+2015 NIRSPEC (arXiv 1506.02771), Cooper+2024 GUCDS IV (arXiv 2409.03706) source tables grepped: not listed"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5693178647798942336|5693178647798942336",
+   "name": "Gaia DR3 5693178647798942336",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4060635499546508928|4060635499546508928",
+   "name": "Gaia DR3 4060635499546508928",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4153605254977440384|4153605254977440384",
+   "name": "Gaia DR3 4153605254977440384",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4116983477716047488|4116983477716047488",
+   "name": "Gaia DR3 4116983477716047488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 12555 B|1724495516135399936",
+   "name": "GJ 12555 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": "2MASS J17430860+8526594, L5 wide companion. No RV for B found."
+  },
+  {
+   "key": "Gaia DR3 4145974506881158784|4145974506881158784",
+   "name": "Gaia DR3 4145974506881158784",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4143776239543076864|4143776239543076864",
+   "name": "Gaia DR3 4143776239543076864",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 5601950690575573120|5601950690575573120",
+   "name": "Gaia DR3 5601950690575573120",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics/spectroscopy) reviewed: no RV paper found"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 11329|1016186483391641216",
+   "name": "GJ 11329",
+   "done": true,
+   "rv": {
+    "value": 5.523,
+    "err": 12.179,
+    "src": "S1",
+    "where": "VizieR J/AJ/157/231/table1, row 1.1\" from PM-propagated J2000 position (2MASS J09083803+5032088), cols RV/e_RV (MLSDSS RV from the SDSS spectrum)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Kiman et al. 2019, AJ 157, 231",
+     "url": "https://doi.org/10.3847/1538-3881/ab1753",
+     "what": "MLSDSS-GaiaDR2 M and L dwarf catalog with SDSS spectroscopic RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated",
+    "SIMBAD bibliography (titles mentioning velocity/kinematics) reviewed"
+   ],
+   "notes": "L8; low precision and disagrees with the other SDSS value: Schmidt et al. 2010 J/AJ/139/1808/table6 -33.2 +/- 20.0. Note 2M0908+50 is reported as a candidate unresolved binary (Burgasser 2010 SpeX, Stumpf 2007 66 mas binary). SIMBAD's -0.00001 (type z) rejected upstream. Use with caution."
+  },
+  {
+   "key": "Gaia DR3 4153509425677634944|4153509425677634944",
+   "name": "Gaia DR3 4153509425677634944",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4040407195746410368|4040407195746410368",
+   "name": "Gaia DR3 4040407195746410368",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4059439986802455936|4059439986802455936",
+   "name": "Gaia DR3 4059439986802455936",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4252345659839658880|4252345659839658880",
+   "name": "Gaia DR3 4252345659839658880",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4277888964139487104|4277888964139487104",
+   "name": "Gaia DR3 4277888964139487104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "Gaia DR3 4315525453381908864|4315525453381908864",
+   "name": "Gaia DR3 4315525453381908864",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD TAP mesVelocities (every RV measurement attached to the object, by Gaia DR3 identifier): none beyond any listed in notes",
+    "DESI DR1 Milky Way Survey VAC (NOIRLab Astro Data Lab TAP, desi_dr1.mws, by Gaia DR3 source_id/ref_id): no match",
+    "SDSS DR19 MWM mwm_apogee_allstar and mwm_boss_allstar (SkyServer SQL, by Gaia DR3 id): no match",
+    "VizieR by Gaia DR3 id: Li et al. 2025 LAMOST M dwarfs J/ApJS/281/58/table9, Hsu et al. 2024 APOGEE J/ApJS/274/40/sample, J/MNRAS/538/3144/tabled1, Kiman+2019 J/AJ/157/231, GALAH DR4 J/other/PASA/42.51: no match unless stated",
+    "VizieR all-catalog cone sweep (every catalog with an RV-type column; 8\" around the position carried to J2000 with the Gaia PM, and 4\" at J2016): covers APOGEE DR17 III/286, LAMOST DR11 V/162 and MRS, RAVE DR6, GALAH, Gaia-ESO, PMSU III/198, Lafarga+2020, Reiners+2018, Jeffers+2018, Newton+2014, Fouque+2018, Terrien+2015, Shkolnik+2012, Malo+2014, Gizis+2002, Latham+2002, Blake+2010, Burgasser+2015, Hsu+2021, Seifahrt+2010, Schmidt+2010, Reiners & Basri 2009, Faherty+2016, GCNS, CNS5: no RV for this source unless stated"
+   ],
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+name: Data correction
+description: A value in the map or the dataset is wrong or missing.
+title: "Data: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A correction is accepted on the strength of its source, so the
+        source field matters most. The maintainer enters accepted values in the
+        dataset; they reach the site with the next snapshot.
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: e.g. TRAPPIST-1
+    validations:
+      required: true
+  - type: input
+    id: body
+    attributes:
+      label: Star, planet or moon
+      placeholder: e.g. TRAPPIST-1 e
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      placeholder: e.g. semi-major axis, mass, luminosity
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Value shown now
+  - type: input
+    id: proposed
+    attributes:
+      label: Correct value, with its uncertainty and units
+      placeholder: e.g. 0.02925 ± 0.00025 AU
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: The paper (with its table or section) or the catalogue and row. A DOI or ADS link is ideal. If the value is derived, say how.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

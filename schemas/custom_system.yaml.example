@@ -1,0 +1,68 @@
+# Hybrasil Custom System Schema
+# Save as .yaml or .json and load with: --source file --system path/to/file.yaml
+#
+# Rules:
+#   - Bodies are processed in order. A moon must appear AFTER its parent planet.
+#   - Stars have no orbital_elements (they sit at the origin).
+#   - "period" (days) is optional if the parent body has "mass_kg" (derived via Kepler III).
+#   - All angles in degrees. Distances in AU (unless distance_unit is set to "km").
+
+name: "My Fictional System"
+description: "A sun-like star with two rocky planets and a moon."
+reference_frame: heliocentric   # heliocentric | barycentric
+distance_unit: AU
+
+bodies:
+  - name: "Solara"
+    body_type: star              # star | planet | moon | asteroid | comet | custom
+    radius_km: 695700
+    mass_kg: 1.989e30
+    color: "#FFA500"             # optional; hex or CSS color
+
+  - name: "Planet A"
+    body_type: planet
+    parent: "Solara"
+    radius_km: 6371
+    mass_kg: 5.972e24
+    color: "#4488FF"
+    display_name: "Terra"        # optional label override in the plot
+    status: confirmed            # confirmed (default) | hypothetical — hypothetical bodies render as hollow dashed-orbit markers
+    orbital_elements:
+      semi_major_axis: 1.0       # AU
+      eccentricity: 0.017
+      inclination: 0.0           # degrees
+      longitude_of_ascending_node: 0.0
+      argument_of_periapsis: 102.9
+      mean_anomaly_at_epoch: 100.5
+      epoch: 2451545.0           # J2000 Julian Date
+      period: 365.25             # days  (can be omitted if parent has mass_kg)
+
+  - name: "Moon I"
+    body_type: moon
+    parent: "Planet A"
+    radius_km: 1737
+    color: "#AAAAAA"
+    orbital_elements:
+      semi_major_axis: 0.00257   # AU (~384,400 km)
+      eccentricity: 0.0549
+      inclination: 5.145
+      longitude_of_ascending_node: 125.08
+      argument_of_periapsis: 318.15
+      mean_anomaly_at_epoch: 115.36
+      epoch: 2451545.0
+      period: 27.322
+
+  - name: "Planet B"
+    body_type: planet
+    parent: "Solara"
+    radius_km: 3389
+    color: "#CC4422"
+    orbital_elements:
+      semi_major_axis: 1.52
+      eccentricity: 0.093
+      inclination: 1.85
+      longitude_of_ascending_node: 49.6
+      argument_of_periapsis: 286.5
+      mean_anomaly_at_epoch: 19.4
+      epoch: 2451545.0
+      period: 686.97

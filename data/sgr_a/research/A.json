@@ -1,0 +1,484 @@
+{
+ "agent": "A",
+ "stars": {
+  "S1": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": ""
+   },
+   "mass_msun": {
+    "value": 12.4,
+    "err_plus": 2.0,
+    "err_minus": 1.7,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 27450,
+    "err_plus": 2239,
+    "err_minus": 2569,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": -1003,
+    "err": 70,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S1",
+    "how": "SIMBAD TAP: ident '[EG97] S1' -> basic.main_id '[EG97] S1' (queried 2026-10-09)"
+   }
+  },
+  "S2": {
+   "spectral_type": {
+    "value": "B0-2.5 V",
+    "bibcode": "2008ApJ...672L.119M",
+    "where": "Abstract and Sect. 3.1 ('S2 is an early B dwarf (B0-2.5V)')",
+    "note": "Habibi 2017 (2017ApJ...847..120H) Table 2 gives B0-B3 (V per abstract) and its Sect. 4 says 'most probably a B0 star'. Martins 2008 masses are flagged by Habibi 2017 Sect. 4 as affected by a calculation mistake; the mass here is Habibi's."
+   },
+   "mass_msun": {
+    "value": 13.6,
+    "err_plus": 2.2,
+    "err_minus": 1.8,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 28513,
+    "err_plus": 2388,
+    "err_minus": 2923,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": 1198,
+    "err": 34,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": "SINFONI. Gillessen 2017 tabulates 44 S2 RVs; GRAVITY 2018/2020 RVs were not opened and are not used."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S2",
+    "how": "SIMBAD TAP: ident '[EG97] S2' -> basic.main_id '[EG97] S2' (queried 2026-10-09)"
+   }
+  },
+  "S4": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": ""
+   },
+   "mass_msun": {
+    "value": 12.2,
+    "err_plus": 1.9,
+    "err_minus": 1.7,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 27288,
+    "err_plus": 2224,
+    "err_minus": 2823,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": -950,
+    "err": 37,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S4",
+    "how": "SIMBAD TAP: ident '[EG97] S4' -> basic.main_id '[EG97] S4' (queried 2026-10-09)"
+   }
+  },
+  "S6": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": "Paumard 2006 (2006ApJ...643.1011P) Table 2 row E11 'S6,S0-7' gave 'B V'."
+   },
+   "mass_msun": {
+    "value": 9.2,
+    "err_plus": 1.9,
+    "err_minus": 1.5,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 22932,
+    "err_plus": 2725,
+    "err_minus": 2851,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": 155,
+    "err": 60,
+    "epoch": 2004.632,
+    "bibcode": "2005ApJ...628..246E",
+    "where": "Table 1 'Radial velocities of S-Stars', column 2004.632 (August 2004), LSR",
+    "note": "Not in Gillessen 2017 Table 5. Eisenhauer 2005 Sect. 2 calls its S6 Br-gamma detection marginal. Identity of the Eisenhauer S6 with the Gillessen S6 rests on Paumard 2006 Table 2 (E11 = S6,S0-7, VZ 160+/-60) and von Fellenberg 2022 (2022ApJ...932L...6V) Table 4 row 'S6 E11 S0-7'."
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S6",
+    "how": "SIMBAD TAP: ident '[EG97] S6' -> basic.main_id '[EG97] S6' (queried 2026-10-09)"
+   }
+  },
+  "S8": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": ""
+   },
+   "mass_msun": {
+    "value": 13.2,
+    "err_plus": 2.2,
+    "err_minus": 1.8,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 28274,
+    "err_plus": 2461,
+    "err_minus": 2374,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": -161,
+    "err": 83,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S8",
+    "how": "SIMBAD TAP: ident '[EG97] S8' -> basic.main_id '[EG97] S8' (queried 2026-10-09)"
+   }
+  },
+  "S9": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": ""
+   },
+   "mass_msun": {
+    "value": 8.2,
+    "err_plus": 1.5,
+    "err_minus": 1.4,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 22202,
+    "err_plus": 2463,
+    "err_minus": 2416,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": 660,
+    "err": 66,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S9",
+    "how": "SIMBAD TAP: ident '[EG97] S9' -> basic.main_id '[EG97] S9' (queried 2026-10-09)"
+   }
+  },
+  "S12": {
+   "spectral_type": {
+    "value": "B0-B3 V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 SP column gives 'B0-B3'; luminosity class V from the abstract ('imply a spectral type of B0-B3V for these stars')",
+    "note": "Habibi 2017 Sect. 4.1 text: 'S12 is an early B0-2.5V star'. Older classification B4-9 V (Eisenhauer 2005 faint group; Paumard 2006 Table 2 E5) is superseded."
+   },
+   "mass_msun": {
+    "value": 7.6,
+    "err_plus": 1.4,
+    "err_minus": 1.3,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters (spectroscopic-evolutionary mass)"
+   },
+   "teff_k": {
+    "value": 20882,
+    "err_plus": 2348,
+    "err_minus": 2760,
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Table 2 'Stellar parameters of the S-stars' (arXiv:1708.06353v1; the body text calls it Table 3), CMFGEN+BONNSAI final parameters"
+   },
+   "rv_kms": {
+    "value": -90,
+    "err": 142,
+    "epoch": 2016.284,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S12",
+    "how": "SIMBAD TAP: ident '[EG97] S12' -> basic.main_id '[EG97] S12' (queried 2026-10-09); SIMBAD sp_type 'B4/9V' (from 2006ApJ...643.1011P)"
+   }
+  },
+  "S13": {
+   "spectral_type": {
+    "value": "early B V",
+    "bibcode": "2017ApJ...847..120H",
+    "where": "Sect. 4.1 text (S12+S13 combined spectrum: He I 2.112 um EW 1.4 A, Br-gamma EW 5.6 A, 'consistent with these stars being early B dwarf-stars')",
+    "note": "Qualitative, no subtype; from a combined S12+S13 spectrum. Older: B4-9 V in Paumard 2006 (2006ApJ...643.1011P) Table 2 row E3 'S13,S0-20' (from the Eisenhauer 2005 faint-group classification)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 310,
+    "err": 227,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S13",
+    "how": "SIMBAD TAP: ident '[EG97] S13' -> basic.main_id '[EG97] S13' (queried 2026-10-09); SIMBAD sp_type 'B4/9V' (from 2006ApJ...643.1011P)"
+   }
+  },
+  "S14": {
+   "spectral_type": {
+    "value": "B4-9 V",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2 (VizieR J/ApJ/643/1011/table2.dat) row E2 'S14,S0-16', SpType column, quality 2",
+    "note": "Based on Eisenhauer 2005 faint-group EWs. Habibi 2017 Sect. 4.1 reports a distinct He I line in S14 spectra, which argues for an earlier type; no newer subtype is published. Gillessen 2017 Table 3 flag: e."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 131,
+    "err": 129,
+    "epoch": 2016.284,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S14",
+    "how": "SIMBAD TAP: ident '[EG97] S14' -> basic.main_id '[EG97] S14' (queried 2026-10-09); SIMBAD sp_type 'B4/9V' (from 2006ApJ...643.1011P)"
+   }
+  },
+  "S17": {
+   "spectral_type": {
+    "value": "K0 III",
+    "bibcode": "2019ApJ...872L..15H",
+    "where": "Table 2 'List of Spectrally Identified Giant Stars within the Central Arcsecond', row 17, New SP",
+    "note": "Gillessen 2017 Table 3 flag: l (late-type)."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -162,
+    "err": 90,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S17",
+    "how": "SIMBAD TAP: ident '[EG97] S17' -> basic.main_id '[EG97] S17' (queried 2026-10-09); SIMBAD otype '**' (double star) and sp_type K0III from 2019ApJ...872L..15H"
+   }
+  },
+  "S18": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT column (VizieR J/ApJ/837/30/table3.dat): e = early-type",
+    "note": "Flag only, no subtype or luminosity class. Listed among young stars with orbits in von Fellenberg 2022 (2022ApJ...932L...6V) Table 4."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -590,
+    "err": 228,
+    "epoch": 2016.284,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S18",
+    "how": "SIMBAD TAP: ident '[EG97] S18' -> basic.main_id '[EG97] S18' (queried 2026-10-09)"
+   }
+  },
+  "S19": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT column (VizieR J/ApJ/837/30/table3.dat): e = early-type",
+    "note": "Flag only, no subtype or luminosity class. Listed among young stars with orbits in von Fellenberg 2022 Table 4. CONFLICT: SIMBAD sp_type for [EG97] S19 is 'K-M' (sp_bibcode 2009ApJ...703.1323D, Do et al. 2009, UCLA naming) -- not adopted."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -746,
+    "err": 257,
+    "epoch": 2016.284,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S19",
+    "how": "SIMBAD TAP: ident '[EG97] S19' -> basic.main_id '[EG97] S19' (queried 2026-10-09)"
+   }
+  },
+  "S21": {
+   "spectral_type": {
+    "value": "K2 III",
+    "bibcode": "2019ApJ...872L..15H",
+    "where": "Table 2, row 21, New SP",
+    "note": "Gillessen 2017 Table 3 flag: l."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 459,
+    "err": 96,
+    "epoch": 2016.284,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S21",
+    "how": "SIMBAD TAP: ident '[EG97] S21' -> basic.main_id '[EG97] S21' (queried 2026-10-09)"
+   }
+  },
+  "S22": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT column (VizieR J/ApJ/837/30/table3.dat): e = early-type",
+    "note": "Flag only, no subtype or luminosity class. Listed among young stars with orbits in von Fellenberg 2022 Table 4."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S22",
+    "how": "SIMBAD TAP: ident '[EG97] S22' -> basic.main_id '[EG97] S22' (queried 2026-10-09); SIMBAD holds no coordinates for this object"
+   }
+  },
+  "S23": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT column (VizieR J/ApJ/837/30/table3.dat): e = early-type",
+    "note": "Flag only, no subtype or luminosity class. No other spectral information found."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S23",
+    "how": "SIMBAD TAP: ident '[EG97] S23' -> basic.main_id '[EG97] S23' (queried 2026-10-09); SIMBAD holds no coordinates for this object"
+   }
+  },
+  "S24": {
+   "spectral_type": {
+    "value": "K3 III",
+    "bibcode": "2019ApJ...872L..15H",
+    "where": "Table 2, row 24, New SP",
+    "note": "Gillessen 2017 Table 3 flag: l."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": -987,
+    "err": 46,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S24",
+    "how": "SIMBAD TAP: ident '[EG97] S24' -> basic.main_id '[EG97] S24' (queried 2026-10-09)"
+   }
+  },
+  "S29": {
+   "spectral_type": {
+    "value": "early-type",
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 3 SpT column (VizieR J/ApJ/837/30/table3.dat): e = early-type",
+    "note": "Flag only, no subtype or luminosity class. Listed among young stars with orbits in von Fellenberg 2022 Table 4."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": null,
+   "simbad_main_id": {
+    "value": "[EG97] S29",
+    "how": "SIMBAD TAP: ident '[EG97] S29' -> basic.main_id '[EG97] S29' (queried 2026-10-09)"
+   }
+  },
+  "S31": {
+   "spectral_type": {
+    "value": "B4-9 V",
+    "bibcode": "2006ApJ...643.1011P",
+    "where": "Table 2 (VizieR J/ApJ/643/1011/table2.dat) row E7 'S0-8', SpType column, quality 2",
+    "note": "Paumard lists E7 only as UCLA S0-8; the identification S31 = E7 = S0-8 is from von Fellenberg 2022 (2022ApJ...932L...6V) Table 4 and the Appendix K table ('S31 E7 S0-8'). Habibi 2017 Table 1 footnote says the July 2004 source at this position was a blend of S51, S60 and S31, so this early classification may be contaminated. Gillessen 2017 Table 3 flag: e."
+   },
+   "mass_msun": null,
+   "teff_k": null,
+   "rv_kms": {
+    "value": 1020,
+    "err": 158,
+    "epoch": 2016.519,
+    "bibcode": "2017ApJ...837...30G",
+    "where": "Table 5 (VizieR J/ApJ/837/30/table5.dat), last 'rv' row with a value for this star",
+    "note": ""
+   },
+   "simbad_main_id": {
+    "value": "[EG97] S31",
+    "how": "SIMBAD TAP: ident '[EG97] S31' -> basic.main_id '[EG97] S31' (queried 2026-10-09); SIMBAD sp_type 'B4/9V' (from 2006ApJ...643.1011P)"
+   }
+  }
+ },
+ "papers": {
+  "2017ApJ...847..120H": "Habibi M. et al. 2017, ApJ 847, 120 -- Twelve years of spectroscopic monitoring in the Galactic Center: the closest look at S-stars near the black hole (arXiv:1708.06353)",
+  "2019ApJ...872L..15H": "Habibi M. et al. 2019, ApJL 872, L15 -- Spectroscopic detection of a cusp of late-type stars around the central black hole in the Milky Way (arXiv:1902.07219)",
+  "2017ApJ...837...30G": "Gillessen S. et al. 2017, ApJ 837, 30 -- An update on monitoring stellar orbits in the Galactic Center (VizieR J/ApJ/837/30)",
+  "2008ApJ...672L.119M": "Martins F. et al. 2008, ApJ 672, L119 -- On the nature of the fast-moving star S2 in the Galactic Center (arXiv:0711.3344)",
+  "2005ApJ...628..246E": "Eisenhauer F. et al. 2005, ApJ 628, 246 -- SINFONI in the Galactic Center: young stars and infrared flares in the central light-month (arXiv:astro-ph/0502129)",
+  "2006ApJ...643.1011P": "Paumard T. et al. 2006, ApJ 643, 1011 -- The two young star disks in the central parsec of the Galaxy (VizieR J/ApJ/643/1011)",
+  "2022ApJ...932L...6V": "von Fellenberg S. D. et al. 2022, ApJL 932, L6 -- The young stars in the Galactic Center (arXiv:2205.07595); used only for cross-identifications and young-star membership"
+ },
+ "caveats": [
+  "Habibi 2017 final parameters are quoted from arXiv:1708.06353v1 (the only version); the published ApJ table could not be opened (ADS returned a human-verification page), so table numbering is the arXiv one (Table 2, which the body text calls Table 3).",
+  "Habibi 2017 gives the same 'B0-B3' type for all eight stars it fits (S1, S2, S4, S6, S7, S8, S9, S12); it is a group-level range, not individual subtypes.",
+  "Teff and mass uncertainties are asymmetric (err_plus/err_minus), from the BONNSAI posteriors. Masses are spectroscopic-evolutionary, not dynamical.",
+  "All RVs except S6 are the latest SINFONI value in Gillessen 2017 Table 5 (epochs 2016.284 / 2016.519), the LSR line-of-sight velocities used in that orbit fit. Table 5 has no RV for S6, S22, S23, S29; the S6 value is from Eisenhauer 2005 (2004.632).",
+  "S-star names changed between Eisenhauer 2005 and Gillessen 2009 for some objects (the Eisenhauer 2005 'S17' is an early-type double source at about -2000 km/s, unlike the late-type Gillessen S17), so Eisenhauer 2005 values were used only for S6, whose identity is pinned by Paumard 2006 and von Fellenberg 2022 cross-IDs.",
+  "Spectral type for S18, S19, S22, S23, S29 is only the Gillessen 2017 early-type flag. SIMBAD 'K-M' for [EG97] S19 (Do et al. 2009) conflicts with that flag and with von Fellenberg 2022 listing S19 as a young star.",
+  "No published per-star Teff or mass was found for S13, S14, S17, S18, S19, S21, S22, S23, S24, S29, S31. Habibi 2019 gives only group Teff ranges (4100-4600 K for the K0-K3.5 III giants) and a 0.5-2 Msun initial-mass range for late-type S-stars; not entered.",
+  "SIMBAD main IDs are the [EG97] designations; all 18 resolve. [EG97] S22 and S23 have no coordinates in SIMBAD. That SIMBAD [EG97] Sn is the same object as the Gillessen 2017 Sn was not checked by position.",
+  "GRAVITY 2018/2020 S2 papers were not opened (arXiv API was rate-limited during this run)."
+ ]
+}

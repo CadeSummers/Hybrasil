@@ -1,0 +1,946 @@
+{
+ "agent_id": "B09",
+ "phase": 2,
+ "coverage": [
+  {
+   "system_host": "HD 4308",
+   "aliases_searched": [
+    "HD 4308",
+    "HIP 3497",
+    "TIC 234501204",
+    "Gaia DR3 4708607629114652032"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch",
+    "Udry et al. 2006 (A&A 447, 361) abstract via ADS/WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "Only b (15.56 d, Udry et al. 2006) - on the confirmed tab. exoplanet.eu and OEC: b only, Confirmed. No TOI. Gaia DR3 parallax 45.3559 +/- 0.0178 mas, RUWE 1.04, no NSS solution; Kervella+2022 PMa S/N 2.31 (below the usual 3 sigma), not in the GaiaPMEX candidate catalogue. arXiv abstract search on 'HD 4308'/'HD4308' finds only the discovery paper. No second-signal claim found."
+  },
+  {
+   "system_host": "HD 164595",
+   "aliases_searched": [
+    "HD 164595",
+    "HIP 88194",
+    "TIC 158917706",
+    "Gaia DR3 4584639307993378432",
+    "HD 164595 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Courcol et al. 2015 full text (arXiv 1506.07144, Sect. 5-6, Table 4)",
+    "WebSearch"
+   ],
+   "result": "1 candidate (ambiguous, RV-trend only)",
+   "notes": "b (40.0 d warm Neptune, Courcol et al. 2015) is on the confirmed tab. The discovery paper fits b plus a linear drift of -2.34 +/- 0.44 m/s/yr (Table 4) and says it 'might be due to a long-period additional companion' or a magnetic cycle (log R'HK rose over the 2.2 yr span), or an under-corrected SOPHIE zero-point drift; 'additional SOPHIE measurements will help to conclude'. No follow-up paper found. Reported per the owner's ruling that RV-trend-only candidates are ambiguous candidates. Kervella+2022 PMa S/N 1.26 (no astrometric support); Gaia DR3 RUWE 0.90, no NSS; not in GaiaPMEX. NASA pscomppars sy_snum = 2 and exoplanet.eu names the planet 'HD 164595 Ab', but the Systems tab has 1 star; a WebSearch summary mentioned an M-dwarf companion ~683 AU away, which is not in Courcol+2015's text and was not verified (see incidental). Such a wide companion is not offered by anyone as the cause of the trend. The 2015 RATAN-600 'SETI signal' toward this star is not a planet claim."
+  },
+  {
+   "system_host": "HD 210277",
+   "aliases_searched": [
+    "HD 210277",
+    "HIP 109378",
+    "TIC 50227884",
+    "Gaia DR3 2619706544757416192"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch",
+    "Wright et al. 2007 full text (arXiv astro-ph/0611658, Sect. 6)"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "Only b (442 d, Marcy et al. 1999) is established. Wright et al. 2007 (Sect. 6) list a 3.14 d, K = 3 m/s, FAP 2% residual signal as a weak possible second planet; reported as unlikely because CLS, with far more data, does not see it. CLS (Rosenthal+2021) recovers b alone; no HD 210277 entry in CLS Table 5 (trends) or Table 7 (false positives). exoplanet.eu/OEC: b only, Confirmed. arXiv abstract hits: discovery-era papers and a Herschel cold-debris-disc paper (1110.4826) - no companion claim. Gaia DR3 parallax 46.8515 mas, RUWE 1.13, no NSS; PMa S/N 0.79. No TOI."
+  },
+  {
+   "system_host": "HD 147513",
+   "aliases_searched": [
+    "HD 147513",
+    "HIP 80337",
+    "HR 6094",
+    "GJ 9559",
+    "TIC 350673608",
+    "Gaia DR3 6018047019138644480",
+    "HD 147513 Ab (exoplanet.eu)",
+    "HD 147513 A b (OEC)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Harada et al. 2025 (SPORES-HWO II, arXiv 2409.10679) Appendix C.7",
+    "Gozdziewski & Migaszewski 2006 full text (arXiv astro-ph/0511295) Sect. 5 and Table 1",
+    "WebSearch"
+   ],
+   "result": "1 candidate (unlikely); existing confirmed-tab planet flagged as disputed",
+   "notes": "b (528 d, Mayor et al. 2004) is on the confirmed tab, but NASA pscomppars sets pl_controv_flag = 1, and Harada et al. 2025 (AJ 170, 343, App. C.7) report that adding 46 nights of HARPS RVs to the 30 CORALIE RVs makes the signal vanish: only a sub-threshold 504.1 d peak remains; they call for further analysis 'to determine whether HD 147513 b is a real planet'. exoplanet.eu and OEC still list it Confirmed. Separately, Gozdziewski & Migaszewski 2006 fitted a second, 7.894 d 'putative hot-Neptune candidate' to the 30 CORALIE RVs while warning that the young, active star's jitter could explain it; never recovered since. Reported that one as unlikely. Gaia DR3 parallax 77.5655 mas, RUWE 0.85, no NSS; PMa S/N 0.82. NASA sy_snum = 2 (white-dwarf companion) while the Systems tab has 1 star - see incidental."
+  },
+  {
+   "system_host": "HD 70642",
+   "aliases_searched": [
+    "HD 70642",
+    "HIP 40952",
+    "CD-39 4247",
+    "TIC 183356952",
+    "Gaia DR3 5540006949934104448"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "Only b (~2100-2230 d giant, Carter et al. 2003; true mass 3.9 MJ from Xiao et al. 2023 RV+astrometry in NASA ps). Kervella+2022 PMa S/N 4.13 (flagged), which the b orbit already accounts for (Xiao+2023 fit it). exoplanet.eu/OEC: b only. arXiv hits: discovery paper and a magnetic-field paper. Gaia DR3 parallax 34.1478 mas, RUWE 0.98, no NSS. No TOI. No additional-companion claim found."
+  },
+  {
+   "system_host": "HD 42618",
+   "aliases_searched": [
+    "HD 42618",
+    "HIP 29432",
+    "GJ 3387",
+    "Gl 3387",
+    "TIC 153289168",
+    "Gaia DR3 3319126988068404096"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Fulton et al. 2016 full text (arXiv 1607.00007, Sect. 4.2 and 7)",
+    "CLS Table 7 false positives (VizieR J/ApJS/255/8/table7)"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": "b (149.6 d, Fulton et al. 2016) on the confirmed tab. Fulton+2016 also found (i) a 4850 d signal they attribute to the magnetic cycle (Ca II H&K), and (ii) a 388 d, K = 2 m/s signal they explicitly call a 'planet candidate' (Msini ~22 M_E) but decline to claim because it is near 1 yr and poorly phased. Rosenthal et al. 2021 (CLS Table 7) list both as false positives: 4040 d cause A (activity) and 388.0 d cause N (annual/instrumental systematic). Reported the 388 d signal as unlikely. Gaia DR3 parallax 40.9764 mas, RUWE 1.17, no NSS; PMa S/N 1.12. No TOI."
+  },
+  {
+   "system_host": "HD 177565",
+   "aliases_searched": [
+    "HD 177565",
+    "HIP 93858",
+    "TIC 254147274",
+    "Gaia DR3 6718894388002453120"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Feng, Tuomi & Jones 2017 (Agatha) full text (arXiv 1705.03089, Sect. 4.5, Table 2, Fig. 7)",
+    "WebSearch"
+   ],
+   "result": "0 new candidates (existing confirmed-tab planet flagged)",
+   "notes": "b (44.5 d, 15.1 M_E) is on the confirmed tab. The discovery paper (Feng et al. 2017, MNRAS 470, 4794 - the Agatha periodogram paper) calls it 'a planet candidate' throughout, and exoplanet.eu lists 'HD 177565 b' with status Candidate; NASA and OEC list it confirmed. The paper's residual periodogram after removing the 44 d signal shows no additional significant signal (Sect. 4.5, Fig. 7); a 1.43 d peak appears only without the differential-RV noise model, and the conclusion mentions 'clues for other short period signals' without naming any. No later paper found. Gaia DR3 parallax 58.9860 mas, RUWE 0.95, no NSS; PMa S/N 0.82. No TOI."
+  },
+  {
+   "system_host": "HD 199509",
+   "aliases_searched": [
+    "HD 199509",
+    "HIP 104436",
+    "TIC 401701660",
+    "Gaia DR3 6348288635054855680",
+    "HD 199509 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (99.6 d, Feng et al. 2022) is on the confirmed tab. Feng+2022 Table 3 also gives 'HD 199509 B' at 104.2 +13.0/-10.4 MJup, a = 18.6 AU - a low-mass star, already on the multistars tab as HD 199509 B. The strong Hipparcos-Gaia PMa (Kervella+2022 S/N 38.7) is that companion. exoplanet.eu/OEC: b only. Gaia DR3 parallax 41.0626 mas, RUWE 1.12, no NSS. No TOI. No further claim found."
+  },
+  {
+   "system_host": "HD 75302",
+   "aliases_searched": [
+    "HD 75302",
+    "HIP 43297",
+    "TIC 262587669",
+    "Gaia DR3 581100382135253760",
+    "HD 75302 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Philipot et al. 2023 full text (arXiv 2308.05417, Sect. 4.2.1, App. D.1.2)",
+    "Philipot et al. 2023 VizieR J/A+A/678/A107 tablea3"
+   ],
+   "result": "0 candidates",
+   "notes": "b (4356 d, 5.4 MJ, Philipot et al. 2023, RV + Hipparcos-Gaia) is on the confirmed tab. The paper corrects an RV-bisector correlation (activity) before fitting; no second signal proposed. Gaia DR3 parallax 32.9777 +/- 0.0239 mas (inside the 32.616 mas cut by a small margin), RUWE 1.00, no NSS; PMa S/N 2.93. Not in GaiaPMEX. No TOI."
+  },
+  {
+   "system_host": "HD 90156",
+   "aliases_searched": [
+    "HD 90156",
+    "HIP 50921",
+    "TIC 193032655",
+    "Gaia DR3 5461620846141553024"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Mordasini et al. 2011 full text (arXiv 1010.0856, Sect. 4.2)",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (49.8 d, Mordasini et al. 2011) on the confirmed tab; CLS (Keck) recovers b alone. The discovery paper notes a ~14 d residual periodogram peak with FAP 16% and draws no conclusion; never called a candidate and never followed up (see considered_not_added). Gaia DR3 parallax 45.5628 mas, RUWE 1.05, no NSS; PMa S/N 0.93. No TOI."
+  },
+  {
+   "system_host": "HD 154088",
+   "aliases_searched": [
+    "HD 154088",
+    "HIP 83541",
+    "TIC 20856917",
+    "Gaia DR3 6029992663310612096"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Unger et al. 2021 full text (arXiv 2108.10198, Sect. 5.4, Tables 4 and 9)"
+   ],
+   "result": "0 candidates",
+   "notes": "b (18.56 d, 6.6 M_E) on the confirmed tab. Unger et al. 2021 (HARPS XLVI) remove a ~3000 d magnetic cycle via log R'HK and find no further significant peak; Bayesian evidence plateaus from 1 to 3 planets and 'we do not see any new period candidate for an additional planet'. Gaia DR3 parallax 54.7260 mas, RUWE 0.74, no NSS; PMa S/N 0.85. No TOI."
+  },
+  {
+   "system_host": "HD 46375",
+   "aliases_searched": [
+    "HD 46375",
+    "HIP 31246",
+    "TIC 234928947",
+    "Gaia DR3 3131777319158581376",
+    "HD 46375 Ab (exoplanet.eu)",
+    "HD 46375 A b (OEC)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (3.02 d hot Saturn, Marcy et al. 2000) on the confirmed tab; CLS recovers b alone, no HD 46375 trend or false positive listed. arXiv hits: CoRoT phase-curve and asteroseismology papers, no companion claim. Gaia DR3 parallax 33.8798 mas, RUWE 1.05, no NSS; Kervella+2022 PMa S/N 3.03 (flagged binary), consistent with the known stellar companion. Systems tab says 1 star but OEC files it as a binary - see incidental. No TOI."
+  },
+  {
+   "system_host": "GJ 3021",
+   "aliases_searched": [
+    "GJ 3021",
+    "Gliese 3021",
+    "HD 1237",
+    "HIP 1292",
+    "TIC 290543478",
+    "Gaia DR3 4634528720388462592",
+    "GJ 3021 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Naef et al. 2001 full text (arXiv astro-ph/0106255)",
+    "CHES III (arXiv 2503.17090, Sect. 3.3)"
+   ],
+   "result": "0 candidates",
+   "notes": "b (133.7 d, Naef et al. 2001) on the confirmed tab; companion GJ 3021 B (M4V, 3.9 arcsec / 68.7 AU per OEC) already on the multistars tab. Naef+2001 attribute the large residuals to activity; CHES III (2025) refits b with an N-body model including B - no new signal. exoplanet.eu's 'HD 1237' search also returns '13 Boo b' (a different star matched through an alias string), ignored. Gaia DR3 parallax 56.9644 mas, RUWE 1.03, no NSS; PMa S/N 1.09. No TOI."
+  },
+  {
+   "system_host": "HD 154345",
+   "aliases_searched": [
+    "HD 154345",
+    "HIP 83389",
+    "TIC 198562505",
+    "Gaia DR3 1359938520253565952"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Giovinazzi et al. 2025 (NEID ETS II, arXiv 2505.12563) Sect. V.7 and VII.6",
+    "Rosenthal et al. 2021 App. G.2",
+    "Wright et al. 2007 full text (arXiv astro-ph/0611658)"
+   ],
+   "result": "0 candidates",
+   "notes": "b (~9 yr Jupiter analogue) on the confirmed tab, now with a dynamical mass 1.186 MJ (Giovinazzi et al. 2025, AJ 170, 52). The old worry that b is the activity cycle is settled: CLS (App. G.2) and NEID ETS II separate b from the cycle. Residual signals: 26.2 d (rotation, Prot 27.8 d) and 6.4 yr (magnetic cycle) in NEID ETS II; CLS Table 7 lists a 2763 d activity false positive. None is a planet claim. Gaia DR3 parallax 54.7359 mas, RUWE 1.04, no NSS; PMa S/N 0.54. No TOI."
+  },
+  {
+   "system_host": "GJ 3222",
+   "aliases_searched": [
+    "GJ 3222",
+    "HD 21175",
+    "HIP 15799",
+    "TIC 160004049",
+    "Gaia DR3 4852870701505115904",
+    "GJ 3222 Ab / Ac (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Philipot et al. 2023 (arXiv 2308.05417) Sect. 2 and Tables 2, C.3",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (10.67 d, 11.4 M_E, Feng et al. 2022) on the confirmed tab. Feng+2022 Table 3 also has 'GJ 3222 c': P 1429.8 d, i 2.08 deg, true mass 52.2 MJup - a brown dwarf by its own mass, so not added (exoplanet.eu lists it as 'GJ 3222 Ac', Confirmed). The very strong Hipparcos-Gaia PMa (Kervella+2022 S/N 122) and the GaiaPMEX entry (RUWE 1.214) are explained by that companion and/or the stellar companion HD 21175 B that Philipot et al. 2023 detected with SPHERE. NASA pscomppars gives sy_snum = 2 and no Gaia ID for this host. Gaia DR3 parallax 56.5570 mas, no NSS. No TOI."
+  },
+  {
+   "system_host": "HD 149806",
+   "aliases_searched": [
+    "HD 149806",
+    "HIP 81375",
+    "TIC 281738302",
+    "Gaia DR3 4383374219923745024",
+    "HD 149806 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "CLS Table 5 long-term trends (VizieR J/ApJS/255/8/table5)"
+   ],
+   "result": "0 candidates",
+   "notes": "b (16521 d, 12.6 MJ, Feng et al. 2022) on the confirmed tab; stellar companion HD 149806 B (M1.5 V) already on the multistars tab. CLS Table 5 records a long-term RV trend for HD 149806 - that is b and/or B, not a new signal. exoplanet.eu/OEC: b only. Kervella+2022 returned no row for HIP 81375 in my query. Gaia DR3 parallax 49.2036 mas, RUWE 1.04, no NSS. No TOI."
+  },
+  {
+   "system_host": "HD 3651",
+   "aliases_searched": [
+    "HD 3651",
+    "54 Psc",
+    "HIP 3093",
+    "HR 166",
+    "GJ 27",
+    "TIC 434210589",
+    "Gaia DR3 2802397960855105920",
+    "HD 3651.02 (OEC)",
+    "54 Psc c / 54 Psc d (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Subjak et al. 2023 full text (arXiv 2212.03757, Sect. 6.1)",
+    "Harada et al. 2025 SPORES-HWO II App. B.1 (arXiv 2409.10679)",
+    "CLS Table 7"
+   ],
+   "result": "0 candidates",
+   "notes": "b (62.2 d) on the confirmed tab. Three other objects examined, none added: (1) the 31.08 d second planet of Wittenmyer et al. 2013's 2:1-resonant alternative ('HD 3651.02', OEC list Controversial; exoplanet.eu '54 Psc d', status Retracted) - ruled out by Subjak et al. 2023; (2) a ~5140-5157 d RV signal attributed to the magnetic cycle (CLS Table 7 cause A; Harada et al. 2025 App. B.1); (3) the T dwarf 54 Psc B / HD 3651 B (exoplanet.eu '54 Psc c', 53 MJup, 476 AU) - a brown dwarf. EXPRES residuals are 0.58 m/s (Subjak+2023), leaving little room for more. Gaia DR3 parallax 90.0248 mas, RUWE 0.88, no NSS; PMa S/N 2.25. No TOI."
+  },
+  {
+   "system_host": "HD 21411",
+   "aliases_searched": [
+    "HD 21411",
+    "HIP 16012",
+    "TIC 142875660",
+    "Gaia DR3 5056511692465250304"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Feng et al. 2019 (ApJS 242, 25; arXiv 1904.08567) full text",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (84.29 d) on the confirmed tab; it is one of the '15 planet candidates found in PFS data' of Feng et al. 2019 (the paper's own word is candidate), which NASA and exoplanet.eu now list as confirmed. Only one signal reported for this star; no follow-up paper found. Gaia DR3 parallax 34.3638 mas, RUWE 1.02, no NSS; PMa S/N 0.20. No TOI."
+  },
+  {
+   "system_host": "HD 102195",
+   "aliases_searched": [
+    "HD 102195",
+    "HIP 57370",
+    "ET-1",
+    "Flegetonte (host nickname)",
+    "TIC 397024052",
+    "Gaia DR3 3799626935341796096"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (4.11 d hot Jupiter, Ge et al. 2006) on the confirmed tab. NASA ps has four solutions (Ge 2006, Melo 2007, Stassun 2017, Paredes 2021), all for b only. No additional-signal claim found. Gaia DR3 parallax 34.0634 mas, RUWE 0.96, no NSS; PMa S/N 0.38. No TOI."
+  },
+  {
+   "system_host": "HD 39855",
+   "aliases_searched": [
+    "HD 39855",
+    "HIP 27922 A",
+    "TIC 160301040",
+    "Gaia DR3 2966316109264052096",
+    "HD 39855 Ab (exoplanet.eu)"
+   ],
+   "sources_checked": [
+    "pack TOI table (TIC match and 3-arcmin coordinate match: none)",
+    "NASA TOI table live (TIC query: none)",
+    "NASA pscomppars + ps (all solutions)",
+    "exoplanet.eu catalog search (JSON endpoint) + planet pages for status",
+    "OEC system XML",
+    "Gaia DR3 gaia_source + nss_two_body_orbit / nss_acceleration_astro / nss_non_linear_spectro / nss_vim_fl (no NSS solution for any B09 star)",
+    "Kervella et al. 2022 Hipparcos-Gaia EDR3 PMa (VizieR J/A+A/657/A7)",
+    "GaiaPMEX candidate catalogue (Kiefer et al. 2025, VizieR J/A+A/702/A77/tableb1)",
+    "Feng et al. 2022 (VizieR J/ApJS/262/21 table3)",
+    "California Legacy Survey (Rosenthal et al. 2021, VizieR J/ApJS/255/8 tables 3,4,5,7)",
+    "arXiv API abstract search on every alias",
+    "pack CSVs (planets_confirmed, unconfirmed_existing, rejected_candidates, multistars)",
+    "SIMBAD TAP/sim-id and the exoplanet.eu EPN TAP were unreachable this session (connection timeouts); aliases taken from NASA pscomppars, OEC XML and the papers",
+    "Feng et al. 2019 (arXiv 1904.08567) full text",
+    "WebSearch"
+   ],
+   "result": "0 candidates",
+   "notes": "b (3.25 d, 8.5 M_E) on the confirmed tab; a Feng et al. 2019 PFS 'planet candidate', now listed confirmed by NASA and exoplanet.eu. One signal only; no follow-up found. Companion HD 39855 B already on the multistars tab. Gaia DR3 parallax 42.9759 mas, RUWE 0.87, no NSS; PMa S/N 2.01. No TOI."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "HD 164595 candidate (RV trend)",
+   "system_host": "HD 164595",
+   "new_system": false,
+   "planet_host_star": "HD 164595",
+   "aliases": [
+    "HD 164595 c (informal; no paper uses a letter)"
+   ],
+   "designation": "Linear RV drift -2.34 +/- 0.44 m/s/yr fitted alongside b (Courcol et al. 2015, Table 4, Sect. 5.2 and 6); no letter assigned",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Trend-only: 66 SOPHIE RVs over 809 d. The discoverers could not decide between an outer companion, a rising magnetic cycle (activity increased over the run) and an incompletely corrected instrumental zero-point drift. No period, no mass, no follow-up in 11 years, and no Hipparcos-Gaia PMa (Kervella+2022 S/N 1.26). Kept only because the owner's ruling files trend-only signals as ambiguous candidates; on the evidence it is weak.",
+   "detection_method": "Radial velocity (linear trend)",
+   "period_d": null,
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.99,
+     "err": "+/-0.03",
+     "src": "S1",
+     "where": "Sect. 5.2 (Porto de Mello et al. 2014 value adopted)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "No orbit: only a linear drift dRV/dt = -2.34 +/- 0.44 m/s/yr over an 809-day baseline (Table 4). No separation or mass locus published. Possible causes listed by the authors: long-period companion, magnetic cycle, SOPHIE zero-point residual. Bisector shows a marginally correlated trend in the last season (Fig. 7).",
+   "reference": "Courcol et al. 2015, A&A 581, A38, 'The SOPHIE search for northern extrasolar planets VII. A warm Neptune orbiting HD164595', Sect. 5.2, Sect. 6, Table 4",
+   "vetting_date": "2015-06",
+   "catalogue_distance_ly": {
+    "value": 92.15,
+    "src": "S2",
+    "where": "Systems tab distance; Gaia DR3 parallax 35.4020 +/- 0.0146 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Courcol, B. et al. 2015, A&A 581, A38",
+     "url": "https://arxiv.org/abs/1506.07144",
+     "what": "trend value, authors' interpretation, stellar mass"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 4584639307993378432",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, RUWE 0.896"
+    },
+    "S3": {
+     "citation": "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), HIP 88194",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/657/A7",
+     "what": "PMa S/N 1.26 (no significant anomaly)"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for HD 164595 / HIP 88194: only HD 164595 b (40 d) on the confirmed tab; nothing on Unconfirmed or Rejected.",
+   "confidence_notes": "A trend of unknown cause from one instrument with a known drift problem. File it if the ruling requires; do not draw anything specific."
+  },
+  {
+   "planet": "HD 147513 candidate P=7.9d",
+   "system_host": "HD 147513",
+   "new_system": false,
+   "planet_host_star": "HD 147513",
+   "aliases": [
+    "HD 147513 c (label used in Gozdziewski & Migaszewski 2006 Table 1)"
+   ],
+   "designation": "Inner planet 'c' of the 2-planet best fit (Gozdziewski & Migaszewski 2006, Sect. 5, Table 1) - letter c is free on this host (only b is known)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "A residual fit to only 30 CORALIE RVs of a young (0.3 Gyr), very active star (log R'HK -4.4, estimated jitter ~9 m/s, which is comparable to K = 11 m/s). The authors themselves say the periodicity 'can be explained by jitter' and that the 7.9 d period is aliased with 810.8 d and suspiciously near the ~4.7 d rotation estimate. Harada et al. 2025, with HARPS added, find no significant signal at all - not even the 528 d b. Not formally refuted, but nobody has recovered it in 20 years.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 7.894,
+    "err": "",
+    "src": "S1",
+    "where": "Table 1 (HD 147513 c column) and Sect. 5 text 'Pc ~ 7.894 d'"
+   },
+   "a_au": {
+    "value": 0.08,
+    "err": "",
+    "src": "S1",
+    "where": "Table 1 (paper's own a, assuming M* = 1.11 Msun)"
+   },
+   "ecc": {
+    "value": 0.3,
+    "err": "",
+    "src": "S1",
+    "where": "Table 1 (row labels in the arXiv PDF text are offset by one line; values read as m sin i 0.115, a 0.08, P 7.894, K 10.95, e 0.30)"
+   },
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.11,
+     "src": "S1",
+     "where": "Table 1 (stellar mass adopted)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only, 30 CORALIE points (Mayor et al. 2004 data), 2-planet fit by genetic algorithm; no uncertainties tabulated. K ~ 11 m/s. Period aliased with 810.8 d. Star active (R'HK -4.4), jitter ~9 m/s. Not recovered by Harada et al. 2025 with HARPS added. Published minimum mass 0.115 MJup (Table 1; Sect. 5 'minimal mass of the inner planet 0.115 mJ') - given in Jupiter masses only, so mass_earth is left null for the writer to convert.",
+   "reference": "Gozdziewski K. & Migaszewski C. 2006, A&A 449, 1219, 'About putative Neptune-like extrasolar planetary candidates', Sect. 5, Table 1",
+   "vetting_date": "2005-11",
+   "catalogue_distance_ly": {
+    "value": 42.08,
+    "src": "S2",
+    "where": "Systems tab distance; Gaia DR3 parallax 77.5655 +/- 0.0661 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Gozdziewski & Migaszewski 2006, A&A 449, 1219",
+     "url": "https://arxiv.org/abs/astro-ph/0511295",
+     "what": "2-planet fit, inner-candidate parameters, caveats"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 6018047019138644480",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, RUWE 0.851"
+    },
+    "S3": {
+     "citation": "Harada et al. 2025, AJ 170, 343 (SPORES-HWO II), Appendix C.7",
+     "url": "https://arxiv.org/abs/2409.10679",
+     "what": "HARPS+CORALIE reanalysis: no significant signal"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for HD 147513 / HIP 80337 / GJ 9559: only HD 147513 b (528.4 d) on the confirmed tab; nothing on Unconfirmed or Rejected.",
+   "confidence_notes": "Almost certainly jitter. File on the Rejected candidates tab."
+  },
+  {
+   "planet": "HD 42618 candidate P=388d",
+   "system_host": "HD 42618",
+   "new_system": false,
+   "planet_host_star": "HD 42618",
+   "aliases": [],
+   "designation": "388 d 'planet candidate' (Fulton et al. 2016, Sect. 7); CLS false positive 'N' (Rosenthal et al. 2021, Table 7)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Period within 23 days of a year, incomplete phase coverage, and MCMC fits including it did not converge (Fulton+2016). The CLS reanalysis with more data classifies the 388.0 d signal as a false positive caused by an annual/instrumental systematic. Not a dedicated refutation, but the best reading is a yearly systematic.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 388.0,
+    "err": "+1.8/-2.2",
+    "src": "S2",
+    "where": "CLS Table 7 (VizieR J/ApJS/255/8/table7, row 66); Fulton+2016 Sect. 7 gives 388 d"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 22,
+    "err": "",
+    "type": "Msini",
+    "src": "S1",
+    "where": "Sect. 7 ('M sin i = 22 M_E planet orbiting just outside 1 AU')"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only (Keck/HIRES + APF). K ~2 m/s (Fulton+2016); CLS K = 1.64 +0.28/-0.24 m/s. No eccentricity published; MCMC with this signal failed to converge. Classified as annual/instrumental systematic by CLS.",
+   "reference": "Fulton et al. 2016, ApJ 830, 46, 'Three Temperate Neptunes Orbiting Nearby Stars', Sect. 7; Rosenthal et al. 2021, ApJS 255, 8, Table 7",
+   "vetting_date": "2021-05",
+   "catalogue_distance_ly": {
+    "value": 79.37,
+    "src": "S3",
+    "where": "Systems tab distance; Gaia DR3 parallax 40.9764 +/- 0.0240 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Fulton, B. J. et al. 2016, ApJ 830, 46",
+     "url": "https://arxiv.org/abs/1607.00007",
+     "what": "388 d candidate, Msini, caveats"
+    },
+    "S2": {
+     "citation": "Rosenthal, L. J. et al. 2021, ApJS 255, 8, Table 7 (False positives)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/255/8/table7",
+     "what": "P = 388.0 d, K = 1.64 m/s, cause N"
+    },
+    "S3": {
+     "citation": "Gaia DR3 gaia_source, source_id 3319126988068404096",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, RUWE 1.167"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for HD 42618 / HIP 29432 / GJ 3387: only HD 42618 b (149.61 d) on the confirmed tab; nothing on Unconfirmed or Rejected.",
+   "confidence_notes": "Almost certainly a one-year systematic. File on the Rejected candidates tab."
+  },
+  {
+   "planet": "HD 210277 candidate P=3.14d",
+   "system_host": "HD 210277",
+   "new_system": false,
+   "planet_host_star": "HD 210277",
+   "aliases": [],
+   "designation": "Best-fit second Keplerian, P = 3.14 d (Wright et al. 2007, Sect. 6, list of low-FAP residual signals); no letter",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "K = 3 m/s at 2% FAP in pre-2007 Keck data, with a best-fit e = 0.5 the authors call unlikely for a 3-day orbit; they say 'the exoplanetary nature of this signal [is] very uncertain'. The California Legacy Survey (Rosenthal et al. 2021), with about 14 more years of Keck/HIRES data, recovers only b and lists no 3.14 d signal, not even among its false positives.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 3.14,
+    "err": "",
+    "src": "S1",
+    "where": "Sect. 6 (HD 210277 paragraph)"
+   },
+   "a_au": null,
+   "ecc": {
+    "value": 0.5,
+    "err": "",
+    "src": "S1",
+    "where": "Sect. 6 (best-fit orbit e = 0.5)"
+   },
+   "mass_earth": null,
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only (Keck). K = 3 m/s, FAP 2%, best-fit e = 0.5; no mass or semi-major axis published. Not recovered by CLS.",
+   "reference": "Wright et al. 2007, ApJ 657, 533, 'Four New Exoplanets and Hints of Additional Substellar Companions to Exoplanet Host Stars', Sect. 6",
+   "vetting_date": "2006-11",
+   "catalogue_distance_ly": {
+    "value": 69.47,
+    "src": "S2",
+    "where": "Systems tab distance; Gaia DR3 parallax 46.8515 +/- 0.0283 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Wright, J. T. et al. 2007, ApJ 657, 533",
+     "url": "https://arxiv.org/abs/astro-ph/0611658",
+     "what": "3.14 d residual signal and caveats"
+    },
+    "S2": {
+     "citation": "Gaia DR3 gaia_source, source_id 2619706544757416192",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+     "what": "parallax, RUWE 1.127"
+    },
+    "S3": {
+     "citation": "Rosenthal et al. 2021, ApJS 255, 8 (CLS), Tables 3 and 7",
+     "url": "https://arxiv.org/abs/2105.11583",
+     "what": "only b recovered; no 3.14 d signal"
+    }
+   },
+   "dedupe": "Checked planets_confirmed.csv, unconfirmed_existing.csv and rejected_candidates.csv for HD 210277 / HIP 109378: only HD 210277 b (442.1 d) on the confirmed tab; nothing on Unconfirmed or Rejected.",
+   "confidence_notes": "Not seen in far more data since. File on the Rejected candidates tab."
+  }
+ ],
+ "new_systems": [],
+ "considered_not_added": [
+  {
+   "name": "HD 147513 b",
+   "system_host": "HD 147513",
+   "reason": "Already on the confirmed tab. FLAG FOR THE WRITER: NASA pscomppars marks it controversial (pl_controv_flag = 1), and Harada et al. 2025 (AJ 170, 343; SPORES-HWO II, Appendix C.7) find that adding 46 nights of HARPS RVs makes the 528 d signal vanish (only a sub-threshold 504.1 d peak, FAP > 0.01); they say it 'has not since been confirmed by follow-up observations'. exoplanet.eu and OEC still list it Confirmed. Arguably belongs on Unconfirmed as ambiguous.",
+   "source_url": "https://arxiv.org/abs/2409.10679"
+  },
+  {
+   "name": "HD 42618 ~4850 d signal",
+   "system_host": "HD 42618",
+   "reason": "Attributed to the stellar magnetic activity cycle by its discoverers (Fulton et al. 2016, Sect. 4.2: period matches the Ca II H&K cycle); CLS Table 7 lists it (4040 d) as a false positive, cause A (activity). Never proposed as a planet.",
+   "source_url": "https://arxiv.org/abs/1607.00007"
+  },
+  {
+   "name": "HD 177565 b",
+   "system_host": "HD 177565",
+   "reason": "Already on the confirmed tab. FLAG FOR THE WRITER: single-paper detection that its authors call a 'planet candidate' (Feng et al. 2017, MNRAS 470, 4794, abstract and Sect. 4.5; 68 HARPS points, K = 2.71 m/s); exoplanet.eu status is 'Candidate'. NASA and OEC call it confirmed; no independent confirmation found.",
+   "source_url": "https://arxiv.org/abs/1705.03089"
+  },
+  {
+   "name": "HD 177565 short-period residual signals (e.g. 1.43 d)",
+   "system_host": "HD 177565",
+   "reason": "Not a candidate: the 1.43 d peak appears only in a noise model the paper rejects, the residual periodogram after b shows no significant signal, and the conclusion's 'clues for other short period signals' names no period (Feng et al. 2017, Sect. 4.5, 5).",
+   "source_url": "https://arxiv.org/abs/1705.03089"
+  },
+  {
+   "name": "HD 90156 ~14 d residual peak",
+   "system_host": "HD 90156",
+   "reason": "Not a candidate: a residual-periodogram peak with FAP 16% about which the discoverers 'can however not yet conclude anything' (Mordasini et al. 2011, A&A 526, A111, Sect. 4.2). No amplitude or mass given; not seen by CLS (Rosenthal et al. 2021 recovers only b).",
+   "source_url": "https://arxiv.org/abs/1010.0856"
+  },
+  {
+   "name": "HD 154088 ~3000 d signal",
+   "system_host": "HD 154088",
+   "reason": "Magnetic activity cycle, modelled with a log R'HK term by Unger et al. 2021 (A&A 654, A104, Sect. 5.4). Not a planet claim.",
+   "source_url": "https://arxiv.org/abs/2108.10198"
+  },
+  {
+   "name": "HD 154345 residual 26.2 d and 6.4 yr (2763 d) signals",
+   "system_host": "HD 154345",
+   "reason": "Stellar rotation (26.2 d, Prot 27.8 d) and magnetic cycle (6.4 yr), per Giovinazzi et al. 2025 (AJ 170, 52, Sect. VII.6); CLS Table 7 classifies the 2763 d signal as activity (A). Not planet claims.",
+   "source_url": "https://arxiv.org/abs/2505.12563"
+  },
+  {
+   "name": "GJ 3222 c (Ac)",
+   "system_host": "GJ 3222",
+   "reason": "Brown dwarf: true mass 52.213 (+5.1/-4.9) MJup, P = 1429.8 d, a = 2.39 AU, i = 2.08 deg (Feng et al. 2022, ApJS 262, 21, Table 3 via VizieR J/ApJS/262/21). Above 13 MJup.",
+   "source_url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/262/21"
+  },
+  {
+   "name": "GaiaPMEX candidate for HD 21175 (= GJ 3222)",
+   "system_host": "GJ 3222",
+   "reason": "Kiefer et al. 2025 GaiaPMEX catalogue (VizieR J/A+A/702/A77/tableb1) lists HD 21175 with RUWE 1.214, pRUWE 0.0024, minimum companion mass 3.1 MJup at ~1.97 AU; its NPlNEA = 0 only because NASA carries no Gaia ID for GJ 3222. The astrometric excess is already accounted for by the 52 MJup companion GJ 3222 c (Feng+2022) and the SPHERE stellar companion HD 21175 B (Philipot et al. 2023). Not a new planet candidate.",
+   "source_url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/702/A77"
+  },
+  {
+   "name": "HD 3651.02 / 54 Psc d (P=31.08 d)",
+   "system_host": "HD 3651",
+   "reason": "Refuted: the second planet of the 2:1-resonant alternative to the single eccentric b (Wittenmyer et al. 2013). Subjak et al. 2023 (A&A 671, A10, Sect. 6.1) 'can rule out such a solution' with Lick+Keck+SONG+CARMENES+EXPRES RVs; exoplanet.eu status Retracted. OEC still lists it 'Controversial' (P 31.08 d, 0.09 MJ, a 0.186 AU). If the writer wants every OEC-controversial object logged, it belongs on the Rejected candidates tab.",
+   "source_url": "https://arxiv.org/abs/2212.03757"
+  },
+  {
+   "name": "HD 3651 ~5140 d signal",
+   "system_host": "HD 3651",
+   "reason": "Magnetic activity cycle: CLS Table 7 (Rosenthal et al. 2021) false positive, cause A, P = 5140 d; Harada et al. 2025 (AJ 170, 343, App. B.1) recover it at 5157 d and cite the same attribution. Not a planet claim.",
+   "source_url": "https://arxiv.org/abs/2409.10679"
+  },
+  {
+   "name": "54 Psc c (= HD 3651 B)",
+   "system_host": "HD 3651",
+   "reason": "Brown dwarf (T dwarf) companion: exoplanet.eu gives 53 MJup at 476 AU (planet page 54_psc_c--7037, status Confirmed). Above 13 MJup.",
+   "source_url": "https://exoplanet.eu/catalog/54_psc_c--7037/"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": [
+  {
+   "what": "HD 147513: Systems tab says 1 star; NASA pscomppars has sy_snum = 2 and OEC files the planet as 'HD 147513 A b' in its 'Planets in binary systems, S-type' list (the wide white-dwarf companion).",
+   "detail": "OEC systems/HD 147513.xml: binary with HD 147513 B, spectral type DA2 (white dwarf), separation 345 arcsec = 4451 AU. Not on the multistars tab.",
+   "source_url": "https://raw.githubusercontent.com/OpenExoplanetCatalogue/open_exoplanet_catalogue/master/systems/HD%20147513.xml"
+  },
+  {
+   "what": "HD 164595: Systems tab says 1 star; NASA pscomppars has sy_snum = 2 and exoplanet.eu names the planet 'HD 164595 Ab'.",
+   "detail": "A WebSearch summary (source not opened) mentioned an M-dwarf companion ~683 AU away. Not verified this session; OEC files HD 164595 as a single star. Worth a check before adding a multistars row.",
+   "source_url": "https://exoplanetarchive.ipac.caltech.edu/overview/HD%20164595%20b"
+  },
+  {
+   "what": "HD 46375: Systems tab says 1 star; OEC (systems/HD 46375.xml) lists a binary with HD 46375 B, spectral type K9.5-M1.5, separation 9.4 arcsec = 314 AU; NASA sy_snum = 2; exoplanet.eu names the planet 'HD 46375 Ab'.",
+   "detail": "Not on the multistars tab. Kervella+2022 PMa S/N 3.03 for HIP 31246 is consistent with it.",
+   "source_url": "https://raw.githubusercontent.com/OpenExoplanetCatalogue/open_exoplanet_catalogue/master/systems/HD%2046375.xml"
+  },
+  {
+   "what": "GJ 3222 (HD 21175): Systems tab says 1 star, but Philipot et al. 2023 (A&A 678, A107, Sect. 2) 'detect a massive stellar companion in the system HD21175' with SPHERE/IRDIS (outside the IFS field of view), listed as HD 21175 B in their Tables 2 and C.3; NASA sy_snum = 2.",
+   "detail": "The separation and mass could not be read reliably from the PDF text layout. Separately, Feng+2022's GJ 3222 c (52 MJup brown dwarf at 2.39 AU) is not on any tab. Both may deserve rows on multistars or a companions note.",
+   "source_url": "https://arxiv.org/abs/2308.05417"
+  }
+ ]
+}

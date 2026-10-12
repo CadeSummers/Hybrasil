@@ -1,0 +1,2201 @@
+{
+ "agent_id": "K002",
+ "batch": "K002",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 3809 AB|3665076433275547904",
+   "name": "GJ 3809 AB",
+   "done": true,
+   "rv": {
+    "value": 2.594,
+    "err": 0.047,
+    "src": "S1",
+    "where": "VizieR III/286/catalog, APOGEE 2M13490104+0247281 (GaiaEDR3 3665076433275547904), col HRV / e_HRV; Nvis=4, s_HRV (visit scatter)=0.041",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Abdurro'uf et al. 2022, ApJS 259, 35 (SDSS DR17 / APOGEE)",
+     "url": "https://doi.org/10.3847/1538-4365/ac4414",
+     "what": "APOGEE DR17 allStar, VizieR III/286"
+    },
+    "S2": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198: G 064-027A RV 7.1 (+/-10)"
+   ],
+   "notes": "Row is the AB system; Gaia shows two companion detections at 0.46\" and 0.68\" (2-parameter sources), so the APOGEE spectrum is the unresolved AB light, i.e. a system value, which matches this row. Alternative: PMSU (Reid et al. 1995) 7.1 +/-10 km/s single epoch."
+  },
+  {
+   "key": "GJ 12449|4139489552908817920",
+   "name": "GJ 12449",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found in any bulk catalog. Gaidos et al. 2014 (J/MNRAS/443/2561) lists it (SpT M2) but gives no RV."
+  },
+  {
+   "key": "Gaia DR3 3113219383949651840|3113219383949651840",
+   "name": "Gaia DR3 3113219383949651840",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Wide (6.6\") companion of HD 49933 (Gaia DR3 RV -12.46 km/s for the primary). No RV for B itself."
+  },
+  {
+   "key": "Gaia DR3 5803288101584023040|5803288101584023040",
+   "name": "Gaia DR3 5803288101584023040",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Anonymous Gaia source; no RV in any bulk catalog."
+  },
+  {
+   "key": "GJ 10015|528913132171021568",
+   "name": "GJ 10015",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV in any bulk catalog (Gaidos 2014 lists it without RV)."
+  },
+  {
+   "key": "GJ 3332 C|2962658549471532672",
+   "name": "GJ 3332 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "Zuniga-Fernandez 2021 J/A+A/645/A30 rvindi/sacysb: B only",
+    "Gizis 2002 J/AJ/123/3356 RHG95 874/875",
+    "SIMBAD StKM 1-545 / 1-546 identifiers"
+   ],
+   "notes": "Component C of BD-21 1074 (beta Pic MG). Gaia DR3 shows BD-21 1074B 0.96\" away (G=10.33). SIMBAD resolves StKM 1-545 to 'BD-21 1074BC' (GJ 3332). All RVs found are for B or the unresolved BC pair, not C: Zuniga-Fernandez et al. 2021 (J/A+A/645/A30, 'BD-211074B') median 21.89 +/-0.57 km/s (UVES/FEROS, 4 epochs); Gizis et al. 2002 'Step 545C' (RHG95 875 = StKM 1-545) 21.2 +/-0.9 (5 epochs); PMSU 'Steph 545A' 31.7. The A star (BD-21 1074A, 7.6\") has Gaia DR3 RV 16.55."
+  },
+  {
+   "key": "GJ 499 B|3943232534137347072",
+   "name": "GJ 499 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 1.58\" from GJ 499 A (Gaia DR3 3943232534138172672, G=8.97, Gaia DR3 RV -2.80). All catalog matches (Sperauskas, Gontcharov, PMSU, Gizis 2002, Tsantaki) are for A. Nothing for B."
+  },
+  {
+   "key": "GJ 10936 A|3327170877700242944",
+   "name": "GJ 10936 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Ross 603 A and B are 1.17\" apart (B: Gaia DR3 3327170877694724096, G=12.25). APOGEE DR17 assigns 2M06274397+0923541 to this A source: HRV 42.244 +/-0.045 km/s, 3 visits, s_HRV 0.09, Ncomp=1 -- but the 2\" APOGEE fibre takes in both stars, so this is a blended (system-level) value and is not reported as A's per rule 5. Orchestrator may choose to accept it."
+  },
+  {
+   "key": "GJ 4358 AB|2012238465046622848",
+   "name": "GJ 4358 AB",
+   "done": true,
+   "rv": {
+    "value": 9.25,
+    "err": 0.25,
+    "src": "S1",
+    "where": "VizieR J/AJ/124/1144/table3, star G241-62, col HRV/e_HRV (12 CfA observations over 3091 d, native CfA system)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Latham et al. 2002, AJ 124, 1144 (Carney-Latham survey XVI)",
+     "url": "https://doi.org/10.1086/341384",
+     "what": "CfA Digital Speedometer RVs of high-proper-motion stars; VizieR J/AJ/124/1144/table3"
+    },
+    "S2": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198: G 241-062 RV 3.7 (+/-10)"
+   ],
+   "notes": "Carney-Latham target G241-62 matched by position (8.6\" from pm-propagated J2000 position; old-epoch coordinates). A Gaia neighbour at 2.41\" (Gaia DR3 2012238465045216896, G=12.19, same parallax) has Gaia DR3 RV 8.53 km/s; it may contribute some light to the CfA spectra. Velocities are on the native CfA system (Latham 2002 notes a small zero-point offset to the IAU system). Alternative: PMSU 3.7 +/-10 km/s."
+  },
+  {
+   "key": "GJ 3823|6274832977622107264",
+   "name": "GJ 3823",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198 (LHS 2852 RV 13.3)",
+    "web search 'LHS 2852 / GJ 3823 radial velocity': nothing"
+   ],
+   "notes": "Only RV found is Gizis 1997 (AJ 113, 806) / PMSU III/198 'LHS 2852' 13.3 km/s, the same value SIMBAD rated D; PMSU RVs are quoted as +/-10 km/s. Not replaced: no better measurement located. Gaidos 2014 lists it without RV."
+  },
+  {
+   "key": "Gaia DR3 5076176840181970304|5076176840181970304",
+   "name": "Gaia DR3 5076176840181970304",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "CD-25 1159A has a companion 0.53\" away (Gaia DR3 5076176840181717376, G=11.24); no RV found for either."
+  },
+  {
+   "key": "GJ 473 A|3902874650602495232",
+   "name": "GJ 473 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "Newton 2014 J/AJ/147/20/table6",
+    "Terrien 2015 J/ApJS/220/16",
+    "web search 'Wolf 424 radial velocity components'"
+   ],
+   "notes": "Wolf 424 A and B are 1.15\" apart. Only system-level RVs exist: Newton et al. 2014 (J/AJ/147/20, LSPM J1233+0901, unresolved) 1 +/-4 km/s; ARICNS compilation -2.0 km/s (grade b, seen in web search, not a primary source). Terrien 2015 lists 36.9 +/-13.3 (2MASS blend, low quality). No component RV."
+  },
+  {
+   "key": "GJ 11991 B|6093381394034220544",
+   "name": "GJ 11991 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "5.7\" companion of HD 120780 (Gaia DR3 RV -23.51 for the primary); Torres 2006 and Gontcharov matches are the primary. Nothing for B."
+  },
+  {
+   "key": "GJ 473 B|3902874650601954816",
+   "name": "GJ 473 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "Newton 2014 J/AJ/147/20/table6",
+    "Terrien 2015 J/ApJS/220/16",
+    "web search 'Wolf 424 radial velocity components'"
+   ],
+   "notes": "Wolf 424 A and B are 1.15\" apart. Only system-level RVs exist: Newton et al. 2014 (J/AJ/147/20, LSPM J1233+0901, unresolved) 1 +/-4 km/s; ARICNS compilation -2.0 km/s (grade b, seen in web search, not a primary source). Terrien 2015 lists 36.9 +/-13.3 (2MASS blend, low quality). No component RV."
+  },
+  {
+   "key": "Gaia DR3 718976395774536960|718976395774536960",
+   "name": "Gaia DR3 718976395774536960",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.7\" companion of HD 77407 (primary RV ~4.7-4.9 km/s in Gaia DR3/Nidever 2002/Gontcharov). Nothing for B."
+  },
+  {
+   "key": "GJ 199 B|2962193318618003584",
+   "name": "GJ 199 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "4.9\" companion of HD 34751 (Gaia DR3 RV 26.89; Montes 2018 27.17 +/-0.37 for A). Montes 2018 lists HD 34751 B but gives RV only for A. Nothing for B."
+  },
+  {
+   "key": "GJ 12980|6792808541781612800",
+   "name": "GJ 12980",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 0.58\" away (Gaia DR3 6792808541780304768, G=12.59). No RV found."
+  },
+  {
+   "key": "GJ 4104|6717813842950778880",
+   "name": "GJ 4104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Visual double (WSI 135); companion 1.12\" (G=13.81). No RV found."
+  },
+  {
+   "key": "GJ 12379 B|5930568568425533440",
+   "name": "GJ 12379 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.1\" companion of HD 149192 (Gaia DR3 RV -5.12 for the primary). Nothing for B."
+  },
+  {
+   "key": "GJ 4161 B|1750816651978245248",
+   "name": "GJ 4161 B",
+   "done": true,
+   "rv": {
+    "value": -28.3,
+    "err": null,
+    "src": "S1",
+    "where": "VizieR J/AJ/123/3356/table2, RHG95 3243 'LTT16065B', JD 2449549.8183, col RV (single epoch, no per-star error given)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356 (PMSU III)",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "PMSU M-dwarf radial velocities; VizieR J/AJ/123/3356/table2"
+    },
+    "S2": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198 'LTT 16065' RV -26.3 (+/-10)"
+   ],
+   "notes": "SIMBAD lists 'LTT 16065B' and 'L 1143-66' as identifiers of this Gaia source, so the Gizis 2002 entry is this component. Alternative: PMSU (Reid 1995) 'LTT 16065' -26.3 +/-10."
+  },
+  {
+   "key": "LAWD 37|5332606522595645952",
+   "name": "LAWD 37",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "LAWD 37 is a DQ white dwarf (no usable lines for a kinematic RV). White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). No measurement found."
+  },
+  {
+   "key": "Gaia DR3 1522552819668322688|1522552819668322688",
+   "name": "Gaia DR3 1522552819668322688",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "G 164-42 A and B are 0.48\" apart. Only unresolved system values: PMSU (III/198, 'G 164-042') 18.1 +/-10 km/s and Gizis et al. 2002 (RHG95 2049) -2.1 single epoch -- mutually inconsistent. No component RV."
+  },
+  {
+   "key": "GJ 10666 B|4654969500557785344",
+   "name": "GJ 10666 B",
+   "done": true,
+   "rv": {
+    "value": 28.4,
+    "err": null,
+    "src": "S1",
+    "where": "VizieR J/A+A/460/695/stars, Seq 226 'TYC 9157 1376 1B' (HD 270712B), col HRV; Nobs=1, n_HRV='SB?', e_HRV blank",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Torres et al. 2006, A&A 460, 695 (SACY)",
+     "url": "https://doi.org/10.1051/0004-6361:20065602",
+     "what": "SACY young-star RVs; VizieR J/A+A/460/695/stars"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Resolved component (A = Seq 225, 2.3\" away, HRV 25.7). Single epoch, flagged as possible spectroscopic binary ('SB?'), no uncertainty listed."
+  },
+  {
+   "key": "Gaia DR3 1522552819667933952|1522552819667933952",
+   "name": "Gaia DR3 1522552819667933952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "G 164-42 A and B are 0.48\" apart. Only unresolved system values: PMSU (III/198, 'G 164-042') 18.1 +/-10 km/s and Gizis et al. 2002 (RHG95 2049) -2.1 single epoch -- mutually inconsistent. No component RV."
+  },
+  {
+   "key": "GJ 10273 A|506105202278213248",
+   "name": "GJ 10273 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found. Neighbour at 3.8\" (G=14.19, plx 21 mas, Gaia RV -69.6) is unrelated by parallax."
+  },
+  {
+   "key": "Gaia DR3 265722999470245632|265722999470245632",
+   "name": "Gaia DR3 265722999470245632",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "4.5\" companion of 9 Aur (F0V). No RV for B."
+  },
+  {
+   "key": "GJ 11408|5431884378073753984",
+   "name": "GJ 11408",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "L 462-119 A has a companion 0.50\" away (Gaia DR3 5431884382368809728, G=11.93). GALAH DR4 (J/other/PASA/42.51) gives RVcomp1 59.19 +/-0.29 km/s (flag_sp=24) for this Gaia id, but the 2\" fibre blends both stars; not reported as A's per rule 5."
+  },
+  {
+   "key": "GJ 12429 A|4561968271578549632",
+   "name": "GJ 12429 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "GJ 12429 A and GJ 12430 B (JNN 111 A/B) are 0.65\" apart. All RVs are for the unresolved pair: APOGEE DR17 (assigned to A's Gaia id) 7.515 +/-0.092, 1 visit; Malo et al. 2014 (2MASS J16590962+2058160, PHOENIX) 8.6 +/-0.3; Fouque 2018 8.1 +/-17.8. Not reported per rule 5."
+  },
+  {
+   "key": "GJ 794|1831553382794173824",
+   "name": "GJ 794",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). Only uncorrected line velocities exist: Kawka 2007 (AN 328, 889) 71 +/-7.4 (SIMBAD D), Wilson GCRV 71, Greenstein 1967 38, 1944 value 26. Only uncorrected line velocity."
+  },
+  {
+   "key": "GJ 11126 A|3080863574244739712",
+   "name": "GJ 11126 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "GALAH DR4 RVcomp1 -638.1 (flag_sp 10242, failed fit). LAMOST DR11 LRS gives only a pipeline redshift z for this source (no RV column); not converted, per rule 3. Companion C 1.93\" away has Gaia DR3 RV 6.51 (not this star)."
+  },
+  {
+   "key": "GJ 13048 B|2163558855915069824",
+   "name": "GJ 13048 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.7\" companion of HD 200560 (Soubiran 2018 RV -14.20 for the primary). Nothing for B."
+  },
+  {
+   "key": "GJ 10250|4941699593078093952",
+   "name": "GJ 10250",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "L 294-92 has a companion 0.60\" away (G=12.22). No RV found."
+  },
+  {
+   "key": "Gaia DR3 3138456714862505472|3138456714862505472",
+   "name": "Gaia DR3 3138456714862505472",
+   "done": true,
+   "rv": {
+    "value": 23.3,
+    "err": 10.0,
+    "src": "S1",
+    "where": "VizieR III/198/main, CNS3 1216 'G 050-001', col RV (single epoch; +/-10 km/s accuracy stated in ReadMe)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Low-precision PMSU value; no better RV found. No Gaia neighbour within 15\" brighter than G=16."
+  },
+  {
+   "key": "GJ 195 B|211810233512673920",
+   "name": "GJ 195 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.5\" companion of GJ 195 A (Gaia DR3 RV 30.97 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 4378 B|2421080250237097344",
+   "name": "GJ 4378 B",
+   "done": true,
+   "rv": {
+    "value": 17.4,
+    "err": null,
+    "src": "S1",
+    "where": "VizieR J/AJ/123/3356/table2, RHG95 3784 'G273-186A', JD 2449560.9265, col RV (single epoch)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356 (PMSU III)",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "PMSU M-dwarf radial velocities; VizieR J/AJ/123/3356/table2"
+    },
+    "S2": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198 'G 273-186' RV 20.5 (+/-10)",
+    "RAVE DR6 914.46 +/-31.7 for this id: junk"
+   ],
+   "notes": "IDENTIFICATION: SIMBAD resolves this Gaia source (2421080250237097344) to GJ 4378 = G 273-186 = LP 704-15 = LDS 830A, not to a 'B'; LDS 830B is LP 704-14 = GJ 4379 (Gaia DR3 2421080250237474176). The row name 'GJ 4378 B' looks wrong. Gizis 2002 'G273-186A' is this source. Alternative: PMSU 20.5 +/-10. MSC lists SpT M4+M8 (unresolved close companion)."
+  },
+  {
+   "key": "Gaia DR3 5940508153511960192|5940508153511960192",
+   "name": "Gaia DR3 5940508153511960192",
+   "done": true,
+   "rv": {
+    "value": -15.4,
+    "err": 10.0,
+    "src": "S1",
+    "where": "VizieR III/198/main, CNS3 2612 'Gl 629.3' (southern sample, Hawley 1996), col RV (+/-10 km/s accuracy stated in ReadMe)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "L 339-106 = GJ 629.3 = LHS 3223. Low-precision PMSU value; no better RV found."
+  },
+  {
+   "key": "GJ 11740 B|3489338019474046720",
+   "name": "GJ 11740 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.1\" companion of alf Crv. Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 6725401465316090880|6725401465316090880",
+   "name": "Gaia DR3 6725401465316090880",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found."
+  },
+  {
+   "key": "GJ 12153 B|1586968533013974528",
+   "name": "GJ 12153 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.0\" companion of BD+45 2247 (Gaia DR3 RV -13.28 for A). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 2456361654225919488|2456361654225919488",
+   "name": "Gaia DR3 2456361654225919488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "This is GJ 57.1 C = G 272-8B. Gizis 2002 'Gl 57.1B' (35.0 km/s) is SIMBAD's GJ 57.1 B = G 272-8A (Gaia DR3 2456361654226797440, 1.35\" away, Gaia DR2 RV 34.9). Nothing for C itself."
+  },
+  {
+   "key": "GJ 12182|5773317961528696832",
+   "name": "GJ 12182",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "SIMBAD lists only quality-E values: RAVE (Kunder 2017) 132.9 +/-151.1 and RAVE DR6 (Steinmetz 2020) -570.4 +/-20.9 -- both unusable."
+  },
+  {
+   "key": "GJ 10339|4939950270078388224",
+   "name": "GJ 10339",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found."
+  },
+  {
+   "key": "Gaia DR3 239070631455336192|239070631455336192",
+   "name": "Gaia DR3 239070631455336192",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.9\" companion of BD+39 710 (HIP 14478, Gaia DR3 RV -51.89). Nothing for B."
+  },
+  {
+   "key": "GJ 11692|3895876671408042496",
+   "name": "GJ 11692",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "StM 162A has a companion 0.32\" away (Gaia DR3 3895876671408042368, G=12.18). All survey RVs for this Gaia id blend both: APOGEE DR17 29.41 +/-0.09 (1 visit), GALAH DR4 29.24 +/-0.51 (flag_sp 2048), LAMOST MRS DR11 RVbr0 16.5-27.8 (several epochs). Not reported per rule 5."
+  },
+  {
+   "key": "Gaia DR3 5531191997722748160|5531191997722748160",
+   "name": "Gaia DR3 5531191997722748160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Gaia DR3 5531191997722748160 and 5531191997711575936 are 0.87\" apart. RAVE DR6 (III/283) 7.34 +/-1.67 (ObsID 20090101_0800m43_005) and Tsantaki 2022 7.32 +/-1.34 come from a 6.7\" fibre covering both; not reported per rule 5. MSC (J/ApJS/235/6) assigns 7.4 to the brighter star."
+  },
+  {
+   "key": "GJ 10765 A|3014628989487556480",
+   "name": "GJ 10765 A",
+   "done": true,
+   "rv": {
+    "value": 28.4,
+    "err": 0.5,
+    "src": "S1",
+    "where": "VizieR J/ApJ/758/56/mdwarfs, 'NLTT 15049 A (SW)', cols RV/e_RV",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Shkolnik et al. 2012, ApJ 758, 56",
+     "url": "https://doi.org/10.1088/0004-637X/758/1/56",
+     "what": "Young M dwarfs within 25 pc, RVs; VizieR J/ApJ/758/56"
+    },
+    "S2": {
+     "citation": "Malo et al. 2014, ApJ 788, 81",
+     "url": "https://doi.org/10.1088/0004-637X/788/1/81",
+     "what": "RVs of young M dwarfs; VizieR J/ApJ/788/81/table2"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "Malo 2014 J/ApJ/788/81",
+    "Zuniga-Fernandez 2021 J/A+A/645/A30/rvindi"
+   ],
+   "notes": "LP 717-36 = NLTT 15049 (AB Dor MG). Gaia DR3: B (3014628959425010688) lies 0.72\" to the NE of this source, so this source is the SW component that Shkolnik et al. 2012 call A. Alternatives: Malo et al. 2014 25.7 +/-0.3 and 26.3 +/-0.3 for the unresolved 2MASS J05254166-0909123; B has Gaia DR3 RV 28.91."
+  },
+  {
+   "key": "Gaia DR3 6738230880523533696|6738230880523533696",
+   "name": "Gaia DR3 6738230880523533696",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "L 492-103 B is 1.86\" away with Gaia DR3 RV -23.46 (not this star). Nothing for A."
+  },
+  {
+   "key": "GJ 10285|2571309955621962240",
+   "name": "GJ 10285",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "LAMOST DR11 LRS gives only a pipeline redshift z for this source (no RV column); not converted, per rule 3. Companion 0.91\" away (G=12.40)."
+  },
+  {
+   "key": "GJ 10825 B|2966696643363780736",
+   "name": "GJ 10825 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Only Gaia DR2 43.25 +/-14.2 for this source id (SIMBAD quality E); the companion 0.81\" away has Gaia DR3 RV 46.69, so the DR2 value is likely blended. Not reported."
+  },
+  {
+   "key": "GJ 171.1 B|3313069881590622848",
+   "name": "GJ 171.1 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Aldebaran B (28\" from alf Tau). Montes 2018 lists it but gives RV only for Aldebaran. Nothing for B."
+  },
+  {
+   "key": "GJ 319 B|598180818531355776",
+   "name": "GJ 319 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.5\" companion of GJ 319 A. MSC (J/ApJS/235/6) lists RV 13.8 for B, but that matches Gaia DR2 13.81 +/-2.78 of DR2 source 598180818531935232, which lies 1.50\" from this B, i.e. the A star. Not reported."
+  },
+  {
+   "key": "GJ 10963 A|2926756741750933120",
+   "name": "GJ 10963 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "LP 780-32 A and B are 0.55\" apart; CARMENES treats J06396-210 as one star. Reiners 2018 (J/A+A/612/A49) RV -28.122; Lafarga 2020 (J/A+A/636/A36) RVabs -8.039 +/-0.117 -- unresolved and mutually inconsistent (possible SB). Not reported per rule 5."
+  },
+  {
+   "key": "Gaia DR3 5641353923129557504|5641353923129557504",
+   "name": "Gaia DR3 5641353923129557504",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found. Faint companion 1.75\" (G=15.51)."
+  },
+  {
+   "key": "GJ 11|530438704553073280",
+   "name": "GJ 11",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "GJ 11 B (Gaia DR3 530438704558852352, G=12.05, equal brightness) is 1.1\" away. APOGEE DR17 (assigned to A's id) 12.373 +/-0.072, 12 visits, s_HRV 0.16; PMSU 'Gl 11A' 10.2 +/-10. Both blend A+B; not reported per rule 5."
+  },
+  {
+   "key": "Gaia DR3 2890783233848206208|2890783233848206208",
+   "name": "Gaia DR3 2890783233848206208",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 5.1\" away (Gaia DR3 2890783233848205952) has Gaia DR3 RV 20.32; nothing for this star."
+  },
+  {
+   "key": "GJ 12781|4087368200624899840",
+   "name": "GJ 12781",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 0.48\" away (G=12.61). GALAH DR4 RVcomp1 -52.48 +/-0.16 (flag_sp 24) for this id blends both; not reported per rule 5."
+  },
+  {
+   "key": "Gaia DR3 3585636855607582336|3585636855607582336",
+   "name": "Gaia DR3 3585636855607582336",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.15\" companion of HD 102392 (Gaia DR3 RV 18.64 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 3417 A|1099288633074163328",
+   "name": "GJ 3417 A",
+   "done": true,
+   "rv": {
+    "value": 17.6,
+    "err": 0.6,
+    "src": "S1",
+    "where": "VizieR J/ApJ/758/56/mdwarfs, 'GJ 3417 A (NE)', cols RV/e_RV",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Shkolnik et al. 2012, ApJ 758, 56",
+     "url": "https://doi.org/10.1088/0004-637X/758/1/56",
+     "what": "Young M dwarfs within 25 pc, RVs; VizieR J/ApJ/758/56"
+    },
+    "S2": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356 (PMSU III)",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "PMSU M-dwarf radial velocities; VizieR J/AJ/123/3356/table2"
+    },
+    "S3": {
+     "citation": "Newton et al. 2014, AJ 147, 20",
+     "url": "https://doi.org/10.1088/0004-6256/147/1/20",
+     "what": "IRTF/SpeX NIR spectra of MEarth M dwarfs, RVs +/-4-6 km/s; VizieR J/AJ/147/20/table6"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "Gizis 2002 RHG95 1102",
+    "Newton 2014 LSPM J0657+6219 E/W",
+    "PMSU III/198"
+   ],
+   "notes": "Gaia DR3: GJ 3417 B (1099288637370627072, G=13.64) lies 1.28\" WSW, so this source is the NE star, matching Shkolnik's 'GJ 3417 A (NE)'. (SIMBAD tags this source LSPM J0657+6219W, which conflicts; Shkolnik and Gaia geometry agree.) Alternatives: Gizis 2002 'LHS1885' 15.5 +/-0.5 (3 epochs, likely unresolved); Newton 2014 E 11 +/-6, W 10 +/-5; PMSU 26.3 +/-10."
+  },
+  {
+   "key": "GJ 13085|6582502959872402944",
+   "name": "GJ 13085",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "No RV found."
+  },
+  {
+   "key": "GJ 12409 B|6026152137815012096",
+   "name": "GJ 12409 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "eps Sco B (15\" from eps Sco). Nothing found."
+  },
+  {
+   "key": "GJ 11279 B|596878550087942400",
+   "name": "GJ 11279 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.2\" companion of HD 75767. Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 1420101696286312448|1420101696286312448",
+   "name": "Gaia DR3 1420101696286312448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "mu Dra C (12\" from mu Dra AB). Nothing found."
+  },
+  {
+   "key": "GJ 10718 C|4764556724969863296",
+   "name": "GJ 10718 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "4.6\" companion of HD 32778. Nothing for B."
+  },
+  {
+   "key": "GJ 10935 B|3327170877694724096",
+   "name": "GJ 10935 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Ross 603 B, 1.17\" from A; only the blended APOGEE value (42.244 +/-0.045, assigned to A's id) exists. Not reported."
+  },
+  {
+   "key": "GJ 754.1 A|4201781696994073472",
+   "name": "GJ 754.1 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "LAWD 74 (DBQA5). White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). No measurement found."
+  },
+  {
+   "key": "Gaia DR3 6912161143154808192|6912161143154808192",
+   "name": "Gaia DR3 6912161143154808192",
+   "done": true,
+   "rv": {
+    "value": 27.6,
+    "err": 10.0,
+    "src": "S1",
+    "where": "VizieR III/198/main, CNS3 3306 'Wo 9721B' (Bin=s), col RV (+/-10 km/s accuracy stated in ReadMe)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "MSC J/ApJS/235/6: component B of 21088-0426, no RV"
+   ],
+   "notes": "This source is VVO 18B, the ~21\" companion of GJ 9721 = BD-05 5480 (VVO 18A); PMSU entry matched at 1.2\". Caution: SIMBAD gives the primary 2.9 km/s (2010A&A...514A..97L), 25 km/s from this PMSU value (2.5 sigma at +/-10)."
+  },
+  {
+   "key": "GJ 10962 B|2926756814770728064",
+   "name": "GJ 10962 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "LP 780-32 A and B are 0.55\" apart; CARMENES treats J06396-210 as one star. Reiners 2018 (J/A+A/612/A49) RV -28.122; Lafarga 2020 (J/A+A/636/A36) RVabs -8.039 +/-0.117 -- unresolved and mutually inconsistent (possible SB). Not reported per rule 5."
+  },
+  {
+   "key": "GJ 12195 A|6322245323464909440",
+   "name": "GJ 12195 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "G 152-1 A and B are 0.6\" apart (plus a 0.3\" 2-parameter detection). No RV found for either."
+  },
+  {
+   "key": "Gaia DR3 5531191997711575936|5531191997711575936",
+   "name": "Gaia DR3 5531191997711575936",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Gaia DR3 5531191997722748160 and 5531191997711575936 are 0.87\" apart. RAVE DR6 (III/283) 7.34 +/-1.67 (ObsID 20090101_0800m43_005) and Tsantaki 2022 7.32 +/-1.34 come from a 6.7\" fibre covering both; not reported per rule 5. MSC (J/ApJS/235/6) assigns 7.4 to the brighter star."
+  },
+  {
+   "key": "Gaia DR3 3659878388975310208|3659878388975310208",
+   "name": "Gaia DR3 3659878388975310208",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "MSC J/ApJS/235/6",
+    "web search 'G 64-52 / LHS 2875 / GJ 3828 radial velocity'"
+   ],
+   "notes": "G 64-52 = GJ 3828 A = LHS 2875 (triple WDS 14122-0035 in MSC, no RV there). SIMBAD's -44.0 (1974PASP...86..742R, quality D) is the only RV found; no better measurement located."
+  },
+  {
+   "key": "GJ 12194 B|6322245224682035456",
+   "name": "GJ 12194 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "G 152-1 A and B are 0.6\" apart (plus a 0.3\" 2-parameter detection). No RV found for either."
+  },
+  {
+   "key": "GJ 1206|1431783457574556672",
+   "name": "GJ 1206",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). Maxted et al. 2000 (MNRAS 319, 305) 41.6 is the uncorrected line velocity (SIMBAD D). Only uncorrected line velocity."
+  },
+  {
+   "key": "GJ 13448|2847644410525542016",
+   "name": "GJ 13448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.4\" companion of HD 224129 (Gaia DR3 RV -11.66 for A). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 3460498276154993664|3460498276154993664",
+   "name": "Gaia DR3 3460498276154993664",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.6\" companion of HIP 58688 (MSC RV -2.9 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 10753 B|2981583790285440000",
+   "name": "GJ 10753 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.2\" companion of HD 34721 (Gaia DR3 RV 40.43). Nothing for B."
+  },
+  {
+   "key": "GJ 169.1 B|470826482637310848",
+   "name": "GJ 169.1 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Stein 2051 B (DC5). White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). Silvestri et al. 2002 (AJ 124, 1118) 2.0 +/-9.8 (SIMBAD D) is not a corrected kinematic RV. Only uncorrected line velocity."
+  },
+  {
+   "key": "Gaia DR3 726205714791433984|726205714791433984",
+   "name": "Gaia DR3 726205714791433984",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Only Terrien et al. 2015 values, both SIMBAD quality D and mutually inconsistent: ApJS 220, 16: -46.49 +/-9.31; ApJ 802, L10: -8.80 +/-9.31. Not reported."
+  },
+  {
+   "key": "GJ 3800|3605249600427076352",
+   "name": "GJ 3800",
+   "done": true,
+   "rv": {
+    "value": -50.1,
+    "err": 10.0,
+    "src": "S1",
+    "where": "VizieR III/198/main, CNS3 2166 'LHS 2783', col RV (+/-10 km/s accuracy stated in ReadMe)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838; Hawley, Gizis & Reid 1996, AJ 112, 2799 (PMSU I/II)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU spectroscopic survey, RVs accurate to +/-10 km/s per ReadMe; VizieR III/198/main"
+    }
+   },
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "GJ 3800 = LHS 2783 is a close visual double (WSI 114; Gaidos 2014 lists E and W); the row has no component letter, so the unresolved value fits it. Low-precision PMSU value; no better RV found."
+  },
+  {
+   "key": "GJ 10876 B|5264749303457104384",
+   "name": "GJ 10876 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.3\" companion of alf Men. Nothing for B."
+  },
+  {
+   "key": "GJ 4368 B|2759428634126128384",
+   "name": "GJ 4368 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "G 29-73B, 1.17\" east of G 29-73 A (Gaia DR3 RV -7.33 for A). Newton 2014 resolves LSPM J2350+0956 into E (M3V, -5 +/-5) and W (M4V, 0 +/-4); geometry says B is E, spectral types suggest the opposite, so the match is ambiguous. Gizis 2002 'LHS4022' -7.4 +/-1.0 (7 epochs) and PMSU -4.4 are for LHS 4022 = G 29-73 (A or blend). Not reported."
+  },
+  {
+   "key": "Gaia DR3 6316829270920764800|6316829270920764800",
+   "name": "Gaia DR3 6316829270920764800",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "7.4\" companion of 37 Lib (Soubiran 48.89). Nothing for B."
+  },
+  {
+   "key": "GJ 1261|2176116580055936512",
+   "name": "GJ 1261",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "EGGR 378 (DA3.4). White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). No measurement found."
+  },
+  {
+   "key": "GJ 13343 B|6492406743706909568",
+   "name": "GJ 13343 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "4.7\" companion of gam Tuc. Nothing for B."
+  },
+  {
+   "key": "GJ 13367 B|1941668716392322432",
+   "name": "GJ 13367 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "A component 0.70\" away has Gaia DR3 RV -8.27 (not this star). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 969752767319650560|969752767319650560",
+   "name": "Gaia DR3 969752767319650560",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.9\" companion of HD 40650 (RV ~ -76.9). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 5044744654602054528|5044744654602054528",
+   "name": "Gaia DR3 5044744654602054528",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 0.41\" away (G=12.31). No RV found."
+  },
+  {
+   "key": "Gaia DR3 4801001549701424768|4801001549701424768",
+   "name": "Gaia DR3 4801001549701424768",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "1.3\" companion of CD-46 2096 (Gaia DR3 RV 72.53 for A). Nothing for B."
+  },
+  {
+   "key": "HD 27442 B|4678664766393827328",
+   "name": "HD 27442 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "eps Ret B (DA3). White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). No corrected kinematic RV of B found; the primary's RV is 28.96 (Gaia DR3) but that is not B's measurement."
+  },
+  {
+   "key": "GD 140|4019458647338779648",
+   "name": "GD 140",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). Only uncorrected line velocities: Zhang et al. 2013 (AJ 146, 34, LAMOST) 93.1 and 115.4; 2008AJ....135..564B 17 +/-42 (E). LAMOST DR11 gives z only. Only uncorrected line velocity."
+  },
+  {
+   "key": "GJ 3121|356922880493142016",
+   "name": "GJ 3121",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "White dwarf: rule 4 applies (only a gravitational-redshift-corrected kinematic RV may be reported). Only uncorrected line velocity: 2001A&A...379..634G 64.0 (SIMBAD D)."
+  },
+  {
+   "key": "GJ 1183 B|3652910405833716864",
+   "name": "GJ 1183 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours",
+    "PMSU III/198",
+    "Terrien 2015",
+    "web search 'GJ 1183 B radial velocity': nothing"
+   ],
+   "notes": "GJ 1183 B = G 124-44. Two conflicting low-quality values: PMSU (III/198, 'GJ 1183B') 41.3 +/-10 and Terrien 2015 (J/ApJS/220/16) -5.99 +/-5.61 (SIMBAD D). GJ 1183 A (13\" away) has Gaia DR3 RV -11.72, so the PMSU value looks wrong. Not reported."
+  },
+  {
+   "key": "GJ 835 B|1800808220172866048",
+   "name": "GJ 835 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.3\" companion of GJ 835 (Gaia DR3 RV -14.76 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 12430 B|4561968267282882688",
+   "name": "GJ 12430 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "GJ 12429 A and GJ 12430 B (JNN 111 A/B) are 0.65\" apart. All RVs are for the unresolved pair: APOGEE DR17 (assigned to A's Gaia id) 7.515 +/-0.092, 1 visit; Malo et al. 2014 (2MASS J16590962+2058160, PHOENIX) 8.6 +/-0.3; Fouque 2018 8.1 +/-17.8. Not reported per rule 5."
+  },
+  {
+   "key": "GJ 11447 B|3836586468952863488",
+   "name": "GJ 11447 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.5\" companion of BD+03 2316 (Soubiran -14.97 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 4206 B|6403170379999185408",
+   "name": "GJ 4206 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.2\" companion of BPM 14175 (Soubiran 24.13 for A). Nothing for B."
+  },
+  {
+   "key": "GJ 10257 C|2461045814278696448",
+   "name": "GJ 10257 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "EZ Cet B, 6\" from HD 11131 (RV -3.3). Nothing for B."
+  },
+  {
+   "key": "GJ 9681 B|1807953087254264064",
+   "name": "GJ 9681 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.2\" companion of HD 190067 (Gaia DR3 RV 20.37). Nothing for B."
+  },
+  {
+   "key": "GJ 10473|5107009925066813568",
+   "name": "GJ 10473",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "Companion 0.49\" away (G=12.95). No RV found."
+  },
+  {
+   "key": "Gaia DR3 6161806515181380096|6161806515181380096",
+   "name": "Gaia DR3 6161806515181380096",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "3.3\" companion of HD 117939 (Gaia DR3 RV 82.23). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 870758684589320448|870758684589320448",
+   "name": "Gaia DR3 870758684589320448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "APOGEE DR17 III/286/catalog (TAPVizieR, by Gaia EDR3 id)",
+    "LAMOST DR11 V/162 LRS dr11l/dr11sl and MRS dr11m/dr11sm (by Gaia DR3 id)",
+    "GALAH DR4 J/other/PASA/42.51 (by Gaia DR3 id) and GALAH DR3 J/MNRAS/506/150 (by Gaia EDR3 id)",
+    "RAVE DR6 III/283 (via xgaiae3, by Gaia EDR3 id)",
+    "Gaia DR2 radial_velocity (via gaiadr3.dr2_neighbourhood)",
+    "Tsantaki 2022 J/A+A/659/A95 (CDS XMatch, epoch 2015.5, 2\")",
+    "CDS XMatch at J2000 (pm-propagated, 5-10\"): Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Newton 2014 J/AJ/147/20, Terrien 2015 J/ApJS/220/16, Shkolnik 2012 J/ApJ/758/56, Sperauskas 2016 J/A+A/596/A116 and 2019 J/A+A/626/A31, Gizis 2002 J/AJ/123/3356, PMSU III/198, Malo 2014 J/ApJ/788/81, Hsu 2021 J/ApJS/257/45, Birky 2020 J/ApJ/892/31, Torres 2006 J/A+A/460/695, Zuniga-Fernandez 2021 J/A+A/645/A30, Montes 2018 J/MNRAS/479/1332, Soubiran 2018 J/A+A/616/A7, Gontcharov 2006 III/252, Barbier-Brossat III/213, Nidever 2002 J/ApJS/141/503, Pauli 2006 J/A+A/447/173, Napiwotzki 2020 J/A+A/638/A131",
+    "Also searched: Tokovinin MSC J/ApJS/235/6 (XMatch), Carney-Latham J/AJ/124/1144 (XMatch), Fouts & Sandage 1986 III/144, Gaidos 2014 J/MNRAS/443/2561 (no RVs), Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number), SIMBAD mesVelocities (all batch ids)",
+    "Gaia DR3 cone 15\" (G<16) for neighbours"
+   ],
+   "notes": "2.4\" companion of HD 55458 (Gaia DR3 RV -54.43). Nothing for B."
+  }
+ ]
+}

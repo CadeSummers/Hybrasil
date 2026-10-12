@@ -1,0 +1,67 @@
+{
+ "before": {
+  "Planetless 4+ Stars": {
+   "range": {
+    "sheetId": 1537182306,
+    "startRowIndex": 0,
+    "endRowIndex": 504,
+    "startColumnIndex": 0,
+    "endColumnIndex": 64
+   },
+   "sortSpecs": [
+    {
+     "dimensionIndex": 15,
+     "sortOrder": "DESCENDING"
+    },
+    {
+     "dimensionIndex": 4,
+     "sortOrder": "ASCENDING"
+    }
+   ]
+  },
+  "Planets within 100 ly": {
+   "range": {
+    "sheetId": 360955471,
+    "startRowIndex": 0,
+    "endRowIndex": 541,
+    "startColumnIndex": 0,
+    "endColumnIndex": 42
+   }
+  }
+ },
+ "after": {
+  "Planetless 4+ Stars": {
+   "range": {
+    "sheetId": 1537182306,
+    "startRowIndex": 0,
+    "endRowIndex": 504,
+    "startColumnIndex": 0,
+    "endColumnIndex": 72
+   },
+   "sortSpecs": [
+    {
+     "dimensionIndex": 15,
+     "sortOrder": "DESCENDING"
+    },
+    {
+     "dimensionIndex": 4,
+     "sortOrder": "ASCENDING"
+    }
+   ]
+  },
+  "Planets within 100 ly": {
+   "range": {
+    "sheetId": 360955471,
+    "startRowIndex": 0,
+    "endRowIndex": 541,
+    "startColumnIndex": 0,
+    "endColumnIndex": 43
+   }
+  }
+ },
+ "sp_rows": [
+  5671,
+  5673
+ ],
+ "title": "hy-brasil-20261009-1334"
+}

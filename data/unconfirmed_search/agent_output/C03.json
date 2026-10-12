@@ -1,0 +1,3731 @@
+{
+ "agent_id": "C03",
+ "phase": 3,
+ "coverage": [
+  {
+   "system_host": "(catalogue sweep) Open Exoplanet Catalogue",
+   "aliases_searched": [],
+   "sources_checked": [
+    "OEC git clone, commit 77ab86906b5b9cade8ebff60bef6aff3dfee3206 (2026-09-23), systems/ and systems_kepler/"
+   ],
+   "result": "100 Controversial + 12 Retracted planets catalogue-wide; ~45 non-confirmed planets on systems with <distance> < 30.66 pc",
+   "notes": "Scan: every <planet> whose <list> is not 'Confirmed planets'/'Solar System', system <distance> < 30.66 pc or missing. New-system hosts found: Wolf 359 (b, c Controversial), Fomalhaut (b Controversial), HD 38858 (b Retracted). KOI-2324 and KOI-3158 (Kepler-444) carry stale OEC distances; checked separately."
+  },
+  {
+   "system_host": "(catalogue sweep) exoplanet.eu",
+   "aliases_searched": [],
+   "sources_checked": [
+    "exoplanet.eu /catalog/json/ endpoint, query_f 'star_distance < 30.66', status_2 (Candidate) = 146 planets, status_4 (Other: Controversial/Retracted/Unconfirmed) = 35 planets, status_1 (Confirmed) = 953; each non-confirmed planet page fetched 2026-09-23"
+   ],
+   "result": "181 non-confirmed objects with a catalogue distance < 30.66 pc",
+   "notes": "VO-Paris TAP (voparis-tap-planeto.obspm.fr) timed out (curl rc=28) on 2026-09-23. Objects with no star_distance are missed by the distance filter; name queries run for the brief's leads (Vega, Altair, Procyon, GJ 1, GJ 105, Kruger 60, Groombridge 1618, eps Ind, Lalande, Struve, Teegarden, etc.): Vega, Altair, Procyon, GJ 1, GJ 105, Kruger 60, Groombridge 1618 have no exoplanet.eu entry in any status."
+  },
+  {
+   "system_host": "Wolf 359",
+   "aliases_searched": [
+    "Wolf 359",
+    "GJ 406",
+    "CN Leo"
+   ],
+   "sources_checked": [
+    "OEC",
+    "exoplanet.eu",
+    "NASA pscomppars",
+    "arXiv search 'Wolf 359 planet', 'GJ 406'",
+    "Tuomi 2019 source tables",
+    "Bowens-Rubin 2023 source"
+   ],
+   "result": "1 candidate (b); c refuted",
+   "notes": "New system. b ambiguous; c is rotation (Lafarga 2021)."
+  },
+  {
+   "system_host": "AD Leo",
+   "aliases_searched": [
+    "AD Leo",
+    "GJ 388",
+    "Gl 388"
+   ],
+   "sources_checked": [
+    "exoplanet.eu",
+    "OEC",
+    "arXiv search",
+    "Tuomi 2019 table"
+   ],
+   "result": "0 (b refuted)",
+   "notes": "Not added; no new system."
+  },
+  {
+   "system_host": "GJ 1074",
+   "aliases_searched": [
+    "GJ 1074",
+    "G 191-15",
+    "HIP 23140",
+    "LHS 1721"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "HADES XV source (arXiv:2203.04648)",
+    "arXiv search 'GJ 1074 planet' (nothing new)"
+   ],
+   "result": "1 candidate",
+   "notes": "HADES XV only."
+  },
+  {
+   "system_host": "GJ 21",
+   "aliases_searched": [
+    "GJ 21",
+    "HIP 2120"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "HADES XV source",
+    "arXiv search 'GJ 21 HADES planet'"
+   ],
+   "result": "1 candidate",
+   "notes": "HADES XV only."
+  },
+  {
+   "system_host": "GJ 548 A",
+   "aliases_searched": [
+    "GJ 548 A",
+    "BD+24 2733",
+    "HIP 70529"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "HADES XV source"
+   ],
+   "result": "1 candidate",
+   "notes": "HADES XV only."
+  },
+  {
+   "system_host": "GJ 3822",
+   "aliases_searched": [
+    "GJ 3822",
+    "HIP 68570"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "HADES XV source",
+    "Tuomi 2019 source",
+    "arXiv search 'GJ 3822 planet' (no Affer et al. paper found)"
+   ],
+   "result": "3 candidates",
+   "notes": "HADES 25.15 d (eu 'b'); Tuomi 661 d and 18.26 d."
+  },
+  {
+   "system_host": "GJ 300",
+   "aliases_searched": [
+    "GJ 300",
+    "LHS 1989",
+    "L 674-15"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Tuomi 2019 source",
+    "Mignon 2024 source"
+   ],
+   "result": "1 candidate",
+   "notes": "Tuomi 2019 + Mignon 2024."
+  },
+  {
+   "system_host": "GJ 654",
+   "aliases_searched": [
+    "GJ 654",
+    "HD 154363 B",
+    "Wolf 636",
+    "HIP 83599"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Mignon 2024 source"
+   ],
+   "result": "1 candidate",
+   "notes": "Mignon 2024 only."
+  },
+  {
+   "system_host": "GJ 739",
+   "aliases_searched": [
+    "GJ 739",
+    "HIP 93206",
+    "LHS 3423"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Feng 2020 source",
+    "Mignon 2024 source",
+    "Tuomi 2019 source"
+   ],
+   "result": "3 candidates",
+   "notes": "Feng 2020 b,c; Mignon 2024 d; Tuomi 2019 269.6 d = Feng c."
+  },
+  {
+   "system_host": "GJ 620",
+   "aliases_searched": [
+    "GJ 620",
+    "HIP 80268",
+    "Ross 854"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Feng 2020 source"
+   ],
+   "result": "2 candidates",
+   "notes": "Feng 2020 only."
+  },
+  {
+   "system_host": "GJ 911",
+   "aliases_searched": [
+    "GJ 911",
+    "HIP 117886"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Feng 2020 source"
+   ],
+   "result": "1 candidate",
+   "notes": "Feng 2020 only."
+  },
+  {
+   "system_host": "GJ 729",
+   "aliases_searched": [
+    "GJ 729",
+    "Ross 154",
+    "V1216 Sgr"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "RedDots GJ 729 source (arXiv:2607.08050)"
+   ],
+   "result": "1 candidate",
+   "notes": "RedDots 2026."
+  },
+  {
+   "system_host": "18 Sco",
+   "aliases_searched": [
+    "18 Sco",
+    "HD 146233",
+    "HIP 79672",
+    "GJ 616"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Laliotis 2023 source"
+   ],
+   "result": "1 candidate",
+   "notes": "Laliotis 2023 signal III."
+  },
+  {
+   "system_host": "HD 161098",
+   "aliases_searched": [
+    "HD 161098"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Nari 2026 source"
+   ],
+   "result": "2 candidates",
+   "notes": "Nari 2026."
+  },
+  {
+   "system_host": "HD 23439 A",
+   "aliases_searched": [
+    "HD 23439",
+    "HIP 17666"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Hirsch 2021 source"
+   ],
+   "result": "1 candidate",
+   "notes": "Hirsch 2021 PC. Other Hirsch 2021 PCs (HD 3765, HD 86728, HD 141004, HD 145675=14 Her, HD 156668, HD 164922 x2, HD 168009, HD 190360) are on hosts already on the Systems tab: phase-2 scope."
+  },
+  {
+   "system_host": "HD 38858",
+   "aliases_searched": [
+    "HD 38858",
+    "GJ 1085",
+    "HIP 27435"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Kennedy 2015 source",
+    "Laliotis 2023 source",
+    "Flores 2018 abstract"
+   ],
+   "result": "1 candidate (unlikely); b refuted",
+   "notes": ""
+  },
+  {
+   "system_host": "HD 109647",
+   "aliases_searched": [
+    "HD 109647",
+    "DO CVn",
+    "HIP 61481"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Grandjean 2021 source"
+   ],
+   "result": "1 candidate (trend)",
+   "notes": ""
+  },
+  {
+   "system_host": "tet Cyg",
+   "aliases_searched": [
+    "theta Cyg",
+    "HD 185395"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Desort 2009 abstract"
+   ],
+   "result": "1 candidate (unlikely)",
+   "notes": ""
+  },
+  {
+   "system_host": "HD 85512",
+   "aliases_searched": [
+    "HD 85512",
+    "GJ 370"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Laliotis 2023"
+   ],
+   "result": "0 (b refuted)",
+   "notes": ""
+  },
+  {
+   "system_host": "HD 26965",
+   "aliases_searched": [
+    "HD 26965",
+    "omi2 Eri",
+    "40 Eri A"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Laliotis 2023"
+   ],
+   "result": "0 (b refuted)",
+   "notes": ""
+  },
+  {
+   "system_host": "bet Vir",
+   "aliases_searched": [
+    "bet Vir",
+    "HD 102870"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Endl 2016 abstract"
+   ],
+   "result": "0",
+   "notes": ""
+  },
+  {
+   "system_host": "alf Men",
+   "aliases_searched": [
+    "alf Men",
+    "HD 43834"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "Laliotis 2023 source",
+    "WebSearch"
+   ],
+   "result": "0 (untraceable)",
+   "notes": ""
+  },
+  {
+   "system_host": "bet Cet",
+   "aliases_searched": [
+    "bet Cet",
+    "HIP 3419"
+   ],
+   "sources_checked": [
+    "exoplanet.eu planet page",
+    "OEC clone",
+    "NASA pscomppars",
+    "SIMBAD ident",
+    "Gaia DR3",
+    "arXiv search",
+    "WebSearch"
+   ],
+   "result": "0 (untraceable)",
+   "notes": ""
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "Wolf 359 b",
+   "system_host": "Wolf 359",
+   "new_system": true,
+   "planet_host_star": "Wolf 359",
+   "aliases": [
+    "GJ 406 b",
+    "CN Leo b"
+   ],
+   "designation": "b (Tuomi et al. 2019, Table of planet candidates, row GJ406 b)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-survey long-period RV signal (K = 9.6 +/- 5.0 m/s, 99% interval) from HARPS+HIRES, never independently recovered. Bowens-Rubin et al. 2023 added HIRES, MAROON-X and CARMENES velocities, found nothing above 0.1% FAP after removing the 2.7 d rotation signal, and their RadVel fits of b did not converge. They explicitly neither refute nor confirm it; imaging rules out >4 M_Jup (age < 1 Gyr).",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 2938,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ406 b",
+    "err": "+436/-436 (99% credible)"
+   },
+   "a_au": {
+    "value": 1.845,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ406 b",
+    "err": "+0.289/-0.258"
+   },
+   "ecc": {
+    "value": 0.04,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ406 b",
+    "err": "+0.27/-0.04"
+   },
+   "mass_earth": {
+    "value": 43.9,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ406 b",
+    "err": "+29.5/-23.9",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.11,
+     "src": "S2",
+     "where": "Table 'Properties of Wolf 359' (Pineda et al. 2021)",
+     "err": "+/-0.003"
+    },
+    "teff_k": {
+     "value": 2749,
+     "src": "S2",
+     "where": "Table 'Properties of Wolf 359' (Pineda et al. 2021)",
+     "err": "+44/-41"
+    },
+    "radius_rsun": {
+     "value": 0.144,
+     "src": "S2",
+     "where": "Table 'Properties of Wolf 359' (Pineda et al. 2021; the table's unit label says M_sun, a typo)",
+     "err": "+/-0.004"
+    },
+    "luminosity_lsun": null,
+    "logg": {
+     "value": 5.5,
+     "src": "S2",
+     "where": "Table 'Properties of Wolf 359' (Fuhrmeister 2005)"
+    }
+   },
+   "orbit_flags": "RV only: P, K, e, Msini and a from Tuomi et al. 2019 (MAP, 99% intervals; a and Msini assume M* = 0.10 Msun +/-10%). No inclination, no phase in the table. Not recovered by Bowens-Rubin et al. 2023 with added MAROON-X/CARMENES/HIRES data.",
+   "reference": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood', Table of planet candidates (GJ406 b); status per Bowens-Rubin et al. 2023, AJ 166, 260",
+   "vetting_date": "2023-09-06",
+   "catalogue_distance_ly": {
+    "value": 7.856,
+    "src": "G",
+    "where": "Gaia DR3 parallax 415.1794 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Tuomi et al. 2019, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood', arXiv:1906.04644",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' rows GJ406 b and c (P, K, e, m sin i, a); stellar table (M=0.10, Teff 2525)"
+    },
+    "S2": {
+     "citation": "Bowens-Rubin et al. 2023, AJ 166, 260, 'A Wolf 359 in sheep's clothing'",
+     "url": "https://arxiv.org/abs/2309.03402",
+     "what": "stellar properties table (Pineda 2021 mass/Teff/radius), status of b and c"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 3864972938605115520",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "Wolf 359 / GJ 406 / CN Leo not on systems.csv, planets_confirmed.csv or unconfirmed_existing.csv. NASA pscomppars has no Wolf 359 planet. exoplanet.eu: Candidate; OEC: Controversial.",
+   "confidence_notes": "A Neptune-mass signal at ~8 yr from 63 velocities; newer data do not see it. Treat as weak."
+  },
+  {
+   "planet": "GJ 1074 b",
+   "system_host": "GJ 1074",
+   "new_system": true,
+   "planet_host_star": "GJ 1074",
+   "aliases": [
+    "G 191-15 b",
+    "HIP 23140 b",
+    "LHS 1721 b"
+   ],
+   "designation": "b (exoplanet.eu designation; HADES XV lists it by host only)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-instrument (HARPS-N) signal from a survey-wide occurrence-rate analysis; no dedicated follow-up paper found. P=7.14 d, well away from Prot 25+/-5 d. HADES candidate list: 'promising periodic signals, with no obvious relationship with the stellar rotation period... could be considered planetary candidates'; complete orbits deferred to later papers.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 7.14,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 1074",
+    "err": "+0.078/-0.005"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 5.1,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 1074",
+    "err": "+/-1.2",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.54,
+     "src": "S1",
+     "where": "Table 'Stellar parameters' GJ 1074 (Maldonado 2020)",
+     "err": "+/-0.05"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only: P and Msini published; no K, e, a or phase given (deferred to future paper). Host M0.5, [Fe/H] -0.13.",
+   "reference": "Pinamonti et al. 2022, A&A 664, A65, Table 'Candidate planetary signals detected in the RV modeling' (GJ 1074)",
+   "vetting_date": "2022-03-09",
+   "catalogue_distance_ly": {
+    "value": 68.669,
+    "src": "G",
+    "where": "Gaia DR3 parallax 47.4968 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 259731623173675904",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 1074 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "A 5 M_E candidate at 7.1 d from one spectrograph; plausible, unverified."
+  },
+  {
+   "planet": "GJ 21 b",
+   "system_host": "GJ 21",
+   "new_system": true,
+   "planet_host_star": "GJ 21",
+   "aliases": [
+    "HIP 2120 b",
+    "MCC 357 b"
+   ],
+   "designation": "b (exoplanet.eu designation)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-instrument HARPS-N signal; the dedicated paper (Gonzalez Hernandez et al., 'in prep.' in 2022) was not found. P=30.3 d (+0.1/-2.4, asymmetric) vs Prot 17.4+/-1.1 d. HADES candidate list: 'promising periodic signals, with no obvious relationship with the stellar rotation period... could be considered planetary candidates'; complete orbits deferred to later papers.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 30.3,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 21",
+    "err": "+0.1/-2.4"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 5.8,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 21",
+    "err": "+/-1.4",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.54,
+     "src": "S1",
+     "where": "Table 'Stellar parameters' GJ 21",
+     "err": "+/-0.05"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only: P and Msini only. Host M0.5, [Fe/H] -0.11, Prot 17.4 d.",
+   "reference": "Pinamonti et al. 2022, A&A 664, A65, Table 'Candidate planetary signals detected in the RV modeling' (GJ 21)",
+   "vetting_date": "2022-03-09",
+   "catalogue_distance_ly": {
+    "value": 52.714,
+    "src": "G",
+    "where": "Gaia DR3 parallax 61.8731 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 530158019855216896",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 21 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Promised follow-up never appeared (searched arXiv)."
+  },
+  {
+   "planet": "GJ 548 A b",
+   "system_host": "GJ 548 A",
+   "new_system": true,
+   "planet_host_star": "GJ 548 A",
+   "aliases": [
+    "GJ 548A b",
+    "BD+24 2733A b",
+    "HIP 70529 b"
+   ],
+   "designation": "b (exoplanet.eu 'GJ 548A b')",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Single-instrument HARPS-N candidate from the HADES occurrence paper; no follow-up. P=13.08 d vs Prot 36.6 d. HADES candidate list: 'promising periodic signals, with no obvious relationship with the stellar rotation period... could be considered planetary candidates'; complete orbits deferred to later papers.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 13.08,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 548A",
+    "err": "+0.067/-0.033"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 9.5,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 548A",
+    "err": "+2.2/-2.0",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.64,
+     "src": "S1",
+     "where": "Table 'Stellar parameters' GJ 548A",
+     "err": "+/-0.08"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only: P and Msini. exoplanet.eu shows Msini as 9.5 M_Jup, a unit error: HADES gives 9.5 M_Earth.",
+   "reference": "Pinamonti et al. 2022, A&A 664, A65, Table 'Candidate planetary signals detected in the RV modeling' (GJ 548A)",
+   "vetting_date": "2022-03-09",
+   "catalogue_distance_ly": {
+    "value": 53.262,
+    "src": "G",
+    "where": "Gaia DR3 parallax 61.2364 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1254695603704323712",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 548 A and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Do not copy exoplanet.eu's mass (Jupiter vs Earth unit slip)."
+  },
+  {
+   "planet": "GJ 3822 b",
+   "system_host": "GJ 3822",
+   "new_system": true,
+   "planet_host_star": "GJ 3822",
+   "aliases": [
+    "HIP 68570 b"
+   ],
+   "designation": "b (exoplanet.eu); note Tuomi 2019 uses 'b' for a different 661 d signal",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "HARPS-N candidate (HADES XV, 25.15 d, 20.9 M_E); the promised Affer et al. paper was not found. Tuomi et al. 2019 reported different periods (661 d, 18.26 d) for this star, and HADES did not report either, so the star's RV signals are not yet a consistent picture. HADES candidate list: 'promising periodic signals, with no obvious relationship with the stellar rotation period... could be considered planetary candidates'; complete orbits deferred to later papers.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 25.151,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 3822",
+    "err": "+0.081/-0.055"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 20.9,
+    "src": "S1",
+    "where": "Table 'Candidate planetary signals', GJ 3822",
+    "err": "+3.1/-3.5",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.58,
+     "src": "S1",
+     "where": "Table 'Stellar parameters' GJ 3822",
+     "err": "+/-0.06"
+    },
+    "teff_k": {
+     "value": 3620,
+     "src": "S2",
+     "where": "Table of target physical properties, GJ3822"
+    },
+    "radius_rsun": null,
+    "luminosity_lsun": {
+     "value": 0.0339,
+     "src": "S2",
+     "where": "Table of target physical properties, GJ3822"
+    },
+    "logg": null
+   },
+   "orbit_flags": "RV only: P, Msini. Letter clash: Tuomi 2019 'GJ 3822 b' is the 661 d signal. exoplanet.eu cites Ould-Elhkim et al. 2025 (Gl 480 / Gl 382) for this planet, which appears to be a mix-up with Gl 382.",
+   "reference": "Pinamonti et al. 2022, A&A 664, A65, Table 'Candidate planetary signals detected in the RV modeling' (GJ 3822)",
+   "vetting_date": "2022-03-09",
+   "catalogue_distance_ly": {
+    "value": 66.401,
+    "src": "G",
+    "where": "Gaia DR3 parallax 49.1193 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "S2": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1229977414080680192",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 3822 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Most credible of the three GJ 3822 signals, still single-instrument."
+  },
+  {
+   "planet": "GJ 3822 candidate P=661d",
+   "system_host": "GJ 3822",
+   "new_system": true,
+   "planet_host_star": "GJ 3822",
+   "aliases": [
+    "GJ 3822 b (Tuomi 2019)"
+   ],
+   "designation": "b in Tuomi et al. 2019 (renamed here to avoid the clash with exoplanet.eu's GJ 3822 b)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Tuomi et al. 2019 long-period signal (K=5.6 m/s, 99% interval 2.7-8.7), HARPS-dominated; not reported by the longer HARPS-N HADES analysis (2022).",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 661,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 b",
+    "err": "+117/-147"
+   },
+   "a_au": {
+    "value": 1.088,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 b",
+    "err": "+0.173/-0.192"
+   },
+   "ecc": {
+    "value": 0.04,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 b",
+    "err": "+0.25/-0.04"
+   },
+   "mass_earth": {
+    "value": 41.1,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 b",
+    "err": "+25.7/-23.0",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.6,
+     "src": "S1",
+     "where": "Table of target physical properties, GJ3822"
+    },
+    "teff_k": {
+     "value": 3620,
+     "src": "S1",
+     "where": "same"
+    },
+    "radius_rsun": null,
+    "luminosity_lsun": {
+     "value": 0.0339,
+     "src": "S1",
+     "where": "same"
+    },
+    "logg": null
+   },
+   "orbit_flags": "RV only (MAP, 99% intervals). Not recovered by HADES XV.",
+   "reference": "Tuomi et al. 2019, arXiv:1906.04644, Table of planet candidates (GJ3822 b)",
+   "vetting_date": "2019-06-11",
+   "catalogue_distance_ly": {
+    "value": 66.401,
+    "src": "G",
+    "where": "Gaia DR3 parallax 49.1193 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1229977414080680192",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 3822 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Weak; not seen in later data."
+  },
+  {
+   "planet": "GJ 3822 candidate P=18.26d",
+   "system_host": "GJ 3822",
+   "new_system": true,
+   "planet_host_star": "GJ 3822",
+   "aliases": [
+    "GJ 3822 c (Tuomi 2019)"
+   ],
+   "designation": "c in Tuomi et al. 2019",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Tuomi et al. 2019 signal at 18.264 d sits on the stellar rotation period HADES XV later measured (Prot = 18.3 +/- 0.1 d). Not refuted in print, but the best reading is rotation.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 18.264,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 c",
+    "err": "+/-0.079"
+   },
+   "a_au": {
+    "value": 0.1,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 c",
+    "err": "+0.009/-0.011"
+   },
+   "ecc": {
+    "value": 0.03,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 c",
+    "err": "+0.23/-0.03"
+   },
+   "mass_earth": {
+    "value": 9.9,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ3822 c",
+    "err": "+6.5/-5.8",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.6,
+     "src": "S1",
+     "where": "Table of target physical properties, GJ3822"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only. P equals HADES Prot 18.3 d (S2, Table 'Stellar parameters').",
+   "reference": "Tuomi et al. 2019, arXiv:1906.04644, Table of planet candidates (GJ3822 c)",
+   "vetting_date": "2019-06-11",
+   "catalogue_distance_ly": {
+    "value": 66.401,
+    "src": "G",
+    "where": "Gaia DR3 parallax 49.1193 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "S2": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1229977414080680192",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 3822 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Almost certainly rotation."
+  },
+  {
+   "planet": "GJ 300 b",
+   "system_host": "GJ 300",
+   "new_system": true,
+   "planet_host_star": "GJ 300",
+   "aliases": [
+    "LHS 1989 b",
+    "L 674-15 b"
+   ],
+   "designation": "b (Tuomi et al. 2019)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Found twice in overlapping HARPS data: Tuomi et al. 2019 (8.3279 d, 6.8 M_E) and Mignon et al. 2024 (8.347 d, ~7.3 M_E, FAP ~0.1%, only 30 well-sampled points). Mignon's fit needs e=0.64, which they call inconsistent with tidal circularisation; a 2:1 circular pair fits too. Rotation (~67 d) does not match. Not independent confirmation.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 8.3279,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ300 b",
+    "err": "+0.0058/-0.0089"
+   },
+   "a_au": {
+    "value": 0.05,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ300 b",
+    "err": "+0.004/-0.005"
+   },
+   "ecc": {
+    "value": 0.29,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ300 b",
+    "err": "+/-0.29"
+   },
+   "mass_earth": {
+    "value": 6.8,
+    "src": "S1",
+    "where": "Table of planet candidates, GJ300 b",
+    "err": "+3.1/-2.7",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.27,
+     "src": "S2",
+     "where": "Sect. GJ 300 (M*=0.27+/-0.09)",
+     "err": "+/-0.09"
+    },
+    "teff_k": {
+     "value": 2984,
+     "src": "S1",
+     "where": "Table of target physical properties, GJ300"
+    },
+    "radius_rsun": null,
+    "luminosity_lsun": {
+     "value": 0.0015,
+     "src": "S1",
+     "where": "Table of target physical properties, GJ300"
+    },
+    "logg": null
+   },
+   "orbit_flags": "RV only. Mignon 2024 alternative: P=8.347+/-0.005 d, K=7.1+/-0.8 m/s, e=0.64+/-0.07, ~7.3 M_E (text, Sect. GJ 300). Tuomi M*=0.24 vs Mignon 0.27.",
+   "reference": "Tuomi et al. 2019, arXiv:1906.04644, Table of planet candidates (GJ300 b); recovered by Mignon et al. 2024, A&A 689, A32, Sect. GJ 300",
+   "vetting_date": "2024-09",
+   "catalogue_distance_ly": {
+    "value": 26.473,
+    "src": "G",
+    "where": "Gaia DR3 parallax 123.2033 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "S2": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 5700706729031126656",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 300 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Two analyses of largely the same HARPS spectra agree on the period."
+  },
+  {
+   "planet": "GJ 654 b",
+   "system_host": "GJ 654",
+   "new_system": true,
+   "planet_host_star": "GJ 654",
+   "aliases": [
+    "HD 154363 B b",
+    "HIP 83599 b",
+    "Wolf 636 b",
+    "LHS 432 b"
+   ],
+   "designation": "b (exoplanet.eu); paper gives no letter",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "HARPS-only; found after restricting to four well-sampled seasons, subtracting a drift and a 50.5 d rotation signal. Authors call it a 'strong planetary candidate' but defer characterisation; one instrument, one team.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 15.35,
+    "src": "S1",
+    "where": "Sect. GJ 654 and Fig. 'gj654' caption"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 5.11,
+    "src": "S1",
+    "where": "Sect. GJ 654 (5.11+/-0.4 M_E)",
+    "err": "+/-0.4",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.48,
+     "src": "S1",
+     "where": "Sect. GJ 654 (M2V, 0.48+/-0.04)",
+     "err": "+/-0.04"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only: P and Msini; no e, K or phase for the 15.35 d fit published. exoplanet.eu's K=1.81 m/s belongs to the unconverged 260.8 d signal in the paper's table, not to this candidate.",
+   "reference": "Mignon et al. 2024, A&A 689, A32, Sect. GJ 654",
+   "vetting_date": "2024-09",
+   "catalogue_distance_ly": {
+    "value": 34.131,
+    "src": "G",
+    "where": "Gaia DR3 parallax 95.5597 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4364480521350598144",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 654 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "GJ 654 is HD 154363 B, the wide companion of GJ 653 (HD 154363 A)."
+  },
+  {
+   "planet": "GJ 739 b",
+   "system_host": "GJ 739",
+   "new_system": true,
+   "planet_host_star": "GJ 739",
+   "aliases": [
+    "HIP 93206 b",
+    "LHS 3423 b"
+   ],
+   "designation": "b (Feng et al. 2020)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Feng et al. 2020 italic (unconfirmed) candidate flagged 'NC' (not consistently significant over time); UVES+HARPS; not reported by Mignon's HARPS-only 2024 analysis.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 45.357,
+    "src": "S1",
+    "where": "Table 'Parameters for planet candidates', GJ 739 b, mean+/-sd (MAP 45.323 +0.134/-0.067)",
+    "err": "+/-0.043"
+   },
+   "a_au": {
+    "value": 0.211,
+    "src": "S1",
+    "where": "same, mean+/-sd",
+    "err": "+/-0.007"
+   },
+   "ecc": {
+    "value": 0.08,
+    "src": "S1",
+    "where": "same, mean+/-sd",
+    "err": "+/-0.06"
+   },
+   "mass_earth": {
+    "value": 9.75,
+    "src": "S1",
+    "where": "same, mean+/-sd (MAP 8.49)",
+    "err": "+/-1.86",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.45,
+     "src": "S1",
+     "where": "Table of stars, GJ 739 (HIP 93206)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=2.45+/-0.44 m/s. Note tag NC.",
+   "reference": "Feng et al. 2020, ApJS 246, 11, Table 'Parameters for planet candidates' (GJ 739 b)",
+   "vetting_date": "2020-01-07",
+   "catalogue_distance_ly": {
+    "value": 46.201,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.5952 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6662167868705713664",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 739 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Weak."
+  },
+  {
+   "planet": "GJ 739 c",
+   "system_host": "GJ 739",
+   "new_system": true,
+   "planet_host_star": "GJ 739",
+   "aliases": [
+    "GJ 739 b (Tuomi 2019)",
+    "HIP 93206 c"
+   ],
+   "designation": "c (Feng et al. 2020) = b (Tuomi et al. 2019)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Same ~267-270 d signal in Tuomi et al. 2019 (their 'GJ739 b', 269.6 d, 32.7 M_E) and Feng et al. 2020 ('c', NC tag), on overlapping HARPS data, so only partly independent. Mignon et al. 2024 (HARPS alone, 19 points) found 138-145 d instead.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 266.985,
+    "src": "S1",
+    "where": "Table 'Parameters for planet candidates', GJ 739 c, mean+/-sd (MAP 266.489)",
+    "err": "+/-0.745"
+   },
+   "a_au": {
+    "value": 0.687,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.023"
+   },
+   "ecc": {
+    "value": 0.07,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.04"
+   },
+   "mass_earth": {
+    "value": 42.63,
+    "src": "S1",
+    "where": "same, mean+/-sd (MAP 47.52)",
+    "err": "+/-6.23",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.45,
+     "src": "S1",
+     "where": "Table of stars, GJ 739 (HIP 93206)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=5.91+/-0.77 m/s. Tuomi 2019: P=269.6 (+3.9/-3.1) d, K=5.70, Msini 32.7 M_E, a 0.629 AU (M*=0.44).",
+   "reference": "Feng et al. 2020, ApJS 246, 11, Table 'Parameters for planet candidates' (GJ 739 c); also Tuomi et al. 2019 Table of planet candidates (GJ739 b)",
+   "vetting_date": "2020-01-07",
+   "catalogue_distance_ly": {
+    "value": 46.201,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.5952 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    },
+    "S2": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6662167868705713664",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 739 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Letter clash between the two papers; exoplanet.eu follows Feng."
+  },
+  {
+   "planet": "GJ 739 d",
+   "system_host": "GJ 739",
+   "new_system": true,
+   "planet_host_star": "GJ 739",
+   "aliases": [
+    "GJ 739 candidate P=145.3d"
+   ],
+   "designation": "d (exoplanet.eu); the paper gives no letter",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Mignon et al. 2024, 19 HARPS points only; FAP well below 0.1% but the authors say more than 19 measurements are needed. Not seen by Feng 2020 or Tuomi 2019, who found 45 d and ~267 d instead.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 145.3,
+    "src": "S1",
+    "where": "Sect. GJ 739 Keplerian fit (periodogram peak 137.8 d; unidentified-signal table 138.73 d)",
+    "err": "+/-0.8"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 39,
+    "src": "S1",
+    "where": "Sect. GJ 739",
+    "err": "+/-4",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.46,
+     "src": "S1",
+     "where": "Sect. GJ 739",
+     "err": "+/-0.02"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=4.06 m/s in the table (138.73 d). exoplanet.eu lists P=138.73 d; the fitted Keplerian is 145.3 d.",
+   "reference": "Mignon et al. 2024, A&A 689, A32, Sect. GJ 739 and Table 'Periodic signal... not yet identified'",
+   "vetting_date": "2024-09",
+   "catalogue_distance_ly": {
+    "value": 46.201,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.5952 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6662167868705713664",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 739 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Three papers, three different periods for this star. None robust."
+  },
+  {
+   "planet": "GJ 620 b",
+   "system_host": "GJ 620",
+   "new_system": true,
+   "planet_host_star": "GJ 620",
+   "aliases": [
+    "HIP 80268 b",
+    "Ross 854 b",
+    "LHS 3186 b"
+   ],
+   "designation": "b (Feng et al. 2020)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Feng et al. 2020 unconfirmed candidate, tag NC; only 5 UVES + 23 HARPS velocities.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 7.655,
+    "src": "S1",
+    "where": "Table 'Parameters for planet candidates', GJ 620 b, mean+/-sd (MAP 7.652)",
+    "err": "+/-0.004"
+   },
+   "a_au": {
+    "value": 0.063,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.002"
+   },
+   "ecc": {
+    "value": 0.08,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.05"
+   },
+   "mass_earth": {
+    "value": 7.26,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-1.16",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.61,
+     "src": "S1",
+     "where": "Table of stars, GJ 620 (HIP 80268)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=3.41+/-0.49 m/s. 28 RVs total.",
+   "reference": "Feng et al. 2020, ApJS 246, 11, Table 'Parameters for planet candidates' (GJ 620 b)",
+   "vetting_date": "2020-01-07",
+   "catalogue_distance_ly": {
+    "value": 53.996,
+    "src": "G",
+    "where": "Gaia DR3 parallax 60.4043 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6049221163063960320",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 620 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Thin data."
+  },
+  {
+   "planet": "GJ 620 c",
+   "system_host": "GJ 620",
+   "new_system": true,
+   "planet_host_star": "GJ 620",
+   "aliases": [
+    "HIP 80268 c"
+   ],
+   "designation": "c (Feng et al. 2020)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Feng et al. 2020 unconfirmed candidate, tags NC and L3 (log Bayes factor < 3); very sparse data.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 27.04,
+    "src": "S1",
+    "where": "Table 'Parameters for planet candidates', GJ 620 c, mean+/-sd (MAP 27.219)",
+    "err": "+/-0.429"
+   },
+   "a_au": {
+    "value": 0.147,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.005"
+   },
+   "ecc": {
+    "value": 0.09,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.06"
+   },
+   "mass_earth": {
+    "value": 6.97,
+    "src": "S1",
+    "where": "same (MAP 10.08)",
+    "err": "+/-2.34",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.61,
+     "src": "S1",
+     "where": "Table of stars, GJ 620 (HIP 80268)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=2.15+/-0.70 m/s.",
+   "reference": "Feng et al. 2020, ApJS 246, 11, Table 'Parameters for planet candidates' (GJ 620 c)",
+   "vetting_date": "2020-01-07",
+   "catalogue_distance_ly": {
+    "value": 53.996,
+    "src": "G",
+    "where": "Gaia DR3 parallax 60.4043 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6049221163063960320",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 620 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Below the paper's own significance bar (L3). Close to unlikely."
+  },
+  {
+   "planet": "GJ 911 b",
+   "system_host": "GJ 911",
+   "new_system": true,
+   "planet_host_star": "GJ 911",
+   "aliases": [
+    "HIP 117886 b",
+    "BD-22 6219 b"
+   ],
+   "designation": "b (Feng et al. 2020)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Feng et al. 2020 unconfirmed candidate, tag NC; signal significant in UVES data, absent from activity indices.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 2.7889,
+    "src": "S1",
+    "where": "Table 'Parameters for planet candidates', GJ 911 b, mean+/-sd (MAP 2.7888)",
+    "err": "+/-0.0004"
+   },
+   "a_au": {
+    "value": 0.033,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.001"
+   },
+   "ecc": {
+    "value": 0.08,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.06"
+   },
+   "mass_earth": {
+    "value": 6.9,
+    "src": "S1",
+    "where": "same (MAP 8.21)",
+    "err": "+/-1.3",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.63,
+     "src": "S1",
+     "where": "Table of stars, GJ 911 (HIP 117886)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; K=4.31+/-0.73 m/s.",
+   "reference": "Feng et al. 2020, ApJS 246, 11, Table 'Parameters for planet candidates' (GJ 911 b)",
+   "vetting_date": "2020-01-07",
+   "catalogue_distance_ly": {
+    "value": 76.57,
+    "src": "G",
+    "where": "Gaia DR3 parallax 42.5957 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 2341178362288721536",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 911 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": ""
+  },
+  {
+   "planet": "GJ 729 b",
+   "system_host": "GJ 729",
+   "new_system": true,
+   "planet_host_star": "GJ 729",
+   "aliases": [
+    "Ross 154 b",
+    "HIP 92403 b",
+    "V1216 Sgr b"
+   ],
+   "designation": "b (exoplanet.eu); the paper says 'candidate signal'",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Activity-only and activity+Keplerian models are statistically equivalent (Delta lnZ = 1, below their acceptance threshold of 5); the ~7 d period is close to 5Prot/2 = 7.12 d, and the authors say activity cannot be excluded. Recovered consistently across GP kernels and in HARPS and CARMENES separately.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 7.1,
+    "src": "S1",
+    "where": "Sect. RV search, PYANETI HARPS-only fit (combined PyORBIT best fit 6.99 d)",
+    "err": "+/-0.09"
+   },
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 2.05,
+    "src": "S1",
+    "where": "Sect. RV search, PYANETI HARPS-only fit (CARMENES-only 1.69 +1.06/-1.02; combined best fit ~1.5 M_E)",
+    "err": "+0.51/-0.52",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.184,
+     "src": "S1",
+     "where": "Table 'Stellar parameters for GJ 729' (Schweitzer 2019)",
+     "err": "+/-0.011"
+    },
+    "teff_k": {
+     "value": 3340,
+     "src": "S1",
+     "where": "same (Marfil 2021)",
+     "err": "+/-30"
+    },
+    "radius_rsun": {
+     "value": 0.197,
+     "src": "S1",
+     "where": "same (Schweitzer 2019)",
+     "err": "+/-0.006"
+    },
+    "luminosity_lsun": null,
+    "logg": {
+     "value": 5.23,
+     "src": "S1",
+     "where": "same (Marfil 2021)",
+     "err": "+/-0.11"
+    }
+   },
+   "orbit_flags": "RV only; amplitude ~1.9 m/s against much larger activity RV. ~0.04 AU quoted in text. Prot 2.848 d.",
+   "reference": "Brown et al. 2026, MNRAS, 'RedDots: Magnetic field of the nearby active M dwarf GJ 729, and a search for companions', arXiv:2607.08050, Sect. RV planet search",
+   "vetting_date": "2026-07-09",
+   "catalogue_distance_ly": {
+    "value": 9.706,
+    "src": "G",
+    "where": "Gaia DR3 parallax 336.0266 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Brown et al. 2026, MNRAS (RedDots), 'Magnetic field of the nearby active M dwarf GJ 729, and a search for companions'",
+     "url": "https://arxiv.org/abs/2607.08050",
+     "what": "Sect. RV planet search (PyORBIT GP+Keplerian, PYANETI per-instrument fits) and Table 'Stellar parameters for GJ 729'"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4075141768785646848",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "GJ 729 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Could easily be residual activity."
+  },
+  {
+   "planet": "18 Sco b",
+   "system_host": "18 Sco",
+   "new_system": true,
+   "planet_host_star": "18 Sco",
+   "aliases": [
+    "HD 146233 b",
+    "HD 146233 RV Signal III",
+    "HIP 79672 b",
+    "GJ 616 b"
+   ],
+   "designation": "b (exoplanet.eu); paper calls it 'HD 146233 RV Signal III'",
+   "tfopwg_disposition": "",
+   "tier": "strong",
+   "tier_reason": "RVSearch signal III, FAP 7.2e-9, classified 'Candidate' ('promising planet candidate signal') in the paper's summary; sharp periodogram peak stable over ~20 yr; no S-index power near 19 d; rotation >20 d (22.7-23.8 d). Near-rotation period is the main caveat; no contrary paper found.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 19.8777,
+    "src": "S1",
+    "where": "Table 'Keplerian RV Signals', HD146233 III",
+    "err": "+/-0.0062"
+   },
+   "a_au": null,
+   "ecc": {
+    "value": 0.38,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.16"
+   },
+   "mass_earth": {
+    "value": 6.77,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.86",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.022,
+     "src": "S1",
+     "where": "Sect. HD 146233 (Spina 2018)",
+     "err": "+/-0.004"
+    },
+    "teff_k": {
+     "value": 5808,
+     "src": "S1",
+     "where": "Sect. HD 146233 (Spina 2018)",
+     "err": "+/-3"
+    },
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": {
+     "value": 4.44,
+     "src": "S1",
+     "where": "Sect. HD 146233 (Spina 2018)",
+     "err": "+/-0.009"
+    }
+   },
+   "orbit_flags": "RV only: P, K=1.73+/-0.26 m/s, e, Msini. The two long-period signals (2374 d, 6256 d) are attributed to magnetic cycles by the same paper.",
+   "reference": "Laliotis et al. 2023, AJ 165, 176, Table 'Keplerian RV Signals Identified by RVSearch' (HD146233 III) and Sect. HD 146233",
+   "vetting_date": "2023-02-20",
+   "catalogue_distance_ly": {
+    "value": 46.108,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.7371 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Laliotis et al. 2023, AJ 165, 176, 'Doppler Constraints on Planetary Companions to Nearby Sun-like Stars: An Archival Radial Velocity Survey of Southern Targets for Proposed NASA Direct Imaging Missions'",
+     "url": "https://arxiv.org/abs/2302.10310",
+     "what": "Table 'Keplerian RV Signals Identified by RVSearch' and per-star sections"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4345775217221821312",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "18 Sco and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Best of the catalogue's FGK candidates here."
+  },
+  {
+   "planet": "HD 161098 b",
+   "system_host": "HD 161098",
+   "new_system": true,
+   "planet_host_star": "HD 161098",
+   "aliases": [],
+   "designation": "b (Nari et al. 2026, 'candidate b')",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Sub-m/s signal (K=0.63 m/s per exoplanet.eu) from HARPS/HARPS-N/ESPRESSO; authors: 'We are not able to confirm their nature with certainty.' Rotation 28.2 d, cycle 4090 d are separate.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 72.578,
+    "src": "S1",
+    "where": "abstract",
+    "err": "+0.059/-0.060"
+   },
+   "a_au": {
+    "value": 0.3207,
+    "src": "S2",
+    "where": "exoplanet.eu page, attributed to Nari et al. 2026"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 3.63,
+    "src": "S1",
+    "where": "abstract",
+    "err": "+/-0.59",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.837,
+     "src": "S1",
+     "where": "Sect. 'HD 161098: Stellar parameters'",
+     "err": "+/-0.029"
+    },
+    "teff_k": {
+     "value": 5610,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-50"
+    },
+    "radius_rsun": {
+     "value": 0.866,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-0.020"
+    },
+    "luminosity_lsun": {
+     "value": 0.6769,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-0.0015"
+    },
+    "logg": null
+   },
+   "orbit_flags": "RV only; circular adopted (two-Keplerian eccentric model disfavoured, Delta lnZ = -1.4). a from exoplanet.eu citing the paper.",
+   "reference": "Nari et al. 2026, A&A 709, A123, arXiv:2604.11516 (abstract; RV analysis section)",
+   "vetting_date": "2026-04-13",
+   "catalogue_distance_ly": {
+    "value": 97.033,
+    "src": "G",
+    "where": "Gaia DR3 parallax 33.6129 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Nari et al. 2026, A&A 709, A123, 'The RoPES project with HARPS and HARPS-N III. Two candidate planets orbiting the G-type star HD 161098'",
+     "url": "https://arxiv.org/abs/2604.11516",
+     "what": "abstract (P, Msini), Sect. 'Stellar parameters'"
+    },
+    "S2": {
+     "citation": "exoplanet.eu planet page 'HD 161098 b' (fetched 2026-09-23)",
+     "url": "https://exoplanet.eu/catalog/hd_161098_b--12007/",
+     "what": "catalogue values attributed to the discovery paper"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4176501313320676992",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "HD 161098 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Credible pipeline, tiny amplitude."
+  },
+  {
+   "planet": "HD 161098 c",
+   "system_host": "HD 161098",
+   "new_system": true,
+   "planet_host_star": "HD 161098",
+   "aliases": [],
+   "designation": "c (Nari et al. 2026, 'candidate c')",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Sub-m/s long-period signal (K=0.64 m/s per exoplanet.eu), within a 4090 d magnetic-cycle star; authors cannot confirm. Would be in the optimistic HZ if real.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 682.5,
+    "src": "S1",
+    "where": "abstract",
+    "err": "+9.5/-9.9"
+   },
+   "a_au": {
+    "value": 1.43,
+    "src": "S2",
+    "where": "exoplanet.eu page, attributed to Nari et al. 2026"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 7.8,
+    "src": "S1",
+    "where": "abstract",
+    "err": "+1.5/-1.4",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.837,
+     "src": "S1",
+     "where": "Sect. 'HD 161098: Stellar parameters'",
+     "err": "+/-0.029"
+    },
+    "teff_k": {
+     "value": 5610,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-50"
+    },
+    "radius_rsun": {
+     "value": 0.866,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-0.020"
+    },
+    "luminosity_lsun": {
+     "value": 0.6769,
+     "src": "S1",
+     "where": "same",
+     "err": "+/-0.0015"
+    },
+    "logg": null
+   },
+   "orbit_flags": "RV only; circular adopted (two-Keplerian eccentric model disfavoured, Delta lnZ = -1.4). a from exoplanet.eu citing the paper.",
+   "reference": "Nari et al. 2026, A&A 709, A123, arXiv:2604.11516 (abstract; RV analysis section)",
+   "vetting_date": "2026-04-13",
+   "catalogue_distance_ly": {
+    "value": 97.033,
+    "src": "G",
+    "where": "Gaia DR3 parallax 33.6129 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Nari et al. 2026, A&A 709, A123, 'The RoPES project with HARPS and HARPS-N III. Two candidate planets orbiting the G-type star HD 161098'",
+     "url": "https://arxiv.org/abs/2604.11516",
+     "what": "abstract (P, Msini), Sect. 'Stellar parameters'"
+    },
+    "S2": {
+     "citation": "exoplanet.eu planet page 'HD 161098 c' (fetched 2026-09-23)",
+     "url": "https://exoplanet.eu/catalog/hd_161098_c--12008/",
+     "what": "catalogue values attributed to the discovery paper"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4176501313320676992",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "HD 161098 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Credible pipeline, tiny amplitude."
+  },
+  {
+   "planet": "HD 23439 A b",
+   "system_host": "HD 23439 A",
+   "new_system": true,
+   "planet_host_star": "HD 23439 A",
+   "aliases": [
+    "HD 23439 Ab",
+    "HIP 17666 b"
+   ],
+   "designation": "Ab (exoplanet.eu 'HD 23439 Ab')",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Hirsch et al. 2021 classify it PC but state 'strong reservations': the 6.9\" companion HD 23439 B is an SB1 with P=48.6 d, suspiciously close to the 45.7 d signal; the authors argue 7\" separation should prevent light contamination. Single team, HIRES.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 45.68,
+    "src": "S1",
+    "where": "planet table, HD 23439",
+    "err": "+0.03/-0.02"
+   },
+   "a_au": {
+    "value": 0.2131,
+    "src": "S1",
+    "where": "planet table",
+    "err": "+/-0.00008"
+   },
+   "ecc": {
+    "value": 0.5,
+    "src": "S1",
+    "where": "planet table",
+    "err": "+/-0.1"
+   },
+   "mass_earth": {
+    "value": 0.029,
+    "src": "S1",
+    "where": "planet table (M_Jup; = ~9.2 M_E, writer converts)",
+    "err": "+/-0.004",
+    "type": "Msini [M_Jup]"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.67,
+     "src": "S1",
+     "where": "SpecMatch table, HD 23439",
+     "err": "+/-0.01"
+    },
+    "teff_k": {
+     "value": 5000,
+     "src": "S1",
+     "where": "SpecMatch table",
+     "err": "+/-100"
+    },
+    "radius_rsun": {
+     "value": 0.67,
+     "src": "S1",
+     "where": "SpecMatch table",
+     "err": "+/-0.01"
+    },
+    "luminosity_lsun": null,
+    "logg": {
+     "value": 4.7,
+     "src": "S1",
+     "where": "SpecMatch table",
+     "err": "+/-0.1"
+    }
+   },
+   "orbit_flags": "RV only; K=2.6+/-0.4 m/s. mass_earth is given in M_Jup as published; convert. Host is metal-poor ([Fe/H] -0.88).",
+   "reference": "Hirsch et al. 2021, AJ 161, 134, planet table (HD 23439, class PC) and planet notes",
+   "vetting_date": "2020-12-16",
+   "catalogue_distance_ly": {
+    "value": 77.835,
+    "src": "G",
+    "where": "Gaia DR3 parallax 41.9035 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Hirsch et al. 2021, AJ 161, 134, 'Understanding the Impacts of Stellar Companions on Planet Formation and Evolution: A Survey of Stellar and Planetary Companions within 25 pc'",
+     "url": "https://arxiv.org/abs/2012.09190",
+     "what": "table planets_0320 (P, a, K, Msini [M_Jup], e, omega, Tp, class PC), planet notes, SpecMatch table, binary table"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 231113736385994624",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "HD 23439 A and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Could be contamination from the B pair."
+  },
+  {
+   "planet": "HD 38858 c",
+   "system_host": "HD 38858",
+   "new_system": true,
+   "planet_host_star": "HD 38858",
+   "aliases": [
+    "HIP 27435 c",
+    "GJ 1085 c"
+   ],
+   "designation": "c (exoplanet.eu)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "Announced in a debris-disc paper (Kennedy et al. 2015) as a HARPS update ahead of 'Marmier et al. in prep.', which never appeared. Laliotis et al. 2023 (HARPS+HIRES+PFS+UCLES) detect only a 2893 d magnetic-cycle signal and do not report 198 d; Flores et al. 2018 attribute the star's RV variation to its 10.8 yr cycle.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 198,
+    "src": "S1",
+    "where": "Sect. 2 RV update",
+    "err": "+/-1"
+   },
+   "a_au": {
+    "value": 0.64,
+    "src": "S1",
+    "where": "Sect. 2 RV update"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 12,
+    "src": "S1",
+    "where": "Sect. 2 RV update",
+    "err": "+/-2",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; no K, e or phase published; data never released in a dedicated paper.",
+   "reference": "Kennedy et al. 2015, MNRAS 449, 3121, Sect. 'The HD 38858 and HD 20794 systems'",
+   "vetting_date": "2015-03-06",
+   "catalogue_distance_ly": {
+    "value": 49.61,
+    "src": "G",
+    "where": "Gaia DR3 parallax 65.7446 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Kennedy et al. 2015, MNRAS 449, 3121, 'Kuiper belt structure around nearby super-Earth host stars'",
+     "url": "https://arxiv.org/abs/1503.02073",
+     "what": "Sect. 'The HD 38858 and HD 20794 systems' RV update (HD 38858 b spurious; new 198 d signal)"
+    },
+    "S2": {
+     "citation": "Laliotis et al. 2023, AJ 165, 176, 'Doppler Constraints on Planetary Companions to Nearby Sun-like Stars: An Archival Radial Velocity Survey of Southern Targets for Proposed NASA Direct Imaging Missions'",
+     "url": "https://arxiv.org/abs/2302.10310",
+     "what": "Table 'Keplerian RV Signals Identified by RVSearch' and per-star sections"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 3023711269067191296",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "HD 38858 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Probably not real."
+  },
+  {
+   "planet": "HD 109647 b",
+   "system_host": "HD 109647",
+   "new_system": true,
+   "planet_host_star": "HD 109647",
+   "aliases": [
+    "DO CVn b",
+    "HIP 61481 b"
+   ],
+   "designation": "b (exoplanet.eu)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "Only a linear RV trend (17 m/s/yr over 1147 d, SOPHIE) 'compatible with a planetary companion'; no curvature, so the companion could equally be a brown dwarf or star. No period.",
+   "detection_method": "Radial velocity",
+   "period_d": null,
+   "a_au": null,
+   "ecc": null,
+   "mass_earth": {
+    "value": 2,
+    "src": "S1",
+    "where": "Sect. HD 109647 / limits table: minimum mass > 2 M_Jup (lower limit)",
+    "type": "Msini lower limit [M_Jup]"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": {
+     "value": 0.96,
+     "src": "S1",
+     "where": "stellar table, HD109647 (K0V)"
+    },
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Trend only: P > 3.1 yr and M > 2 M_Jup (lower limits, limits table). exoplanet.eu's P=1131.5 d is just a baseline-scale number, not a fitted period. Young (<400 Myr) active K0V with IR excess.",
+   "reference": "Grandjean et al. 2021, A&A 650, A39, Sect. HD 109647 and companion-limits table",
+   "vetting_date": "2021-06-20",
+   "catalogue_distance_ly": {
+    "value": 85.424,
+    "src": "G",
+    "where": "Gaia DR3 parallax 38.1810 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Grandjean et al. 2021, A&A 650, A39, 'A SOPHIE RV search for giant planets around young nearby stars (YNS)'",
+     "url": "https://arxiv.org/abs/2106.10754",
+     "what": "Sect. HD 109647 (trend 17 m/s/yr over 1147 d; min mass 2 M_Jup), companion-limits table (P > 3.1 yr, M > 2 M_Jup), stellar table (K0V, 0.96 Msun)"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1568610571482444032",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "HD 109647 and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Not an orbit. Keep only if the tab accepts trends."
+  },
+  {
+   "planet": "tet Cyg b",
+   "system_host": "tet Cyg",
+   "new_system": true,
+   "planet_host_star": "tet Cyg",
+   "aliases": [
+    "theta Cyg b",
+    "HD 185395 b",
+    "13 Cyg b"
+   ],
+   "designation": "b (exoplanet.eu 'theta Cyg b')",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "The discovery paper itself asks 'planets or stellar phenomenon?': the ~150 d quasi-periodic RV variation has a matching peak in the bisector periodogram, pointing to a stellar origin; the planet is offered only as the alternative. exoplanet.eu remarks (citing Borgniet et al. 2019) that one or two planets do not explain the features.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 154.5,
+    "src": "S2",
+    "where": "exoplanet.eu page, attributed to Desort 2009 (abstract: ~150 d)"
+   },
+   "a_au": {
+    "value": 0.63,
+    "src": "S2",
+    "where": "exoplanet.eu page"
+   },
+   "ecc": {
+    "value": 0.0,
+    "src": "S2",
+    "where": "exoplanet.eu page"
+   },
+   "mass_earth": {
+    "value": 2.29,
+    "src": "S2",
+    "where": "exoplanet.eu page, 'Mass' 2.29 +/-0.4 M_Jup (abstract: 'a few Jupiter masses')",
+    "err": "+/-0.4",
+    "type": "mass [M_Jup]"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Quasi-periodic, not strictly periodic. 0.35 Msun stellar companion at >46 AU imaged by Desort 2009.",
+   "reference": "Desort et al. 2009, A&A, arXiv:0908.4521",
+   "vetting_date": "2009-08-31",
+   "catalogue_distance_ly": {
+    "value": 60.099,
+    "src": "G",
+    "where": "Gaia DR3 parallax 54.2702 mas"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "S1": {
+     "citation": "Desort et al. 2009, A&A, 'Extrasolar planets and brown dwarfs around A-F type stars VII. Theta Cygni radial velocity variations: planets or stellar phenomenon?'",
+     "url": "https://arxiv.org/abs/0908.4521",
+     "what": "abstract: quasi-periodic ~150 d RV variation, bisector periodogram peak at the same period"
+    },
+    "S2": {
+     "citation": "exoplanet.eu planet page 'theta Cyg b' (fetched 2026-09-23)",
+     "url": "https://exoplanet.eu/catalog/theta_cyg_b--823/",
+     "what": "catalogue values attributed to the discovery paper"
+    },
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 2135110401277424384",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    }
+   },
+   "dedupe": "tet Cyg and its aliases are not in systems.csv, multistars.csv, planets_confirmed.csv or unconfirmed_existing.csv; no planet for this host in NASA pscomppars (sy_dist<31 pull, 2026-09-23).",
+   "confidence_notes": "Likely stellar."
+  }
+ ],
+ "new_systems": [
+  {
+   "system_host": "Wolf 359",
+   "nickname": "",
+   "aliases": [
+    "GJ 406",
+    "CN Leo",
+    "Gaia DR3 3864972938605115520"
+   ],
+   "parallax_mas": {
+    "value": 415.1794,
+    "src": "G",
+    "where": "Gaia DR3 parallax 415.1794 +/- 0.0684 mas"
+   },
+   "distance_ly": {
+    "value": 7.856,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 415.1794 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.11,
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359' (Pineda 2021)"
+   },
+   "stellar_class": {
+    "value": "M6",
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359' (Kesseli 2019): solar-metallicity M6"
+   },
+   "teff_k": {
+    "value": 2749,
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359' (Pineda 2021)"
+   },
+   "radius_rsun": {
+    "value": 0.144,
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359' (Pineda 2021)"
+   },
+   "luminosity_lsun": null,
+   "logg": {
+    "value": 5.5,
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359' (Fuhrmeister 2005)"
+   },
+   "age_gyr": {
+    "value": "0.1-1.5",
+    "src": "S2",
+    "where": "Table 'Properties of Wolf 359', age range 100 Myr-1.5 Gyr"
+   },
+   "feh": null,
+   "rv_kms": null,
+   "pmra_masyr": {
+    "value": -3866.3383,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -2699.215,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "3864972938605115520",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 3864972938605115520",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S2": {
+     "citation": "Bowens-Rubin et al. 2023, AJ 166, 260, 'A Wolf 359 in sheep's clothing'",
+     "url": "https://arxiv.org/abs/2309.03402",
+     "what": "stellar properties table (Pineda 2021 mass/Teff/radius), status of b and c"
+    }
+   },
+   "notes": "Gaia DR3 has no radial_velocity for this source; no FLAME/GSP-Phot parameters. Luminosity not published in S2; writer derives."
+  },
+  {
+   "system_host": "GJ 1074",
+   "nickname": "",
+   "aliases": [
+    "G 191-15",
+    "HIP 23140",
+    "LHS 1721",
+    "LP 157-45"
+   ],
+   "parallax_mas": {
+    "value": 47.4968,
+    "src": "G",
+    "where": "Gaia DR3 parallax 47.4968 +/- 0.0180 mas"
+   },
+   "distance_ly": {
+    "value": 68.669,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 47.4968 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.54,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters', GJ 1074"
+   },
+   "stellar_class": {
+    "value": "M0.5",
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "teff_k": {
+    "value": 3680.1,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 0.555,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.051,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.628,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.13,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "rv_kms": {
+    "value": 16.6109,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 502.4044,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -336.7417,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "259731623173675904",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 259731623173675904",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    }
+   },
+   "notes": "teff/lum/radius here are Gaia DR3 GSP-Phot/FLAME, which are poor for M dwarfs; mass is the paper's."
+  },
+  {
+   "system_host": "GJ 21",
+   "nickname": "",
+   "aliases": [
+    "HIP 2120",
+    "MCC 357"
+   ],
+   "parallax_mas": {
+    "value": 61.8731,
+    "src": "G",
+    "where": "Gaia DR3 parallax 61.8731 +/- 0.0130 mas"
+   },
+   "distance_ly": {
+    "value": 52.714,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 61.8731 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.54,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters', GJ 21"
+   },
+   "stellar_class": {
+    "value": "M0.5",
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "teff_k": {
+    "value": 3455.3,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 0.606,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.0472,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 3.978,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.11,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "rv_kms": {
+    "value": -3.3995,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -137.094,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -146.2326,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "530158019855216896",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 530158019855216896",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    }
+   },
+   "notes": "teff/lum/radius are Gaia DR3 GSP-Phot/FLAME (poor for M dwarfs)."
+  },
+  {
+   "system_host": "GJ 548 A",
+   "nickname": "",
+   "aliases": [
+    "BD+24 2733A",
+    "HIP 70529",
+    "G 166-27",
+    "LHS 371"
+   ],
+   "parallax_mas": {
+    "value": 61.2364,
+    "src": "G",
+    "where": "Gaia DR3 parallax 61.2364 +/- 0.0198 mas"
+   },
+   "distance_ly": {
+    "value": 53.262,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 61.2364 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 2,
+   "system_stars": "GJ 548 A (host), GJ 548 B",
+   "host_mass_msun": {
+    "value": 0.64,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters', GJ 548A"
+   },
+   "stellar_class": {
+    "value": "M0.0",
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "teff_k": null,
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": null,
+   "age_gyr": null,
+   "feh": {
+    "value": -0.1,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "rv_kms": {
+    "value": 8.9469,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 792.5515,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -1116.4046,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "1254695603704323712",
+   "companions": [
+    "GJ 548 B (implied by SIMBAD 'GJ 548 A'/'BD+24 2733A'; separation and parameters not looked up)"
+   ],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1254695603704323712",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "SB": {
+     "citation": "SIMBAD identifiers for BD+24 2733",
+     "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GJ%20548%20A",
+     "what": "component designation A implies a B component"
+    }
+   },
+   "notes": "Companion not characterised here; writer should check GJ 548 B before filling multistars. Gaia GSP-Phot/FLAME absent for this source."
+  },
+  {
+   "system_host": "GJ 3822",
+   "nickname": "",
+   "aliases": [
+    "HIP 68570",
+    "MCC 150"
+   ],
+   "parallax_mas": {
+    "value": 49.1193,
+    "src": "G",
+    "where": "Gaia DR3 parallax 49.1193 +/- 0.0196 mas"
+   },
+   "distance_ly": {
+    "value": 66.401,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 49.1193 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.58,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters', GJ 3822"
+   },
+   "stellar_class": {
+    "value": "M0.5",
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "teff_k": {
+    "value": 3620,
+    "src": "S2",
+    "where": "Tuomi 2019 target physical properties"
+   },
+   "radius_rsun": null,
+   "luminosity_lsun": {
+    "value": 0.0339,
+    "src": "S2",
+    "where": "Tuomi 2019 target physical properties"
+   },
+   "logg": null,
+   "age_gyr": null,
+   "feh": {
+    "value": -0.12,
+    "src": "S1",
+    "where": "HADES XV Table 'Stellar parameters'"
+   },
+   "rv_kms": {
+    "value": -8.5068,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 99.0289,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -140.6222,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "1229977414080680192",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1229977414080680192",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Pinamonti et al. 2022, A&A 664, A65, 'HADES RV Programme with HARPS-N at TNG XV. Planetary occurrence rates around early-M dwarfs'",
+     "url": "https://arxiv.org/abs/2203.04648",
+     "what": "Table 'Candidate planetary signals detected in the RV modeling' (P, m sin i); Table 'Stellar parameters...of the 56 HADES targets' (SpT, M*, [Fe/H], Prot)"
+    },
+    "S2": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 300",
+   "nickname": "",
+   "aliases": [
+    "L 674-15",
+    "LHS 1989",
+    "LP 843-1"
+   ],
+   "parallax_mas": {
+    "value": 123.2033,
+    "src": "G",
+    "where": "Gaia DR3 parallax 123.2033 +/- 0.0236 mas"
+   },
+   "distance_ly": {
+    "value": 26.473,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 123.2033 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.27,
+    "src": "S2",
+    "where": "Mignon 2024 Sect. GJ 300"
+   },
+   "stellar_class": {
+    "value": "M5V",
+    "src": "S2",
+    "where": "Mignon 2024 Sect. GJ 300 (SIMBAD gives M3.5V)"
+   },
+   "teff_k": {
+    "value": 2984,
+    "src": "S1",
+    "where": "Tuomi 2019 target physical properties"
+   },
+   "radius_rsun": null,
+   "luminosity_lsun": {
+    "value": 0.0015,
+    "src": "S1",
+    "where": "Tuomi 2019 target physical properties"
+   },
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 8.9345,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 13.4584,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -693.9869,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "5700706729031126656",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 5700706729031126656",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    },
+    "S2": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 654",
+   "nickname": "",
+   "aliases": [
+    "HD 154363 B",
+    "HIP 83599",
+    "Wolf 636",
+    "LHS 432",
+    "BD-04 4226"
+   ],
+   "parallax_mas": {
+    "value": 95.5597,
+    "src": "G",
+    "where": "Gaia DR3 parallax 95.5597 +/- 0.0214 mas"
+   },
+   "distance_ly": {
+    "value": 34.131,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 95.5597 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 2,
+   "system_stars": "GJ 654 (planet host), GJ 653 = HD 154363 A",
+   "host_mass_msun": {
+    "value": 0.48,
+    "src": "S1",
+    "where": "Mignon 2024 Sect. GJ 654"
+   },
+   "stellar_class": {
+    "value": "M2V",
+    "src": "S1",
+    "where": "Mignon 2024 Sect. GJ 654"
+   },
+   "teff_k": {
+    "value": 3546.8,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 0.483,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.0333,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.664,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": 34.4192,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -917.2066,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -1132.1526,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "4364480521350598144",
+   "companions": [
+    "GJ 653 (HD 154363 A), per the SIMBAD identifier HD 154363B; not characterised here"
+   ],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4364480521350598144",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    }
+   },
+   "notes": "Binary: writer should decide whether the system row is GJ 653 (primary) or GJ 654. teff/L/R are Gaia GSP-Phot/FLAME (poor for M dwarfs)."
+  },
+  {
+   "system_host": "GJ 739",
+   "nickname": "",
+   "aliases": [
+    "HIP 93206",
+    "CD-48 12818",
+    "LHS 3423"
+   ],
+   "parallax_mas": {
+    "value": 70.5952,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.5952 +/- 0.0261 mas"
+   },
+   "distance_ly": {
+    "value": 46.201,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 70.5952 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.46,
+    "src": "S2",
+    "where": "Mignon 2024 Sect. GJ 739"
+   },
+   "stellar_class": {
+    "value": "M3V",
+    "src": "S2",
+    "where": "Mignon 2024 Sect. GJ 739 (Feng 2020: M2)"
+   },
+   "teff_k": {
+    "value": 3320,
+    "src": "S3",
+    "where": "Tuomi 2019 target physical properties, GJ739"
+   },
+   "radius_rsun": {
+    "value": 0.574,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.0107,
+    "src": "S3",
+    "where": "Tuomi 2019 target physical properties, GJ739"
+   },
+   "logg": {
+    "value": 4.162,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -8.1596,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 151.2018,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -492.6528,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "6662167868705713664",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6662167868705713664",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S2": {
+     "citation": "Mignon et al. 2024, A&A 689, A32, 'Radial velocity homogeneous analysis of M dwarfs observed with HARPS I. Exoplanet detection and candidates'",
+     "url": "https://arxiv.org/abs/2502.06513",
+     "what": "Sect. on individual candidates (GJ 300, GJ 654, GJ 739) and Table 'Periodic signal in RV times series whose origin is not yet identified'"
+    },
+    "S3": {
+     "citation": "Tuomi et al. 2019, arXiv:1906.04644, 'Frequency of planets orbiting M dwarfs in the Solar neighbourhood'",
+     "url": "https://arxiv.org/abs/1906.04644",
+     "what": "Table 'Planet candidates in the sample' (MAP, 99% intervals) and Table of target physical properties (M*, Teff, L*)"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 620",
+   "nickname": "",
+   "aliases": [
+    "HIP 80268",
+    "CD-24 12677",
+    "Ross 854",
+    "LHS 3186"
+   ],
+   "parallax_mas": {
+    "value": 60.4043,
+    "src": "G",
+    "where": "Gaia DR3 parallax 60.4043 +/- 0.0234 mas"
+   },
+   "distance_ly": {
+    "value": 53.996,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 60.4043 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.61,
+    "src": "S1",
+    "where": "Table of stars, GJ 620 (HIP 80268)"
+   },
+   "stellar_class": {
+    "value": "M0",
+    "src": "S1",
+    "where": "Feng 2020 table of stars"
+   },
+   "teff_k": null,
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -31.7828,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -344.3835,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -676.2776,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "6049221163063960320",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 6049221163063960320",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    }
+   },
+   "notes": "Gaia GSP-Phot/FLAME absent."
+  },
+  {
+   "system_host": "GJ 911",
+   "nickname": "",
+   "aliases": [
+    "HIP 117886",
+    "BD-22 6219"
+   ],
+   "parallax_mas": {
+    "value": 42.5957,
+    "src": "G",
+    "where": "Gaia DR3 parallax 42.5957 +/- 0.0239 mas"
+   },
+   "distance_ly": {
+    "value": 76.57,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 42.5957 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.63,
+    "src": "S1",
+    "where": "Table of stars, GJ 911 (HIP 117886)"
+   },
+   "stellar_class": {
+    "value": "M0V",
+    "src": "S1",
+    "where": "Feng 2020 table of stars"
+   },
+   "teff_k": null,
+   "radius_rsun": null,
+   "luminosity_lsun": null,
+   "logg": null,
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -2.2196,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -42.2856,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": 127.1356,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "2341178362288721536",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 2341178362288721536",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Feng et al. 2020, ApJS 246, 11, 'Search for Nearby Earth Analogs. II. detection of five new planets, eight planet candidates, and confirmation of three planets around nine nearby M dwarfs'",
+     "url": "https://arxiv.org/abs/2001.02577",
+     "what": "Table 'Parameters for planet candidates' (mean+/-sd row, MAP with 1%-99% quantiles row) and Table of stars (SpT, V, M*)"
+    }
+   }
+  },
+  {
+   "system_host": "GJ 729",
+   "nickname": "",
+   "aliases": [
+    "Ross 154",
+    "V1216 Sgr",
+    "HIP 92403",
+    "CD-23 14742",
+    "LHS 3414"
+   ],
+   "parallax_mas": {
+    "value": 336.0266,
+    "src": "G",
+    "where": "Gaia DR3 parallax 336.0266 +/- 0.0317 mas"
+   },
+   "distance_ly": {
+    "value": 9.706,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 336.0266 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.184,
+    "src": "S1",
+    "where": "Table 'Stellar parameters for GJ 729'"
+   },
+   "stellar_class": {
+    "value": "M3.5V",
+    "src": "S1",
+    "where": "same"
+   },
+   "teff_k": {
+    "value": 3340,
+    "src": "S1",
+    "where": "same"
+   },
+   "radius_rsun": {
+    "value": 0.197,
+    "src": "S1",
+    "where": "same"
+   },
+   "luminosity_lsun": {
+    "value": 0.0042,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 5.23,
+    "src": "S1",
+    "where": "same"
+   },
+   "age_gyr": {
+    "value": "0.2-0.6",
+    "src": "S1",
+    "where": "same (Ibanez 2020)"
+   },
+   "feh": {
+    "value": -0.63,
+    "src": "S1",
+    "where": "same (Marfil 2021)"
+   },
+   "rv_kms": {
+    "value": -11.1164,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 639.3679,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -193.9579,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "4075141768785646848",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4075141768785646848",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Brown et al. 2026, MNRAS (RedDots), 'Magnetic field of the nearby active M dwarf GJ 729, and a search for companions'",
+     "url": "https://arxiv.org/abs/2607.08050",
+     "what": "Sect. RV planet search (PyORBIT GP+Keplerian, PYANETI per-instrument fits) and Table 'Stellar parameters for GJ 729'"
+    }
+   }
+  },
+  {
+   "system_host": "18 Sco",
+   "nickname": "",
+   "aliases": [
+    "HD 146233",
+    "HIP 79672",
+    "GJ 616",
+    "HR 6060"
+   ],
+   "parallax_mas": {
+    "value": 70.7371,
+    "src": "G",
+    "where": "Gaia DR3 parallax 70.7371 +/- 0.0631 mas"
+   },
+   "distance_ly": {
+    "value": 46.108,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 70.7371 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 1.022,
+    "src": "S1",
+    "where": "Laliotis 2023 Sect. HD 146233 (Spina 2018)"
+   },
+   "stellar_class": {
+    "value": "G2Va",
+    "src": "S1",
+    "where": "Laliotis 2023 Sect. HD 146233 (Keenan 1989)"
+   },
+   "teff_k": {
+    "value": 5808,
+    "src": "S1",
+    "where": "same (Spina 2018)"
+   },
+   "radius_rsun": {
+    "value": 1.087,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 1.1064,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.44,
+    "src": "S1",
+    "where": "same"
+   },
+   "age_gyr": {
+    "value": 4.0,
+    "src": "S1",
+    "where": "same (Spina 2018)"
+   },
+   "feh": {
+    "value": 0.041,
+    "src": "S1",
+    "where": "same"
+   },
+   "rv_kms": {
+    "value": 11.711,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 232.2303,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -495.3782,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "4345775217221821312",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4345775217221821312",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Laliotis et al. 2023, AJ 165, 176, 'Doppler Constraints on Planetary Companions to Nearby Sun-like Stars: An Archival Radial Velocity Survey of Southern Targets for Proposed NASA Direct Imaging Missions'",
+     "url": "https://arxiv.org/abs/2302.10310",
+     "what": "Table 'Keplerian RV Signals Identified by RVSearch' and per-star sections"
+    }
+   }
+  },
+  {
+   "system_host": "HD 161098",
+   "nickname": "",
+   "aliases": [],
+   "parallax_mas": {
+    "value": 33.6129,
+    "src": "G",
+    "where": "Gaia DR3 parallax 33.6129 +/- 0.0207 mas"
+   },
+   "distance_ly": {
+    "value": 97.033,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 33.6129 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.837,
+    "src": "S1",
+    "where": "Sect. 'HD 161098: Stellar parameters'",
+    "err": "+/-0.029"
+   },
+   "stellar_class": {
+    "value": "G8V",
+    "src": "S1",
+    "where": "Sect. 'Stellar parameters'"
+   },
+   "teff_k": {
+    "value": 5610,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-50"
+   },
+   "radius_rsun": {
+    "value": 0.866,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.020"
+   },
+   "luminosity_lsun": {
+    "value": 0.6769,
+    "src": "S1",
+    "where": "same",
+    "err": "+/-0.0015"
+   },
+   "logg": {
+    "value": 4.452,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -17.1453,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -108.5033,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -240.7775,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "4176501313320676992",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 4176501313320676992",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Nari et al. 2026, A&A 709, A123, 'The RoPES project with HARPS and HARPS-N III. Two candidate planets orbiting the G-type star HD 161098'",
+     "url": "https://arxiv.org/abs/2604.11516",
+     "what": "abstract (P, Msini), Sect. 'Stellar parameters'"
+    }
+   }
+  },
+  {
+   "system_host": "HD 23439 A",
+   "nickname": "",
+   "aliases": [
+    "HIP 17666"
+   ],
+   "parallax_mas": {
+    "value": 41.9035,
+    "src": "G",
+    "where": "Gaia DR3 parallax 41.9035 +/- 0.0237 mas"
+   },
+   "distance_ly": {
+    "value": 77.835,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 41.9035 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 3,
+   "system_stars": "HD 23439 A (host); HD 23439 Ba, Bb",
+   "host_mass_msun": {
+    "value": 0.67,
+    "src": "S1",
+    "where": "Hirsch 2021 SpecMatch table"
+   },
+   "stellar_class": null,
+   "teff_k": {
+    "value": 5000,
+    "src": "S1",
+    "where": "SpecMatch"
+   },
+   "radius_rsun": {
+    "value": 0.67,
+    "src": "S1",
+    "where": "SpecMatch"
+   },
+   "luminosity_lsun": {
+    "value": 0.3132,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.7,
+    "src": "S1",
+    "where": "SpecMatch"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.88,
+    "src": "S1",
+    "where": "SpecMatch"
+   },
+   "rv_kms": {
+    "value": 50.6989,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 597.9164,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -1243.8376,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "231113736385994624",
+   "companions": [
+    "HD 23439 Ba: 0.77+/-0.08 Msun (dynamical), projected sep 164.72+/-2.95 AU (Hirsch 2021 binary table)",
+    "HD 23439 Bb: 0.12+/-0.01 Msun (dynamical), SB1 with Ba (P 48.6 d per Tokovinin 1994 as quoted in Hirsch planet notes)"
+   ],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 231113736385994624",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Hirsch et al. 2021, AJ 161, 134, 'Understanding the Impacts of Stellar Companions on Planet Formation and Evolution: A Survey of Stellar and Planetary Companions within 25 pc'",
+     "url": "https://arxiv.org/abs/2012.09190",
+     "what": "table planets_0320 (P, a, K, Msini [M_Jup], e, omega, Tp, class PC), planet notes, SpecMatch table, binary table"
+    }
+   }
+  },
+  {
+   "system_host": "HD 38858",
+   "nickname": "",
+   "aliases": [
+    "GJ 1085",
+    "HIP 27435",
+    "HR 2007"
+   ],
+   "parallax_mas": {
+    "value": 65.7446,
+    "src": "G",
+    "where": "Gaia DR3 parallax 65.7446 +/- 0.0307 mas"
+   },
+   "distance_ly": {
+    "value": 49.61,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 65.7446 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.966,
+    "src": "G",
+    "where": "Gaia DR3 FLAME mass_flame"
+   },
+   "stellar_class": {
+    "value": "G2V",
+    "src": "S2",
+    "where": "Laliotis 2023 Sect. HD 38858 (Gray 2003)"
+   },
+   "teff_k": {
+    "value": 5647.2,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 0.951,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.8291,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.51,
+    "src": "S2",
+    "where": "same (Sousa 2008)"
+   },
+   "age_gyr": null,
+   "feh": {
+    "value": -0.22,
+    "src": "S2",
+    "where": "same (Sousa 2008)"
+   },
+   "rv_kms": {
+    "value": 31.4195,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 61.427,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -229.2912,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "3023711269067191296",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 3023711269067191296",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S2": {
+     "citation": "Laliotis et al. 2023, AJ 165, 176, 'Doppler Constraints on Planetary Companions to Nearby Sun-like Stars: An Archival Radial Velocity Survey of Southern Targets for Proposed NASA Direct Imaging Missions'",
+     "url": "https://arxiv.org/abs/2302.10310",
+     "what": "Table 'Keplerian RV Signals Identified by RVSearch' and per-star sections"
+    }
+   }
+  },
+  {
+   "system_host": "HD 109647",
+   "nickname": "",
+   "aliases": [
+    "DO CVn",
+    "HIP 61481"
+   ],
+   "parallax_mas": {
+    "value": 38.181,
+    "src": "G",
+    "where": "Gaia DR3 parallax 38.1810 +/- 0.0258 mas"
+   },
+   "distance_ly": {
+    "value": 85.424,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 38.1810 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 1,
+   "system_stars": "",
+   "host_mass_msun": {
+    "value": 0.96,
+    "src": "S1",
+    "where": "Grandjean 2021 stellar table"
+   },
+   "stellar_class": {
+    "value": "K0V",
+    "src": "S1",
+    "where": "Grandjean 2021 stellar table"
+   },
+   "teff_k": {
+    "value": 4750.6,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 0.797,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 0.2917,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.504,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -8.7337,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": 112.1192,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": -19.3168,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "1568610571482444032",
+   "companions": [],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 1568610571482444032",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Grandjean et al. 2021, A&A 650, A39, 'A SOPHIE RV search for giant planets around young nearby stars (YNS)'",
+     "url": "https://arxiv.org/abs/2106.10754",
+     "what": "Sect. HD 109647 (trend 17 m/s/yr over 1147 d; min mass 2 M_Jup), companion-limits table (P > 3.1 yr, M > 2 M_Jup), stellar table (K0V, 0.96 Msun)"
+    }
+   }
+  },
+  {
+   "system_host": "tet Cyg",
+   "nickname": "",
+   "aliases": [
+    "theta Cyg",
+    "13 Cyg",
+    "HD 185395",
+    "HR 7469"
+   ],
+   "parallax_mas": {
+    "value": 54.2702,
+    "src": "G",
+    "where": "Gaia DR3 parallax 54.2702 +/- 0.0860 mas"
+   },
+   "distance_ly": {
+    "value": 60.099,
+    "src": "G",
+    "where": "from Gaia DR3 parallax 54.2702 mas (1000/plx pc x 3.261564)"
+   },
+   "stars_in_system": 2,
+   "system_stars": "tet Cyg A (F-type), ~0.35 Msun companion >46 AU",
+   "host_mass_msun": {
+    "value": 1.364,
+    "src": "G",
+    "where": "Gaia DR3 FLAME mass_flame"
+   },
+   "stellar_class": null,
+   "teff_k": {
+    "value": 6578.4,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot teff_gspphot"
+   },
+   "radius_rsun": {
+    "value": 1.638,
+    "src": "G",
+    "where": "Gaia DR3 FLAME radius_flame"
+   },
+   "luminosity_lsun": {
+    "value": 4.5296,
+    "src": "G",
+    "where": "Gaia DR3 FLAME lum_flame"
+   },
+   "logg": {
+    "value": 4.113,
+    "src": "G",
+    "where": "Gaia DR3 GSP-Phot logg_gspphot"
+   },
+   "age_gyr": null,
+   "feh": null,
+   "rv_kms": {
+    "value": -27.186,
+    "src": "G",
+    "where": "Gaia DR3 radial_velocity"
+   },
+   "pmra_masyr": {
+    "value": -5.8544,
+    "src": "G",
+    "where": "Gaia DR3 pmra"
+   },
+   "pmdec_masyr": {
+    "value": 263.6604,
+    "src": "G",
+    "where": "Gaia DR3 pmdec"
+   },
+   "gaia_dr3_source_id": "2135110401277424384",
+   "companions": [
+    "~0.35 Msun stellar companion at >46 AU (Desort 2009 abstract)"
+   ],
+   "sources": {
+    "G": {
+     "citation": "Gaia DR3 gaia_source / astrophysical_parameters, source_id 2135110401277424384",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source JOIN astrophysical_parameters, queried 2026-09-23)",
+     "what": "parallax, proper motion, RV, FLAME/GSP-Phot"
+    },
+    "S1": {
+     "citation": "Desort et al. 2009, A&A, 'Extrasolar planets and brown dwarfs around A-F type stars VII. Theta Cygni radial velocity variations: planets or stellar phenomenon?'",
+     "url": "https://arxiv.org/abs/0908.4521",
+     "what": "abstract: quasi-periodic ~150 d RV variation, bisector periodogram peak at the same period"
+    }
+   }
+  }
+ ],
+ "considered_not_added": [
+  {
+   "name": "Wolf 359 c",
+   "system_host": "Wolf 359",
+   "reason": "refuted: the 2.687 d RV signal (Tuomi et al. 2019) matches the stellar rotation (2.705 d); refuted by Lafarga et al. 2021 (CARMENES activity indicators, arXiv:2105.13467), as tabulated in Bowens-Rubin et al. 2023 Table 'Exoplanet Candidates Identified by Tuomi 2019' ('false positive'). exoplanet.eu still lists it as Confirmed; OEC as Controversial.",
+   "source_url": "https://arxiv.org/abs/2309.03402"
+  },
+  {
+   "name": "AD Leo b",
+   "system_host": "AD Leo (GJ 388)",
+   "reason": "refuted: the 2.23 d RV signal (Tuomi et al. 2018; Tuomi 2019 table row GJ388 b, P=2.22599 d, Msini 23.1 Me) is the stellar rotation. Carleo et al. 2020 (GAPS XXI, arXiv:2002.10562) is titled '...refutation of AD Leo b'; Kossakowski et al. 2022 (arXiv:2209.05814) and Carmona et al. 2023 (arXiv:2303.16712, 'no evidence for a corotating planet') agree. exoplanet.eu lists it Controversial. AD Leo has no other planet claim in either catalogue, so no new system is proposed.",
+   "source_url": "https://arxiv.org/abs/2002.10562"
+  },
+  {
+   "name": "LP 427-16 b",
+   "system_host": "LP 427-16",
+   "reason": "not a planet claim: Baroch et al. 2021 (A&A 653, A49) find an SB1 long-term RV trend and bound the companion to 0.011-0.13 Msun (P 6,400-29,000 d); a low-mass star or brown dwarf. exoplanet.eu lists it as a 12 M_Jup candidate from the lower bound only.",
+   "source_url": "https://arxiv.org/abs/2105.14770"
+  },
+  {
+   "name": "HIP 36985 b (GJ 282 C b)",
+   "system_host": "GJ 282 C",
+   "reason": "brown dwarf / stellar: Grandjean et al. 2020 Msini 29 M_Jup (exoplanet.eu page); Baroch et al. 2021 fit RVs + NACO astrometry and derive dynamical masses for the GJ 282 C pair (P = 6591 d, i = 94 deg). Not a planet.",
+   "source_url": "https://arxiv.org/abs/2105.14770"
+  },
+  {
+   "name": "HD 38858 b",
+   "system_host": "HD 38858",
+   "reason": "refuted/retracted: the 407 d, 30.6 M_E signal (Mayor et al. 2011) was declared spurious by the discovery team's follow-up, an alias of the 2930 d magnetic cycle (Kennedy et al. 2015, Sect. 2); Flores et al. 2018 (A&A 620, A34) tie the RV variation to the 10.8 yr cycle.",
+   "source_url": "https://arxiv.org/abs/1503.02073"
+  },
+  {
+   "name": "HD 85512 b",
+   "system_host": "HD 85512",
+   "reason": "refuted: Laliotis et al. 2023 (1,127 additional RVs) do not detect the 58.43 d signal of Pepe et al. 2011; a 51.2 d signal takes over, matching predicted rotation and S-index periods; they 'assert that the reported companion HD 85512 b ... is not caused by a physical planet' (Sect. HD 85512; table class ACT-R*). exoplanet.eu: Controversial.",
+   "source_url": "https://arxiv.org/abs/2302.10310"
+  },
+  {
+   "name": "HD 26965 b (omi2 Eri A b, 40 Eri Ab)",
+   "system_host": "HD 26965",
+   "reason": "refuted as activity: the 42.3 d signal (Ma et al. 2018) sits on the rotation (39-43 d); Rosenthal et al. 2021 call it a false positive from rotation and Laliotis et al. 2023 classify it ACT* ('reported as a planet ... but we believe it to be stellar'). Burrows et al. 2024 reach the same conclusion (recalled, not verified this session). exoplanet.eu: Retracted.",
+   "source_url": "https://arxiv.org/abs/2302.10310"
+  },
+  {
+   "name": "bet Vir b",
+   "system_host": "bet Vir (HD 102870)",
+   "reason": "not a planet claim: Endl et al. 2016 (ApJ 818, 34) report the ~2040 d RV variation of HD 102870 as 'probably caused by stellar activity, rather than reflexive Keplerian motion' (abstract). exoplanet.eu nonetheless lists it as Candidate.",
+   "source_url": "https://arxiv.org/abs/1512.02965"
+  },
+  {
+   "name": "HD 150248 b",
+   "system_host": "HD 150248",
+   "reason": "stellar companion: Jenkins et al. 2015 (spectroscopic binaries from AAPS) give K = 1995 m/s at P = 3272 d; exoplanet.eu's 0.1 'M_Jup' is almost certainly 0.1 M_sun (its own remark flags the ambiguity). Not a planet.",
+   "source_url": "https://exoplanet.eu/catalog/hd_150248_b--9425/"
+  },
+  {
+   "name": "HD 145825 b",
+   "system_host": "HD 145825",
+   "reason": "stellar: dos Santos et al. 2017 (MNRAS 472, 3425) find a 0.10 Msun red dwarf on an 18 yr orbit (Msini 106 M_Jup). exoplanet.eu: Retracted.",
+   "source_url": "https://arxiv.org/abs/1708.07465"
+  },
+  {
+   "name": "HD 145825 c",
+   "system_host": "HD 145825",
+   "reason": "not a planet claim: dos Santos et al. 2017 note that residuals of 17 AATPS points peak near 725 d and an extra 0.70 M_Jup, e=0.87 object improves the fit, but HARPS residuals do not show it and they 'need more observations to securely infer ... if it truly has an extra substellar companion'. A residual-fitting exercise on 17 points, not called a candidate. Writer may override (would be 'unlikely').",
+   "source_url": "https://arxiv.org/abs/1708.07465"
+  },
+  {
+   "name": "HD 184860 b",
+   "system_host": "HD 184860",
+   "reason": "brown dwarf: Msini 32 M_Jup (Vogt et al. 2002, 'Ten Low-Mass Companions from the Keck Precision Velocity Survey', per exoplanet.eu page); host is a K2+K7 binary (SIMBAD).",
+   "source_url": "https://exoplanet.eu/catalog/hd_184860_b--6910/"
+  },
+  {
+   "name": "HD 68017 Ab",
+   "system_host": "HD 68017",
+   "reason": "brown dwarf: Msini 34.9 (+7.6/-7.3) M_Jup, P ~40000 d (Hirsch et al. 2021 via exoplanet.eu; RV+imaging). exoplanet.eu: Controversial.",
+   "source_url": "https://exoplanet.eu/catalog/hd_68017_ab--9601/"
+  },
+  {
+   "name": "zet Her Ab",
+   "system_host": "zet Her",
+   "reason": "no planetary claim: Morel et al. 2001 infer a third body of <50 M_Jup in the zeta Her binary, 'compatible either with a brown dwarf or a giant planet' (exoplanet.eu remark); no orbit. Not added.",
+   "source_url": "https://exoplanet.eu/catalog/zet_her_ab--9954/"
+  },
+  {
+   "name": "eta Cas Ab",
+   "system_host": "eta Cas",
+   "reason": "retracted/refuted: Kane et al. 2025 (AJ 170, 270), 'No Giant Planets in the Eta Cassiopeiae System' (exoplanet.eu: Retracted).",
+   "source_url": "https://arxiv.org/abs/2509.12334"
+  },
+  {
+   "name": "HD 104304 b",
+   "system_host": "HD 104304",
+   "reason": "stellar: 83 M_Jup companion (exoplanet.eu: Retracted; Schnupp et al. 2010 revision cited there).",
+   "source_url": "https://exoplanet.eu/catalog/hd_104304_b--420/"
+  },
+  {
+   "name": "HD 112758 Ab",
+   "system_host": "HD 112758",
+   "reason": "retracted: exoplanet.eu Retracted, citing Unger et al. 2023 (Gaia DR3 astrometric orbits of brown-dwarf-desert companions); not a planet.",
+   "source_url": "https://arxiv.org/abs/2310.02758"
+  },
+  {
+   "name": "BD+20 1790 b",
+   "system_host": "BD+20 1790",
+   "reason": "refuted: Carleo et al. 2018 (A&A 613, A50) 'Multi-band high resolution spectroscopy rules out the hot Jupiter BD+20 1790b'. Also beyond scope check: Gaia parallax 36.09 mas (SIMBAD), inside 100 ly, so the refutation is the reason.",
+   "source_url": "https://arxiv.org/abs/1805.01281"
+  },
+  {
+   "name": "alf Men Ab",
+   "system_host": "alf Men (HD 43834)",
+   "reason": "could not be traced: exoplanet.eu (Candidate, P=359.5 d, K=5.5 m/s, e=0.4) attributes it to Laliotis et al. 2023, but that paper's signal table has no HD 43834 row (the star appears only in its data-count table). Web search found no other source. Reported plainly as untraceable; not added.",
+   "source_url": "https://exoplanet.eu/catalog/alf_men_ab--11747/"
+  },
+  {
+   "name": "bet Cet b",
+   "system_host": "bet Cet",
+   "reason": "could not be traced this session: exoplanet.eu (Candidate, P=357 d, Msini 3.3 M_Jup, K=49.1 m/s) cites 'A High Precision Radial Velocity Survey of K Giants' (2004), which was not found on arXiv search; a 357 d period in a K giant is also suspiciously close to one year. Host has no Gaia DR3 parallax (Hipparcos 33.86 mas via SIMBAD). Not added pending the primary source.",
+   "source_url": "https://exoplanet.eu/catalog/bet_cet_b--9967/"
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": []
+}

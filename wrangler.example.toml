@@ -1,0 +1,18 @@
+# The Cloudflare Pages project, as wrangler reads it.  Copy to wrangler.toml
+# (git-ignored) and fill in the database id; the deploy workflow writes it from
+# the GitHub secret D1_DATABASE_ID instead, so no id is ever committed.
+# docs/architecture/suggestions.md.
+
+name = "hybrasil"
+pages_build_output_dir = "site"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hybrasil-suggestions"
+database_id = "<D1_DATABASE_ID>"
+migrations_dir = "migrations"
+
+# Secrets, set once with `npx wrangler pages secret put <NAME>`, never here:
+#   TURNSTILE_SECRET   the Turnstile widget's secret key
+#   IP_SALT            a long random string; salts the stored sender hash

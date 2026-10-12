@@ -1,0 +1,76 @@
+{
+ "runs": [
+  {
+   "started": "2026-10-09T19:36:33",
+   "state": "done",
+   "plan_built": "2026-10-09T19:35:11",
+   "counts": {
+    "known|Existence": 10711,
+    "known|SIMBAD main_id": 10000,
+    "known|CNS5 id": 5876,
+    "known|Kinematics refs": 10669,
+    "systems|SIMBAD main_id": 426,
+    "systems|Existence": 427,
+    "systems|Kinematics refs": 426,
+    "planetless|SIMBAD main_id": 141,
+    "planetless|Existence": 330,
+    "planetless|Kinematics refs": 80
+   },
+   "chunks": 31,
+   "sp_columns": [
+    30,
+    33
+   ],
+   "sp_rows": [
+    5697,
+    5704
+   ],
+   "title": "hy-brasil-20261009-1937",
+   "finished": "2026-10-09T19:37:26"
+  }
+ ],
+ "restore_order": [
+  {
+   "at": "2026-10-09T20:01:15",
+   "moved": 495,
+   "sp_rows": [
+    5705,
+    5706
+   ],
+   "title": "hy-brasil-20261009-2001"
+  }
+ ],
+ "border_fix": [
+  {
+   "at": "2026-10-09T20:05:58",
+   "fixed": {
+    "Planetless 4+ Stars": 183
+   }
+  }
+ ],
+ "filters": [
+  {
+   "at": "2026-10-09T20:08:11",
+   "widened": {
+    "Systems within 100 ly": [
+     42,
+     45
+    ],
+    "Known within 100ly": [
+     44,
+     48
+    ],
+    "Planetless 4+ Stars": [
+     72,
+     75
+    ]
+   },
+   "sp_rows": [
+    5707,
+    5709
+   ],
+   "title": "hy-brasil-20261009-2008",
+   "note": "applied by the first 'write.py filters' run, which stopped at its Planetless cell check (the re-applied sort); this records it"
+  }
+ ]
+}

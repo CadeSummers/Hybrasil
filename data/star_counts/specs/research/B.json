@@ -1,0 +1,555 @@
+[
+ {
+  "system": "GJ 397",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host, candidate planet host (GJ 397 b, Unconfirmed tab)"
+  },
+  "rows": [
+   {
+    "after": "GJ 397",
+    "values": {
+     "Star (component)": "GJ 397 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.132,
+     "Effective temp (K)": 3272,
+     "Luminosity (L-sun)": 0.00276,
+     "Star data source": "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc): Teff 3272 +/- 110 K, L = 2.76e-3 +/- 0.08e-3 L-sun, R 0.164, M 0.132 +/- 0.011 M-sun (no Ks in that catalogue for this star: 2MASS does not resolve it 4.6 arcsec from the K7 primary, so these rest on Gaia photometry). No published spectral type. = BD+46 1635B = CNS5 2580 (Golovin et al. 2023, A&A 670, A19, which names it GJ 397 B) = WDS 10314+4532 SKF 234 (2000-2016, 4.8-4.6 arcsec). Gaia DR3 830239138485572224, G 13.16, BP-RP 2.81, RUWE 1.72. Physical: El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), BinType MSMS, chance-alignment R = 6.9e-11. Added 6 Oct 2026.",
+     "Separation from": "GJ 397",
+     "Separation (AU)": 73.4,
+     "Separation type": "projected",
+     "Separation source": "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 73.43 (rho 4.59 arcsec at the primary's parallax, 62.52 mas)",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -577.324,
+     "Proper motion in Dec, μδ (mas/yr)": -610.587,
+     "Total proper motion, μ (arcsec/yr)": 0.84,
+     "Gaia DR3 source_id": "830239138485572224",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": 18.18
+    },
+    "orange": {},
+    "notes": {
+     "Radial velocity (km/s)": "Gaia DR3 RV 18.18 +/- 0.81 km/s; the primary's is 20.41 +/- 0.13. The 2.2 km/s difference is under the 4.4 km/s escape speed at 73 AU."
+    }
+   }
+  ],
+  "systems_text": "GJ 397: K7V (host, candidate planet host)\nGJ 397 B: class unknown (companion, 4.6 arcsec; Teff 3272 K)",
+  "stars_note": "2 stars since 6 Oct 2026: GJ 397 and GJ 397 B (BD+46 1635B, CNS5 2580), 4.6 arcsec (73 AU projected) away, a common-parallax, common-proper-motion pair in Gaia DR3 (El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog); WDS 10314+4532 SKF 234). On Multi-stars as a candidate host (GJ 397 b, Unconfirmed tab), with no confirmed planet. Was 1.",
+  "sp_paragraph": "  GJ 397 (1 -> 2): added to Multi-stars as a candidate host (GJ 397 b on Unconfirmed). GJ 397 B = BD+46 1635B = CNS5 2580 = WDS 10314+4532 SKF 234, Gaia DR3 830239138485572224: found by the audit's Gaia DR3 co-moving search and listed by El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (BinType MSMS, R = 6.9e-11). Teff 3272 K, L 2.76e-3, mass 0.132 M-sun from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), as published (Gaia photometry; no clean Ks this close to the primary). No spectral type published. Kinematics Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06). Separation 73.4 AU projected, as published by El-Badry et al. 2021 (4.59 arcsec at the primary's parallax). Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 1.47 km/s against an escape speed of 4.40 km/s at the projected separation for the summed masses -- consistent with a bound pair. Nothing inferred; no orange cells.",
+  "flags": [
+   "GJ 397 B has no published spectral type and its Teff/L/mass rest on Gaia photometry only (Bioverse); the 2MASS Ks is blended with the primary. RUWE 1.72.",
+   "GJ 397 B is already on 'Known within 100ly' as 'GJ 397 B' (CNS5 name), so the name matches."
+  ],
+  "sources_checked": [
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Golovin et al. 2023, A&A 670, A19 (CNS5)",
+   "WDS (VizieR B/wds/wds) 10314+4532 SKF 234",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Gaia DR3 astrophysical parameters (VizieR I/355/paramp): no FLAME values for GJ 397 B",
+   "TIC v8.2 (VizieR IV/39/tic82): TIC 840931841, Teff 3308 (colour), no mass",
+   "MSC (VizieR J/ApJS/235/6): no entry within 10 arcsec",
+   "SIMBAD (BD+46 1635B; 4 references, none characterising it)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: no other row for this star; GJ 397 b on Unconfirmed is the RV candidate (a ~0.15 AU), not B"
+  ]
+ },
+ {
+  "system": "HD 10647",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 3,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 10647",
+    "values": {
+     "Star (component)": "HD 10647 Ba",
+     "Role in system": "very wide companion (WT 50 Ba; binding uncertain at 37,000 AU)",
+     "Mass (M-sun)": 0.175,
+     "Stellar Class": "M4.0 Ve",
+     "Class (sort key)": 64,
+     "Star data source": "WT 50 = SIPS J0146-5339 = LEHPM 1853 = CNS5 452 = 2MASS J01462935-5339325 = Gaia DR3 4912898156569562624 (on 'Known within 100ly' as GJ 10246 B); M4.0Ve (Riedel et al. 2018, AJ 156, 49), unresolved. Itself a close pair: Tokovinin et al. 2024 (AJ 168, 28; VizieR J/AJ/168/28) resolved it at SOAR on 2023.66, 0.0296 +/- 0.0010 arcsec, PA 148 deg, delta-m(I) 0.2 ':' (tentative), tag 'N' = new pair; the WDS (01465-5340, TSN 9001 Ba,Bb, 2 obs) has a 2024 measure at 0.10 arcsec, PA 42 deg. Gaia DR3 RUWE 3.32 agrees. Mass INFERRED -- orange border, see the note. Unresolved Ba+Bb: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc) gives Teff 3170 K, L 6.23e-3, M 0.237 for the blend; TIC v8.2 0.239. Class is the composite spectrum. No component Teff or L published -- left blank. Bertini et al. 2023 (A&A 671, L2) call WT 50 'a 0.2-0.4 Ms companion' at 37350 +/- 29 AU. Kinematics are the unresolved photocentre. Added 6 Oct 2026.",
+     "Separation from": "HD 10647",
+     "Separation (AU)": 37293,
+     "Separation type": "projected",
+     "Separation source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4): s = 37293 au, rho 2150 arcsec, PA 82 deg (WT 50, ref 2023A&A...671L...2B). El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 37329, chance-alignment R = 0.0082.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": 162.078,
+     "Proper motion in Dec, μδ (mas/yr)": -104.436,
+     "Total proper motion, μ (arcsec/yr)": 0.193,
+     "Gaia DR3 source_id": "4912898156569562624",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": 28.15
+    },
+    "orange": {
+     "Mass (M-sun)": "WEAK: the split rests on a tentative speckle delta-m (I band) assumed to hold in Ks.\nINFERRED: Mann et al. 2019 (ApJ 871, 63) M_Ks-mass relation (5th order, no [Fe/H]) applied to deblended Ks: WT 50's unresolved 2MASS Ks = 8.609 split by the SOAR delta-m = 0.2 mag (Tokovinin et al. 2024, I band, flagged ':' tentative), assumed equal in Ks; distance from WT 50's own Gaia DR3 parallax 57.4584 mas. Ba: Ks 9.266, M_Ks 8.063 -> 0.175; Bb: Ks 9.466, M_Ks 8.263 -> 0.159. Equal brightness would give 0.167 each. Relation scatter 2.2%; delta-m uncertainty dominates (+/- 0.01 M-sun across delta-m 0-0.4). The unresolved Bioverse mass is 0.237."
+    },
+    "notes": {
+     "Separation (AU)": "WEAK: WT 50 is 37,300 AU (0.18 pc) from HD 10647. Plausibly bound (see the Separation source note), but a pair this wide is easily unbound by passing stars, and nothing measures an orbit.\nBoundness check (Gaia DR3, both at HD 10647's parallax and RV): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.17 km/s against an escape speed of 0.25 km/s at the projected separation for the summed masses -- consistent with a bound pair. RV: 28.15 +/- 1.08 vs 27.64 +/- 0.12 km/s. 0.18 pc is well inside the ~1.5 pc Galactic tidal radius for ~1.5 M-sun (Jiang & Tremaine 2010). WT 50's own proper motion is a perturbed photocentre (RUWE 3.32)."
+    }
+   },
+   {
+    "after": "HD 10647 Ba",
+    "values": {
+     "Star (component)": "HD 10647 Bb",
+     "Role in system": "companion of HD 10647 Ba (WT 50 Bb; tentative speckle resolution)",
+     "Mass (M-sun)": 0.159,
+     "Stellar Class": "M4.0 Ve",
+     "Class (sort key)": 64,
+     "Star data source": "Itself a close pair: Tokovinin et al. 2024 (AJ 168, 28; VizieR J/AJ/168/28) resolved it at SOAR on 2023.66, 0.0296 +/- 0.0010 arcsec, PA 148 deg, delta-m(I) 0.2 ':' (tentative), tag 'N' = new pair; the WDS (01465-5340, TSN 9001 Ba,Bb, 2 obs) has a 2024 measure at 0.10 arcsec, PA 42 deg. Gaia DR3 RUWE 3.32 agrees. WT 50 = SIPS J0146-5339 = LEHPM 1853 = CNS5 452 = 2MASS J01462935-5339325 = Gaia DR3 4912898156569562624 (on 'Known within 100ly' as GJ 10246 B); M4.0Ve (Riedel et al. 2018, AJ 156, 49), unresolved. Mass INFERRED -- orange border, see the note. Class is WT 50's composite spectrum; delta-m 0.2 makes both near M4. No Teff or L of its own published -- left blank. No Gaia DR3 source of its own. Added 6 Oct 2026.",
+     "Separation from": "HD 10647 Ba",
+     "Separation (AU)": 1.74,
+     "Separation type": "projected",
+     "Separation source": "WDS (VizieR B/wds/wds) 01465-5340 TSN 9001 Ba,Bb: 2023 and 2024 measures, last 0.10 arcsec at PA 42 deg; Tokovinin et al. 2024, AJ 168, 28: 2023.6638, 0.0296 arcsec, PA 148.0 deg; x WT 50's Gaia DR3 parallax"
+    },
+    "orange": {
+     "Mass (M-sun)": "WEAK: the split rests on a tentative speckle delta-m (I band) assumed to hold in Ks.\nINFERRED: Mann et al. 2019 (ApJ 871, 63) M_Ks-mass relation (5th order, no [Fe/H]) applied to deblended Ks: WT 50's unresolved 2MASS Ks = 8.609 split by the SOAR delta-m = 0.2 mag (Tokovinin et al. 2024, I band, flagged ':' tentative), assumed equal in Ks; distance from WT 50's own Gaia DR3 parallax 57.4584 mas. Ba: Ks 9.266, M_Ks 8.063 -> 0.175; Bb: Ks 9.466, M_Ks 8.263 -> 0.159. Equal brightness would give 0.167 each. Relation scatter 2.2%; delta-m uncertainty dominates (+/- 0.01 M-sun across delta-m 0-0.4). The unresolved Bioverse mass is 0.237.",
+     "Separation (AU)": "WEAK: one resolved epoch at this separation; the orbit is unknown.\nINFERRED: projected separation, rho 0.10 arcsec (WDS 01465-5340 TSN 9001 Ba,Bb, 2024 measure) x 17.40 pc (WT 50's Gaia DR3 parallax). The 2023 SOAR measure was 0.0296 arcsec (0.52 AU) at PA 148 deg, the 2024 one 0.10 arcsec at PA 42 deg: fast orbital motion, so the true semi-major axis is likely of order 1 AU."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 10647: F9 V (host)\nHD 10647 Ba: M4.0 Ve (very wide companion WT 50, 37,000 AU; binding uncertain)\nHD 10647 Bb: M4.0 Ve (companion of Ba; WT 50 resolved by speckle, ~0.03-0.10 arcsec)",
+  "stars_note": "3 stars since 6 Oct 2026, the outer two WEAK: HD 10647 (q1 Eri) and WT 50, 36 arcmin (37,300 AU, 0.18 pc projected) away, co-moving in Gaia DR3 (El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 0.008; Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4); Bertini et al. 2023). WT 50 is itself a close pair, Ba + Bb, resolved by SOAR speckle in 2023 (0.03 arcsec, Tokovinin et al. 2024) and 2024 (0.10 arcsec, WDS TSN 9001). The wide pair's velocities are consistent with a bound orbit, but at 0.18 pc it is fragile. Was 1.",
+  "sp_paragraph": "  HD 10647 (1 -> 3, WEAK): WT 50 (Gaia DR3 4912898156569562624, M4.0Ve, Riedel et al. 2018) is a co-moving companion 2150 arcsec away: El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (R = 0.0082), Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4) (s = 37293 au, used as published) and Bertini et al. 2023, A&A 671, L2 ('a 0.2-0.4 Ms companion, WT 50, ... at 37350 +/- 29 AU'). CHECKED HERE: perspective-corrected Gaia DR3 sky-plane velocity difference 0.17 km/s vs a 0.25 km/s escape speed at the projected separation; RVs 28.15 +/- 1.08 vs 27.64 +/- 0.12 km/s; 0.18 pc vs a ~1.5 pc Galactic tidal radius -- plausibly bound, fragile. WT 50 is itself a pair: SOAR speckle 2023.66, 0.0296 arcsec, delta-m(I) 0.2 tentative (Tokovinin et al. 2024, AJ 168, 28) and a 2024 WDS measure at 0.10 arcsec (TSN 9001 Ba,Bb), with Gaia RUWE 3.32. INFERRED (orange, WEAK): Ba and Bb masses, Mann et al. 2019 (ApJ 871, 63) M_Ks-mass relation (5th order, no [Fe/H]) applied to deblended Ks: WT 50's unresolved 2MASS Ks = 8.609 split by the SOAR delta-m = 0.2 mag (Tokovinin et al. 2024, I band, flagged ':' tentative), assumed equal in Ks; distance from WT 50's own Gaia DR3 parallax 57.4584 mas. Ba: Ks 9.266, M_Ks 8.063 -> 0.175; Bb: Ks 9.466, M_Ks 8.263 -> 0.159. Equal brightness would give 0.167 each. Inputs: 2MASS Ks, Gaia DR3 parallax, the SOAR delta-m. SCATTER: relation 2.2%; delta-m dominates, +/- 0.01 M-sun over delta-m 0-0.4. VALID: Mann 2019 holds for M_Ks 4-11, M dwarfs. INFERRED (orange, WEAK): Bb's projected separation, 0.10 arcsec x 17.40 pc = 1.74 AU, one epoch of a fast-moving orbit. No component Teff or L published; left blank.",
+  "flags": [
+   "HD 10647 is WEAK, as asked: WT 50 is 37,300 AU (0.18 pc) away. Three papers count it as a physical companion (El-Badry 2021 with R = 0.008; Gonzalez-Payo 2024; Bertini 2023). The 3D check supports binding: the sky-plane velocity difference after perspective correction is 0.17 km/s, against an escape speed of 0.25 km/s, and the RVs agree within 1.1 km/s. Such wide pairs are easily disrupted, and no orbit is measured.",
+   "HD 10647 DEVIATES from the +1 target: it goes to 3, not 2. WT 50 is a close pair, resolved by SOAR speckle in 2023 (0.0296\", tentative ':', Tokovinin 2024) and measured again in 2024 at 0.10\" (WDS TSN 9001 Ba,Bb, PA change of 106 degrees). Its RUWE is 3.32. If the owner prefers to count WT 50 as one star, drop the Bb row and set the count to 2.",
+   "HD 10647 Ba/Bb masses (0.175/0.159) are inferred by deblending WT 50's Ks with a tentative I-band delta-m. They are orange and WEAK. Ba/Bb have no Teff or L, so their solvent bands will read 'no luminosity on file'.",
+   "WT 50 is on 'Known within 100ly' as 'GJ 10246 B' (CNS5 naming). The Multi-stars rows use HD 10647 Ba/Bb, after the WDS Ba,Bb.",
+   "Projected separations use published values (Gonzalez-Payo 2024, or El-Badry 2021 / Michel 2024 where Gonzalez-Payo has none), not my own orange Gaia arithmetic (rule 4: published values are not orange). My Gaia DR3 x host-parallax values agree to within 0.2% (37329 AU here)."
+  ],
+  "sources_checked": [
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)",
+   "Bertini, Roccatagliata & Kim 2023, A&A 671, L2 (arXiv:2302.06302; VizieR J/A+A/671/L2)",
+   "Tokovinin et al. 2024, AJ 168, 28 (Speckle interferometry at SOAR in 2023; VizieR J/AJ/168/28)",
+   "WDS (VizieR B/wds/wds) 01465-5340 TSN 9001 Ba,Bb",
+   "Vrijmoet et al. 2020, AJ 160, 215 (VizieR J/AJ/160/215 table2: WT0050 RECONS vs Gaia DR2 astrometry)",
+   "Riedel et al. 2018, AJ 156, 49 (M4.0Ve, via SIMBAD)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "TIC v8.2 (VizieR IV/39/tic82) TIC 229142295",
+   "Mann et al. 2019, ApJ 871, 63 (M_Ks-mass relation)",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Jiang & Tremaine 2010, MNRAS 401, 977 (tidal radius scale)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: WT 50 only on Known as GJ 10246 B"
+  ]
+ },
+ {
+  "system": "HIP 38594",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HIP 38594",
+    "values": {
+     "Star (component)": "HIP 38594 B",
+     "Role in system": "companion, white dwarf",
+     "Mass (M-sun)": 0.518,
+     "Stellar Class": "DA10",
+     "Class (sort key)": "",
+     "Effective temp (K)": 4939,
+     "Luminosity (L-sun)": 9.65e-05,
+     "Star data source": "THIS IS A DA WHITE DWARF, NOT AN M DWARF. = SCR J0753-2524 = WD 0751-252 = WDJ075356.62-252401.48 = CNS5 1943 (on 'Known within 100ly' as GJ 11136 B). Teff, log g, mass: O'Brien et al. 2024, MNRAS 527, 8687 (40 pc white dwarf sample, VizieR J/MNRAS/527/8687), H atmosphere: Teff 4939 +/- 21 K, log g 7.897 +/- 0.018, M 0.518 +/- 0.010 M-sun, cooling age 6.0 Gyr; the same as Gentile Fusillo et al. 2021 (VizieR J/MNRAS/508/3877: 4939 K, 7.895, 0.517, P_wd 0.996). Class: Sion et al. 2009, AJ 138, 1681 (DA10). Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) give ~0.600 M-sun, 5097 K. L: INFERRED, NOT PUBLISHED -- orange border. DO NOT apply this workbook's M_abs->L_bol relation (fitted to K5 V-L8 dwarfs). Added 6 Oct 2026.",
+     "Separation from": "HIP 38594",
+     "Separation (AU)": 7110,
+     "Separation type": "projected",
+     "Separation source": "Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183): HIP 38594 B, Sep 7110 au (WD). Also O'Brien et al. 2024 binaries table (WDMS with CD-24 6144 = HIP 38594): 7123.9 AU, dv_tan 0.52 km/s; El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): 7109.6 AU, BinType WDMS, R = 0.095; WDS 07542-2518 SUB 3, 400 arcsec.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -297.998,
+     "Proper motion in Dec, μδ (mas/yr)": 206.525,
+     "Total proper motion, μ (arcsec/yr)": 0.363,
+     "Gaia DR3 source_id": "5602379190880667904",
+     "Kinematics source": "PM: Gaia DR3"
+    },
+    "orange": {
+     "Luminosity (L-sun)": "INFERRED: L = R^2 (Teff/5772)^4 with R = sqrt(G M / g) = 0.01342 R-sun from O'Brien et al. 2024 (MNRAS 527, 8687) Teff_H 4939 +/- 21 K, log g 7.897 +/- 0.018, M 0.518 +/- 0.010 = 9.655e-05 L-sun (+/- 1% from those errors). A white dwarf: the M_abs->L_bol dwarf relation was NOT used."
+    },
+    "notes": {
+     "Separation (AU)": "El-Badry 2021's chance-alignment probability for this pair is R = 0.095, just under their 0.1 cut, so it is the weakest of the El-Badry matches here. O'Brien et al. 2024 and Michel & Mugrauer 2024 both list it as a physical WD+MS pair. Boundness check (Gaia DR3, at HIP 38594's parallax): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.39 km/s against an escape speed of 0.53 km/s at the projected separation for the summed masses -- consistent with a bound pair."
+    }
+   }
+  ],
+  "systems_text": "HIP 38594: M0 (host)\nHIP 38594 B: DA10 (companion, white dwarf; 400 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: HIP 38594 and the cool DA white dwarf HIP 38594 B (SCR J0753-2524, WD 0751-252), 400 arcsec (7110 AU projected) away. Listed as a physical pair by Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183), O'Brien et al. 2024 (MNRAS 527, 8687) and El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (R = 0.095). Was 1.",
+  "sp_paragraph": "  HIP 38594 (1 -> 2): HIP 38594 B = SCR J0753-2524 = WD 0751-252 (Gaia DR3 5602379190880667904), a DA white dwarf 400 arcsec away. Pair listed by Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) (Sep 7110 au, used as published), by O'Brien et al. 2024, MNRAS 527, 8687 (40 pc WD sample, WD+MS binary, 7124 AU, dv_tan 0.52 km/s) and by El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (R = 0.095, near their 0.1 limit). Teff 4939 +/- 21 K, log g 7.897, M 0.518 +/- 0.010 (H atmosphere) from O'Brien et al. 2024, as published (Gentile Fusillo et al. 2021 agree); class DA10 from Sion et al. 2009, AJ 138, 1681. INFERRED (orange): L = R^2 (Teff/5772)^4 with R = sqrt(GM/g) = 0.01342 R-sun -> 9.655e-05 L-sun. METHOD: exact arithmetic on published Teff, log g and mass. SCATTER: +/- 1% from the quoted errors; the model-atmosphere choice (H vs He) moves it by a few %. VALID: white dwarfs only; the workbook's M_abs->L_bol dwarf relation was not used. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.39 km/s against an escape speed of 0.53 km/s at the projected separation for the summed masses -- consistent with a bound pair. Kinematics Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06) (PM only; no RV).",
+  "flags": [
+   "HIP 38594 B: El-Badry 2021's chance-alignment probability is R = 0.095, close to their 0.1 cut, so the Gaia statistics alone are marginal. Two independent papers list it as a physical pair: O'Brien 2024 (WD+MS, dv_tan 0.52 km/s) and Michel & Mugrauer 2024. The velocity check passes (0.39 < 0.53 km/s). Counted.",
+   "HIP 38594 B's mass is O'Brien 2024's 0.518 (= Gentile Fusillo 2021's 0.517), not Michel & Mugrauer 2024's ~0.600. The luminosity is inferred (orange)."
+  ],
+  "sources_checked": [
+   "O'Brien et al. 2024, MNRAS 527, 8687 (VizieR J/MNRAS/527/8687)",
+   "Gentile Fusillo et al. 2021, MNRAS 508, 3877 (VizieR J/MNRAS/508/3877/maincat)",
+   "Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Sion et al. 2009, AJ 138, 1681 (DA10, via SIMBAD)",
+   "WDS (VizieR B/wds/wds) 07542-2518 SUB 3",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as GJ 11136 B"
+  ]
+ },
+ {
+  "system": "TOI-5789",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "TOI-5789",
+    "values": {
+     "Star (component)": "TOI-5789 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.212,
+     "Stellar Class": "M4.0 V",
+     "Class (sort key)": 64,
+     "Effective temp (K)": 3217,
+     "Luminosity (L-sun)": 0.00748,
+     "Star data source": "= G 143-35 = GJ 783.2 B = LHS 3530 = BD+15 4074B = Karmn J20112+161 (on 'Known within 100ly' as GJ 783.2 B). Teff 3217 K, M 0.212 M-sun (R 0.251): Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64), as PM I20112+1611 / Gl 783.2B. L: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), 7.48e-3 +/- 0.20e-3 (same catalogue: Teff 3248, M 0.246). Class: Alonso-Floriano et al. 2015, A&A 577, A128 (M4.0 V; Mann 2015 M4.0). Bonomo et al. 2026, A&A (GAPS LXXI; arXiv:2510.11490) name it as the host's stellar companion: ~0.24 M-sun, 'M5 V', 103.9 arcsec, ~2120 au. Added 6 Oct 2026.",
+     "Separation from": "TOI-5789",
+     "Separation (AU)": 2122.4,
+     "Separation type": "projected",
+     "Separation source": "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 2122.43 (rho 103.84 arcsec at TOI-5789's parallax), R = 9.2e-6. Bonomo et al. 2026, A&A (GAPS LXXI; arXiv:2510.11490): ~2120 au. = WDS 20111+1611 AE (GIC 163).",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -417.298,
+     "Proper motion in Dec, μδ (mas/yr)": 399.608,
+     "Total proper motion, μ (arcsec/yr)": 0.578,
+     "Gaia DR3 source_id": "1809359465717142656",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": -50.07
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "TOI-5789: K1 V (host)\nTOI-5789 B: M4.0 V (companion, G 143-35 = GJ 783.2 B; 104 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: TOI-5789 (HIP 99452) and TOI-5789 B = G 143-35 = GJ 783.2 B, 104 arcsec (2122 AU projected) away. Bonomo et al. 2026, A&A (GAPS LXXI; arXiv:2510.11490) name it as the host's stellar companion; El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 9e-6. Was 1.",
+  "sp_paragraph": "  TOI-5789 (1 -> 2): TOI-5789 B = G 143-35 = GJ 783.2 B (Gaia DR3 1809359465717142656). Bonomo et al. 2026, A&A (GAPS LXXI; arXiv:2510.11490), Sect. 1: 'a stellar companion with a mass of about 0.24 M-sun (spectral type M5 V ...) at ~103.9 arcsec ... ~2120 au'. El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 2122.43, R = 9.2e-6 (used as published). Teff 3217 K and mass 0.212 M-sun from Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64); L 7.48e-3 from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc); class M4.0 V from Alonso-Floriano et al. 2015 (A&A 577, A128) and Mann 2015 (Bonomo's 'M5 V' disagrees). All as published. RVs -50.07 +/- 0.47 (B) and -49.37 +/- 0.12 km/s (A, Gaia DR3). Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.27 km/s against an escape speed of 0.93 km/s at the projected separation for the summed masses -- consistent with a bound pair. No orange cells. The WDS's other components of 20111+1611 (AB, AD, AF) are not co-moving in Gaia DR3 and are not counted.",
+  "flags": [
+   "TOI-5789 B: Bonomo et al. 2026 call it 'M5 V' (citing Newton 2014) and ~0.24 M-sun. CARMENES (Alonso-Floriano 2015) and Mann 2015 give M4.0 and 0.212, which I entered.",
+   "WDS 20111+1611 lists other components around TOI-5789 (AB 212\", AD 35\", AF 7.8\"). None is a Gaia DR3 co-moving companion, and SOAR speckle found nothing within 1\" (Bonomo 2026). Only AE (= G 143-35) is counted."
+  ],
+  "sources_checked": [
+   "Bonomo et al. 2026, A&A (GAPS LXXI; arXiv:2510.11490)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Alonso-Floriano et al. 2015, A&A 577, A128 (via SIMBAD)",
+   "Cifuentes et al. 2020, A&A 642, A115 (VizieR J/A+A/642/A115/tablea3: listed, flagged Multiple, no Lbol)",
+   "WDS (VizieR B/wds/wds) 20111+1611",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "TIC v8.2 TIC 87216644 (Teff 3239, M 0.245)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as GJ 783.2 B"
+  ]
+ },
+ {
+  "system": "TOI-4642",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host, candidate planet host (TOI-4642.01, Unconfirmed tab)"
+  },
+  "rows": [
+   {
+    "after": "TOI-4642",
+    "values": {
+     "Star (component)": "TOI-4642 B",
+     "Role in system": "companion (brighter and more massive than the TOI host; CNS5 calls it GJ 10288 A)",
+     "Mass (M-sun)": 0.259,
+     "Stellar Class": "M3.75",
+     "Class (sort key)": 63.75,
+     "Effective temp (K)": 3326,
+     "Luminosity (L-sun)": 0.00814,
+     "Star data source": "= PM J02034+0648 = CNS5 522 (on 'Known within 100ly' as GJ 10288 A) = 2MASS J02032589+0648008 = TIC 336961885. Teff 3326 +/- 111 K, L 8.14e-3 +/- 0.27e-3, M 0.259 +/- 0.008 M-sun: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc) (same catalogue for the TOI host: 3266 K, 5.32e-3, 0.210). Class: Terrien et al. 2015, ApJS 220, 16 (M3.75, near-IR). G 12.73, against the host's 13.27: this is the brighter star of the pair. Named B after the TOI host, as the tab's other companions are. Added 6 Oct 2026.",
+     "Separation from": "TOI-4642",
+     "Separation (AU)": 2604.3,
+     "Separation type": "projected",
+     "Separation source": "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 2604.32 (rho 110.77 arcsec at this star's parallax, 42.53 mas -- El-Badry's primary is the brighter star), R = 1.1e-3. = WDS 02034+0648 UC 23.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": 94.018,
+     "Proper motion in Dec, μδ (mas/yr)": -120.392,
+     "Total proper motion, μ (arcsec/yr)": 0.153,
+     "Gaia DR3 source_id": "2519736851615952256",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": 13.24
+    },
+    "orange": {},
+    "notes": {
+     "Separation (AU)": "At the TOI host's parallax (42.44 mas) the same 110.77 arcsec is 2609.7 AU."
+    }
+   }
+  ],
+  "systems_text": "TOI-4642: M (host, candidate planet host)\nTOI-4642 B: M3.75 (companion, PM J02034+0648; 111 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: TOI-4642 and TOI-4642 B = PM J02034+0648 (CNS5's GJ 10288 A, the brighter of the two), 111 arcsec (2604 AU projected) away; a Gaia DR3 co-moving pair (El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 0.001; WDS 02034+0648 UC 23). On Multi-stars as a candidate host (TOI-4642.01, Unconfirmed tab), with no confirmed planet. Was 1.",
+  "sp_paragraph": "  TOI-4642 (1 -> 2): added to Multi-stars as a candidate host (TOI-4642.01 on Unconfirmed). TOI-4642 B = PM J02034+0648 (Gaia DR3 2519736851615952256), M3.75 (Terrien et al. 2015, ApJS 220, 16), 110.8 arcsec away: El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (R = 1.1e-3, sepAU 2604.3 at the companion's parallax, used as published); WDS 02034+0648 UC 23. Teff 3326 K, L 8.14e-3, mass 0.259 M-sun from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), as published. It is brighter (G 12.73 vs 13.27) and more massive than the TOI host; CNS5 names the pair GJ 10288 A (this star) and B. RVs 13.24 +/- 0.71 vs 12.30 +/- 0.85 km/s. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.28 km/s against an escape speed of 0.57 km/s at the projected separation for the summed masses -- consistent with a bound pair. No orange cells.",
+  "flags": [
+   "TOI-4642 B is the brighter, more massive star of the pair (G 12.73 vs 13.27; 0.26 vs 0.21 M-sun), and CNS5 calls it GJ 10288 A. It is named 'TOI-4642 B' only to follow the tab's <host> B convention. The owner may prefer 'PM J02034+0648' or the CNS5 letters."
+  ],
+  "sources_checked": [
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Terrien et al. 2015, ApJS 220, 16 (M3.75, via SIMBAD)",
+   "Golovin et al. 2023, A&A 670, A19 (CNS5)",
+   "WDS (VizieR B/wds/wds) 02034+0648 UC 23",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Gaia DR3 FLAME (I/355/paramp): L 9.24e-3 from GSP-Phot Teff 3069 K (not used: GSP-Phot M-dwarf caveat)",
+   "TIC v8.2 TIC 336961885 (Teff 3341, M 0.260)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as GJ 10288 A"
+  ]
+ },
+ {
+  "system": "HD 16417",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 16417",
+    "values": {
+     "Star (component)": "HD 16417 B",
+     "Role in system": "companion (late M dwarf, ~0.11 M-sun)",
+     "Mass (M-sun)": 0.11,
+     "Stellar Class": "M5.5",
+     "Class (sort key)": 65.5,
+     "Effective temp (K)": 2905,
+     "Luminosity (L-sun)": 0.00116,
+     "Star data source": "= lam02 For B = HIP 12186B = 2MASS J02370217-3434315 = WDS 02370-3435 MUG 12 B. Teff 2905 +/- 104 K, M 0.109 M-sun, R 0.134, photometric type 5.5 (M5.5): Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list; VizieR J/A+A/645/A100, Sp0237-3434). Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183): 0.113 M-sun, 2937 K; Mugrauer 2019 (MNRAS 490, 5088): 0.108, 2900 K. Reyle et al. 2018 (A&A 619, L8) give a photometric M7 from Gaia DR2 colours, later than the Teff implies. L: INFERRED, NOT PUBLISHED -- orange border. Added 6 Oct 2026.",
+     "Separation from": "HD 16417",
+     "Separation (AU)": 1145,
+     "Separation type": "projected",
+     "Separation source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4): s = 1145 au, rho 45.01 arcsec (2MASS J02370217-3434315, MUG 12). Also Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) (1145 au) and El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (1145.4, R = 7.8e-7).",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -16.854,
+     "Proper motion in Dec, μδ (mas/yr)": -264.793,
+     "Total proper motion, μ (arcsec/yr)": 0.265,
+     "Gaia DR3 source_id": "5062172669818053760",
+     "Kinematics source": "PM: Gaia DR3"
+    },
+    "orange": {
+     "Luminosity (L-sun)": "INFERRED: L = R^2 (Teff/5772)^4 = 0.134^2 x (2905/5772)^4 = 0.00116, from Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list; VizieR J/A+A/645/A100, Sp0237-3434): R 0.134 +/- 0.02 R-sun, Teff 2905 +/- 104 K. Teff +/- 104 K alone is +/- 15% in L. The catalogue's own Lbol column reads 11.55, which matches only in units of 1e-4 L-sun (its ReadMe says L-sun)."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 16417: G1 V (host)\nHD 16417 B: M5.5 (companion, lam02 For B; 45 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: HD 16417 (lam02 For) and HD 16417 B, a ~0.11 M-sun late M dwarf 45 arcsec (1145 AU projected) away (Mugrauer 2019, MNRAS 490, 5088; Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183); Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)). Was 1.",
+  "sp_paragraph": "  HD 16417 (1 -> 2): HD 16417 B = lam02 For B (Gaia DR3 5062172669818053760), found by Mugrauer 2019 (MNRAS 490, 5088; WDS MUG 12) and confirmed in Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) and Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4) (s = 1145 au, used as published); El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 7.8e-7. Teff 2905 K, mass 0.109 M-sun and photometric type M5.5 from Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list; VizieR J/A+A/645/A100, Sp0237-3434), as published. INFERRED (orange): L = R^2 (Teff/5772)^4 = 0.00116 from that catalogue's R 0.134 and Teff 2905. METHOD: exact arithmetic. SCATTER: Teff +/- 104 K gives +/- 15%, R +/- 0.02 a further +/- 30%. VALID: this star only. The catalogue's Lbol (11.55) agrees in units of 1e-4 L-sun. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.72 km/s against an escape speed of 1.42 km/s at the projected separation for the summed masses -- consistent with a bound pair. Kinematics Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06) (PM only; no RV).",
+  "flags": [
+   "HD 16417 B's luminosity is inferred (orange) from the SPECULOOS R and Teff. That catalogue's Lbol column (11.55, 'Lsun') is evidently in 1e-4 L-sun. Its class is uncertain: photometric M5.5 (SPECULOOS) vs M7 (Reyle 2018). I entered M5.5, which fits Teff ~2900 K."
+  ],
+  "sources_checked": [
+   "Sebastian et al. 2021, A&A 645, A100 (SPECULOOS target list; VizieR J/A+A/645/A100, Sp0237-3434)",
+   "Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183)",
+   "Mugrauer 2019, MNRAS 490, 5088 (VizieR J/MNRAS/490/5088 table 4: 0.108 M-sun, 2900 K)",
+   "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Reyle et al. 2018, A&A 619, L8 (VizieR J/A+A/619/L8: M7 photometric)",
+   "TIC v8.2 TIC 122555697 (Teff 2843, M 0.109)",
+   "WDS 02370-3435 MUG 12",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as Gaia DR3 5062172669818053760"
+  ]
+ },
+ {
+  "system": "HD 164595",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 164595",
+    "values": {
+     "Star (component)": "HD 164595 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.455,
+     "Stellar Class": "M2.5 V",
+     "Class (sort key)": 62.5,
+     "Effective temp (K)": 3509,
+     "Luminosity (L-sun)": 0.0282,
+     "Star data source": "= HD 164595B = LSPM J1800+2933 = LP 333-29 = NLTT 45791 = WDS 18006+2934 LDS 6413 B. Teff 3509 K, M 0.455 M-sun (R 0.464): Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64), as PM I18007+2933. L: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), 2.82e-2 +/- 0.09e-2 (Gaia DR3 FLAME 2.76e-2). Class: Alonso-Floriano et al. 2015, A&A 577, A128 (M2.5 V). Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183): 0.454 M-sun, 3608 K. Added 6 Oct 2026.",
+     "Separation from": "HD 164595",
+     "Separation (AU)": 2489,
+     "Separation type": "projected",
+     "Separation source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4): s = 2489 au, rho 88.12 arcsec (HD 164595B, LDS 6413). Also Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) (2489 au) and El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (2489.3, R = 3.3e-4).",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -136.681,
+     "Proper motion in Dec, μδ (mas/yr)": 173.294,
+     "Total proper motion, μ (arcsec/yr)": 0.221,
+     "Gaia DR3 source_id": "4584638930036248192",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": 2.35
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 164595: G2 V (host)\nHD 164595 B: M2.5 V (companion, LDS 6413 B; 88 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: HD 164595 and HD 164595 B (LSPM J1800+2933), 88 arcsec (2489 AU projected) away (Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4); Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183); WDS LDS 6413). Was 1.",
+  "sp_paragraph": "  HD 164595 (1 -> 2): HD 164595 B = LSPM J1800+2933 (Gaia DR3 4584638930036248192, WDS 18006+2934 LDS 6413), listed by Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4) (s = 2489 au, used as published), Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) and Mugrauer 2019; El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 3.3e-4. Teff 3509 K and mass 0.455 M-sun from Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64); L 2.82e-2 from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc); class M2.5 V from Alonso-Floriano et al. 2015. All as published. RVs 2.35 +/- 0.31 vs 1.99 +/- 0.12 km/s. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.31 km/s against an escape speed of 1.02 km/s at the projected separation for the summed masses -- consistent with a bound pair. B is too far away to cause the host's RV trend (Unconfirmed 'HD 164595 candidate (RV trend)', -2.34 m/s/yr): at 2489 AU it pulls at ~0.014 m/s/yr. No orange cells.",
+  "flags": [
+   "HD 164595 B is not the body behind the Unconfirmed 'HD 164595 candidate (RV trend)' (-2.34 m/s/yr). At >= 2489 AU, a 0.455 M-sun star produces ~0.014 m/s/yr, 170x too small. The candidate stays as it is."
+  ],
+  "sources_checked": [
+   "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)",
+   "Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183)",
+   "Mugrauer 2019, MNRAS 490, 5088 (VizieR J/MNRAS/490/5088 table 4: 0.471 M-sun, 3635 K)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Mann et al. 2015, ApJ 804, 64 (VizieR J/ApJ/804/64)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Alonso-Floriano et al. 2015, A&A 577, A128 (M2.5V, via SIMBAD)",
+   "Gaia DR3 FLAME (I/355/paramp): L 2.76e-2",
+   "WDS 18006+2934 LDS 6413",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as Gaia DR3 4584638930036248192"
+  ]
+ },
+ {
+  "system": "iot Hyi",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host, candidate planet host (iot Hyi candidate (PMa, a~18 au), Unconfirmed tab)"
+  },
+  "rows": [
+   {
+    "after": "iot Hyi",
+    "values": {
+     "Star (component)": "iot Hyi B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.227,
+     "Effective temp (K)": 3168,
+     "Luminosity (L-sun)": 0.00542,
+     "Star data source": "= 2MASS J03171968-7722171 = WISEA J031720.06-772216.3 = TIC 431383040. Teff 3168 +/- 105 K, L 5.42e-3 +/- 0.15e-3, M 0.227 +/- 0.007 M-sun: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc). No published spectral type (BP-RP 3.11). Kerr et al. 2022, ApJ 941, 143 (SPYGLASS III; VizieR J/ApJ/941/143), table 5: binary system 96 = iot Hyi + this star, 8126 AU. Named B here; no literature letter. Gaia DR3 RV 15.03 +/- 8.47 km/s, too uncertain to enter. Added 6 Oct 2026.",
+     "Separation from": "iot Hyi",
+     "Separation (AU)": 8047.7,
+     "Separation type": "projected",
+     "Separation source": "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): sepAU 8047.72 (rho 275.75 arcsec at iot Hyi's parallax), R = 3.2e-3. Kerr et al. 2022, ApJ 941, 143 (SPYGLASS III; VizieR J/ApJ/941/143): 8126 AU.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": 115.537,
+     "Proper motion in Dec, μδ (mas/yr)": 61.356,
+     "Total proper motion, μ (arcsec/yr)": 0.131,
+     "Gaia DR3 source_id": "4626844714657877376",
+     "Kinematics source": "PM: Gaia DR3"
+    },
+    "orange": {},
+    "notes": {
+     "Separation (AU)": "iot Hyi is a candidate member of a young association (Kerr et al. 2022 table 2: literature group Carina, HDBSCAN subgroup Tuc-Hor). A co-member 0.04 pc away could in principle be unbound; El-Badry's R uses the field density, not a moving group's. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.40 km/s against an escape speed of 0.60 km/s at the projected separation for the summed masses -- consistent with a bound pair."
+    }
+   }
+  ],
+  "systems_text": "iot Hyi: F5IV-V (host, candidate planet host)\niot Hyi B: class unknown (companion, 276 arcsec; Teff 3168 K)",
+  "stars_note": "2 stars since 6 Oct 2026: iot Hyi and iot Hyi B (2MASS J03171968-7722171), 276 arcsec (8048 AU projected) away, a Gaia DR3 co-moving pair (El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 0.003; Kerr et al. 2022, ApJ 941, 143 (SPYGLASS III; VizieR J/ApJ/941/143), binary system 96). On Multi-stars as a candidate host (iot Hyi candidate (PMa), Unconfirmed tab), with no confirmed planet. Was 1.",
+  "sp_paragraph": "  iot Hyi (1 -> 2): added to Multi-stars as a candidate host (the PMa candidate on Unconfirmed). iot Hyi B = 2MASS J03171968-7722171 (Gaia DR3 4626844714657877376), 275.7 arcsec away: El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (R = 3.2e-3, sepAU 8047.7, used as published); Kerr et al. 2022, ApJ 941, 143 (SPYGLASS III; VizieR J/ApJ/941/143) list the two as binary system 96 (8126 AU). Teff 3168 K, L 5.42e-3, mass 0.227 M-sun from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), as published; no spectral type published. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.40 km/s against an escape speed of 0.60 km/s at the projected separation for the summed masses -- consistent with a bound pair. Kerr et al. place iot Hyi among candidate members of the Carina / Tuc-Hor groups, where unbound co-members are common. Noted, not decisive at 0.04 pc. B is far too distant to be the Unconfirmed PMa candidate (a ~ 18 au). No orange cells.",
+  "flags": [
+   "iot Hyi B: Kerr et al. 2022 list iot Hyi as a candidate member of a young association (Carina / Tuc-Hor). In a moving group, El-Badry's field-based R = 0.003 understates the chance of an unbound co-member, as with AU Mic / AT Mic. This pair is 0.04 pc apart, not 78', and Kerr et al. themselves pair them (system 96). Counted, but the owner should know. The young-association membership also conflicts with the Systems tab's 2.51 Gyr age for iot Hyi; not changed.",
+   "iot Hyi B is not the Unconfirmed 'iot Hyi candidate (PMa, a~18 au)': it is 8000 AU away and too far to make that PMa signal.",
+   "iot Hyi B has no published spectral type. The 'B' is my label; the literature gives no letter."
+  ],
+  "sources_checked": [
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Kerr et al. 2022, ApJ 941, 143 (SPYGLASS III; VizieR J/ApJ/941/143)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "TIC v8.2 TIC 431383040 (Teff 3127, M 0.228)",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Gagne et al. 2015, ApJ 798, 73 (BANYAN V, via SIMBAD reference list)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as Gaia DR3 4626844714657877376"
+  ]
+ },
+ {
+  "system": "HD 75302",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 75302",
+    "values": {
+     "Star (component)": "HD 75302 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.227,
+     "Stellar Class": "M4",
+     "Class (sort key)": 64,
+     "Effective temp (K)": 3233,
+     "Luminosity (L-sun)": 0.00576,
+     "Star data source": "= LSPM J0849+0329W = WDS 08492+0329 LEP 33 B (Lepine & Bongiorno 2007, AJ 133, 889). Teff 3233 +/- 108 K, L 5.76e-3 +/- 0.17e-3, M 0.227 +/- 0.007 M-sun: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc). Class: Newton et al. 2014, AJ 147, 20 (M4, near-IR). Added 6 Oct 2026.",
+     "Separation from": "HD 75302",
+     "Separation (AU)": 4835,
+     "Separation type": "projected",
+     "Separation source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4): s = 4835 au, rho 159.452 arcsec (LSPM J0849+0329W, LEP 33). El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog): 4835.1, R = 3.6e-4.",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -150.446,
+     "Proper motion in Dec, μδ (mas/yr)": 58.375,
+     "Total proper motion, μ (arcsec/yr)": 0.161,
+     "Gaia DR3 source_id": "581103581886377728",
+     "Kinematics source": "PM: Gaia DR3"
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 75302: G5 V (host)\nHD 75302 B: M4 (companion, LSPM J0849+0329W; 159 arcsec)",
+  "stars_note": "2 stars since 6 Oct 2026: HD 75302 and HD 75302 B (LSPM J0849+0329W), 159 arcsec (4835 AU projected) away (Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4); WDS LEP 33; El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 4e-4). Was 1.",
+  "sp_paragraph": "  HD 75302 (1 -> 2): HD 75302 B = LSPM J0849+0329W (Gaia DR3 581103581886377728, WDS 08492+0329 LEP 33, Lepine & Bongiorno 2007), listed by Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4) (s = 4835 au, used as published); El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 3.6e-4. Teff 3233 K, L 5.76e-3, mass 0.227 M-sun from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc); class M4 from Newton et al. 2014. All as published. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.42 km/s against an escape speed of 0.69 km/s at the projected separation for the summed masses -- consistent with a bound pair. Kinematics Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06) (PM only; no RV). No orange cells.",
+  "flags": [],
+  "sources_checked": [
+   "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Newton et al. 2014, AJ 147, 20 (M4, via SIMBAD)",
+   "Lepine & Bongiorno 2007, AJ 133, 889",
+   "WDS 08492+0329 LEP 33",
+   "TIC v8.2 TIC 262587675 (Teff 3222, M 0.228)",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: only on Known as Gaia DR3 581103581886377728"
+  ]
+ },
+ {
+  "system": "HD 8326",
+  "action": "new_system",
+  "old_count": 1,
+  "new_count": 2,
+  "host_overrides": {},
+  "rows": [
+   {
+    "after": "HD 8326",
+    "values": {
+     "Star (component)": "HD 8326 B",
+     "Role in system": "companion",
+     "Mass (M-sun)": 0.193,
+     "Effective temp (K)": 3199,
+     "Luminosity (L-sun)": 0.00422,
+     "Star data source": "= G 274-15 = GJ 3092 = LP 883-221 = NLTT 4566 = WDS 01221-2654 LDS 2189 B. Teff 3199 +/- 106 K, L 4.22e-3 +/- 0.11e-3, M 0.193 +/- 0.006 M-sun: Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc). Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183): 0.192 M-sun, 3244 K. No usable spectral type: SIMBAD's 'M3+' is Pesch & Sanduleak 1978's objective-prism label for 'M3 or later', not a class -- left blank. Not on 'Known within 100ly' (it is just past 100 ly). Added 6 Oct 2026.",
+     "Separation from": "HD 8326",
+     "Separation (AU)": 1747,
+     "Separation type": "projected",
+     "Separation source": "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4): s = 1747 au, rho 56.88 arcsec (G 274-15, LDS 2189). Also Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183) (1747 au) and El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog) (1746.7, R = 1.3e-4).",
+     "Proper motion in RA, μα·cos δ (mas/yr)": -57.216,
+     "Proper motion in Dec, μδ (mas/yr)": -223.984,
+     "Total proper motion, μ (arcsec/yr)": 0.231,
+     "Gaia DR3 source_id": "5036552983736723968",
+     "Kinematics source": "RV: Gaia DR3; PM: Gaia DR3",
+     "Radial velocity (km/s)": 22.55
+    },
+    "orange": {},
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 8326: K2 V (host)\nHD 8326 B: class unknown (companion, G 274-15 = GJ 3092; 57 arcsec; Teff 3199 K)",
+  "stars_note": "2 stars since 6 Oct 2026: HD 8326 and HD 8326 B = G 274-15 = GJ 3092, 57 arcsec (1747 AU projected) away (Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4); Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183); WDS LDS 2189). Was 1.",
+  "sp_paragraph": "  HD 8326 (1 -> 2): HD 8326 B = G 274-15 = GJ 3092 (Gaia DR3 5036552983736723968, WDS 01221-2654 LDS 2189), listed by Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4) (s = 1747 au, used as published) and Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183); El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog), R = 1.3e-4. Teff 3199 K, L 4.22e-3, mass 0.193 M-sun from Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc), as published (Michel & Mugrauer: 0.192, 3244 K). No usable spectral type: 'M3+' is a survey label. RVs 22.55 +/- 1.62 vs 21.02 +/- 0.13 km/s. Boundness check (Gaia DR3): Gaia DR3 sky-plane velocity difference, corrected for perspective, 0.21 km/s against an escape speed of 1.00 km/s at the projected separation for the summed masses -- consistent with a bound pair. No orange cells.",
+  "flags": [
+   "HD 8326 B: SIMBAD's 'M3+' (Pesch & Sanduleak 1978) means 'M3 or later' and is not a class, so Stellar Class is blank. HD 8326 sits at 100.16 ly, just outside the Known tab's range, so B is on no tab yet."
+  ],
+  "sources_checked": [
+   "Gonzalez-Payo et al. 2024, A&A 689, A302 (arXiv:2407.20138; VizieR J/A+A/689/A302 table B4)",
+   "Michel & Mugrauer 2024, MNRAS 527, 3183 (VizieR J/MNRAS/527/3183)",
+   "El-Badry, Rix & Heintz 2021, MNRAS 506, 2269 (VizieR J/MNRAS/506/2269/catalog)",
+   "Hardegree-Ullman et al. 2023, AJ 165, 267 (Bioverse; VizieR J/AJ/165/267 table1, Gaia DR3-based main-sequence catalogue within 120 pc)",
+   "Pesch & Sanduleak 1978, AJ 83, 1090 (via SIMBAD)",
+   "WDS 01221-2654 LDS 2189",
+   "TIC v8.2 TIC 11613069 (Teff 3174, M 0.195)",
+   "Gaia DR3 (VizieR I/355/gaiadr3, queried 2026-10-06)",
+   "Snapshot hy-brasil-20261006-1120, all tabs: no row for this star"
+  ]
+ }
+]

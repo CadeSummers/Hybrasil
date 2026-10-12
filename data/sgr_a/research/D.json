@@ -1,0 +1,2958 @@
+{
+  "agent": "D",
+  "retrieved": "2026-10-10",
+  "method_note": "Values were read from: the Nature HTML of 2026Natur.657..359A with its Extended Data Table 2 image (Tab2_ESM.jpg), cross-checked against arXiv:2607.12664v1; arXiv PDFs of the other papers (pdftotext -layout, and pypdf for Greek column headers and for tables whose layout text scrambled rows); the Nature table image for Ciurlo 2020 Extended Data Table 3; SIMBAD TAP (identifiers, otype, sp_type/sp_bibcode, K flux and bibcode; ref table for bibcode/DOI/title); Crossref for two DOIs. ADS was not used (captcha). Nothing was computed, converted or estimated: a stays in the unit printed (mas, arcsec, mpc or AU), P/tP/rp only where printed, and anything not printed is null. Dusty/gas G-objects are included in new_stars with an object_class label because the brief asked for their orbits; they are not confirmed stars. Asymmetric errors are stored as err_plus/err_minus with err null.",
+  "s301": {
+    "names": [
+      "S301"
+    ],
+    "status": "confirmed by its discoverers only (GRAVITY+ Collaboration); no independent detection by another group yet. Published in Nature after peer review.",
+    "orbit": {
+      "solution": "1 of 2 (left column of Extended Data Table 2; the one whose posterior is Extended Data Fig. 5)",
+      "a_arcsec": null,
+      "a_mas": {
+        "value": 83.0,
+        "err": 0.7
+      },
+      "a_note": "Table gives a in mas; a_arcsec left null rather than converted.",
+      "a_mpc": null,
+      "a_au": null,
+      "e": {
+        "value": 0.9832,
+        "err": 0.001
+      },
+      "i_deg": {
+        "value": 124.09,
+        "err": 1.1
+      },
+      "Omega_deg": {
+        "value": 73.8,
+        "err": 3.5
+      },
+      "omega_deg": {
+        "value": 293.4,
+        "err": 2.2
+      },
+      "tP_yr": {
+        "value": 2023.126,
+        "err": 0.01
+      },
+      "P_yr": {
+        "value": 8.68,
+        "err": 0.11
+      },
+      "chi2": 25.86,
+      "err_kind": "formal fit error (table column header)",
+      "bibcode": "2026Natur.657..359A",
+      "doi": "10.1038/s41586-026-10894-w",
+      "arxiv": "2607.12664",
+      "where": "Extended Data Table 2 'Best-fit orbit parameters for S301' (image Tab2_ESM.jpg on the Nature article page, read directly; identical numbers in arXiv:2607.12664v1 p. 20). Caption: 'The two sets give the two possible orbit orientations.'",
+      "r0_pc_used": 8277,
+      "mass_used_msun": 4297000.0,
+      "mass_r0_note": "Main text, 'Observations and data analysis': 'The potential is defined by the central mass fixed with M_MBH = 4.297 x 10^6 Msun at a distance of R0 = 8,277 pc. We do not allow for any coordinate system offsets, as our data are interferometrically referenced directly to the near-infrared counterpart of Sgr A*.' M and R0 were fixed, not fitted.",
+      "conventions": "Row order a, e, i, Omega, omega, tP, then P and chi2 (Greek glyphs read from the table image). Methods 'Best-fit orbit': '(angle conventions follow ref. 4)' = Gillessen et al. 2009, ApJ 692, 1075 (2009ApJ...692.1075G), i.e. the MPE/GRAVITY convention in which the ascending node is the receding one (docs/architecture/galactic-centre.md); ref. 4 itself defines Omega as the 'angle of the line of nodes' and omega as the 'angle from ascending node to pericenter'. The fit is relativistic: 'taking into account Romer delay and the 1PN correction ... Schwarzschild' (Methods), as for S2 in GRAVITY 2020 (A&A 636 L5), so the elements are osculating; the paper does not state an osculation epoch. No radial velocity exists, so the node is ambiguous: the two solutions differ by ~183 deg in Omega and ~178 deg in omega, i.e. they are (almost) the mirror pair through the sky plane. The repo's sky_elements 180-deg turn therefore cannot pick between them.",
+      "fit_stats": "chi2 = 26 for 34 degrees of freedom (main text); 19 astrometric positions 2017 (weak inference), 2021, 2023-2025 (Methods, Extended Data Table 1)."
+    },
+    "orbit_alt": {
+      "solution": "2 of 2 (right column of Extended Data Table 2)",
+      "a_arcsec": null,
+      "a_mas": {
+        "value": 83.0,
+        "err": 0.7
+      },
+      "e": {
+        "value": 0.9824,
+        "err": 0.0011
+      },
+      "i_deg": {
+        "value": 122.84,
+        "err": 1.12
+      },
+      "Omega_deg": {
+        "value": 256.9,
+        "err": 3.3
+      },
+      "omega_deg": {
+        "value": 115.1,
+        "err": 2.0
+      },
+      "tP_yr": {
+        "value": 2023.125,
+        "err": 0.011
+      },
+      "P_yr": {
+        "value": 8.68,
+        "err": 0.11
+      },
+      "chi2": 25.53,
+      "bibcode": "2026Natur.657..359A",
+      "where": "Extended Data Table 2, right column.",
+      "note": "The main text gives this solution's eccentricity as 0.9821 ('e = 0.9832 and 0.9821 (for the two possible orientations)'); the table prints 0.9824. Both the Nature HTML table and arXiv v1 table say 0.9824; table value used. Methods notes 'the orbital plane of one of the two possible solutions agrees to within 3 deg with the inner clockwise disk of young, massive stars in ref. 32' (von Fellenberg 2022) without saying which."
+    },
+    "derived_in_text": {
+      "rp_RS": {
+        "value": [
+          136,
+          142
+        ],
+        "where": "Main text: 'pericentre distance rp of only 136 RS and 142 RS, respectively' (solution 1, 2)."
+      },
+      "v_peri_kms": {
+        "value": [
+          25600,
+          25000
+        ],
+        "where": "Main text: 'about 25,600 km/s or 8.5% of c and 25,000 km/s or 8.3% of c, respectively'."
+      },
+      "precession_deg_per_orbit": {
+        "value": [
+          2.0,
+          1.9
+        ],
+        "where": "Main text: 'relativistic pericentre advance per orbit amounts to 2.0 deg and 1.9 deg'."
+      },
+      "fSP": {
+        "value": 0.94,
+        "err": 0.88,
+        "where": "Discussion, 'Spin sensitivity': 'fSP = 0.94 +/- 0.88'."
+      },
+      "discovery": "Spring 2023, '15 mas northwest of Sgr A*' (main text)."
+    },
+    "kmag": {
+      "value": 19.3,
+      "err": 0.3,
+      "bibcode": "2026Natur.657..359A",
+      "where": "Abstract ('mK = 19.3') and 'Observations and data analysis': 'we derive a K-band magnitude of mK = 19.3 +/- 0.3', calibrated on brighter sources with photometry from ref. 4."
+    },
+    "spectral_type": {
+      "value": "F1.5",
+      "bibcode": "2026Natur.657..359A",
+      "where": "Methods 'Spectral type, mass and age of S301': with A_K = 2.42 and R0 = 8.3 kpc, M_K ~ 2.28; 'a late A-type or an early F-type star ... V-K = 0.6 ... absolute V magnitude of 2.88, it has L = 5.5 Lsun and a spectral type of F1.5'. Inferred from photometry only: 'we have not been able to detect it as a continuum source or from spectral features' in ERIS spectroscopy.",
+      "luminosity_lsun": 5.5
+    },
+    "mass_msun": {
+      "value": null,
+      "upper": 1.5,
+      "range": [
+        1.1,
+        1.5
+      ],
+      "bibcode": "2026Natur.657..359A",
+      "where": "Main text: 'a mass <~1.5 Msun'; Methods: 'a mass of just below 1.5 Msun. Alternatively ... between approximately 1.1 Msun and 1.5 Msun, depending on the age' (MIST and PARSEC tracks, Extended Data Fig. 8). No single value with an error is given; the collision estimate uses 'm* ~ 1.5 Msun and R* ~ 1.4 Rsun'.",
+      "radius_rsun_range": [
+        1.4,
+        1.6
+      ]
+    },
+    "teff_k": {
+      "value": null,
+      "bibcode": null,
+      "where": "Not given."
+    },
+    "rv_kms": {
+      "value": null,
+      "epoch": null,
+      "bibcode": "2026Natur.657..359A",
+      "where": "'we do not yet have any radial velocity information' (main text); this is the cause of the two-fold orbit ambiguity."
+    },
+    "simbad_main_id": {
+      "value": "[EG97] S301",
+      "otype": "*",
+      "bibcode": null,
+      "where": "SIMBAD TAP 2026-10-10: ident '[EG97] S301' -> basic.main_id '[EG97] S301'. SIMBAD holds no coordinates or spectral type for it; its references are 2026Natur.657..359A, 2026ApJ..1007L...2R and 2026MNRAS.551g1407K (the last two are theory papers)."
+    },
+    "other_new_stars_in_paper": "None with elements. Fig. 1 labels Sgr A*, S21, S24, S29, S38, S42, S55, S62 (GRAVITY's), S63, S301 and 'SX' ('a potential source not yet rediscovered' in the 2021 image). No S300/S302 elements are given.",
+    "follow_ups": "Later papers reuse Extended Data Table 2 rather than refit it: arXiv:2609.06936 (Catanzarite, Table 1 'Adopted S301 parameters': 8.68 yr, e = 0.9832, 136 RS), arXiv:2607.24931 (Piran et al., quotes e = 0.9825, rp = 280 rg), arXiv:2609.07693 (GRAVITY+ Yukawa fit including S301 data 2023.25-2025.36; no new S301 element table found). None is an independent measurement."
+  },
+  "new_stars": {
+    "R1": {
+      "names": [
+        "R1",
+        "E29 (Paumard 2006)",
+        "S2-7 (UCLA)"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 2.63,
+          "err": 0.06
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.53,
+          "err": 0.06
+        },
+        "i_deg": {
+          "value": 125.09,
+          "err": 0.32
+        },
+        "Omega_deg": {
+          "value": 117.28,
+          "err": 1.52
+        },
+        "omega_deg": {
+          "value": 243.87,
+          "err": 1.17
+        },
+        "tP_yr": {
+          "value": 4005.64,
+          "err": 45.51
+        },
+        "P_yr": {
+          "value": 1523.25,
+          "err": 50.46
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R1 E29 S2-7 2.63 0.06 0.53 0.06 125.09 0.32 117.28 1.52 243.87 1.17 1523.25 50.46 4005.64 45.51'",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "t0 = 4005.64 is a future pericentre epoch as printed."
+      },
+      "kmag": {
+        "value": 14.25,
+        "err": 0.11,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2009A&A...502...91S; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "O9/B0",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "[GKM98] S2-7",
+        "otype": "V*",
+        "bibcode": null,
+        "where": "SIMBAD: '[PGM2006] E29' and '[GKM98] S2-7' both resolve to main_id '[GKM98] S2-7'."
+      }
+    },
+    "R14": {
+      "names": [
+        "R14",
+        "E22 (Paumard 2006)",
+        "S1-14 (UCLA)",
+        "W10"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 2.78,
+          "err": 0.08
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.44,
+          "err": 0.08
+        },
+        "i_deg": {
+          "value": 118.86,
+          "err": 0.25
+        },
+        "Omega_deg": {
+          "value": 113.28,
+          "err": 0.76
+        },
+        "omega_deg": {
+          "value": 158.8,
+          "err": 1.17
+        },
+        "tP_yr": {
+          "value": 3510.03,
+          "err": 74.77
+        },
+        "P_yr": {
+          "value": 1659.39,
+          "err": 73.8
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R14 E22 S1-14 2.78 0.08 0.44 0.08 118.86 0.25 113.28 0.76 158.8 1.17 1659.39 73.8 3510.03 74.77' (the pypdf text runs '1.171659.39'; split at the two-decimal boundary)",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "sigma_e is printed equal to sigma_a (0.08); see caveats."
+      },
+      "kmag": {
+        "value": 12.77,
+        "err": 0.03,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2009A&A...502...91S; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "O8/9.5I/III",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "[GEO97] W10",
+        "otype": "*",
+        "bibcode": null,
+        "where": "SIMBAD: '[PGM2006] E22' and '[GKM98] S1-14' both resolve to '[GEO97] W10'."
+      }
+    },
+    "R30": {
+      "names": [
+        "R30",
+        "E32 (Paumard 2006)",
+        "S2-15 (UCLA)",
+        "IRS 16SE1"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 6.36,
+          "err": 0.14
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.61,
+          "err": 0.14
+        },
+        "i_deg": {
+          "value": 113.02,
+          "err": 0.38
+        },
+        "Omega_deg": {
+          "value": 94.51,
+          "err": 1.49
+        },
+        "omega_deg": {
+          "value": 12.33,
+          "err": 1.74
+        },
+        "tP_yr": {
+          "value": 2242.8,
+          "err": 7.55
+        },
+        "P_yr": {
+          "value": 5739.49,
+          "err": 184.24
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R30 E32 S2-15 6.36 0.14 0.61 0.14 113.02 0.38 94.51 1.49 12.33 1.74 5739.49 184.24 2242.8 7.55' (pypdf: '12.33 1.745739.49')",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "sigma_e printed equal to sigma_a (0.14)."
+      },
+      "kmag": {
+        "value": 11.1,
+        "err": 0.04,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2009A&A...502...91S; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "WC8/9",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "GCIRS 16SE1",
+        "otype": "WR*",
+        "bibcode": null,
+        "where": "SIMBAD: '[PGM2006] E32' and '[GKM98] S2-15' resolve to 'GCIRS 16SE1'."
+      }
+    },
+    "R39": {
+      "names": [
+        "R39",
+        "E40 (Paumard 2006)",
+        "S3-5 (UCLA)",
+        "IRS 35W"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 3.22,
+          "err": 1.46
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.01,
+          "err": 1.46
+        },
+        "i_deg": {
+          "value": 122.23,
+          "err": 8.07
+        },
+        "Omega_deg": {
+          "value": 107.05,
+          "err": 0.05
+        },
+        "omega_deg": {
+          "value": 359.99,
+          "err": 4.71
+        },
+        "tP_yr": {
+          "value": 2054.44,
+          "err": 27.1
+        },
+        "P_yr": {
+          "value": 2067.22,
+          "err": 1403.78
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R39 E40 S3-5 3.22 1.46 0.01 1.46 122.23 8.07 107.05 0.05 359.99 4.71 2067.22 1403.78 2054.44 27.1' (pypdf: '122.238.07107.050.05359.994.712067.221403.782054.44', split at two-decimal boundaries)",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "Poorly constrained: sigma_a = 1.46 arcsec on a = 3.22, sigma_e = 1.46 on e = 0.01, sigma_P = 1403.78 yr. Not recommended for drawing."
+      },
+      "kmag": {
+        "value": 12.15,
+        "err": 0.09,
+        "bibcode": "2007ApJ...659.1241R",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2007ApJ...659.1241R; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "WN5/6",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "GCIRS 35W",
+        "otype": "WR*",
+        "bibcode": null,
+        "where": "SIMBAD: '[PGM2006] E40' and '[GKM98] S3-5' resolve to 'GCIRS 35W'."
+      }
+    },
+    "R70": {
+      "names": [
+        "R70",
+        "E54 (Paumard 2006)",
+        "S4-36 (UCLA)"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 3.48,
+          "err": 0.01
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.35,
+          "err": 0.01
+        },
+        "i_deg": {
+          "value": 147.27,
+          "err": 0.18
+        },
+        "Omega_deg": {
+          "value": 115.55,
+          "err": 0.98
+        },
+        "omega_deg": {
+          "value": 43.19,
+          "err": 1.8
+        },
+        "tP_yr": {
+          "value": 3667.56,
+          "err": 16.75
+        },
+        "P_yr": {
+          "value": 2326.65,
+          "err": 12.68
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R70 E54 S4-36 3.48 0.01 0.35 0.01 147.27 0.18 115.55 0.98 43.19 1.8 2326.65 12.68 3667.56 16.75'",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "Pericentre epoch 3667.56 as printed."
+      },
+      "kmag": {
+        "value": 12.6,
+        "err": null,
+        "bibcode": "2016ApJ...830...17B",
+        "where": "SIMBAD flux K for '[GKM98] S4-36' (no error given). IRS 34E (=E54 in SIMBAD) has K 12.53 +/- 0.08 (2009A&A...502...91S)."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "SIMBAD gives O9/9.5I (Paumard 2006) for GCIRS 34E = E54 but no type for [GKM98] S4-36; left null because of the identification conflict."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Ambiguous in SIMBAD: '[PGM2006] E54' resolves to 'GCIRS 34E' (O9/9.5I, K 12.53) while '[GKM98] S4-36' is a separate SIMBAD object '[GKM98] S4-36' (K 12.6, 2016ApJ...830...17B; RA 266.4156447, Dec -29.0073294). vF2022 equates the two names; SIMBAD does not."
+      }
+    },
+    "R85": {
+      "names": [
+        "R85",
+        "E56 (Paumard 2006)",
+        "IRS 34W"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 6.59,
+          "err": 1.7
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.34,
+          "err": 1.7
+        },
+        "i_deg": {
+          "value": 128.27,
+          "err": 2.87
+        },
+        "Omega_deg": {
+          "value": 110.77,
+          "err": 1.03
+        },
+        "omega_deg": {
+          "value": 181.05,
+          "err": 2.38
+        },
+        "tP_yr": {
+          "value": 2019.38,
+          "err": 31.46
+        },
+        "P_yr": {
+          "value": 6055.99,
+          "err": 2343.35
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'R85 E56 I.34W 6.59 1.7 0.34 1.7 128.27 2.87 110.77 1.03 181.05 2.38 6055.99 2343.35 2019.38 31.46' (UCLA column holds the alternative name 'I.34W')",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "Poorly constrained: sigma_a = 1.7 arcsec, sigma_e = 1.7, sigma_P = 2343 yr."
+      },
+      "kmag": {
+        "value": 11.6,
+        "err": 0.35,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2009A&A...502...91S; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "Ofpe/WN9",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "GCIRS 34W",
+        "otype": "WR*",
+        "bibcode": null,
+        "where": "SIMBAD: '[PGM2006] E56' resolves to 'GCIRS 34W'."
+      }
+    },
+    "S5": {
+      "names": [
+        "S5",
+        "E8 (Paumard 2006)",
+        "S0-26 (UCLA)"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "MPE group: orbit in Gillessen 2009 (Table 7) and updated in von Fellenberg 2022; dropped from Gillessen 2017. No second group.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 0.53,
+          "err": 0.01
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.72,
+          "err": 0.01
+        },
+        "i_deg": {
+          "value": 115.96,
+          "err": 0.37
+        },
+        "Omega_deg": {
+          "value": 128.58,
+          "err": 0.81
+        },
+        "omega_deg": {
+          "value": 271.99,
+          "err": 0.4
+        },
+        "tP_yr": {
+          "value": 1954.49,
+          "err": 1.41
+        },
+        "P_yr": {
+          "value": 140.03,
+          "err": 3.4
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'S5 E8 S0-26 0.53 0.01 0.72 0.01 115.96 0.37 128.58 0.81 271.99 0.4 140.03 3.4 1954.49 1.41'",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding."
+      },
+      "kmag": {
+        "value": 15.15,
+        "err": 0.05,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD TAP flux table, filter K (value as SIMBAD quotes it from 2009A&A...502...91S; not read from that paper directly)."
+      },
+      "spectral_type": {
+        "value": "B4/9V",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD basic.sp_type, sp_bibcode 2006ApJ...643.1011P (Paumard et al. 2006); not read from that paper directly."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": "[EG97] S5",
+        "otype": "*",
+        "bibcode": null,
+        "where": "SIMBAD: '[EG97] S5', '[PGM2006] E8' and '[GKM98] S0-26' all resolve to '[EG97] S5'."
+      },
+      "cross_id_note": "S5 also has an orbit in Gillessen et al. 2009 Table 7 (2009ApJ...692.1075G, pre-2017; values not extracted) but not in Gillessen 2017 Table 3 -- hence missing from the tab."
+    },
+    "S72": {
+      "names": [
+        "S72",
+        "E18 (Paumard 2006)",
+        "S1-8 (UCLA)",
+        "W11"
+      ],
+      "object_class": "star (young early-type star; R-numbers are MPE names for stars beyond the S-cluster)",
+      "status": "single group (MPE). Orbit published by von Fellenberg et al. 2022 only; no second group has published elements for it in 2017-2026.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 2.2,
+          "err": 0.05
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.33,
+          "err": 0.05
+        },
+        "i_deg": {
+          "value": 119.18,
+          "err": 0.36
+        },
+        "Omega_deg": {
+          "value": 316.04,
+          "err": 0.64
+        },
+        "omega_deg": {
+          "value": 205.09,
+          "err": 1.97
+        },
+        "tP_yr": {
+          "value": 1055.3,
+          "err": 41.4
+        },
+        "P_yr": {
+          "value": 1184.02,
+          "err": 41.41
+        },
+        "bibcode": "2022ApJ...932L...6V",
+        "doi": "10.3847/2041-8213/ac68ef",
+        "arxiv": "2205.07595",
+        "where": "Appendix I, Table 4 'Stars with determined orbital solutions', row: 'S72 E18 S1-8 2.2 0.05 0.33 0.05 119.18 0.36 316.04 0.64 205.09 1.97 1184.02 41.41 1055.3 41.4'",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Sect. 2.4 refers to Gillessen et al. 2009/2017 for the orbit determination; M and R0 for the fits are not stated. Sect. 2.7 uses 'the GC distance of 8.28 kpc (Gravity Collaboration et al. 2022)' in another context.",
+        "conventions": "Column order a, e, i, Omega, omega, P, t0 (Greek headers checked with pypdf: 'a sa e se i si Omega sOmega omega somega P sP t0 st0'). MPE convention (Gillessen 2009/2017), ascending node = receding.",
+        "note": "t0 = 1055.3 is a past pericentre epoch as printed."
+      },
+      "kmag": {
+        "value": 14.12,
+        "err": 0.04,
+        "bibcode": "2009A&A...502...91S",
+        "where": "SIMBAD flux K for '[GEO97] W11' (= E18 = S1-8 in SIMBAD); only valid if vF2022's S72 = E18 identification is right."
+      },
+      "spectral_type": {
+        "value": "OB",
+        "bibcode": "2006ApJ...643.1011P",
+        "where": "SIMBAD sp_type of '[GEO97] W11'; same identification caveat."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Not tabulated with the orbit."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Ambiguous in SIMBAD: '[PGM2006] E18' and '[GKM98] S1-8' resolve to '[GEO97] W11' (OB, K 14.12), while '[EG97] S72' is a separate SIMBAD object with no data (refs include 2017ApJ...837...30G and 2022ApJ...932L...6V). vF2022 equates S72 = E18 = S1-8."
+      }
+    },
+    "S64": {
+      "names": [
+        "S64"
+      ],
+      "object_class": "star",
+      "status": "single group (Cologne: Ali, Eckart, Peissker et al.). Not in Gillessen 2017 or von Fellenberg 2022. Caution: the same Table 2 gives S29 e = 0.335 and tclos 2054.6, whereas GRAVITY (2022A&A...657L..12G) measured S29's pericentre in 2021.41 with e ~ 0.969, so Ali 2020's orbits are not reliable as a set.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 15.952,
+          "err": 3.947
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.347,
+          "err": 0.161
+        },
+        "i_deg": {
+          "value": 113.789,
+          "err": 2.406
+        },
+        "Omega_deg": {
+          "value": 165.699,
+          "err": 7.047
+        },
+        "omega_deg": {
+          "value": 154.985,
+          "err": 31.883
+        },
+        "tP_yr": {
+          "value": 2005.906,
+          "err": 6.192,
+          "kind": "tclos (time of closest approach)"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not tabulated."
+        },
+        "bibcode": "2020ApJ...896..100A",
+        "doi": "10.3847/1538-4357/ab93ae",
+        "arxiv": "2006.11399",
+        "where": "Table 2 'Orbital Elements for Stars in the Black Disk', row S64: 'S64 15.952 3.947 0.347 0.161 113.789 2.406 154.985 31.883 165.699 7.047 2005.906 6.192'.",
+        "r0_pc_used": 8300,
+        "mass_used_msun": 4300000.0,
+        "mass_r0_note": "Sect. 2: 'We used a fixed central black hole mass of 4.3x10^6 Msun at a distance of 8.3 kpc'. Fit by Runge-Kutta integration + SLSQP + bootstrap on NACO data 2002-2019.",
+        "conventions": "Column order a, Delta a, e, Delta e, i, Delta i, omega, Delta omega, Omega, Delta Omega, tclos, Delta tclos -- omega BEFORE Omega (Greek checked with pypdf; table note: 'semi-major axis, ellipticity, inclination, argument of periapse, longitude of ascending node, and the time of closest approach'). Values placed under the correct keys. The paper warns of 'ambiguities in the inclinations of the orbits due to missing radial velocity information'. Node convention not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": null,
+        "where": "Not given for S64 (selection: 'all stars brighter than Ks=18.0')."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "No RV for S64 (footnote 2 lists the stars with RVs; S64 is not among them)."
+      },
+      "simbad_main_id": {
+        "value": "[EG97] S64",
+        "otype": "*",
+        "bibcode": null,
+        "where": "SIMBAD TAP: '[EG97] S64', no coordinates; refs 2020ApJ...896..100A, 2021ApJ...918...25P."
+      }
+    },
+    "D9": {
+      "names": [
+        "D9",
+        "[EBS2006] D9"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Cologne group only. D9 is a Br-gamma-emitting dusty source the authors interpret as a spectroscopic binary (Herbig Ae/Be primary D9a + T Tauri secondary D9b, P_inner = 1.02 yr, a_inner = 1.59 AU, m sin i = 0.73 Msun). Not detected or discussed by GRAVITY or UCLA papers found here. Dusty object: 'it can be considered to be a member of the G object population'.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 44.0,
+          "err": 2.42
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.32,
+          "err": 0.01
+        },
+        "i_deg": {
+          "value": 102.55,
+          "err": 2.29
+        },
+        "Omega_deg": {
+          "value": 257.25,
+          "err": 1.61
+        },
+        "omega_deg": {
+          "value": 127.19,
+          "err": 7.5
+        },
+        "tP_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 1. Table 2 'best-fit' column gives tclosest = 2309.13 with MCMC standard deviation 7.01 (MCMC median 2315.83)."
+        },
+        "P_yr": {
+          "value": 432.62,
+          "err": 0.01
+        },
+        "bibcode": "2024NatCo..1510608P",
+        "doi": "10.1038/s41467-024-54748-3",
+        "arxiv": "2412.12727",
+        "where": "Table 1 'Best-fit parameters of the D9 system', block 'Keplerian Parameter for D9 orbiting Sgr A*' (rows e, i, a, omega, Omega, P). Table 2 compares best-fit vs MCMC (a 44.00/45.55 sd 1.15; e 0.32/0.31 sd 0.01; i 102.55/103.30 sd 1.14; omega 127.19/130.96 sd 8.02; Omega 257.25/258.40 sd 1.71; tclosest 2309.13/2315.83 sd 7.01).",
+        "r0_pc_used": 8000,
+        "mass_used_msun": 4000000.0,
+        "mass_r0_note": "Results: 'adopting M_SgrA = 4 x 10^6 Msun and 8 kpc for the mass and the distance of Sgr A*'.",
+        "conventions": "Table 1 lists e, i, a, omega, Omega, P; Table 2 lists a, e, i, omega, Omega, tclosest (Greek glyphs checked with pypdf). The fit includes the LOS velocity baseline ~150 +/- 15 km/s (Methods 'Keplerian orbit'). Node convention not stated."
+      },
+      "kmag": {
+        "value": 18.17,
+        "err": 0.21,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 of 2024A&A...686A.235P (K 18.17 +/- 0.21). 2024NatCo..1510608P Methods quotes the same mK = 18.17 as a DEREDDENED magnitude ('The respective dereddened NIR and MIR magnitude values are mH = 19.92, mK = 18.17, and mL = 15.92')."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 2.8,
+        "err": 0.5,
+        "bibcode": "2024NatCo..1510608P",
+        "where": "Table 1 'Radiative Transfer Model', M_D9a = 2.80 +/- 0.50 Msun (primary only; pypdf row order). Secondary: m sin(i_D9b) = 0.73 Msun with i_D9b fixed at 90 deg. log T_D9a = 4.07 +/- 0.05 (not converted)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[EBS2006] D9",
+        "otype": "NIR",
+        "bibcode": null,
+        "where": "SIMBAD TAP: '[EBS2006] D9'."
+      },
+      "alternates": [
+        {
+          "bibcode": "2024A&A...686A.235P",
+          "doi": "10.1051/0004-6361/202449729",
+          "where": "Table 5 row 5 'D9 44.00 +/- 1.145 0.32 +/- 0.01 102.55 +/- 1.14 127.19 +/- 8.02 257.25 +/- 1.71 2309.13 +/- 7.01'",
+          "a_mpc": {
+            "value": 44.0,
+            "err": 1.145
+          },
+          "e": {
+            "value": 0.32,
+            "err": 0.01
+          },
+          "i_deg": {
+            "value": 102.55,
+            "err": 1.14
+          },
+          "omega_deg": {
+            "value": 127.19,
+            "err": 8.02
+          },
+          "Omega_deg": {
+            "value": 257.25,
+            "err": 1.71
+          },
+          "tP_yr": {
+            "value": 2309.13,
+            "err": 7.01
+          }
+        },
+        {
+          "bibcode": "2025A&A...704A...7P",
+          "doi": "10.1051/0004-6361/202556229",
+          "arxiv": "2511.22761",
+          "where": "Table 4 row 'D9 - new' (SINFONI + ERIS data to 2024; M = 4x10^6 Msun, 8 kpc)",
+          "a_mpc": {
+            "value": 43.69,
+            "err": 0.04
+          },
+          "e": {
+            "value": 0.31,
+            "err": 0.01
+          },
+          "i_deg": {
+            "value": 103.13,
+            "err": 0.45
+          },
+          "omega_deg": {
+            "value": 136.36,
+            "err": 4.18
+          },
+          "Omega_deg": {
+            "value": 257.54,
+            "err": 4.75
+          },
+          "tP_yr": {
+            "value": 2321.7,
+            "err": 0.01
+          },
+          "P_yr": {
+            "value": 427.67,
+            "err": null
+          },
+          "note": "P from the TP [years] column (the period: G2 ~106, X7 ~2720), printed without error; the 'D9 - old' row gives 432.23."
+        }
+      ]
+    },
+    "G1": {
+      "names": [
+        "G1",
+        "[BSA2012] G1",
+        "NAME Sgr A*-f (SIMBAD main id)"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Orbits from three groups (MPE, UCLA, Cologne) agree on a G2-like, very eccentric orbit with pericentre ~2001-2003. MPE (Gillessen 2025) and UCLA (Witzel 2017) treat G1 as a gas cloud/tidally interacting object; Cologne treats it as a dusty (YSO-candidate) source.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 0.23,
+          "err": 0.06
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.76,
+          "err": 0.08
+        },
+        "i_deg": {
+          "value": 112.8,
+          "err": 3.9
+        },
+        "Omega_deg": {
+          "value": 59.0,
+          "err": 8.1
+        },
+        "omega_deg": {
+          "value": 97.41,
+          "err": 8.8
+        },
+        "tP_yr": {
+          "value": 2002.8,
+          "err": 0.7
+        },
+        "P_yr": {
+          "value": null,
+          "err": null
+        },
+        "chi2_red": 2.76,
+        "bibcode": "2026A&A...707A..79G",
+        "doi": "10.1051/0004-6361/202555808",
+        "arxiv": "2510.00897",
+        "where": "Appendix B, Table B.1 'Orbit parameters for the individual orbit fits', column G1.",
+        "r0_pc_used": 8275,
+        "mass_used_msun": 4296000.0,
+        "mass_r0_note": "Sect. 3: 'The gravitational potential is taken from GRAVITY Collaboration et al. (2022) and kept fixed (M = 4.296 x 10^6 Msun, R0 = 8.275 kpc).' Drag-force parameter fixed to the G2 best fit.",
+        "conventions": "Table rows a, e, i, Omega, omega, tP. Appendix B: 'osculating elements ... position angle of the ascending node Omega, longitude of the pericenter omega'. MPE convention. Appendix B warns: 'The orbit of G1 with our data is only poorly constrained, especially in a and e ... including [Witzel 2017] data ... leads to a semi-major axis value comparable with that of G2, and an eccentricity of around e = 0.98.'"
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "2024A&A...686A.235P Table 6 gives only L 13.22 +/- 0.31 and M 12.89 +/- 0.83 for G1; no K."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "NAME Sgr A*-f",
+        "otype": "Cld",
+        "bibcode": null,
+        "where": "SIMBAD: '[BSA2012] G1' resolves to 'NAME Sgr A*-f' (alias 'NAME Sgr A* flake')."
+      },
+      "alternates": [
+        {
+          "bibcode": "2026A&A...707A..79G",
+          "where": "Table B.2 common G1-2-3 orbit fit (shared a, e, i, Omega)",
+          "a_arcsec": {
+            "value": 0.954,
+            "err": 0.081
+          },
+          "e": {
+            "value": 0.98111,
+            "err": 0.0019
+          },
+          "i_deg": {
+            "value": 120.14,
+            "err": 0.35
+          },
+          "Omega_deg": {
+            "value": 77.5,
+            "err": 0.64
+          },
+          "omega_deg": {
+            "value": 91.57,
+            "err": 0.91
+          },
+          "tP_yr": {
+            "value": 2003.123,
+            "err": 0.075
+          }
+        },
+        {
+          "bibcode": "2017ApJ...847...80W",
+          "doi": "10.3847/1538-4357/aa80ea",
+          "arxiv": "1707.02301",
+          "where": "Table 'Orbital Parameters for G1 and G2', column 'Peak, G1' (1-sigma from marginalized distributions); 'Best Fit, G1' column: T0 2001.0, e 0.981, Amin 277 AU, omega 118, i 109, Omega 89.",
+          "a_arcsec": null,
+          "rp_au": {
+            "value": 298,
+            "err": null,
+            "err_plus": 32,
+            "err_minus": 24
+          },
+          "e": {
+            "value": 0.992,
+            "err": null,
+            "err_plus": 0.002,
+            "err_minus": 0.01
+          },
+          "i_deg": {
+            "value": 109,
+            "err": 1
+          },
+          "Omega_deg": {
+            "value": 88,
+            "err": null,
+            "err_plus": 5,
+            "err_minus": 4
+          },
+          "omega_deg": {
+            "value": 117,
+            "err": 3
+          },
+          "tP_yr": {
+            "value": 2001.3,
+            "err": null,
+            "err_plus": 0.4,
+            "err_minus": 0.2
+          },
+          "r0_pc_used": 7870,
+          "mass_used_msun": 3930000.0,
+          "mass_r0_note": "Table 4 'S0-2 + S0-38 Black Hole Parameter Values': R0 7.87 +/- 0.11 kpc, M 3.93 +0.07/-0.13 x10^6 Msun (jackknife Table 6: 7.85, 3.92).",
+          "conventions": "Gives periapse distance (Amin, AU), not a; no P. Row order T0, e, Amin, omega, i, Omega. UCLA convention."
+        },
+        {
+          "bibcode": "2024A&A...686A.235P",
+          "where": "Table 5 row 8 'G1 48.58 +/- 0.05 0.968 +/- 0.009 108.28 +/- 1.79 114.59 +/- 4.69 99.69 +/- 4.89 2001.08 +/- 0.05'",
+          "a_mpc": {
+            "value": 48.58,
+            "err": 0.05
+          },
+          "e": {
+            "value": 0.968,
+            "err": 0.009
+          },
+          "i_deg": {
+            "value": 108.28,
+            "err": 1.79
+          },
+          "omega_deg": {
+            "value": 114.59,
+            "err": 4.69
+          },
+          "Omega_deg": {
+            "value": 99.69,
+            "err": 4.89
+          },
+          "tP_yr": {
+            "value": 2001.08,
+            "err": 0.05
+          }
+        }
+      ]
+    },
+    "G2": {
+      "names": [
+        "G2",
+        "DSO",
+        "G2/DSO",
+        "NAME G2 Dust Cloud",
+        "[BSA2012] G2"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Disputed nature: MPE (Gillessen 2019, 2025) model G2 as a gas cloud in a streamer with G1 and a new G3, subject to drag; UCLA (Witzel 2017; Ciurlo 2020) and Cologne (Peissker 2021-2025) argue for a dust-enshrouded star. The orbit itself is confirmed by all three groups (pericentre 2014.2-2014.4, e ~0.96-0.99).",
+      "orbit": {
+        "a_arcsec": {
+          "value": 1.5,
+          "err": 0.41
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.989,
+          "err": 0.003
+        },
+        "i_deg": {
+          "value": 122.0,
+          "err": 0.8
+        },
+        "Omega_deg": {
+          "value": 70.0,
+          "err": 3.3
+        },
+        "omega_deg": {
+          "value": 94.6,
+          "err": 2.3
+        },
+        "tP_yr": {
+          "value": 2014.18,
+          "err": 0.12
+        },
+        "P_yr": {
+          "value": null,
+          "err": null
+        },
+        "chi2_red": 2.31,
+        "bibcode": "2026A&A...707A..79G",
+        "doi": "10.1051/0004-6361/202555808",
+        "arxiv": "2510.00897",
+        "where": "Appendix B, Table B.1, column G2 (individual fit with drag-force parameter free, as in Gillessen et al. 2019).",
+        "r0_pc_used": 8275,
+        "mass_used_msun": 4296000.0,
+        "mass_r0_note": "M = 4.296e6 Msun, R0 = 8.275 kpc fixed (GRAVITY 2022).",
+        "conventions": "Rows a, e, i, Omega, omega, tP; osculating; drag-force (non-Keplerian) model -- a pure Kepler fit does not describe the post-2016 RVs (Gillessen 2019, 2019ApJ...871..126G, which gives no element table, only a corner plot)."
+      },
+      "kmag": {
+        "value": 18.48,
+        "err": 0.22,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order). Asterisk: 'adopted magnitudes ... taken from Eckart et al. (2013) and Peissker et al. (2020b, 2021c)'."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 0.4,
+        "err": 0.2,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "NAME G2 Dust Cloud",
+        "otype": "IR",
+        "bibcode": null,
+        "where": "SIMBAD TAP."
+      },
+      "alternates": [
+        {
+          "bibcode": "2026A&A...707A..79G",
+          "where": "Table B.2 common G1-2-3 fit",
+          "a_arcsec": {
+            "value": 0.954,
+            "err": 0.081
+          },
+          "e": {
+            "value": 0.98111,
+            "err": 0.0019
+          },
+          "i_deg": {
+            "value": 120.14,
+            "err": 0.35
+          },
+          "Omega_deg": {
+            "value": 77.5,
+            "err": 0.64
+          },
+          "omega_deg": {
+            "value": 99.52,
+            "err": 0.56
+          },
+          "tP_yr": {
+            "value": 2013.945,
+            "err": 0.042
+          }
+        },
+        {
+          "bibcode": "2025A&A...704A...7P",
+          "doi": "10.1051/0004-6361/202556229",
+          "where": "Table 4 row 'G2/DSO - new' (ERIS to 2024; M 4e6, 8 kpc)",
+          "a_mpc": {
+            "value": 17.25,
+            "err": 0.1
+          },
+          "e": {
+            "value": 0.965,
+            "err": 0.002
+          },
+          "i_deg": {
+            "value": 121.03,
+            "err": 1.71
+          },
+          "omega_deg": {
+            "value": 93.85,
+            "err": 2.01
+          },
+          "Omega_deg": {
+            "value": 63.59,
+            "err": 1.94
+          },
+          "tP_yr": {
+            "value": 2014.43,
+            "err": 0.01
+          },
+          "P_yr": {
+            "value": 106.1,
+            "err": null
+          }
+        },
+        {
+          "bibcode": "2024A&A...686A.235P",
+          "where": "Table 5 row 9 (= 'G2/DSO - old' in P25)",
+          "a_mpc": {
+            "value": 17.23,
+            "err": 0.2
+          },
+          "e": {
+            "value": 0.963,
+            "err": 0.004
+          },
+          "i_deg": {
+            "value": 120.32,
+            "err": 2.4
+          },
+          "omega_deg": {
+            "value": 92.81,
+            "err": 1.6
+          },
+          "Omega_deg": {
+            "value": 63.02,
+            "err": 1.37
+          },
+          "tP_yr": {
+            "value": 2014.43,
+            "err": 0.01
+          }
+        },
+        {
+          "bibcode": "2017ApJ...847...80W",
+          "where": "Table 'Orbital Parameters for G1 and G2', column 'Peak, G2' (fit to Meyer 2013 points)",
+          "rp_au": {
+            "value": 201,
+            "err": 13
+          },
+          "e": {
+            "value": 0.964,
+            "err": null,
+            "err_plus": 0.036,
+            "err_minus": 0.073
+          },
+          "i_deg": {
+            "value": 113,
+            "err": 2
+          },
+          "Omega_deg": {
+            "value": 82,
+            "err": 2
+          },
+          "omega_deg": {
+            "value": 96,
+            "err": 2
+          },
+          "tP_yr": {
+            "value": 2014.2,
+            "err": null,
+            "err_plus": 0.03,
+            "err_minus": 0.05
+          }
+        }
+      ],
+      "note": "Also: Peissker et al. 2021, ApJ 923, 69 (2021ApJ...923...69P) Tables 5 and 7 give earlier G2/DSO elements (superseded by the same group's 2024/2025 values; not extracted)."
+    },
+    "G3_Gillessen2025": {
+      "names": [
+        "G3 (Gillessen et al. 2025 gas clump; NOT Ciurlo 2020's G3)"
+      ],
+      "object_class": "gas clump per its discoverers (not a star)",
+      "status": "MPE only (2025). The authors interpret G1-2-3 as gas clumps from the wind of IRS 16SW, explicitly arguing against stars.",
+      "orbit": {
+        "a_arcsec": {
+          "value": 0.92,
+          "err": 0.69
+        },
+        "a_mpc": null,
+        "a_au": null,
+        "e": {
+          "value": 0.978,
+          "err": 0.029,
+          "err_note": "printed '0.978+/-0029'; read as 0.029"
+        },
+        "i_deg": {
+          "value": 126.1,
+          "err": 8.7
+        },
+        "Omega_deg": {
+          "value": 49.7,
+          "err": 49.3
+        },
+        "omega_deg": {
+          "value": 91.5,
+          "err": 33.1
+        },
+        "tP_yr": {
+          "value": 2033.6,
+          "err": 2.5
+        },
+        "P_yr": {
+          "value": null,
+          "err": null
+        },
+        "chi2_red": 1.89,
+        "bibcode": "2026A&A...707A..79G",
+        "doi": "10.1051/0004-6361/202555808",
+        "arxiv": "2510.00897",
+        "where": "Table B.1, column G3. Common fit (Table B.2): omega_G3 112.44 +/- 0.88, tP_G3 2031.513 +/- 0.206 with the shared a 0.9540, e 0.98111, i 120.14, Omega 77.50.",
+        "r0_pc_used": 8275,
+        "mass_used_msun": 4296000.0,
+        "conventions": "As G1/G2 in the same paper."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": null,
+        "where": "No K-band value."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      },
+      "note": "Name collision: Ciurlo et al. 2020's G3 is the dusty source D2 (see 'D2' entry)."
+    },
+    "D2": {
+      "names": [
+        "D2",
+        "[EBS2006] D2",
+        "G3 (Ciurlo et al. 2020)",
+        "[CCM2020] G3 (SIMBAD main id)"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Two groups have orbits (Cologne as D2, UCLA as G3) but they disagree: e 0.15 vs 0.11 and i 58 vs 52 agree roughly, while Omega (221 vs 55 deg) and omega (44 vs 261 deg) differ by ~166 and ~217 deg, and tP 2002 vs 2024 -- consistent with a node-convention or orientation ambiguity, not resolved here. Identity D2 = G3 stated by Ciurlo 2020 ('G3 was previously identified (D2)') and SIMBAD.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 30.01,
+          "err": 0.04
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.15,
+          "err": 0.02
+        },
+        "i_deg": {
+          "value": 57.86,
+          "err": 1.71
+        },
+        "Omega_deg": {
+          "value": 221.16,
+          "err": 1.43
+        },
+        "omega_deg": {
+          "value": 44.11,
+          "err": 1.14
+        },
+        "tP_yr": {
+          "value": 2002.16,
+          "err": 0.03,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 1 'D2 30.01 +/- 0.04 0.15 +/- 0.02 57.86 +/- 1.71 44.11 +/- 1.14 221.16 +/- 1.43 2002.16 +/- 0.03'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": 15.87,
+        "err": 0.17,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order)."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 0.5,
+        "err": 0.1,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[CCM2020] G3",
+        "otype": "NIR",
+        "bibcode": null,
+        "where": "SIMBAD: '[EBS2006] D2' resolves to '[CCM2020] G3'."
+      },
+      "alternates": [
+        {
+          "bibcode": "2020Natur.577..337C",
+          "doi": "10.1038/s41586-019-1883-y",
+          "arxiv": "2001.08325",
+          "where": "Extended Data Table 3 'Best fit orbital parameters' (median and central 68% interval), row G3 (image on the Nature article page).",
+          "a_arcsec": null,
+          "P_yr": {
+            "value": 156,
+            "err": null,
+            "err_plus": 22,
+            "err_minus": 16
+          },
+          "tP_yr": {
+            "value": 2024,
+            "err": null,
+            "err_plus": 9,
+            "err_minus": 6,
+            "kind": "T0"
+          },
+          "e": {
+            "value": 0.11,
+            "err": null,
+            "err_plus": 0.06,
+            "err_minus": 0.05
+          },
+          "i_deg": {
+            "value": 52,
+            "err": null,
+            "err_plus": 1.5,
+            "err_minus": 1.6
+          },
+          "omega_deg": {
+            "value": 261,
+            "err": null,
+            "err_plus": 23,
+            "err_minus": 16
+          },
+          "Omega_deg": {
+            "value": 55,
+            "err": null,
+            "err_plus": 1.5,
+            "err_minus": 1.6
+          },
+          "r0_pc_used": 7971,
+          "mass_used_msun": 3964000.0,
+          "mass_r0_note": "Methods 'Orbit fitting': 'M = 3.964 x 10^6 Msun and R0 = 7.971 kpc' fixed from S0-2 (Do et al. 2019).",
+          "conventions": "Columns P, T0, e, i, omega, Omega, sigma_astro, sigma_RV, c -- omega BEFORE Omega; a not given (P instead). UCLA convention; node definition not stated in the paper."
+        }
+      ]
+    },
+    "G4": {
+      "names": [
+        "G4",
+        "[CCM2020] G4"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "UCLA only (Ciurlo et al. 2020). No second-group orbit found. The authors argue the G objects are dust-enshrouded stars (likely binary-merger products).",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": null,
+        "a_au": null,
+        "P_yr": {
+          "value": 815,
+          "err": null,
+          "err_plus": 190,
+          "err_minus": 126
+        },
+        "tP_yr": {
+          "value": 2075,
+          "err": null,
+          "err_plus": 21,
+          "err_minus": 16,
+          "kind": "T0"
+        },
+        "e": {
+          "value": 0.28,
+          "err": null,
+          "err_plus": 0.07,
+          "err_minus": 0.05
+        },
+        "i_deg": {
+          "value": 95.4,
+          "err": null,
+          "err_plus": 0.8,
+          "err_minus": 0.7
+        },
+        "omega_deg": {
+          "value": 160,
+          "err": null,
+          "err_plus": 18,
+          "err_minus": 13
+        },
+        "Omega_deg": {
+          "value": 92,
+          "err": null,
+          "err_plus": 1.7,
+          "err_minus": 1.8
+        },
+        "bibcode": "2020Natur.577..337C",
+        "doi": "10.1038/s41586-019-1883-y",
+        "arxiv": "2001.08325",
+        "where": "Extended Data Table 3 'Best fit orbital parameters', row G4 (Nature article page image; arXiv PDF has the table as an image too).",
+        "r0_pc_used": 7971,
+        "mass_used_msun": 3964000.0,
+        "mass_r0_note": "Fixed from S0-2 (Do et al. 2019): M = 3.964e6 Msun, R0 = 7.971 kpc.",
+        "conventions": "Columns P, T0, e, i, omega, Omega -- omega before Omega; a not given. Six elements via P. Node definition not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": null,
+        "where": "No K-band value."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[CCM2020] G4",
+        "otype": null,
+        "bibcode": null,
+        "where": "SIMBAD TAP: '[CCM2020] G4' (no object type)."
+      }
+    },
+    "G5": {
+      "names": [
+        "G5",
+        "[CCM2020] G5"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "UCLA only (Ciurlo et al. 2020). No second-group orbit found. The authors argue the G objects are dust-enshrouded stars (likely binary-merger products).",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": null,
+        "a_au": null,
+        "P_yr": {
+          "value": 1392,
+          "err": null,
+          "err_plus": 555,
+          "err_minus": 315
+        },
+        "tP_yr": {
+          "value": 2062,
+          "err": null,
+          "err_plus": 2,
+          "err_minus": 2,
+          "kind": "T0"
+        },
+        "e": {
+          "value": 0.9,
+          "err": null,
+          "err_plus": 0.01,
+          "err_minus": 0.01
+        },
+        "i_deg": {
+          "value": 90.1,
+          "err": null,
+          "err_plus": 1.4,
+          "err_minus": 1.7
+        },
+        "omega_deg": {
+          "value": 8.8,
+          "err": null,
+          "err_plus": 3.7,
+          "err_minus": 4.1
+        },
+        "Omega_deg": {
+          "value": 62.9,
+          "err": null,
+          "err_plus": 2.1,
+          "err_minus": 2.6
+        },
+        "bibcode": "2020Natur.577..337C",
+        "doi": "10.1038/s41586-019-1883-y",
+        "arxiv": "2001.08325",
+        "where": "Extended Data Table 3 'Best fit orbital parameters', row G5 (Nature article page image; arXiv PDF has the table as an image too).",
+        "r0_pc_used": 7971,
+        "mass_used_msun": 3964000.0,
+        "mass_r0_note": "Fixed from S0-2 (Do et al. 2019): M = 3.964e6 Msun, R0 = 7.971 kpc.",
+        "conventions": "Columns P, T0, e, i, omega, Omega -- omega before Omega; a not given. Six elements via P. Node definition not stated.",
+        "note": "Methods: G5's period confidence interval is slightly under-covered (statistical efficiency 0.81 +/- 0.09)."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": null,
+        "where": "No K-band value."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[CCM2020] G5",
+        "otype": "NIR",
+        "bibcode": null,
+        "where": "SIMBAD TAP."
+      }
+    },
+    "G6_X8": {
+      "names": [
+        "G6 (Ciurlo et al. 2020)",
+        "X8 (Peissker et al. 2019/2024)",
+        "[CCM2020] G6 (SIMBAD main id)",
+        "[MES2007] X8"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Identity G6 = X8 is SIMBAD's ('[MES2007] X8' resolves to '[CCM2020] G6'); neither paper read here states it. The two published orbits disagree completely (Ciurlo G6: e 0.41, P 732 yr, T0 2211; Peissker X8: a 48.69 mpc, e 0.99, tclosest 1992.9), so either the identification or one orbit is wrong. Treat as unresolved.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": null,
+        "a_au": null,
+        "P_yr": {
+          "value": 732,
+          "err": null,
+          "err_plus": 224,
+          "err_minus": 136
+        },
+        "tP_yr": {
+          "value": 2211,
+          "err": null,
+          "err_plus": 13,
+          "err_minus": 19,
+          "kind": "T0"
+        },
+        "e": {
+          "value": 0.41,
+          "err": null,
+          "err_plus": 0.13,
+          "err_minus": 0.09
+        },
+        "i_deg": {
+          "value": 83.6,
+          "err": null,
+          "err_plus": 1.5,
+          "err_minus": 1.3
+        },
+        "omega_deg": {
+          "value": 242,
+          "err": null,
+          "err_plus": 13.8,
+          "err_minus": 26.7
+        },
+        "Omega_deg": {
+          "value": 61.7,
+          "err": null,
+          "err_plus": 5.8,
+          "err_minus": 6.4
+        },
+        "bibcode": "2020Natur.577..337C",
+        "doi": "10.1038/s41586-019-1883-y",
+        "arxiv": "2001.08325",
+        "where": "Extended Data Table 3, row G6.",
+        "r0_pc_used": 7971,
+        "mass_used_msun": 3964000.0,
+        "conventions": "As G4/G5."
+      },
+      "kmag": {
+        "value": 15.82,
+        "err": 0.32,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "2024A&A...686A.235P Table 6, row X8, K-band (pypdf row order) -- X8, i.e. only if X8 = G6."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[CCM2020] G6",
+        "otype": "flt",
+        "bibcode": null,
+        "where": "SIMBAD: '[MES2007] X8' resolves to '[CCM2020] G6'."
+      },
+      "alternates": [
+        {
+          "bibcode": "2024A&A...686A.235P",
+          "doi": "10.1051/0004-6361/202449729",
+          "a_arcsec": null,
+          "a_mpc": {
+            "value": 48.69,
+            "err": 1.12
+          },
+          "a_au": null,
+          "e": {
+            "value": 0.99,
+            "err": 0.01
+          },
+          "i_deg": {
+            "value": 95.11,
+            "err": 5.61
+          },
+          "Omega_deg": {
+            "value": 40.1,
+            "err": 4.52
+          },
+          "omega_deg": {
+            "value": 57.24,
+            "err": 5.9
+          },
+          "tP_yr": {
+            "value": 1992.92,
+            "err": 10.54,
+            "kind": "tclosest"
+          },
+          "P_yr": {
+            "value": null,
+            "err": null,
+            "note": "Not in Table 5."
+          },
+          "arxiv": "2406.09916",
+          "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 12 'X8 48.69 +/- 1.12 0.99 +/- 0.01 95.11 +/- 5.61 57.24 +/- 5.90 40.10 +/- 4.52 1992.92 +/- 10.54'.",
+          "r0_pc_used": null,
+          "mass_used_msun": null,
+          "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+          "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+        }
+      ]
+    },
+    "X7": {
+      "names": [
+        "X7",
+        "[MES2007] X7"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Disputed: UCLA (Ciurlo 2023) and Cologne (Peissker 2024, 2025) orbits are irreconcilable (a 4800 AU, e 0.34, tP 2036 vs a 149.99 mpc, e 0.76, tclosest 1975.85). Ciurlo 2023 treats X7 as a gas/dust feature being tidally torn (possibly from a stellar merger); Shaqil et al. 2025 (2025A&A...700A.134S) model it as ejecta from a grazing collision of S33/S0-30. Cologne treats it as a bow-shock dusty source (earlier linked to S50/S0-73, which Ciurlo 2023 excludes).",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": null,
+        "a_au": {
+          "value": 4800,
+          "err": 1100
+        },
+        "e": {
+          "value": 0.34,
+          "err": 0.05
+        },
+        "i_deg": {
+          "value": 58,
+          "err": 2
+        },
+        "Omega_deg": {
+          "value": 43,
+          "err": 1
+        },
+        "omega_deg": {
+          "value": -76,
+          "err": 9
+        },
+        "tP_yr": {
+          "value": 2036,
+          "err": 2
+        },
+        "P_yr": {
+          "value": 165,
+          "err": 19
+        },
+        "bibcode": "2023ApJ...944..136C",
+        "doi": "10.3847/1538-4357/acb344",
+        "arxiv": "2301.06562",
+        "where": "Table 4 'Keplerian orbital parameters of the X7 tip, based on OSIRIS data only' (median, 68% interval, statistical only).",
+        "r0_pc_used": 8100,
+        "mass_used_msun": 4070000.0,
+        "mass_r0_note": "Appendix D: 'the mass of, and distance to, the black hole are fixed to the average of the literature measurements (4.07x10^6 Msun and 8.1 kpc, respectively)'. Observable-based priors (O'Neil 2019).",
+        "conventions": "Rows: eccentricity, period, epoch of periapse, semi-major axis (AU), inclination, angle of ascending node, argument of periapse (printed as -76 deg). UCLA convention; orbit is of the X7 'tip', a tidally stretched gas/dust feature."
+      },
+      "kmag": {
+        "value": 15.79,
+        "err": 0.26,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order)."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 2.0,
+        "err": 0.5,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[MES2007] X7",
+        "otype": "flt",
+        "bibcode": null,
+        "where": "SIMBAD TAP."
+      },
+      "alternates": [
+        {
+          "bibcode": "2025A&A...704A...7P",
+          "doi": "10.1051/0004-6361/202556229",
+          "where": "Table 4 row 'X7 - new' (ERIS to 2024; M 4e6 Msun, 8 kpc)",
+          "a_mpc": {
+            "value": 149.98,
+            "err": 0.18
+          },
+          "e": {
+            "value": 0.76,
+            "err": 0.03
+          },
+          "i_deg": {
+            "value": 74.48,
+            "err": 6.87
+          },
+          "omega_deg": {
+            "value": 189.07,
+            "err": 10.88
+          },
+          "Omega_deg": {
+            "value": 25.21,
+            "err": 12.6
+          },
+          "tP_yr": {
+            "value": 1975.86,
+            "err": 0.01
+          },
+          "P_yr": {
+            "value": 2720.15,
+            "err": null
+          }
+        },
+        {
+          "bibcode": "2024A&A...686A.235P",
+          "doi": "10.1051/0004-6361/202449729",
+          "where": "Table 5 row 10",
+          "a_mpc": {
+            "value": 149.99,
+            "err": 0.36
+          },
+          "e": {
+            "value": 0.76,
+            "err": 0.05
+          },
+          "i_deg": {
+            "value": 74.82,
+            "err": 7.84
+          },
+          "omega_deg": {
+            "value": 190.22,
+            "err": 17.47
+          },
+          "Omega_deg": {
+            "value": 25.15,
+            "err": 10.77
+          },
+          "tP_yr": {
+            "value": 1975.85,
+            "err": 0.3
+          }
+        }
+      ]
+    },
+    "X7.1": {
+      "names": [
+        "X7.1",
+        "[MES2007] X7.1"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 171.34,
+          "err": 5.27
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.97,
+          "err": 0.02
+        },
+        "i_deg": {
+          "value": 89.38,
+          "err": 3.72
+        },
+        "Omega_deg": {
+          "value": 60.9,
+          "err": 8.59
+        },
+        "omega_deg": {
+          "value": 28.64,
+          "err": 17.18
+        },
+        "tP_yr": {
+          "value": 2040.99,
+          "err": 15.41,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 11 'X7.1 171.34 +/- 5.27 0.97 +/- 0.02 89.38 +/- 3.72 28.64 +/- 17.18 60.90 +/- 8.59 2040.99 +/- 15.41'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 row X7.1 has H 17.78 +/- 0.15, no K."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[MES2007] X7.1",
+        "otype": "NIR",
+        "bibcode": null,
+        "where": "SIMBAD TAP."
+      }
+    },
+    "D23": {
+      "names": [
+        "D23",
+        "[EBS2006] D23"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 44.24,
+          "err": 0.03
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.06,
+          "err": 0.01
+        },
+        "i_deg": {
+          "value": 95.68,
+          "err": 1.14
+        },
+        "Omega_deg": {
+          "value": 120.89,
+          "err": 3.15
+        },
+        "omega_deg": {
+          "value": 93.39,
+          "err": 1.89
+        },
+        "tP_yr": {
+          "value": 2016.0,
+          "err": 0.03,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 2 'D23 44.24 +/- 0.03 0.06 +/- 0.01 95.68 +/- 1.14 93.39 +/- 1.89 120.89 +/- 3.15 2016.00 +/- 0.03'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": 16.2,
+        "err": 0.3,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order)."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 0.5,
+        "err": 0.1,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": "[EBS2006] D23",
+        "otype": "NIR",
+        "bibcode": null,
+        "where": "SIMBAD TAP."
+      }
+    },
+    "D3": {
+      "names": [
+        "D3",
+        "[EBS2006] D3"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 35.2,
+          "err": 0.01
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.24,
+          "err": 0.02
+        },
+        "i_deg": {
+          "value": 50.99,
+          "err": 1.2
+        },
+        "Omega_deg": {
+          "value": 206.26,
+          "err": 1.76
+        },
+        "omega_deg": {
+          "value": 63.59,
+          "err": 2.29
+        },
+        "tP_yr": {
+          "value": 2002.23,
+          "err": 0.01,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 3 'D3 35.20 +/- 0.01 0.24 +/- 0.02 50.99 +/- 1.20 63.59 +/- 2.29 206.26 +/- 1.76 2002.23 +/- 0.01'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": 16.5,
+        "err": 0.3,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order). Asterisk: 'adopted magnitudes ... taken from Eckart et al. (2013) and Peissker et al. (2020b, 2021c)'."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 0.3,
+        "err": 0.1,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      }
+    },
+    "D3.1": {
+      "names": [
+        "D3.1"
+      ],
+      "object_class": "dust/gas filament per its authors (not an object)",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 31.46,
+          "err": 0.01
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.06,
+          "err": 0.02
+        },
+        "i_deg": {
+          "value": 63.02,
+          "err": 1.04
+        },
+        "Omega_deg": {
+          "value": 47.89,
+          "err": 0.96
+        },
+        "omega_deg": {
+          "value": 231.47,
+          "err": 1.18
+        },
+        "tP_yr": {
+          "value": 2004.37,
+          "err": 0.008,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 3/1 'D3.1 31.46 +/- 0.01 0.06 +/- 0.02 63.02 +/- 1.04 231.47 +/- 1.18 47.89 +/- 0.96 2004.37 +/- 0.008'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": null,
+        "where": "No K-band value."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      },
+      "note": "Table 5 caption: 'D3.1 is most likely a dust and gas filament, such as the Br-gamma-bar'; Sect. 4.2.4: 'We have included D3.1 only for consistency'. Not an object -- do not add."
+    },
+    "D5": {
+      "names": [
+        "D5",
+        "[EBS2006] D5"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 2983.1,
+          "err": 2.11
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.991,
+          "err": 0.001
+        },
+        "i_deg": {
+          "value": 100.84,
+          "err": 4.58
+        },
+        "Omega_deg": {
+          "value": 73.33,
+          "err": 3.89
+        },
+        "omega_deg": {
+          "value": 343.2,
+          "err": 8.02
+        },
+        "tP_yr": {
+          "value": 2008.95,
+          "err": 3.43,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 4 'D5 2983.10 +/- 2.11 0.991 +/- 0.001 100.84 +/- 4.58 343.20 +/- 8.02 73.33 +/- 3.89 2008.95 +/- 3.43'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": 17.3,
+        "err": 0.3,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6 'Averaged magnitude and flux density values of the dusty sources ... H+K continuum data' (K-band column; pypdf row order). Asterisk: 'adopted magnitudes ... taken from Eckart et al. (2013) and Peissker et al. (2020b, 2021c)'."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": 0.3,
+        "err": 0.1,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 7 'Best-fit properties of the candidate YSOs ... HYPERION' (SED model mass, not dynamical)."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      },
+      "note": "a = 2983 mpc (~3 pc) with e = 0.991 -- an extreme, near-parabolic solution from a short arc; 'D5 is the only source that suffers from the limited FOV of SINFONI'."
+    },
+    "OS1": {
+      "names": [
+        "OS1"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 16.53,
+          "err": 0.5
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.758,
+          "err": 0.075
+        },
+        "i_deg": {
+          "value": 107.71,
+          "err": 20.68
+        },
+        "Omega_deg": {
+          "value": 88.23,
+          "err": 16.5
+        },
+        "omega_deg": {
+          "value": 93.96,
+          "err": 8.42
+        },
+        "tP_yr": {
+          "value": 2020.68,
+          "err": 0.02,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 6 'OS1 16.53 +/- 0.50 0.758 +/- 0.075 107.71 +/- 20.68 93.96 +/- 8.42 88.23 +/- 16.50 2020.68 +/- 0.02'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6: only L 13.86 +/- 0.63."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      },
+      "note": "'OS1'/'OS2' are identified only in the paper's Fig. 1 inset; the extracted text does not explain the name."
+    },
+    "OS2": {
+      "names": [
+        "OS2"
+      ],
+      "object_class": "dusty object, not confirmed a star",
+      "status": "Single group (Cologne: Peissker, Eckart, Zajacek et al.); no second group has published an orbit.",
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {
+          "value": 12.54,
+          "err": 0.19
+        },
+        "a_au": null,
+        "e": {
+          "value": 0.633,
+          "err": 0.019
+        },
+        "i_deg": {
+          "value": 95.11,
+          "err": 4.98
+        },
+        "Omega_deg": {
+          "value": 114.01,
+          "err": 2.17
+        },
+        "omega_deg": {
+          "value": 138.65,
+          "err": 4.92
+        },
+        "tP_yr": {
+          "value": 2029.41,
+          "err": 0.05,
+          "kind": "tclosest"
+        },
+        "P_yr": {
+          "value": null,
+          "err": null,
+          "note": "Not in Table 5."
+        },
+        "bibcode": "2024A&A...686A.235P",
+        "doi": "10.1051/0004-6361/202449729",
+        "arxiv": "2406.09916",
+        "where": "Table 5 'Best-fit orbital elements of the dusty sources', row 7 'OS2 12.54 +/- 0.19 0.633 +/- 0.019 95.11 +/- 4.98 138.65 +/- 4.92 114.01 +/- 2.17 2029.41 +/- 0.05'.",
+        "r0_pc_used": null,
+        "mass_used_msun": null,
+        "mass_r0_note": "Not stated for the Keplerian fits. Sect. 3 uses 'a mass for Sgr A* of 4.02 x 10^6 Msun' for the D9 3-D distance only.",
+        "conventions": "Column order a, e, i, omega, Omega, tclosest, PA -- omega BEFORE Omega (pypdf: 'a [mpc] e i [deg] omega [deg] Omega [deg] tclosest [years] PA'). Uncertainties 'adapted from the MCMC simulations'. Node convention not stated."
+      },
+      "kmag": {
+        "value": null,
+        "err": null,
+        "bibcode": "2024A&A...686A.235P",
+        "where": "Table 6: only L 13.97 +/- 0.42."
+      },
+      "spectral_type": {
+        "value": null,
+        "bibcode": null,
+        "where": "No spectral type (Br-gamma line emitter / dusty source)."
+      },
+      "mass_msun": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "teff_k": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not given."
+      },
+      "rv_kms": {
+        "value": null,
+        "epoch": null,
+        "bibcode": null,
+        "where": "Line-of-sight velocities are tabulated per epoch in the source papers, not as a single value."
+      },
+      "simbad_main_id": {
+        "value": null,
+        "bibcode": null,
+        "where": "Not looked up / not found."
+      },
+      "note": "As OS1."
+    }
+  },
+  "no_orbit": {
+    "S300": "Detection only. GRAVITY 2022 (2022A&A...657A..82G) Sect. 4.3/Table 4 (five 2021 positions) and Table 5 note: 'The stars S62 and S300 are not listed here, as their movement observed so far is consistent with a linear motion.' mK(S300) 19.0-19.3. Not reported with elements in A242 (2024), the S301 Nature paper or the 2026 Yukawa paper. SIMBAD '[EG97] S300'.",
+    "SX": "'SX in the 2021 image is a potential source not yet rediscovered' (2026Natur.657..359A Fig. 1 caption). No positions or orbit.",
+    "S63": "Detected in GRAVITY images (2022A&A...657A..82G Sect. 4.4, mosaic pointings; 2026Natur.657..359A Fig. 1) but no elements in A82 Table 5, L12, A242 or the Nature paper. Not in Gillessen 2017 Table 3. SIMBAD '[EG97] S63'.",
+    "S62 (GRAVITY's, mK 18.9)": "Not the tab's S62. GRAVITY's S62 shows 'linear motion' (A82 Table 5 note; L12 Fig. 1). The tab's S62 is Peissker's 9.9-yr star; GRAVITY calls it S62Peissker. SIMBAD merges both under '[EG97] S62'.",
+    "S148": "New star named in Peissker et al. 2022 (2022ApJ...933...49P) from a 2017 blend with S4716; no elements given.",
+    "S50 / S0-73": "Ciurlo 2023 (2023ApJ...944..136C) fits an orbit to S0-73 astrometry (no RV) only to compare with X7; results shown in Fig. 8 / text, no element table. S50 = S0-73 per Shaqil 2025 (2025A&A...700A.134S).",
+    "X3 (and X3a)": "Massive YSO in IRS 13, ~3.5 arcsec out. Peissker et al. 2023 (2023ApJ...944..231P) Appendix C presents 'a preliminary Keplerian solution' in a figure only, no numbers; not in the 2024/2025 orbit tables.",
+    "S27 (= S0-27)": "Full orbit only in Gillessen et al. 2009 Table 7 (2009ApJ...692.1075G), outside 2017-2026 and dropped from Gillessen 2017; not extracted.",
+    "S0-104": "Meyer et al. 2012 (2012Sci...338...84M) note 20: 'S0-104 is a previously unknown detected star; its orbital motion is presented in the supplementary' -- pre-2017 and the supplement was not checked.",
+    "UCLA S0-x stars (2017-2026)": "No UCLA/Keck paper in 2017-2026 tabulates full elements for any star other than S0-2 (=S2) and S0-38 (=S38): Chu 2018 (S0-2 binarity), Do 2019 (S0-2), Jia 2019 (S0-2 only, checked), Sakai 2019 (reference frame), Chu 2023 (RV binarity limits), Jia 2023 (2023ApJ...949...18J, disk membership probabilities only), Gautam 2024 (binary fraction). Boehle 2016 (pre-window) has S0-2 + S0-38; Meyer 2012 S0-102 (= S55).",
+    "von Fellenberg 2022 Table 5": "Young stars without determined orbital solutions (positions, proper motions, vz only) -- not orbits.",
+    "Ali 2020 Tables 6-7": "Linear trajectories for the other ~66 S-cluster stars -- not orbits.",
+    "G2 (Gillessen 2019)": "2019ApJ...871..126G fits a drag-force orbit but prints no element table (corner plot only); MPE's tabulated G2 elements are in 2026A&A...707A..79G (used in the G2 entry).",
+    "Peissker 2020 dusty sources": "Earlier elements for D2, D3, D23 etc. (Peissker et al. 2020) were superseded by the same group's 2024 Table 5 and not extracted."
+  },
+  "cross_ids": {
+    "_source_note": "Name -> existing tab name. UCLA S0-x and Paumard (2006) E-numbers from von Fellenberg 2022 Table 4 (MPE/Pau./UCLA columns) unless marked; SIMBAD = SIMBAD TAP identifier table, 2026-10-10. Names that map to stars NOT on the tab are listed in the new_stars entries instead.",
+    "S0-1": "S1",
+    "S0-2": "S2",
+    "S0-3": "S4",
+    "S0-4": "S8",
+    "S0-5": "S9",
+    "S0-7": "S6",
+    "S0-8": "S31",
+    "S0-15": "S83",
+    "S0-16": "S14",
+    "S0-18": "S18",
+    "S0-19": "S12",
+    "S0-20": "S13",
+    "S0-28": "S19",
+    "S0-30": "S33",
+    "S0-38": "S38",
+    "S0-102": "S55",
+    "S1-2": "S66",
+    "S1-3": "S67",
+    "S1-11": "S96",
+    "S1-12": "S87",
+    "S1-16": "S97",
+    "S2-21": "R44",
+    "E1": "S2",
+    "E2": "S14",
+    "E3": "S13",
+    "E4": "S1",
+    "E5": "S12",
+    "E6": "S4",
+    "E7": "S31",
+    "E9": "S9",
+    "E10": "S8",
+    "E11": "S6",
+    "E15": "S67",
+    "E16": "S83",
+    "E17": "S66",
+    "E20": "S96",
+    "E21": "S87",
+    "E23": "S97",
+    "S62Peissker": "S62",
+    "_notes": {
+      "S0-2": "SIMBAD ('[GKM98] S0-2' on '[EG97] S2'); vF2022 leaves S2's UCLA cell blank.",
+      "S0-16": "SIMBAD and Shaqil 2025 ('S14/S0-16'); vF2022 leaves S14's UCLA cell blank.",
+      "S0-18": "SIMBAD only.",
+      "S0-28": "SIMBAD only.",
+      "S0-30": "Shaqil et al. 2025 (2025A&A...700A.134S): 'S33/S0-30'.",
+      "S0-38": "SIMBAD ('[GKM98] S0-38' on '[EG97] S38').",
+      "S0-102": "2026Natur.657..359A main text: 'S55 (also called S0-102)'. Meyer 2012 note 10 called the identification only probable.",
+      "S62Peissker": "GRAVITY papers' name for the tab's S62 (A127, A82, Nature 2026).",
+      "Ali2020_S62": "Ali et al. 2020 Table 2's S62 (a 3.603 mpc, e 0.980, tclos 2003.441) is Peissker's S62 (same group) -- a variant of the tab's S62, not a new star.",
+      "other_S0x_not_on_tab": "S0-26 = S5, S0-27 = S27, S0-6 = S10, S0-9 = S11, S0-11 = S7, S0-73 = S50, S1-8 = S72 (vF2022; SIMBAD disagrees), S1-14 = R14, S2-7 = R1, S2-15 = R30, S3-5 = R39, S4-36 = R70 (vF2022; SIMBAD disagrees)."
+    }
+  },
+  "papers": {
+    "2026Natur.657..359A": {
+      "title": "Discovery of a star sensitive to the spin of Sagittarius A*",
+      "authors": "Abd El Dayem, K., Abuter, R., Aimar, N. et al. (GRAVITY+ Collaboration)",
+      "journal": "Nature 657, 359-363 (published 19 Aug 2026)",
+      "doi": "10.1038/s41586-026-10894-w",
+      "arxiv": "2607.12664"
+    },
+    "2022A&A...657A..82G": {
+      "title": "Deep images of the Galactic center with GRAVITY",
+      "doi": "10.1051/0004-6361/202142459",
+      "arxiv": "2112.07477"
+    },
+    "2024A&A...692A.242G": {
+      "title": "Improving constraints on the extended mass distribution in the Galactic center with stellar orbits",
+      "doi": "10.1051/0004-6361/202452274",
+      "arxiv": "2409.12261",
+      "note": "Table B.1 = the four-star fit only (S2, S29, S38, S55); checked."
+    },
+    "2022ApJ...932L...6V": {
+      "title": "The Young Stars in the Galactic Center",
+      "authors": "von Fellenberg, S. D. et al.",
+      "doi": "10.3847/2041-8213/ac68ef",
+      "arxiv": "2205.07595"
+    },
+    "2020ApJ...896..100A": {
+      "title": "Kinematic structure of the Galactic Center S cluster",
+      "authors": "Ali, B. et al.",
+      "doi": "10.3847/1538-4357/ab93ae",
+      "arxiv": "2006.11399"
+    },
+    "2024NatCo..1510608P": {
+      "title": "A binary system in the S cluster close to the supermassive black hole Sagittarius A*",
+      "authors": "Peissker, F. et al.",
+      "journal": "Nat. Commun. 15, 10608 (2024)",
+      "doi": "10.1038/s41467-024-54748-3",
+      "arxiv": "2412.12727",
+      "bibcode_note": "Bibcode built from journal/volume/article number; not confirmed in SIMBAD or ADS."
+    },
+    "2024A&A...686A.235P": {
+      "title": "Candidate young stellar objects in the S-cluster: Kinematic analysis of a subpopulation of the low-mass G objects close to Sgr A*",
+      "authors": "Peissker, F. et al.",
+      "journal": "A&A 686, A235 (2024) per Crossref",
+      "doi": "10.1051/0004-6361/202449729",
+      "arxiv": "2406.09916",
+      "bibcode_note": "Bibcode built from journal/volume/page; not confirmed in SIMBAD or ADS."
+    },
+    "2025A&A...704A...7P": {
+      "title": "Closing the gap: Follow-up observations of peculiar dusty objects close to Sgr A* using ERIS",
+      "authors": "Peissker, F. et al.",
+      "doi": "10.1051/0004-6361/202556229",
+      "arxiv": "2511.22761"
+    },
+    "2020Natur.577..337C": {
+      "title": "A population of dust-enshrouded objects orbiting the Galactic black hole",
+      "authors": "Ciurlo, A. et al.",
+      "doi": "10.1038/s41586-019-1883-y",
+      "arxiv": "2001.08325"
+    },
+    "2023ApJ...944..136C": {
+      "title": "The Swansong of the Galactic Center Source X7: An Extreme Example of Tidal Evolution near the Supermassive Black Hole",
+      "authors": "Ciurlo, A. et al.",
+      "doi": "10.3847/1538-4357/acb344",
+      "arxiv": "2301.06562"
+    },
+    "2026A&A...707A..79G": {
+      "title": "The gas streamer G1-2-3 in the Galactic center",
+      "authors": "Gillessen, S. et al.",
+      "doi": "10.1051/0004-6361/202555808",
+      "arxiv": "2510.00897"
+    },
+    "2017ApJ...847...80W": {
+      "title": "The post-periapsis evolution of Galactic Center source G1: the second case of a resolved tidal interaction with a supermassive black hole",
+      "authors": "Witzel, G. et al.",
+      "doi": "10.3847/1538-4357/aa80ea",
+      "arxiv": "1707.02301"
+    },
+    "2019ApJ...871..126G": {
+      "title": "Detection of a drag force in G2's orbit: measuring the density of the accretion flow onto Sgr A* at 1000 Schwarzschild radii",
+      "doi": "10.3847/1538-4357/aaf4f8",
+      "arxiv": "1812.01416"
+    },
+    "2021ApJ...923...69P": {
+      "title": "The apparent tail of the Galactic Center object G2/DSO",
+      "doi": "10.3847/1538-4357/ac23df",
+      "arxiv": "2112.04543"
+    },
+    "2023ApJ...944..231P": {
+      "title": "X3: A High-mass Young Stellar Object Close to the Supermassive Black Hole Sgr A*",
+      "doi": "10.3847/1538-4357/aca977",
+      "arxiv": "2302.14127"
+    },
+    "2025A&A...700A.134S": {
+      "title": "Tidal phenomena in the Galactic Center: The curious case of X7",
+      "authors": "Shaqil, W. et al.",
+      "doi": "10.1051/0004-6361/202555191",
+      "arxiv": "2504.15337"
+    },
+    "2009ApJ...692.1075G": {
+      "title": "Monitoring stellar orbits around the massive black hole in the Galactic Center",
+      "doi": "10.1088/0004-637X/692/2/1075",
+      "arxiv": "0810.4674",
+      "note": "Ref. 4 of the S301 paper, which takes its angle conventions from it."
+    },
+    "2012Sci...338...84M": {
+      "title": "The shortest-known period star orbiting our Galaxy's supermassive black hole",
+      "doi": "10.1126/science.1225506",
+      "arxiv": "1210.1294"
+    },
+    "2019ApJ...873....9J": {
+      "title": "The Galactic Center: improved relative astrometry for velocities, accelerations, and orbits near the supermassive black hole",
+      "doi": "10.3847/1538-4357/ab01de",
+      "arxiv": "1902.02491"
+    },
+    "2024ApJ...962...81B": {
+      "title": "The Orbital Structure and Selection Effects of the Galactic Center S-star Cluster",
+      "doi": "10.3847/1538-4357/ad17bb",
+      "arxiv": "2306.02076",
+      "note": "Uses Gillessen 2017 orbits; no new elements."
+    },
+    "2025A&A...696A..68G": {
+      "title": "The S stars' zone of avoidance in the Galactic center",
+      "doi": "10.1051/0004-6361/202453272",
+      "arxiv": "2412.02752",
+      "note": "Uses Gillessen 2017 orbits; no new elements."
+    },
+    "2022ApJ...933...49P": {
+      "title": "Observation of S4716 - a star with a 4 yr orbit around Sgr A*",
+      "doi": "10.3847/1538-4357/ac752f",
+      "arxiv": "2207.02142"
+    },
+    "arXiv:2609.07693": {
+      "title": "Improving constraints on the Yukawa correction at the Galactic Center with multiple stellar orbits (GRAVITY+ Collaboration, Foschi et al.)",
+      "doi": null,
+      "arxiv": "2609.07693",
+      "note": "Fits S2, S29, S38, S55, S301; no new element table for S301 found."
+    },
+    "arXiv:2607.24931": {
+      "title": "S301 and friends: Measuring the spin of Sgr A* (Piran et al.)",
+      "doi": null,
+      "arxiv": "2607.24931"
+    },
+    "arXiv:2609.06936": {
+      "title": "Catching Up with the Fastest Star in the Galaxy: A Two-Passage GRAVITY+ Campaign to Detect S301's Schwarzschild Precession (Catanzarite)",
+      "doi": null,
+      "arxiv": "2609.06936"
+    }
+  },
+  "caveats": [
+    "S301 has two equally good orbits (no RV): Omega 73.8 / 256.9 and omega 293.4 / 115.1 are almost exactly the sky-plane mirror pair. The repo's sky_elements turns Omega and omega by 180 deg, which here maps one solution approximately onto the other -- so for S301 the drawn orbit's z-sign is not physically determined either way. Solution 1 is listed as 'orbit' only because it is the left column and the one plotted in Extended Data Fig. 5.",
+    "S301 eccentricity of the second solution: text 0.9821, table 0.9824 (both Nature and arXiv v1). Table used.",
+    "S301 elements come from a 1PN (Schwarzschild + Romer) fit with M and R0 fixed at the L12 values; they are osculating, and the osculation epoch is not stated. Pure Kepler propagation will drift (~2 deg of pericentre advance per 8.7-yr orbit).",
+    "S301 mass, spectral type and luminosity are inferred from mK = 19.3 alone (no spectrum): F1.5, ~5.5 Lsun, 1.1-1.5 Msun depending on age. No single mass value is printed, so mass_msun.value is null.",
+    "von Fellenberg 2022 Table 4: several rows print sigma_e equal to sigma_a (R14 0.08, R30 0.14, R39 1.46, R44 0.48, R85 1.7, S97 0.38, S72 0.05, R1 0.06) -- probably a column-copy error in the paper; recorded as printed. Small errors are printed as '>0.01' (presumably '<0.01') in some rows of stars already on the tab; the eight new stars all have numeric errors.",
+    "von Fellenberg 2022 pypdf text runs adjacent cells together (e.g. '158.8 1.171659.39'); every value was split by the two-decimal pattern and cross-checked against Kepler's third law only as a sanity check (not used to change any value).",
+    "von Fellenberg 2022 says '31 were presented in previous studies (Gillessen et al. 2009, 2017) ... Five stars have newly found orbital solutions' but does not say which five. By name, eight of its 36 are absent from Gillessen 2017 (R1, R14, R30, R39, R70, R85, S5, S72) and S5 is in Gillessen 2009, leaving seven -- the paper's counts do not reconcile with this, possibly via orbits in other MPE papers. All eight are recorded.",
+    "SIMBAD disagrees with von Fellenberg 2022 on two identifications: S72 (vF: = E18 = S1-8; SIMBAD: E18 = S1-8 = W11, a separate object from [EG97] S72) and R70 (vF: = E54 = S4-36; SIMBAD: E54 = IRS 34E, a separate object from [GKM98] S4-36). K mags/spectral types for those two are therefore conditional.",
+    "Ali et al. 2020 (Cologne) is the only source for S64. The same table gives S29 a 34.7 mpc, e 0.335, tclos 2054.6, which GRAVITY's interferometric S29 orbit (pericentre 2021.41, e ~0.97; L12, A82) contradicts. Ali's inclinations also cluster near 90 deg and the paper flags RV-less inclination ambiguities. Treat S64 as low confidence.",
+    "Dusty objects (G1, G2, G3_Gillessen2025, D2/G3_Ciurlo, G4, G5, G6/X8, X7, X7.1, D3, D3.1, D5, D23, D9, OS1, OS2) are in new_stars only because the brief asked for their orbits; each carries object_class. None is a confirmed star except possibly D9 (claimed Herbig Ae/Be + T Tauri binary by one group). D3.1 is a filament per its own authors.",
+    "Two different objects are called G3: Ciurlo 2020's G3 (= D2, a dusty source) and Gillessen 2025's G3 (a gas clump on the G1/G2 orbit). They are separate entries.",
+    "Where two groups published orbits for the same dusty object, they often disagree beyond their errors (D2/G3: Omega 221 vs 55 deg; X8/G6: e 0.99 vs 0.41; X7: a 150 mpc vs 4800 AU). Peissker's and Ciurlo's papers do not state whether the ascending node is the receding one, so some Omega/omega differences may be convention, but X7 and X8/G6 differ in a and e too.",
+    "Peissker group papers use M = 4.0e6 Msun / R0 = 8 kpc (D9, ERIS 2025) or do not state M/R0 (2024 A&A Table 5); Ciurlo 2020 uses 3.964e6 / 7.971 kpc; Ciurlo 2023 4.07e6 / 8.1 kpc; Ali 2020 4.3e6 / 8.3 kpc; Witzel 2017 3.93e6 / 7.87 kpc; MPE 4.296-4.297e6 / 8.275-8.277 kpc. None was converted.",
+    "Bibcodes 2024A&A...686A.235P and 2024NatCo..1510608P were built from Crossref journal/volume/article numbers and are not confirmed in SIMBAD or ADS (ADS abstract pages show a captcha). 2025A&A...704A...7P and 2026A&A...707A..79G are from SIMBAD's ref table. All other bibcodes were confirmed against SIMBAD's ref table.",
+    "Not accessed: ADS (captcha); the published typeset versions of the arXiv papers (arXiv versions used, except the S301 Nature HTML and Ciurlo 2020 Nature table image); Gillessen 2009's S5/S27 elements (pre-window, not extracted); Meyer 2012 supplement (S0-104).",
+    "No other new star with a published full orbit was found in GRAVITY/GRAVITY+ papers 2021-2026: A127 (S62 GRAVITY, linear), A82 (S300 linear; Table 5 updates S2, S29, S38, S42, S55, S60 only), L12 and A242 (four stars), the S301 Nature paper, and the 2026 Yukawa paper (S2, S29, S38, S55, S301)."
+  ]
+}

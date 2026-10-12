@@ -1,0 +1,365 @@
+{
+  "agent": "C",
+  "retrieved": "2026-10-09",
+  "method_note": "Every value below was read from the paper text (arXiv PDF of the accepted/published version, text extracted with pdftotext and pypdf so that Greek column headers could be distinguished), from SIMBAD TAP (simbad.cds.unistra.fr/simbad/sim-tap) or from the Nature HTML page. ADS abstract pages returned a captcha, so bibcode->title/DOI pairs were checked against SIMBAD's ref table rather than ADS. No value here was computed, converted or estimated. Where a paper does not tabulate a quantity it is null.",
+
+  "sgr_a": {
+    "mass_msun": {
+      "value": 4.297e6, "err": 0.012e6, "err_kind": "statistical (1 sigma)",
+      "err_sys": 4.0e4, "err_sys_note": "Conclusions: 'see Gravity Coll. 2021 for a discussion of the systematics that are ~30 pc for R0 and ~40,000 Msun for M'. Stated as approximate.",
+      "bibcode": "2022A&A...657L..12G", "doi": "10.1051/0004-6361/202142465",
+      "where": "Sect. 6 (Conclusions): 'R0 = (8277 +/- 9) pc and M = (4.297 +/- 0.012)x10^6 Msun (statistical errors ...)'; also Table B.1 'this paper' column. The abstract rounds it to 4.30x10^6 Msun, +/-0.25%."
+    },
+    "r0_pc": {
+      "value": 8277, "err": 9, "err_kind": "statistical (1 sigma)",
+      "err_sys": 30, "err_sys_note": "Same sentence as for the mass: systematics '~30 pc'. EHT 2022 Paper I (Table 1) quotes this GRAVITY value as 8277 +/- 9 +/- 33 pc.",
+      "bibcode": "2022A&A...657L..12G", "doi": "10.1051/0004-6361/202142465",
+      "where": "Sect. 6 (Conclusions) and Table B.1, 'this paper' column (R0 [pc] 8277, 9)."
+    },
+    "ra_deg": {
+      "value": 266.41681662499997, "sexagesimal": "17 45 40.03599", "err_mas": 2.65, "frame": "ICRS, epoch J2000",
+      "bibcode": "2011AJ....142...35P", "doi": "10.1088/0004-6256/142/2/35",
+      "where": "SIMBAD 'NAME Sgr A*' basic.ra; coordinate reference coo_bibcode = 2011AJ....142...35P (Petrov et al. 2011, VLBA Galactic Plane Survey, VGaPS); coo_qual B, wavelength Radio; error ellipse 2.65 x 1.42 mas, PA 0. Reid & Brunthaler 2004/2020 not used for the position."
+    },
+    "dec_deg": {
+      "value": -29.00782497222222, "sexagesimal": "-29 00 28.1699", "err_mas": 1.42, "frame": "ICRS, epoch J2000",
+      "bibcode": "2011AJ....142...35P", "doi": "10.1088/0004-6256/142/2/35",
+      "where": "SIMBAD 'NAME Sgr A*' basic.dec (same entry as RA)."
+    },
+    "eht_mass_msun": {
+      "value": 4.0e6, "err_plus": 1.1e6, "err_minus": 0.6e6, "err_kind": "68% credible interval",
+      "bibcode": "2022ApJ...930L..12E", "doi": "10.3847/2041-8213/ac6674",
+      "where": "EHT Sgr A* Paper I, Table 1 'Measured Parameters of Sgr A*', row 'Black hole mass' = 4.0 +1.1/-0.6 x10^6 Msun. Footnote b: derived from the EHT angular gravitational radius theta_g = 4.8 +1.4/-0.7 uas using the maser distance of Reid et al. (2019), not the stellar-orbit distance. The same table lists the stellar-orbit priors: VLTI (4.297 +/- 0.013)x10^6 Msun, 8277 +/- 9 +/- 33 pc (Gravity Collaboration 2022); Keck (3.951 +/- 0.047)x10^6 Msun, 7935 +/- 50 +/- 32 pc (Do et al. 2019)."
+    },
+    "simbad_main_id": {
+      "value": "NAME Sgr A*", "otype": "X",
+      "bibcode": null,
+      "where": "SIMBAD TAP: ident 'Sgr A*' -> basic.main_id 'NAME Sgr A*'. Other identifiers include 'NAME Sagittarius A*', 'NAME SgrA*/IR', 'CXOGC J174540.0-290027'."
+    },
+    "newer": {
+      "summary": "One later GRAVITY four-star fit exists: GRAVITY Collaboration 2024, A&A 692, A242 (2024A&A...692A.242G), 'Improving constraints on the extended mass distribution in the Galactic center with stellar orbits'. Its Table B.1 gives M = 4.2996 +/- 0.0118 x10^6 Msun and R0 = 8275.9 +/- 8.6 pc (statistical; data to 2022.7, adds 2022 GRAVITY and ERIS points, fSP = 1.135 +/- 0.110). It agrees with L12 within 1 sigma. A&A 677, L10 (2023) is NOT an orbit/R0 paper: it is the NIR-flare paper and gives only an enclosed mass at ~9 Rg of 4.2 +1.2/-0.9 x10^6 Msun (its Table 2), stating it is consistent with the 4.297x10^6 from stars. GRAVITY Collaboration 2021, A&A 647, A59 (aberration paper) gives R0 = 8275 +/- 9 (stat) +/- 33 (sys) pc and is superseded by L12.",
+      "recommended_current": "Use L12 (4.297e6 Msun, 8277 pc) as the canonical pair. GRAVITY's own later work still fixes those numbers: the 2026 Nature S301 paper (2026Natur.657..359A, Methods) fixes 'M_MBH = 4.297x10^6 Msun at a distance of R0 = 8,277 pc'. If the most recent fit is wanted instead, use A242 (4.2996e6 Msun, 8275.9 pc); the difference is inside the errors.",
+      "a242_mass_msun": {"value": 4.2996e6, "err": 0.0118e6, "bibcode": "2024A&A...692A.242G", "doi": "10.1051/0004-6361/202452274", "where": "Table B.1 (Appendix B), 'parameter value error' columns."},
+      "a242_r0_pc": {"value": 8275.9, "err": 8.6, "bibcode": "2024A&A...692A.242G", "doi": "10.1051/0004-6361/202452274", "where": "Table B.1 (Appendix B)."},
+      "a647_r0_pc": {"value": 8275, "err_stat": 9, "err_sys": 33, "bibcode": "2021A&A...647A..59G", "doi": "10.1051/0004-6361/202040208", "where": "Main-text R0 result and its comparison table ('this work 8246 9 33 | 8275 9 33'): 'R0 = 8275 +/- 9|stat +/- 33|sys pc'."},
+      "l10_2023_enclosed_mass_msun": {"value": 4.2e6, "err_plus": 1.2e6, "err_minus": 0.9e6, "bibcode": "2023A&A...677L..10G", "doi": "10.1051/0004-6361/202347416", "where": "Table 2 'Posterior mean values of the astrometry fit', Enclosed Mass (flare radius R = 8.9 +1.5/-1.3 Rg)."}
+    }
+  },
+
+  "gravity_refits": {
+    "_source_note": "Primary entries are GRAVITY Collaboration 2022, A&A 657, L12, Table B.1 ('Best-fit orbit parameters of the four-star fit determining fSP', columns 'this paper'). Element order a, e, i, Omega, omega, tperi is stated in the Fig. B.1 caption and confirmed by the Greek row labels recovered with pypdf. L12 does not tabulate P for any star (null). The same four stars in the newer A242 (2024) Table B.1 and S2 in A&A 636 L5 (2020) Table E.1 are given under 'alternates'.",
+    "S2": {
+      "a_arcsec": {"value": 0.12495, "err": 0.00004},
+      "e": {"value": 0.88441, "err": 0.00006},
+      "i_deg": {"value": 134.70, "err": 0.03},
+      "Omega_deg": {"value": 228.19, "err": 0.03},
+      "omega_deg": {"value": 66.25, "err": 0.03},
+      "tP_yr": {"value": 2018.3789, "err": 0.0001},
+      "P_yr": {"value": null, "err": null, "note": "Not tabulated in L12. See alternates: 2020A&A...636L...5G Table E.1 gives P = 16.0455 +/- 0.0013 yr."},
+      "bibcode": "2022A&A...657L..12G",
+      "where": "Table B.1 (Appendix B), S2 column",
+      "r0_pc_used": 8277, "mass_used_msun": 4.297e6,
+      "mass_r0_note": "M and R0 are free parameters of the same four-star fit (Table B.1: M 4.297 +/- 0.012 x10^6 Msun, R0 8277 +/- 9 pc).",
+      "conventions": "Table B.1 note: 'The orbital elements are meant in the sense of osculating orbit parameters, using a conversion time close to the respective apocenter times, i.e., 2010.35 for S2, 1977 for S29, 2000 for S38, and 2012 for S55. The coordinate system offsets x0, y0 refer to the epoch 2000.0.' The fit includes 1PN Schwarzschild precession (fSP = 0.997 +/- 0.144), so omega is osculating, not fixed. The paper does not define the Omega/omega reference direction explicitly. Table B.1 sets these values side by side with Gillessen+2017 (2017ApJ...837...30G, the file in data/sgr_a/cat) and Do+2019.",
+      "alternates": [
+        {
+          "bibcode": "2020A&A...636L...5G", "where": "Table E.1 (Appendix E), 'Value / fit error / MCMC error'",
+          "a_mas": {"value": 125.058, "err": 0.041, "err_mcmc": 0.044},
+          "e": {"value": 0.884649, "err": 0.000066, "err_mcmc": 0.000079},
+          "i_deg": {"value": 134.567, "err": 0.033},
+          "omega_deg": {"value": 66.263, "err": 0.031, "err_mcmc": 0.030},
+          "Omega_deg": {"value": 228.171, "err": 0.031},
+          "P_yr": {"value": 16.0455, "err": 0.0013},
+          "tP_yr": {"value": 2018.37900, "err": 0.00016, "err_mcmc": 0.00017},
+          "r0_pc_used": 8246.7, "r0_err": 9.3, "mass_used_msun": 4.261e6, "mass_err": 0.012e6,
+          "conventions": "Caption: 'The orbital parameters are to be interpreted as the osculating orbital parameters. The argument of periapsis omega and the time of pericentre passage tperi are given for the epoch of last apocentre in 2010.' Note the table lists omega BEFORE Omega (row order i, omega, Omega), the reverse of L12."
+        },
+        {
+          "bibcode": "2024A&A...692A.242G", "where": "Table B.1 (Appendix B)",
+          "a_arcsec": {"value": 0.12502, "err": 3e-5},
+          "e": {"value": 0.88444, "err": 6e-5},
+          "i_deg": {"value": 134.67, "err": 0.02},
+          "Omega_deg": {"value": 228.21, "err": 0.03},
+          "omega_deg": {"value": 66.279, "err": 0.029},
+          "tP_yr": {"value": 2018.3789, "err": 1e-4},
+          "P_yr": {"value": null},
+          "r0_pc_used": 8275.9, "mass_used_msun": 4.2996e6,
+          "conventions": "Same caption as L12: osculating elements at conversion times 2010.35 (S2), 1977 (S29), 2000 (S38), 2012 (S55); x0, y0 at epoch 2000."
+        }
+      ]
+    },
+    "S29": {
+      "a_arcsec": {"value": 0.3975, "err": 0.0016},
+      "e": {"value": 0.9693, "err": 0.0001},
+      "i_deg": {"value": 144.37, "err": 0.07},
+      "Omega_deg": {"value": 7.00, "err": 0.33},
+      "omega_deg": {"value": 205.79, "err": 0.33},
+      "tP_yr": {"value": 2021.4104, "err": 0.0002},
+      "P_yr": {"value": null, "err": null, "note": "Not tabulated. Sect. 6 says only 'a deeply plunging (e = 0.97) orbit with a period of ~90 years and pericenter passage in 2021.41'."},
+      "bibcode": "2022A&A...657L..12G",
+      "where": "Table B.1 (Appendix B), S29 column. This IS the 'S29 pericentre 2021' fit: L12 is the paper reporting the 2021.41 pericentre with GRAVITY (Fig. 1 caption, Sect. 6). The companion paper 2022A&A...657A..82G (Deep Images) gives the imaging and the S29 identification (Appendix D) but no separate element table.",
+      "r0_pc_used": 8277, "mass_used_msun": 4.297e6,
+      "conventions": "As for S2 (L12 Table B.1 note); osculating at conversion time 1977.",
+      "alternates": [
+        {
+          "bibcode": "2024A&A...692A.242G", "where": "Table B.1 (Appendix B)",
+          "a_arcsec": {"value": 0.39025, "err": 9.4e-4},
+          "e": {"value": 0.96880, "err": 9e-5},
+          "i_deg": {"value": 144.24, "err": 0.09},
+          "Omega_deg": {"value": 4.9259, "err": 0.1590},
+          "omega_deg": {"value": 203.68, "err": 0.17},
+          "tP_yr": {"value": 2021.4102, "err": null, "note": "Error printed as '×10^-4' with the coefficient missing in the arXiv/A&A PDF."},
+          "P_yr": {"value": null},
+          "r0_pc_used": 8275.9, "mass_used_msun": 4.2996e6
+        }
+      ],
+      "identity_dispute": "Peißker et al. (2021ApJ...918...25P; 2022ApJ...933...49P Sect. 4.1 and Appendix E) argue the GRAVITY 2019/2021 'S29' is mis-identified (S62 in 2019, possibly S4716 in 2021). GRAVITY (2022A&A...657A..82G Appendix D.1-D.2) traces S29 in NACO 2002-2019 and uses the z-angular-momentum h_z = (-1.09 +/- 0.03)x10^20 m^2/s to exclude identity with Peißker's S62 (h_z ~ +1.4x10^19 m^2/s)."
+    },
+    "S38": {
+      "a_arcsec": {"value": 0.14254, "err": 0.00004},
+      "e": {"value": 0.8145, "err": 0.0002},
+      "i_deg": {"value": 166.65, "err": 0.40},
+      "Omega_deg": {"value": 109.45, "err": 1.00},
+      "omega_deg": {"value": 27.17, "err": 1.02},
+      "tP_yr": {"value": 2022.7044, "err": 0.0080},
+      "P_yr": {"value": null, "err": null},
+      "bibcode": "2022A&A...657L..12G",
+      "where": "Table B.1 (Appendix B), S38 column",
+      "r0_pc_used": 8277, "mass_used_msun": 4.297e6,
+      "conventions": "As for S2; osculating at conversion time 2000.",
+      "alternates": [
+        {
+          "bibcode": "2024A&A...692A.242G", "where": "Table B.1 (Appendix B)",
+          "a_arcsec": {"value": 0.14249, "err": 4e-5},
+          "e": {"value": 0.81807, "err": 2.2e-4},
+          "i_deg": {"value": 168.69, "err": 0.19},
+          "Omega_deg": {"value": 122.43, "err": 1.12},
+          "omega_deg": {"value": 40.065, "err": 1.118},
+          "tP_yr": {"value": 2022.6843, "err": 8e-4},
+          "P_yr": {"value": null},
+          "r0_pc_used": 8275.9, "mass_used_msun": 4.2996e6
+        }
+      ]
+    },
+    "S55": {
+      "a_arcsec": {"value": 0.10440, "err": 0.00005},
+      "e": {"value": 0.7267, "err": 0.0002},
+      "i_deg": {"value": 158.52, "err": 0.22},
+      "Omega_deg": {"value": 314.94, "err": 1.14},
+      "omega_deg": {"value": 322.78, "err": 1.13},
+      "tP_yr": {"value": 2021.6940, "err": 0.0083},
+      "P_yr": {"value": null, "err": null},
+      "bibcode": "2022A&A...657L..12G",
+      "where": "Table B.1 (Appendix B), S55 column",
+      "r0_pc_used": 8277, "mass_used_msun": 4.297e6,
+      "conventions": "As for S2; osculating at conversion time 2012.",
+      "alternates": [
+        {
+          "bibcode": "2024A&A...692A.242G", "where": "Table B.1 (Appendix B)",
+          "a_arcsec": {"value": 0.10424, "err": 5e-5},
+          "e": {"value": 0.72980, "err": 1.8e-4},
+          "i_deg": {"value": 159.59, "err": 0.17},
+          "Omega_deg": {"value": 319.43, "err": 0.97},
+          "omega_deg": {"value": 327.77, "err": 0.93},
+          "tP_yr": {"value": 2009.4738, "err": 7.6e-3, "note": "A242 quotes the previous pericentre (2009.47), L12 the 2021.69 one; both as printed."},
+          "P_yr": {"value": null},
+          "r0_pc_used": 8275.9, "mass_used_msun": 4.2996e6
+        }
+      ]
+    }
+  },
+
+  "disputed": {
+    "_units_note": "Peißker et al. give a in milliparsec (mpc), not arcsec; a_arcsec is therefore null (not converted). The column headers in all three Peißker tables are 'a, e, i, omega, Omega, tclosest, tperiod', i.e. omega BEFORE Omega (checked from the Greek glyphs with pypdf); the values below are placed under the correct key.",
+    "S62": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 3.588, "err": 0.002},
+        "e": {"value": 0.976, "err": 0.002},
+        "i_deg": {"value": 72.76, "err": 4.58},
+        "Omega_deg": {"value": 122.61, "err": 0.57},
+        "omega_deg": {"value": 42.62, "err": 0.4},
+        "tP_yr": {"value": 2003.33, "err": 0.01},
+        "P_yr": {"value": 9.9, "err": 0.02},
+        "bibcode": "2020ApJ...889...61P", "doi": "10.3847/1538-4357/ab5afd",
+        "where": "Table 1 ('Orbital parameters for S62'); uncertainties from varying RA/Dec by +/-6.5 mas. Sect. 2.3: Keplerian L-BFGS-B fit with Sgr A* mass fixed at 4.15x10^6 Msun (Gravity Collaboration 2019); no R0 stated.",
+        "requote": {"bibcode": "2020ApJ...899...50P", "where": "Table 1, S62 row (MCMC uncertainties)", "a_mpc": {"value": 3.588, "err": 0.02}, "e": {"value": 0.976, "err": 0.01}, "i_deg": {"value": 72.76, "err": 5.15}, "omega_deg": {"value": 42.62, "err": 2.29}, "Omega_deg": {"value": 122.61, "err": 4.01}, "tP_yr": {"value": 2003.33, "err": 0.02}, "P_yr": {"value": 9.9, "err": 0.3}},
+        "mass_used_msun": 4.15e6, "r0_pc_used": null
+      },
+      "kmag": {"value": 16.1, "err": 0.2, "bibcode": "2020ApJ...889...61P", "where": "Sect. 4.1 ('magS62 = 16.1 mag', from a peak-count ratio of ~6 to S2); +/-0.2 and confirmation from SINFONI 2019.5 in 2021ApJ...918...25P abstract. Repeated in 2020ApJ...899...50P Table 2."},
+      "spectral_type": {"value": null, "bibcode": null, "where": "No spectral type given in any Peißker paper read."},
+      "mass_msun": {"value": 6.1, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2 ('The mass of S62 is an updated value'), from the K-mag-mass relation log(M/Msun) = -0.1925 mK + 3.885; earlier value 2.2 Msun in 2020ApJ...889...61P Sect. 4.1 (main-sequence mass-luminosity relation, index 3.5)."},
+      "disputed_by": [
+        {"bibcode": "2021A&A...645A.127G", "claim": "Sect. 5.1-5.2: GRAVITY CLEAN imaging in 2019 finds a slowly moving mK = 18.9 star within 30 mas of Sgr A* whose position and proper motion best match S62 (Gillessen et al. 2017 numbering), at |z| > 150 mas from the lack of acceleration. Peißker's 9.9 yr orbit predicts (RA, Dec) = (-89..-85, +98..+95) mas with ~(+7,-5) mas/yr; GRAVITY pointed there on 13-14 Aug and 13 Sep 2019 and found a single mK ~ 16.6 source moving ~(+21,-46) mas/yr that 'match[es] perfectly the orbital trace of the star S29'. 'We cannot report the detection of any object that would correspond to the 9.9-year orbit'; they speculate S29 was misidentified as S62 in NACO images."},
+        {"bibcode": "2022A&A...657A..82G", "claim": "Sect. 4.2: GRAVITY's S62 re-detected in all 2021 nights, linear motion vRA = 2.97 +/- 0.05, vDec = -3.58 +/- 0.09 mas/yr; 'does not fit a star with a 9.9 year orbital period as reported in Peißker et al. (2020)... the GRAVITY images do not support the existence of a star that orbits Sgr A* with a 9.9 year period.' Appendix D.2-D.3: h_z of S29 excludes identity with 'S62Peissker'; no counterpart found in the 2019 S29 pointings or the 2021 north-west mosaic pointing."},
+        {"bibcode": "2022A&A...657L..12G", "claim": "Fig. 1 caption: the 2021 central GRAVITY field is dominated by S29, S55, S62 and S300 (S62 K = 18.9) - i.e. GRAVITY's S62, not Peißker's. Not an independent argument; follows A127/A82."},
+        {"bibcode": "2026Natur.657..359A", "claim": "Methods (S301 discovery, GRAVITY+): 'we can exclude that the objects in ref. 49 [2020ApJ...899...50P] named S4711 and S62 (different from the star our team calls S62; see ref. 51 [2021A&A...645A.127G]) ... are actually S301'; Peißker's S62 orbit 'revolves anticlockwise, unlike S301'. The mK ~ 20 limit 'should have allowed us to easily detect any of the claimed discoveries if covered in our exposures. In none of our reconstructed images, we have detected a significant contribution of flux beyond background noise that we could attribute to the claimed stars.'"}
+      ],
+      "replies": [
+        {"bibcode": "2021ApJ...918...25P", "claim": "'Observation of the apoapsis of S62 in 2019 with NIRC2 and SINFONI': finds S62 at the expected positions in 2019.4 and 2019.5 (Lucy-Richardson deconvolved NIRC2 + SINFONI), confirms K = 16.1 +/- 0.2, re-derives an S29 orbit (Table 1), and 'present[s] a critical discussion of the elsewhere proposed linear trajectory of S62 and its disputed identification with a 19 mag star found with GRAVITY'."},
+        {"bibcode": "2022ApJ...933...49P", "claim": "Appendix E 'Comment on the detection of S62 in 2019' (with Table 9, Fig. 19): the GRAVITY 2019 off-axis source lies closer to Peißker's predicted S62 than to S29 (G17) - 'we propose that S62 = S29 = GRAVITY star in 2019'; calls this a misidentification that 'gave rise to the S29 orbit as published now in Gravity Collaboration et al. (2022a)'. Appendix F re-shows S62 detections; its text cites 'Tab 10' for S62 elements but Table 10 in the arXiv version holds S148, so no new S62 elements were found there."}
+      ],
+      "simbad_main_id": {"value": "[EG97] S62", "bibcode": null, "where": "SIMBAD TAP basic.main_id. CAUTION: the single SIMBAD object carries references for both the Gillessen/GRAVITY S62 and Peißker's S62 (2020ApJ...889...61P, 2021A&A...645A.127G, 2022A&A...657A..82G ...), so it does not distinguish the two claims. No coordinates in SIMBAD."}
+    },
+    "S4711": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 3.002, "err": 0.06},
+        "e": {"value": 0.768, "err": 0.030},
+        "i_deg": {"value": 114.71, "err": 2.92},
+        "Omega_deg": {"value": 20.10, "err": 3.72},
+        "omega_deg": {"value": 131.59, "err": 3.09},
+        "tP_yr": {"value": 2010.85, "err": 0.06},
+        "P_yr": {"value": 7.6, "err": 0.3},
+        "bibcode": "2020ApJ...899...50P", "doi": "10.3847/1538-4357/ab9c1c",
+        "where": "Table 1 (MCMC 1 sigma). Caption: 'The orbital period was calculated assuming the Sgr A* mass of (4.1 +/- 0.2)x10^6 Msun.' Sect. 3.2: MCMC uses 4.15x10^6 Msun and 8.3 kpc.",
+        "mass_used_msun": 4.1e6, "r0_pc_used": 8300
+      },
+      "kmag": {"value": 18.43, "err": 0.22, "bibcode": "2020ApJ...899...50P", "where": "Sect. 3.1 ('mK = 18.43 +/- 0.22', aperture photometry against S2 = 14.15); Table 2 rounds to 18.4."},
+      "spectral_type": {"value": "B8/9-V", "bibcode": "2020ApJ...899...50P", "where": "Sect. 3.1 (Br-gamma width ~10 A, Hanson et al. 1996 atlas; Teff ~10700-11800 K); v sin i = 239.60 +/- 25.21 km/s."},
+      "mass_msun": {"value": 2.2, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2 (K-mag-mass relation, Eq. 3)."},
+      "disputed_by": [
+        {"bibcode": "2026Natur.657..359A", "claim": "Methods: S4711 (e = 0.768, orbit 'extending towards the East') is not S301; GRAVITY+ images reaching mK ~ 20 detect no flux attributable to any of the claimed stars where covered."}
+      ],
+      "replies": [
+        {"bibcode": "2022ApJ...933...49P", "claim": "Sect. 4.1: S4711 found at its expected apoapse position in 2020 with Keck/OSIRIS (Fig. 10). Predates the 2026 Nature non-detection; no later reply found in SIMBAD's reference list for S4711 as of 2026-10-09."}
+      ],
+      "simbad_main_id": {"value": "[EG97] S4711", "bibcode": null, "where": "SIMBAD TAP; placeholder coordinates (266.41667, -29.00778) only."}
+    },
+    "S4712": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 18.038, "err": 0.099},
+        "e": {"value": 0.364, "err": 0.032},
+        "i_deg": {"value": 117.28, "err": 1.31},
+        "Omega_deg": {"value": 166.38, "err": 3.20},
+        "omega_deg": {"value": 238.08, "err": 3.43},
+        "tP_yr": {"value": 2007.12, "err": 0.08},
+        "P_yr": {"value": 112.0, "err": 2.9},
+        "bibcode": "2020ApJ...899...50P", "where": "Table 1", "mass_used_msun": 4.1e6, "r0_pc_used": 8300
+      },
+      "kmag": {"value": 18.4, "err": 0.2, "bibcode": "2020ApJ...899...50P", "where": "Table 2 (typical uncertainty +/-0.2 per caption)"},
+      "spectral_type": {"value": null, "bibcode": null, "where": "not stated"},
+      "mass_msun": {"value": 2.2, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "disputed_by": [{"bibcode": "2026Natur.657..359A", "claim": "Methods: no flux attributable to any of the Peißker-claimed stars in GRAVITY+ images (mK ~ 20 limit) where covered; 'none of the other claimed stars have orbital elements similar to the ones of S301'."}],
+      "replies": [],
+      "simbad_main_id": {"value": "[EG97] S4712", "bibcode": null, "where": "SIMBAD TAP"}
+    },
+    "S4713": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 8.016, "err": 0.379},
+        "e": {"value": 0.351, "err": 0.059},
+        "i_deg": {"value": 111.07, "err": 1.66},
+        "Omega_deg": {"value": 195.06, "err": 5.15},
+        "omega_deg": {"value": 301.97, "err": 8.02},
+        "tP_yr": {"value": 2000.03, "err": 0.22},
+        "P_yr": {"value": 33.2, "err": 2.5},
+        "bibcode": "2020ApJ...899...50P", "where": "Table 1", "mass_used_msun": 4.1e6, "r0_pc_used": 8300
+      },
+      "kmag": {"value": 18.5, "err": 0.2, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "spectral_type": {"value": null, "bibcode": null, "where": "not stated"},
+      "mass_msun": {"value": 2.1, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "disputed_by": [{"bibcode": "2026Natur.657..359A", "claim": "As for S4712 (blanket non-detection of the claimed stars where covered)."}],
+      "replies": [],
+      "simbad_main_id": {"value": "[EG97] S4713", "bibcode": null, "where": "SIMBAD TAP"}
+    },
+    "S4714": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 4.079, "err": 0.012},
+        "e": {"value": 0.985, "err": 0.011},
+        "i_deg": {"value": 127.70, "err": 0.28},
+        "Omega_deg": {"value": 129.28, "err": 0.63},
+        "omega_deg": {"value": 357.25, "err": 0.80},
+        "tP_yr": {"value": 2017.29, "err": 0.02},
+        "P_yr": {"value": 12.0, "err": 0.3},
+        "bibcode": "2020ApJ...899...50P", "where": "Table 1 (abstract: 'S4714 is the most prominent one with an orbital period of 12 years and an eccentricity of 0.985')", "mass_used_msun": 4.1e6, "r0_pc_used": 8300
+      },
+      "kmag": {"value": 17.7, "err": 0.2, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "spectral_type": {"value": null, "bibcode": null, "where": "not stated"},
+      "mass_msun": {"value": 2.0, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "disputed_by": [{"bibcode": "2026Natur.657..359A", "claim": "As for S4712 (blanket non-detection of the claimed stars where covered)."}],
+      "replies": [],
+      "simbad_main_id": {"value": "[EG97] S4714", "bibcode": null, "where": "SIMBAD TAP"}
+    },
+    "S4715": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 5.756, "err": 0.439},
+        "e": {"value": 0.247, "err": 0.040},
+        "i_deg": {"value": 129.80, "err": 3.72},
+        "Omega_deg": {"value": 282.15, "err": 2.92},
+        "omega_deg": {"value": 359.99, "err": 5.38},
+        "tP_yr": {"value": 2008.05, "err": 0.30},
+        "P_yr": {"value": 20.2, "err": 2.4},
+        "bibcode": "2020ApJ...899...50P", "where": "Table 1", "mass_used_msun": 4.1e6, "r0_pc_used": 8300
+      },
+      "kmag": {"value": 17.8, "err": 0.2, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "spectral_type": {"value": null, "bibcode": null, "where": "not stated"},
+      "mass_msun": {"value": 2.8, "err_plus": 2, "err_minus": 1, "bibcode": "2020ApJ...899...50P", "where": "Table 2"},
+      "disputed_by": [{"bibcode": "2026Natur.657..359A", "claim": "As for S4712 (blanket non-detection of the claimed stars where covered)."}],
+      "replies": [],
+      "simbad_main_id": {"value": "[EG97] S4715", "bibcode": null, "where": "SIMBAD TAP"}
+    },
+    "S4716": {
+      "orbit": {
+        "a_arcsec": null,
+        "a_mpc": {"value": 1.94, "err": 0.02},
+        "e": {"value": 0.756, "err": 0.02},
+        "i_deg": {"value": 161.13, "err": 2.80},
+        "Omega_deg": {"value": 153.55, "err": 1.54},
+        "omega_deg": {"value": 2.25, "err": 0.02},
+        "tP_yr": {"value": 2017.41, "err": 0.004},
+        "P_yr": {"value": 4.02, "err": 0.08, "where": "Sect. 3.6 text ('Porb = 4.02 +/- 0.08 years'); not in Table 2"},
+        "bibcode": "2022ApJ...933...49P", "doi": "10.3847/1538-4357/ac752f",
+        "where": "Table 2, row 'S4716 (max. likelihood)' (MCMC). The other row, 'S4716 (estimated)' (Keplerian fit), gives a 1.93 +/- 0.02 mpc, e 0.756 +/- 0.02, i 161.24 +/- 2.80, omega 0.073 +/- 0.02, Omega 151.54 +/- 1.54, tclosest 2017.41 +/- 0.004. Sect. 3.6 text quotes a = 1.95 +/- 0.02 mpc = 402 +/- 4 AU and e = 0.754 +/- 0.02, which differ slightly from both table rows; table values used here.",
+        "mass_used_msun": 4.1e6, "mass_used_note": "Sect. 1 (Eq. 2) uses M = 4.1x10^6 Msun; Sect. 3.4 MCMC on S4716 gives an enclosed mass of (4.023 +/- 0.087)x10^6 Msun.",
+        "r0_pc_used": 8028, "r0_note": "Sect. 3.4: 'the averaged distance of the MCMC statistics for the S4716 orbit gives (8.028 +/- 0.199) kpc'."
+      },
+      "kmag": {"value": 17.02, "err": 0.22, "bibcode": "2022ApJ...933...49P", "where": "Sect. 4.1 and Fig. 7 caption (average 2003-2020)."},
+      "spectral_type": {"value": "B8/9-V", "bibcode": "2022ApJ...933...49P", "where": "Sect. 3.2 (spectrum compared with S4711, Hanson et al. 1996 atlas) and Sect. 3.3 (BONNSAI Teff ~12500 K)."},
+      "mass_msun": {"value": 4.04, "err_plus": 2, "err_minus": 1, "bibcode": "2022ApJ...933...49P", "where": "Table 3 'Input' (from the K-mag-mass relation, Eq. 12). Table 3 'Output' (BONNSAI) gives 3.20 with upper error +0.62; the lower error is printed as '-30' in the arXiv PDF and is not reproduced here."},
+      "disputed_by": [
+        {"bibcode": "2026Natur.657..359A", "claim": "Methods: 'several short-period stars with orbital periods as low as 4 years were claimed ... using adaptive-optics based imaging techniques [refs 49 = 2020ApJ...899...50P, 50 = 2022ApJ...933...49P], thus at a resolution 15 times worse than the GRAVITY data'; none have elements similar to S301; GRAVITY+ images (mK ~ 20 limit) show no flux attributable to the claimed stars where covered."},
+        {"bibcode": "2022A&A...657A..82G", "claim": "Indirect: GRAVITY's 2021 imaging of the central field finds only Sgr A*, S29, S55, S62 and the new S300 (mK 19.2); S4716 is not reported, and the 2021 source Peißker reinterprets is identified by GRAVITY as S29 (Appendix D)."}
+      ],
+      "replies": [
+        {"bibcode": "2022ApJ...933...49P", "claim": "The S4716 paper is itself partly a reply: Sect. 4.1-4.2 offer 'an alternative interpretation of the interferometric GRAVITY data observed in 2021', include the GRAVITY 2021 points from GColl2022a in the S4716 orbit (Fig. 9), and argue the GRAVITY S29 proper motion (Table 5, Fig. 11) shows an identification problem."}
+      ],
+      "simbad_main_id": {"value": null, "bibcode": null, "where": "No SIMBAD identifier containing 'S4716' found (TAP ident LIKE '%S4716%', 2026-10-09)."}
+    }
+  },
+
+  "papers": {
+    "2022A&A...657L..12G": "GRAVITY Collaboration (Abuter et al.) 2022, A&A 657, L12 - Mass distribution in the Galactic Center based on interferometric astrometry of multiple stellar orbits (arXiv:2112.07478)",
+    "2024A&A...692A.242G": "GRAVITY Collaboration (Abd El Dayem et al.) 2024, A&A 692, A242 - Improving constraints on the extended mass distribution in the Galactic center with stellar orbits (arXiv:2409.12261)",
+    "2020A&A...636L...5G": "GRAVITY Collaboration (Abuter et al.) 2020, A&A 636, L5 - Detection of the Schwarzschild precession in the orbit of the star S2 near the Galactic centre massive black hole (arXiv:2004.07187)",
+    "2021A&A...645A.127G": "GRAVITY Collaboration 2021, A&A 645, A127 - Detection of faint stars near Sagittarius A* with GRAVITY (arXiv:2011.03058)",
+    "2021A&A...647A..59G": "GRAVITY Collaboration 2021, A&A 647, A59 - Improved GRAVITY astrometric accuracy from modeling optical aberrations (arXiv:2101.12098)",
+    "2022A&A...657A..82G": "GRAVITY Collaboration 2022, A&A 657, A82 - Deep images of the Galactic center with GRAVITY (arXiv:2112.07477)",
+    "2023A&A...677L..10G": "GRAVITY Collaboration 2023, A&A 677, L10 - Polarimetry and astrometry of NIR flares as event horizon scale, dynamical probes for the mass of Sgr A* (arXiv:2307.11821)",
+    "2026Natur.657..359A": "Abd El Dayem, K., Abuter, R., Aimar, N. et al. 2026, Nature 657, 359-363 - Discovery of a star sensitive to the spin of Sagittarius A* (doi:10.1038/s41586-026-10894-w; GRAVITY+, star S301)",
+    "2022ApJ...930L..12E": "Event Horizon Telescope Collaboration 2022, ApJL 930, L12 - First Sagittarius A* EHT Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way (arXiv:2311.08680)",
+    "2011AJ....142...35P": "Petrov, L. et al. 2011, AJ 142, 35 - The Very Long Baseline Array Galactic Plane Survey (VGaPS) [SIMBAD coordinate reference for Sgr A*]",
+    "2017ApJ...837...30G": "Gillessen, S. et al. 2017, ApJ 837, 30 - An update on monitoring stellar orbits in the Galactic Center [data/sgr_a/cat/gillessen2017_table3.dat]",
+    "2020ApJ...889...61P": "Peißker, F., Eckart, A. & Parsa, M. 2020, ApJ 889, 61 - S62 on a 9.9 yr orbit around SgrA* (arXiv:2002.02341)",
+    "2020ApJ...899...50P": "Peißker, F., Eckart, A., Zajaček, M., Ali, B. & Parsa, M. 2020, ApJ 899, 50 - S62 and S4711: indications of a population of faint fast-moving stars inside the S2 orbit - S4711 on a 7.6 yr orbit around Sgr A* (arXiv:2008.04764)",
+    "2021ApJ...918...25P": "Peißker, F., Eckart, A. & Ali, B. 2021, ApJ 918, 25 - Observation of the apoapsis of S62 in 2019 with NIRC2 and SINFONI (arXiv:2109.00798)",
+    "2022ApJ...933...49P": "Peißker, F., Eckart, A., Zajaček, M. & Britzen, S. 2022, ApJ 933, 49 - Observation of S4716 - a star with a 4 yr orbit around Sgr A* (arXiv:2207.02142)"
+  },
+
+  "caveats": [
+    "Two different stars are called S62. GRAVITY's S62 (Gillessen et al. numbering; mK 18.9, slow linear motion, |z| > 150 mas) is the one in L12 Fig. 1 and A82 Sect. 4.2. Peißker's S62 (mK 16.1, 9.9 yr orbit) is the disputed one. GRAVITY's papers call the latter 'S62Peissker'. SIMBAD merges both under '[EG97] S62'.",
+    "Omega/omega column order differs between sources: L12 and A242 list Omega then omega; GRAVITY 2020 Table E.1 and all Peißker tables list omega then Omega. pdftotext drops the Greek glyphs, so the order was checked with pypdf on every table used. Gillessen 2017 (the .dat file) uses i, Omega, omega.",
+    "GRAVITY elements are osculating at a stated conversion epoch near apocentre (2010.35 S2, 1977 S29, 2000 S38, 2012 S55), from fits that include 1PN (Schwarzschild) precession. They are not fixed Keplerian elements, so propagating them with pure Kepler drifts away from the published orbit.",
+    "No GRAVITY table gives P for any of S2/S29/S38/S55 except 2020 L5 (S2 only). P is left null rather than derived.",
+    "S38 sits near face-on (i ~ 167-169 deg), so Omega and omega are nearly degenerate: L12 (Omega 109.45, omega 27.17) and A242 (Omega 122.43, omega 40.065) differ by ~13 deg in each, both as published.",
+    "A242's S29 tperi uncertainty is printed without a coefficient ('×10^-4'), so it is recorded as null.",
+    "S4716: the paper's Table 2 (1.93/1.94 mpc, e 0.756) and Sect. 3.6 text (1.95 mpc, e 0.754) disagree slightly. The table's max-likelihood row is used. The BONNSAI lower mass error is misprinted in the PDF.",
+    "Peißker et al. never give a in arcsec and use M = 4.1-4.15e6 Msun with R0 = 8.3 kpc (2020) or 8.028 kpc (S4716). Their elements are not on the GRAVITY M/R0 scale and were not converted.",
+    "All Peißker orbits come from AO imaging (NACO/SINFONI/Keck) with Lucy-Richardson deconvolution or high-pass filtering. GRAVITY (A127, A82) and GRAVITY+ (Nature 2026) report no detection of S62(Peißker) or the S4711-S4716 stars where their fields covered them. No independent confirmation by a third group was found. Papers that merely use the S62/S4716 orbits as test cases (e.g. 2023ApJ...954..219I, 2025A&A...694A.280D) are not confirmations.",
+    "The 2026 Nature S301 paper reports an 8.7 yr orbit as the shortest known period, implicitly rejecting the shorter claimed S4711 (7.6 yr) and S4716 (4.0 yr) periods. S301 is outside this brief and no elements were extracted for it.",
+    "ADS abstract pages were behind a captcha. Bibcodes were cross-checked against SIMBAD's ref table (bibcode/DOI/title) and arXiv DOIs. The Peißker arXiv PDFs are the accepted versions; any small changes in the published ApJ typeset were not checked."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+ "agent_id": "C01",
+ "phase": 3,
+ "status": "PARTIAL - in progress",
+ "coverage": [
+  {
+   "system_host": "(TOI table sweep)",
+   "aliases_searched": [],
+   "sources_checked": [
+    "PACK toi_nasa_2026-09-23.csv",
+    "TIC v8.2 (VizieR IV/39/tic82)",
+    "Gaia DR3 via VizieR I/355/gaiadr3 cone (10 arcsec, epoch-2016 and J2000 positions)",
+    "gaiadr3.dr2_neighbourhood",
+    "NASA pscomppars by tic_id",
+    "SIMBAD ident"
+   ],
+   "result": "223 no-distance TOI rows checked; 6 kept (parallax >= 32.616 mas)",
+   "notes": "No-distance rows: 223 checked against Gaia DR3 (10-arcsec cone on TOI ra/dec; TOI coordinates agree with Gaia epoch-2016 positions to <0.6 arcsec). 223/223 matched. Kept: TOI-1256.01 (FP, Gaia DR3 2060325262521404160, plx 41.495+/-0.042), TOI-2267.01/.02/.03 (CP/PC/CP, Gaia DR3 571488283984760960, plx 44.35+/-0.36, RUWE 13.7), TOI-4506.01 (PC, Gaia DR3 2432393434611921408, plx 37.42+/-0.35, RUWE 6.6), TOI-6838.01 (KP = TRAPPIST-1 b, Gaia DR3 2635476908753563008, plx 80.21; already on sheet). No other source within 10 arcsec of any no-distance TOI has parallax >= 32.616 mas; nearest misses TOI-2299 (29.2 mas), TOI-5693 (29.1), TOI-5976 (26.0 neighbour), TOI-5809 (25.9 neighbour)."
+  }
+ ],
+ "candidates": [],
+ "new_systems": [],
+ "considered_not_added": [],
+ "confirmed_missing_from_confirmed_sheet": [
+  {
+   "planet": "TOI-2267 b",
+   "toi": "TOI-2267.03",
+   "system_host": "TOI-2267",
+   "source": "NASA pscomppars (tic_id TIC 459837008), disc_refname Zuniga-Fernandez et al. 2025",
+   "note": "host at Gaia DR3 plx 44.35 mas (73.5 ly); TOI table has no st_dist so earlier sweeps missed it"
+  },
+  {
+   "planet": "TOI-2267 c",
+   "toi": "TOI-2267.01",
+   "system_host": "TOI-2267",
+   "source": "NASA pscomppars, Zuniga-Fernandez et al. 2025",
+   "note": "as above"
+  },
+  {
+   "planet": "TOI-2267 d (TOI-2267.02)",
+   "toi": "TOI-2267.02",
+   "system_host": "TOI-2267",
+   "source": "arXiv:2512.10007 'Validation of a Third Earth-sized Planet in the TOI-2267 Binary System' (title seen via arXiv API; abstract not yet read)",
+   "note": "TOI table still PC; not in pscomppars. Writer judgement: validated in preprint only."
+  }
+ ],
+ "incidental_finds_outside_my_scope": [
+  {
+   "type": "disposition_change",
+   "toi": "TOI-4324.01",
+   "sheet": "PC",
+   "now": "CP",
+   "rowupdate": "2026-08-25"
+  },
+  {
+   "type": "disposition_change",
+   "toi": "TOI-2540.01",
+   "sheet": "PC",
+   "now": "CP",
+   "rowupdate": "2026-08-25"
+  },
+  {
+   "type": "disposition_change",
+   "toi": "TOI-6662.01",
+   "sheet": "PC",
+   "now": "CP",
+   "rowupdate": "2026-08-25"
+  },
+  {
+   "type": "disposition_change",
+   "toi": "TOI-5961.01",
+   "sheet": "PC",
+   "now": "CP",
+   "rowupdate": "2026-08-25"
+  },
+  {
+   "type": "duplicate_across_tabs",
+   "toi": "TOI-6716.01",
+   "note": "TOI table still says PC, but NASA pscomppars lists TOI-6716 b (Scott et al. 2026, MNRAS 547) and planets_confirmed.csv row 536 already has TOI-6716 b. The Unconfirmed-tab row 5 duplicates a confirmed planet."
+  },
+  {
+   "type": "host_already_on_systems_tab",
+   "note": "TOI-6276 = HD 101581 = GJ 435 = HIP 56998 (Systems tab 'HIP 56998'); TOI-6713 = HD 104067; TOI-7032 = GJ 523; TOI-6716 = TOI-6716. Unconfirmed-tab column B for these rows should use the Systems-tab name."
+  },
+  {
+   "type": "possible_third_star",
+   "note": "TOI-1113 host is SIMBAD 'HD 207496C' (Gaia DR3 6356417496318028928, plx 40.96+/-0.57, RUWE 37.8, non_single_star=1). HD 207496 (TOI-1099, Gaia DR3 6356417496318028800) is on the Systems tab with 2 stars."
+  }
+ ],
+ "notes_progress": "Gaia DR3 kinematics (gaia_hosts.csv) and TIC v8.2 stellar params (tic_hosts.csv) fetched for all 37 hosts; new_systems being built next."
+}

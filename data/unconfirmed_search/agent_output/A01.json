@@ -1,0 +1,615 @@
+{
+ "agent_id": "A01",
+ "phase": 1,
+ "builtin_inventory": "Bodies with status='hypothetical' in star_analysis/data/builtin_systems.py: Planet Nine (Sun), Alpha Centauri Ab (orbits Alpha Centauri A), Proxima Centauri c (in both _alpha_centauri and _proxima_centauri) and 55 Cnc g (already Unconfirmed row 42), plus two stars with hypothetical orbits (Proxima Centauri around A; 55 Cancri B). There are no others; TRAPPIST-1 and Upsilon Andromedae have none. schemas/custom_system.yaml.example only documents the status field and defines no hypothetical bodies.",
+ "coverage": [
+  {
+   "system_host": "Sun",
+   "aliases_searched": [
+    "Planet Nine",
+    "Planet 9",
+    "Planet X",
+    "Planet Y",
+    "Kuiper belt planet",
+    "undiscovered planet outer solar system"
+   ],
+   "sources_checked": [
+    "star_analysis/data/builtin_systems.py",
+    "arXiv API (ti:'planet nine', 40 most recent)",
+    "arXiv abstract pages",
+    "WebSearch",
+    "BB16 PDF text",
+    "BHB24 HTML text"
+   ],
+   "result": "4 candidates (Planet Nine ambiguous; Planet Y, Siraj Planet X and the Lykawka KBP unlikely)",
+   "notes": "Planet Nine's chosen parameters: BHB24 (a, m) plus BB21 (i, q). Also found: Millholland & Laughlin 2017 (a P9 variant, not a separate planet); Galiazzo & Finch 2026 (arXiv-only P9 variant); Phan+2025 (an IRAS/AKARI P9 candidate pair with no orbit); Napier+2021 (against the clustering); Iorio 2026 (bounds from Saturn's precession). Pan-STARRS1, ZTF and DES have together excluded 78% of the BB21 parameter space. arXiv API searches for Siraj and Lykawka returned nothing (rate limit), so those papers were found by WebSearch and read from their arXiv abstract pages."
+  },
+  {
+   "system_host": "alf Cen A",
+   "aliases_searched": [
+    "alpha Centauri",
+    "alpha Cen A",
+    "alpha Cen B",
+    "Rigil Kentaurus",
+    "Toliman",
+    "Proxima Centauri",
+    "Proxima Cen",
+    "GJ 551",
+    "HIP 70890",
+    "Proxima c",
+    "alpha Cen Ab",
+    "alpha Cen Bb"
+   ],
+   "sources_checked": [
+    "arXiv API (ti:alpha centauri; ti:proxima; abs:'Proxima c'; abs:'Cen A' AND JWST)",
+    "NASA Exoplanet Archive ps and pscomppars",
+    "Gaia DR3 gaia_source",
+    "Open Exoplanet Catalogue",
+    "Europe PMC (Damasso full text)",
+    "IOPscience (Benedict & McArthur)",
+    "Wikipedia (lead only)",
+    "WebSearch"
+   ],
+   "result": "2 candidates (Proxima Cen c ambiguous; alf Cen A b ambiguous)",
+   "notes": "Proxima b and d are confirmed and on the sheet. NIRPS 2025 (A&A 700, A11) refines the Msini of b to 1.055 +/- 0.055 M_E and of d to 0.260 +/- 0.038 M_E; the sheet has 1.05 and 0.26, so no change is needed. NIRPS 2025 also notes a 2.91 d FIP peak below the 10% threshold; it is not claimed as a planet and was not added. alpha Cen Bb is refuted (Rajpaul+2016). Demory+2015 report a single HST transit-like event around alpha Cen B; see considered_not_added. The Gratton+2020 SPHERE source is a proposed counterpart of Proxima c and is folded into that record. No candidate around alpha Cen B was found. For the JWST re-observation of alf Cen A planned for August 2026, no published result was found as of 2026-09-24. exoplanet.eu was tried (catalog/?query=Proxima) but the page returned a query syntax error; not retried, for budget."
+  }
+ ],
+ "candidates": [
+  {
+   "planet": "Proxima Cen c",
+   "system_host": "alf Cen A",
+   "new_system": false,
+   "planet_host_star": "Proxima Cen",
+   "aliases": [
+    "Proxima Centauri c",
+    "Proxima c",
+    "alf Cen C c",
+    "GJ 551 c",
+    "HIP 70890 c"
+   ],
+   "designation": "c (Damasso et al. 2020, Table 1)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "A published RV candidate (K = 1.2 +/- 0.4 m/s, ~3 sigma, e fixed at 0) that later work contests and has never recovered. Artigau+2022's LBL reanalysis of HARPS rejects models with c by BIC and traces the signal to HARPS-TERRA systematics. NIRPS+HARPS+ESPRESSO (Suarez Mascareno+2025) do not detect it significantly: a guided fit gives K = 58 +/- 28 cm/s, about half the published amplitude, at P = 1800 d. The astrometric support (Kervella+2020 Gaia DR2 PMa; Benedict & McArthur 2020 HST FGS; Libralato+2025 HST+Gaia) is low-significance and model-dependent, and Gratton+2020's SPHERE counterpart was not confirmed by its own authors. Not formally refuted, but the best current reading leans toward 'unlikely'. Kept as 'ambiguous' because the brief names it as the contested example; the writer may downgrade it.",
+   "detection_method": "Radial velocity",
+   "period_d": {
+    "value": 1900,
+    "err": "+96/-82",
+    "src": "DAM20",
+    "where": "Table 1 (GP + two circular Keplerians)"
+   },
+   "a_au": {
+    "value": 1.48,
+    "err": "+/-0.08",
+    "src": "DAM20",
+    "where": "Table 1, derived parameters"
+   },
+   "ecc": {
+    "value": 0,
+    "err": "fixed",
+    "src": "DAM20",
+    "where": "Table 1: e_c fixed at 0, not fitted"
+   },
+   "mass_earth": {
+    "value": 5.8,
+    "err": "+/-1.9",
+    "src": "DAM20",
+    "where": "Table 1, derived parameters",
+    "type": "Msini"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "RV only; eccentricity fixed at 0; the baseline covers about one orbit. The period is the Damasso+2020 posterior (1900 d); the 5.21 yr in their abstract comes from the same fit. The alternative astrometric solutions depend on their models. Benedict & McArthur 2020 (FGS+RV+SPHERE): P = 1928 +/- 20 d, i = 133 +/- 1 deg, Omega = 331 +/- 1 deg, true mass 7 +/- 1 M_E in their Table 1 but 6 +/- 1 M_E in their text (the note contradicts itself), and the fit leans on the unconfirmed Gratton+2020 SPHERE source. Kervella+2020: i = 152 +/- 14 deg, m = 12 +12/-5 M_E. NIRPS 2025 sees at most a lower-amplitude signal at ~1800-2000 d. Not in the NASA Exoplanet Archive; the OEC still lists it as confirmed.",
+   "reference": "Damasso et al. 2020, Science Advances 6, eaax7467, Table 1; contested by Artigau et al. 2022 (arXiv:2207.13524); not recovered by Suarez Mascareno et al. 2025, A&A 700, A11",
+   "vetting_date": "2025-07-29",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "GDR3P",
+    "where": "Gaia DR3 parallax 768.0665 +/- 0.0499 mas for Proxima Cen (writer converts; the sheet's alf Cen A system distance is 4.344 ly)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "DAM20": {
+     "citation": "Damasso et al. 2020, Science Advances 6, eaax7467, 'A low-mass planet candidate orbiting Proxima Centauri at a distance of 1.5 AU'",
+     "url": "https://doi.org/10.1126/sciadv.aax7467 (full text read via Europe PMC, PMC6962037)",
+     "what": "discovery; Table 1 orbit, K, Msini, a"
+    },
+    "BM20": {
+     "citation": "Benedict & McArthur 2020, 'A Moving Target -- Revising the Mass of Proxima Centauri c', RNAAS (doi 10.3847/2515-5172/ab9ca9); follows their RNAAS 4, 86",
+     "url": "https://iopscience.iop.org/article/10.3847/2515-5172/ab9ca9",
+     "what": "HST FGS + RV (+ SPHERE) astrometric orbit; Table 1"
+    },
+    "KER20": {
+     "citation": "Kervella et al. 2020, 'Orbital inclination and mass of the exoplanet candidate Proxima c', arXiv:2003.13106",
+     "url": "https://arxiv.org/abs/2003.13106",
+     "what": "Gaia DR2 proper-motion anomaly: i = 152 +/- 14 deg, m = 12 +12/-5 M_E (abstract)"
+    },
+    "GRA20": {
+     "citation": "Gratton et al. 2020, A&A 638, A120, 'Searching for the near infrared counterpart of Proxima c using multi-epoch high contrast SPHERE data at VLT'",
+     "url": "https://arxiv.org/abs/2004.06685",
+     "what": "S/N 6.1 SPHERE counterpart candidate, not confirmed by its authors (abstract)"
+    },
+    "ART22": {
+     "citation": "Artigau et al. 2022, 'Line-by-line velocity measurements, an outlier-resistant method for precision velocimetry', arXiv:2207.13524 (AJ 164, 84 -- journal ref recalled, not verified)",
+     "url": "https://arxiv.org/abs/2207.13524",
+     "what": "HARPS LBL: models with Proxima c rejected by BIC (dBIC -15.1, -21.2); signal attributed to HARPS-TERRA systematics (Sect. V.2, V.4)"
+    },
+    "FAR22": {
+     "citation": "Faria et al. 2022, A&A 658, A115, 'A candidate short-period sub-Earth orbiting Proxima Centauri'",
+     "url": "https://arxiv.org/abs/2202.05188",
+     "what": "ESPRESSO baseline 815 d too short to test c (Sect. 2 and 4)"
+    },
+    "SM25": {
+     "citation": "Suarez Mascareno et al. 2025, A&A 700, A11, 'Diving into the planetary system of Proxima with NIRPS'",
+     "url": "https://arxiv.org/abs/2507.21751",
+     "what": "c not significantly detected: guided fit K = 58 +/- 28 cm/s (<1.4 m/s at 99.7%), P = 1800 +100/-57 d (Sect. 5.3, 6.2.3); b and d parameters (Table 3)"
+    },
+    "LIB25": {
+     "citation": "Libralato et al., 'ARES I. Methodology validation with HST point-source images of Proxima Centauri', arXiv:2512.08533 (A&A 2026)",
+     "url": "https://arxiv.org/abs/2512.08533",
+     "what": "HST+Gaia proper-motion anomaly mass for c = 3.4 +5.2/-3.4 (unit printed as M_sun in the arXiv abstract, evidently a typo; unit not verified, A&A page returned 403)"
+    },
+    "GDR3P": {
+     "citation": "Gaia DR3 gaia_source, source_id 5853498713190525696 (Proxima Cen)",
+     "url": "https://gea.esac.esa.int/tap-server/tap/sync (SELECT source_id,parallax,parallax_error FROM gaiadr3.gaia_source WHERE source_id=5853498713190525696)",
+     "what": "parallax 768.0665 +/- 0.0499 mas"
+    },
+    "NEA": {
+     "citation": "NASA Exoplanet Archive ps and pscomppars, TAP query hostname like '%Cen%', run 2026-09-23",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,default_flag,pl_refname+from+ps+where+hostname+like+'%25Cen%25'",
+     "what": "lists Proxima Cen b and d only; Proxima c is not in the archive"
+    },
+    "OEC": {
+     "citation": "Open Exoplanet Catalogue, systems/Alpha Centauri.xml",
+     "url": "https://raw.githubusercontent.com/OpenExoplanetCatalogue/open_exoplanet_catalogue/master/systems/Alpha%20Centauri.xml",
+     "what": "lists Proxima Centauri c under 'Confirmed planets' (outdated); no alpha Cen A planet"
+    }
+   },
+   "dedupe": "planets_confirmed.csv: the alf Cen A system has Proxima Cen b (row 45) and Proxima Cen d (row 28) only. unconfirmed_existing.csv: no Proxima or alf Cen entry. The letter c does not collide.",
+   "confidence_notes": "Viewer (builtin_systems.py, in both _alpha_centauri and _proxima_centauri): a = 1.489 AU, P = 1928.0 d, e = 0, i = 0, mass 4.18e25 kg (= 7.0 M_E). P = 1928 d and 7 M_E match Benedict & McArthur 2020 Table 1 (FGS+RV+SPHERE column), not Damasso+2020 (P = 1900 d, a = 1.48 AU, Msini 5.8 M_E), yet the viewer's source list cites only Damasso+2020. Its a = 1.489 AU is close to Damasso's 1.48 but not equal to it. Whichever solution is used, the signal itself is doubtful: neither Artigau+2022 nor NIRPS 2025 sees it at the published amplitude."
+  },
+  {
+   "planet": "alf Cen A b",
+   "system_host": "alf Cen A",
+   "new_system": false,
+   "planet_host_star": "alf Cen A",
+   "aliases": [
+    "Alpha Centauri Ab",
+    "alpha Cen Ab",
+    "S1 (JWST/MIRI, Beichman+2025)",
+    "C1 (VLT/NEAR, Wagner+2021)",
+    "S1+C1"
+   ],
+   "designation": "S1 (Beichman et al. 2025, Table 2), treated as the same object as the NEAR candidate C1 (Wagner et al. 2021)",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "A single-epoch, single-roll JWST/MIRI detection (S/N 4-6, 3.3-4.3 sigma), not recovered in February or April 2025. Its authors flagged the 2019 NEAR detection C1 as possibly an instrumental artefact. That S1 and C1 are the same object is an assumption, and only 52% of the stable S1+C1 orbits are consistent with both non-detections. The authors call it 'at the moment, a planet candidate'. No published result from the planned August 2026 re-observation was found.",
+   "detection_method": "Direct imaging (mid-IR: JWST/MIRI F1550C; VLT/NEAR 11.25 um)",
+   "period_d": null,
+   "a_au": {
+    "value": 1.66,
+    "err": "+/-0.06",
+    "src": "BEI25",
+    "where": "Table 4: prograde a<2 au family, no RV constraint (one of 12 orbit families; the a>2 au families give 2.09-2.23 AU)"
+   },
+   "ecc": {
+    "value": 0.37,
+    "err": "+/-0.12",
+    "src": "BEI25",
+    "where": "Table 4, same family"
+   },
+   "mass_earth": {
+    "value": null,
+    "err": "range 90-150",
+    "src": "BEI25",
+    "where": "Abstract: 'a mass between 90-150 M_Earth', from photometry plus orbit and dependent on the model; no dynamical mass",
+    "type": "Model estimate (not Msini)"
+   },
+   "radius_earth": {
+    "value": null,
+    "err": "range 1.0-1.1 R_Jup",
+    "src": "BEI25",
+    "where": "Abstract: 'a radius of ~1-1.1 R_Jup' (writer converts); T ~225 K"
+   },
+   "host_inputs": {
+    "mass_msun": {
+     "value": 1.0788,
+     "err": "+/-0.0029",
+     "src": "BEI25",
+     "where": "Table 1 (ref. Akeson et al. 2021)"
+    },
+    "teff_k": {
+     "value": 5795,
+     "src": "BEI25",
+     "where": "Table 1 note 5 (Kurucz-Castelli model with log g 4.312)"
+    },
+    "radius_rsun": null,
+    "luminosity_lsun": {
+     "value": 1.5059,
+     "err": "+/-0.0019",
+     "src": "BEI25",
+     "where": "Table 1 (ref. Akeson et al. 2021)"
+    },
+    "logg": {
+     "value": 4.312,
+     "src": "BEI25",
+     "where": "Table 1 note 5"
+    }
+   },
+   "orbit_flags": "The orbit is a family of OFTI fits to two astrometric points (C1 on 2019-06-01: 0.85 +/- 0.05 arcsec, PA 228.9; S1 on 2024-08-10: 1.51 +/- 0.13 arcsec, PA 83.5; Table 2), constrained by stability and the two non-detections. The period is 'between 2-3 years' (abstract) and is not tabulated. Sky inclination 55 +/- 15 or 124 +/- 13 deg; mutual inclination to the AB plane 54 +/- 11 deg (Table 4, prograde a<2 au, no RV). The retrograde families are equally allowed. Teq 223 +/- 5 K. Mass and radius are photometric model estimates.",
+   "reference": "Beichman et al. 2025, ApJL, 'Worlds Next Door ... I.', arXiv:2508.03814, Tables 2 and 4; Sanghi et al. 2025, ApJL, arXiv:2508.03812; Wagner et al. 2021, Nat. Commun. 12, 922",
+   "vetting_date": "2025-08-05",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "BEI25",
+    "where": "Table 1: parallax 750.81 +/- 0.38 mas (Akeson et al. 2021). Gaia DR3 gives no parallax for alpha Cen A (a 0.02 deg cone search around 219.90, -60.834 returned only faint field stars). The sheet's system distance is 4.344 ly."
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "BEI25": {
+     "citation": "Beichman et al. 2025, ApJL (doi 10.3847/2041-8213/adf53f), 'Worlds Next Door: A Candidate Giant Planet Imaged in the Habitable Zone of alpha Cen A. I.', arXiv:2508.03814",
+     "url": "https://arxiv.org/abs/2508.03814",
+     "what": "S1 detection; Table 1 stellar properties; Table 2 astrometry of C1 and S1; Table 4 orbit families; abstract mass/radius/T; Sect. III.2 'at the moment, a planet candidate'"
+    },
+    "SAN25": {
+     "citation": "Sanghi et al. 2025, ApJL (doi 10.3847/2041-8213/adf53e), 'Worlds Next Door ... II. Binary Star Modeling, Planet and Exozodi Search, and Sensitivity Analysis', arXiv:2508.03812",
+     "url": "https://arxiv.org/abs/2508.03812",
+     "what": "S1 at S/N 4-6 (3.3-4.3 sigma), ~1.5 arcsec, 3.5 mJy; not re-detected Feb/Apr 2025 (abstract)"
+    },
+    "WAG21": {
+     "citation": "Wagner et al. 2021, Nature Communications 12, 922, 'Imaging low-mass planets within the habitable zone of alpha Centauri', arXiv:2102.05159",
+     "url": "https://doi.org/10.1038/s41467-021-21176-6",
+     "what": "NEAR candidate C1; 'an instrumental artifact of unknown origin cannot be ruled out' (abstract). C1 astrometry as tabulated in Beichman+2025 Table 2"
+    },
+    "WIKI_ACAB": {
+     "citation": "Wikipedia, 'Alpha Centauri Ab' (used as a lead only)",
+     "url": "https://en.wikipedia.org/wiki/Alpha_Centauri_Ab",
+     "what": "status lead; its only cited source for the non-recovery is Beichman+2025. No published result of the planned August 2026 JWST re-observation was found."
+    }
+   },
+   "dedupe": "planets_confirmed.csv and unconfirmed_existing.csv: no planet around alf Cen A or alf Cen B; the system's only entries are Proxima Cen b and d. The letter b on host star alf Cen A does not collide, since Proxima's b orbits a different component.",
+   "confidence_notes": "Viewer: a = 1.1 AU, e = 0, i = 0, P = 401.8 d (Kepler's law with 1.1 M_sun), radius 18000 km (~2.8 R_E), no mass, sourced only to Wagner+2021. The 1.1 AU is essentially C1's projected separation in 2019, not an orbit. The latest published orbit families put a at 1.58-1.68 AU (a<2 au) or 2.09-2.23 AU, with e ~0.3-0.4, a strong inclination and P = 2-3 yr. They make the object a ~1 R_Jup giant, about four times the viewer's radius. The viewer uses 1.1 M_sun for the star; Beichman uses 1.0788."
+  },
+  {
+   "planet": "Planet Nine",
+   "system_host": "Sun",
+   "new_system": false,
+   "planet_host_star": "Sun",
+   "aliases": [
+    "P9",
+    "Planet 9"
+   ],
+   "designation": "Planet Nine (Batygin & Brown 2016); parameters as updated by Brown, Holman & Batygin 2024",
+   "tfopwg_disposition": "",
+   "tier": "ambiguous",
+   "tier_reason": "No signal of any kind has been detected. The planet is a pure dynamical inference from TNO orbital clustering and is included only because it is a built-in viewer body. The clustering itself is disputed: Napier+2021 find the ETNO sample consistent with no clustering, and Siraj+2025 find ~3 sigma clustering in varpi but prefer a different, smaller planet (0.06% overlap with the BB21 population). In support, BB21 find the clustering significant at 99.6%, and Batygin+2024 reject a P9-free model at ~5 sigma for low-i Neptune-crossers. Direct searches (ZTF, DES, Pan-STARRS1) have excluded 78% of the BB21 parameter space. 'ambiguous' reflects a live, unresolved debate; 'unlikely' is also defensible.",
+   "detection_method": "Dynamical inference (clustering of distant TNO orbits); not detected",
+   "period_d": null,
+   "a_au": {
+    "value": 500,
+    "err": "+170/-120",
+    "src": "BHB24",
+    "where": "final section: updated from the surviving members of the P9 reference population"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": 6.6,
+    "err": "+2.6/-1.7",
+    "src": "BHB24",
+    "where": "final section",
+    "type": "Model estimate (dynamical inference)"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Inferred, not observed. Chosen: Brown, Holman & Batygin 2024, the originators' latest update, which is the BB21 posterior conditioned on the ZTF/DES/PS1 non-detections: a 500 +170/-120 AU, m 6.6 +2.6/-1.7 M_E, aphelion 630 +290/-170 AU, current distance 550 +250/-180 AU, V ~22.0. They state the other parameters are 'generally unchanged' from BB21: i 16 +/- 5 deg, perihelion 300 +85/-60 AU (BB21 abstract). No eccentricity or period is published as a value; the writer may derive e from q and the aphelion if wanted (orange border). Earlier estimates: BB16 nominal a 700 AU, e 0.6, i 30, omega 150, m 10 M_E; Batygin+2019 ranges m 5-10 M_E, a 400-800 AU, e 0.2-0.5, i 15-25 deg.",
+   "reference": "Batygin & Brown 2016, AJ 151, 22 (proposal); Brown & Batygin 2021, AJ 162, 219 (orbit fit); Brown, Holman & Batygin 2024, arXiv:2401.17977 (update, final section)",
+   "vetting_date": "2024-01-31",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "SYS",
+    "where": "Solar System (sheet distance 0)"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "BB16": {
+     "citation": "Batygin & Brown 2016, AJ 151, 22, 'Evidence for a Distant Giant Planet in the Solar System', arXiv:1601.05438",
+     "url": "https://doi.org/10.3847/0004-6256/151/2/22",
+     "what": "nominal perturber m'=10 M_E, a'=700 AU, e'=0.6 (Fig. 3 caption and text), i'=30 deg and omega'=150 deg (Fig. 8); omega' = 138 +/- 21 deg (text)"
+    },
+    "B19": {
+     "citation": "Batygin, Adams, Brown & Becker 2019, Physics Reports 805, 1, 'The Planet Nine Hypothesis', arXiv:1902.10103",
+     "url": "https://doi.org/10.1016/j.physrep.2019.01.009",
+     "what": "m 5-10 M_E, i 15-25 deg, a 400-800 AU, e 0.2-0.5 (abstract)"
+    },
+    "BB21": {
+     "citation": "Brown & Batygin 2021, AJ 162, 219, 'The orbit of Planet Nine', arXiv:2108.09868",
+     "url": "https://arxiv.org/abs/2108.09868",
+     "what": "MCMC: m 6.2 +2.2/-1.3 M_E, a 380 +140/-80 AU, i 16 +/- 5 deg, q 300 +85/-60 AU; clustering significant at 99.6% (abstract)"
+    },
+    "BHB24": {
+     "citation": "Brown, Holman & Batygin 2024, 'A Pan-STARRS1 Search for Planet Nine', arXiv:2401.17977 (AJ 167, 146 -- journal ref recalled, not verified)",
+     "url": "https://arxiv.org/abs/2401.17977",
+     "what": "rules out 78% of BB21 parameter space; updated a 500 +170/-120 AU, m 6.6 +2.6/-1.7 M_E, aphelion 630 +290/-170 AU, current distance 550 +250/-180 AU, V 22.0 (final section); 'other predicted parameters remain generally unchanged'"
+    },
+    "NAP21": {
+     "citation": "Napier et al. 2021, 'No Evidence for Orbital Clustering in the Extreme Trans-Neptunian Objects', arXiv:2102.05601 (PSJ 2, 59 -- journal ref recalled, not verified)",
+     "url": "https://arxiv.org/abs/2102.05601",
+     "what": "14 ETNOs consistent with uniform varpi and Omega at 17-94% (abstract)"
+    },
+    "BAT24": {
+     "citation": "Batygin, Morbidelli, Brown & Nesvorny 2024, 'Generation of Low-Inclination, Neptune-Crossing TNOs by Planet Nine', arXiv:2404.11594",
+     "url": "https://arxiv.org/abs/2404.11594",
+     "what": "P9-free model rejected at ~5 sigma for low-i Neptune-crossing TNOs (abstract); supporting evidence"
+    },
+    "SIR25a": {
+     "citation": "Siraj, Chyba & Tremaine 2025, ApJ 978 (doi 10.3847/1538-4357/ad98f6), 'Orbit of a Possible Planet X', arXiv:2410.18170",
+     "url": "https://arxiv.org/abs/2410.18170",
+     "what": "~3 sigma varpi clustering for a>170 AU; best fit m 4.4 +/- 1.1 M_E, a 290 +/- 30 AU, e 0.29 +/- 0.13, i 6.8 +/- 5.0 deg; only 0.06% of the BB21 reference population within 1 sigma (abstract)"
+    },
+    "ML17": {
+     "citation": "Millholland & Laughlin 2017, AJ 153, 91, arXiv:1612.07774",
+     "url": "https://arxiv.org/abs/1612.07774",
+     "what": "MMR-based P9 variant: m 6-12 M_E, a ~654 AU, e ~0.45, i ~30, omega ~150, Omega ~50, M ~180 (abstract)"
+    },
+    "PHA25": {
+     "citation": "Phan et al. 2025, PASA 42, e064, 'A Search for Planet Nine with IRAS and AKARI Data', arXiv:2504.17288",
+     "url": "https://arxiv.org/abs/2504.17288",
+     "what": "one IRAS-AKARI candidate pair; orbit undetermined (abstract)"
+    },
+    "GAL26": {
+     "citation": "Galiazzo & Finch 2026, arXiv:2606.00612 (no journal ref on the arXiv page)",
+     "url": "https://arxiv.org/abs/2606.00612",
+     "what": "analytic P9: a 510 AU, e 0.39, i 19.5 deg, Omega 107.7, omega 307.5, 7.1 M_E (abstract)"
+    },
+    "IOR26": {
+     "citation": "Iorio 2026, Universe 12(2), 4, 'Has Kronos devoured Planet Nine and its epigones?', arXiv:2602.00802",
+     "url": "https://arxiv.org/abs/2602.00802",
+     "what": "Saturn precession bounds: P9 confined near aphelion; Planet Y only Mercury-sized at >~125 AU; Siraj Planet X 'appears to be ruled out' (abstract)"
+    }
+   },
+   "dedupe": "planets_confirmed.csv Sun rows: Mercury to Neptune only (8). unconfirmed_existing.csv: nothing for the Sun.",
+   "confidence_notes": "Viewer: a = 700 AU, e = 0.60, i = 30, Omega = 100, omega = 150, M = 180, P = 6,758,000 d, mass 4.5e25 kg (= 7.5 M_E), radius 15000 km, cited to BB16 and Batygin+2019. a, e, i and omega match BB16's nominal Fig. 8 perturber. The mass of 7.5 M_E is neither BB16's 10 M_E nor BB21's 6.2 M_E, and I did not find Omega = 100 deg anywhere in BB16. The latest published estimate (BHB24/BB21) is much closer in and less eccentric: a ~500 AU (380 AU in BB21), q ~300 AU, i ~16 deg, m ~6.6 M_E. The viewer's orbit is an outdated 2016 illustration."
+  },
+  {
+   "planet": "Planet Y (Siraj, Chyba & Tremaine 2025)",
+   "system_host": "Sun",
+   "new_system": false,
+   "planet_host_star": "Sun",
+   "aliases": [
+    "Planet Y"
+   ],
+   "designation": "unnamed in the paper; called 'Planet Y' in press coverage and by Iorio 2026",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "A pure dynamical inference from a 96-98% confidence (~2-2.3 sigma) warp in the mean plane of the Kuiper belt at 80-200 AU; the authors say 'if it is not spurious'. No object has been detected. Iorio 2026 (Saturn's precession) allows it only as a ~Mercury-mass body beyond ~125 AU. WRITER JUDGEMENT: the brief's rule against pure dynamical inferences would put this in considered_not_added. It is included because the phase-1 scope asked for Sun proposals with orbit estimates.",
+   "detection_method": "Dynamical inference (Kuiper belt warp); not detected",
+   "period_d": null,
+   "a_au": {
+    "value": null,
+    "err": "range 100-200",
+    "src": "SIR25b",
+    "where": "abstract: semimajor axis 100-200 AU"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "err": "range Mercury to Earth",
+    "src": "SIR25b",
+    "where": "abstract: 'mass between that of Mercury and the Earth'",
+    "type": "Model estimate"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Ranges only: a 100-200 AU, i >~ 10 deg to the invariable plane, mass between Mercury's and Earth's; 'parameters outside of these ranges are still possible'. No eccentricity or node.",
+   "reference": "Siraj, Chyba & Tremaine 2025, 'Measuring the Mean Plane of the Distant Kuiper Belt', arXiv:2508.14156 (abstract)",
+   "vetting_date": "2025-08-19",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "SYS",
+    "where": "Solar System"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "SIR25b": {
+     "citation": "Siraj, Chyba & Tremaine 2025, 'Measuring the Mean Plane of the Distant Kuiper Belt', arXiv:2508.14156 (MNRAS per press coverage; journal ref not verified)",
+     "url": "https://arxiv.org/abs/2508.14156",
+     "what": "'Planet Y': warp at 80-400 AU (98%) and 80-200 AU (96%); planet between Mercury and Earth mass, a 100-200 AU, i >~ 10 deg; 'If it is not spurious' (abstract)"
+    },
+    "IOR26": {
+     "citation": "Iorio 2026, Universe 12(2), 4, 'Has Kronos devoured Planet Nine and its epigones?', arXiv:2602.00802",
+     "url": "https://arxiv.org/abs/2602.00802",
+     "what": "Saturn precession bounds: P9 confined near aphelion; Planet Y only Mercury-sized at >~125 AU; Siraj Planet X 'appears to be ruled out' (abstract)"
+    }
+   },
+   "dedupe": "planets_confirmed.csv Sun rows: Mercury to Neptune only (8). unconfirmed_existing.csv: nothing for the Sun.",
+   "confidence_notes": "Not in the viewer. Distinct from Planet Nine: much closer and much smaller. LSST should confirm or rule out the warp within a few years."
+  },
+  {
+   "planet": "Planet X (Siraj, Chyba & Tremaine 2025)",
+   "system_host": "Sun",
+   "new_system": false,
+   "planet_host_star": "Sun",
+   "aliases": [
+    "Planet X"
+   ],
+   "designation": "'possible Planet X' (paper title)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "A pure dynamical inference from ~3 sigma clustering in varpi of stable TNOs with a > 170 AU; there is no clustering in i, omega or Omega. No object has been detected. Iorio 2026 argues that bounds from Saturn's precession rule it out. WRITER JUDGEMENT: the brief's dynamical-inference rule excludes it unless the Sun's proposals are wanted as a set.",
+   "detection_method": "Dynamical inference (TNO clustering); not detected",
+   "period_d": null,
+   "a_au": {
+    "value": 290,
+    "err": "+/-30",
+    "src": "SIR25a",
+    "where": "abstract, best fit"
+   },
+   "ecc": {
+    "value": 0.29,
+    "err": "+/-0.13",
+    "src": "SIR25a",
+    "where": "abstract, best fit"
+   },
+   "mass_earth": {
+    "value": 4.4,
+    "err": "+/-1.1",
+    "src": "SIR25a",
+    "where": "abstract, best fit",
+    "type": "Model estimate"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Best fit from 300 n-body runs: m 4.4 +/- 1.1 M_E, a 290 +/- 30 AU, e 0.29 +/- 0.13, i 6.8 +/- 5.0 deg. No node or phase.",
+   "reference": "Siraj, Chyba & Tremaine 2025, ApJ 978, 'Orbit of a Possible Planet X', arXiv:2410.18170 (abstract)",
+   "vetting_date": "2025-01-07",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "SYS",
+    "where": "Solar System"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "SIR25a": {
+     "citation": "Siraj, Chyba & Tremaine 2025, ApJ 978 (doi 10.3847/1538-4357/ad98f6), 'Orbit of a Possible Planet X', arXiv:2410.18170",
+     "url": "https://arxiv.org/abs/2410.18170",
+     "what": "~3 sigma varpi clustering for a>170 AU; best fit m 4.4 +/- 1.1 M_E, a 290 +/- 30 AU, e 0.29 +/- 0.13, i 6.8 +/- 5.0 deg; only 0.06% of the BB21 reference population within 1 sigma (abstract)"
+    },
+    "IOR26": {
+     "citation": "Iorio 2026, Universe 12(2), 4, 'Has Kronos devoured Planet Nine and its epigones?', arXiv:2602.00802",
+     "url": "https://arxiv.org/abs/2602.00802",
+     "what": "Saturn precession bounds: P9 confined near aphelion; Planet Y only Mercury-sized at >~125 AU; Siraj Planet X 'appears to be ruled out' (abstract)"
+    }
+   },
+   "dedupe": "planets_confirmed.csv Sun rows: Mercury to Neptune only (8). unconfirmed_existing.csv: nothing for the Sun.",
+   "confidence_notes": "Not in the viewer. It competes with Planet Nine to explain the same clustering. The two barely overlap (0.06%), so at most one of them can be right."
+  },
+  {
+   "planet": "Kuiper Belt Planet (Lykawka & Ito 2023)",
+   "system_host": "Sun",
+   "new_system": false,
+   "planet_host_star": "Sun",
+   "aliases": [
+    "KBP"
+   ],
+   "designation": "KBP (Lykawka & Ito 2023)",
+   "tfopwg_disposition": "",
+   "tier": "unlikely",
+   "tier_reason": "A pure dynamical inference: in N-body models, a hypothetical Earth-like planet would explain the detached, high-i and Sedna-like TNOs. It has not been detected, and I found no independent support. WRITER JUDGEMENT: same as for Planet Y.",
+   "detection_method": "Dynamical inference (TNO structure); not detected",
+   "period_d": null,
+   "a_au": {
+    "value": null,
+    "err": "range 250-500",
+    "src": "LYK23",
+    "where": "abstract: a ~250-500 AU"
+   },
+   "ecc": null,
+   "mass_earth": {
+    "value": null,
+    "err": "range 1.5-3",
+    "src": "LYK23",
+    "where": "abstract: m ~1.5-3 M_E",
+    "type": "Model estimate"
+   },
+   "radius_earth": null,
+   "host_inputs": {
+    "mass_msun": null,
+    "teff_k": null,
+    "radius_rsun": null,
+    "luminosity_lsun": null,
+    "logg": null
+   },
+   "orbit_flags": "Ranges only: a ~250-500 AU, perihelion ~200 AU, i ~30 deg.",
+   "reference": "Lykawka & Ito 2023, AJ 166, 118, arXiv:2308.13765 (abstract)",
+   "vetting_date": "2023-08-25",
+   "catalogue_distance_ly": {
+    "value": null,
+    "src": "SYS",
+    "where": "Solar System"
+   },
+   "wikipedia_values": [],
+   "sources": {
+    "LYK23": {
+     "citation": "Lykawka & Ito 2023, AJ 166, 118, 'Is There an Earth-like Planet in the Distant Kuiper Belt?', arXiv:2308.13765",
+     "url": "https://arxiv.org/abs/2308.13765",
+     "what": "KBP m ~1.5-3 M_E, a ~250-500 AU, q ~200 AU, i ~30 deg (abstract)"
+    }
+   },
+   "dedupe": "planets_confirmed.csv Sun rows: Mercury to Neptune only (8). unconfirmed_existing.csv: nothing for the Sun.",
+   "confidence_notes": "Not in the viewer."
+  }
+ ],
+ "new_systems": [],
+ "considered_not_added": [
+  {
+   "name": "alpha Cen Bb",
+   "system_host": "alf Cen A",
+   "reason": "refuted: the 3.24 d signal is a window-function artefact (Rajpaul, Aigrain & Roberts 2016); Demory+2015 HST photometry also excluded its transits at 96.6% confidence",
+   "source_url": "https://arxiv.org/abs/1510.05598"
+  },
+  {
+   "name": "alpha Cen B transit-like event (Demory et al. 2015)",
+   "system_host": "alf Cen A",
+   "reason": "a single transit-like event in HST photometry, which the authors say 'could be associated to another Earth-size planet' on a longer orbit. There is no period, no size and no follow-up that I found. WRITER JUDGEMENT: it could be listed as 'unlikely', but there is nothing to put in the columns.",
+   "source_url": "https://arxiv.org/abs/1503.07528"
+  },
+  {
+   "name": "Phan et al. 2025 IRAS/AKARI Planet Nine candidate",
+   "system_host": "Sun",
+   "reason": "a possible detection of Planet Nine itself (one IRAS-AKARI source pair), not a separate planet. Its orbit is undetermined and needs DECam follow-up; I found no follow-up result. Mention it in the Planet Nine row's flags if wanted.",
+   "source_url": "https://arxiv.org/abs/2504.17288"
+  },
+  {
+   "name": "Planet Nine (Galiazzo & Finch 2026 analytic orbit)",
+   "system_host": "Sun",
+   "reason": "arXiv only, with no journal reference; a variant orbit for the same hypothetical planet (a 510 AU, e 0.39, i 19.5 deg, 7.1 M_E)",
+   "source_url": "https://arxiv.org/abs/2606.00612"
+  },
+  {
+   "name": "Planet Nine (Millholland & Laughlin 2017 MMR orbit)",
+   "system_host": "Sun",
+   "reason": "a variant orbit for the same hypothetical planet (a ~654 AU, e ~0.45, i ~30 deg), superseded by BB21 and BHB24",
+   "source_url": "https://arxiv.org/abs/1612.07774"
+  },
+  {
+   "name": "Proxima Cen's own orbit around alf Cen AB",
+   "system_host": "alf Cen A",
+   "reason": "builtin_systems.py marks Proxima's own orbit as status='hypothetical'; it is a star, not a planet candidate",
+   "source_url": ""
+  },
+  {
+   "name": "55 Cancri B",
+   "system_host": "55 Cnc A",
+   "reason": "its builtin status='hypothetical' belongs to a star with a poorly constrained orbit; 55 Cnc g is already on the Unconfirmed tab (row 42)",
+   "source_url": ""
+  }
+ ],
+ "confirmed_missing_from_confirmed_sheet": [],
+ "incidental_finds_outside_my_scope": [
+  "The Open Exoplanet Catalogue still lists Proxima Centauri c under 'Confirmed planets' (systems/Alpha Centauri.xml), while the NASA Exoplanet Archive does not list it at all."
+ ]
+}

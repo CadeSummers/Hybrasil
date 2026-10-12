@@ -1,0 +1,1807 @@
+{
+ "agent_id": "K009",
+ "batch": "K009",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 10138 B|2788907296779605376",
+   "name": "GJ 10138 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Only the primary HD 4913 (Gaia DR3 2788907296779604864, 9\" away) has RVs: Soubiran 2018 (J/A+A/616/A7) 6.657 +/- 0.022, Gaia DR3 6.51 +/- 0.15. Kervella et al. 2022 (J/A+A/657/A7 tablea3) lists 6.78 +/- 0.30 against this companion with ref S18, but Soubiran 2018 has no entry for B, so that is the primary's velocity carried over, not a measurement of B. Not reported."
+  },
+  {
+   "key": "GJ 12535|4053559111471124608",
+   "name": "GJ 12535",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13296|1882570138198421120",
+   "name": "GJ 13296",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13012 B|1859954695858413184",
+   "name": "GJ 13012 B",
+   "done": true,
+   "rv": {
+    "value": 11.5,
+    "err": 0.39,
+    "src": "hsu24",
+    "where": "VizieR J/ApJS/274/40/sample, Gaia=1859954695858413184 (2M20491376+3216514), col RVavg = 11.5 +0.23/-0.39 (E_RVavg/e_RVavg; larger side given as err); weighted mean over 3 APOGEE epochs forward-modelled by the authors (table4 epochs 11.4, 11.0, 11.8, each +/-0.3)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "hsu24": {
+     "citation": "Hsu C.-C. et al. 2024, ApJS 274, 40 (Brown Dwarf Kinematics Project VI: ultracool dwarf RVs from SDSS/APOGEE)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/274/40",
+     "what": "Forward-modelled multi-epoch APOGEE RVs of late-M/L dwarfs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: mwm_apogee_allstar v_rad 9.391 (3 visits); see notes",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Alternatives: APOGEE DR17 (III/286) HRV 9.391 +/- 0.42 (3 visits, scatter 0.81; same as DR19 allStar); APOGEE DR16 (III/284) HRV 11.78 +/- 0.03 (formal); Theissen et al. 2020 (J/ApJ/892/31) 13.70. The DR17/DR19 Doppler value is ~2 km/s lower than the dedicated forward-model fit. Hsu 2024 is the multi-epoch value with a realistic error and is reported."
+  },
+  {
+   "key": "GJ 10180|4929042942932181888",
+   "name": "GJ 10180",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10353|4966072879648455296",
+   "name": "GJ 10353",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 2077|615733593956317568",
+   "name": "GJ 2077",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only compilation/QSO matches, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): z of a background QSO, see notes"
+   ],
+   "notes": "White dwarf (DC7, featureless spectrum); no redshift-corrected kinematic RV found. SIMBAD's rejected value (z=2.91659, 2015ApJS..219...12A) is the redshift of a background QSO (SDSS spectrum classed QSO, 2.0\" from the WD's J2000 position) attached to the wrong object: the orchestrator may want to flag it. Ivanov 2008 compilation (I/306A) lists 27.0 for a source 0.1\" away with no provenance; a DC white dwarf has no lines to measure, so not used."
+  },
+  {
+   "key": "GJ 11070|898152604479525504",
+   "name": "GJ 11070",
+   "done": true,
+   "rv": {
+    "value": 60.0,
+    "err": 30.0,
+    "src": "lep03",
+    "where": "VizieR J/AJ/125/1598/table1, Name=LSR0721+3714 (matched 0.04\"), cols HRV/e_HRV; single low-resolution spectrum",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "lep03": {
+     "citation": "Lepine S., Rich R.M., Shara M.M. 2003, AJ 125, 1598",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/125/1598",
+     "what": "Low-resolution spectroscopy of new LSR high proper motion stars; HRV +/-30 km/s"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): not indexed"
+   ],
+   "notes": "LOW PRECISION (+/-30 km/s): this is the paper SIMBAD cites for its rejected quality-D 60 km/s; confirmed from the catalogue. It is the only measurement found. For comparison, other LSR stars in this batch measured by APOGEE differ from Lepine 2003 by 17 km/s (GJ 10198) and 50 km/s (GJ 10700)."
+  },
+  {
+   "key": "Gaia DR3 4352715300256046336|4352715300256046336",
+   "name": "Gaia DR3 4352715300256046336",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2964885266679458944|2964885266679458944",
+   "name": "Gaia DR3 2964885266679458944",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2865535629374939520|2865535629374939520",
+   "name": "Gaia DR3 2865535629374939520",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: LAMOST Xiang 2019 -482 (bad fit), see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DAP4.2, magnetic); no redshift-corrected kinematic RV found. Only a failed LAMOST LRS fit (Xiang 2019 J/ApJS/245/34: -482 +/- 18, uncorrected line velocity). rv null per rule 4."
+  },
+  {
+   "key": "GJ 10651|4871414343064541824",
+   "name": "GJ 10651",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10090|381017479521263360",
+   "name": "GJ 10090",
+   "done": true,
+   "rv": {
+    "value": 12.99,
+    "err": 3.84,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=381017479521263360, obsid 475308008 (snr-i 125.5), col RVel/e_RVel, n_RVel=1 (recommended); most precise of the star's 3 LAMOST spectra",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 13.0 (no error)"
+   ],
+   "notes": "Other Li 2025 spectra: obsid 279514195 10.62 +/- 4.05; obsid 283314195 -27.7 +/- 13.2. Wang et al. 2022 (J/A+A/660/A38, SIMBAD's rejected value) 13.0; Xiang 2019 18.25 +/- 3.57 and 23.93 +/- 4.22; Zhang 2021 (J/ApJS/253/19) 18.3 +/- 3.6, 23.9 +/- 4.2, 11.1 +/- 11.5; Ding 2022 20.0/14.8/21.2; Zhang 2025 (J/ApJS/277/47) 23.89 +/- 7.11, 23.23 +/- 7.28; Zhong 2019 24. Single-epoch LAMOST LRS values carry several km/s of systematic error."
+  },
+  {
+   "key": "Gaia DR3 2631876970245863552|2631876970245863552",
+   "name": "Gaia DR3 2631876970245863552",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: failed fit (-1458, success=0)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DC, featureless); no redshift-corrected kinematic RV found. DESI DR1 MWS has a failed RVSpecFit solution (-1458.5, success=0, rvs_warn=1). rv null."
+  },
+  {
+   "key": "Gaia DR3 4651824622447178368|4651824622447178368",
+   "name": "Gaia DR3 4651824622447178368",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11460 B|5669427512997660800",
+   "name": "GJ 11460 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DZ7); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "Gaia DR3 4512265810525783680|4512265810525783680",
+   "name": "Gaia DR3 4512265810525783680",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA); no redshift-corrected kinematic RV found. Kervella et al. 2022 (J/A+A/657/A7 tablea3) lists -43.97 +/- 2.7 (ref A12 = XHIP) against this WD, and III/213 has -44.6 for an A4 star 10\" away: both are the velocity of the bright companion, not a measurement of the white dwarf. rv null."
+  },
+  {
+   "key": "GJ 11299|5764544369835819776",
+   "name": "GJ 11299",
+   "done": true,
+   "rv": {
+    "value": 31.852,
+    "err": 0.656,
+    "src": "desi1",
+    "where": "DESI DR1 desi_dr1.mws (Astro Data Lab TAP), targetid 39627768866017609 (sv1/bright, target 134.67899,-0.69642 = this star at the DESI epoch, 0.19\" from its J2016 Gaia position after proper motion), cols vrad/vrad_err, success=1, rvs_warn=0, RVSpecFit Teff 2984 K; single spectrum",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi1": {
+     "citation": "DESI Collaboration 2025, Data Release 1 of the Dark Energy Spectroscopic Instrument (arXiv:2503.14745); Milky Way Survey RVSpecFit catalogue (Koposov et al. 2024/2025)",
+     "url": "https://datalab.noirlab.edu/",
+     "what": "DESI DR1 MWS table desi_dr1.mws (vrad/vrad_err from RVSpecFit), queried via NOIRLab Astro Data Lab TAP"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: DESI EDR Zhang 2024 J/ApJS/273/19 32.207 +/- 0.655",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: value found, see rv/notes",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Same DESI target in the EDR abundance catalogue of Zhang et al. 2024 (J/ApJS/273/19): 32.207 +/- 0.655 (that fit used a giant-like logg, so the DR1 RVSpecFit value with an M-dwarf template is reported). Single epoch."
+  },
+  {
+   "key": "Gaia DR3 6536333641986351360|6536333641986351360",
+   "name": "Gaia DR3 6536333641986351360",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11380 A|5424690587034982144",
+   "name": "GJ 11380 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 1179 B|1251824057289839744",
+   "name": "GJ 1179 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DC9, featureless); no redshift-corrected kinematic RV found. Nothing found."
+  },
+  {
+   "key": "GJ 1275|1884744525522874880",
+   "name": "GJ 1275",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only uncorrected SDSS line velocities",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star:  MWM_WD_eSDSS_DA_df rv_corv -36.1 +/- 15.8 (uncorrected)",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Kepler 2019 -34 +/- 10 (D)"
+   ],
+   "notes": "White dwarf (DA8.1); no redshift-corrected kinematic RV found. Only uncorrected line velocity: Kepler et al. 2019 (J/MNRAS/486/2169) -34 +/- 10 (SIMBAD's rejected value); SDSS DR19 corv fit -36.1 +/- 15.8; Survey of Surveys -39.0; -35 in J/ApJ/794/60 and J/ApJ/795/52 (SDSS pipeline values in red-giant catalogues). Not in Anguiano 2017. rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 5565898632002192768|5565898632002192768",
+   "name": "Gaia DR3 5565898632002192768",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4992138830007506048|4992138830007506048",
+   "name": "Gaia DR3 4992138830007506048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11857|3502592975744957824",
+   "name": "GJ 11857",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 224373459529824128|224373459529824128",
+   "name": "Gaia DR3 224373459529824128",
+   "done": true,
+   "rv": {
+    "value": -104.41,
+    "err": 15.97,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=224373459529824128, obsid 296801140 (snr-r 13.4, snr-i 54.1), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Guo 2019 -46.82"
+   ],
+   "notes": "LOW CONFIDENCE: one LAMOST spectrum, and the pipelines disagree by ~55 km/s. Same obsid: Guo et al. 2019 (J/MNRAS/485/2167, SIMBAD's rejected value) -46.82; Ding 2022 (J/ApJS/260/45) -48.5; Zhang 2021 gives no RV. Li 2025 is the most recent catalogue and is reported, but the -47 solutions may well be the right one."
+  },
+  {
+   "key": "GJ 12593|5956044179742203520",
+   "name": "GJ 12593",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13189 B|2614071100988460544",
+   "name": "GJ 13189 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: Basri & Reiners 2006 (J/AJ/132/663): differential RVs only",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "LP 759-25 is in Basri & Reiners 2006 (J/AJ/132/663 table23), which gives only relative RV variations (3 spectra, constant within 0.8 km/s), no absolute RV. Nothing else found."
+  },
+  {
+   "key": "Gaia DR3 3317715352578415360|3317715352578415360",
+   "name": "Gaia DR3 3317715352578415360",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11334|1013110152935464192",
+   "name": "GJ 11334",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11008 A|5564028981196462336",
+   "name": "GJ 11008 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA7.0); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 12843 B|1825387390333255808",
+   "name": "GJ 12843 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 529077268643979904|529077268643979904",
+   "name": "Gaia DR3 529077268643979904",
+   "done": true,
+   "rv": {
+    "value": -7.575,
+    "err": 0.471,
+    "src": "sdss19",
+    "where": "SDSS DR19 mwm_apogee_allstar, gaia_dr3_source_id=529077268643979904, sdss_id 55484594, col v_rad; single visit (MJD 59895); err = that visit's e_v_rel from mwm_apogee_allvisit (allStar e_v_rad given as 0)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "sdss19": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V MWM APOGEE (R~22,500) / BOSS Doppler RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: value found, see rv/notes",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Single APOGEE visit (S/N 42, spectrum_flags 2048); that visit's cross-correlation value is -10.20, so allow a few km/s of systematic error."
+  },
+  {
+   "key": "GJ 10777|3446141540516032640",
+   "name": "GJ 10777",
+   "done": true,
+   "rv": {
+    "value": 30.92,
+    "err": null,
+    "src": "wang22",
+    "where": "VizieR J/A+A/660/A38/table2, LSPM J0530+2956 (matched 1.6\" from the J2000-propagated position), col RV; LAMOST DR7 LRS, no uncertainty tabulated",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "wang22": {
+     "citation": "Wang Y.-F. et al. 2022, A&A 660, A38 (Ultracool dwarfs identified with spectra in LAMOST DR7)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/660/A38",
+     "what": "LAMOST DR7 low-resolution RVs of ultracool dwarfs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 30.92, Guo 2019 30.62"
+   ],
+   "notes": "LOW CONFIDENCE (single low-S/N LAMOST spectrum, obsid 19715108, snr-r 2.7). Li 2025 (J/ApJS/281/58) gives 30.90 +/- 2.19 for the same spectrum but flags it n_RVel=0 (not recommended), and -54.09 +/- 13.09 (also n_RVel=0) for obsid 15613158; Guo 2019 30.62; Guo 2015 LAMOST DR1 15.8 +/- 4.7; V/146 29.1 +/- 6.7; Zhong 2019 9; Ding 2022 37.9 and -60.1. The paper SIMBAD cites is confirmed here; Li 2025's own flag argues against its error bar."
+  },
+  {
+   "key": "GJ 10831|2917239476478912512",
+   "name": "GJ 10831",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3767924750937734912|3767924750937734912",
+   "name": "Gaia DR3 3767924750937734912",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4068499305485306240|4068499305485306240",
+   "name": "Gaia DR3 4068499305485306240",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DAZ); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 11247 B|5223423952772029440",
+   "name": "GJ 11247 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11611|5374565879145559424",
+   "name": "GJ 11611",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DC); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "Gaia DR3 859567752163281792|859567752163281792",
+   "name": "Gaia DR3 859567752163281792",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: mwm_boss_allstar / snow_white -17.7 +/- 20.3 (uncorrected)",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA); no redshift-corrected kinematic RV found. Only uncorrected line velocity: SDSS DR19 BOSS -17.73 +/- 20.34 (stellar-template fit). rv null per rule 4."
+  },
+  {
+   "key": "GJ 10116 A|4634695708716644864",
+   "name": "GJ 10116 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 568484383856524288|568484383856524288",
+   "name": "Gaia DR3 568484383856524288",
+   "done": true,
+   "rv": {
+    "value": 1.696,
+    "err": 0.216,
+    "src": "desi1",
+    "where": "DESI DR1 desi_dr1.mws, source_id=568484383856524288 (Gaia DR2=DR3 id), targetid 2305843013445781758 (main/backup), cols vrad/vrad_err, success=1, rvs_warn=0; single spectrum. Same value in SpecDis (J/AJ/170/171, GaiaDR3 match, col RVel)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi1": {
+     "citation": "DESI Collaboration 2025, Data Release 1 of the Dark Energy Spectroscopic Instrument (arXiv:2503.14745); Milky Way Survey RVSpecFit catalogue (Koposov et al. 2024/2025)",
+     "url": "https://datalab.noirlab.edu/",
+     "what": "DESI DR1 MWS table desi_dr1.mws (vrad/vrad_err from RVSpecFit), queried via NOIRLab Astro Data Lab TAP"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: DESI SpecDis J/AJ/170/171 1.696 (no error)",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: value found, see rv/notes",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Single DESI epoch (sn_r 21)."
+  },
+  {
+   "key": "GJ 10198|531859307941994240",
+   "name": "GJ 10198",
+   "done": true,
+   "rv": {
+    "value": -26.698,
+    "err": 0.457,
+    "src": "sdss19",
+    "where": "SDSS DR19 mwm_apogee_allstar, gaia_dr3_source_id=531859307941994240, sdss_id 55507630, col v_rad; single visit (MJD 59949); err = that visit's e_v_rel from mwm_apogee_allvisit (allStar e_v_rad given as 0); xcorr_v_rad for the visit also -26.70",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "sdss19": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V MWM APOGEE (R~22,500) / BOSS Doppler RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: Lepine 2003 -10 +/- 30",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: value found, see rv/notes",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Alternatives: SDSS DR19 BOSS (mwm_boss_allstar) -33.95 +/- 5.06 (3 visits, std 1.28); Lepine et al. 2003 -10 +/- 30 (SIMBAD's rejected value). The single APOGEE visit is the most precise."
+  },
+  {
+   "key": "Gaia DR3 467469811077592320|467469811077592320",
+   "name": "Gaia DR3 467469811077592320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Hartman & Lepine 2020 (J/ApJS/246/4) RV2 -10.17 +/- 0.14 is the Gaia DR2 RV of its bright wide companion (Gaia DR2 467468196170006144, G=6.66, 411\" away), not of this star. Nothing for this source."
+  },
+  {
+   "key": "GJ 11206|5548080118369905408",
+   "name": "GJ 11206",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DZ); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 13155|6572811211549713792",
+   "name": "GJ 13155",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10700|3232309683080514560",
+   "name": "GJ 10700",
+   "done": true,
+   "rv": {
+    "value": 10.568,
+    "err": 0.34,
+    "src": "sdss19",
+    "where": "SDSS DR19 mwm_apogee_allstar, gaia_dr3_source_id=3232309683080514560, sdss_id 75962385, col v_rad; single visit (MJD 59937); err = that visit's e_v_rel from mwm_apogee_allvisit (allStar e_v_rad given as 0); xcorr_v_rad also 10.57",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "sdss19": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V MWM APOGEE (R~22,500) / BOSS Doppler RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: Lepine 2003 60 +/- 30",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: value found, see rv/notes",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Lepine et al. 2003 (J/AJ/125/1598) 60 +/- 30 is SIMBAD's rejected value; the APOGEE visit supersedes it."
+  },
+  {
+   "key": "GJ 11379 B|5424690587034891264",
+   "name": "GJ 11379 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Gaia DR3 has RV 11.64 +/- 3.11 for a different source, 5424690587034891392, 6.9\" away; nothing for this component."
+  },
+  {
+   "key": "GJ 12686|4102780020842452736",
+   "name": "GJ 12686",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 4166|1844125748497557632",
+   "name": "GJ 4166",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA9); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 11843 B|6060965630906108672",
+   "name": "GJ 11843 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: kinematic (predicted) RV only, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Gagne & Faherty 2018 (J/ApJ/862/138 table3) give 19.4 +/- 1.0 for this Gaia id, but f_RVel=* marks it as a kinematic RV predicted by BANYAN Sigma, not a measurement. The primary HD 110810 has Gaia DR2 14.76 +/- 0.16 (Hartman & Lepine 2020 RV2) and XHIP 15.42 +/- 1.11 (Kervella 2022). No component RV."
+  },
+  {
+   "key": "GJ 12803|6758930664392303232",
+   "name": "GJ 12803",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11508|5475243898288297088",
+   "name": "GJ 11508",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11725|1692740619598187904",
+   "name": "GJ 11725",
+   "done": true,
+   "rv": {
+    "value": -3.593,
+    "err": 0.0615,
+    "src": "desi1",
+    "where": "DESI DR1 desi_dr1.mws, source_id=1692740619598187904, targetid 39633532405940707 (sv1/backup, sn_r 119), cols vrad/vrad_err, success=1, rvs_warn=0; single spectrum. Same value in SpecDis (J/AJ/170/171, col RVel)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi1": {
+     "citation": "DESI Collaboration 2025, Data Release 1 of the Dark Energy Spectroscopic Instrument (arXiv:2503.14745); Milky Way Survey RVSpecFit catalogue (Koposov et al. 2024/2025)",
+     "url": "https://datalab.noirlab.edu/",
+     "what": "DESI DR1 MWS table desi_dr1.mws (vrad/vrad_err from RVSpecFit), queried via NOIRLab Astro Data Lab TAP"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: DESI EDR -3.665 +/- 0.061; Newton 2016 14.7 +/- 5",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: mwm_apogee_allstar -5.609 (1 visit)",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: value found, see rv/notes",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): West 2015 14.7"
+   ],
+   "notes": "Alternatives: SDSS DR19 APOGEE single visit -5.61 (visit e_v_rel 0.49; that visit's cross-correlation gives -8.23 +/- 3.28); DESI EDR (Zhang 2024, J/ApJS/273/19) -3.665 +/- 0.061 for the same target; West et al. 2015 14.7 (SIMBAD's rejected value; 14.7 +/- 5 in Newton 2016 J/ApJ/821/93), which disagrees with both modern spectra. The DESI precision is formal; allow ~1-2 km/s systematic."
+  },
+  {
+   "key": "GJ 4054|2158285185808357504",
+   "name": "GJ 4054",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA10); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 12451 B|4575010197472244352",
+   "name": "GJ 12451 B",
+   "done": true,
+   "rv": {
+    "value": -20.22,
+    "err": 2.42,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=4575010197472244352, obsid 346707017 (snr-i 31.6), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: only the companion (Gaia DR3 4575010158815920768) -20.17 +/- 1.91",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 -20.23"
+   ],
+   "notes": "Same spectrum: Wang 2022 -20.23 (SIMBAD's rejected value); Xiang 2019 -13.39 +/- 3.56; Zhang 2021 -13.4 +/- 3.6; Ding 2022 -18.4; Zhong 2019 70. The companion GJ 12451 A (Gaia DR3 4575010158815920768) has DESI DR1 -20.17 +/- 1.91 and Gaia DR2 -21.20 (Hartman & Lepine RV2): consistent, but not used for B."
+  },
+  {
+   "key": "GJ 11703|1129258953521341312",
+   "name": "GJ 11703",
+   "done": true,
+   "rv": {
+    "value": -7.602,
+    "err": 0.086,
+    "src": "desi1",
+    "where": "DESI DR1 desi_dr1.mws, source_id=1129258953521341312, targetid 39633550579861441 (sv1/backup, sn_r 60.1), cols vrad/vrad_err, success=1, rvs_warn=0; the more precise of two DESI spectra",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "desi1": {
+     "citation": "DESI Collaboration 2025, Data Release 1 of the Dark Energy Spectroscopic Instrument (arXiv:2503.14745); Milky Way Survey RVSpecFit catalogue (Koposov et al. 2024/2025)",
+     "url": "https://datalab.noirlab.edu/",
+     "what": "DESI DR1 MWS table desi_dr1.mws (vrad/vrad_err from RVSpecFit), queried via NOIRLab Astro Data Lab TAP"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: DESI SpecDis J/AJ/170/171: -5.61 and -7.60 (no errors)",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: value found, see rv/notes",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Second DESI DR1 spectrum (main/backup, targetid 2305843017623283130, sn_r 28.9): -5.614 +/- 0.193. The two epochs differ by 2 km/s, more than their formal errors."
+  },
+  {
+   "key": "Gaia DR3 2148308217298483456|2148308217298483456",
+   "name": "Gaia DR3 2148308217298483456",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6805808514433280000|6805808514433280000",
+   "name": "Gaia DR3 6805808514433280000",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: Kawka 2004 via III/249: 15.6, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA); no redshift-corrected kinematic RV found. III/249 lists 15.6 (no error) for NLTT 49985 = LP 872-20, from Kawka, Vennes & Thorstensen 2004 (AJ 127, 1702). The paper is not on arXiv and has no VizieR table, so I could not check whether the value is gravitationally-redshift corrected. rv null per rule 4."
+  },
+  {
+   "key": "Gaia DR3 517324103519209344|517324103519209344",
+   "name": "Gaia DR3 517324103519209344",
+   "done": true,
+   "rv": {
+    "value": -44.366,
+    "err": 5.956,
+    "src": "sdss19",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=517324103519209344, sdss_id 55352722, cols v_rad/e_v_rad; 2 good BOSS visits (MJD 59922-59952), std_v_rad 4.46",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "sdss19": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V MWM APOGEE (R~22,500) / BOSS Doppler RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only the neighbour Gaia DR3 517324107818782080 (-8.2 +/- 5.4)",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: mwm_boss_allstar, see rv",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "LOW CONFIDENCE: low-resolution BOSS (R~2000) only. Gaia DR3 gives -8.2 +/- 5.4 for 517324107818782080, 4.5\" away (presumably the other component of LSPM J0224+6729): a 36 km/s difference that a bound pair cannot have, so one of the two values is off. Not averaged or replaced."
+  },
+  {
+   "key": "Gaia DR3 433763831149781376|433763831149781376",
+   "name": "Gaia DR3 433763831149781376",
+   "done": true,
+   "rv": {
+    "value": -17.92,
+    "err": 5.62,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, obsid 192509136 (0.14\" from this star's J2000-propagated position; Gaia=433763831149781376; snr-i 8.5), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "LOW CONFIDENCE: one LAMOST spectrum of a 3.8\"-separated pair (fibre 3.3\"), and the pipelines disagree. Same obsid: Zhang 2021 -0.6 +/- 1.3; Xiang 2019 -0.56 +/- 1.27; Ding 2022 4.0; Zhong 2019 -23. Li 2025 also tags obsid 192409136, 3.8\" away (4.21 +/- 1.59, Wang 2022 4.22), with this Gaia id, but by position that fibre is on the other component (LSPM J0251+4434A)."
+  },
+  {
+   "key": "Gaia DR3 5899166516266675456|5899166516266675456",
+   "name": "Gaia DR3 5899166516266675456",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11831|6153267707880611584",
+   "name": "GJ 11831",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10092|540024624884241792",
+   "name": "GJ 10092",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Gaia DR3 RV -77.65 +/- 2.76 belongs to a different source, 540024624884241024, 6.6\" away. Nothing for this star."
+  },
+  {
+   "key": "GJ 1276|2611561706216413696",
+   "name": "GJ 1276",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DZ13); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "GJ 10642|272752039871123712",
+   "name": "GJ 10642",
+   "done": true,
+   "rv": {
+    "value": -20.79,
+    "err": 4.75,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=272752039871123712, obsid 169307141 (snr-i 21.0), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 -20.81, Guo 2019 -19.88"
+   ],
+   "notes": "Same spectrum: Wang 2022 -20.81; Guo 2019 -19.88 (SIMBAD's rejected value); Ding 2022 5.9. Single low-S/N LAMOST spectrum."
+  },
+  {
+   "key": "GJ 11156|1081127557137725696",
+   "name": "GJ 11156",
+   "done": true,
+   "rv": {
+    "value": 13.87,
+    "err": 1.97,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=1081127557137725696, obsid 419703103 (snr-i 68.3), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 13.88"
+   ],
+   "notes": "Same spectrum: Wang 2022 13.88 (SIMBAD's rejected value); Xiang 2019 16.42 +/- 2.20; Zhang 2021 16.4 +/- 2.2; Ding 2022 16.7; Zhang 2025 21.21 +/- 10.64; Zhong 2019 3."
+  },
+  {
+   "key": "GJ 11846|3709637096929192960",
+   "name": "GJ 11846",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5055283885871157120|5055283885871157120",
+   "name": "Gaia DR3 5055283885871157120",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4230348349098191232|4230348349098191232",
+   "name": "Gaia DR3 4230348349098191232",
+   "done": true,
+   "rv": {
+    "value": -23.574,
+    "err": 4.99,
+    "src": "sdss19",
+    "where": "SDSS DR19 mwm_apogee_allstar, gaia_dr3_source_id=4230348349098191232, sdss_id 86541849, col v_rad over 2 good visits; err = std_v_rad (e_v_rad given as 0)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "sdss19": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V MWM APOGEE (R~22,500) / BOSS Doppler RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: value found, see rv/notes",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "The two APOGEE visits on consecutive nights give -19.70 (MJD 59741) and -26.75 (MJD 59740), each +/-0.4-0.5: a 7 km/s change in one day suggests a spectroscopic binary. The pipeline mean is reported with the visit scatter as its error; it is not a systemic velocity."
+  },
+  {
+   "key": "GJ 10848 B|3349802297332186496",
+   "name": "GJ 10848 B",
+   "done": true,
+   "rv": {
+    "value": 18.73,
+    "err": 2.77,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, obsid 99015108 (0.42\" from this star's J2000-propagated position; Gaia column blank; snr-i 8.5), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 18.74, Guo 2019 23.65"
+   ],
+   "notes": "LOW CONFIDENCE: matched by position only, single low-S/N LAMOST spectrum. Same obsid: Wang 2022 18.74; Guo 2019 23.65 (SIMBAD's rejected value); Ding 2022 29.8 (tagged with this Gaia id); Guo 2015 -66.6 +/- 12.5. The primary G 100-49 A (Gaia DR3 3349805247975323392) has APOGEE DR17 32.44 +/- 0.09 and Gaia DR3 31.83 +/- 0.36, 13 km/s from this value, which casts doubt on it. A's values were not used for B."
+  },
+  {
+   "key": "Gaia DR3 4840619839868708608|4840619839868708608",
+   "name": "Gaia DR3 4840619839868708608",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2442806153325000448|2442806153325000448",
+   "name": "Gaia DR3 2442806153325000448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 1435275918821040000|1435275918821040000",
+   "name": "Gaia DR3 1435275918821040000",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: LAMOST MRS spectra tagged with this id give incoherent values; APOGEE/Gaia values belong to A",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "LAMOST DR11 MRS (V/162/dr11m, obsid 1121915019) carries this Gaia id, but its blue and red arm RVs range from -458 to +518: unusable. APOGEE 2M17461184+6024225 and Gaia DR3 RVs are for the primary LP 102-241 A (Gaia DR3 1435275923117125760): APOGEE DR17 -12.26 +/- 0.16, Gaia DR3 -11.76 +/- 1.68. No component RV."
+  },
+  {
+   "key": "Gaia DR3 2967199704297025664|2967199704297025664",
+   "name": "Gaia DR3 2967199704297025664",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DC); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "Gaia DR3 5329184189553837184|5329184189553837184",
+   "name": "Gaia DR3 5329184189553837184",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10032|2444078253918146944",
+   "name": "GJ 10032",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11804|3960456315067417600",
+   "name": "GJ 11804",
+   "done": true,
+   "rv": {
+    "value": -2.01,
+    "err": 2.81,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=3960456315067417600, obsid 711913011 (snr-i 55.0), col RVel/e_RVel, n_RVel=1; the more precise of 2 LAMOST spectra",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 -2.02"
+   ],
+   "notes": "Other Li 2025 spectrum: obsid 714313011 -10.55 +/- 3.59. Same obsid 711913011: Wang 2022 -2.02 (SIMBAD's rejected value); Ding 2022 -7.9; Zhang 2025 6.69 +/- 13.44; Zhang 2021 -26.6 +/- 3.7 and 1.8 +/- 9.9."
+  },
+  {
+   "key": "Gaia DR3 358804183546838784|358804183546838784",
+   "name": "Gaia DR3 358804183546838784",
+   "done": true,
+   "rv": {
+    "value": -19.94,
+    "err": 13.77,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=358804183546838784, obsid 602403026 (snr-r 3.3, snr-i 38.0), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Wang 2022 -19.96"
+   ],
+   "notes": "LOW CONFIDENCE: one low-S/N LAMOST spectrum with a 14 km/s error. Same obsid: Wang 2022 -19.96 (SIMBAD's rejected value); Ding 2022 9.2; Zhang 2021 -51.5 +/- 16.2."
+  },
+  {
+   "key": "GJ 11362|5744451451968477952",
+   "name": "GJ 11362",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 401 B|3554395813252626048",
+   "name": "GJ 401 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only primary/system values, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Silvestri 2002 40.2 +/- 6.5 (D)"
+   ],
+   "notes": "White dwarf (DQ); no redshift-corrected kinematic RV found. Silvestri et al. 2002 (J/AJ/124/1118) 40.2 +/- 6.5, SIMBAD's rejected value, is repeated for this WD in J/A+A/649/A6 and J/A+A/693/A228. Silvestri observed white dwarfs with M-dwarf companions, and 40.2 matches the primary BD-18 3019 A (Sperauskas 2016 J/A+A/596/A116 41.4 +/- 0.6; Gaia DR2 41.9), so it is the system/companion velocity, not a redshift-corrected RV of the DQ. Not reported as B's."
+  },
+  {
+   "key": "GJ 1228|2150504594853811456",
+   "name": "GJ 1228",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: failed fit (562 +/- 32, success=0)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DQ7P); no redshift-corrected kinematic RV found. DESI DR1 MWS has only a failed stellar-template fit (562.4 +/- 31.6, success=0). rv null."
+  },
+  {
+   "key": "Gaia DR3 6150200345317903616|6150200345317903616",
+   "name": "Gaia DR3 6150200345317903616",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "All RVs are for the primary HD 107692 (Gaia DR3 6150200345317455232): Soubiran 2018 -7.056 +/- 0.010, Gaia DR3 -7.11 +/- 0.12. Kervella 2022 (J/A+A/657/A7 tablea3) lists -6.42 +/- 0.30 for HD 107692B with ref S18, but Soubiran 2018 has no entry for B, so that is not a measurement of B."
+  },
+  {
+   "key": "Gaia DR3 4686584548651046400|4686584548651046400",
+   "name": "Gaia DR3 4686584548651046400",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12282|4429874387730820608",
+   "name": "GJ 12282",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6744310492631771392|6744310492631771392",
+   "name": "Gaia DR3 6744310492631771392",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3177222814794675584|3177222814794675584",
+   "name": "Gaia DR3 3177222814794675584",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2747429251414058240|2747429251414058240",
+   "name": "Gaia DR3 2747429251414058240",
+   "done": true,
+   "rv": {
+    "value": 7.02,
+    "err": 2.5,
+    "src": "li25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=2747429251414058240, obsid 767316233 (snr-i 52.4), col RVel/e_RVel, n_RVel=1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "li25": {
+     "citation": "Li S. et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, with validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Same spectrum: Ding 2022 12.4; Zhang 2025 (J/ApJS/277/47) 15.35 +/- 9.59. Single LAMOST epoch."
+  },
+  {
+   "key": "Gaia DR3 5452103507851367296|5452103507851367296",
+   "name": "Gaia DR3 5452103507851367296",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11935|6166184667404110464",
+   "name": "GJ 11935",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2855386170682263424|2855386170682263424",
+   "name": "Gaia DR3 2855386170682263424",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA); no redshift-corrected kinematic RV found. Every RV near this position is for its companion BD+24 32 (Gaia DR3 2855386174976559488, 7.3\" away): Gaia DR3 -22.21 +/- 0.15. rv null."
+  },
+  {
+   "key": "GJ 12911|6473160651658069120",
+   "name": "GJ 12911",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2407167579853954688|2407167579853954688",
+   "name": "Gaia DR3 2407167579853954688",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "White dwarf (DA); no redshift-corrected kinematic RV found. Nothing found in any catalogue searched."
+  },
+  {
+   "key": "Gaia DR3 179371719912574208|179371719912574208",
+   "name": "Gaia DR3 179371719912574208",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2676769445892285696|2676769445892285696",
+   "name": "Gaia DR3 2676769445892285696",
+   "done": true,
+   "rv": {
+    "value": -9.0,
+    "err": null,
+    "src": "boch05",
+    "where": "VizieR J/AJ/130/1871/catalog (table1), LP 639-11 (matched 0.6\"), col RV; integer km/s, no per-star uncertainty tabulated",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "boch05": {
+     "citation": "Bochanski J.J., Hawley S.L., Reid I.N. et al. 2005, AJ 130, 1871 (Spectroscopic survey of M dwarfs within 100 parsecs of the Sun)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/130/1871",
+     "what": "Low/moderate-resolution spectroscopic RVs of nearby M dwarfs"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Bochanski 2005 -9 (D)"
+   ],
+   "notes": "LOW PRECISION: this is the paper SIMBAD cites for its rejected quality-D -9; confirmed from the catalogue (also repeated in J/AJ/156/217). It is the only measurement found. The paper's per-star error is not tabulated in VizieR."
+  },
+  {
+   "key": "GJ 13228 C|1875075420267288064",
+   "name": "GJ 13228 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: only values for other sources, see notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Hartman & Lepine 2020 RV2 -7.27 and J/MNRAS/498/5720 -6.97 are Gaia DR2 velocities of a companion in the GJ 13228 system, not of this component. Nothing for C itself."
+  },
+  {
+   "key": "GJ 10534|218519487823384192",
+   "name": "GJ 10534",
+   "done": true,
+   "rv": {
+    "value": 70.0,
+    "err": 30.0,
+    "src": "lep03",
+    "where": "VizieR J/AJ/125/1598/table1, Name=LSR0354+3333 (matched 0.03\"), cols HRV/e_HRV; single low-resolution spectrum",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "lep03": {
+     "citation": "Lepine S., Rich R.M., Shara M.M. 2003, AJ 125, 1598",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/AJ/125/1598",
+     "what": "Low-resolution spectroscopy of new LSR high proper motion stars; HRV +/-30 km/s"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): not indexed"
+   ],
+   "notes": "LOW PRECISION (+/-30 km/s), single epoch, and SIMBAD types the star EB* (eclipsing binary), so the velocity need not be systemic. LAMOST: Xiang 2019 (J/ApJS/245/34) has two spectra 1.7\" from the J2000 position (consistent with the star at the 2MASS epoch): 36.65 +/- 3.38 and -6.83 +/- 6.89, both fitted with an F/G template (Teff 6590 and 5380 K), so not usable for an M6 dwarf."
+  },
+  {
+   "key": "GJ 12461|4366633811793952896",
+   "name": "GJ 12461",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 1281989124439286912|1281989124439286912",
+   "name": "Gaia DR3 1281989124439286912",
+   "done": true,
+   "rv": {
+    "value": -7.14,
+    "err": 7.47,
+    "src": "ang17",
+    "where": "VizieR J/MNRAS/469/2102/table1, SDSS J145806.53+293727.0 (MJD-plate-fiber 54138-1844-0283; matched 2.5\" from the J2000-propagated position; pm in table 140.4,-598.7 matches), cols RVfit/e_RVfit. Redshift-corrected kinematic RV: paper Sect. 3 gives RV = RVcross - GM/Rc, with Vgrav = 25.86 km/s tabulated for this star",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "ang17": {
+     "citation": "Anguiano B. et al. 2017, MNRAS 469, 2102 (The kinematics of the white dwarf population from the SDSS DR12)",
+     "url": "https://arxiv.org/abs/1703.09152",
+     "what": "SDSS DR12 DA white dwarf RVs with the gravitational redshift removed (table 1, VizieR J/MNRAS/469/2102)"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: value found, see rv/notes",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: MWM_WD_eSDSS_DA_df rv_corv 22.76 +/- 10.6 (uncorrected)",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: DESI DR1 29.57 +/- 1.61 (uncorrected)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): Anguiano 2017 -7.14 +/- 7.47 (D)"
+   ],
+   "notes": "White dwarf (DA6.8): reported value is the gravitational-redshift-corrected RV (rule 4). Uncorrected line velocities for comparison: SDSS DR19 corv 22.76 +/- 10.6; DESI DR1 MWS 29.57 +/- 1.61 (and 36.56 +/- 2.90, success=0). Single SDSS spectrum, S/N 26."
+  },
+  {
+   "key": "GJ 11881|1464745617881550208",
+   "name": "GJ 11881",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (astroquery, every table with a velocity/redshift column: APOGEE DR16/DR17 III/284 III/286, LAMOST LRS/MRS V/146 V/156 V/162 and Li 2025 J/ApJS/281/58, Zhong 2019, Xiang 2019, Zhang 2021, Ding 2022, Zhang 2025, Guo 2015/2019, Wang 2022 J/A+A/660/A38, RAVE III/279 III/283, GALAH, Gaia DR2/DR3 RV, Hsu 2024 J/ApJS/274/40, DESI EDR/DR1 J/ApJS/273/19 J/AJ/170/171, Anguiano 2017 and Kepler 2019 SDSS WDs, PMSU, Newton 2016, Lepine 2003, etc.) at the J2000-propagated position (r=10\") and J2016 position (r=4\"), Gaia ids checked: no match",
+    "SDSS DR19 SkyServer SQL by gaia_dr3_source_id: mwm_apogee_allstar/allvisit, mwm_boss_allstar, MWM_WD_eSDSS_DA_df, MWM_WD_SDSSV_DA_df, snow_white_boss_star: no match",
+    "DESI DR1 MWS (NOIRLab Astro Data Lab TAP, desi_dr1.mws) by source_id and by 15\" box at J2016: no match",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 identifier and main_id): no match"
+   ],
+   "notes": "Searched, nothing found."
+  }
+ ]
+}

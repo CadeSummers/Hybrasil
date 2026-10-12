@@ -1,0 +1,1667 @@
+{
+ "agent_id": "K003",
+ "batch": "K003",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 4228|1768825106253209984",
+   "name": "GJ 4228",
+   "done": true,
+   "rv": {
+    "value": -26.22,
+    "err": 0.0072,
+    "src": "S1",
+    "where": "VizieR J/MNRAS/475/1960 tablea6, cols HRV / e_HRV (e_HRV is in m/s: 7.2 m/s); 2MASS J21514831+1336154 = LP 518-58, ESPaDOnS, Ns=2 spectra",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960 (SPIRou input catalogue, ESPaDOnS)",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "ESPaDOnS heliocentric RVs of 440 M dwarfs"
+    },
+    "S2": {
+     "citation": "Newton et al. 2014, AJ 147, 20",
+     "url": "https://doi.org/10.1088/0004-6256/147/1/20",
+     "what": "IRTF/SpeX NIR RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Matched by pm-propagated position (0.66 arcsec at J2000). Fouque flags the star VB (visual binary <2 arcsec); Gaia DR3 resolves no companion (RUWE 2.58), so the spectrum and the Gaia source are the same unresolved light. e_HRV is the catalogue's internal error (7.2 m/s), not an absolute zero-point error. Alternatives: Newton 2014 -26 +/- 4 km/s (S2, single epoch, LSPM J2151+1336); PMSU RV -14.3 (quoted in Newton 2014 col RVp)."
+  },
+  {
+   "key": "GJ 12187|6319402059411076224",
+   "name": "GJ 12187",
+   "done": true,
+   "rv": {
+    "value": 64.182,
+    "err": 8.454,
+    "src": "S1",
+    "where": "VizieR J/ApJS/220/16 table4, cols RVel / e_RVel (catalogue in m/s: 64182 +/- 8454), 2MASS 15141690-0958386, IRTF/SpeX single epoch",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Terrien et al. 2015, ApJS 220, 16",
+     "url": "https://doi.org/10.1088/0067-0049/220/1/16",
+     "what": "IRTF/SpeX NIR spectra of nearby M dwarfs, RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Same value SIMBAD carries at quality D; confirmed in the cited catalogue (position match 0.2 arcsec). Low precision (+/-8.5 km/s, single NIR epoch). No other RV found."
+  },
+  {
+   "key": "Gaia DR3 4833306713153200640|4833306713153200640",
+   "name": "Gaia DR3 4833306713153200640",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary CD-48 1042 (Gaia DR3 4833306713154584704, 1.8 arcsec): Gaia DR3 23.71, Torres 2006 23.9. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 5231870985222281088|5231870985222281088",
+   "name": "Gaia DR3 5231870985222281088",
+   "done": true,
+   "rv": {
+    "value": 7.92,
+    "err": 0.58,
+    "src": "S1",
+    "where": "Morales-Rueda et al. 2005, table of orbital solutions (label res:rv:tab2), gamma_M for WD1042-690: systemic velocity of the M-dwarf emission lines, 20 spectra, P = 0.337 d; read from the arXiv source astro-ph/0502408",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Morales-Rueda et al. 2005, MNRAS 359, 648, 'Six detached white-dwarf close binaries'",
+     "url": "https://arxiv.org/abs/astro-ph/0502408",
+     "what": "orbital solutions of WD+dM binaries incl. WD1042-690 (= BPM 6502 = WG 17)"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match",
+    "Web: WG 17 / WD 1042-690 / BPM 6502 radial velocity"
+   ],
+   "notes": "WG 17 = WD 1042-690 = BPM 6502, a 0.337-d DA+dM spectroscopic binary (unresolved). The value is the systemic (gamma) velocity of the M dwarf's emission lines, so it carries no white-dwarf gravitational redshift (only the M dwarf's own, <1 km/s). The WD absorption gamma is 44.08 +/- 0.75 (includes ~36 km/s WD redshift; not used). The 7 period aliases give gamma_M 7.64-8.26. Kawka et al. 2000 (AJ) has an earlier orbit (not opened). Paper times are HJD; heliocentric correction not stated explicitly. SIMBAD's rejected 56 km/s (Wegner 1974) is a WD line velocity."
+  },
+  {
+   "key": "GJ 10828 A|3347284175186268160",
+   "name": "GJ 10828 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Companion B 1.06 arcsec away (Gaia DR3 3347284175182472832, G=12.9) has Gaia DR3 RV 5.05 - B's. LAMOST DR11 LRS spectra (fibres on A and on B, both blended): z*c -5.97 +/- 2.19 and -1.59 +/- 2.34. Not reported as A's."
+  },
+  {
+   "key": "Gaia DR3 1291886309635558144|1291886309635558144",
+   "name": "Gaia DR3 1291886309635558144",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary HD 134044 (4.4 arcsec): Gaia DR3 -5.74, Soubiran 2018 -5.846. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 1686708050268594944|1686708050268594944",
+   "name": "Gaia DR3 1686708050268594944",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: Zuckerman et al. 2003 (ApJ 596, 477) 1.0 km/s and Brown 2008 26 km/s (both via SIMBAD mesVelocities)."
+  },
+  {
+   "key": "Gaia DR3 4770436260320073088|4770436260320073088",
+   "name": "Gaia DR3 4770436260320073088",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "L 233-25 A/B is a 0.6 arcsec equal-brightness pair; nothing for either. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 4770436260320072448|4770436260320072448",
+   "name": "Gaia DR3 4770436260320072448",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "L 233-25 A/B is a 0.6 arcsec equal-brightness pair; nothing for either. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 2535718905961089280|2535718905961089280",
+   "name": "Gaia DR3 2535718905961089280",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Terrien 2015 (J/ApJS/220/16, 2MASS 01012466-0105586) gives 34.10 +/- 4.54 km/s, but Gaia DR3 resolves a companion 0.42 arcsec away (2535718901668737536, G=12.75, about as bright), so the IRTF/SpeX spectrum blends A and B: not reported as A's value."
+  },
+  {
+   "key": "GJ 828.5 A|2274076297221555968",
+   "name": "GJ 828.5 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: Greenstein 1967 8.0 km/s (SIMBAD). Faint co-moving source 1.9 arcsec away (G=16.5)."
+  },
+  {
+   "key": "GJ 11154 B|5534742080239454976",
+   "name": "GJ 11154 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Only the primary HD 66020 has RVs (Gaia DR3 5534742080239458048: 7.2 km/s; Gaia DR2 7.29 +/- 0.21). Nothing for B."
+  },
+  {
+   "key": "Gaia DR3 4045967975765745536|4045967975765745536",
+   "name": "Gaia DR3 4045967975765745536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11889|1728599752523828864",
+   "name": "GJ 11889",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Only the primary HD 115675 (HIP 63762, 1.1 arcsec) has RVs: Gaia DR3 -48.12, DR2 -48.88 +/- 0.30, Sperauskas 2016 -48.73 +/- 0.36, Gontcharov -47.7. Nothing for B."
+  },
+  {
+   "key": "GJ 618 B|6021430250773733632",
+   "name": "GJ 618 B",
+   "done": true,
+   "rv": {
+    "value": 29.95,
+    "err": 0.5,
+    "src": "S1",
+    "where": "Winters et al. 2026, table 'RVs of Wide Multiple Components with Non-Mid-M Dwarf Primaries' (tab:wide_mults), row GJ 618B: weighted mean RV 29.95, sigma 0.50, ref 1 (this work, multi-epoch); read from arXiv source 2602.00382",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Winters et al. 2026, arXiv:2602.00382, 'Radial and Rotational Velocities of a Volume-Complete Sample of M Dwarfs with Masses 0.1-0.3 Msun within 15 parsecs'",
+     "url": "https://arxiv.org/abs/2602.00382",
+     "what": "multi-epoch weighted-mean RVs of mid-M dwarfs within 15 pc"
+    },
+    "S2": {
+     "citation": "2021MNRAS.508.5148C, 'M dwarf spectral indices at moderate resolution: accurate Teff and [Fe/H] for 178 southern stars'",
+     "url": "https://doi.org/10.1093/mnras/stab2831",
+     "what": "moderate-resolution RV (the SIMBAD value)"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "arXiv 2602.00382 LaTeX source tables"
+   ],
+   "notes": "Primary GJ 618A: 27.96 +/- 0.16 in the same table (Gaia DR3 27.96). Alternative: 33.9 km/s from 2021MNRAS.508.5148C (S2; the value SIMBAD carries, no error; paper not opened). GJ 618B is the mid-M secondary 4.2 arcsec from GJ 618A, matching this Gaia source (M5.5V, 8.5 pc)."
+  },
+  {
+   "key": "GJ 13077|6791196382856581376",
+   "name": "GJ 13077",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 2069 D|662732115405773824",
+   "name": "GJ 2069 D",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Gaia DR3 neighbours within 6 arcsec checked for blending"
+   ],
+   "notes": "CV Cnc (GJ 2069B) is a ~1 arcsec pair; CV Cnc A = Gaia DR3 662732115407952768 (0.99 arcsec, G=12.28) has Gaia DR3 RV 7.83. Fouque 2018 'GJ 2069B / CV Cnc' 7.48 km/s is flagged SB1+VB and is the blended pair; LAMOST DR11 LRS z*c 17.7 +/- 2.7 (2017-11-14) is also blended. None is specific to component B: not reported."
+  },
+  {
+   "key": "GJ 12447 B|5965924361166271104",
+   "name": "GJ 12447 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary HD 154590 (4.6 arcsec) has no Gaia RV either. Nothing found for this object."
+  },
+  {
+   "key": "GJ 4218|1792668153341911680",
+   "name": "GJ 4218",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'G 126-34' radial velocity: nothing"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11674|1057008189034348032",
+   "name": "GJ 11674",
+   "done": true,
+   "rv": {
+    "value": -9.404,
+    "err": 0.036,
+    "src": "S1",
+    "where": "VizieR J/A+A/636/A36 tablea1, row J11474+667, cols RVccf / e_RVccf (catalogue in m/s: -9404 +/- 36), CARMENES VIS weighted mean of CCF RVs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Lafarga et al. 2020, A&A 636, A36",
+     "url": "https://doi.org/10.1051/0004-6361/201937222",
+     "what": "CARMENES CCF absolute RVs of M dwarfs"
+    },
+    "S2": {
+     "citation": "Reiners et al. 2018, A&A 612, A49",
+     "url": "https://doi.org/10.1051/0004-6361/201732054",
+     "what": "CARMENES M-dwarf RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Karmn J11474+667 = 1RXS J114728.8+664405, position match 0.03 arcsec. Alternatives: Lafarga RVabs -10.029 +/- 0.112 (corrected for gravitational redshift and convective blueshift, so not used); Reiners 2018 -9.543 (S2, no error; the value SIMBAD graded D)."
+  },
+  {
+   "key": "GJ 283 A|5717278911884258176",
+   "name": "GJ 283 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: Greenstein 1967 11.0 km/s. SIMBAD's -10 +/- 13.4 (Silvestri 2002, a study of the M-dwarf companions of WDs) probably belongs to GJ 283B. GJ 283B (M dwarf) has 28.60 +/- 0.50 in Winters et al. 2026 (arXiv 2602.00382) - the companion, not this WD."
+  },
+  {
+   "key": "Gaia DR3 2952805860139695872|2952805860139695872",
+   "name": "Gaia DR3 2952805860139695872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Co-moving Gaia DR3 2952805860139696384 3.0 arcsec away (G=14.7) has Gaia DR3 RV 43.58 - the companion's value, not this source's."
+  },
+  {
+   "key": "GJ 12346|6025146733201615616",
+   "name": "GJ 12346",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12885|6865562672142017920",
+   "name": "GJ 12885",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11665 B|3793898411041910144",
+   "name": "GJ 11665 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Guo 2019 LAMOST DR5 (J/MNRAS/485/2167) 15.0 km/s, no error (SIMBAD graded D); not confirmed by DR11. Primary (Gaia DR3 3793898479761174656, 12.9 arcsec) has Gaia DR3 RV -3.11. RUWE 16 for this source: probably itself an unresolved binary. Not reported."
+  },
+  {
+   "key": "GJ 4165|1871118140493076224",
+   "name": "GJ 4165",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: LAMOST DR11 LRS z*c 82.9 +/- 2.1 (2015-10-18); 1972 value 71 (SIMBAD)."
+  },
+  {
+   "key": "Gaia DR3 3293468131885305216|3293468131885305216",
+   "name": "Gaia DR3 3293468131885305216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Conflicting single-epoch values: LAMOST DR11 LRS (V/162/dr11ml, 0.07 arcsec from pm-propagated position, dM2, S/N 42) z*c = -39.3 +/- 1.9; Guo 2019 -13.74 (from a S/N 2.3 spectrum 1.9 arcsec away); Terrien 2015 -134 +/- 22. Too inconsistent to report. Co-moving Gaia DR3 3293515101648626816 (34 arcsec, G=8.9) has RV -24.94."
+  },
+  {
+   "key": "Gaia DR3 2300234782654298624|2300234782654298624",
+   "name": "Gaia DR3 2300234782654298624",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 1241|2025389380082340992",
+   "name": "GJ 1241",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 12802 A|6644841042920381184",
+   "name": "GJ 12802 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "RUWE 12 (probably an unresolved binary). Co-moving sources ~30 arcsec away: 6644846849713646208 has Gaia DR3 RV 8.51 (companion, not this source)."
+  },
+  {
+   "key": "GJ 3183|129200553364168064",
+   "name": "GJ 3183",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "LP 298-42 A has a companion 0.85 arcsec away (Gaia DR3 129200557663564800, G=13.55, Gaia DR3 RV -22.32 - B's value). All A-labelled spectra blend the pair and disagree: Newton 2014 -20 +/- 4; Terrien 2015 +1.2 +/- 2.8; LAMOST DR11 LRS z*c -25.5 +/- 1.8. Not reported."
+  },
+  {
+   "key": "Gaia DR3 806628324575630976|806628324575630976",
+   "name": "Gaia DR3 806628324575630976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: '19 LMi B' radial velocity: nothing"
+   ],
+   "notes": "Primary 19 LMi (5.6 arcsec) only. Nothing found for this object."
+  },
+  {
+   "key": "GJ 86 B|4937000898856154624",
+   "name": "GJ 86 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: none found at all. Primary GJ 86 A: Gaia DR3 55.22; not the WD's."
+  },
+  {
+   "key": "Gaia DR3 3050824572980613120|3050824572980613120",
+   "name": "Gaia DR3 3050824572980613120",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3252692330853394304|3252692330853394304",
+   "name": "Gaia DR3 3252692330853394304",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Close pair: Gaia DR3 3252692330851198976 is 0.68 arcsec away (G=13.36, Gaia DR3 RV 52.72). Values for the blended AB: Shkolnik 2012 31.7 +/- 0.3 (J/ApJ/758/56, listed '1RXS J041325.8-013919 (AB)', SpT M4+M5.5; also in Malo 2013); RAVE DR6 22.33 +/- 5.33; LAMOST DR11 LRS z*c 29.2 +/- 1.9 and 30.1 +/- 2.0; Guo 2019 39.33. System-level only: not reported as A's."
+  },
+  {
+   "key": "HD 155918 B|5801950515623082496",
+   "name": "HD 155918 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'HD 155918 B' radial velocity: nothing"
+   ],
+   "notes": "Primary HD 155918 (3.6 arcsec): Gaia DR3 60.13. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 572487740053132288|572487740053132288",
+   "name": "Gaia DR3 572487740053132288",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 12626 B|4590489981163833984",
+   "name": "GJ 12626 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: LAMOST DR11 LRS z*c -23.75 +/- 0.58 and -35.09 +/- 0.70; LAMOST MRS exposures scatter widely. Primary HD 166435: Gaia DR3 -14.65."
+  },
+  {
+   "key": "GJ 836.5|1792830060723673472",
+   "name": "GJ 836.5",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 10944 A|5260451999700465536",
+   "name": "GJ 10944 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'SCR J0630-7643' radial velocity: led to Winters 2026 (table not accessible)"
+   ],
+   "notes": "SCR J0630-7643 AB, 1.3 arcsec pair at 8.9 pc. Winters et al. 2026 (arXiv 2602.00382) may include it, but its full RV table is machine-readable only and was not accessible. APOGEE DR17 row has no RV (Nvis 0). Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 5198221531355454464|5198221531355454464",
+   "name": "Gaia DR3 5198221531355454464",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "GALAH DR4 RVcomp1 8.2 +/- 12.5 (flag_sp 2112) - too uncertain to report."
+  },
+  {
+   "key": "GJ 11767|3584656640992625280",
+   "name": "GJ 11767",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10851|3458273551816578560",
+   "name": "GJ 10851",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 742|2262849634963004416",
+   "name": "GJ 742",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 12796|2140481412496465152",
+   "name": "GJ 12796",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 12517 B|5958896763938010624",
+   "name": "GJ 12517 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Equal-brightness pair 0.86 arcsec apart (this source and Gaia DR3 5958896763903980544). The Gaia DR2 RV 7.99 +/- 2.88 (2 transits) belongs to DR2 5958896763903980544, which gaiadr3.dr2_neighbourhood maps to the other component (1.6 mas) - not this one. Not reported."
+  },
+  {
+   "key": "GJ 12613|4147112604476417792",
+   "name": "GJ 12613",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "arXiv 2602.00382 source: star named in text only"
+   ],
+   "notes": "LSPM J1805-1422 is in the Winters et al. 2026 15-pc sample (arXiv 2602.00382, named in the text) but its RV is only in the machine-readable table, which was not accessible; worth re-checking when it reaches VizieR. Nothing found for this object."
+  },
+  {
+   "key": "GJ 4355|2439184705619919488",
+   "name": "GJ 4355",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "Gaia DR3 6787883382522587008|6787883382522587008",
+   "name": "Gaia DR3 6787883382522587008",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Gaia DR2 6787883382522587264 (5.9 mas match) has a DR2 RV of -302.4 +/- 7.9 from 2 transits - spurious (primary HD 201989 is -24.0; Gaia DR3 -24.02); DR3 dropped it. Not reported."
+  },
+  {
+   "key": "Gaia DR3 5289527244669314048|5289527244669314048",
+   "name": "Gaia DR3 5289527244669314048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 9714 B|6781117812599082752",
+   "name": "GJ 9714 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary HD 199981 (2.7 arcsec): Gaia DR3 -15.03, Soubiran -15.059, RAVE -17.22. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 1638563322306634368|1638563322306634368",
+   "name": "Gaia DR3 1638563322306634368",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 12117 B|6285682717847042560",
+   "name": "GJ 12117 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11312|5296347755815266816",
+   "name": "GJ 11312",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11050 B|2928420272788743424",
+   "name": "GJ 11050 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary RX J0711.2-2117A (2.2 arcsec): Gaia DR3 15.58. Nothing found for this object."
+  },
+  {
+   "key": "GJ 13174|2618333804489940992",
+   "name": "GJ 13174",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'LP 759-6' radial velocity: nothing"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 6131864958137368320|6131864958137368320",
+   "name": "Gaia DR3 6131864958137368320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Co-moving Gaia DR3 6131864923777624832 (48 arcsec) has Gaia DR3 RV 35.38. Nothing found for this object."
+  },
+  {
+   "key": "TOI-6599|6113324752547911040",
+   "name": "TOI-6599",
+   "done": true,
+   "rv": {
+    "value": -9.818534,
+    "err": 0.221345,
+    "src": "S1",
+    "where": "VizieR J/other/PASA/42.51/allstar (GALAH DR4), sobject 140312004001260, matched by Gaia DR3 id, cols RVcomp1 / e_RVcomp1; single epoch MJD 56728.7",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Buder et al. 2025, PASA 42, e51 (GALAH DR4)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/other/PASA/42.51",
+     "what": "GALAH DR4 allstar catalogue"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: TOI-6599 / SCR J1343-4002 radial velocity: no paper found"
+   ],
+   "notes": "GALAH flag_sp = 2048 ('S/N indicates spectra not reliable' - the blue CCD1 S/N is 3.4; CCDs 3/4 have S/N 46/63). Survey-quality single epoch."
+  },
+  {
+   "key": "GJ 11505|5233071514480420864",
+   "name": "GJ 11505",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 11987|3632779859757659008",
+   "name": "GJ 11987",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "LAMOST MRS 2018 (no Gaia id in row, 0.5 arcsec) per-exposure values scatter between -20 and +35 km/s; no usable value."
+  },
+  {
+   "key": "GJ 10350|4700568859085688576",
+   "name": "GJ 10350",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 4284|2629732510254843136",
+   "name": "GJ 4284",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'LP 640-43' radial velocity: nothing"
+   ],
+   "notes": "LAMOST DR11 LRS z*c -26.1 +/- 5.2 (2015-10-01) at 2.97 arcsec from the pm-propagated position, no Gaia id in the LAMOST row (1.1 arcsec/yr mover): identification uncertain, not reported."
+  },
+  {
+   "key": "Gaia DR3 3042171588265477376|3042171588265477376",
+   "name": "Gaia DR3 3042171588265477376",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 1143855691935518848|1143855691935518848",
+   "name": "Gaia DR3 1143855691935518848",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3897724469417979264|3897724469417979264",
+   "name": "Gaia DR3 3897724469417979264",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 2937651222651937536|2937651222651937536",
+   "name": "Gaia DR3 2937651222651937536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary HD 44573 (2.0 arcsec): Gaia DR3 -31.45, Soubiran -31.167. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 657056745624156416|657056745624156416",
+   "name": "Gaia DR3 657056745624156416",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "Gaia DR3 6110538418288440320|6110538418288440320",
+   "name": "Gaia DR3 6110538418288440320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10973|3352081447497931264",
+   "name": "GJ 10973",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "LAMOST DR11 LRS (Gaia id match) z*c 8.3 +/- 9.1 - too uncertain to report."
+  },
+  {
+   "key": "GJ 10945 B|5260451999698559872",
+   "name": "GJ 10945 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'SCR J0630-7643' radial velocity: led to Winters 2026 (table not accessible)"
+   ],
+   "notes": "SCR J0630-7643 AB, 1.3 arcsec pair at 8.9 pc. Winters et al. 2026 (arXiv 2602.00382) may include it, but its full RV table is machine-readable only and was not accessible. Nothing found for this object."
+  },
+  {
+   "key": "GJ 11483|806039471675754112",
+   "name": "GJ 11483",
+   "done": true,
+   "rv": {
+    "value": 0.07,
+    "err": null,
+    "src": "S1",
+    "where": "VizieR J/A+A/660/A38 table2 col RV (LAMOST DR7 LRS); the same spectrum is in LAMOST DR11 V/162/dr11ml (2012-01-25, Gaia DR3 id match) with z = 2.4e-7 +/- 6.11e-6, i.e. +/-1.8 km/s",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Wang et al. 2022, A&A 660, A38 (ultracool dwarfs in LAMOST DR7)",
+     "url": "https://doi.org/10.1051/0004-6361/202142009",
+     "what": "LAMOST LRS RVs of ultracool dwarfs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Single low-resolution epoch, confirming the value SIMBAD graded D. LAMOST MRS exposures (2023-01-07) scatter from -8.4 to +9.5 km/s. LRS M-dwarf RVs carry systematics of several km/s; drop if a stricter standard is wanted."
+  },
+  {
+   "key": "GJ 3954|4324728640519965824",
+   "name": "GJ 3954",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "LP 805-10 B: Gaia DR3 shows two more sources 0.65 and 0.73 arcsec away of equal brightness (2-parameter solutions): a close multiple. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 708878240467897984|708878240467897984",
+   "name": "Gaia DR3 708878240467897984",
+   "done": true,
+   "rv": {
+    "value": -4.87,
+    "err": 1.83,
+    "src": "S1",
+    "where": "VizieR V/162/dr11ml (LAMOST DR11 LRS M-star catalogue), obs 2021-01-12, Gaia DR3 id match, S/N_i 186; z = -1.625e-5 +/- 6.09e-6, RV = z*c as the LAMOST pipeline defines it",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Luo et al. 2026, LAMOST DR11 catalogues (VizieR V/162)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST low-resolution survey redshifts/RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Single LRS epoch; the value is the catalogue redshift times c (LAMOST's own RV definition) - flag for review if z*c counts as a derivation."
+  },
+  {
+   "key": "GJ 12632|4171084878520425216",
+   "name": "GJ 12632",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3807374025551266816|3807374025551266816",
+   "name": "Gaia DR3 3807374025551266816",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "LAMOST DR11 LRS z*c -48.2 +/- 15.8 - too uncertain to report."
+  },
+  {
+   "key": "GJ 3805|1658578797618935680",
+   "name": "GJ 3805",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: Brown 2008 48 km/s (SIMBAD, quality D)."
+  },
+  {
+   "key": "GJ 12833|6764810715133775744",
+   "name": "GJ 12833",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 11577|5241011156681563136",
+   "name": "GJ 11577",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 4777350436112818560|4777350436112818560",
+   "name": "Gaia DR3 4777350436112818560",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary HD 30278 (19.7 arcsec): Gaia DR3 64.22. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 2213356768310300800|2213356768310300800",
+   "name": "Gaia DR3 2213356768310300800",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'G 241-31' radial velocity: nothing"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 3484025454167211136|3484025454167211136",
+   "name": "Gaia DR3 3484025454167211136",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary CD-26 8683 (3.5 arcsec): Gaia DR3 38.15; the RAVE 38.41 +/- 2.48 matched 3.65 arcsec away is also the primary. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 1187822481869241600|1187822481869241600",
+   "name": "Gaia DR3 1187822481869241600",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10427|5071782435802712960",
+   "name": "GJ 10427",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5923906524348891904|5923906524348891904",
+   "name": "Gaia DR3 5923906524348891904",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "White dwarf: only uncorrected line velocity found: Wegner 1974 51 km/s (SIMBAD)."
+  },
+  {
+   "key": "GJ 10124|362091963829100672",
+   "name": "GJ 10124",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "G 132-25 is a double (SIMBAD '**'). LAMOST LRS epochs disagree: DR11 z*c +2.8 +/- 1.8 (2011-12-11) and -16.2 +/- 2.2 (2012-10-03); Guo 2019 gives -8.15 and -11.1 for the same spectra. Not reported."
+  },
+  {
+   "key": "Gaia DR3 1161026421427860992|1161026421427860992",
+   "name": "Gaia DR3 1161026421427860992",
+   "done": true,
+   "rv": {
+    "value": -21.24,
+    "err": 2.6,
+    "src": "S1",
+    "where": "VizieR V/162/dr11ml (LAMOST DR11 LRS M-star catalogue), obs 2014-03-24, Gaia DR3 id match, S/N_i 352; z = -7.086e-5 +/- 8.67e-6, RV = z*c as the LAMOST pipeline defines it",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "S1": {
+     "citation": "Luo et al. 2026, LAMOST DR11 catalogues (VizieR V/162)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST low-resolution survey redshifts/RVs"
+    }
+   },
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Single LRS epoch; the value is the catalogue redshift times c (LAMOST's own RV definition) - flag for review if z*c counts as a derivation."
+  },
+  {
+   "key": "GJ 13252|2834386568038204416",
+   "name": "GJ 13252",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12559|5961193055261256320",
+   "name": "GJ 12559",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "Gaia DR3 4906784051581971328|4906784051581971328",
+   "name": "Gaia DR3 4906784051581971328",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Web: 'HD 3823 B' radial velocity: nothing"
+   ],
+   "notes": "Primary HD 3823 (7.3 arcsec): Gaia DR3 2.92. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 5242316444456199808|5242316444456199808",
+   "name": "Gaia DR3 5242316444456199808",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Searched, nothing found. White dwarf: no gravitational-redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 11432|1134155113160270720",
+   "name": "GJ 11432",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 10274 B|506105206568973184",
+   "name": "GJ 10274 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Companion A 8.7 arcsec away has no Gaia RV either. Nothing found for this object."
+  },
+  {
+   "key": "GJ 12202|1214076070761755008",
+   "name": "GJ 12202",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5914308097051772160|5914308097051772160",
+   "name": "Gaia DR3 5914308097051772160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 12844 A|1825387390297688832",
+   "name": "GJ 12844 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Faint co-moving source 1.2 arcsec away (G=15.4). Nothing found for this object."
+  },
+  {
+   "key": "GJ 10391|4647534190597951232",
+   "name": "GJ 10391",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "Gaia DR3 5660063041184035328|5660063041184035328",
+   "name": "Gaia DR3 5660063041184035328",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  },
+  {
+   "key": "GJ 13328 B|6387649708219253248",
+   "name": "GJ 13328 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object",
+    "Pauli 2003/2006 SPY kinematics (J/A+A/400/877, J/A+A/447/173), Falcon 2010 (J/ApJ/712/585), SPY Napiwotzki 2020 (J/A+A/638/A131): no match"
+   ],
+   "notes": "Primary HD 218572 (12.9 arcsec): Gaia DR3 5.21; not the WD's. Nothing found for this object."
+  },
+  {
+   "key": "GJ 11180 B|5220893151881737088",
+   "name": "GJ 11180 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Primary UPM J0808-7301A (9.9 arcsec): Gaia DR3 12.12. Nothing found for this object."
+  },
+  {
+   "key": "Gaia DR3 6656795173857025280|6656795173857025280",
+   "name": "Gaia DR3 6656795173857025280",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id): no usable entry",
+    "Gaia DR2 RV via gaiadr3.dr2_neighbourhood: none for this source",
+    "VizieR cone 4\" at J2000/J2008/J2016 (pm-propagated): LAMOST DR11 LRS+MRS (V/162), APOGEE DR17 (III/286), APOGEE DR16 (III/284), RAVE DR6 (III/283), GALAH DR4 (J/other/PASA/42.51), GALAH DR3, Gaia-ESO DR5 (J/A+A/666/A121), Gaia DR2 (I/345)",
+    "VizieR cone 4\": CARMENES Reiners 2018 (J/A+A/612/A49), Lafarga 2020 (J/A+A/636/A36), Jeffers 2018 (J/A+A/614/A76), Fouque 2018 (J/MNRAS/475/1960), Newton 2014 (J/AJ/147/20), Terrien 2015 (J/ApJS/220/16), Shkolnik 2012 (J/ApJ/758/56), Shkolnik 2017 (J/AJ/154/69), Sperauskas 2016/2019, Gizis 2002, Malo 2013/2014, Hsu 2021 (J/ApJS/257/45), Soubiran 2018 (J/A+A/616/A7), Gontcharov 2006 (III/252), Torres 2006, Kraus 2014, Gaidos 2014, Guo 2019 LAMOST M (J/MNRAS/485/2167): no match for this object"
+   ],
+   "notes": "Searched, nothing found."
+  }
+ ]
+}

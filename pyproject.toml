@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrasil"
+version = "1.0.0.dev0"
+description = "An interactive 3D map of nearby star systems, drawn from published orbits, with the bands round each star where common solvents could be liquid."
+readme = "README.md"
+requires-python = ">=3.10"
+# The code. The compiled dataset in data/ is CC BY-SA 4.0 (LICENSE-DATA) and
+# is not part of the package.
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE", "LICENSE-DATA"]
+authors = [{ name = "Cade Summers" }]
+keywords = [
+    "astronomy", "exoplanets", "orbits", "kepler", "star-systems",
+    "habitable-zone", "solvents", "three.js", "plotly", "visualization",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: JavaScript",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+# Keep in step with requirements.txt.
+dependencies = [
+    "plotly>=5.18.0",
+    "numpy>=1.24.0",
+    "pyyaml>=6.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+# --source catalog against the live Google Sheet
+sheets = [
+    "google-api-python-client>=2.100.0",
+    "google-auth>=2.23.0",
+    "google-auth-oauthlib>=1.1.0",
+]
+# --source horizons
+horizons = ["astroquery>=0.4.6", "astropy>=5.3"]
+# --output png
+png = ["kaleido>=0.2.1"]
+# Keep in step with requirements-dev.txt. After installing, run once:
+#   python -m playwright install chromium
+dev = ["pytest>=7.0.0", "pytest-playwright>=0.5.0"]
+
+[project.urls]
+Homepage = "https://hybrasil.app"
+Source = "https://github.com/CadeSummers/hybrasil"
+Issues = "https://github.com/CadeSummers/hybrasil/issues"
+
+[project.scripts]
+hybrasil = "hybrasil.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hybrasil*"]
+
+# The viewer's JavaScript, the About panel and Suggest Changes rules, and the
+# Milky Way background. viz/sky is a data directory, not a package.
+[tool.setuptools.package-data]
+hybrasil = ["about.json", "viz/*.js", "viz/sky/*.jpg", "web/*.js", "web/*.json"]

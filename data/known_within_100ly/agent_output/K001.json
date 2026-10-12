@@ -1,0 +1,4609 @@
+{
+ "agent_id": "K001",
+ "batch": "K001",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 9524|1222646935698492160",
+   "name": "GJ 9524",
+   "done": true,
+   "rv": {
+    "value": 1.4,
+    "err": null,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 850 (HIP 76267, SB2 P=17.36 d), V0, ref Tomkin & Popper 1986 AJ 91, 1428; no error given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities",
+    "web: Schmitt et al. 2016 A&A 586 A104 (could not extract gamma)"
+   ],
+   "notes": "Systemic velocity of the eclipsing SB2 orbit. Kharchenko 2007 (CRVAD-2) lists 1.4 +/-1.78. SIMBAD's rejected 1.7 is GCRV. LAMOST DR11 MRS single exposures (-22 to -49, and 533) are unusable for this A-type SB2."
+  },
+  {
+   "key": "Gaia DR3 5077970830842019584|5077970830842019584",
+   "name": "Gaia DR3 5077970830842019584",
+   "done": true,
+   "rv": {
+    "value": -9.8,
+    "err": 2.7,
+    "src": "PCRV",
+    "where": "VizieR III/252 table8, HIP 14146 (HD 18978), RV/e_RV, o_RV=1 source",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities",
+    "web search 'tau3 Eri radial velocity'"
+   ],
+   "notes": "CAUTION: PCRV's single input is the GCRV value (Wilson 1953, -9.8, the one SIMBAD rejected as quality E); PCRV assigns it +/-2.7. No independent modern RV found. Other old values: Campbell 1928 -12.0 (9 obs), Frost 1929 -2.3 (3 obs). Drop if GCRV-derived values are unacceptable."
+  },
+  {
+   "key": "GJ 836.6 AB|1801210568415251072",
+   "name": "GJ 836.6 AB",
+   "done": true,
+   "rv": {
+    "value": 16.41,
+    "err": 0.24,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 21441+2844 comp A (HD 206826), HRV/e_HRV, 5 CORAVEL obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Gaia source is mu Cyg A (SIMBAD: GJ 836.6 A). Alternatives: GCS V/117A combined HD 206826/7 16.2 +/-0.3 (16 obs, variable P(chi2)=0); PCRV III/252 16.6 +/-0.2 (combined HIP 107310)."
+  },
+  {
+   "key": "Gaia DR3 6860945174279114880|6860945174279114880",
+   "name": "Gaia DR3 6860945174279114880",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "web search 'rho Capricorni HD 194943 radial velocity'"
+   ],
+   "notes": "Only combined rho Cap AB values exist (A-B separation ~1.6 arcsec): GCS V/117A HD 194943 'AB' 18.4 +/-1.8; PCRV HIP 101027 18.4 +/-2.8. Not reported as the component's."
+  },
+  {
+   "key": "Gaia DR3 4343066192373234048|4343066192373234048",
+   "name": "Gaia DR3 4343066192373234048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "This Gaia source is HD 144069 (SIMBAD: ksi Sco B, 51 Lib). Only system-level values: SB9 Seq 879 'AB' visual-orbit gamma -29.4 (1929ApJ....70..182C, grade 1); GCS combined HD 144069/70 -32.6 +/-0.8 (2 obs); old Lick/Cape values -32.9 to -33.6. Not reported as the component's."
+  },
+  {
+   "key": "Gaia DR3 6840706910418152320|6840706910418152320",
+   "name": "Gaia DR3 6840706910418152320",
+   "done": true,
+   "rv": {
+    "value": -48.5,
+    "err": 4.3,
+    "src": "GCS",
+    "where": "VizieR V/117A newcat, HIP 108036 (HD 207958), RVel/meRVel, 1 CORAVEL measurement",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities"
+   ],
+   "notes": "CAUTION: single measurement, and strongly discrepant with older values: GCRV -21.5 (rejected, 14 obs), Campbell 1928 -21.0 (9 obs), Lick 1913 -17.0. Possibly a binary or a fast rotator with poor CORAVEL dip. Same value appears in Holmberg 2007 GCS II."
+  },
+  {
+   "key": "Gaia DR3 806628225792165888|806628225792165888",
+   "name": "Gaia DR3 806628225792165888",
+   "done": true,
+   "rv": {
+    "value": -8.9,
+    "err": null,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 589, V0 (SB2 orbit P=9.28 d, ref 1980PASP...92...98B, grade 4); no error given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Systemic velocity of SB2 orbit. Alternatives: GCS -6.0 +/-8.0 (1 obs); PCRV -8.6 +/-2.6."
+  },
+  {
+   "key": "Gaia DR3 5237611398000522880|5237611398000522880",
+   "name": "Gaia DR3 5237611398000522880",
+   "done": true,
+   "rv": {
+    "value": -1.04,
+    "err": 0.06,
+    "src": "GNSS",
+    "where": "Gaia DR3 gaiadr3.nss_two_body_orbit (ESA Gaia TAP, by source_id): source 5237611398000522880, nss_solution_type SB2C, P=15.214 d, center_of_mass_velocity/error",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "GNSS": {
+     "citation": "Gaia Collaboration, Arenou et al. 2023, A&A 674, A34 (Gaia DR3 non-single stars)",
+     "url": "https://doi.org/10.1051/0004-6361/202243782",
+     "what": "Gaia DR3 nss_two_body_orbit center_of_mass_velocity"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Gaia DR3 NSS two-body orbits"
+   ],
+   "notes": "Systemic velocity of Gaia SB2 orbit. Alternatives (single values of the binary): GCS 31.4 +/-5.9 (2 obs, variable); GCRV -5.0 (rejected); Jackson 1928 -9.1."
+  },
+  {
+   "key": "Gaia DR3 1677302170674242560|1677302170674242560",
+   "name": "Gaia DR3 1677302170674242560",
+   "done": true,
+   "rv": {
+    "value": 9.0,
+    "err": 2.8,
+    "src": "PCRV",
+    "where": "VizieR III/252 table8, HIP 63076 (HD 112429), RV/e_RV, o_RV=1 source",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "VRE22": {
+     "citation": "Van Reeth et al. 2022, A&A 662, A58",
+     "url": "https://arxiv.org/abs/2203.11071",
+     "what": "HD 112429 multi-instrument spectroscopy (zero-point offsets only)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities",
+    "arXiv 2203.11071 full text"
+   ],
+   "notes": "CAUTION: PCRV's single input is the GCRV/Lick value 9.0 (the one SIMBAD rejected as quality E). Star is a gamma Dor pulsator with vsini 120 km/s. Van Reeth et al. 2022 Table 4 gives only per-instrument velocity zero-points (HERMES 2.16, HIDES 1.99, SOPHIE 0.54, SES 4.31, TCES 4.9, McKellar -4.7 km/s), not a stated systemic RV. Drop if GCRV-derived values are unacceptable."
+  },
+  {
+   "key": "GJ 615.2 A|1328866562170960512",
+   "name": "GJ 615.2 A",
+   "done": true,
+   "rv": {
+    "value": -13.03,
+    "err": 0.11,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 894 (sig CrB A, SB2 P=1.14 d), V0/e_V0 from Raghavan et al. 2009 ApJ 690, 394",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Systemic velocity of the Aa-Ab orbit. Other SB9 orbits: -12.6 +/-0.7 (1991A&A...248..485D), -12.2 (1984AJ). GCS combined A+B -13.3; PCRV -12.2 +/-2.8."
+  },
+  {
+   "key": "Gaia DR3 1420101696285626624|1420101696285626624",
+   "name": "Gaia DR3 1420101696285626624",
+   "done": true,
+   "rv": {
+    "value": -16.5,
+    "err": null,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 947 (component B of HIP 83608, P=2270 d), V0, ref 1979AnTok..17..158I, grade 1 (poor); no error given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "SB9 lists the orbit for component B (mu Dra B). Low-grade orbit. GCS gives only combined A+B (-17.3 +/-0.5)."
+  },
+  {
+   "key": "GJ 4.1 A|423075173680043904",
+   "name": "GJ 4.1 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 123 A: only old values -14.2 (1921PDAO, 2 obs) and -11.2 (1923ApJ, 3 obs) and GCRV -11.7 (rejected E). Tokovinin & Smekhov 2002 give combined AB -13.8 +/-0.2; GCS combined -8.0 +/-5.0 (variable). B is the SB (P=47.5 d). Not reported."
+  },
+  {
+   "key": "Gaia DR3 2875096978193873024|2875096978193873024",
+   "name": "Gaia DR3 2875096978193873024",
+   "done": true,
+   "rv": {
+    "value": -8.84,
+    "err": 0.26,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 23594+3343 comp A (HD 224635), HRV/e_HRV, 2 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Component-resolved CORAVEL value. Alternatives: PCRV -7.9 +/-0.2 (HIP 118281); GCS combined HD 224635/6 -7.2 +/-0.3."
+  },
+  {
+   "key": "Gaia DR3 2875096978193654528|2875096978193654528",
+   "name": "Gaia DR3 2875096978193654528",
+   "done": true,
+   "rv": {
+    "value": -5.64,
+    "err": 0.26,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 23594+3343 comp B (HD 224636), HRV/e_HRV, 2 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Component-resolved CORAVEL value. GCS gives only combined HD 224635/6 -7.2 +/-0.3."
+  },
+  {
+   "key": "Gaia DR3 6860945174275852416|6860945174275852416",
+   "name": "Gaia DR3 6860945174275852416",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "web search 'rho Capricorni HD 194943 radial velocity'"
+   ],
+   "notes": "Only combined rho Cap AB values exist (GCS 18.4 +/-1.8; PCRV 18.4 +/-2.8), dominated by A (G=4.8 vs 6.8 for B). Not reported as B's."
+  },
+  {
+   "key": "GJ 4.1 B|423075173674854528",
+   "name": "GJ 4.1 B",
+   "done": true,
+   "rv": {
+    "value": -13.79,
+    "err": 0.14,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 1522 (component B of HIP 518 = HD 123 B, P=47.5 d), V0/e_V0, ref 2001A&A...374..227T",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Systemic velocity of HD 123 B's spectroscopic orbit. Other SB9 orbit: -11.7 +/-0.19 (Griffin 1999, Obs 119, 27). Tokovinin & Smekhov 2002 give combined AB -13.8 +/-0.2; GCS combined -8.0."
+  },
+  {
+   "key": "GJ 593 B|1389522117550542464",
+   "name": "GJ 593 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HIP 76382 = HD 139341 (combined/primary, V=6.78): PCRV -66.7 +/-0.2. Not reported as B's."
+  },
+  {
+   "key": "GJ 55.1 A|4692276170589724288",
+   "name": "GJ 55.1 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "TOK15": {
+     "citation": "Tokovinin 2015, AJ 149, 8",
+     "url": "https://doi.org/10.1088/0004-6256/149/1/8",
+     "what": "CHIRON RVs of nearby multiple systems (VizieR J/AJ/149/8)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 7693 A and B (CCDM/WDS components C and D, 86-yr visual pair): only pair-level values: GCS V/117A 'CD' 6.1 +/-0.2 (3 obs); Tokovinin 2015 'HD7693' 5.6 (2 spectra; note says the wide CCF makes the A measurement uncertain). Not reported as the component's."
+  },
+  {
+   "key": "Gaia DR3 3662657851291871104|3662657851291871104",
+   "name": "Gaia DR3 3662657851291871104",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 118036 A-B separation ~1.1 arcsec. Only combined values: Tokovinin & Smekhov 2002 'AB' -6.08 +/-0.31 (6 obs, variable); GCS 'AB' -5.7 +/-0.2; PCRV -6.8 +/-0.2. LAMOST DR11 MRS spectra (~-6.0 +/-1.2) are tagged with B's Gaia id but the 3.3 arcsec fibre includes A. Not reported."
+  },
+  {
+   "key": "GJ 528 B|1451450048399313792",
+   "name": "GJ 528 B",
+   "done": true,
+   "rv": {
+    "value": -22.549,
+    "err": 0.18,
+    "src": "CHU12",
+    "where": "Chubak et al. 2012 arXiv:1207.6212, Table 3 (rvtable3_ra.tex line 1243) 'GJ 528b', <RV>/sigma_RV, 5 obs over 1922 d",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "CHU12": {
+     "citation": "Chubak et al. 2012, arXiv:1207.6212 ('Precise radial velocities of 2046 nearby FGKM stars')",
+     "url": "https://arxiv.org/abs/1207.6212",
+     "what": "Keck/HIRES absolute RVs, table 3 (rvtable3_ra.tex in arXiv source)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Chubak 2012 arXiv source table 3"
+   ],
+   "notes": "Same value quoted by Sperauskas 2016 table4 (MCC700 B -22.55 +/-0.18). Chubak lists component a (HD 120476a) separately at -20.238. Tokovinin & Smekhov 2002 combined AB -20.75 +/-0.35."
+  },
+  {
+   "key": "GJ 627 B|4467355158571184256",
+   "name": "GJ 627 B",
+   "done": true,
+   "rv": {
+    "value": -32.3,
+    "err": 0.19,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 16289+1823 comp B (HD 148653 B), HRV/e_HRV, 3 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Confirms SIMBAD's rejected -32.3 (quality D) from the cited paper, which gives +/-0.19. Component A: -30.96 +/-0.32. PCRV -31.0 is for HIP 80725 (A/combined)."
+  },
+  {
+   "key": "Gaia DR3 595390807776621824|595390807776621824",
+   "name": "Gaia DR3 595390807776621824",
+   "done": true,
+   "rv": {
+    "value": 34.52,
+    "err": 0.05,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 3680 (HIP 42418, SB2 P=128.25 d), V0/e_V0, Griffin 2009 Obs 129, 317",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Gaia DR3 NSS two-body orbits"
+   ],
+   "notes": "Systemic velocity of SB2 orbit; replaces SIMBAD's rejected 10.74 (Nidever 2002, single value of an SB). Gaia DR3 NSS SB2 solution (P=128.91 d) gives center_of_mass_velocity 32.80 +/-0.07."
+  },
+  {
+   "key": "GJ 185 A|2974726131970829952",
+   "name": "GJ 185 A",
+   "done": true,
+   "rv": {
+    "value": -13.272,
+    "err": 0.032,
+    "src": "SOU18",
+    "where": "VizieR J/A+A/616/A7 rvstdcat, HIP 23452, RV/e_RV (N=2, Tbase 68 d)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "GJ 185 AB separation ~0.9 arcsec, so the Hipparcos-star spectra may include B. Alternatives: PCRV -14.1 +/-0.2; Sperauskas 2016 table4 -11.0 +/-0.38 (from Nidever 2002); Gizis 2002 -12.4 (5 epochs, scatter 2.9); PMSU -29.2."
+  },
+  {
+   "key": "GJ 292 B|5593584059906793088",
+   "name": "GJ 292 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "Only 212 Pup A / combined values found: GCS HD 64379 'AB' 25.6 +/-1.2; PCRV HIP 38423 26.3 +/-0.7. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 4777123623183866240|4777123623183866240",
+   "name": "Gaia DR3 4777123623183866240",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 31027 A: only combined AB values: GCS 'AB' 29.3 +/-0.2 (4 obs); PCRV 29.6 +/-0.3. Not reported as the component's."
+  },
+  {
+   "key": "GJ 271 B|866177431955017600",
+   "name": "GJ 271 B",
+   "done": true,
+   "rv": {
+    "value": 1.01,
+    "err": 0.27,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 07201+2159 comp B (HD 56986 B = del Gem B), HRV/e_HRV, 2 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Replaces SIMBAD's rejected 2.2 (GCRV, quality E)."
+  },
+  {
+   "key": "GJ 55.1 B|4692276170590701952",
+   "name": "GJ 55.1 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "TOK15": {
+     "citation": "Tokovinin 2015, AJ 149, 8",
+     "url": "https://doi.org/10.1088/0004-6256/149/1/8",
+     "what": "CHIRON RVs of nearby multiple systems (VizieR J/AJ/149/8)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 7693 B: only pair-level values (GCS 'CD' 6.1 +/-0.2; Tokovinin 2015 'HD7693' 5.6). Not reported as the component's."
+  },
+  {
+   "key": "GJ 765.4 A|2035020964491479552",
+   "name": "GJ 765.4 A",
+   "done": true,
+   "rv": {
+    "value": 4.06,
+    "err": 0.2,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 19455+3336 comp A (HD 186858 A), HRV/e_HRV, 4 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Confirms SIMBAD's rejected 4.06 (quality D) from the cited paper. PCRV 4.1 +/-0.3."
+  },
+  {
+   "key": "GJ 765.4 B|2035021028896869888",
+   "name": "GJ 765.4 B",
+   "done": true,
+   "rv": {
+    "value": 4.7,
+    "err": 0.18,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 19455+3336 comp B (HD 186858 B), HRV/e_HRV, 4 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Confirms SIMBAD's rejected 4.7 (quality D) from the cited paper."
+  },
+  {
+   "key": "Gaia DR3 3662657851291101824|3662657851291101824",
+   "name": "Gaia DR3 3662657851291101824",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 118036 B: LAMOST DR11 MRS (V/162/dr11m, obsid 640414018) tags spectra with this Gaia id, RVbr1 -5.9 to -6.2 +/-1.2, but the 3.3 arcsec fibre includes the brighter A at 1.1 arcsec, so this is effectively a blend. Combined AB: Tokovinin & Smekhov 2002 -6.08 +/-0.31; GCS -5.7. Not reported."
+  },
+  {
+   "key": "Gaia DR3 4777123627479193984|4777123627479193984",
+   "name": "Gaia DR3 4777123627479193984",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 31027 B: only combined AB values (GCS 29.3 +/-0.2; PCRV 29.6 +/-0.3). Not reported."
+  },
+  {
+   "key": "Gaia DR3 4008897567571892480|4008897567571892480",
+   "name": "Gaia DR3 4008897567571892480",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 108421 A: Tokovinin & Smekhov 2002 give combined 'AB' -5.7 +/-0.16 (10 obs, variable); PCRV -5.4 +/-0.3; old Campbell 1938 -0.8. Not reported as the component's."
+  },
+  {
+   "key": "GJ 225.2 AB|2891185070986964608",
+   "name": "GJ 225.2 AB",
+   "done": true,
+   "rv": {
+    "value": 106.5,
+    "err": null,
+    "src": "TOK15",
+    "where": "VizieR J/AJ/149/8 table2, HD40887 AB, <RV> (N=2 CHIRON spectra); no uncertainty given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK15": {
+     "citation": "Tokovinin 2015, AJ 149, 8",
+     "url": "https://doi.org/10.1088/0004-6256/149/1/8",
+     "what": "CHIRON RVs of nearby multiple systems (VizieR J/AJ/149/8)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Confirms SIMBAD's rejected 106.5 (quality D, no error). Paper note: AB and CE close pairs both have large similar RVs (CE also 106.5). Individual epochs 106.50 and 106.44 (table1)."
+  },
+  {
+   "key": "GJ 244 B|2947050466531873024",
+   "name": "GJ 244 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "rule 4 (white dwarf)"
+   ],
+   "notes": "White dwarf (Sirius B). Only uncorrected line velocity: published Sirius B line shifts are dominated by the ~80 km/s gravitational redshift (e.g. Barstow et al. 2005 use Sirius A's RV and the orbit to isolate it); no redshift-corrected kinematic RV for B itself was found."
+  },
+  {
+   "key": "Gaia DR3 6024291489270494976|6024291489270494976",
+   "name": "Gaia DR3 6024291489270494976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'HD 149621 radial velocity'"
+   ],
+   "notes": "No published RV found."
+  },
+  {
+   "key": "Gaia DR3 5567901972248535424|5567901972248535424",
+   "name": "Gaia DR3 5567901972248535424",
+   "done": true,
+   "rv": {
+    "value": 28.5,
+    "err": null,
+    "src": "TOK15",
+    "where": "Tokovinin 2015 AJ 149, 8, note to HD 41742 (VizieR J/AJ/149/8 notes): 'average radial velocity of the two components Ba and Bb is 28.5 km/s'",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK15": {
+     "citation": "Tokovinin 2015, AJ 149, 8",
+     "url": "https://doi.org/10.1088/0004-6256/149/1/8",
+     "what": "CHIRON RVs of nearby multiple systems (VizieR J/AJ/149/8)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "B is an SB2 (Ba,Bb); value is the paper's mean of the two components at one epoch, not an orbital gamma. Single-component RVs in table1: 17.96 and 39.52. C (HD 41700) RV 27.6 per the same note."
+  },
+  {
+   "key": "GJ 400 AB|776067089642433664",
+   "name": "GJ 400 AB",
+   "done": true,
+   "rv": {
+    "value": -3.2,
+    "err": 0.3,
+    "src": "SPE16",
+    "where": "VizieR J/A+A/596/A116 table2, MCC 033 comp A ('GJ 400 A'), HRV/e_HRV, 3 measurements over 74 d (present work)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "SIMBAD ids for this Gaia source: GJ 400 A, BD+39 2376A. Alternatives: Fouque 2018 'Gl 400' -2.96 (2 spectra, formal err 0.4 m/s); PCRV -1.8 +/-1.1; PMSU 5.5."
+  },
+  {
+   "key": "Gaia DR3 1625209684868172672|1625209684868172672",
+   "name": "Gaia DR3 1625209684868172672",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No component-level RV found for eta Dra B."
+  },
+  {
+   "key": "Gaia DR3 4008897773729524224|4008897773729524224",
+   "name": "Gaia DR3 4008897773729524224",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 108421 B: old values only (1950ApJ -0.3, 3 obs; GCRV -1.0 rejected). Combined AB -5.7 +/-0.16 (Tokovinin & Smekhov 2002). Not reported."
+  },
+  {
+   "key": "Gaia DR3 4900915958024013952|4900915958024013952",
+   "name": "Gaia DR3 4900915958024013952",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found (GJ 3038 / LHS 1094 / HIP 2540)."
+  },
+  {
+   "key": "GJ 323 A|596779044285041792",
+   "name": "GJ 323 A",
+   "done": true,
+   "rv": {
+    "value": -12.4,
+    "err": 0.4,
+    "src": "SPE16",
+    "where": "VizieR J/A+A/596/A116 table2, MCC 534 (HIP 43422), HRV/e_HRV, 2 measurements over 301 d (present work)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "SCH19": {
+     "citation": "Schneider et al. 2019, AJ 157, 234",
+     "url": "https://doi.org/10.3847/1538-3881/ab1a26",
+     "what": "ACRONYM III young M dwarf RVs (VizieR J/AJ/157/234)"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Alternatives: Schneider 2019 -11.62 +/-0.71 (2MASS J08504234+0751517, which they label 'GJ 323 B' but which matches this G=9.07 source); PCRV -12.5 +/-0.7; Gizis 2002 -11.8 (1 epoch); PMSU -43.6."
+  },
+  {
+   "key": "GJ 695 B|4594497834189213184",
+   "name": "GJ 695 B",
+   "done": true,
+   "rv": {
+    "value": -14.1,
+    "err": 0.9,
+    "src": "GIZ02",
+    "where": "VizieR J/AJ/123/3356 table2, 'Gl 695 B', <RV> over 7 epochs; err is e_<RV>, the observed dispersion",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    },
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "SIMBAD main id of this source is mu02 Her A (= GJ 695 B). GJ 695 B-C separation ~1.4 arcsec, so blending with C is possible. Fouque 2018 'Gl 695BC' (blend) -13.82."
+  },
+  {
+   "key": "Gaia DR3 5814236007579871872|5814236007579871872",
+   "name": "Gaia DR3 5814236007579871872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found for HD 152653 A."
+  },
+  {
+   "key": "GJ 509 B|1462061709996744448",
+   "name": "GJ 509 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only GJ 509 A / HIP 65343 values found: Sperauskas 2016 MCC 301 (HIP 65343) -38.3 +/-0.4; Tokovinin & Smekhov 2002 combined 'AB' -39.27 +/-0.41; PCRV -39.0 +/-0.4; Gaia DR2 source 1462061709995883136 (G=8.83, the A star) -38.55 +/-3.19. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 4450372376847499904|4450372376847499904",
+   "name": "Gaia DR3 4450372376847499904",
+   "done": true,
+   "rv": {
+    "value": 4.44,
+    "err": 0.32,
+    "src": "TOK02",
+    "where": "VizieR J/A+A/382/118 table1, WDS 16159+0722 comp B (HD 146413 B), HRV/e_HRV, 2 obs",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK02": {
+     "citation": "Tokovinin & Smekhov 2002, A&A 382, 118",
+     "url": "https://doi.org/10.1051/0004-6361:20011586",
+     "what": "CORAVEL RVs of components of visual multiples (VizieR J/A+A/382/118)"
+    },
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018 (Gaia DR2), A&A 616, A1; Katz et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/345",
+     "what": "Gaia DR2 RVS radial velocities (VizieR I/345/gaia2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Confirms SIMBAD's rejected 4.44 (quality D). Alternative: Gaia DR2 (same source_id) 4.64 +/-0.51 (6 transits). Component A: 3.93 +/-0.38."
+  },
+  {
+   "key": "GJ 670 B|4115142276679903360",
+   "name": "GJ 670 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No component-level RV found for ksi Oph B (Gaia DR2 nearest source 4115142276696646272 has no RV)."
+  },
+  {
+   "key": "GJ 815|1873073175244118784",
+   "name": "GJ 815",
+   "done": true,
+   "rv": {
+    "value": -33.97,
+    "err": 0.1,
+    "src": "SB9",
+    "where": "VizieR B/sb9 orbits Seq 2460 (HIP 103655 AB, P=10777 d), V0/e_V0, ref 2000A&AS..145..215P",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Systemic velocity of the GJ 815 AB orbit (A is itself SB2, P=3.28 d, V0 -30.7, 1978AJ). Sperauskas 2016 lists AB -34.0 +/-0.1 (SBO). Fouque 2018 -34.35 (24 spectra, SB2)."
+  },
+  {
+   "key": "GJ 461 A|3699797150759489792",
+   "name": "GJ 461 A",
+   "done": true,
+   "rv": {
+    "value": 4.0,
+    "err": 0.2,
+    "src": "SPE16",
+    "where": "VizieR J/A+A/596/A116 table4, MCC293 comp A, HRV/e_HRV, r_HRV=5 = Marcy & Benitz 1989, ApJ 344, 441",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Identity caution: Sperauskas's own 2 measurements of MCC 293 A give 1.1 +/-1.4 (table2); Gizis 2002 lists 4.0 for 'Gl 461 B' (1 epoch); PMSU 'Gl 461A' -1.5. The batch row GJ 11770 B is BD+01 2684B, the companion."
+  },
+  {
+   "key": "GJ 11761|3472485972258777088",
+   "name": "GJ 11761",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found for HD 106549 A."
+  },
+  {
+   "key": "Gaia DR3 5463156589008251648|5463156589008251648",
+   "name": "Gaia DR3 5463156589008251648",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "Gaia DR3 NSS: OrbitalTargetedSearch, no RV"
+   ],
+   "notes": "Only PMSU (Hawley et al. 1996, AJ 112, 2799 / III/198) 'GJ 1130 A' 51.4 (SIMBAD quality D, +/-10), which SIMBAD rejected; PMSU lists 'GJ 1130 B' 41.3. Gaia DR3 NSS has an astrometric OrbitalTargetedSearch solution (P=181 d) but no RV. Not reported."
+  },
+  {
+   "key": "GJ 166 B|3195919254111315712",
+   "name": "GJ 166 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "rule 4 (white dwarf)"
+   ],
+   "notes": "White dwarf (40 Eri B). Only uncorrected line velocity: old values -21 (1979IAUS...30...57E, rejected D), -42 (GCRV), -53 (1950ApJ) include the gravitational redshift; no redshift-corrected kinematic RV found."
+  },
+  {
+   "key": "GJ 11474|5244602741448864256",
+   "name": "GJ 11474",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found."
+  },
+  {
+   "key": "GJ 2107|5846770973285176960",
+   "name": "GJ 2107",
+   "done": true,
+   "rv": {
+    "value": 25.83,
+    "err": 0.15,
+    "src": "GNSS",
+    "where": "Gaia DR3 gaiadr3.nss_two_body_orbit (ESA Gaia TAP, by source_id): source 5846770973285176960, nss_solution_type AstroSpectroSB1, P=102.56 d, center_of_mass_velocity/error",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018 (Gaia DR2), A&A 616, A1; Katz et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/345",
+     "what": "Gaia DR2 RVS radial velocities (VizieR I/345/gaia2)"
+    },
+    "GNSS": {
+     "citation": "Gaia Collaboration, Arenou et al. 2023, A&A 674, A34 (Gaia DR3 non-single stars)",
+     "url": "https://doi.org/10.1051/0004-6361/202243782",
+     "what": "Gaia DR3 nss_two_body_orbit center_of_mass_velocity"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Gaia DR3 NSS two-body orbits"
+   ],
+   "notes": "Systemic velocity of Gaia astrometric+spectroscopic SB1 orbit. SIMBAD's rejected 18.63 +/-6.07 is the Gaia DR2 mean of 6 transits of this binary."
+  },
+  {
+   "key": "GJ 695 C|4594497838483177984",
+   "name": "GJ 695 C",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "GJ 695 C (SIMBAD mu02 Her B): only the B+C blend found: Fouque 2018 'Gl 695BC' -13.82 (1 spectrum). Gizis 2002 lists 'Gl 695 B' -14.1. Not reported as C's."
+  },
+  {
+   "key": "GJ 185 B|2974726136265625088",
+   "name": "GJ 185 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "GJ 185 A-B separation ~0.9 arcsec; all values are for A or the blend (Soubiran 2018 HIP 23452 -13.27; Gizis 'Gl 185 A' -12.4). Not reported as B's."
+  },
+  {
+   "key": "GJ 379 B|1126456229662509568",
+   "name": "GJ 379 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only the primary found: Sperauskas 2016 MCC 565 = HIP 49868 (BD+75 403 A) -55.6 +/-0.4 (3 obs); PMSU 'Gl 379A' -44.3. Not reported as B's."
+  },
+  {
+   "key": "GJ 646 B|5970137861534914304",
+   "name": "GJ 646 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 153026 A values: PCRV HIP 83101 42.5 +/-3.1. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 2826159850239895296|2826159850239895296",
+   "name": "Gaia DR3 2826159850239895296",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 222474 B (EB*): only A values: PCRV HIP 116838 -19.2 +/-0.2; Gaia DR2 source 2826159850241446784 (G=8.06, the A star) -17.93 +/-0.31. No B orbit/gamma found."
+  },
+  {
+   "key": "GJ 10722|3409167094776800384",
+   "name": "GJ 10722",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "JEF18": {
+     "citation": "Jeffers et al. 2018, A&A 614, A76",
+     "url": "https://doi.org/10.1051/0004-6361/201629599",
+     "what": "CARMENES input catalogue: high-resolution spectroscopy (VizieR J/A+A/614/A76 tablea1)"
+    },
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'HD 285190 spectroscopic binary orbit'",
+    "Cifuentes 2025 J/A+A/693/A228 multiplicity"
+   ],
+   "notes": "SB2 (HD 285190 = Karmn J05032+213) with no published systemic velocity found. Single-epoch values: Jeffers 2018 CAFE 80.03 +/-0.11 and 41.58 +/-0.34; GALAH DR4 84.56 +/-0.32; Fouque 2018 57.24 (SB2, no error; SIMBAD-rejected). Not reported. Cifuentes 2025 (J/A+A/693/A228) confirms SB2 (quadruple Aab+(BC))."
+  },
+  {
+   "key": "GJ 237 A|5568872394338114560",
+   "name": "GJ 237 A",
+   "done": true,
+   "rv": {
+    "value": 9.72,
+    "err": 1.52,
+    "src": "RAVE6",
+    "where": "VizieR III/283 ravedr6, RAVE J063151.1-433203 (obs 20110120_0628m42_135), HRV/e_HRV, single epoch",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "RAVE6": {
+     "citation": "Steinmetz et al. 2020, AJ 160, 82 (RAVE DR6)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/283",
+     "what": "RAVE DR6 heliocentric RVs (VizieR III/283/ravedr6)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "PMSU (III/198) 'Gl 237' gives 17.1 (no error)."
+  },
+  {
+   "key": "GJ 9163 A|3185759697950315008",
+   "name": "GJ 9163 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "GJ 9163 A-B separation ~0.5 arcsec; only blended values: Sperauskas 2016 table4 MCC452 -4.2 +/-1.0 (from Upgren & Harlow 1996); PMSU 'Wo 9163A' -3.3. Not reported as the component's."
+  },
+  {
+   "key": "Gaia DR3 6068922964028445056|6068922964028445056",
+   "name": "Gaia DR3 6068922964028445056",
+   "done": true,
+   "rv": {
+    "value": -9.65,
+    "err": 0.2,
+    "src": "GNSS",
+    "where": "Gaia DR3 gaiadr3.nss_two_body_orbit (ESA Gaia TAP, by source_id): source 6068922964028445056, nss_solution_type SB2, P=5.809 d, center_of_mass_velocity/error",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GNSS": {
+     "citation": "Gaia Collaboration, Arenou et al. 2023, A&A 674, A34 (Gaia DR3 non-single stars)",
+     "url": "https://doi.org/10.1051/0004-6361/202243782",
+     "what": "Gaia DR3 nss_two_body_orbit center_of_mass_velocity"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Gaia DR3 NSS two-body orbits"
+   ],
+   "notes": "Systemic velocity of Gaia SB2 orbit."
+  },
+  {
+   "key": "GJ 3222 B|4852870701504645504",
+   "name": "GJ 3222 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "SACY": {
+     "citation": "Torres et al. 2006, A&A 460, 695 (SACY)",
+     "url": "https://doi.org/10.1051/0004-6361:20065602",
+     "what": "Search for associations containing young stars (VizieR J/A+A/460/695)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 21175 A values found: GCS 'AB' 13.4 +/-0.2; PCRV 13.7 +/-0.3; SACY HIP 15799 12.8; Gaia DR2 source 4852870701504645376 (G=6.69, the A star) 12.19 +/-0.13. Not reported as B's."
+  },
+  {
+   "key": "GJ 10212|5022972468944971648",
+   "name": "GJ 10212",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "SACY": {
+     "citation": "Torres et al. 2006, A&A 460, 695 (SACY)",
+     "url": "https://doi.org/10.1051/0004-6361:20065602",
+     "what": "Search for associations containing young stars (VizieR J/A+A/460/695)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "HD 9770 C: only system values for HIP 7372 (HD 9770 AB): GCS 'ABC' 33.5 +/-0.4; PCRV 33.5 +/-0.2; SACY 31.0. Not reported as C's."
+  },
+  {
+   "key": "GJ 9163 B|3185759697949251456",
+   "name": "GJ 9163 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "GJ 9163 B: only blended A+B values (Sperauskas 2016 MCC452 -4.2 +/-1.0; PMSU -3.3). Not reported."
+  },
+  {
+   "key": "GJ 257 A|5559035514776717312",
+   "name": "GJ 257 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'GJ 257 / LHS 222 radial velocity'"
+   ],
+   "notes": "BATCH LABEL ISSUE: this row is keyed 'GJ 257 A' but SIMBAD identifies Gaia DR3 5559035514776717312 as GJ 257 B (CD-44 3045B). Only PMSU 'Gl 257 A' -20.3 (no error, low precision, possibly blended with A at 2.4 arcsec). Not reported."
+  },
+  {
+   "key": "GJ 12856 A|2045232777472519808",
+   "name": "GJ 12856 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found for LF 2 +31 129 A (WDS J19370+3147A)."
+  },
+  {
+   "key": "GJ 233 B|3372159045217009920",
+   "name": "GJ 233 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SB9": {
+     "citation": "Pourbaix et al. 2004, A&A 424, 727 (SB9 catalogue, VizieR B/sb9)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=B/sb9",
+     "what": "Spectroscopic binary orbits incl. systemic velocity V0"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 45088 A values: SB9 Seq 402 (comp A orbit); GCS 'AB' -8.6 (variable); PCRV -8.4 +/-0.2. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 1647986068237086976|1647986068237086976",
+   "name": "Gaia DR3 1647986068237086976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 144061 A values: Soubiran 2018 HIP 78217 -8.706 +/-0.001; GCS 'AB' -8.9; PCRV -8.6. Not reported as B's."
+  },
+  {
+   "key": "GJ 257 A|5559035514779971456",
+   "name": "GJ 257 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'GJ 257 / LHS 222 radial velocity'"
+   ],
+   "notes": "Only PMSU (III/198) 'Gl 257 A' -20.3 (no error, low precision; pair is ~2.4 arcsec apart in Gaia DR3, so a 1990s spectrum may be blended). Not reported. Note the batch has two rows named 'GJ 257 A'; the other (5559035514776717312) is GJ 257 B."
+  },
+  {
+   "key": "GJ 11102|3165346538729784192",
+   "name": "GJ 11102",
+   "done": true,
+   "rv": {
+    "value": 31.49,
+    "err": 0.0007,
+    "src": "FOU18",
+    "where": "VizieR J/MNRAS/475/1960 tablea6, TYC 777-141-1, HRV (2 spectra); e_HRV is 0.7 m/s (formal, given in m/s)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "FOU18": {
+     "citation": "Fouque et al. 2018, MNRAS 475, 1960",
+     "url": "https://doi.org/10.1093/mnras/stx3246",
+     "what": "SPIRou input catalogue, ESPaDOnS/NARVAL RVs (VizieR J/MNRAS/475/1960 tablea6)"
+    },
+    "JEF18": {
+     "citation": "Jeffers et al. 2018, A&A 614, A76",
+     "url": "https://doi.org/10.1051/0004-6361/201629599",
+     "what": "CARMENES input catalogue: high-resolution spectroscopy (VizieR J/A+A/614/A76 tablea1)"
+    },
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018 (Gaia DR2), A&A 616, A1; Katz et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/345",
+     "what": "Gaia DR2 RVS radial velocities (VizieR I/345/gaia2)"
+    },
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Formal error only; realistic accuracy is a few hundred m/s. Alternatives: Jeffers 2018 31.37 +/-0.32 (FEROS, 1 epoch); Gaia DR2 29.46 +/-1.49 (2 transits); LAMOST DR11 MRS ~30.5-31.4 +/-2."
+  },
+  {
+   "key": "GJ 771 B|4296708789289490816",
+   "name": "GJ 771 B",
+   "done": true,
+   "rv": {
+    "value": -32.9,
+    "err": null,
+    "src": "TOK15",
+    "where": "VizieR J/AJ/149/8 table2, HD188512 B, <RV> (N=1); no uncertainty given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "TOK15": {
+     "citation": "Tokovinin 2015, AJ 149, 8",
+     "url": "https://doi.org/10.1088/0004-6256/149/1/8",
+     "what": "CHIRON RVs of nearby multiple systems (VizieR J/AJ/149/8)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Chubak 2012 table 3 (no B entry)"
+   ],
+   "notes": "Confirms SIMBAD's rejected -32.9 (quality D). Single epoch, wide CCF (sigma 15.2 km/s); Bonfils et al. 2005 claimed SB2, Tokovinin saw it single-lined. Paper's note quotes -32.5. Component A (HD 188512): Chubak 2012 -40.074."
+  },
+  {
+   "key": "GJ 10809|2903754309959700224",
+   "name": "GJ 10809",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found."
+  },
+  {
+   "key": "GJ 153 BC|493650660396520064",
+   "name": "GJ 153 BC",
+   "done": true,
+   "rv": {
+    "value": 1.7,
+    "err": 1.1,
+    "src": "PCRV",
+    "where": "VizieR III/252 table8, HIP 17750, RV/e_RV (2 sources)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "This Gaia source is HIP 17750 = GJ 153 B/C (SIMBAD), an unresolved pair; value is for the pair. Gizis 2002 'Gl 153 B' 1.7 (1 epoch); PMSU 'Gl 153B' 9.4."
+  },
+  {
+   "key": "Gaia DR3 60244789002681088|60244789002681088",
+   "name": "Gaia DR3 60244789002681088",
+   "done": true,
+   "rv": {
+    "value": 9.53,
+    "err": 0.18,
+    "src": "LAT02",
+    "where": "VizieR J/AJ/124/1144 table3, G5-20 (= Wolf 132), HRV/e_HRV, 12 obs over 1831 d, no variability (P(chi2)=0.47)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018 (Gaia DR2), A&A 616, A1; Katz et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/345",
+     "what": "Gaia DR2 RVS radial velocities (VizieR I/345/gaia2)"
+    },
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    },
+    "LAT02": {
+     "citation": "Latham et al. 2002, AJ 124, 1144",
+     "url": "https://doi.org/10.1086/341384",
+     "what": "CfA survey of proper-motion stars, multi-epoch RVs (VizieR J/AJ/124/1144)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Latham 2002 J/AJ/124/1144"
+   ],
+   "notes": "Alternatives: Gaia DR2 10.66 +/-0.47 (3 transits; DR2 id 60244784706486528 = this DR3 source via dr2_neighbourhood). SIMBAD's rejected 13.54 is from LAMOST low-res M dwarfs (2019MNRAS.485.2167G)."
+  },
+  {
+   "key": "GJ 11720 B|6148648281576023552",
+   "name": "GJ 11720 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 104731 A values: Soubiran 2018 HIP 58803 39.367; GCS 39.2; PCRV 38.5; Gaia DR2 39.18 (A's source). Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 3818309974360006016|3818309974360006016",
+   "name": "Gaia DR3 3818309974360006016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "APOGEE DR17 matched only A"
+   ],
+   "notes": "Only chi Leo A values: APOGEE DR17 2M11050103+0720096 (Gaia EDR3 3818309974360005888, the A star) 5.17 +/-0.16; GCS 'AB' 3.8 +/-1.1; PCRV 3.3 +/-1.0. Not reported as B's."
+  },
+  {
+   "key": "GJ 12179 A|5888257093214433920",
+   "name": "GJ 12179 A",
+   "done": true,
+   "rv": {
+    "value": 19.5,
+    "err": null,
+    "src": "SACY",
+    "where": "VizieR J/A+A/460/695 stars, TYC 8694 0175 1, HRV (Nobs=4); no error given",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SACY": {
+     "citation": "Torres et al. 2006, A&A 460, 695 (SACY)",
+     "url": "https://doi.org/10.1051/0004-6361:20065602",
+     "what": "Search for associations containing young stars (VizieR J/A+A/460/695)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": ""
+  },
+  {
+   "key": "GJ 3322 A|3291643148740384128",
+   "name": "GJ 3322 A",
+   "done": true,
+   "rv": {
+    "value": 17.26,
+    "err": 0.03,
+    "src": "DEL99",
+    "where": "Delfosse et al. 1999 (arXiv astro-ph/9812008), orbital-elements table, 'LP 476-207 Aab' V0 (SB2, P=11.9623 d)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    },
+    "DEL99": {
+     "citation": "Delfosse et al. 1999, A&AS 135, 41 ('New neighbours. I')",
+     "url": "https://arxiv.org/abs/astro-ph/9812008",
+     "what": "CORAVEL/ELODIE SB2 orbit of LP 476-207 Aab with systemic velocity"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "arXiv astro-ph/9812008 full text"
+   ],
+   "notes": "Systemic velocity of the Aa-Ab SB2 orbit (A of the 0.97 arcsec visual pair). Alternatives: Gizis 2002 'LP476-207Ab' 14.7 (7 epochs, scatter 3.7); PCRV 14.9 +/-3.5; PMSU 18.8."
+  },
+  {
+   "key": "Gaia DR3 4976894960284725632|4976894960284725632",
+   "name": "Gaia DR3 4976894960284725632",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'HD 142 B radial velocity'"
+   ],
+   "notes": "No published RV found for HD 142 B (GJ 4.2 B); only the primary HD 142 A has RVs."
+  },
+  {
+   "key": "GJ 3500|5522879208777731200",
+   "name": "GJ 3500",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'LHS 2010 / GJ 3500 radial velocity'",
+    "arXiv 2602.00382 HTML (tables not public)"
+   ],
+   "notes": "Only low-precision/flagged values: 2021MNRAS.508.5148C ('M dwarf spectral indices at moderate resolution') 50.4, no error (SIMBAD-rejected). SIMBAD otype '**' (binary). Winters et al. 2026 (arXiv:2602.00382, 15-pc mid-M survey) may contain it but its tables are only available on request. Not reported."
+  },
+  {
+   "key": "GJ 12185 A|6005425828227820160",
+   "name": "GJ 12185 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found for CD-39 9632 A."
+  },
+  {
+   "key": "Gaia DR3 5401402484072909184|5401402484072909184",
+   "name": "Gaia DR3 5401402484072909184",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found (HIP 53776)."
+  },
+  {
+   "key": "GJ 12855 B|2045232781772137984",
+   "name": "GJ 12855 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No published RV found for LF 2 +31 129 B (WDS J19370+3147B). Batch names the pair GJ 12856 A / GJ 12855 B (different GJ numbers for one pair)."
+  },
+  {
+   "key": "GJ 9476 B|6270906415441315840",
+   "name": "GJ 9476 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 125276 A values: GCS 'AB' -22.8 +/-0.2 (6 obs). Not reported as B's."
+  },
+  {
+   "key": "GJ 3861|1611087248283201024",
+   "name": "GJ 3861",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "JEF18": {
+     "citation": "Jeffers et al. 2018, A&A 614, A76",
+     "url": "https://doi.org/10.1051/0004-6361/201629599",
+     "what": "CARMENES input catalogue: high-resolution spectroscopy (VizieR J/A+A/614/A76 tablea1)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    },
+    "CIF25": {
+     "citation": "Cifuentes et al. 2025, A&A 693, A228 (CARMENES input catalogue IX: multiplicity)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/693/A228",
+     "what": "Multiplicity table (VizieR J/A+A/693/A228 tablea1), SB column"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "web search LHS 2952 / G 223-74 binary",
+    "Cifuentes 2025 J/A+A/693/A228 multiplicity"
+   ],
+   "notes": "SB2 per Cifuentes et al. 2025 (J/A+A/693/A228 tablea1, Karmn J14368+583: SB2, refs Gizis 2002, Jeffers 2018); no systemic velocity found. Single-epoch values disagree accordingly: Jeffers 2018 CAFE -68.28 +/-0.32; Gizis 2002 'LHS2952' -26.6; PMSU -42.3. Not reported."
+  },
+  {
+   "key": "GJ 568 A|1266092694561970432",
+   "name": "GJ 568 A",
+   "done": true,
+   "rv": {
+    "value": -36.2,
+    "err": 1.5,
+    "src": "GIZ02",
+    "where": "VizieR J/AJ/123/3356 table2, 'Gl 568 A', <RV> over 4 epochs; err is e_<RV>, the observed dispersion",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "PMSU (III/198) 'Gl 568A' gives -15.7 (no error); discrepant."
+  },
+  {
+   "key": "Gaia DR3 1739379433242806144|1739379433242806144",
+   "name": "Gaia DR3 1739379433242806144",
+   "done": true,
+   "rv": {
+    "value": 20.64,
+    "err": 2.0,
+    "src": "LAMOST",
+    "where": "VizieR V/162/dr11m (LAMOST DR11 MRS), obsid 934209146, highest-S/N exposure (snr 88.2), RVbr1/e_RVbr1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    },
+    "DAW05": {
+     "citation": "Dawson & De Robertis 2005, PASP 117, 1",
+     "url": "https://doi.org/10.1086/426553",
+     "what": "RVs of 166 LHS stars (VizieR J/PASP/117/1)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "Dawson & De Robertis 2005 J/PASP/117/1",
+    "Gaia DR3 NSS: OrbitalTargetedSearch P=138 d, no RV"
+   ],
+   "notes": "CAUTION: single LAMOST MRS visit; other exposures of the same visit give 15.95 +/-2.4, 19.55 +/-2.09, 19.47 +/-2.23 (the catalogue gives no combined value). Gaia DR3 finds an astrometric orbit (P=138 d), so this need not be systemic. SIMBAD's rejected 41.11 +/-7.61 is Dawson & De Robertis 2005 (1 spectrum, LHS 3677). PMSU -12.3."
+  },
+  {
+   "key": "GJ 3344 A|4651329704762754176",
+   "name": "GJ 3344 A",
+   "done": true,
+   "rv": {
+    "value": -21.45,
+    "err": 0.84,
+    "src": "SCH19",
+    "where": "VizieR J/AJ/157/234 table2, 2MASS J05160040-7214135 (GJ 3344), RV/e_RV adopted; table1 epochs: Magellan/MIKE -21.10 +/-0.85 (2009-12-31), DuPont -44.57 +/-6.93 (2009-08-21)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "SCH19": {
+     "citation": "Schneider et al. 2019, AJ 157, 234",
+     "url": "https://doi.org/10.3847/1538-3881/ab1a26",
+     "what": "ACRONYM III young M dwarf RVs (VizieR J/AJ/157/234)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Schneider et al. flag GJ 3344 as SB2, so this single-epoch-based value need not be the systemic velocity. SIMBAD's rejected -44.57 (quality D) is the lower-precision DuPont epoch from the same paper. PMSU -0.6."
+  },
+  {
+   "key": "Gaia DR3 4359814881197436800|4359814881197436800",
+   "name": "Gaia DR3 4359814881197436800",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 155802 A values: PCRV HIP 84303 -33.5 +/-0.9; Gaia DR2 source 4359814876901570688 (G=8.27, the A star) -33.22 +/-0.30. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 5194528576741489408|5194528576741489408",
+   "name": "Gaia DR3 5194528576741489408",
+   "done": true,
+   "rv": {
+    "value": 15.6,
+    "err": 1.5,
+    "src": "MAL14",
+    "where": "VizieR J/ApJ/788/81 members, 2MASS J08173943-8243298, RVm/e_RVm (mean of 2 epochs in table2: 14.2 +/-1.5, 17.5 +/-1.6)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "MAL14": {
+     "citation": "Malo et al. 2014, ApJ 788, 81",
+     "url": "https://doi.org/10.1088/0004-637X/788/1/81",
+     "what": "Young M dwarf RVs (VizieR J/ApJ/788/81)"
+    },
+    "RAVE6": {
+     "citation": "Steinmetz et al. 2020, AJ 160, 82 (RAVE DR6)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/283",
+     "what": "RAVE DR6 heliocentric RVs (VizieR III/283/ravedr6)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "RAVE DR6 single epoch 9.62 +/-5.33."
+  },
+  {
+   "key": "Gaia DR3 1375767325868833152|1375767325868833152",
+   "name": "Gaia DR3 1375767325868833152",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "LAMOST": {
+     "citation": "Luo et al. (LAMOST DR11), VizieR V/162",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/162",
+     "what": "LAMOST DR11 low/medium-resolution RVs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)",
+    "web search 'HIP 76202 / GJ 9523 / MCC 746 orbit'"
+   ],
+   "notes": "SB1 (Sperauskas 2016 flags MCC746 SB1, ref Beuzit 2004) with no published systemic velocity found. Single-phase values: Soubiran 2018 HIP 76202 16.683 +/-0.013 (N=2); LAMOST DR11 MRS ~15-16.9 (2019) and -34.9 to -43.6 (obsid 800104131); PMSU 'Gl 588.1' 26.6. Not reported because none is a systemic velocity."
+  },
+  {
+   "key": "GJ 3722|1680921595450031232",
+   "name": "GJ 3722",
+   "done": true,
+   "rv": {
+    "value": 14.6,
+    "err": 1.1,
+    "src": "PCRV",
+    "where": "VizieR III/252 table8, HIP 60444, RV/e_RV (2 sources)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695"
+   ],
+   "notes": "Gizis 2002 'G237-064' 14.9 (1 epoch); PMSU 7.1."
+  },
+  {
+   "key": "GJ 10850 B|3022685630877620096",
+   "name": "GJ 10850 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SOU18": {
+     "citation": "Soubiran et al. 2018, A&A 616, A7",
+     "url": "https://doi.org/10.1051/0004-6361/201832795",
+     "what": "Gaia RV standard stars (VizieR J/A+A/616/A7)"
+    },
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 40397 A values: Soubiran 2018 143.578 +/-0.014; Nidever 2002 143.621; GCS 143.3; PCRV 143.5. PMSU 'LP 659-4' -68.5 is a different object. Not reported as B's."
+  },
+  {
+   "key": "GJ 11770 B|3699797155055781760",
+   "name": "GJ 11770 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "SPE16": {
+     "citation": "Sperauskas et al. 2016, A&A 596, A116",
+     "url": "https://doi.org/10.1051/0004-6361/201629249",
+     "what": "Radial velocities of K-M dwarfs (VizieR J/A+A/596/A116)"
+    },
+    "GIZ02": {
+     "citation": "Gizis, Reid & Hawley 2002, AJ 123, 3356",
+     "url": "https://doi.org/10.1086/340465",
+     "what": "Palomar/MSU nearby star spectroscopic survey III, RVs (VizieR J/AJ/123/3356 table2)"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No component-level RV found for BD+01 2684 B. Sperauskas 2016 MCC 293 values (1.1 +/-1.4; 4.0 +/-0.2) and PMSU 'Gl 461A' -1.5 refer to A; Gizis 2002 'Gl 461 B' 4.0 (1 epoch) may be this star but its identity could not be confirmed (same value as Marcy & Benitz 1989 for A)."
+  },
+  {
+   "key": "Gaia DR3 5309386795506216832|5309386795506216832",
+   "name": "Gaia DR3 5309386795506216832",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {
+    "GCS": {
+     "citation": "Nordstrom et al. 2004, A&A 418, 989 (GCS, VizieR V/117A)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/117A",
+     "what": "Geneva-Copenhagen survey CORAVEL RVs"
+    },
+    "PCRV": {
+     "citation": "Gontcharov 2006, Astron. Lett. 32, 759 (PCRV, VizieR III/252)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=III/252",
+     "what": "Pulkovo compilation of RVs for Hipparcos stars"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (no component RV indexed)"
+   ],
+   "notes": "Only HD 85228 A values: GCS 'AB' -0.1 +/-0.2; PCRV 0.5 +/-0.3; Gaia DR2 source 5309386791195469824 (G=7.69, the A star) -0.20 +/-0.15. Not reported as B's."
+  },
+  {
+   "key": "Gaia DR3 4314399312966563968|4314399312966563968",
+   "name": "Gaia DR3 4314399312966563968",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3"
+   ],
+   "notes": "No component-level RV found for zet Aql B."
+  },
+  {
+   "key": "GJ 3032|4972971284318252160",
+   "name": "GJ 3032",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'LHS 1064 / GJ 3032 radial velocity'"
+   ],
+   "notes": "Only low-precision/flagged values: 2021MNRAS.508.5148C -17.7 (no error, SIMBAD-rejected) and PMSU (Hawley 1996) -36.5 (quality D). Not reported."
+  },
+  {
+   "key": "GJ 11343 A|1117564303034031744",
+   "name": "GJ 11343 A",
+   "done": true,
+   "rv": {
+    "value": 13.001,
+    "err": 0.159,
+    "src": "LAF20",
+    "where": "VizieR J/A+A/636/A36 tablea1, Karmn J09133+688, RVabs/e_RVabs (given in m/s: 13001 +/- 159), CARMENES absolute RV",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LAF20": {
+     "citation": "Lafarga et al. 2020, A&A 636, A36",
+     "url": "https://doi.org/10.1051/0004-6361/201937222",
+     "what": "CARMENES absolute RVs (VizieR J/A+A/636/A36)"
+    },
+    "JEF18": {
+     "citation": "Jeffers et al. 2018, A&A 614, A76",
+     "url": "https://doi.org/10.1051/0004-6361/201629599",
+     "what": "CARMENES input catalogue: high-resolution spectroscopy (VizieR J/A+A/614/A76 tablea1)"
+    },
+    "GDR2": {
+     "citation": "Gaia Collaboration 2018 (Gaia DR2), A&A 616, A1; Katz et al. 2019",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=I/345",
+     "what": "Gaia DR2 RVS radial velocities (VizieR I/345/gaia2)"
+    },
+    "REI18": {
+     "citation": "Reiners et al. 2018, A&A 612, A49",
+     "url": "https://doi.org/10.1051/0004-6361/201732054",
+     "what": "CARMENES 324 M dwarfs"
+    }
+   },
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "Cifuentes 2025 J/A+A/693/A228 multiplicity"
+   ],
+   "notes": "CAUTION: possibly variable. Jeffers 2018 CAFE epochs 13.62, 13.69, 14.00, 14.03 (+/-0.2-0.3) agree, but Reiners 2018 table B1 lists 26.672 and Gaia DR2 gives 8.90 +/-0.68 (5 transits). Cifuentes 2025 (J/A+A/693/A228) lists G 234-57A as component A of a double, no SB flag."
+  },
+  {
+   "key": "GJ 11734 A|1683677624423753472",
+   "name": "GJ 11734 A",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "Gaia DR2 I/345/gaia2 (by source_id)",
+    "Soubiran 2018 J/A+A/616/A7",
+    "Gontcharov PCRV III/252",
+    "GCS V/117A",
+    "Nidever 2002 J/ApJS/141/503",
+    "Tokovinin & Smekhov 2002 J/A+A/382/118",
+    "SB9 B/sb9",
+    "APOGEE DR17 III/286",
+    "LAMOST DR11 LRS/MRS V/162",
+    "RAVE DR6 III/283",
+    "GALAH DR3/DR4",
+    "Gaia-ESO DR5 J/A+A/666/A121",
+    "CARMENES Reiners 2018 / Lafarga 2020 / Jeffers 2018",
+    "Fouque 2018 J/MNRAS/475/1960",
+    "Sperauskas 2016 J/A+A/596/A116",
+    "Gizis 2002 J/AJ/123/3356",
+    "PMSU III/198",
+    "Newton 2014, Terrien 2015, Shkolnik 2012, Malo 2014",
+    "Hsu 2021 J/ApJS/257/45",
+    "Schneider 2019 J/AJ/157/234",
+    "Tokovinin 2015 J/AJ/149/8",
+    "SACY J/A+A/460/695",
+    "SIMBAD mesVelocities (none indexed)",
+    "Gaia DR3 NSS two-body orbits (none)",
+    "Latham 2002 J/AJ/124/1144",
+    "Chubak 2012 table 3",
+    "web search 'RX J1206.9+7007 radial velocity'"
+   ],
+   "notes": "No published RV found."
+  }
+ ]
+}

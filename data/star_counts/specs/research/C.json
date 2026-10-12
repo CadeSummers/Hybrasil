@@ -1,0 +1,196 @@
+[
+ {
+  "system": "HD 149806",
+  "action": "add_rows",
+  "old_count": 2,
+  "new_count": 3,
+  "rows": [
+   {
+    "after": "HD 149806 B",
+    "values": {
+     "Star (component)": "HD 149806 Bb",
+     "Role in system": "suspected companion of HD 149806 B (MSC 'v?'; resolved once, Hirsch et al. 2021)",
+     "Mass (M-sun)": 0.27,
+     "Star data source": "SUSPECTED companion of HD 149806 B. MSC (Tokovinin 2018, VizieR J/ApJS/235/6), WDS 16371+0015 pair Ba,Bb, type 'v?', note 'B is above MS, assumed binary. DR3: RUWE(A)=1.0, no plx(B)'. Hirsch et al. 2021, AJ 161, 134 (doi:10.3847/1538-3881/abd639, arXiv:2012.09190), Table 3 and notes: 'newly resolved as two stars (Ba/Bb) in a single PHARO observation epoch' (JD 2457554.81, BrG: Bb at 6.249 arcsec, PA 20.2 deg, delta 2.48 mag from A); unresolved in all ShaneAO epochs. Not in the WDS. Gaia DR3 4383374254283483648 (B, unresolved) supports it: duplicated_source = 1, only a 2-parameter solution (excess noise 5.0 mas), RV chi^2 p-value 0. Mass and separation INFERRED, orange border; see the notes. Counted under the owner's rule for MSC '?' companions (4 Oct 2026), drawn hollow at the assumed separation. Added 6 Oct 2026.",
+     "Orbital eccentricity (e)": 0,
+     "Orbit described": "HD 149806 B + HD 149806 Bb",
+     "Orbit source": "assumed circular; see the Separation note",
+     "Separation from": "HD 149806 B",
+     "Separation (AU)": 2.4,
+     "Separation type": "assumed",
+     "Separation source": "Resolution limits on the Ba-Bb pair (Hirsch et al. 2021, AJ 161, 134 (doi:10.3847/1538-3881/abd639, arXiv:2012.09190): resolved by PHARO, not by ShaneAO; Gaia DR3 ipd_frac_multi_peak 0): rho ~0.09-0.15 arcsec, middle 0.12 arcsec x 20.32 pc = 2.4 AU, taken as a circular orbit"
+    },
+    "orange": {
+     "Mass (M-sun)": "WEAK: rests on one PHARO epoch of a pair nothing else has resolved, and on aperture photometry of a ~0.1 arcsec pair.\nINFERRED: B's light split in two. Unresolved B: Ks = 7.31 (A's 2MASS Ks 5.183 + ShaneAO delta-Ks 2.13, Hirsch et al. 2021 Table 3; 2MASS gives 7.28 for B). PHARO resolves one star at delta-BrG 2.48 (Ks 7.66), so the other is Ks 8.71. At A's parallax (49.2036 mas): M_Ks 6.12 and 7.17, Mann et al. 2019 (ApJ 871, 63) M_Ks-mass relation (scatter ~2-3%, valid 0.075-0.70 M-sun dwarfs): 0.42 and 0.27 M-sun. This row is the fainter. With 2MASS's delta 2.10 it is 0.28. The typical-companion rule (0.3 x B) would give 0.14, but a star that light could not make B overluminous, as the MSC finds it to be.",
+     "Separation (AU)": "WEAK: an assumed orbit. No Ba-Bb separation has been published.\nINFERRED from resolution limits: PHARO on the 5.08 m Hale resolved the pair in BrG (diffraction limit lambda/D = 0.088 arcsec). ShaneAO on the 3.05 m Shane did not resolve it at three epochs (Ks lambda/D = 0.145 arcsec), and Gaia DR3 sees no second peak (ipd_frac_multi_peak 0). So rho is about 0.09-0.15 arcsec. The middle, 0.12 arcsec x 20.32 pc (A's parallax), is 2.4 AU projected, taken as a circular orbit's radius; the bracket is 1.8-3.0 AU. P = 4.5 yr for 0.42 + 0.27 M-sun. Gaia DR3 rv_amplitude_robust for B, 20.9 km/s, would want a closer orbit, but 3 of B's 13 RVS transits were deblended from A, 6.3 arcsec away."
+    },
+    "notes": {}
+   }
+  ],
+  "systems_text": "HD 149806: class unknown (host, planet host)\nHD 149806 B: class unknown\nHD 149806 Bb: class unknown (suspected companion of B, MSC 'v?'; assumed orbit)",
+  "stars_note": "3 stars since 6 Oct 2026: HD 149806, B and Bb. Bb is the MSC's suspected Ba,Bb of WDS 16371+0015 (type 'v?': 'B is above MS, assumed binary'). It was resolved once, in a single PHARO epoch, by Hirsch et al. 2021 (AJ 161, 134, Table 3), and is unresolved by ShaneAO and Gaia DR3. Gaia flags B as a duplicated source with only a 2-parameter solution. Counted under the owner's rule for '?' companions and drawn hollow at an assumed 2.4 AU from B, mass 0.27 M-sun, both inferred. Was 2.",
+  "sp_paragraph": "  HD 149806 (2 -> 3): HD 149806 Bb added, the MSC's suspected Ba,Bb ('v?'; WDS 16371+0015; note 'B is above MS, assumed binary'). Hirsch et al. 2021, AJ 161, 134 (doi:10.3847/1538-3881/abd639, arXiv:2012.09190) resolved B into two stars in a single PHARO epoch (Table 3: Bb 6.249 arcsec, PA 20.2 deg, delta-BrG 2.48 from A) and not in three ShaneAO epochs. Gaia DR3 4383374254283483648 (B): duplicated_source 1, 2-parameter solution only, RV chi^2 p-value 0. Counted under the owner's rule for '?' companions, drawn hollow (Separation type 'assumed'). INFERRED (orange, WEAK): mass 0.27 M-sun. METHOD: B's unresolved Ks (7.31: 2MASS Ks of A, 5.183, plus ShaneAO delta 2.13) less the PHARO component (Ks 7.66) leaves Ks 8.71 for the other star. At A's Gaia DR3 parallax 49.2036 mas that is M_Ks 7.17, and the Mann et al. 2019 (ApJ 871, 63) M_Ks-mass relation gives 0.27; the PHARO component gives 0.42. SCATTER: the relation is ~2-3%, but the photometry is one epoch of aperture photometry on a ~0.1 arcsec pair, so call it +/-0.1 M-sun. VALID: M dwarfs 0.075-0.70 M-sun (M_Ks 4-11). INFERRED (orange, WEAK): separation 2.4 AU. METHOD: PHARO resolved the pair (BrG lambda/D 0.088 arcsec on 5.08 m) and ShaneAO did not (Ks lambda/D 0.145 arcsec on 3.05 m), so rho ~0.09-0.15 arcsec. The middle, 0.12 arcsec at 20.32 pc, is 2.4 AU, read as a circular orbit; the range is 1.8-3.0 AU projected. Neither value is published.",
+  "flags": [
+   "HD 149806 Bb rests on ONE PHARO epoch (Hirsch et al. 2021). Nothing refutes it, and three independent hints support it: the MSC's 'B is above MS', Gaia DR3 duplicated_source = 1 with a 2-parameter fallback, and Gaia RV variability (rv_chisq_pvalue 0, rv_amplitude_robust 20.9 km/s, though 3 of 13 RVS transits were deblended from A at 6.3 arcsec).",
+   "Hirsch's Table 3 photometry is odd: the PHARO 'Bb' (delta-BrG 2.48 from A) holds ~70% of B's K light, so it is the BRIGHTER of the pair. The row added here is the fainter star (0.27 M-sun). If the owner prefers Hirsch's label, the masses swap (0.42 for Bb), not the count.",
+   "B's existing Mass 0.482 M-sun (System star masses column) is consistent with B's COMBINED Ks run through a single-star relation. If B is two stars, Ba alone is ~0.42. That is not changed here; the owner may want B's row revisited.",
+   "ASIDE, not acted on: HD 149806 A's Hipparcos-Gaia PMa (HGCA EDR3: dmu = (0.378, 1.065) mas/yr = 109 m/s, PA 19.5 deg) points straight at B (PA 19.3 deg, 127.8 AU projected). B (+Bb) at 0.70 M-sun in the sky plane would give up to ~98 m/s. So the true mass of planet HD 149806 b (12.6 MJ 'Mass' on Planets) should be checked: if it came from an HGCA fit that ignored B, it absorbed B's pull. Kervella 2022 has no entry for HIP 81375."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 16371+0015 A,B 'Chp' and Ba,Bb 'v?' (2021AJ....161..134H); note 'B is above MS, assumed binary'",
+   "Hirsch et al. 2021, AJ 161, 134 (doi:10.3847/1538-3881/abd639, arXiv:2012.09190): Table 3 (ShaneAO/PHARO astrometry and photometry), Table 4 (Ba 0.43 'Phot', Bb no mass, 127.76 AU projected), notes",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: A 4383374219923745024 (plx 49.2036, RUWE 1.035); B 4383374254283483648 (2-parameter, Dup 1, epsi 5.0 mas, IPDfmp 0, RV 3.44 +/- 2.57, RVamp 20.9, RV chi2 p 0)",
+   "2MASS PSC (VizieR II/246): 16370844+0015157 (A) Ks 5.183, 16370858+0015216 (B) Ks 7.282, Cflg ccc",
+   "WDS (VizieR B/wds/wds): RST 5414 only; no Ba,Bb entry",
+   "Brandt 2021, ApJS 254, 42 (HGCA EDR3, VizieR J/ApJS/254/42/catalog): HIP 81375, chi2 1251",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: no entry for HIP 81375",
+   "Mann et al. 2019, ApJ 871, 63: M_Ks-mass relation (5th-order polynomial)",
+   "Snapshot hy-brasil-20261006-1120: Planets (HD 149806 b, 12.6 MJ, 12.3 AU, orbits A), Unconfirmed/Rejected/Exomoons/Planetless: nothing for HD 149806"
+  ]
+ },
+ {
+  "system": "HD 86728",
+  "action": "add_rows",
+  "old_count": 2,
+  "new_count": 3,
+  "rows": [
+   {
+    "after": "GJ 376 B",
+    "values": {
+     "Star (component)": "GJ 376 Bb",
+     "Role in system": "suspected companion of GJ 376 B (MSC 'a,v?'; unresolved, Gizis et al. 2000's 'Gl 376C')",
+     "Mass (M-sun)": 0.1,
+     "Star data source": "SUSPECTED companion of GJ 376 B. MSC (Tokovinin 2018, VizieR J/ApJS/235/6), WDS 10010+3155 pair Ba,Bb, type 'a,v?' ('Gizis 2000 RUWE=8.9'; notes: 'Listed as triple; resol. of B is not in WDS' (Hirsch 2021), 'Winters: triple, in prep. DR3: RUWE(B)=8.43'). Gizis et al. 2000, MNRAS 311, 385 (doi:10.1046/j.1365-8711.2000.03060.x, arXiv:astro-ph/9909127): B is M_K 8.19 against 9.60 for a typical M6.5 dwarf, and very active (H-alpha, ROSAT) for a ~10 Gyr star, so 'probable that Gl 376B is itself an unresolved pair', which they call 'Gl 376C'. Hirsch et al. 2021 Table 4 list Ba and Bb at 0.10 M-sun each and call Bb speculative: not detected spectroscopically or by imaging. Gaia DR3 746545859566712832 (B): RUWE 8.43, excess noise 2.4 mas, no NSS solution. Mass as published (Hirsch); separation ASSUMED, orange border, see the note. Counted under the owner's rule for MSC '?' companions (4 Oct 2026), drawn hollow. Named Bb as in the MSC and Hirsch; Gizis's 'Gl 376C' is the same body. Added 6 Oct 2026.",
+     "Orbital eccentricity (e)": 0,
+     "Orbit described": "GJ 376 B + GJ 376 Bb",
+     "Orbit source": "assumed circular; see the Separation note",
+     "Separation from": "GJ 376 B",
+     "Separation (AU)": 3.0,
+     "Separation type": "assumed",
+     "Separation source": "Typical-companion rule for an astrometric signal (data/four_plus_stars/infer.py): a = 3 AU, circular; checked against Gaia DR3 RUWE 8.43 and excess noise 2.4 mas for B (see the note)"
+    },
+    "orange": {
+     "Separation (AU)": "WEAK: the typical-companion rule's separation for an astrometric signal. Nothing measures it.\nASSUMED: a = 3 AU, circular (data/four_plus_stars/infer.py rule for an astrometric wobble). It is 0.20 arcsec at B's parallax 66.93 mas, and P = 12 yr for 0.10 + 0.10 M-sun. CHECK against Gaia DR3 (B: RUWE 8.43, excess noise 2.4 mas, ipd_frac_multi_peak 0): over DR3's 34 months a 12-yr orbit leaves a curved track whose rms is ~0.09 of the photocentre orbit. 2.4 mas then needs a photocentre orbit of ~27 mas, i.e. |B - beta| ~0.14 of the 200 mas orbit, which a slightly unequal M-dwarf pair gives. The P < ~20 d tidally locked pair Gizis et al. 2000 suggested (a < 0.08 AU = 5.6 mas) could not make that much wobble with any mass and light ratio, so the RUWE favours years. Gaia's lack of a second peak mildly disfavours more than ~0.2 arcsec."
+    },
+    "notes": {
+     "Mass (M-sun)": "As published: Hirsch et al. 2021 (AJ 161, 134) Table 4, Bb 0.10 +/- 0.01 M-sun ('Type', i.e. the same M6.5 spectral type as Ba, assumed). Hirsch call Bb 'speculative'. The typical-companion rule (0.3 x B = 0.03) is not used: a brown dwarf that light could not make B 1.4 mag overluminous in K (Gizis et al. 2000)."
+    }
+   }
+  ],
+  "systems_text": "HD 86728: G1V (host, planet host)\nGJ 376 B: M6.5 V (companion)\nGJ 376 Bb: class unknown (suspected companion of GJ 376 B, MSC 'a,v?'; assumed orbit)",
+  "stars_note": "3 stars since 6 Oct 2026: HD 86728, GJ 376 B and GJ 376 Bb, B's suspected unresolved companion (MSC WDS 10010+3155 Ba,Bb 'a,v?'). Gizis et al. 2000 (MNRAS 311, 385) found B 1.4 mag overluminous in K and very active for an old star, and proposed a companion ('Gl 376C'). Hirsch et al. 2021 (AJ 161, 134) list Ba and Bb at 0.10 M-sun each but call Bb speculative. Gaia DR3 RUWE of B is 8.43. Counted under the owner's rule for '?' companions and drawn hollow at an assumed 3 AU. Was 2.",
+  "sp_paragraph": "  HD 86728 (2 -> 3): GJ 376 Bb added, the MSC's suspected Ba,Bb of WDS 10010+3155 ('a,v?'). Evidence: Gizis et al. 2000 (MNRAS 311, 385): B's M_K 8.19 against 9.60 typical for M6.5, and strong H-alpha and X-ray emission at ~10 Gyr, 'probable that Gl 376B is itself an unresolved pair'. Gaia DR3 746545859566712832: RUWE 8.43, astrometric excess noise 2.4 mas. Hirsch et al. 2021 (AJ 161, 134) Table 4: Ba and Bb 0.10 +/- 0.01 M-sun each (from spectral type), Bb 'speculative'. Mass 0.10 entered as Hirsch publish it. INFERRED (orange, WEAK): separation 3 AU, circular. METHOD: the typical-companion rule's value for an astrometric signal (data/four_plus_stars/infer.py); no measurement constrains it. CHECK: over Gaia DR3's 34 months, a 3 AU (0.20 arcsec, P ~12 yr) orbit leaves residual curvature of rms ~0.09 of the photocentre orbit. B's 2.4 mas excess noise then needs a photocentre orbit ~27 mas, |B - beta| ~0.14, which an unequal M-dwarf pair gives. Gizis's tidally locked P < ~20 d alternative (a < 0.08 AU) cannot produce that wobble for any mass and light ratio. SCATTER: unknown, a factor of several either way. VALID: only as a placeholder for drawing; Separation type 'assumed', drawn hollow.",
+  "flags": [
+   "GJ 376 Bb's separation (3 AU) is the typical-companion rule, not a measurement. It is consistent with Gaia's RUWE 8.43 for a near-equal pair, and argues against Gizis et al. 2000's tidally locked short-period guess, though a triple (Gizis: 'or triple!'; MSC note: 'Winters: triple, in prep.', i.e. A + Ba + Bb) is not excluded.",
+   "Mass 0.10 M-sun is Hirsch et al. 2021's published value, but it is their assumption (same spectral type as Ba). It is entered plain, with a hover note, not orange. Say if it should be orange instead.",
+   "Named GJ 376 Bb after the MSC and Hirsch. Gizis et al. 2000 called the postulated body 'Gl 376C'. No planet named 'GJ 376 B b' exists (the planet is HD 86728 b, orbiting A), so there is no clash."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 10010+3155 A,B 'Cmp' (RAG 7) and Ba,Bb 'a,v?' ('Gizis 2000 RUWE=8.9'); notes citing 2021AJ....161..134H and 2021AJ....161...63W",
+   "Gizis et al. 2000, MNRAS 311, 385 (doi:10.1046/j.1365-8711.2000.03060.x, arXiv:astro-ph/9909127): Sect. on Gl 376B (M_K 8.19 vs 9.60; activity; 'Gl 376C')",
+   "Hirsch et al. 2021, AJ 161, 134 (doi:10.3847/1538-3881/abd639, arXiv:2012.09190): Table 4 (Ba, Bb 0.10 +/- 0.01, 2005.90 AU projected) and system notes ('speculative')",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: B 746545859566712832 (RUWE 8.433, epsi 2.406 mas, IPDfmp 0, NSS 0); A 746545172372256384 (RUWE 0.941)",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: HIP 49081 (A) PMa S/N 0.78, no signal",
+   "Brandt 2021, ApJS 254, 42 (HGCA EDR3, VizieR J/ApJS/254/42/catalog): HIP 49081 chi2 0.48, no acceleration",
+   "WDS (VizieR B/wds/wds): RAG 7 only; no Ba,Bb entry",
+   "Snapshot hy-brasil-20261006-1120: Planets (HD 86728 b orbits A), Unconfirmed/Rejected/Exomoons/Planetless: nothing for GJ 376 / HD 86728"
+  ]
+ },
+ {
+  "system": "tau Boo",
+  "action": "no_change",
+  "old_count": 2,
+  "new_count": 2,
+  "rows": [],
+  "systems_text": "tau Boo: class unknown (host, planet host)\ntau Boo B: M2 V (~220 AU)",
+  "stars_note": "2 stars, checked 6 Oct 2026. The MSC (WDS 13473+1727) also lists AB,C, 'c?' (PIN 9 AC, 42.6 arcsec), not counted. Tokovinin himself keeps it out of the system's hierarchy (parent 'X') with the note 'N=1 in WDS, no PM. C is not found in DR2 & DR3'. It is one 2MASS detection (J 15.94 +/- 0.20, H and K upper limits only, quality CUU), 43 arcsec from a J ~ 3.6 star: Pinfield et al. 2006 (MNRAS 368, 1281) Table 1, candidate 11, never confirmed. Nothing is there in Gaia DR3 or Pan-STARRS1, at the 1998 position or at a co-moving one.",
+  "sp_paragraph": "  tau Boo (stays 2): the MSC's AB,C ('c?', PIN 9 AC, 42.6 arcsec, PA 187 deg) is not counted. Source: Pinfield et al. 2006 (MNRAS 368, 1281, arXiv:astro-ph/0603320) Table 1, candidate 11, 2MASS J13471545+1726426, a photometric L-dwarf candidate, never followed up: J 15.94 +/- 0.20, H and K 95% upper limits (2MASS Qflg CUU). WDS: one observation (1998). MSC: parent 'X', not in the hierarchy, 'N=1 in WDS, no PM. C is not found in DR2 & DR3'. Checked 6 Oct 2026: no Gaia DR3 source and no Pan-STARRS1 DR1 detection within 15 arcsec of either the 1998 position or the position a co-moving companion would have reached (~7-9 arcsec west by 2012-2016). A real L/T dwarf with J ~ 15.9 would be bright in PS1 y and z. Read as a spurious 2MASS detection near a J ~ 3.6 star. tau Boo's Hipparcos-Gaia PMa (Kervella et al. 2022: 639 m/s) is B's orbit (e = 0.87, periastron 2026.9).",
+  "flags": [
+   "tau Boo C NOT counted, a judgement call. There is no published refutation; the case rests on the MSC's own parent 'X' (outside the hierarchy, as HD 155555's optical A,C was) and on non-detections. Its only detection is a 2MASS J-band source (H, K upper limits, Qflg CUU) 43 arcsec from a J ~ 3.6 star. Gaia DR3, Pan-STARRS1 and AllWISE/CatWISE show nothing at the fixed or the co-moving position. The audit counted it only because its Type 'c?' does not start with X; audit.py ignores the Parent field.",
+   "If the owner wants it counted anyway under the '?' rule, it would be a late-L or T dwarf (~0.06-0.08 M-sun, a guess) at a projected 665 AU (42.6 arcsec x 15.61 pc), from Pinfield's M_J 14.97. Not recommended.",
+   "ASIDE, outside this batch: the same Pinfield et al. 2006 table lists candidate 15, 2MASS J17420515+7208002, a K-only detection (J and H upper limits), 1558 AU from psi1 Dra A (HIP 86614). It is not in the MSC and is not on the sheet. It is probably just as spurious, but unchecked."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 13473+1727 A,B 'V,a', Aa,Ab 'S1' (= planet tau Boo b), AB,C 'c?' parent 'X' (PIN_9 AC); notes",
+   "WDS (VizieR B/wds/wds): PIN 9 AC, 1998-1998, N=1, 42.6 arcsec, PA 187, mags 3.51/14.33 (K), 'F6IV+L?'",
+   "Pinfield et al. 2006, MNRAS 368, 1281 (arXiv:astro-ph/0603320), Tables 1-2, candidate 11",
+   "2MASS PSC (VizieR II/246): 13471545+1726426, J 15.937, H 13.997 (UL), K 14.332 (UL), Qflg CUU, 1998-05-02",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: 90 arcsec cone around tau Boo; no source within 15 arcsec of C's 1998 or co-moving 2016 position (nearest, 18 arcsec off: G 20.2, plx -0.46, background)",
+   "Pan-STARRS1 DR1 (VizieR II/349/ps1): no source within 15 arcsec of 2MASS J13471545+1726426",
+   "AllWISE (VizieR II/328) and CatWISE2020 (VizieR II/365): nothing matching (two AllWISE sources ~13 arcsec away carry halo/diffraction flags)",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: HIP 67275 PMa S/N 72, dVt 639 m/s (B's orbit)",
+   "Justesen & Albrecht 2019, A&A 625, A59 (already the sheet's source for the AB orbit)",
+   "Snapshot hy-brasil-20261006-1120: Planets (tau Boo b), Unconfirmed/Rejected/Exomoons/Planetless: nothing for tau Boo"
+  ]
+ },
+ {
+  "system": "GJ 338 A",
+  "action": "no_change",
+  "old_count": 2,
+  "new_count": 2,
+  "rows": [],
+  "systems_text": "GJ 338 A: M0 V (host)\nGJ 338 B: M0 V (planet host)",
+  "stars_note": "2 stars, checked 6 Oct 2026. The MSC (WDS 09144+5241) also suspects an inner companion of A, Aa,Ab 's,a?', not counted. The 's' is Cortes-Contreras et al. 2017's SB1 claim, which cites unpublished work. 15.7 yr of Keck/HIRES and CARMENES RVs of A show only the A-B orbital trend, with residual rms 5.5 m/s (Gonzalez-Alvarez et al. 2020, A&A 637, A93). The 'a' is a Hipparcos-Gaia proper-motion anomaly that points at B and has the size B's pull predicts. Kervella et al. 2022: 74 +/- 7 m/s at PA 93 deg; B lies at PA 98 deg; B's pull at 108 AU allows up to 127 m/s. B's own anomaly points back at A.",
+  "sp_paragraph": "  GJ 338 (stays 2): the MSC's Aa,Ab ('s,a?', comment '2017A&A...597A..47C, dmu') is not counted. The 's': per the MSC notes, Cortes-Contreras et al. 2017 'claim A to be SB1 based on Jeffers 2016, in preparation'. Against it: Gagne et al. 2016 (ApJ 822, 40) find A's precise RVs scatter -34 to +30 m/s, the same jitter as B. Gonzalez-Alvarez et al. 2020 (A&A 637, A93, arXiv:2003.13052; Jeffers a co-author) show 15.7 yr of HIRES RVs (Tal-Or et al. 2019) plus 70 CARMENES RVs of A: the only long-term signal is the A-B orbital trend, opposite to B's. Detrended rms is 5.5 m/s, with a 16.3 d rotation signal. Cortes-Contreras et al. 2017 imaging found no close companion. The 'a': Kervella et al. 2022 (J/A+A/657/A7) PMa of A is (2.464, -0.132) mas/yr = 74 +/- 7 m/s at PA 93 +/- 5 deg, and B lies at PA 97.9 deg (Gaia DR3). B's pull on A at the projected 108.1 AU, with 0.64 M-sun, allows up to 127 m/s over the Hipparcos-Gaia half-baseline (12.4 yr), so A's anomaly is B. B's anomaly is (-2.687, 1.019) mas/yr = 86 m/s, PA 291 deg, pointing back at A (277.9 deg). HGCA EDR3 agrees: A 75 m/s at PA 89, B 76 m/s at PA 296. Gaia DR3 RUWE of A is 1.08.",
+  "flags": [
+   "GJ 338 A's Aa,Ab not counted. The 's' rests on an unpublished claim ('Jeffers 2016, in preparation') that the later CARMENES paper, with Jeffers as co-author, does not support: A's RVs show only the A-B orbital trend. The 'a?' is A's proper-motion anomaly, which points at B (PA 93 vs 98 deg) with a size B's pull allows (74 m/s against up to 127). This is the GJ 896 kind of false alarm.",
+   "The B-side anomaly direction is 13-18 deg off the B-to-A line, beyond the formal errors. The MSC notes call the Hipparcos data 'questionable'; B's Hipparcos entry is HIP 120005, a double-star annex entry. This does not touch A's case."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 09144+5241 A,B 'Cmrp', Aa,Ab 's,a?'; notes (Cortes-Contreras 2017 SB1 claim; Gagne 2016 jitter; 2015A&A...574A...6A 'not triple?'; DR2-Hip dmu; DR3 RUWE)",
+   "Gonzalez-Alvarez et al. 2020, A&A 637, A93 (arXiv:2003.13052): Sect. 3.2, 4.2, 4.3; Fig. 1",
+   "Gagne et al. 2016, ApJ 822, 40 (as quoted in the MSC notes)",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: HIP 45343 (A) and HIP 120005 (B)",
+   "Brandt 2021, ApJS 254, 42 (HGCA EDR3, VizieR J/ApJS/254/42/catalog): HIP 45343, HIP 120005",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: A 1022456139210632064, B 1022456104850892928 (positions for PA; RUWE 1.08, 1.12)",
+   "WDS (VizieR B/wds/wds): STF 1321 AB, AC, AD (C and D background per Gonzalez-Alvarez 2020)",
+   "Snapshot hy-brasil-20261006-1120: Planets (GJ 338 B b orbits B), Unconfirmed/Rejected/Exomoons/Planetless: nothing for GJ 338"
+  ]
+ },
+ {
+  "system": "GJ 1177 A",
+  "action": "no_change",
+  "old_count": 2,
+  "new_count": 2,
+  "rows": [],
+  "systems_text": "GJ 1177 A (HD 120036 A): K6V (host)\nGJ 1177 B (HD 120036 B): K7V (planet host)",
+  "stars_note": "2 stars, checked 6 Oct 2026. The MSC (WDS 13477-3226) also lists Aa,Ab 'a??' (doubly doubtful; 'dmu=(1.3,-0.9) RUWE=1.2'; note 'Poor HIP astrometry of A?'), not counted. A's Hipparcos-Gaia proper-motion anomaly is B's pull. HGCA EDR3: 85 m/s at PA 112.4 deg; B lies at PA 112.3 deg, 9.28 arcsec (135 AU) away, and B's 0.648 M-sun allows up to 82 m/s. Gaia DR3 RUWE of A is 1.20, no NSS solution.",
+  "sp_paragraph": "  GJ 1177 (stays 2): the MSC's Aa,Ab ('a??', 'dmu=(1.3,-0.9) RUWE=1.2', note 'Poor HIP astrometry of A?') is not counted. A's proper-motion anomaly: HGCA EDR3 (Brandt 2021) Gaia minus Hipparcos-Gaia = (1.143, -0.472) mas/yr = 85 m/s at PA 112.4 deg. Kervella et al. 2022: (1.183, -0.628) mas/yr = 92 +/- 4 m/s at PA 118 +/- 1.5 deg. B (Gaia DR3 6171492113110925312) lies at PA 112.3 deg, 9.283 arcsec = 135.3 AU projected. B's pull on A, G M_B / s^2 with M_B = 0.648 M-sun (this tab), over the 12.4 yr half-baseline allows up to 82 m/s, matching HGCA to 4% in size and 0.1 deg in direction (Kervella's 92 m/s is 12% over: within the mass and Hipparcos double-star uncertainties). No unseen Ab is needed. Gaia DR3: A RUWE 1.20, no NSS solution.",
+  "flags": [
+   "GJ 1177 A's Aa,Ab ('a??') not counted, on this check rather than a paper: A's proper-motion anomaly is B's pull. HGCA direction matches B's position angle to 0.1 deg and its size to 4% (85 m/s against a maximum of 82 m/s for B in the sky plane). Kervella 2022's 92 +/- 4 m/s is ~12% over that maximum, which a slightly heavier B (~0.73 M-sun) would cover. If the owner prefers the rule over this check, the rule's row would be 0.2 M-sun at 3 AU.",
+   "ASIDE: GJ 1177 A's Multi-stars row has no mass ('No mass, Teff or luminosity found'). Kervella et al. 2022 list M1 = 0.67 +/- 0.01 M-sun and R1 = 0.66 +/- 0.02 R-sun (from Mann et al. 2015 relations) for HIP 67308, if the owner wants to fill it."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 13477-3226 A,B 'Cmpr' (COO 159), Aa,Ab 'a??'; note 'DR3: RUWE(A,B)= 1.2, 1.1. Poor HIP astrometry of A?'",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: HIP 67308",
+   "Brandt 2021, ApJS 254, 42 (HGCA EDR3, VizieR J/ApJS/254/42/catalog): HIP 67308, chi2 173",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: A 6171492074455952128 (RUWE 1.196, NSS 0), B 6171492113110925312",
+   "Tuomi et al. 2019, arXiv:1906.04644 (the candidate GJ 1177 B b, already on Unconfirmed; it orbits B and has nothing to do with A's Aa,Ab)",
+   "Snapshot hy-brasil-20261006-1120: Unconfirmed (GJ 1177 B b, ambiguous), Planets/Rejected/Exomoons/Planetless: nothing else"
+  ]
+ },
+ {
+  "system": "HD 207496",
+  "action": "no_change",
+  "old_count": 3,
+  "new_count": 3,
+  "rows": [],
+  "systems_text": "HD 207496: K2.5 V (host, planet host)\nHD 207496 B: class unknown\nHD 207496 Bb: class unknown (unseen companion of B, Gaia DR3 orbit)",
+  "stars_note": "3 stars, checked 6 Oct 2026. The MSC (WDS 21549-7720) also lists Aa,Ab 'a?' ('dmu=(-0.3,0.3) RUWE=1.2'), not counted. It is neither the Bb added on 2 Oct (the MSC's Ca,Cb, B's own Gaia orbit) nor the 6 M-earth planet b, and no third body is needed. A's Hipparcos-Gaia proper-motion anomaly is B's pull: HGCA EDR3 gives 52 m/s at PA 312 deg, B lies at PA 310.5 deg, 180 AU away, and B + Bb (>= 0.73 M-sun) allow up to 52 m/s. SOAR and Gemini speckle imaging (Barros et al. 2023) find no close companion.",
+  "sp_paragraph": "  HD 207496 (stays 3): the MSC's Aa,Ab ('a?', 'dmu=(-0.3,0.3) RUWE=1.2') is not counted. It is A's own signal, distinct from the MSC's Ca,Cb ('a', RUWE 37.8), which is this tab's HD 207496 Bb (the MSC's C is this tab's B; see planet_hosts.py, 2 Oct 2026). A's anomaly: HGCA EDR3 (Brandt 2021) Gaia minus Hipparcos-Gaia = (-0.343, 0.311) mas/yr = 52 m/s at PA 312.2 deg. Kervella et al. 2022: (-0.323, 0.375) = 55 +/- 5 m/s at PA 319 +/- 3.5 deg. B (Gaia DR3 6356417496318028928) lies at PA 310.5 deg, 7.598 arcsec = 179.6 AU projected. B's pull, G (M_B + M_Bb) / s^2 with 0.531 + 0.199 M-sun (this tab; Bb's lower bound), over the 12.4 yr half-baseline allows up to 52 m/s, or 84 m/s at Bb's upper bound 0.645. That matches in direction and size, so no unseen Ab is needed. The planet HD 207496 b (6.1 M-earth, 0.063 AU) moves A by ~1e-4 mas, nothing. Barros et al. 2023 (A&A, arXiv:2303.03775): SOAR speckle finds no companion within 3 arcsec (8.7 mag deeper at 1 arcsec), Gemini/Zorro none from 0.02 to 1.2 arcsec (5-8 mag); their season-to-season HARPS RV trend follows the activity indices. The MSC notes say Hipparcos's HDS 3117 AB at 2.1 arcsec 'is not conf. by Gaia, must be same as AC (wrong HIP reduction)'.",
+  "flags": [
+   "HD 207496 Aa,Ab NOT added, against data/star_counts/README.md, whose False-alarms line says 'HD 207496 gains one hollow Ab'. The MSC's Aa,Ab is a third signal: A's own proper-motion anomaly. It is not Bb (= the MSC's Ca,Cb, B's Gaia orbit) and not the transiting planet b, which is far too light to move A. But it is fully explained by B: HGCA direction 312.2 deg against B's position angle 310.5 deg, and size 52 m/s against the 52 m/s maximum B + Bb allows at their lower-bound mass. Speckle imaging (SOAR, Gemini) finds nothing near A. If the owner still wants the hollow Ab under the '?' rule, the typical-companion rule gives 0.24 M-sun at 3 AU. But A's PMa leaves no room for a 0.24 M-sun star at 3 AU on top of B's pull, and Gemini's 5-8 mag contrast from 0.92 AU outward would likely have seen it. The README line should be updated either way.",
+   "Kervella et al. 2022's entry for HIP 108162 carries a bad V (13.6) and so M1 = 0.15 M-sun ('Pow'). Its companion-mass columns for this star are unusable; only the PMa vector was used."
+  ],
+  "sources_checked": [
+   "MSC (Tokovinin 2018, ApJS 235, 6; VizieR J/ApJS/235/6 systems.dat and notes.dat): WDS 21549-7720 A,C 'Cmpr' (SKF 106), Aa,Ab 'a?', Ca,Cb 'a' (RUWE 37.8); notes (HIP 3117 AB spurious; SOAR: AC only)",
+   "data/four_plus_stars/planet_hosts.py (2 Oct 2026): CD-77 1092 Ab dropped, HD 207496 Bb added from B's Gaia DR3 orbit",
+   "Brandt 2021, ApJS 254, 42 (HGCA EDR3, VizieR J/ApJS/254/42/catalog): HIP 108162, chi2 116",
+   "Kervella et al. 2022, A&A 657, A7 (VizieR J/A+A/657/A7/tablea1), Hipparcos-EDR3 PMa: HIP 108162 (M1 entry flawed; PMa used)",
+   "Gaia DR3 gaia_source (VizieR I/355/gaiadr3), queried 2026-10-06: A 6356417496318028800 (RUWE 1.156, NSS 0), B 6356417496318028928 (RUWE 37.8, NSS 1)",
+   "Barros et al. 2023, A&A 673, A4 (arXiv:2303.03775): Sect. 2.3 (HARPS trend = activity), 2.4 (SOAR, Gemini/Zorro speckle)",
+   "WDS (VizieR B/wds/wds): HDS 3117 AB (X-flagged), SKF 106 AC",
+   "Snapshot hy-brasil-20261006-1120: Planets (HD 207496 b), Multi-stars (HD 207496, B, Bb), Unconfirmed/Rejected/Exomoons/Planetless: nothing else"
+  ]
+ }
+]

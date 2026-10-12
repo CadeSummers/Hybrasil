@@ -1,0 +1,1805 @@
+{
+ "batch": "K005",
+ "objects": [
+  {
+   "key": "16 Cyg C|2135550755684554112",
+   "name": "16 Cyg C",
+   "gaia_dr3": "2135550755684554112",
+   "ra_deg_j2016": 295.452268,
+   "dec_deg_j2016": 50.523559,
+   "distance_ly": 68.95,
+   "G_mag": 13.847012,
+   "pmra_known": -152.7180255651346,
+   "pmdec_known": -137.8178592025198,
+   "simbad_main_id": "*  16 Cyg C",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10864|3453537263745550848",
+   "name": "GJ 10864",
+   "gaia_dr3": "3453537263745550848",
+   "ra_deg_j2016": 90.7674,
+   "dec_deg_j2016": 36.107146,
+   "distance_ly": 70.47,
+   "G_mag": 13.85137,
+   "pmra_known": 38.941009458552784,
+   "pmdec_known": -118.2868311442451,
+   "simbad_main_id": "UPM J0603+3606",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10152|405118190290397568",
+   "name": "GJ 10152",
+   "gaia_dr3": "405118190290397568",
+   "ra_deg_j2016": 14.902777,
+   "dec_deg_j2016": 52.622458,
+   "distance_ly": 60.65,
+   "G_mag": 13.853708,
+   "pmra_known": -112.20838807035926,
+   "pmdec_known": 336.06651841680286,
+   "simbad_main_id": "2MASS J00593695+5237143",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6860939298763857920|6860939298763857920",
+   "name": "Gaia DR3 6860939298763857920",
+   "gaia_dr3": "6860939298763857920",
+   "ra_deg_j2016": 307.167763,
+   "dec_deg_j2016": -17.843139,
+   "distance_ly": 98.77,
+   "G_mag": 13.856377,
+   "pmra_known": -18.05773277141558,
+   "pmdec_known": -21.70877221250305,
+   "simbad_main_id": "UPM J2028-1750",
+   "simbad_otype": "*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 1704061298692674816|1704061298692674816",
+   "name": "Gaia DR3 1704061298692674816",
+   "gaia_dr3": "1704061298692674816",
+   "ra_deg_j2016": 244.585711,
+   "dec_deg_j2016": 75.720095,
+   "distance_ly": 96.87,
+   "G_mag": 13.858066,
+   "pmra_known": -83.33655512574997,
+   "pmdec_known": 254.39704068832899,
+   "simbad_main_id": "LP   23-71",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.0V",
+   "simbad_rv_rejected": "-9.7 km/s, quality D, type v, ref 2015ApJ...812....3W",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12946|6366571314402539008",
+   "name": "GJ 12946",
+   "gaia_dr3": "6366571314402539008",
+   "ra_deg_j2016": 304.051333,
+   "dec_deg_j2016": -75.51776,
+   "distance_ly": 49.24,
+   "G_mag": 13.867133,
+   "pmra_known": 251.73781585519427,
+   "pmdec_known": 37.78556032868542,
+   "simbad_main_id": "SCR J2016-7531",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 452244667407804800|452244667407804800",
+   "name": "Gaia DR3 452244667407804800",
+   "gaia_dr3": "452244667407804800",
+   "ra_deg_j2016": 39.082813,
+   "dec_deg_j2016": 52.736042,
+   "distance_ly": 94.07,
+   "G_mag": 13.870577,
+   "pmra_known": 175.7998863039011,
+   "pmdec_known": -165.8515369183188,
+   "simbad_main_id": "EGGR 314",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA2.8",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13327|2815747234607015936",
+   "name": "GJ 13327",
+   "gaia_dr3": "2815747234607015936",
+   "ra_deg_j2016": 347.577315,
+   "dec_deg_j2016": 14.788655,
+   "distance_ly": 79.73,
+   "G_mag": 13.871825,
+   "pmra_known": -30.00446726754684,
+   "pmdec_known": -65.54568364323944,
+   "simbad_main_id": "2MASS J23101857+1447203",
+   "simbad_otype": "TT*",
+   "simbad_sp_type": "M4",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4262772706505788032|4262772706505788032",
+   "name": "Gaia DR3 4262772706505788032",
+   "gaia_dr3": "4262772706505788032",
+   "ra_deg_j2016": 289.835066,
+   "dec_deg_j2016": -1.563706,
+   "distance_ly": 89.79,
+   "G_mag": 13.874174,
+   "pmra_known": 169.54902269863206,
+   "pmdec_known": 300.15052961973606,
+   "simbad_main_id": "2MASS J19192022-0133543",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11218 B|5315595737654226560",
+   "name": "GJ 11218 B",
+   "gaia_dr3": "5315595737654226560",
+   "ra_deg_j2016": 125.696407,
+   "dec_deg_j2016": -57.443924,
+   "distance_ly": 42.12,
+   "G_mag": 13.879499,
+   "pmra_known": -370.7701241208464,
+   "pmdec_known": 437.16401221663114,
+   "simbad_main_id": "L  186-66",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4494145377859774208|4494145377859774208",
+   "name": "Gaia DR3 4494145377859774208",
+   "gaia_dr3": "4494145377859774208",
+   "ra_deg_j2016": 264.515705,
+   "dec_deg_j2016": 12.889669,
+   "distance_ly": 83.19,
+   "G_mag": 13.883533,
+   "pmra_known": 29.962402496919196,
+   "pmdec_known": 99.89176736540168,
+   "simbad_main_id": "UCAC4 515-067250",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12245|1209432042883668480",
+   "name": "GJ 12245",
+   "gaia_dr3": "1209432042883668480",
+   "ra_deg_j2016": 233.71073,
+   "dec_deg_j2016": 18.001963,
+   "distance_ly": 55.75,
+   "G_mag": 13.886274,
+   "pmra_known": -205.69869299708853,
+   "pmdec_known": -336.31207743516086,
+   "simbad_main_id": "LP  443-17",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5V",
+   "simbad_rv_rejected": "-22.66 km/s, quality D, type v, ref 2019MNRAS.485.2167G",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 5597287489961172096|5597287489961172096",
+   "name": "Gaia DR3 5597287489961172096",
+   "gaia_dr3": "5597287489961172096",
+   "ra_deg_j2016": 119.633178,
+   "dec_deg_j2016": -29.56985,
+   "distance_ly": 87.66,
+   "G_mag": 13.88769,
+   "pmra_known": 49.00662269814089,
+   "pmdec_known": 75.14868184516841,
+   "simbad_main_id": "UPM J0758-2934",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12762 C|6716791228414302080",
+   "name": "GJ 12762 C",
+   "gaia_dr3": "6716791228414302080",
+   "ra_deg_j2016": 284.246976,
+   "dec_deg_j2016": -40.1958,
+   "distance_ly": 77.19,
+   "G_mag": 13.889923,
+   "pmra_known": 32.77933611289574,
+   "pmdec_known": -199.90119585429164,
+   "simbad_main_id": "SCR J1856-4011",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 883006556929519872|883006556929519872",
+   "name": "Gaia DR3 883006556929519872",
+   "gaia_dr3": "883006556929519872",
+   "ra_deg_j2016": 105.988986,
+   "dec_deg_j2016": 25.571512,
+   "distance_ly": 83.52,
+   "G_mag": 13.891518,
+   "pmra_known": -58.43420227875593,
+   "pmdec_known": -55.62249093591573,
+   "simbad_main_id": "UCAC4 578-037125",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DB4.1",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 9178383766474496|9178383766474496",
+   "name": "Gaia DR3 9178383766474496",
+   "gaia_dr3": "9178383766474496",
+   "ra_deg_j2016": 51.425154,
+   "dec_deg_j2016": 5.863377,
+   "distance_ly": 82.0,
+   "G_mag": 13.900986,
+   "pmra_known": -181.75804485801916,
+   "pmdec_known": -166.17303245029117,
+   "simbad_main_id": "LP  532-81 C",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11634|3546047977378251008",
+   "name": "GJ 11634",
+   "gaia_dr3": "3546047977378251008",
+   "ra_deg_j2016": 171.369642,
+   "dec_deg_j2016": -19.03215,
+   "distance_ly": 70.41,
+   "G_mag": 13.901712,
+   "pmra_known": 142.2030991734881,
+   "pmdec_known": -162.6166870925658,
+   "simbad_main_id": "LP  792-59",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12687 B|2145277550935526784",
+   "name": "GJ 12687 B",
+   "gaia_dr3": "2145277550935526784",
+   "ra_deg_j2016": 278.489242,
+   "dec_deg_j2016": 51.720927,
+   "distance_ly": 53.83,
+   "G_mag": 13.906976,
+   "pmra_known": 199.63410701361036,
+   "pmdec_known": -339.3498393143847,
+   "simbad_main_id": "V* BY Dra C",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 3417486515149124608|3417486515149124608",
+   "name": "Gaia DR3 3417486515149124608",
+   "gaia_dr3": "3417486515149124608",
+   "ra_deg_j2016": 79.094793,
+   "dec_deg_j2016": 24.756007,
+   "distance_ly": 93.0,
+   "G_mag": 13.911232,
+   "pmra_known": 31.42845745265277,
+   "pmdec_known": -104.5989987021952,
+   "simbad_main_id": "UPM J0516+2445",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 2092|5860131207828395648",
+   "name": "GJ 2092",
+   "gaia_dr3": "5860131207828395648",
+   "ra_deg_j2016": 186.674722,
+   "dec_deg_j2016": -66.205943,
+   "distance_ly": 50.19,
+   "G_mag": 13.9216,
+   "pmra_known": -33.76604767318161,
+   "pmdec_known": -182.88245979928865,
+   "simbad_main_id": "WG  21",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA6.6",
+   "simbad_rv_rejected": "55.0 km/s, quality D, type v, ref 1974MNRAS.166..271W",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10321|72117556076986368",
+   "name": "GJ 10321",
+   "gaia_dr3": "72117556076986368",
+   "ra_deg_j2016": 33.986507,
+   "dec_deg_j2016": 10.254962,
+   "distance_ly": 59.28,
+   "G_mag": 13.927216,
+   "pmra_known": 617.7929525609056,
+   "pmdec_known": 25.045622628052023,
+   "simbad_main_id": "LP  469-205",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11319|5736025550767699968",
+   "name": "GJ 11319",
+   "gaia_dr3": "5736025550767699968",
+   "ra_deg_j2016": 136.167866,
+   "dec_deg_j2016": -12.32308,
+   "distance_ly": 59.57,
+   "G_mag": 13.940733,
+   "pmra_known": 90.488238147196,
+   "pmdec_known": -681.1043080477433,
+   "simbad_main_id": "LP  726-37",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 3118 B|518201792978858880",
+   "name": "GJ 3118 B",
+   "gaia_dr3": "518201792978858880",
+   "ra_deg_j2016": 27.965393,
+   "dec_deg_j2016": 64.430367,
+   "distance_ly": 56.43,
+   "G_mag": 13.947424,
+   "pmra_known": 224.80621163547042,
+   "pmdec_known": -201.57519884228523,
+   "simbad_main_id": "EGGR 268",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA5.6",
+   "simbad_rv_rejected": "14.3 km/s, quality D, type v, ref 2002AJ....124.1118S",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11088|5611909104822545152",
+   "name": "GJ 11088",
+   "gaia_dr3": "5611909104822545152",
+   "ra_deg_j2016": 112.507726,
+   "dec_deg_j2016": -28.517138,
+   "distance_ly": 58.88,
+   "G_mag": 13.948304,
+   "pmra_known": -152.7186388249026,
+   "pmdec_known": 90.83758928617458,
+   "simbad_main_id": "UPM J0730-2831",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12566|4055579464064558592",
+   "name": "GJ 12566",
+   "gaia_dr3": "4055579464064558592",
+   "ra_deg_j2016": 266.670492,
+   "dec_deg_j2016": -32.234126,
+   "distance_ly": 39.31,
+   "G_mag": 13.950101,
+   "pmra_known": 205.6940091571753,
+   "pmdec_known": 103.09221043780991,
+   "simbad_main_id": "SCR J1746-3214",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 283 B|5717278911884264576",
+   "name": "GJ 283 B",
+   "gaia_dr3": "5717278911884264576",
+   "ra_deg_j2016": 115.086083,
+   "dec_deg_j2016": -17.415138,
+   "distance_ly": 29.85,
+   "G_mag": 13.95689,
+   "pmra_known": 1152.243039954044,
+   "pmdec_known": -536.4117210908856,
+   "simbad_main_id": "LP  783-2",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M6.5Ve",
+   "simbad_rv_rejected": "-34.329 km/s, quality D, type v, ref 2018A&A...612A..49R",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13402|2872988394066393344",
+   "name": "GJ 13402",
+   "gaia_dr3": "2872988394066393344",
+   "ra_deg_j2016": 355.095487,
+   "dec_deg_j2016": 34.554377,
+   "distance_ly": 60.53,
+   "G_mag": 13.969325,
+   "pmra_known": 535.055656397677,
+   "pmdec_known": 90.16504475194779,
+   "simbad_main_id": "LP  290-52",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6262737765606571136|6262737765606571136",
+   "name": "Gaia DR3 6262737765606571136",
+   "gaia_dr3": "6262737765606571136",
+   "ra_deg_j2016": 239.254299,
+   "dec_deg_j2016": -15.021251,
+   "distance_ly": 93.52,
+   "G_mag": 13.973319,
+   "pmra_known": 31.536085139833677,
+   "pmdec_known": -59.377435347945955,
+   "simbad_main_id": "UCAC4 375-074521",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12120 B|6337717243069148032",
+   "name": "GJ 12120 B",
+   "gaia_dr3": "6337717243069148032",
+   "ra_deg_j2016": 220.755033,
+   "dec_deg_j2016": -5.654254,
+   "distance_ly": 60.89,
+   "G_mag": 13.978836,
+   "pmra_known": 97.45006661555149,
+   "pmdec_known": -316.7898816301465,
+   "simbad_main_id": "* mu. Vir B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13417|2432708307254343808",
+   "name": "GJ 13417",
+   "gaia_dr3": "2432708307254343808",
+   "ra_deg_j2016": 356.581094,
+   "dec_deg_j2016": -11.945937,
+   "distance_ly": 75.46,
+   "G_mag": 13.978897,
+   "pmra_known": 221.83203311764882,
+   "pmdec_known": -130.24331621936113,
+   "simbad_main_id": "G 273-133",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10637|3410478399832994688",
+   "name": "GJ 10637",
+   "gaia_dr3": "3410478399832994688",
+   "ra_deg_j2016": 68.656721,
+   "dec_deg_j2016": 19.101111,
+   "distance_ly": 55.33,
+   "G_mag": 13.990742,
+   "pmra_known": -194.43486085763413,
+   "pmdec_known": -64.23028636473681,
+   "simbad_main_id": "LP  415-217",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 455634736638558592|455634736638558592",
+   "name": "Gaia DR3 455634736638558592",
+   "gaia_dr3": "455634736638558592",
+   "ra_deg_j2016": 36.822118,
+   "dec_deg_j2016": 54.54614,
+   "distance_ly": 89.22,
+   "G_mag": 13.996102,
+   "pmra_known": 105.9155760636874,
+   "pmdec_known": -108.32120518143107,
+   "simbad_main_id": "LSPM J0227+5432",
+   "simbad_otype": "**",
+   "simbad_sp_type": "dM5.0",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 1015 B|418491412783587200",
+   "name": "GJ 1015 B",
+   "gaia_dr3": "418491412783587200",
+   "ra_deg_j2016": 10.344344,
+   "dec_deg_j2016": 55.835342,
+   "distance_ly": 74.7,
+   "G_mag": 13.998035,
+   "pmra_known": 316.4948482298401,
+   "pmdec_known": -70.08824803567146,
+   "simbad_main_id": "EGGR 245",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DBQ5",
+   "simbad_rv_rejected": "20.5 km/s, quality D, type v, ref 2002AJ....124.1118S",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 1632110322923341184|1632110322923341184",
+   "name": "Gaia DR3 1632110322923341184",
+   "gaia_dr3": "1632110322923341184",
+   "ra_deg_j2016": 256.866372,
+   "dec_deg_j2016": 64.62551,
+   "distance_ly": 89.67,
+   "G_mag": 14.000023,
+   "pmra_known": -125.5512930188584,
+   "pmdec_known": 216.12970389390154,
+   "simbad_main_id": "G 240-45A",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6188086801590656256|6188086801590656256",
+   "name": "Gaia DR3 6188086801590656256",
+   "gaia_dr3": "6188086801590656256",
+   "ra_deg_j2016": 203.231275,
+   "dec_deg_j2016": -29.272348,
+   "distance_ly": 84.09,
+   "G_mag": 14.00353,
+   "pmra_known": -232.4402610412119,
+   "pmdec_known": -31.567389166719746,
+   "simbad_main_id": "LP  911-26",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12958 A|2246676707976104960",
+   "name": "GJ 12958 A",
+   "gaia_dr3": "2246676707976104960",
+   "ra_deg_j2016": 305.827368,
+   "dec_deg_j2016": 67.170244,
+   "distance_ly": 71.64,
+   "G_mag": 14.018291,
+   "pmra_known": 219.95482139735148,
+   "pmdec_known": 170.4745815241825,
+   "simbad_main_id": "LP   73-196 A",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13357 C|2282790893241302144",
+   "name": "GJ 13357 C",
+   "gaia_dr3": "2282790893241302144",
+   "ra_deg_j2016": 350.729023,
+   "dec_deg_j2016": 78.794336,
+   "distance_ly": 61.73,
+   "G_mag": 14.020458,
+   "pmra_known": 207.4464792811381,
+   "pmdec_known": 65.1654454269971,
+   "simbad_main_id": "LP   12-90",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5V",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11862|3627381669982295168",
+   "name": "GJ 11862",
+   "gaia_dr3": "3627381669982295168",
+   "ra_deg_j2016": 193.451641,
+   "dec_deg_j2016": -8.705223,
+   "distance_ly": 69.32,
+   "G_mag": 14.021221,
+   "pmra_known": -267.58890839911516,
+   "pmdec_known": -166.20869445433533,
+   "simbad_main_id": "LP  676-30",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 291057843317534464|291057843317534464",
+   "name": "Gaia DR3 291057843317534464",
+   "gaia_dr3": "291057843317534464",
+   "ra_deg_j2016": 26.978382,
+   "dec_deg_j2016": 23.661678,
+   "distance_ly": 95.98,
+   "G_mag": 14.0291395,
+   "pmra_known": -5.404344482639473,
+   "pmdec_known": -97.45500037367545,
+   "simbad_main_id": "GALEX J014754.8+233942",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA3.9",
+   "simbad_rv_rejected": "52.0 km/s, quality D, type v, ref 2008AJ....135..564B",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12412|6032685745182407040",
+   "name": "GJ 12412",
+   "gaia_dr3": "6032685745182407040",
+   "ra_deg_j2016": 253.145869,
+   "dec_deg_j2016": -29.006856,
+   "distance_ly": 63.9,
+   "G_mag": 14.030096,
+   "pmra_known": -109.79793530915205,
+   "pmdec_known": -349.3077608005638,
+   "simbad_main_id": "UCAC4 305-101275",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 5492357178302095872|5492357178302095872",
+   "name": "Gaia DR3 5492357178302095872",
+   "gaia_dr3": "5492357178302095872",
+   "ra_deg_j2016": 113.619408,
+   "dec_deg_j2016": -52.965554,
+   "distance_ly": 93.3,
+   "G_mag": 14.034543,
+   "pmra_known": -51.06685311752785,
+   "pmdec_known": 285.04620476485525,
+   "simbad_main_id": "2MASS J07342870-5258006",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10699|4873878176823736192",
+   "name": "GJ 10699",
+   "gaia_dr3": "4873878176823736192",
+   "ra_deg_j2016": 73.829294,
+   "dec_deg_j2016": -32.206117,
+   "distance_ly": 71.16,
+   "G_mag": 14.044097,
+   "pmra_known": 15.003798154606425,
+   "pmdec_known": 84.25395356067949,
+   "simbad_main_id": "UPM J0455-3212",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 1477745350013891200|1477745350013891200",
+   "name": "Gaia DR3 1477745350013891200",
+   "gaia_dr3": "1477745350013891200",
+   "ra_deg_j2016": 215.150897,
+   "dec_deg_j2016": 31.500947,
+   "distance_ly": 92.4,
+   "G_mag": 14.047832,
+   "pmra_known": -212.09104900147202,
+   "pmdec_known": -62.39832105039781,
+   "simbad_main_id": "LP  325-24",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10921|968319107238317696",
+   "name": "GJ 10921",
+   "gaia_dr3": "968319107238317696",
+   "ra_deg_j2016": 95.963338,
+   "dec_deg_j2016": 45.666663,
+   "distance_ly": 66.63,
+   "G_mag": 14.050097,
+   "pmra_known": -30.043643447533476,
+   "pmdec_known": -281.33415758172214,
+   "simbad_main_id": "LP  160-22",
+   "simbad_otype": "LM*",
+   "simbad_sp_type": "M5.0V",
+   "simbad_rv_rejected": "39.0 km/s, quality D, type v, ref 2014AJ....147...20N",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 2404787205899508608|2404787205899508608",
+   "name": "Gaia DR3 2404787205899508608",
+   "gaia_dr3": "2404787205899508608",
+   "ra_deg_j2016": 343.023412,
+   "dec_deg_j2016": -15.54755,
+   "distance_ly": 86.64,
+   "G_mag": 14.051223,
+   "pmra_known": 331.4121901896124,
+   "pmdec_known": 14.470452572765895,
+   "simbad_main_id": "LP  821-27",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.0",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 2405805697263561600|2405805697263561600",
+   "name": "Gaia DR3 2405805697263561600",
+   "gaia_dr3": "2405805697263561600",
+   "ra_deg_j2016": 349.898576,
+   "dec_deg_j2016": -17.091195,
+   "distance_ly": 83.32,
+   "G_mag": 14.059093,
+   "pmra_known": 242.0735822977296,
+   "pmdec_known": 10.229498390369907,
+   "simbad_main_id": "EGGR 264",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DB3",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6740493675455190784|6740493675455190784",
+   "name": "Gaia DR3 6740493675455190784",
+   "gaia_dr3": "6740493675455190784",
+   "ra_deg_j2016": 296.228313,
+   "dec_deg_j2016": -36.053641,
+   "distance_ly": 96.58,
+   "G_mag": 14.065352,
+   "pmra_known": 68.6743822730286,
+   "pmdec_known": -136.78727418707143,
+   "simbad_main_id": "UCAC4 270-189183",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6222517561538662016|6222517561538662016",
+   "name": "Gaia DR3 6222517561538662016",
+   "gaia_dr3": "6222517561538662016",
+   "ra_deg_j2016": 221.061116,
+   "dec_deg_j2016": -27.290665,
+   "distance_ly": 98.8,
+   "G_mag": 14.068303,
+   "pmra_known": -267.3766684380016,
+   "pmdec_known": -49.35327679771229,
+   "simbad_main_id": "LP  858-20",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4205347756836462336|4205347756836462336",
+   "name": "Gaia DR3 4205347756836462336",
+   "gaia_dr3": "4205347756836462336",
+   "ra_deg_j2016": 285.384347,
+   "dec_deg_j2016": -7.623868,
+   "distance_ly": 82.33,
+   "G_mag": 14.070122,
+   "pmra_known": -133.52527080614917,
+   "pmdec_known": -101.57199459651837,
+   "simbad_main_id": "SCR J1901-0737",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12343|6052153251338962688",
+   "name": "GJ 12343",
+   "gaia_dr3": "6052153251338962688",
+   "ra_deg_j2016": 245.839742,
+   "dec_deg_j2016": -21.779482,
+   "distance_ly": 68.96,
+   "G_mag": 14.075639,
+   "pmra_known": -149.62496217202442,
+   "pmdec_known": -146.13004542824268,
+   "simbad_main_id": "LP  862-119",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4613612951211823616|4613612951211823616",
+   "name": "Gaia DR3 4613612951211823616",
+   "gaia_dr3": "4613612951211823616",
+   "ra_deg_j2016": 49.326169,
+   "dec_deg_j2016": -85.542124,
+   "distance_ly": 95.87,
+   "G_mag": 14.07864,
+   "pmra_known": -61.77217653453826,
+   "pmdec_known": -22.365775217653162,
+   "simbad_main_id": "LB  9802",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 6255777749623059584|6255777749623059584",
+   "name": "Gaia DR3 6255777749623059584",
+   "gaia_dr3": "6255777749623059584",
+   "ra_deg_j2016": 228.494195,
+   "dec_deg_j2016": -20.246013,
+   "distance_ly": 89.94,
+   "G_mag": 14.095477,
+   "pmra_known": -99.53570739895355,
+   "pmdec_known": 18.178089164086334,
+   "simbad_main_id": "UCAC4 349-072615",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11031|5479255432103480320",
+   "name": "GJ 11031",
+   "gaia_dr3": "5479255432103480320",
+   "ra_deg_j2016": 105.71449,
+   "dec_deg_j2016": -61.043877,
+   "distance_ly": 57.2,
+   "G_mag": 14.105196,
+   "pmra_known": 520.1329387087379,
+   "pmdec_known": 597.1736620931058,
+   "simbad_main_id": "SCR J0702-6102",
+   "simbad_otype": "Em*",
+   "simbad_sp_type": "M6.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11252|5645692939616481024",
+   "name": "GJ 11252",
+   "gaia_dr3": "5645692939616481024",
+   "ra_deg_j2016": 129.335853,
+   "dec_deg_j2016": -28.333488,
+   "distance_ly": 74.7,
+   "G_mag": 14.111042,
+   "pmra_known": 131.811732213921,
+   "pmdec_known": -200.91507058751725,
+   "simbad_main_id": "SCR J0837-2819",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 3318883274442195840|3318883274442195840",
+   "name": "Gaia DR3 3318883274442195840",
+   "gaia_dr3": "3318883274442195840",
+   "ra_deg_j2016": 92.399868,
+   "dec_deg_j2016": 5.668524,
+   "distance_ly": 99.64,
+   "G_mag": 14.1267,
+   "pmra_known": 53.180201581691534,
+   "pmdec_known": 24.838873224076636,
+   "simbad_main_id": "HD  42182B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12361 B|6018950542798498304",
+   "name": "GJ 12361 B",
+   "gaia_dr3": "6018950542798498304",
+   "ra_deg_j2016": 247.610736,
+   "dec_deg_j2016": -36.566469,
+   "distance_ly": 54.67,
+   "G_mag": 14.135478,
+   "pmra_known": -423.10950482866406,
+   "pmdec_known": -167.69554978670817,
+   "simbad_main_id": "SCR J1630-3633B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10690|3181367767472670080",
+   "name": "GJ 10690",
+   "gaia_dr3": "3181367767472670080",
+   "ra_deg_j2016": 73.014966,
+   "dec_deg_j2016": -10.973691,
+   "distance_ly": 55.18,
+   "G_mag": 14.140559,
+   "pmra_known": -391.3763078885974,
+   "pmdec_known": -218.22374444745427,
+   "simbad_main_id": "LP  716-10",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11160|5193725009832516608",
+   "name": "GJ 11160",
+   "gaia_dr3": "5193725009832516608",
+   "ra_deg_j2016": 120.736584,
+   "dec_deg_j2016": -83.501522,
+   "distance_ly": 76.01,
+   "G_mag": 14.144569,
+   "pmra_known": -107.70102481996486,
+   "pmdec_known": 118.56078858000636,
+   "simbad_main_id": "2MASS J08025781-8330076",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4731400745677146240|4731400745677146240",
+   "name": "Gaia DR3 4731400745677146240",
+   "gaia_dr3": "4731400745677146240",
+   "ra_deg_j2016": 55.484526,
+   "dec_deg_j2016": -55.706848,
+   "distance_ly": 90.04,
+   "G_mag": 14.144571,
+   "pmra_known": 236.4325990661393,
+   "pmdec_known": 260.7348122491509,
+   "simbad_main_id": "Gaia DR3 4731400745677146240",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10097|4906743988126708992",
+   "name": "GJ 10097",
+   "gaia_dr3": "4906743988126708992",
+   "ra_deg_j2016": 9.095197,
+   "dec_deg_j2016": -59.923769,
+   "distance_ly": 74.77,
+   "G_mag": 14.149183,
+   "pmra_known": 250.84173413803836,
+   "pmdec_known": 123.68117521338566,
+   "simbad_main_id": "L  122-4",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA3.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12313|5983356259047553792",
+   "name": "GJ 12313",
+   "gaia_dr3": "5983356259047553792",
+   "ra_deg_j2016": 241.289898,
+   "dec_deg_j2016": -49.799674,
+   "distance_ly": 52.65,
+   "G_mag": 14.1516695,
+   "pmra_known": 121.7214443593449,
+   "pmdec_known": -213.16399808213674,
+   "simbad_main_id": "UPM J1605-4947",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10306|325533923760046848",
+   "name": "GJ 10306",
+   "gaia_dr3": "325533923760046848",
+   "ra_deg_j2016": 33.001805,
+   "dec_deg_j2016": 32.361954,
+   "distance_ly": 67.21,
+   "G_mag": 14.154061,
+   "pmra_known": 526.5661942323065,
+   "pmdec_known": -225.80248171193824,
+   "simbad_main_id": "LP  297-12",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 3130059366600230912|3130059366600230912",
+   "name": "Gaia DR3 3130059366600230912",
+   "gaia_dr3": "3130059366600230912",
+   "ra_deg_j2016": 98.534592,
+   "dec_deg_j2016": 2.961071,
+   "distance_ly": 86.63,
+   "G_mag": 14.163011,
+   "pmra_known": -77.61511017545911,
+   "pmdec_known": 12.680134674781534,
+   "simbad_main_id": "** KPP 3681A",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 2139 A|4107012041007171456",
+   "name": "GJ 2139 A",
+   "gaia_dr3": "4107012041007171456",
+   "ra_deg_j2016": 280.739562,
+   "dec_deg_j2016": -11.149222,
+   "distance_ly": 78.78,
+   "G_mag": 14.175518,
+   "pmra_known": -232.79511105347038,
+   "pmdec_known": -251.10953285997337,
+   "simbad_main_id": "EGGR 200",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA4.9",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10557 B|495091536028866560",
+   "name": "GJ 10557 B",
+   "gaia_dr3": "495091536028866560",
+   "ra_deg_j2016": 61.488389,
+   "dec_deg_j2016": 71.275653,
+   "distance_ly": 59.71,
+   "G_mag": 14.19877,
+   "pmra_known": 172.9517465124842,
+   "pmdec_known": -370.3666798670024,
+   "simbad_main_id": "LP   31-302 A",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12923|1836687483624035840",
+   "name": "GJ 12923",
+   "gaia_dr3": "1836687483624035840",
+   "ra_deg_j2016": 301.998569,
+   "dec_deg_j2016": 27.383541,
+   "distance_ly": 78.41,
+   "G_mag": 14.199698,
+   "pmra_known": -97.17523631334706,
+   "pmdec_known": 0.07280013891424827,
+   "simbad_main_id": "UPM J2007+2723",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 63054590968017408|63054590968017408",
+   "name": "Gaia DR3 63054590968017408",
+   "gaia_dr3": "63054590968017408",
+   "ra_deg_j2016": 56.300254,
+   "dec_deg_j2016": 19.6734,
+   "distance_ly": 92.14,
+   "G_mag": 14.2054205,
+   "pmra_known": 200.75604963404288,
+   "pmdec_known": -115.37481836543155,
+   "simbad_main_id": "Wolf  222",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12459 A|1341903196663707904",
+   "name": "GJ 12459 A",
+   "gaia_dr3": "1341903196663707904",
+   "ra_deg_j2016": 257.943494,
+   "dec_deg_j2016": 40.484123,
+   "distance_ly": 69.18,
+   "G_mag": 14.206392,
+   "pmra_known": 252.4921681028703,
+   "pmdec_known": 82.02509852779642,
+   "simbad_main_id": "G 203-50",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 699.1|1711005951573009792",
+   "name": "GJ 699.1",
+   "gaia_dr3": "1711005951573009792",
+   "ra_deg_j2016": 267.408177,
+   "dec_deg_j2016": 82.78864,
+   "distance_ly": 53.32,
+   "G_mag": 14.21691,
+   "pmra_known": -1436.9077614373487,
+   "pmdec_known": 3314.4372359376794,
+   "simbad_main_id": "EGGR 199",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA6.8",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11095|5613426740110194816",
+   "name": "GJ 11095",
+   "gaia_dr3": "5613426740110194816",
+   "ra_deg_j2016": 113.115884,
+   "dec_deg_j2016": -25.717614,
+   "distance_ly": 80.63,
+   "G_mag": 14.223987,
+   "pmra_known": -140.28747676958014,
+   "pmdec_known": 60.44850756321613,
+   "simbad_main_id": "UCAC4 322-026229",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 3458946556009961216|3458946556009961216",
+   "name": "Gaia DR3 3458946556009961216",
+   "gaia_dr3": "3458946556009961216",
+   "ra_deg_j2016": 180.961737,
+   "dec_deg_j2016": -40.394445,
+   "distance_ly": 94.17,
+   "G_mag": 14.224559,
+   "pmra_known": -325.66450958836225,
+   "pmdec_known": 99.87962643042857,
+   "simbad_main_id": "SIPS J1203-4023B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 2641324936224547584|2641324936224547584",
+   "name": "Gaia DR3 2641324936224547584",
+   "gaia_dr3": "2641324936224547584",
+   "ra_deg_j2016": 353.986352,
+   "dec_deg_j2016": -0.392156,
+   "distance_ly": 92.56,
+   "G_mag": 14.225066,
+   "pmra_known": 229.8815395743458,
+   "pmdec_known": 28.387651781224474,
+   "simbad_main_id": "LP  643-17",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11800|3526709869947149440",
+   "name": "GJ 11800",
+   "gaia_dr3": "3526709869947149440",
+   "ra_deg_j2016": 187.817709,
+   "dec_deg_j2016": -15.497658,
+   "distance_ly": 70.04,
+   "G_mag": 14.225317,
+   "pmra_known": 33.544497390037364,
+   "pmdec_known": -113.71388041349937,
+   "simbad_main_id": "UPM J1231-1529",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13060|2298750888633275136",
+   "name": "GJ 13060",
+   "gaia_dr3": "2298750888633275136",
+   "ra_deg_j2016": 317.674068,
+   "dec_deg_j2016": 82.7156,
+   "distance_ly": 78.69,
+   "G_mag": 14.229937,
+   "pmra_known": 194.76564098617166,
+   "pmdec_known": 436.05799510281173,
+   "simbad_main_id": "LP   10-515",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "dM5.0",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12378 C|5930568602785283072",
+   "name": "GJ 12378 C",
+   "gaia_dr3": "5930568602785283072",
+   "ra_deg_j2016": 248.951759,
+   "dec_deg_j2016": -53.751854,
+   "distance_ly": 74.97,
+   "G_mag": 14.234839,
+   "pmra_known": -137.76160367062823,
+   "pmdec_known": -245.55950969116262,
+   "simbad_main_id": "HD 149192C",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 1004|395234439752169344",
+   "name": "GJ 1004",
+   "gaia_dr3": "395234439752169344",
+   "ra_deg_j2016": 3.058219,
+   "dec_deg_j2016": 50.419975,
+   "distance_ly": 35.47,
+   "G_mag": 14.236328,
+   "pmra_known": -461.332056786813,
+   "pmdec_known": -551.6672959352079,
+   "simbad_main_id": "EGGR 381",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DA7.6",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4268571049773025024|4268571049773025024",
+   "name": "Gaia DR3 4268571049773025024",
+   "gaia_dr3": "4268571049773025024",
+   "ra_deg_j2016": 284.868405,
+   "dec_deg_j2016": 1.931608,
+   "distance_ly": 83.15,
+   "G_mag": 14.2365465,
+   "pmra_known": 406.2699022821812,
+   "pmdec_known": -540.380264623515,
+   "simbad_main_id": "LSPM J1859+0156",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5V",
+   "simbad_rv_rejected": "-90.0 km/s, quality D, type v, ref 2003AJ....125.1598L",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 9193|3022956969731332096",
+   "name": "GJ 9193",
+   "gaia_dr3": "3022956969731332096",
+   "ra_deg_j2016": 88.792096,
+   "dec_deg_j2016": -4.178927,
+   "distance_ly": 21.01,
+   "G_mag": 14.236672,
+   "pmra_known": 535.2485529794916,
+   "pmdec_known": -2317.0113402190777,
+   "simbad_main_id": "EGGR  45",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DZ11",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 1140|3763445409285757824",
+   "name": "GJ 1140",
+   "gaia_dr3": "3763445409285757824",
+   "ra_deg_j2016": 164.39273,
+   "dec_deg_j2016": -7.522699,
+   "distance_ly": 40.02,
+   "G_mag": 14.239208,
+   "pmra_known": -816.9845553873879,
+   "pmdec_known": 91.29802255442999,
+   "simbad_main_id": "LAWD 34",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DC",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 11521|5441169002153568512",
+   "name": "GJ 11521",
+   "gaia_dr3": "5441169002153568512",
+   "ra_deg_j2016": 159.883347,
+   "dec_deg_j2016": -38.337045,
+   "distance_ly": 55.24,
+   "G_mag": 14.246118,
+   "pmra_known": -280.5609538506751,
+   "pmdec_known": -677.9577876963028,
+   "simbad_main_id": "SIPS J1039-3819",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12456|4139531467491239680",
+   "name": "GJ 12456",
+   "gaia_dr3": "4139531467491239680",
+   "ra_deg_j2016": 257.862786,
+   "dec_deg_j2016": -14.799465,
+   "distance_ly": 73.98,
+   "G_mag": 14.253446,
+   "pmra_known": 278.0833214692413,
+   "pmdec_known": -273.5990449449616,
+   "simbad_main_id": "LAWD 66",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DQwk",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 2197890384931459072|2197890384931459072",
+   "name": "Gaia DR3 2197890384931459072",
+   "gaia_dr3": "2197890384931459072",
+   "ra_deg_j2016": 330.584073,
+   "dec_deg_j2016": 55.638407,
+   "distance_ly": 84.12,
+   "G_mag": 14.257345,
+   "pmra_known": 133.90132119209875,
+   "pmdec_known": 0.04873628793474947,
+   "simbad_main_id": "UPM J2202+5538",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12714 B|6735656923825448320",
+   "name": "GJ 12714 B",
+   "gaia_dr3": "6735656923825448320",
+   "ra_deg_j2016": 280.800774,
+   "dec_deg_j2016": -33.376997,
+   "distance_ly": 52.4,
+   "G_mag": 14.2670765,
+   "pmra_known": -147.35561766790875,
+   "pmdec_known": -368.39083000573055,
+   "simbad_main_id": "CD-33 13497B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13110|6577933973662574080",
+   "name": "GJ 13110",
+   "gaia_dr3": "6577933973662574080",
+   "ra_deg_j2016": 323.593803,
+   "dec_deg_j2016": -43.27315,
+   "distance_ly": 55.26,
+   "G_mag": 14.275262,
+   "pmra_known": 147.0431210877886,
+   "pmdec_known": -793.7512276182541,
+   "simbad_main_id": "WT 792",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5/5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 4385|1927517417630958208",
+   "name": "GJ 4385",
+   "gaia_dr3": "1927517417630958208",
+   "ra_deg_j2016": 359.962056,
+   "dec_deg_j2016": 47.761478,
+   "distance_ly": 62.59,
+   "G_mag": 14.278437,
+   "pmra_known": 872.3808801766329,
+   "pmdec_known": -199.4924693614086,
+   "simbad_main_id": "LP  149-14",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5V",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12987|6856237271645944320",
+   "name": "GJ 12987",
+   "gaia_dr3": "6856237271645944320",
+   "ra_deg_j2016": 309.691393,
+   "dec_deg_j2016": -21.112485,
+   "distance_ly": 73.88,
+   "G_mag": 14.28217,
+   "pmra_known": -207.2728894779951,
+   "pmdec_known": 60.511406797755164,
+   "simbad_main_id": "LP  871-38",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4.5Ve",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 469659522844460032|469659522844460032",
+   "name": "Gaia DR3 469659522844460032",
+   "gaia_dr3": "469659522844460032",
+   "ra_deg_j2016": 59.907484,
+   "dec_deg_j2016": 56.932678,
+   "distance_ly": 93.02,
+   "G_mag": 14.291033,
+   "pmra_known": -7.532165385304157,
+   "pmdec_known": 27.399279258482473,
+   "simbad_main_id": "UCAC4 735-033510",
+   "simbad_otype": "*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 2012|2349916559152267008",
+   "name": "GJ 2012",
+   "gaia_dr3": "2349916559152267008",
+   "ra_deg_j2016": 10.35622,
+   "dec_deg_j2016": -22.352334,
+   "distance_ly": 29.67,
+   "G_mag": 14.297183,
+   "pmra_known": -463.2060421074756,
+   "pmdec_known": -381.7838948908595,
+   "simbad_main_id": "EGGR 246",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DQ9",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10731|186593587162662528",
+   "name": "GJ 10731",
+   "gaia_dr3": "186593587162662528",
+   "ra_deg_j2016": 76.809855,
+   "dec_deg_j2016": 37.511691,
+   "distance_ly": 74.09,
+   "G_mag": 14.300468,
+   "pmra_known": -94.97518640283337,
+   "pmdec_known": 14.599847864543653,
+   "simbad_main_id": "RX J0507.2+3731B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 2523360429625103872|2523360429625103872",
+   "name": "Gaia DR3 2523360429625103872",
+   "gaia_dr3": "2523360429625103872",
+   "ra_deg_j2016": 10.225783,
+   "dec_deg_j2016": -7.23006,
+   "distance_ly": 85.61,
+   "G_mag": 14.306669,
+   "pmra_known": -12.663062492404375,
+   "pmdec_known": -69.83177001332236,
+   "simbad_main_id": "UPM J0040-0713B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12810|4319899070070496128",
+   "name": "GJ 12810",
+   "gaia_dr3": "4319899070070496128",
+   "ra_deg_j2016": 289.868394,
+   "dec_deg_j2016": 14.633587,
+   "distance_ly": 74.73,
+   "G_mag": 14.326206,
+   "pmra_known": 503.50607283787554,
+   "pmdec_known": -67.54990158225621,
+   "simbad_main_id": "LSPM J1919+1438",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.0V",
+   "simbad_rv_rejected": "-20.0 km/s, quality D, type v, ref 2003AJ....125.1598L",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4404653102818671104|4404653102818671104",
+   "name": "Gaia DR3 4404653102818671104",
+   "gaia_dr3": "4404653102818671104",
+   "ra_deg_j2016": 241.954243,
+   "dec_deg_j2016": -3.811087,
+   "distance_ly": 99.97,
+   "G_mag": 14.329103,
+   "pmra_known": -36.5958965378264,
+   "pmdec_known": 178.42976593888704,
+   "simbad_main_id": "LP  684-25",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 3346 B|2983256662868370048",
+   "name": "GJ 3346 B",
+   "gaia_dr3": "2983256662868370048",
+   "ra_deg_j2016": 79.99882,
+   "dec_deg_j2016": -15.837731,
+   "distance_ly": 77.22,
+   "G_mag": 14.331567,
+   "pmra_known": 182.68548694010966,
+   "pmdec_known": 216.2030364765074,
+   "simbad_main_id": "HD  34865B",
+   "simbad_otype": "WD?",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10042|4924503128140880512",
+   "name": "GJ 10042",
+   "gaia_dr3": "4924503128140880512",
+   "ra_deg_j2016": 4.157902,
+   "dec_deg_j2016": -52.693305,
+   "distance_ly": 74.45,
+   "G_mag": 14.344408,
+   "pmra_known": 101.9875342203061,
+   "pmdec_known": 13.008772951044318,
+   "simbad_main_id": "UCAC4 187-000239",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 12857|4181999352495280000",
+   "name": "GJ 12857",
+   "gaia_dr3": "4181999352495280000",
+   "ra_deg_j2016": 294.498861,
+   "dec_deg_j2016": -15.44659,
+   "distance_ly": 77.73,
+   "G_mag": 14.354596,
+   "pmra_known": 64.9458358336313,
+   "pmdec_known": -18.204843460855063,
+   "simbad_main_id": "UPM J1937-1526",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "Gaia DR3 4842581574769924864|4842581574769924864",
+   "name": "Gaia DR3 4842581574769924864",
+   "gaia_dr3": "4842581574769924864",
+   "ra_deg_j2016": 57.649464,
+   "dec_deg_j2016": -42.562001,
+   "distance_ly": 88.74,
+   "G_mag": 14.360272,
+   "pmra_known": 197.65902559752405,
+   "pmdec_known": 638.3902615020402,
+   "simbad_main_id": "HD  24331B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M4",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 40 B|2349206343359507584",
+   "name": "GJ 40 B",
+   "gaia_dr3": "2349206343359507584",
+   "ra_deg_j2016": 12.899607,
+   "dec_deg_j2016": -22.909835,
+   "distance_ly": 50.12,
+   "G_mag": 14.365647,
+   "pmra_known": 619.8951493518819,
+   "pmdec_known": -280.89089590531876,
+   "simbad_main_id": "HD   4967B",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5V",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 10537|65829792677145344",
+   "name": "GJ 10537",
+   "gaia_dr3": "65829792677145344",
+   "ra_deg_j2016": 58.691131,
+   "dec_deg_j2016": 24.272522,
+   "distance_ly": 43.49,
+   "G_mag": 14.368261,
+   "pmra_known": -293.33809684449193,
+   "pmdec_known": -221.46381033206632,
+   "simbad_main_id": "LP  357-56",
+   "simbad_otype": "LM*",
+   "simbad_sp_type": "M6V",
+   "simbad_rv_rejected": "-11.25 km/s, quality D, type v, ref 2022A&A...660A..38W",
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13187|1768695093298872832",
+   "name": "GJ 13187",
+   "gaia_dr3": "1768695093298872832",
+   "ra_deg_j2016": 331.092684,
+   "dec_deg_j2016": 15.100065,
+   "distance_ly": 75.37,
+   "G_mag": 14.372966,
+   "pmra_known": 655.9009242785356,
+   "pmdec_known": 495.82792374233617,
+   "simbad_main_id": "LSPM J2204+1505",
+   "simbad_otype": "PM*",
+   "simbad_sp_type": "M5.5",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  },
+  {
+   "key": "GJ 13157|2202703050401536000",
+   "name": "GJ 13157",
+   "gaia_dr3": "2202703050401536000",
+   "ra_deg_j2016": 327.91636,
+   "dec_deg_j2016": 59.29293,
+   "distance_ly": 27.6,
+   "G_mag": 14.373105,
+   "pmra_known": -86.74227008780505,
+   "pmdec_known": -19.236664849105665,
+   "simbad_main_id": "UCAC4 747-070768",
+   "simbad_otype": "WD*",
+   "simbad_sp_type": "DAH",
+   "simbad_rv_rejected": null,
+   "need": [
+    "rv"
+   ]
+  }
+ ]
+}

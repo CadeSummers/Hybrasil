@@ -1,0 +1,1572 @@
+{
+  "agent": "R1",
+  "items": [
+    {
+      "name": "GJ 680 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 680 b",
+        "Mass (M-earth)": 7977,
+        "Semi-major axis (au)": 10.138,
+        "Orbital period (d)": 17281.66514,
+        "Eccentricity": 0.381,
+        "Orbit data source / flags": "NASA Exoplanet Archive pscomppars, queried 2026-09-26: P Feng et al. 2022; a Feng et al. 2022; e Feng et al. 2022; >13 MJ - likely BD",
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "NOT A PLANET. It is the M dwarf GJ 680 B (0.178 +/- 0.004 Msun, a = 32 au), imaged by NACO in 2005 and 2007; combining HARPS RVs, Hipparcos-Gaia and imaging astrometry, Philipot et al. 2023 (A&A 678, A107) list it among 'five companions previously reported as brown dwarfs [that] are indeed low-mass stars', and the discovery group agrees (Feng et al. 2025, MNRAS 539, 3180). Drawn on Multi-stars as GJ 680 B.",
+          "source": "Philipot et al. 2023, A&A 678, A107, Sect. 6 discussion and Sect. 7 conclusion, table 'Orbital parameters and mass of single stellar companions'; Feng, Xiao, Jones et al. 2025, MNRAS 539, 3180, Sect. 4.4 and Table 4",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Source / discovery reference": {
+          "value": "Feng et al. 2022, ApJS 262, 21 (as 'GJ 680 b', 25.1 MJup, a = 10.1 au, RV + Hipparcos-Gaia only); shown to be a star by Philipot et al. 2023, A&A 678, A107",
+          "source": "NASA Exoplanet Archive pscomppars disc_refname (queried 2026-09-27); Philipot et al. 2023",
+          "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "GJ 680 b is the low-mass star GJ 680 B: with the 2005/2007 NACO imaging added, Philipot et al. 2023 (A&A 678, A107) get a true mass of 0.178 +/- 0.004 Msun at a = 32 au, and Feng et al. 2025 (MNRAS 539, 3180), the group that published 'GJ 680 b', re-fit it at 185.5 MJup and call it a low-mass star. Move the planet name to Rejected so it is never drawn, and add the star on Multi-stars.",
+      "confidence": "high",
+      "notes": "Planets tab row 522 today (row numbers drift; match by name). NASA pscomppars still lists 'GJ 680 b' (Feng et al. 2022) as of 2026-09-27. Copy the rest of the Planets-tab row unchanged onto the Rejected tab, per that tab's convention."
+    },
+    {
+      "name": "GJ 680 B",
+      "tab": "Multi-stars within 100 ly",
+      "action": "reclassify_as_star",
+      "current": {
+        "exists on Multi-stars": false,
+        "was": "GJ 680 b on Planets within 100 ly"
+      },
+      "fields": {
+        "System / Host": {
+          "value": "GJ 680",
+          "source": "Systems within 100 ly column A, exact",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Star (component)": {
+          "value": "GJ 680 B",
+          "source": "Philipot et al. 2023 name the companion 'GJ680 B'; SIMBAD main id CD-48 11837B",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Role in system": {
+          "value": "companion (low-mass star; listed as the planet 'GJ 680 b' by Feng et al. 2022)",
+          "source": "Philipot et al. 2023, Sect. 7",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Distance (ly)": {
+          "value": 31.55,
+          "source": "as the Systems row (system distance, the tab's convention). B's own Gaia DR3 parallax 103.2027 +/- 0.0462 mas gives 31.60 ly",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Stars in system": {
+          "value": 2,
+          "source": "A + B",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "after GJ 680 b is removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-sun)": {
+          "value": 0.178,
+          "source": "Philipot et al. 2023, A&A 678, A107, table 'Orbital parameters and mass of single stellar companions' (arXiv HTML Table 13; B13 reports it as Table C.3 in the journal version, not checked): 0.178 +/- 0.004 Msun. Feng et al. 2025 (MNRAS 539, 3180, Table 4) agree: 185.5 +2.7/-3.2 MJup (F23) = 0.177 Msun, 192.3 +4.4/-4.6 MJup (orvara)",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Stellar Class": {
+          "value": "M3V",
+          "source": "SIMBAD sp_type of CD-48 11837B (= Gaia DR3 5946986063671469824), bibcode 2006AJ....132..161G (Gray et al. 2006)",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Class (sort key)": {
+          "value": 63,
+          "source": "sheet convention M = 60 + subclass",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity class": {
+          "value": "Main sequence",
+          "source": "class V",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Effective temp (K)": {
+          "value": 3005,
+          "source": "Gaia DR3 astrophysical_parameters.teff_gspphot = 3004.7 K for source 5946986063671469824",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Star data source": {
+          "value": "class: SIMBAD CD-48 11837B (2006AJ....132..161G); mass and orbit: Philipot et al. 2023 A&A 678 A107 (RV + Hipparcos-Gaia + NACO imaging); Teff: Gaia DR3 GSP-Phot; L: Gaia DR3 FLAME lum_flame; kinematics: Gaia DR3",
+          "source": "this search",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity (L-sun)": {
+          "value": 0.00486,
+          "source": "Gaia DR3 astrophysical_parameters.lum_flame = 0.004861676 Lsun (published catalogue value). Cross-check derived from Gaia radius_flame 0.2572 Rsun and Teff 3005 K: L = R^2 (T/5772)^4 = 0.00486",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "HZ distance": {
+          "value": "not a planet host\n(HZ computed for planet hosts only)",
+          "source": "tab convention for a non-host companion",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "no planets",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Radial velocity (km/s)": {
+          "value": -25.699,
+          "source": "Gaia DR3 gaia_source.radial_velocity -25.698797",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in RA, μα·cos δ (mas/yr)": {
+          "value": -8.658,
+          "source": "Gaia DR3 gaia_source.pmra",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in Dec, μδ (mas/yr)": {
+          "value": 501.749,
+          "source": "Gaia DR3 gaia_source.pmdec",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Total proper motion, μ (arcsec/yr)": {
+          "value": 0.502,
+          "source": "Gaia DR3 pmra, pmdec",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": true,
+          "method": "sqrt(pmra^2 + pmdec^2)/1000 = 0.5018 arcsec/yr"
+        },
+        "Kinematics source": {
+          "value": "RV: Gaia DR3; PM: Gaia DR3",
+          "source": "Gaia DR3",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Gaia DR3 source_id": {
+          "value": "5946986063671469824",
+          "source": "Gaia DR3 cone search 15 arcsec around GJ 680: G 11.61, parallax 103.2027 mas (A: 103.3081), 4.66 arcsec at PA 318.8 deg from A at epoch 2016.0, continuing the NACO track 3.76 arcsec/PA 325.4 (2005) and 3.94 arcsec/PA 323.7 (2007) (Ward-Duong et al. 2015 via Philipot Table 'Relative astrometry'). SIMBAD identifies it as CD-48 11837B",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Planet-host star": {
+          "value": "GJ 680",
+          "source": "tab convention: zero-planet systems keep the primary here",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host class": {
+          "value": "K5",
+          "source": "as the Systems row (but see incidental_finds: SIMBAD has M1.5V)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Primary mass (M-sun)": {
+          "value": 0.47,
+          "source": "Philipot et al. 2023, table 'Characteristics of the 53 stars with characterized companions' (arXiv HTML Table 7): GJ680 = HIP 86057, 0.47 +/- 0.01 Msun (from Kervella et al. 2022)",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Orbital eccentricity (e)": {
+          "value": 0.75,
+          "source": "Philipot et al. 2023, table 'Orbital parameters and mass of single stellar companions': e = 0.75 +0.11/-0.13",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Orbit described": {
+          "value": "B relative to A",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Orbit source": {
+          "value": "Philipot et al. 2023, A&A 678, A107 (arXiv:2308.05417), table 'Orbital parameters and mass of single stellar companions': a = 32 +9/-6 au, e = 0.75 +0.11/-0.13, i = 167 +4/-10 deg, P = 188 +102/-68 yr; HARPS RV + Hipparcos-Gaia + NACO imaging. Feng et al. 2025 (MNRAS 539, 3180, Table 4) re-fit the same data: F23 a = 32.05 au, e = 0.048; orvara a = 46 au, e = 0.42 -- e is poorly constrained.",
+          "source": "Philipot et al. 2023; Feng et al. 2025",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Separation from": {
+          "value": "GJ 680",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Separation (AU)": {
+          "value": 32,
+          "source": "Philipot et al. 2023: a = 32 +9/-6 au (Feng et al. 2025 F23: 32.05 +0.29/-0.31 au)",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Separation type": {
+          "value": "semi-major axis",
+          "source": "solved orbit",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Separation source": {
+          "value": "Philipot et al. 2023, A&A 678, A107 (arXiv:2308.05417), table 'Orbital parameters and mass of single stellar companions': a = 32 +9/-6 au",
+          "source": "",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "GJ 680 b is a 0.178 Msun M dwarf (Philipot et al. 2023, A&A 678, A107), resolved by Gaia DR3 as source 5946986063671469824 (CD-48 11837B, M3V). It belongs on Multi-stars as GJ 680 B.",
+      "confidence": "high",
+      "notes": "Eccentricity is the weak value: Philipot 0.75 (+0.11/-0.13), Feng et al. 2025 F23 0.048, orvara 0.42 (+0.20/-0.23), all from essentially the same data. I recommend Philipot's solution as one self-consistent set (a and mass agree across all three fits); the writer may prefer to leave e blank. Solvent-band columns are not given; compute them from L = 0.00486 as the tab does for other companions. Mass was published in Msun directly, not converted."
+    },
+    {
+      "name": "GJ 680",
+      "tab": "Multi-stars within 100 ly",
+      "action": "add_host_row",
+      "current": {
+        "exists on Multi-stars": false
+      },
+      "fields": {
+        "System / Host": {
+          "value": "GJ 680",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Star (component)": {
+          "value": "GJ 680",
+          "source": "Systems column A (tab convention, e.g. 'HD 238090')",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Role in system": {
+          "value": "host",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Distance (ly)": {
+          "value": 31.55,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Stars in system": {
+          "value": 2,
+          "source": "A + B",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "after GJ 680 b is removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-sun)": {
+          "value": 0.47,
+          "source": "Systems row has no host mass. Philipot et al. 2023, table 'Characteristics of the 53 stars with characterized companions': 0.47 +/- 0.01 Msun (from Kervella et al. 2022)",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Stellar Class": {
+          "value": "K5",
+          "source": "copied from Systems row, BUT SIMBAD gives M1.5V (Gray et al. 2006) and Gaia DR3 Teff 3235 K; see incidental_finds",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Class (sort key)": {
+          "value": 55,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity class": {
+          "value": "No luminosity class",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Effective temp (K)": {
+          "value": 3235,
+          "source": "Systems row blank. Gaia DR3 astrophysical_parameters.teff_gspphot = 3235.1 K for 5946986063684477056",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Star data source": {
+          "value": "class: as Systems sheet; mass: Philipot et al. 2023 A&A 678 A107 (Kervella et al. 2022); Teff: Gaia DR3 GSP-Phot; L: as Systems sheet (= Gaia DR3 FLAME lum_flame)",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity (L-sun)": {
+          "value": 0.029565195,
+          "source": "Systems 'Host luminosity (L-sun)'; equals Gaia DR3 lum_flame for 5946986063684477056",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ distance": {
+          "value": "Teff outside 2600-7200 K\n(Kopparapu limits do not apply)",
+          "source": "copied from Systems row; if the writer fills Teff = 3235 K the Kopparapu limits would apply and this should be recomputed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "no planets left",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "no planets left",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Radial velocity (km/s)": {
+          "value": -23.446,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in RA, μα·cos δ (mas/yr)": {
+          "value": 74.069,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in Dec, μδ (mas/yr)": {
+          "value": 470.166,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Total proper motion, μ (arcsec/yr)": {
+          "value": 0.476,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Space velocity (km/s)": {
+          "value": 32.028,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Kinematics source": {
+          "value": "RV: Gaia DR3; PM: Gaia DR3",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Gaia DR3 source_id": {
+          "value": "5946986063684477056",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host star": {
+          "value": "GJ 680",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host class": {
+          "value": "K5",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Primary mass (M-sun)": {
+          "value": 0.47,
+          "source": "as Mass (M-sun) above",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "GJ 680 has no Multi-stars rows yet; adding GJ 680 B needs the host row beside it.",
+      "confidence": "high",
+      "notes": "Copied from the Systems row: Distance, Stellar Class, Class (sort key), Luminosity class, Luminosity, HZ distance, Planets in HZ, HZ planet names, the eight solvent-band columns (copy verbatim), RV, proper motions, space velocity, Kinematics source, Gaia DR3 source_id, Planet-host star/class. New: Mass 0.47 and Teff 3235 (Systems row has neither)."
+    },
+    {
+      "name": "GJ 680",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Stars in system": 1,
+        "System stars": "",
+        "Confirmed planets": 1,
+        "Planet masses (M-earth)": "GJ 680 b:7977 [>13 MJ - likely BD]",
+        "Mass type": "Mass",
+        "Planets in HZ": 0,
+        "HZ planet names": "—"
+      },
+      "fields": {
+        "Stars in system": {
+          "value": 2,
+          "source": "GJ 680 + GJ 680 B",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "System stars": {
+          "value": "GJ 680 (host) + GJ 680 B (M3V, 0.178 Msun; the former 'GJ 680 b'); a = 32 au, e = 0.75, P = 188 yr (Philipot et al. 2023, A&A 678, A107)",
+          "source": "Philipot et al. 2023; SIMBAD CD-48 11837B",
+          "url": "https://arxiv.org/abs/2308.05417",
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "GJ 680 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "With GJ 680 b reclassified as the star GJ 680 B, the system has two stars and no planets.",
+      "confidence": "high",
+      "notes": "Host mass (blank) and Teff (blank) can be filled: 0.47 Msun (Philipot Table 7) and 3235 K (Gaia GSP-Phot). Stellar Class K5 looks wrong (see incidental_finds)."
+    },
+    {
+      "name": "HIP 55507 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "HIP 55507 b",
+        "Mass (M-earth)": 2586,
+        "Semi-major axis (au)": 5.055931,
+        "Orbital period (d)": 5138.43726957,
+        "Confidence tier": "confirmed",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "NOT A PLANET. It is the M7.5 star HIP 55507 B (88.0 +3.4/-3.2 MJup, a = 37.8 au), imaged by Keck/NIRC2; Xuan et al. 2024 (ApJ 962, 10, Sect. VIII.1) find its luminosity 'consistent with a low-mass star and not a 5.0 MJup planet' and cannot reproduce Feng et al. 2022's solution with Feng's own data. Drawn on Multi-stars as HIP 55507 B.",
+          "source": "Xuan et al. 2024, ApJ 962, 10, Table 1, Table 4, Sect. IV.1 and Sect. VIII.1",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Source / discovery reference": {
+          "value": "Feng et al. 2022, ApJS 262, 21 (as 'HIP 55507 b', 5.0 MJup, P 14.0 yr, RV + Hipparcos-Gaia only); shown to be the star HIP 55507 B by Xuan et al. 2024, ApJ 962, 10",
+          "source": "NASA Exoplanet Archive pscomppars disc_refname (queried 2026-09-27); Xuan et al. 2024 Sect. VIII.1",
+          "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Xuan et al. 2024 (ApJ 962, 10) fit HIRES RVs, NIRC2 imaging, Hipparcos-Gaia and KPIC relative RVs and get a dynamical mass of 88.0 MJup (0.084 Msun) for the imaged M7.5 companion; the Feng et al. 2022 planet is that star, mis-fitted. Move the planet name to Rejected and add the star on Multi-stars.",
+      "confidence": "high",
+      "notes": "Planets tab row 502 today. SIMBAD already gives HIP 55507 the composite type 'K6V+M7.5' from Xuan et al. 2024. NASA pscomppars still lists HIP 55507 b (2026-09-27)."
+    },
+    {
+      "name": "HIP 55507 B",
+      "tab": "Multi-stars within 100 ly",
+      "action": "reclassify_as_star",
+      "current": {
+        "exists on Multi-stars": false,
+        "was": "HIP 55507 b on Planets within 100 ly"
+      },
+      "fields": {
+        "System / Host": {
+          "value": "HIP 55507",
+          "source": "Systems within 100 ly column A, exact",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Star (component)": {
+          "value": "HIP 55507 B",
+          "source": "Xuan et al. 2024 name",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Role in system": {
+          "value": "companion (late-M star; listed as the planet 'HIP 55507 b' by Feng et al. 2022)",
+          "source": "Xuan et al. 2024",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Distance (ly)": {
+          "value": 83.13,
+          "source": "as the Systems row (system distance). Xuan et al. 2024 Table 1: 25.41 +/- 0.02 pc (zero-point-corrected DR3 parallax 39.35 mas) = 82.89 ly; raw Gaia DR3 39.3187 mas = 82.95 ly",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Stars in system": {
+          "value": 2,
+          "source": "A + B",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "after HIP 55507 b is removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-sun)": {
+          "value": 0.084,
+          "source": "Xuan et al. 2024, ApJ 962, 10: Table 1/Table 4 m = 88.0 +3.4/-3.2 MJup; Fig. 4 caption gives the dynamical mass as 0.084 +/- 0.003 Msun",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Stellar Class": {
+          "value": "M7.5",
+          "source": "Xuan et al. 2024, Table 1 (SpT, this paper)",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Class (sort key)": {
+          "value": 67.5,
+          "source": "sheet convention M = 60 + subclass",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity class": {
+          "value": "Main sequence",
+          "source": "Xuan et al. 2024 Sect. IV: mass and Lbol consistent with a star that 'has likely reached the hydrogen-burning main-sequence'",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Effective temp (K)": {
+          "value": 2350,
+          "source": "Xuan et al. 2024, Sect. VII.1.4: Teff = 2350 +/- 50 K from the spectral retrieval (evolutionary models give 2530 +/- 80 K)",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Star data source": {
+          "value": "class, mass, Teff, L and orbit: Xuan et al. 2024 ApJ 962 10 (Keck/KPIC + NIRC2; orvara orbit fit); unresolved by Gaia DR3",
+          "source": "",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Luminosity (L-sun)": {
+          "value": 0.000513,
+          "source": "Xuan et al. 2024, Sect. VII.1.4: log(Lbol/Lsun) = -3.29 +/- 0.02 (spectral retrieval); empirical K-band relation gives -3.21 +/- 0.08. Value is 10^-3.29, a unit change of the published figure",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "HZ distance": {
+          "value": "not a planet host\n(HZ computed for planet hosts only)",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Kinematics source": {
+          "value": "none of its own: unresolved, 0.48 arcsec from HIP 55507 (Gaia DR3 has one source within 15 arcsec)",
+          "source": "Gaia DR3 cone search; Xuan et al. 2024 Table 2 (NIRC2 sep 475.6 mas in 2012)",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Gaia DR3 source_id": {
+          "value": null,
+          "source": "not resolved: the only Gaia DR3 source within 15 arcsec is the primary, 788340461203094912",
+          "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+          "derived": false,
+          "method": null
+        },
+        "Planet-host star": {
+          "value": "HIP 55507",
+          "source": "tab convention for zero-planet systems",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host class": {
+          "value": "K6 V",
+          "source": "as the Systems 'Stellar Class' (Systems 'Planet-host class' is blank)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Primary mass (M-sun)": {
+          "value": 0.65,
+          "source": "as the Systems row 'Host mass'. Xuan et al. 2024: literature 0.67 +/- 0.02 (Table 1), orbit fit 0.675 +/- 0.037 (Table 4)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Orbital eccentricity (e)": {
+          "value": 0.4,
+          "source": "Xuan et al. 2024, Table 4: e = 0.40 +/- 0.04",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Orbit described": {
+          "value": "B relative to A",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Orbit source": {
+          "value": "Xuan et al. 2024, ApJ 962, 10 (arXiv:2312.02297), Table 4: a = 37.8 +3.5/-2.7 au, e = 0.40 +/- 0.04, i = 119.3 +/- 0.7 deg, P = 266 +44/-33 yr, m = 88.0 +3.4/-3.2 MJup; orvara fit of HIRES RVs, NIRC2 relative astrometry, Hipparcos-Gaia, and KPIC relative RVs",
+          "source": "",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Separation from": {
+          "value": "HIP 55507",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Separation (AU)": {
+          "value": 37.8,
+          "source": "Xuan et al. 2024, Table 4: a = 37.8 +3.5/-2.7 au",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Separation type": {
+          "value": "semi-major axis",
+          "source": "solved orbit",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Separation source": {
+          "value": "Xuan et al. 2024, ApJ 962, 10 (arXiv:2312.02297), Table 4: a = 37.8 +3.5/-2.7 au",
+          "source": "",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "HIP 55507 b is the M7.5 star HIP 55507 B, 0.084 Msun at a = 37.8 au (Xuan et al. 2024, ApJ 962, 10). It belongs on Multi-stars.",
+      "confidence": "high",
+      "notes": "Teff: the retrieval (2350 K) and evolutionary models (2530 K) disagree; I give the measured 2350. Primary mass: I kept 0.65 so the companion row matches the host row; if the writer adopts Xuan's 0.67 for the host, change both. Solvent-band columns not given; compute from L = 0.000513."
+    },
+    {
+      "name": "HIP 55507",
+      "tab": "Multi-stars within 100 ly",
+      "action": "add_host_row",
+      "current": {
+        "exists on Multi-stars": false
+      },
+      "fields": {
+        "System / Host": {
+          "value": "HIP 55507",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Star (component)": {
+          "value": "HIP 55507",
+          "source": "Systems column A (tab convention)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Role in system": {
+          "value": "host",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Distance (ly)": {
+          "value": 83.13,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Stars in system": {
+          "value": 2,
+          "source": "A + B",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "after HIP 55507 b is removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass (M-sun)": {
+          "value": 0.65,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Stellar Class": {
+          "value": "K6 V",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Class (sort key)": {
+          "value": 56,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity class": {
+          "value": "Main sequence",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Effective temp (K)": {
+          "value": 4171,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Star data source": {
+          "value": "class, mass, Teff, L: as Systems sheet (primary)",
+          "source": "",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Luminosity (L-sun)": {
+          "value": 0.141358022986701,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ distance": {
+          "value": "0.299 - 0.762\n(conservative: 0.397 - 0.726)",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "no planets left",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "no planets left",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Radial velocity (km/s)": {
+          "value": -5.428,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in RA, μα·cos δ (mas/yr)": {
+          "value": -197.487,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Proper motion in Dec, μδ (mas/yr)": {
+          "value": -134.777,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Total proper motion, μ (arcsec/yr)": {
+          "value": 0.239,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Space velocity (km/s)": {
+          "value": 29.385,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Kinematics source": {
+          "value": "RV: Gaia DR3; PM: Gaia DR3",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Gaia DR3 source_id": {
+          "value": "788340461203094912",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host star": {
+          "value": "HIP 55507",
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet-host class": {
+          "value": "K6 V",
+          "source": "Systems 'Stellar Class' (Systems 'Planet-host class' is blank)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Primary mass (M-sun)": {
+          "value": 0.65,
+          "source": "copied from the host's own Systems within 100 ly row",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "HIP 55507 has no Multi-stars rows yet; adding HIP 55507 B needs the host row beside it.",
+      "confidence": "high",
+      "notes": "Everything except Role, Stars in system, Confirmed planets and the emptied planet columns is copied from the Systems row, including the eight solvent-band columns verbatim. Xuan et al. 2024 Table 1 has 0.67 +/- 0.02 Msun, Teff 4200 +/- 50 K (this paper) / 4250 +/- 90 K (literature), [Fe/H] -0.02 +/- 0.09, age 1.7 +0.4/-0.7 Gyr if the writer wants to fill blanks."
+    },
+    {
+      "name": "HIP 55507",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Stars in system": 1,
+        "System stars": "",
+        "Confirmed planets": 1,
+        "Planet masses (M-earth)": "HIP 55507 b:2586 (8.14 MJ)",
+        "Mass type": "Mass",
+        "Planets in HZ": 0,
+        "HZ planet names": "—"
+      },
+      "fields": {
+        "Stars in system": {
+          "value": 2,
+          "source": "HIP 55507 + HIP 55507 B",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "System stars": {
+          "value": "HIP 55507 (K6V, host) + HIP 55507 B (M7.5, 0.084 Msun; the former 'HIP 55507 b'); a = 37.8 au, e = 0.40, P = 266 yr (Xuan et al. 2024, ApJ 962, 10, Table 4)",
+          "source": "Xuan et al. 2024",
+          "url": "https://arxiv.org/abs/2312.02297",
+          "derived": false,
+          "method": null
+        },
+        "Confirmed planets": {
+          "value": 0,
+          "source": "HIP 55507 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "With HIP 55507 b reclassified as the star HIP 55507 B, the system has two stars and no planets.",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "GJ 229 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 229 b",
+        "Orbital period (d)": 526.115,
+        "Mass (M-earth)": 14.94,
+        "Confidence tier": "confirmed",
+        "Orbit data source / flags": "OEC 2026-07-31"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "LIKELY ACTIVITY. A line-by-line reanalysis of the HARPS RVs finds the ~526 d signal vanishes once stellar activity (Prot 28.9 d) is modelled, and excludes the Tuomi et al. 2014 amplitude at 95% and Feng et al. 2022's at 92% (Deslieres et al. 2025, AJ 169, 182). Not formally refuted.",
+          "source": "Deslieres, Cadieux, Doyon et al. 2025, AJ 169, 182, 'The Gl 229 System Revisited with the Line-by-line Framework: Planetary Signals Now Appear as Stellar Activity Ghosts', abstract, Sect. 3-5",
+          "url": "https://iopscience.iop.org/article/10.3847/1538-3881/ada77a",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Deslieres et al. 2025 (AJ 169, 182) attribute the GJ 229 b signal to systematics and stellar activity ('most probably of stellar origin'); the discovery group has since said the inner companions 'cannot be confirmed' (Feng et al. 2025, MNRAS 539, 3180).",
+      "confidence": "medium",
+      "notes": "Is this a refutation? No, not formally. Deslieres et al. conclude the signals 'are most probably of stellar origin' and 'vanish when stellar activity is taken into account' (GP on the LBL dLW indicator, Prot = 28.9 +/- 1.6 d; BIC: no planet 867, planet b 906, planet c 887). The '3 sigma' in the brief is their HZ upper limit (9.1 M_E, ~15 M_E near Prot), not a 3-sigma rejection of the planets. Amplitude tests: Tuomi et al. 2014's b excluded at 95%, Feng et al. 2022's b at 92%; for c they 'cannot reject the semiamplitude of F. Feng et al. (2022)'. So the fair label is 'not confirmed, likely activity' (LIKELY ACTIVITY), matching the tab's GJ 754 b / GJ 846 b entries, not REFUTED. Later papers: none found that re-claims the planets. Feng, Xiao, Jones et al. 2025 (MNRAS 539, 3180, Sect. 4.3), from the discovery group, say 'the existence of inner companions cannot be confirmed by the current astrometric and RV data'. Against: Mignon et al. 2024 (A&A 689, A32; arXiv:2502.06513, Table 4 'previously discovered and recovered') recover 121.49 d and 528.17 d signals at FAP < 1e-3 in HARPS with only sinusoid activity correction, and Mignon et al. 2025 (A&A 700, A146; arXiv:2502.06553, Table 5) still count both in their occurrence statistics, while noting GJ 229 shows 'RV signals at varying periods across different seasons'. Both predate or ignore Deslieres and do not model activity with a GP. NASA pscomppars still lists GJ 229 b and GJ 229 A c (2026-09-27). WebFetch of the IOP page supplied the quotes; the paper has no arXiv version that I could find. Sheet period 526.115 d differs from NASA pscomppars 579.47 d (Feng 2022); moot once rejected."
+    },
+    {
+      "name": "GJ 229 A c",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 229 A c",
+        "Orbital period (d)": 121.995,
+        "Mass (M-earth)": 8.58,
+        "HZ position": "In HZ (per systems sheet)",
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "LIKELY ACTIVITY. Deslieres et al. 2025 (AJ 169, 182) find the 122 d signal vanishes once stellar activity is modelled (BIC favours no planet by 20) and lies near aliases of the 28.9 d rotation period, though they cannot reject Feng et al. 2022's amplitude. Not formally refuted.",
+          "source": "Deslieres, Cadieux, Doyon et al. 2025, AJ 169, 182, 'The Gl 229 System Revisited with the Line-by-line Framework: Planetary Signals Now Appear as Stellar Activity Ghosts', abstract, Sect. 3-5",
+          "url": "https://iopscience.iop.org/article/10.3847/1538-3881/ada77a",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Deslieres et al. 2025 (AJ 169, 182) conclude GJ 229 A c is 'most probably of stellar origin'. It is weaker evidence than for b: the paper cannot exclude c's amplitude, so this is 'likely activity', not a refutation.",
+      "confidence": "medium",
+      "notes": "Is this a refutation? No, not formally. Deslieres et al. conclude the signals 'are most probably of stellar origin' and 'vanish when stellar activity is taken into account' (GP on the LBL dLW indicator, Prot = 28.9 +/- 1.6 d; BIC: no planet 867, planet b 906, planet c 887). The '3 sigma' in the brief is their HZ upper limit (9.1 M_E, ~15 M_E near Prot), not a 3-sigma rejection of the planets. Amplitude tests: Tuomi et al. 2014's b excluded at 95%, Feng et al. 2022's b at 92%; for c they 'cannot reject the semiamplitude of F. Feng et al. (2022)'. So the fair label is 'not confirmed, likely activity' (LIKELY ACTIVITY), matching the tab's GJ 754 b / GJ 846 b entries, not REFUTED. Later papers: none found that re-claims the planets. Feng, Xiao, Jones et al. 2025 (MNRAS 539, 3180, Sect. 4.3), from the discovery group, say 'the existence of inner companions cannot be confirmed by the current astrometric and RV data'. Against: Mignon et al. 2024 (A&A 689, A32; arXiv:2502.06513, Table 4 'previously discovered and recovered') recover 121.49 d and 528.17 d signals at FAP < 1e-3 in HARPS with only sinusoid activity correction, and Mignon et al. 2025 (A&A 700, A146; arXiv:2502.06553, Table 5) still count both in their occurrence statistics, while noting GJ 229 shows 'RV signals at varying periods across different seasons'. Both predate or ignore Deslieres and do not model activity with a GP. NASA pscomppars still lists GJ 229 b and GJ 229 A c (2026-09-27). WebFetch of the IOP page supplied the quotes; the paper has no arXiv version that I could find. This is the only HZ planet on the GJ 229 Systems row."
+    },
+    {
+      "name": "GJ 229",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Confirmed planets": 2,
+        "Planet masses (M-earth)": "GJ 229 b:14.94\nGJ 229 A c:8.58",
+        "Mass type": "Msini",
+        "Planets in HZ": 1,
+        "HZ planet names": "GJ 229 A c*"
+      },
+      "fields": {
+        "Confirmed planets": {
+          "value": 0,
+          "source": "GJ 229 b and GJ 229 A c removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention for zero-planet rows",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "GJ 229 A c removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Both GJ 229 planets move to Rejected (Deslieres et al. 2025, AJ 169, 182).",
+      "confidence": "medium",
+      "notes": "Stars in system stays 1: GJ 229 B is a brown-dwarf pair (Ba + Bb), not stars."
+    },
+    {
+      "name": "HIP 48714 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "HIP 48714 b",
+        "Orbital period (d)": 17.818,
+        "Mass (M-earth)": 22.9,
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "ROTATION. CARMENES DR1 (Ribas et al. 2023, A&A 670, A139, Table 4 and Sect. 5.2) lists GJ 373 b as 'Rotation': the 17.8 d signal 'can most definitely be attributed to stellar rotation modulation', appearing in dLW, H-alpha and CCF indicators.",
+          "source": "Ribas et al. 2023, A&A 670, A139 (CARMENES GTO DR1), Table 4 'Exoplanets challenged by CARMENES' and Sect. 5.2 text, Figs. 6-8",
+          "url": "https://arxiv.org/abs/2302.10528",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "HIP 48714 = GJ 373 (Karmn J09561+627). Ribas et al. 2023 Table 4 row: 'J09561+627 | GJ 373 | b | 17.8 | Tuo19, Fen20 | Rotation | This work'.",
+      "confidence": "high",
+      "notes": "Discovery: Tuomi et al. 2019 and Feng et al. 2020 (ApJS 250, 29 per NASA disc_refname). B12 cited 'Sect. 6'; in the arXiv version the text is Sect. 5.2 'Exoplanets in the CARMENES GTO sample'. NASA still lists it (2026-09-27)."
+    },
+    {
+      "name": "HIP 48714",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Confirmed planets": 1,
+        "Planet masses (M-earth)": "HIP 48714 b:22.90",
+        "Mass type": "Msini",
+        "Planets in HZ": 0,
+        "HZ planet names": "—"
+      },
+      "fields": {
+        "Confirmed planets": {
+          "value": 0,
+          "source": "HIP 48714 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Its only planet moves to Rejected (Ribas et al. 2023).",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "GJ 96 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 96 b",
+        "Orbital period (d)": 73.94,
+        "Mass (M-earth)": 19.66,
+        "HZ position": "In HZ (per systems sheet)",
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "REFUTED. CARMENES DR1 (Ribas et al. 2023, A&A 670, A139, Table 4 'Spurious', Sect. 5.2): the 73.9 d SOPHIE signal is absent from 53 CARMENES RVs, whose only significant period (28.5 d) has counterparts in dLW, Ca II IRT and H-alpha; the candidate 'can be quite confidently ruled out'.",
+          "source": "Ribas et al. 2023, A&A 670, A139 (CARMENES GTO DR1), Table 4 'Exoplanets challenged by CARMENES' and Sect. 5.2 text, Figs. 6-8",
+          "url": "https://arxiv.org/abs/2302.10528",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Ribas et al. 2023 Table 4 row: 'J02222+478 | GJ 96 | b | 73.9 | Hob18 | Spurious | This work'; Sect. 5.2: 'the candidates announced around J02222+478 (GJ 96) and J09561+627 (GJ 373) can be quite confidently ruled out as planets'.",
+      "confidence": "high",
+      "notes": "Discovery: Hobson et al. 2018, A&A 618, A103 (SOPHIE only). A non-detection by a second instrument plus an activity signal, called 'Spurious' by the authors, so REFUTED rather than LIKELY ACTIVITY. NASA still lists it (2026-09-27)."
+    },
+    {
+      "name": "GJ 96",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Confirmed planets": 1,
+        "Planet masses (M-earth)": "GJ 96 b:19.66",
+        "Mass type": "Msini",
+        "Planets in HZ": 1,
+        "HZ planet names": "GJ 96 b*"
+      },
+      "fields": {
+        "Confirmed planets": {
+          "value": 0,
+          "source": "GJ 96 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "GJ 96 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Its only planet moves to Rejected (Ribas et al. 2023).",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "GJ 682 b",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 682 b",
+        "Orbital period (d)": 17.478,
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "WITHDRAWN BY DISCOVERERS. Tuomi et al. 2019 (arXiv:1906.04644, App. A.43), the 2014 discovery team, find no signal once new HARPS RVs are added and 'assume conservatively that these planets do not exist'; and Feng et al. 2020 (ApJS 246, 11) find the 17.48 d period in the HARPS BIS, i.e. activity.",
+          "source": "Tuomi et al. 2019, arXiv:1906.04644 (submitted to AAS journals, not refereed), Appendix A.43; Feng et al. 2020, ApJS 246, 11, Sect. on T14 candidates ('GJ 682 b and c') and Fig. 30",
+          "url": "https://arxiv.org/abs/1906.04644",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The discoverers call their own 2014 interpretation 'invalid' (Tuomi et al. 2019, App. A.43), and an independent refereed reanalysis fails to confirm GJ 682 b (Feng et al. 2020, ApJS 246, 11).",
+      "confidence": "high",
+      "notes": "Tuomi 2019 hedges: 'should it turn out that some of the HARPS data are indeed biased, this interpretation would require reassessment' (four of nine new HARPS RVs drive the disagreement). Mignon et al. 2024 (A&A 689, A32) did not recover the GJ 682 planets but blame too few HARPS nights (Sect. 7.4.1), which is neutral. NASA still lists both (2026-09-27)."
+    },
+    {
+      "name": "GJ 682 c",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "GJ 682 c",
+        "Orbital period (d)": 57.32,
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "WITHDRAWN BY DISCOVERERS. Tuomi et al. 2019 (arXiv:1906.04644, App. A.43), the 2014 discovery team, find no signal once new HARPS RVs are added and 'assume conservatively that these planets do not exist'; and Feng et al. 2020 (ApJS 246, 11) also fail to confirm it and call both signals 'probably due to activity'.",
+          "source": "Tuomi et al. 2019, arXiv:1906.04644 (submitted to AAS journals, not refereed), Appendix A.43; Feng et al. 2020, ApJS 246, 11, Sect. on T14 candidates ('GJ 682 b and c') and Fig. 30",
+          "url": "https://arxiv.org/abs/1906.04644",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "The discoverers call their own 2014 interpretation 'invalid' (Tuomi et al. 2019, App. A.43), and an independent refereed reanalysis fails to confirm GJ 682 c (Feng et al. 2020, ApJS 246, 11).",
+      "confidence": "high",
+      "notes": "Tuomi 2019 hedges: 'should it turn out that some of the HARPS data are indeed biased, this interpretation would require reassessment' (four of nine new HARPS RVs drive the disagreement). Mignon et al. 2024 (A&A 689, A32) did not recover the GJ 682 planets but blame too few HARPS nights (Sect. 7.4.1), which is neutral. NASA still lists both (2026-09-27)."
+    },
+    {
+      "name": "GJ 682",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Confirmed planets": 2,
+        "Planet masses (M-earth)": "GJ 682 b:4.40\nGJ 682 c:8.70",
+        "Mass type": "Msini",
+        "Planets in HZ": 1,
+        "HZ planet names": "GJ 682 b*"
+      },
+      "fields": {
+        "Confirmed planets": {
+          "value": 0,
+          "source": "GJ 682 b and c removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "GJ 682 b removed",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Both planets move to Rejected (Tuomi et al. 2019; Feng et al. 2020).",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Kapteyn c",
+      "tab": "Rejected candidates",
+      "action": "reject",
+      "current": {
+        "tab now": "Planets within 100 ly",
+        "Planet": "Kapteyn c",
+        "Orbital period (d)": 121.54,
+        "Mass (M-earth)": 7,
+        "Confidence tier": "confirmed"
+      },
+      "fields": {
+        "Rejected because": {
+          "value": "ROTATION. A joint RV + H-alpha Gaussian-process model gives Prot = 125 d, next to the 121.5 d period; adding a planet does not help and no residual signal remains, so 'both previously reported \"planets\" are artifacts of the star's rotation and activity' (Bortle et al. 2021, AJ 161, 230).",
+          "source": "Bortle et al. 2021, AJ 161, 230, abstract, Sect. III.2 and IV",
+          "url": "https://arxiv.org/abs/2103.02709",
+          "derived": false,
+          "method": null
+        },
+        "Confidence tier": {
+          "value": "unlikely",
+          "source": "Rejected candidates tab: every one of its 87 rows uses 'unlikely'",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Bortle et al. 2021 (AJ 161, 230) conclude 'Kapteyn's star does not host any exoplanets'; the 121.5 d signal sits on the 125 d rotation period and is absent from the GP residuals (FAP > 10% everywhere).",
+      "confidence": "high",
+      "notes": "Kapteyn b is already on Rejected (see incidental_finds), so the same verdict for c keeps the system consistent. Only the discoverers' rebuttal (Anglada-Escude et al. 2015, arXiv:1506.09072) predates Bortle; nothing later re-claims c. Mignon et al. 2024 (A&A 689, A32; arXiv:2502.06513, Table 8) do fit the 228 HARPS RVs of GJ 191 with a constant, but their Sect. 7.4.1 puts the missed GJ 191 planets down to using HARPS alone, so I left that out of the verdict (the existing Kapteyn b entry cites it as support). NASA pscomppars still lists Kapteyn c (2026-09-27)."
+    },
+    {
+      "name": "Kapteyn",
+      "tab": "Systems within 100 ly",
+      "action": "update_host",
+      "current": {
+        "Confirmed planets": 1,
+        "Planet masses (M-earth)": "Kapteyn c:7.00",
+        "Mass type": "Msini",
+        "Planets in HZ": 0,
+        "HZ planet names": "—"
+      },
+      "fields": {
+        "Confirmed planets": {
+          "value": 0,
+          "source": "Kapteyn c removed (b already rejected)",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planet masses (M-earth)": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Mass type": {
+          "value": "",
+          "source": "tab convention",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "Planets in HZ": {
+          "value": 0,
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        },
+        "HZ planet names": {
+          "value": "—",
+          "source": "unchanged",
+          "url": null,
+          "derived": false,
+          "method": null
+        }
+      },
+      "reason": "Its last planet moves to Rejected (Bortle et al. 2021).",
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "incidental_finds": [
+    "Kapteyn b is already on Rejected candidates (tier 'unlikely') and not on the Planets tab, which is right. Its 'Rejected because' text is a copy of the long TIER note, has no leading verdict tag, and ends with a note to the writer ('the writer may prefer to treat it as refuted'). Suggest: 'ROTATION. 48.6 d is Prot/3 (Robertson et al. 2015, ApJL 805, L22) and a joint RV + H-alpha GP (Prot 125 d) finds no planet: both reported planets are rotation and activity artifacts (Bortle et al. 2021, AJ 161, 230).' Source: https://arxiv.org/abs/2103.02709",
+    "GJ 680 Systems row: 'Stellar Class' K5 (and 'Planet-host class' K5, sort key 55) looks wrong. SIMBAD gives CD-48 11837 = GJ 680 = HIP 86057 as M1.5V (Gray et al. 2006, 2006AJ....132..161G), Philipot et al. 2023 Table 7 gives M3V, and Gaia DR3 GSP-Phot Teff is 3235 K. 'Host mass' is blank: Philipot et al. 2023 Table 7 gives 0.47 +/- 0.01 Msun (Kervella et al. 2022); 'Effective temp' is blank: Gaia DR3 3235 K. With Teff filled, the 'HZ distance' cell ('Teff outside 2600-7200 K') would need recomputing. Sources: https://simbad.cds.unistra.fr/simbad/sim-tap/sync , https://arxiv.org/abs/2308.05417 , https://gea.esac.esa.int/tap-server/tap/sync",
+    "Feng et al. 2025 (MNRAS 539, 3180; arXiv:2412.14542), 'Lessons learned from the detection of wide companions', is the Feng group's own correction of its 2022 catalogue: it also reclassifies HD 211847 B and HD 111031 B as low-mass stars (Sect. 4.4, Table 4), and says F22 made HD 62364 look like it had two companions through a Bayes-factor error (Sect. 4.3). Anyone checking other Feng et al. 2022 planets on the sheet should read it.",
+    "HIP 55507 Systems row: 'Planet-host class' is blank (Stellar Class is 'K6 V'). Xuan et al. 2024 Table 1 has host mass 0.67 +/- 0.02 Msun (sheet 0.65), Teff 4200 +/- 50 / 4250 +/- 90 K (sheet 4171), [Fe/H] -0.02, age 1.7 Gyr, Prot 15.8 d. Source: https://arxiv.org/abs/2312.02297"
+  ]
+}

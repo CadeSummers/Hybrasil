@@ -1,0 +1,1796 @@
+{
+ "agent_id": "K010",
+ "batch": "K010",
+ "complete": true,
+ "objects": [
+  {
+   "key": "GJ 11672 B|3542490095189650560",
+   "name": "GJ 11672 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Kervella 2022 J/A+A/657/A7/tablea3 lists RV 2.13 +/- 0.96 for LP 793-34 with r_RV=A12 (Anderson & Francis 2012 XHIP, a Hipparcos-only catalog): that is the primary's (HIP 57361) RV propagated to the companion, not this component's. Tokovinin MSC J/ApJS/235/6 RV 0.0 is a placeholder. APOGEE/SDSS DR19: no row."
+  },
+  {
+   "key": "GJ 12832|4213409341688406912",
+   "name": "GJ 12832",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. Spectral type D; nothing found in any RV catalog."
+  },
+  {
+   "key": "GJ 3431 B|946030529073021440",
+   "name": "GJ 3431 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. SIMBAD's -4.5 +/- 10.2 (Silvestri 2002) is an uncorrected line velocity of a DQ8 WD (also carried in J/A+A/649/A6, J/A+A/693/A228). PMSU III/198 CNS3 1139 (G 87-28, RV -14.0) is the M4 primary GJ 3431 A, not this WD."
+  },
+  {
+   "key": "GJ 10954|3382740882560780928",
+   "name": "GJ 10954",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LAMOST DR7/DR11 MRS and DR11 LRS rows within 4-5\" belong to Gaia DR3 3382740878262020736, a G=12.2 background star (plx 0.81 mas) 4.4\" away, NOT this object (Gaia DR3 3382740882560780928, plx 40.3): not used. Its MRS epochs also vary from -9.6 to -19.7 km/s."
+  },
+  {
+   "key": "Gaia DR3 5277113449154638464|5277113449154638464",
+   "name": "Gaia DR3 5277113449154638464",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 2472746473424383488|2472746473424383488",
+   "name": "Gaia DR3 2472746473424383488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Gagne et al. 2015 (BANYAN VII LP-BASS, J/ApJ/798/73/table8) lists RVel 8.5 +/- 2.0, but that column is the BANYAN-predicted statistical RV for the ABDMG hypothesis (alongside a predicted distance), not a measurement: not used."
+  },
+  {
+   "key": "Gaia DR3 1952552782000889216|1952552782000889216",
+   "name": "Gaia DR3 1952552782000889216",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 13374|2393563872239260928",
+   "name": "GJ 13374",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'LP 822-7 / LHS 3954 radial velocity'"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 5502470211372402048|5502470211372402048",
+   "name": "Gaia DR3 5502470211372402048",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 5253967767361897088|5253967767361897088",
+   "name": "Gaia DR3 5253967767361897088",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 12818|6759481141756109056",
+   "name": "GJ 12818",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 11134|984190381489031424",
+   "name": "GJ 11134",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. DC white dwarf; SIMBAD's 4.02 is a z-type LAMOST redshift."
+  },
+  {
+   "key": "Gaia DR3 3969552570469131648|3969552570469131648",
+   "name": "Gaia DR3 3969552570469131648",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Only RVs within 6\" belong to HD 96692 (Gaia DR3 3969552574763799808, RV 104.6 km/s), a different, brighter neighbour; Kervella 2022 tablea3 carries 104.03 for 2MASS J11083181+1545524 copied from that primary. No measurement of this object."
+  },
+  {
+   "key": "Gaia DR3 2214722739710271488|2214722739710271488",
+   "name": "Gaia DR3 2214722739710271488",
+   "done": true,
+   "rv": {
+    "value": -39.06,
+    "err": 7.56,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=2214722739710271488, col v_rad/e_v_rad; n_good_visits=1, snr 26.5, MJD 59952-59953, zwarning_flags 0, xcsao_teff 2721.4",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "2MASS J23130913+6834036 (Em*). Only measurement found; Gaia RUWE 1.87 (possible unresolved binary). Low-resolution BOSS RV."
+  },
+  {
+   "key": "Gaia DR3 6536153940554895872|6536153940554895872",
+   "name": "Gaia DR3 6536153940554895872",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "HD 219630B = WT 979. Kervella 2022 tablea3 gives 8.13 +/- 7.1 for WT 979, a value copied from a primary-star catalog, not measured for B. PMSU III/198 CNS3 3670 (Gl 894 = HD 219630, K5, RV -59.3) is the primary. Nothing component-specific found."
+  },
+  {
+   "key": "Gaia DR3 2961304432185419776|2961304432185419776",
+   "name": "Gaia DR3 2961304432185419776",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 5768506292485626112|5768506292485626112",
+   "name": "Gaia DR3 5768506292485626112",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 6873832206469976320|6873832206469976320",
+   "name": "Gaia DR3 6873832206469976320",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 3926968661219149184|3926968661219149184",
+   "name": "Gaia DR3 3926968661219149184",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. LAWD 39 (DZ): I/306A RV 7.2 and SIMBAD's z-type LAMOST 1.56 are uncorrected/unspecified line velocities."
+  },
+  {
+   "key": "Gaia DR3 1350517492310907392|1350517492310907392",
+   "name": "Gaia DR3 1350517492310907392",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. GD 366 (DC6, featureless)."
+  },
+  {
+   "key": "GJ 12736|6431977687725247104",
+   "name": "GJ 12736",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'SCR J1848-6855 radial velocity'"
+   ],
+   "notes": "SCR J1848-6855 (JAO 8, binary). Web search 'SCR J1848-6855 radial velocity': only Solar Neighborhood XXXI (spectral type, no RV)."
+  },
+  {
+   "key": "GJ 3289|3280675417175220224",
+   "name": "GJ 3289",
+   "done": true,
+   "rv": {
+    "value": -64.0,
+    "err": 10.0,
+    "src": "PMSU",
+    "where": "VizieR III/198/main, CNS3 773 'LHS 191' (pmRA -0.115, pmDE -1.027 match Gaia), col RV; single epoch, +/-10 km/s per PMSU",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "PMSU": {
+     "citation": "Reid, Hawley & Gizis 1995, AJ 110, 1838 (PMSU I); VizieR III/198",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/III/198",
+     "what": "PMSU low-resolution RVs of nearby M dwarfs, accurate to +/-10 km/s"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'LHS 191 M6.5 radial velocity'",
+    "Gizis & Reid 1997 (astro-ph/9705196) LHS RV table: not listed"
+   ],
+   "notes": "Newton et al. 2016 (J/ApJ/821/93/table1) repeats -64.0 with e_RVel 5.0, citing Reid et al. 1995. PMSU's tabulated position is ~108\" off, so matched by name and proper motion. Web search for 'LHS 191 radial velocity': nothing newer."
+  },
+  {
+   "key": "GJ 11504|5357217647259627648",
+   "name": "GJ 11504",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 11813|3523229125371172608",
+   "name": "GJ 11813",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 10807|3455921181049073280",
+   "name": "GJ 10807",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "GJ 12563|4175226257790341504",
+   "name": "GJ 12563",
+   "done": true,
+   "rv": {
+    "value": -46.48,
+    "err": 6.3,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=4175226257790341504, col v_rad/e_v_rad; n_good_visits=2, snr 36.9, MJD 59362-60045, zwarning_flags 0, xcsao_teff 2599.5",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 688-26. Only measurement found; low-resolution BOSS RV, XCSAO template at grid edge (Teff 2600). Faint G=19.1 neighbour 4.8\" away."
+  },
+  {
+   "key": "GJ 12702|2266317803873109504",
+   "name": "GJ 12702",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 44-334 A. DESI DR1 MWS VRAD = -21.46 km/s (SpecDis J/AJ/170/171, GaiaDR3 match, no error tabulated; DESI DR1 redrock z = -7.224e-5, ZWARN 0, V/161 TargetID 2377659568881664, MJD 59394), but LP 44-334 B (Gaia DR3 2266317803875363968) lies only ~0.84\" away, inside the 1.5\" DESI fibre: combined light of A+B, so withheld per the blended-component convention. Accept -21.46 (err null) if blended values are allowed. APOGEE DR17 row exists but has no RV."
+  },
+  {
+   "key": "Gaia DR3 4590620410730110720|4590620410730110720",
+   "name": "Gaia DR3 4590620410730110720",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 11637|4025472705360139904",
+   "name": "GJ 11637",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 3250489115708824192|3250489115708824192",
+   "name": "Gaia DR3 3250489115708824192",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "HD 22879B. Kervella 2022 tablea3 gives 120.99 +/- 0.3 for DENIS J0340208-031301 with r_RV=N02 (Nidever 2002), which is the G0 primary HD 22879's RV propagated to the companion, not a measurement of B."
+  },
+  {
+   "key": "Gaia DR3 4774146871547078016|4774146871547078016",
+   "name": "Gaia DR3 4774146871547078016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 4483291686266664064|4483291686266664064",
+   "name": "Gaia DR3 4483291686266664064",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 4365|2867032958053059200",
+   "name": "GJ 4365",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 6091343694050492032|6091343694050492032",
+   "name": "Gaia DR3 6091343694050492032",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 12740|6359521108406068992",
+   "name": "GJ 12740",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'SIPS J1848-8214 radial velocity'"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 13069|1791810263689791488",
+   "name": "GJ 13069",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "WD 0644+025|3126453655659835136",
+   "name": "WD 0644+025",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. SDSS DR19 BOSS v_rad 47.6 +/- 16.9 (3 visits) is an uncorrected line velocity."
+  },
+  {
+   "key": "GJ 12817|4293873732939569920",
+   "name": "GJ 12817",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. SDSS DR19 BOSS has a spectrum but no v_rad."
+  },
+  {
+   "key": "GJ 11170|3094447525008511488",
+   "name": "GJ 11170",
+   "done": true,
+   "rv": {
+    "value": 47.52,
+    "err": 3.26,
+    "src": "LI25",
+    "where": "VizieR J/ApJS/281/58/table9, obsid 243810051 (matched 0.11\"), col RVel/e_RVel, n_RVel=1 (recommended), f_RVel=LAMOST; S/N_r 4.5, S/N_i 27.9",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LI25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Same LAMOST spectrum: Wang 2022 J/A+A/660/A38 47.55 (no error), Guo 2019 53.5 (SIMBAD's quality-D value), Ding 2022 65.0, Zhong 2019 206 (bad)."
+  },
+  {
+   "key": "GJ 12248|1193520666521113344",
+   "name": "GJ 12248",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. G 137-24 (DZ): LAMOST DR5 (V/164, J/ApJS/245/34) -73.1 and 6.9 +/- 7.3 are uncorrected and mutually inconsistent; SIMBAD's -17.99 is a z-type value."
+  },
+  {
+   "key": "GJ 11264|5734737438536674432",
+   "name": "GJ 11264",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 36995924872102016|36995924872102016",
+   "name": "Gaia DR3 36995924872102016",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'LHS 1595 radial velocity'"
+   ],
+   "notes": "LP 473-31 (LHS 1595). One LAMOST spectrum (obsid 587115033, S/N_r 5.4) gives -149.64 +/- 4.17 (Li 2025, n_RVel=1), -137.2 (Ding 2022 J/ApJS/260/45) and -113.7 (Zhang 2021 J/ApJS/253/19): analyses of the same spectrum disagree by 36 km/s, so withheld. Accept Li 2025 -149.64 +/- 4.17 if wanted (Li 2025 also gives [M/H] -0.84, consistent with a high-velocity star)."
+  },
+  {
+   "key": "Gaia DR3 5027726757224513536|5027726757224513536",
+   "name": "Gaia DR3 5027726757224513536",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "CD-33 408B. All RVs nearby belong to the K7 primary CD-33 408 = G 269-104 = GJ 3074 (Gaia DR3 5027726757224514176): Gaia 17.3, PMSU/XHIP -11.2 (CNS3 216). Kervella 2022 tablea3 values for 'CD-33 408' are the primary's. No measurement of B."
+  },
+  {
+   "key": "GJ 11398|5410698683096655360",
+   "name": "GJ 11398",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 6235149747552866688|6235149747552866688",
+   "name": "Gaia DR3 6235149747552866688",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 6011124768801217408|6011124768801217408",
+   "name": "Gaia DR3 6011124768801217408",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 10821|265201384281320448",
+   "name": "GJ 10821",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Only one LAMOST LRS spectrum (obsid 632703123) with S/N_r 0.78: Li 2025 38.04 +/- 12.16 (n_RVel=1), Wang 2022 38.07 (SIMBAD's quality-D value), Ding 2022 40.3, Zhang 2021 58.4 +/- 7.7. Withheld for S/N<1 and a 12 km/s error; accept Li 2025 if wanted."
+  },
+  {
+   "key": "Gaia DR3 6553727606699596288|6553727606699596288",
+   "name": "Gaia DR3 6553727606699596288",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 13326 B|1996725077535283200",
+   "name": "GJ 13326 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. RVs of -54 +/- 4 (Newton 2014 'LSPM J2309+5506W', Newton 2016, Kervella) and West 2015 -61.7 belong to the M-dwarf primary G 233-42 (Gaia DR3 1996725077535282944), not this WD."
+  },
+  {
+   "key": "Gaia DR3 4301869381489160576|4301869381489160576",
+   "name": "Gaia DR3 4301869381489160576",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LSPM J1943+0941. SIMBAD's 0 +/- 40 (Lepine 2003, J/AJ/125/1598) is a placeholder. SDSS DR19 BOSS v_rad -8.95 +/- 11.45 (1 visit) exists, but a G=15.4 background star (Gaia DR3 4301869381491735936, plx 0.6) lies 1.9\" away, inside the 2\" BOSS fibre, so it is likely blended: withheld."
+  },
+  {
+   "key": "GJ 10589|3310480909661217664",
+   "name": "GJ 10589",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 171.2 B|151650935831913216",
+   "name": "GJ 171.2 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. I/306A RVs 38/36 and LAMOST DR5 30.2 +/- 18.6 are uncorrected or belong to the primary."
+  },
+  {
+   "key": "Gaia DR3 2738884362439240064|2738884362439240064",
+   "name": "Gaia DR3 2738884362439240064",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 10387|5174318457801944448",
+   "name": "GJ 10387",
+   "done": true,
+   "rv": {
+    "value": 25.06,
+    "err": 0.44,
+    "src": "APO17",
+    "where": "VizieR III/286/catalog, APOGEE 2M02500239-0808417, GaiaEDR3 5174318457801944448, col HRV/e_HRV (2 visits: 24.42, 25.39 km/s, MJD 58861-58862)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "APO17": {
+     "citation": "Abdurro'uf et al. 2022, ApJS 259, 35 (SDSS DR17 / APOGEE)",
+     "url": "https://doi.org/10.3847/1538-4365/ac4414",
+     "what": "APOGEE DR17 allStar, VizieR III/286"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "SDSS DR19 mwm_apogee_allstar gives the same 25.06 +/- 0.44 (n_good_visits 2, std 0.68). Not in Hsu 2024."
+  },
+  {
+   "key": "GJ 12646|4497414466452138496",
+   "name": "GJ 12646",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. SIMBAD's -40 +/- 40 (Lepine 2003) is a placeholder."
+  },
+  {
+   "key": "GJ 10520|63126196662620416",
+   "name": "GJ 10520",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. LAMOST DR5 191 +/- 43 is uncorrected and unreliable."
+  },
+  {
+   "key": "Gaia DR3 3561445881810794368|3561445881810794368",
+   "name": "Gaia DR3 3561445881810794368",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'LHS 2399 / LP 732-22 radial velocity'"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 3710|1575357587146077056",
+   "name": "GJ 3710",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. LAMOST DA-WD values 2.4/0.6 +/- 5 (J/ApJS/273/19) are uncorrected line velocities; SDSS DR19 BOSS has no v_rad."
+  },
+  {
+   "key": "GJ 11427|5404351271207811968",
+   "name": "GJ 11427",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 5915797694789556096|5915797694789556096",
+   "name": "Gaia DR3 5915797694789556096",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "GJ 10279|91196316201965184",
+   "name": "GJ 10279",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 12937|6443365570172526848",
+   "name": "GJ 12937",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 373726652278757888|373726652278757888",
+   "name": "Gaia DR3 373726652278757888",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'LP 194-39 / LHS 1218 radial velocity'"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 13249|1904244261162888576",
+   "name": "GJ 13249",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 4272395456154131456|4272395456154131456",
+   "name": "Gaia DR3 4272395456154131456",
+   "done": true,
+   "rv": {
+    "value": 5.22,
+    "err": 8.92,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=4272395456154131456, col v_rad/e_v_rad; n_good_visits=1, snr 21.5, MJD 59686, zwarning_flags 0, xcsao_teff 2600.0",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 630-182. Only measurement found; low-resolution BOSS RV, XCSAO template at grid edge. Crowded field: G=18.6-20.9 sources within 1.5-8\"."
+  },
+  {
+   "key": "Gaia DR3 6470408677133171968|6470408677133171968",
+   "name": "Gaia DR3 6470408677133171968",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 784.2 B|4249667902270614272",
+   "name": "GJ 784.2 B",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. SIMBAD's 29.9 +/- 5.5 (Silvestri 2002) is an uncorrected line velocity of a DC7 WD. PMSU 8.4 (CNS3 3175) is the M3.5 primary Gl 784.2 A."
+  },
+  {
+   "key": "Gaia DR3 3463773893093461632|3463773893093461632",
+   "name": "Gaia DR3 3463773893093461632",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 4963617807621683712|4963617807621683712",
+   "name": "Gaia DR3 4963617807621683712",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 1643898427602567808|1643898427602567808",
+   "name": "Gaia DR3 1643898427602567808",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 11783|3582675080520660992",
+   "name": "GJ 11783",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 789148567894210560|789148567894210560",
+   "name": "Gaia DR3 789148567894210560",
+   "done": true,
+   "rv": {
+    "value": -35.6,
+    "err": 0.4,
+    "src": "HSU24",
+    "where": "VizieR J/ApJS/274/40/tablea2 and tablea3, 2MASS J11300628+4848234, col RVavg -35.6 (+0.3/-0.4) over 3 APOGEE visits (JD 2457857.6-2457859.6: -35.8, -35.6, -35.4)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "HSU24": {
+     "citation": "Hsu et al. 2024, ApJS 274, 40 (BDKP VI, APOGEE forward-model RVs of late-M/L dwarfs)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/274/40",
+     "what": "Forward-modelled APOGEE RVs; VizieR J/ApJS/274/40"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "APOGEE DR17 (III/286) -36.72 +/- 0.40 (3 visits); SDSS DR19 BOSS -43.6 +/- 9.5 (1 visit); APOGEE DR16 -778.7 and LAMOST (Li 2025 -139.6 +/- 35, Zhang 2021 -258.8) are failures."
+  },
+  {
+   "key": "Gaia DR3 2705999034803810816|2705999034803810816",
+   "name": "Gaia DR3 2705999034803810816",
+   "done": true,
+   "rv": {
+    "value": -20.17,
+    "err": 2.69,
+    "src": "LI25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=2705999034803810816, obsid 381215190, col RVel/e_RVel, n_RVel=1, f_RVel=LAMOST; S/N_r 2.65, S/N_i 18.1",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LI25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 580-40. Same spectrum: Zhang 2021 -8.5 +/- 5.8, Ding 2022 -17.5; Zhong 2019 -129 (J/ApJS/244/8, matched at 3\", unreliable). Li 2025 and Zhang 2021 differ by 1.8 sigma."
+  },
+  {
+   "key": "GJ 10365|5125186299678747008",
+   "name": "GJ 10365",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 5518349869403884928|5518349869403884928",
+   "name": "Gaia DR3 5518349869403884928",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 1136496317013163392|1136496317013163392",
+   "name": "Gaia DR3 1136496317013163392",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 17-44. One LAMOST spectrum (obsid 647109151, S/N_r 3.9): Li 2025 -68.44 +/- 17.53 (n_RVel=1; Wang 2022 -68.49 is SIMBAD's quality-D value), Ding 2022 -33.6, Zhang 2021 -192 +/- 28.5. Withheld: 17.5 km/s error, and analyses disagree by >30 km/s."
+  },
+  {
+   "key": "Gaia DR3 51730755074345088|51730755074345088",
+   "name": "Gaia DR3 51730755074345088",
+   "done": true,
+   "rv": {
+    "value": 37.3,
+    "err": 0.3,
+    "src": "HSU24",
+    "where": "VizieR J/ApJS/274/40/tablea2, 2MASS J03553690+2118482, col RVavg 37.3 +/- 0.3 (one APOGEE visit, JD 2458769.833, S/N 60)",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "HSU24": {
+     "citation": "Hsu et al. 2024, ApJS 274, 40 (BDKP VI, APOGEE forward-model RVs of late-M/L dwarfs)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/274/40",
+     "what": "Forward-modelled APOGEE RVs; VizieR J/ApJS/274/40"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "APOGEE DR17 (III/286) 37.16 +/- 0.42 (1 visit); Li 2025 LAMOST 34.40 +/- 4.42; J/A+A/531/A92 and J/A+A/559/A43 list 34.58 (Hyades-region tables, origin unclear). Gaia RUWE 1.31."
+  },
+  {
+   "key": "Gaia DR3 526331891194068736|526331891194068736",
+   "name": "Gaia DR3 526331891194068736",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 6690416968123220864|6690416968123220864",
+   "name": "Gaia DR3 6690416968123220864",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "PM J19515-4025B. The only RVs nearby are for the A component SCR 1951-4025 (Gaia DR3 6690416968120938368): 20.63 +/- 5.87 (J/ApJ/840/87), Gaia 2.43 +/- 1.18. None for B."
+  },
+  {
+   "key": "GJ 12650|6726429375571878912",
+   "name": "GJ 12650",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 514142567849992832|514142567849992832",
+   "name": "Gaia DR3 514142567849992832",
+   "done": true,
+   "rv": {
+    "value": 1.49,
+    "err": 8.98,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=514142567849992832, col v_rad/e_v_rad; n_good_visits=1, snr 25.8, MJD 59839-59865, zwarning_flags 0, xcsao_teff 2700.0",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "2MASS J02350634+6314325. Only measurement found; low-resolution BOSS RV, XCSAO template at grid edge."
+  },
+  {
+   "key": "Gaia DR3 6154946657841163392|6154946657841163392",
+   "name": "Gaia DR3 6154946657841163392",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. CE 296 (DQ)."
+  },
+  {
+   "key": "Gaia DR3 3379956708664289280|3379956708664289280",
+   "name": "Gaia DR3 3379956708664289280",
+   "done": true,
+   "rv": {
+    "value": 52.04,
+    "err": 2.46,
+    "src": "LI25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=3379956708664289280, obsid 319013068, col RVel/e_RVel, n_RVel=1, f_RVel=LAMOST; S/N_r 6.6, S/N_i 56",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LI25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LSPM J0656+2211. CAUTION: West et al. 2015 (J/ApJ/812/3) give 63.1 (no error; Newton 2016 J/ApJ/821/93 repeats it with +/-5), 11 km/s away. Same LAMOST spectrum: Zhang 2021 53.9 +/- 2.1, Wang 2022 52.07, Ding 2022 51.3, Zhang 2025 58.4 +/- 13.4. Chose the most recent survey value per rule 3; reject if the 63.1 vs 52 conflict is disqualifying."
+  },
+  {
+   "key": "Gaia DR3 4815192671404177280|4815192671404177280",
+   "name": "Gaia DR3 4815192671404177280",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null."
+  },
+  {
+   "key": "Gaia DR3 2420188237068400512|2420188237068400512",
+   "name": "Gaia DR3 2420188237068400512",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 6402595850813135360|6402595850813135360",
+   "name": "Gaia DR3 6402595850813135360",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 10689|4774420478143249536",
+   "name": "GJ 10689",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "APOGEE DR17 allStar HRV 322.2 +/- 9.2 from one S/N 7.5 visit (spectrum_flags set) is unphysical noise: not used."
+  },
+  {
+   "key": "GJ 11810|3931880591977203584",
+   "name": "GJ 11810",
+   "done": true,
+   "rv": {
+    "value": -20.03,
+    "err": 4.65,
+    "src": "LI25",
+    "where": "VizieR J/ApJS/281/58/table9, Gaia=3931880591977203584, obsid 991507250, col RVel/e_RVel, n_RVel=1, f_RVel=LAMOST; S/N_r 10.6, S/N_i 110",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "LI25": {
+     "citation": "Li et al. 2025, ApJS 281, 58 (Refined M-type star catalog from LAMOST DR10)",
+     "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJS/281/58",
+     "what": "LAMOST DR10 low-resolution per-spectrum RVs of M stars, validity flag n_RVel"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LP 495-189 = LAW 1, an M5-7+M6-7 binary unresolved by Gaia (single source, RUWE 1.49): this is a combined-light RV of the pair, appropriate for the system row but not for either component. APOGEE DR17 1048.8 +/- 13.6 (S/N 1.3) is a failure."
+  },
+  {
+   "key": "Gaia DR3 4849257878094479488|4849257878094479488",
+   "name": "Gaia DR3 4849257878094479488",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 13218 B|1878388180081101440",
+   "name": "GJ 13218 B",
+   "done": true,
+   "rv": {
+    "value": 9.0,
+    "err": 4.0,
+    "src": "N14",
+    "where": "VizieR J/AJ/147/20/table6, 'LSPM J2215+2321' m_Name=W (M6V), col RV/e_RV, JD 2456165.8 (single epoch); B = LSPM J2215+2321W per SIMBAD, and this Gaia source is the western one, 1.35\" from A",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "N14": {
+     "citation": "Newton et al. 2014, AJ 147, 20 (NIR metallicities, RVs and spectral types for 447 nearby M dwarfs, IRTF/SpeX)",
+     "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/147/20",
+     "what": "SpeX NIR RVs of nearby M dwarfs (~4-6 km/s), resolved binaries listed per component; VizieR J/AJ/147/20/table6"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "Component E (= A, M7V in Newton) has 7 +/- 5; Newton 2016 J/ApJ/821/93 lists 7.0 +/- 5 for the unresolved 2MASS source. Gaia DR3 gives A (1878388180082512000) -0.18 +/- 4.35."
+  },
+  {
+   "key": "GJ 10723 B|266846631637525120",
+   "name": "GJ 10723 B",
+   "done": true,
+   "rv": {
+    "value": 72.06,
+    "err": 7.2,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=266846631637525120, col v_rad/e_v_rad; n_good_visits=2, snr 39.6, MJD 59972-59973, zwarning_flags 0, xcsao_teff 2600.2",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "BD+52 911B, 5.6\" from the G=9.2 primary BD+52 911 (Gaia DR3 266846631637524864, RV 65.45). The BOSS fibre targeted B's own Gaia id; some light from the bright primary may leak into the 2\" fibre, but both stars share the systemic velocity. Kervella 2022 tablea3 'BD+52 911B' 66.39 +/- 0.3 is the primary's value propagated; I/306A, PMSU etc. rows nearby are the primary. Low-resolution BOSS RV, XCSAO template at grid edge (Teff 2600)."
+  },
+  {
+   "key": "GJ 10849|3314939979068074624",
+   "name": "GJ 10849",
+   "done": true,
+   "rv": {
+    "value": -12.08,
+    "err": 7.42,
+    "src": "BOSS",
+    "where": "SDSS DR19 mwm_boss_allstar, gaia_dr3_source_id=3314939979068074624, col v_rad/e_v_rad; n_good_visits=2, snr 30.4, MJD 59972-60000, zwarning_flags 0, xcsao_teff 2600",
+    "wikipedia": false
+   },
+   "pm": null,
+   "sources": {
+    "BOSS": {
+     "citation": "SDSS Collaboration 2025, Nineteenth Data Release of the Sloan Digital Sky Survey (DR19), Milky Way Mapper BOSS allStar (table mwm_boss_allstar, Astra v0.6.0)",
+     "url": "https://skyserver.sdss.org/dr19/",
+     "what": "SDSS-V/MWM BOSS low-resolution (R~2000) RVs; queried via SkyServer DR19 SQL by gaia_dr3_source_id"
+    }
+   },
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "LSPM J0557+0048. Alternatives (all from one or two low-S/N LAMOST spectra): Li 2025 -37.77 +/- 16.09 (obsid 499011094) and -28.45 +/- 19.0 (obsid 988211094), Wang 2022 -37.8 (SIMBAD's quality-D value), Zhang 2021 -76.2 +/- 20, Ding 2022 8.1. BOSS chosen as the most precise, two-visit value; consistent with Li 2025 within ~1.5 sigma."
+  },
+  {
+   "key": "Gaia DR3 6152709705729644160|6152709705729644160",
+   "name": "Gaia DR3 6152709705729644160",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 10976|3357958852543597056",
+   "name": "GJ 10976",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "One LAMOST spectrum (obsid 282305131, S/N_r 0.84): Li 2025 19.42 +/- 3.05 (n_RVel=1; = Wang 2022 19.43, SIMBAD's quality-D value), Zhang 2021 27.9 +/- 4.3, Ding 2022 38.7. Withheld: S/N<1, and analyses of the same spectrum disagree by 8-19 km/s."
+  },
+  {
+   "key": "Gaia DR3 3891115064506627840|3891115064506627840",
+   "name": "Gaia DR3 3891115064506627840",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "White dwarf: rule 4 applies; no redshift-corrected kinematic RV found, so rv left null. PG 1157+004: LAMOST/DESI line velocities range from -881 to +899 km/s (pipeline failures) and are uncorrected."
+  },
+  {
+   "key": "Gaia DR3 4603189168664878208|4603189168664878208",
+   "name": "Gaia DR3 4603189168664878208",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 12560|5918136424731578240",
+   "name": "GJ 12560",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 6783677544390496896|6783677544390496896",
+   "name": "Gaia DR3 6783677544390496896",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "Gaia DR3 1808174467064403968|1808174467064403968",
+   "name": "Gaia DR3 1808174467064403968",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  },
+  {
+   "key": "GJ 12256|6234648404610590208",
+   "name": "GJ 12256",
+   "done": true,
+   "rv": null,
+   "pm": null,
+   "sources": {},
+   "searched": [
+    "VizieR all-catalog cone search (every table with an RV/velocity column) at the J2000 pm-propagated position (r=8\") and the J2016 position (r=4\"); covers APOGEE DR16/DR17 (III/284, III/286), LAMOST DR7/DR11 LRS+MRS (V/156, V/162), Li 2025 J/ApJS/281/58, Zhang 2021 J/ApJS/253/19, Zhong 2019 J/ApJS/244/8, Ding 2022 J/ApJS/260/45, Wang 2022 J/A+A/660/A38, Guo 2019 J/MNRAS/485/2167, Hsu 2024 J/ApJS/274/40, Newton 2014/2016 (J/AJ/147/20, J/ApJ/821/93), West 2015 J/ApJ/812/3, DESI DR1 SpecDis J/AJ/170/171, RAVE, GALAH, Gaia-ESO, CARMENES, SPY/Pauli WD catalogs, Kervella 2022 J/A+A/657/A7, etc.",
+    "SDSS DR19 MWM mwm_apogee_allstar / mwm_apogee_allvisit / mwm_boss_allstar (SkyServer SQL, by gaia_dr3_source_id)",
+    "SIMBAD mesVelocities (TAP, by Gaia DR3 id)",
+    "PMSU III/198 and Gizis 2002 J/AJ/123/3356 (240\" cone, matched by proper motion, since PMSU positions are off by up to ~2')",
+    "Targeted VizieR at J1950/J1990/J2000: Reiners 2018 J/A+A/612/A49, Lafarga 2020 J/A+A/636/A36, Fouque 2018 J/MNRAS/475/1960, Shkolnik 2012 J/ApJ/758/56, Terrien 2015 J/ApJS/220/16, Sperauskas 2019 J/A+A/626/A31, Latham 2002 J/AJ/124/1144; Dawson & De Robertis 2005 J/PASP/117/1 (by LHS number); Reiners & Basri 2009 J/ApJ/705/1416",
+    "Web search 'SIPS J1540-2613 radial velocity'"
+   ],
+   "notes": "No RV found in any catalog or survey searched."
+  }
+ ]
+}
