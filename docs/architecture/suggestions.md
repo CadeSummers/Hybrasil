@@ -84,9 +84,12 @@ In order:
    give it to the build as `HYBRASIL_TURNSTILE_SITEKEY`. Its **secret key**
    becomes a Pages secret: `npx wrangler pages secret put TURNSTILE_SECRET`.
 4. `npx wrangler pages secret put IP_SALT`, with a long random string.
-5. The deploy workflow writes `wrangler.toml` from `wrangler.example.toml`
-   and `D1_DATABASE_ID`, so no Cloudflare identifier is committed.
-   `wrangler.toml` is git-ignored.
+5. The deploy workflow (`.github/workflows/pages.yml`) writes `wrangler.toml`
+   from `wrangler.example.toml` and `D1_DATABASE_ID`, so no Cloudflare
+   identifier is committed. `wrangler.toml` is git-ignored.
+6. The same workflow runs `d1 migrations apply --remote` before every deploy.
+   It is idempotent, so a new file in `migrations/` reaches the database with
+   the commit that adds it. Step 2 is only the first run of it.
 
 Before the first deploy, `npx wrangler pages dev site` with a local D1 runs
 the function end to end. The tests run it under node with a fake database

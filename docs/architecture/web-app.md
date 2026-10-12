@@ -212,6 +212,42 @@ orbit-line coordinates (`lines`). Trimming their precision is the obvious cut
 if size ever matters; it must leave band geometry alone (CLAUDE.md, the
 flat-disc rule).
 
+### Deploy: hybrasil.app is `main`
+
+`.github/workflows/pages.yml` builds the site from the committed snapshot and
+uploads it to the Cloudflare Pages project `hybrasil`. The project is a
+**Direct Upload** project, not a Git-integrated one: GitHub Actions is the
+link to the repository. Three things follow from that.
+
+- **Tests gate the deploy.** The deploy job `needs` the `tests` job, which is
+  `tests.yml` called as a reusable workflow, so a red commit never goes live.
+- **There is one deploy source.** The guard is `github.repository ==
+  'CadeSummers/Hybrasil' && github.ref == 'refs/heads/main'`. Hybrasil-dev
+  carries the same files and runs the tests, but its deploy is skipped. No
+  branch gets a preview build.
+- **The weekly run rebuilds the same commit.** Scenes start at build time, so a
+  Monday cron keeps the planets where they are now. `workflow_dispatch` does
+  the same by hand.
+
+The workflow never runs on `pull_request`, because the deploy holds secrets.
+
+**`main` changes only by squash-merging a pull request.** The repository's
+`main` ruleset requires all of the following:
+
+- a pull request, with no approving review (there is one maintainer);
+- the `tests` check;
+- verified signatures, which GitHub's squash commit has;
+- linear history.
+
+A change goes to the public repo as a short-lived `pr/<name>` branch, which is
+deleted on merge. The local pre-push hook allows that branch and refuses a
+direct push to `main`. Snapshot pull requests (`catalog.md`) follow the same
+route on `snapshot/auto`.
+
+It writes `wrangler.toml` from `wrangler.example.toml` and applies the D1
+migrations before deploying (`suggestions.md` § Setup). Its secrets live in the
+GitHub environment `production`, which is restricted to `main`.
+
 ## Telling crawlers and agents whose it is (`hybrasil/web/discovery.py`)
 
 The defence against copies is being the canonical

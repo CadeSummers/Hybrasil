@@ -157,7 +157,12 @@ window.__t = {
       await new Promise(res => setTimeout(res, 60));
     }
     await new Promise(res => setTimeout(res, 500));   // let the easing finish
+    // A starved page (a hosted runner's software WebGL) may not have drawn
+    // twice yet: wait, bounded, for frames to time, and count the one still
+    // open, so a real stall reports as a long frame rather than as nothing.
+    for (let i = 0; i < 50 && frames.length < 3; i++) await new Promise(res => setTimeout(res, 100));
     run = false;
+    frames.push(performance.now() - last);
     const f = frames.slice(1).sort((a, b) => a - b);
     return {events: n, full: this.isFull(), p50: f[Math.floor(f.length / 2)],
             p95: f[Math.floor(f.length * 0.95)], max: f[f.length - 1]};
@@ -341,7 +346,12 @@ window.__t3 = {
       await new Promise(res => setTimeout(res, 60));
     }
     await new Promise(res => setTimeout(res, 800));   // let the damping settle
+    // A starved page (a hosted runner's software WebGL) may not have drawn
+    // twice yet: wait, bounded, for frames to time, and count the one still
+    // open, so a real stall reports as a long frame rather than as nothing.
+    for (let i = 0; i < 50 && frames.length < 3; i++) await new Promise(res => setTimeout(res, 100));
     run = false;
+    frames.push(performance.now() - last);
     const f = frames.slice(1).sort((a, b) => a - b);
     return {events: n, outside: this.inView(), p50: f[Math.floor(f.length / 2)],
             p95: f[Math.floor(f.length * 0.95)], max: f[f.length - 1]};
@@ -478,7 +488,7 @@ def test_three_zooming_out_brings_the_whole_system_into_view(three, key):
                                     if (d > bd) { bd = d; best = b; } }
       S.frameBody(best);
     }""")
-    three.wait_for_timeout(1200)                # the 700 ms flight
+    three.wait_for_function("() => !window.__SA3.flying()", timeout=10_000)  # the 700 ms flight
     # Then further in, until something is out of view: Proxima c's own
     # framing still holds the whole Proxima system.
     three.evaluate("""async () => {
@@ -585,10 +595,16 @@ def test_three_search_frames_a_body_and_opens_its_info_panel(three):
     search = three.get_by_placeholder("Find in system…")
     search.fill("earth")
     search.press("Enter")
-    three.wait_for_timeout(1200)
-    off = three.evaluate("""() => { const S = window.__SA3;
+    # The flight is FLY_MS of animation frames, which a hosted CI runner's
+    # software WebGL can stretch well past a fixed wait: poll for arrival.
+    off_js = """() => { const S = window.__SA3;
         const e = S.bodies().find(b => b.data.name === 'Earth').obj.position;
-        return S.controls.target.distanceTo(e); }""")
+        return S.controls.target.distanceTo(e); }"""
+    try:
+        three.wait_for_function(f"() => ({off_js})() < 1e-6", timeout=10_000)
+    except Exception:
+        pass  # the assertion below reports how far off it stopped
+    off = three.evaluate(off_js)
     assert off < 1e-6, f"the camera is not on Earth ({off} AU off)"
     panel = three.locator("#_sa_info_panel")
     assert panel.is_visible() and "Earth" in panel.inner_text()

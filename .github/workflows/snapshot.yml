@@ -1,0 +1,101 @@
+# SPDX-FileCopyrightText: 2026 Cade Summers
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# The live sheet -> a pull request with a fresh data/ snapshot, for review.
+# Merging it is what publishes the data: pages.yml deploys main, and main is
+# what hybrasil.app shows.  The site itself never reads the sheet.
+#
+# Keyless.  google-github-actions/auth trades this run's GitHub OIDC token
+# for a short-lived access token of hybrasil-snapshot-ro, a service account
+# with no key and no project role, shared on the workbook as Viewer only.
+# The Workload Identity provider admits CadeSummers/Hybrasil's main alone (by
+# numeric repository and owner id), so Hybrasil-dev cannot authenticate even
+# with this file.  docs/architecture/catalog.md (Snapshot pull requests).
+#
+# Needs, in the GitHub environment `snapshot` (restricted to main):
+#   secret     HYBRASIL_SHEET_ID
+#   variables  GCP_WIF_PROVIDER, GCP_SERVICE_ACCOUNT
+
+name: snapshot
+
+on:
+  schedule:
+    - cron: "41 5 * * 1"  # Mondays 05:41 UTC, ahead of the weekly rebuild
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Open the pull request even if the content is unchanged
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  export:
+    if: github.repository == 'CadeSummers/Hybrasil' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: snapshot
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements.txt
+
+      - id: auth
+        uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093  # v3.0.0
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
+          access_token_lifetime: 600s
+          create_credentials_file: false
+
+      - id: export
+        env:
+          HYBRASIL_SHEET_ID: ${{ secrets.HYBRASIL_SHEET_ID }}
+          HYBRASIL_GOOGLE_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: python -m hybrasil.data.export_snapshot ${{ inputs.force && '--force' || '' }}
+
+      - id: pr
+        if: steps.export.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1  # v8.1.1
+        with:
+          branch: snapshot/auto
+          delete-branch: true
+          # Through the API, so GitHub signs the commit: main's ruleset
+          # requires verified signatures.
+          sign-commits: true
+          add-paths: data/
+          commit-message: |
+            Snapshot the workbook as ${{ steps.export.outputs.title }}
+
+            Exported by .github/workflows/snapshot.yml.
+          title: "Snapshot: ${{ steps.export.outputs.title }}"
+          body: |
+            The workbook `${{ steps.export.outputs.title }}`, exported by `snapshot.yml` from the live sheet.
+
+            Check the `tests` run on this pull request, then merge: `pages.yml` deploys `main`.
+            Nothing reaches hybrasil.app until this is merged.
+
+      # A pull request opened with GITHUB_TOKEN starts no workflow run, so
+      # the tests would never report on it.  workflow_dispatch is the
+      # exception, and its check run lands on the branch head.
+      - if: steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run tests.yml --repo "$GITHUB_REPOSITORY" --ref snapshot/auto
