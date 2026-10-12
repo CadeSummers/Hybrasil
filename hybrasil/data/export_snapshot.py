@@ -21,7 +21,8 @@ Credentials, in order:
 - ``$HYBRASIL_GOOGLE_TOKEN``, an OAuth access token.  This is what
   ``.github/workflows/snapshot.yml`` passes: a short-lived token for the
   keyless, read-only service account, reached through Workload Identity
-  Federation.  ``spreadsheets.readonly`` is enough for both calls.
+  Federation, scoped ``drive.readonly``: the export URL refuses
+  ``spreadsheets.readonly`` (HTTP 401), though the title lookup takes it.
 - otherwise the maintainer's local credential (`google_sheets._load_credentials`).
 
 Under GitHub Actions it writes ``changed`` and ``title`` to ``$GITHUB_OUTPUT``.

@@ -51,9 +51,10 @@ python -m hybrasil.data.export_snapshot --force    # replace it regardless
 Either way it downloads the export URL, names the file after the workbook,
 deletes the previous snapshot and rewrites the table row above. It replaces
 nothing when every cell's value, border, fill and note is unchanged. A rename
-alone is therefore no change, and neither is the zip's own timestamp. The export URL
-and the title lookup both accept a `spreadsheets` scope, so no Drive scope is
-needed.
+alone is therefore no change, and neither is the zip's own timestamp. By hand, the
+stored credential's `spreadsheets` scope is enough for both the export URL and
+the title lookup. The workflow's read-only token needs `drive.readonly`,
+because the export URL refuses `spreadsheets.readonly`.
 
 Earlier snapshots were made other ways: `hy-brasil-20260925-1342` through the
 Drive connector's `files.export`, and `hy-brasil-20260920-2253` as a Sheets-API

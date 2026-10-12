@@ -61,7 +61,9 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
           service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
           token_format: access_token
-          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
+          # The xlsx export URL refuses spreadsheets.readonly (HTTP 401) and
+          # takes drive.readonly; the account can open only the one shared file.
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
           access_token_lifetime: 600s
           create_credentials_file: false
 

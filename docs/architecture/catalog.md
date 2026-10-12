@@ -61,7 +61,8 @@ when every cell's value, border, fill and note is unchanged.
 
 **It signs in without a key.** `google-github-actions/auth` exchanges the run's
 GitHub OIDC token, through Workload Identity Federation, for a 10-minute
-`spreadsheets.readonly` access token for `hybrasil-snapshot-ro`. That service
+`drive.readonly` access token for `hybrasil-snapshot-ro`. (The xlsx export
+URL refuses `spreadsheets.readonly` with a 401.) That service
 account has three limits:
 
 - it has no key and no project role;
