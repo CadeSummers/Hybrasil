@@ -1,0 +1,39 @@
+# SPDX-FileCopyrightText: 2026 Cade Summers
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# The whole suite, browser tests included, against the committed workbook
+# snapshot.  The job is named `tests`: that is the required status check on
+# main, and pages.yml calls this file so nothing deploys from a red commit.
+#
+# workflow_dispatch is how snapshot.yml gets a check onto its own pull
+# request: a pull request opened with GITHUB_TOKEN starts no workflow, but a
+# dispatch does.
+
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HYBRASIL_DATA_SOURCE: snapshot
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m pytest -q
