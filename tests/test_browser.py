@@ -610,6 +610,40 @@ def test_three_search_frames_a_body_and_opens_its_info_panel(three):
     assert panel.is_visible() and "Earth" in panel.inner_text()
 
 
+_MARKER_SIZES = """() => { const S = window.__SA3, ratio = S.renderer.getPixelRatio();
+  return Object.fromEntries(S.bodies().map(b => [b.data.name,
+    [b.obj.material.size / ratio, b.data.size]])); }"""
+
+
+_FIRST_DRAWN = """f => { const S = window.__SA3, b = S.bodies()[0];
+  return Math.abs(b.obj.material.size / S.renderer.getPixelRatio() - b.data.size * f) < 1e-6; }"""
+
+
+def test_three_markers_are_smaller_on_a_phone(page, three_url):
+    # Every body is drawn at 70% on a phone, and the change follows the
+    # layout live: a phone turned, a window narrowed.  0.9 is the Plotly match.
+    page.set_viewport_size({"width": 1400, "height": 850})
+    page.goto(three_url)
+    page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
+    wide = page.evaluate(_MARKER_SIZES)
+    assert all(drawn == pytest.approx(size * 0.9) for drawn, size in wide.values())
+    page.set_viewport_size({"width": 390, "height": 844})
+    # The media query's change event lands on the next rendering step, after
+    # matchMedia() already says so: wait for the markers, not the query.
+    page.wait_for_function(_FIRST_DRAWN, arg=0.9 * 0.7, timeout=5_000)
+    phone = page.evaluate(_MARKER_SIZES)
+    assert all(drawn == pytest.approx(size * 0.9 * 0.7) for drawn, size in phone.values())
+    assert phone["Sun"][0] == pytest.approx(wide["Sun"][0] * 0.7)
+    # A system opened on the phone is built small, not just resized.
+    page.evaluate("() => window.__SA3.switchTo('trappist-1')")
+    built = page.evaluate(_MARKER_SIZES)
+    assert all(drawn == pytest.approx(size * 0.9 * 0.7) for drawn, size in built.values())
+    page.set_viewport_size({"width": 1400, "height": 850})
+    page.wait_for_function(_FIRST_DRAWN, arg=0.9, timeout=5_000)
+    back = page.evaluate(_MARKER_SIZES)
+    assert all(drawn == pytest.approx(size * 0.9) for drawn, size in back.values())
+
+
 def test_three_a_phone_folds_featured_bands_and_legend(page, three_url):
     # At iPhone size the featured buttons, band panel and legend are folded
     # dropdowns, closed until tapped (docs/architecture/three-renderer.md,

@@ -207,6 +207,10 @@ controls away so the system has the screen (`COMPACT`, `setCompact()` in
   marker where each one stood so it goes back to that exact place on a wider
   screen.
 - **More Modeled Systems** drops from the whole bar, edge to edge.
+- **Markers are drawn at 70%** (`PHONE_MARKER`, `markerPx()`): a star at
+  about 16 px instead of 23, so a crowded inner system stays readable. A
+  rotated phone or narrowed window resizes them live (`resizeMarkers()`).
+  The pick radius stays `PICK_PX`, so a smaller marker is no harder to tap.
 
 - **The featured systems** sit under one `★ <open system> ▾` toggle. They are
   the same buttons, moved into a popup, so nothing about what a button does
