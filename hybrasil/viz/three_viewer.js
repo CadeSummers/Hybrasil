@@ -513,7 +513,7 @@ function stepFlight(now) {
 // `spin`, which loop() spends a dampingFactor share of each frame, so a drag
 // eases in and coasts out as OrbitControls' damped rotation did.  Only a
 // flight discards it: what is left is part of the drag, not just momentum.
-const ROT_STOP = 1e-6;            // radians a frame below which the coast ends
+const ROT_STOP = 1e-4;            // radians a frame (~0.1 px) below which the coast ends
 const Q_IDENTITY = new THREE.Quaternion();
 let spin = null;                  // rotation still to apply, as a quaternion
 const rot = { pointers: new Map(), id: null, x: 0, y: 0, moved: false, twist: null };
@@ -2244,6 +2244,7 @@ window.__SA3 = {
   bands: () => bandMeshes, bodies: () => bodies, clouds: () => clouds,
   camera, controls, renderer, scene,
   rotateView, spinning: () => !!spin,
+  settle: () => { if (spin) { rotateView(spin); spin = null; } },   // the coast, at once
   pick,
   sky: () => ({ on: sky.on, loaded: sky.loaded, have: sky.have, url: !!SKY_URL }),
   lines: () => world ? world.children.filter((o) => o.userData && o.userData.name && !o.isPoints

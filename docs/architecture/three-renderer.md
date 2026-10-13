@@ -135,8 +135,12 @@ reason it is one in Plotly: it is the same mesh.
      Only a flight discards what is left: the rest is part of the drag, not
      just momentum.
    - **The tests.** `test_three_a_drag_carries_the_camera_over_the_pole` fails
-     on the turntable, so it pins the hazard. Its siblings pin the sideways
-     drag, Shift+drag, the twist, and Orient levelling a roll.
+     on the turntable, so it pins the hazard: that camera stalls edge-on, at
+     elevation 0.008. Its siblings pin the sideways drag, Shift+drag, the
+     twist, and Orient levelling a roll.
+   - **Each test calls `__SA3.settle()`**, which applies what is left of
+     `spin` at once, then measures the result. Waiting for the coast to end
+     timed out in CI, where software WebGL draws few frames a second.
 
 ## Shared with the Plotly viewer: `band_kit.js`
 
