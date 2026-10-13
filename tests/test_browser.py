@@ -1431,6 +1431,28 @@ def test_three_the_sky_is_drawn_and_the_button_turns_it_off(three):
     assert credit.is_visible()
 
 
+@pytest.mark.parametrize("size", [(1400, 850), (390, 844)], ids=["desktop", "phone"])
+def test_three_the_author_is_credited_bottom_right(page, three_url, size):
+    # In the sky credit's type, from about.json, and never under the sky
+    # credit, which on a phone wraps beside it.
+    from hybrasil.viz.three_viewer import about
+
+    page.set_viewport_size({"width": size[0], "height": size[1]})
+    page.goto(three_url)
+    page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
+    _sky_ready(page)
+    author = page.locator("#sa3-author-credit")
+    assert author.is_visible()
+    assert author.inner_text() == f"Created by {about()['author']['name']}"
+    sky = page.get_by_text("Deep Star Maps 2020", exact=False)
+    a, s = author.bounding_box(), sky.bounding_box()
+    assert a["x"] + a["width"] == pytest.approx(size[0] - 8, abs=1)
+    assert a["y"] + a["height"] == pytest.approx(size[1] - 6, abs=1)
+    assert a["x"] >= s["x"] + s["width"], "the author credit overlaps the sky credit"
+    style = "el => { const c = getComputedStyle(el); return [c.fontFamily, c.fontSize, c.color]; }"
+    assert author.evaluate(style) == sky.evaluate(style)
+
+
 def test_three_go_to_system_opens_a_stars_featured_system(three):
     _open_view(three)
     panel = three.locator("#_sa_info_panel")

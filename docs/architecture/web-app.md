@@ -140,7 +140,9 @@ not assumed, and never exceeds 60% of the window.
     was built from), its licences, its data credits and a privacy note.
   - Its content is `hybrasil/about.json`, shipped to every three.js page as
     `window.SA3_ABOUT`. Fill in a DOI or a Ko-fi/Patreon handle there; a
-    null hides its line.
+    null hides its line. The "Created by" credit at the bottom right of the
+    canvas takes the author's name from the same file. It shares one row with
+    the Milky Way credit, so on a phone the sky credit wraps beside it.
   - Both are modals built by `makeDialog()` in `three_viewer.js`. Escape and
     a click outside close them, Tab stays inside, keys never reach the
     camera, and focus returns to the opener.
