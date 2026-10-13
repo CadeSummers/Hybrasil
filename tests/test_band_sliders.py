@@ -643,8 +643,9 @@ class TestTypingAValue:
         assert "gRow.input.addEventListener('input', _onSlide);" in panel
         assert "_wireTyping(gRow, C0.g_min, C0.g_max, 'K'," in panel
         assert "gRow.input.value = C0.g0;" in panel
-        assert panel.index("bandPanel.appendChild(gCaption);") < panel.index(
-            "bandPanel.appendChild(gRow.row);")
+        # The rows live in the panel's body, which folds on a phone (setCompact).
+        assert panel.index("body.appendChild(gCaption);") < panel.index(
+            "body.appendChild(gRow.row);")
 
     def test_the_recompute_reads_the_greenhouse(self):
         start = _ZOOM_JS.index("function _recomputeBands(")

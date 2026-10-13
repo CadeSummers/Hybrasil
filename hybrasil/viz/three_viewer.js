@@ -946,10 +946,11 @@ const ui = (() => {
     const b = document.createElement('button'); b.textContent = text; b.style.cssText = css;
     b.addEventListener('click', onClick); bar.appendChild(b); return b;
   };
-  btn('⦿  Orient', () => orient(true, 'above'));
-  btn('◁  Back', () => {
+  const orientBtn = btn('⦿  Orient', () => orient(true, 'above'));
+  const backBtn = btn('◁  Back', () => {
     if (!goBack()) toast('Already at the widest view', false);
-  }).title = 'Return to the view before the last double-click or search';
+  });
+  backBtn.title = 'Return to the view before the last double-click or search';
   // Anything short of all-on switches everything on: the button is a way out
   // of a mess of individually toggled bands, not another one.
   const bandsBtn = btn('◎  Bands: Off', () => setBands(bandState() !== 'On'));
@@ -1011,7 +1012,9 @@ const ui = (() => {
     if (featOpen && !featWrap.contains(ev.target)) closeFeatures();
   });
   function syncFeatures(feats) {
-    featWrap.style.display = feats.length ? 'inline-block' : 'none';
+    // In the phone's ⋯ menu it is a full-width row like the others.
+    featWrap.style.display = feats.length ? (compact ? 'block' : 'inline-block') : 'none';
+    featBtn.style.width = compact ? '100%' : '';
     if (!feats.length && featOpen) { featOpen = false; featBox.style.display = 'none'; bar.style.zIndex = '12'; }
     const lit = feats.some((o) => optionalOn(o.key));
     featBtn.textContent = `✧  Even more features ${featOpen ? '▴' : '▾'}`;
@@ -1045,7 +1048,8 @@ const ui = (() => {
     e.stopPropagation();     // typing must not reach the camera controls
   });
   bar.appendChild(searchIn);
-  btn('⌕', () => search(searchIn.value)).title = 'Search';
+  const searchBtn = btn('⌕', () => search(searchIn.value));
+  searchBtn.title = 'Search';
   const playBtn = btn('▶ Play', () => { anim.playing = !anim.playing; sync(); });
   const slider = document.createElement('input');
   Object.assign(slider, { type: 'range', min: 0, step: 'any', value: 0 });
@@ -1055,6 +1059,31 @@ const ui = (() => {
   const dateEl = document.createElement('span'); dateEl.style.cssText = 'font-size:12px;min-width:90px';
   bar.appendChild(dateEl);
   const spacer = document.createElement('span'); spacer.style.flex = '1'; bar.appendChild(spacer);
+
+  // On a phone (compact, below) everything not reached for constantly moves
+  // into this menu -- search, Sky, Even more features, the optional sets,
+  // Suggest Changes and About -- leaving Orient, Back, Bands, Play and the
+  // time slider on one row.  The same elements move, so nothing about what
+  // they do changes; on a wider screen the menu is hidden and empty.
+  const menuWrap = document.createElement('span');
+  menuWrap.style.cssText = 'position:relative;display:none';
+  const menuBtn = document.createElement('button');
+  menuBtn.textContent = '⋯';
+  menuBtn.style.cssText = css;
+  menuBtn.title = 'More controls';
+  menuBtn.setAttribute('aria-label', 'More controls');
+  menuBtn.setAttribute('aria-haspopup', 'menu');
+  menuBtn.setAttribute('aria-expanded', 'false');
+  const menuBox = document.createElement('div');
+  menuBox.style.cssText = 'position:absolute;top:calc(100% + 4px);right:0;width:240px;'
+    + 'max-width:calc(100vw - 16px);box-sizing:border-box;display:none;flex-direction:column;'
+    + 'gap:6px;z-index:20;background:rgba(10,10,30,0.97);border:1px solid #333366;'
+    + 'border-radius:4px;padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5)';
+  const menuSearch = document.createElement('div');
+  menuSearch.style.cssText = 'display:flex;gap:6px';
+  menuBox.appendChild(menuSearch);
+  menuWrap.append(menuBtn, menuBox);
+  dateEl.after(menuWrap);
 
   // ── Systems: featured buttons, and a More Modeled Systems dropdown ────
   // The featured systems -- the literature-built set -- get a button each.
@@ -1074,9 +1103,21 @@ const ui = (() => {
   const featuredLabel = mk('span', '★ Featured systems');
   featuredLabel.style.cssText = 'font-size:12px;color:#8899bb;padding:0 2px';
   sysWrap.appendChild(featuredLabel);
+  // On a phone (compact, below) the same buttons fold into a dropdown under
+  // a toggle named for the open system; on a wider screen the wrapper is
+  // display:contents and the toggle hidden, so the row lays out as it always has.
+  const featuredWrap = mk('span');
+  featuredWrap.style.cssText = 'display:contents';
+  sysWrap.appendChild(featuredWrap);
+  const featuredToggle = mk('button');
+  featuredToggle.style.cssText = css + 'display:none;';
+  featuredToggle.setAttribute('aria-haspopup', 'menu');
+  featuredToggle.setAttribute('aria-expanded', 'false');
+  featuredWrap.appendChild(featuredToggle);
   const featuredRow = mk('span');
-  featuredRow.style.cssText = 'display:flex;flex-wrap:wrap;gap:6px';
-  sysWrap.appendChild(featuredRow);
+  const FEATURED_ROW_CSS = 'display:flex;flex-wrap:wrap;gap:6px';
+  featuredRow.style.cssText = FEATURED_ROW_CSS;
+  featuredWrap.appendChild(featuredRow);
   // The dropdown hangs from its own button, so it lines up under it however
   // the bar wraps.
   const moreWrap = mk('span');
@@ -1184,7 +1225,7 @@ const ui = (() => {
     for (const e of index.filter((x) => x.featured)) {
       const b = mk('button', LABELS[e.id] || e.name);
       b.style.cssText = css;
-      b.addEventListener('click', () => { closeMore(); openSystem(e.id); });
+      b.addEventListener('click', () => { closeMore(); closeFeatured(); openSystem(e.id); });
       featuredRow.appendChild(b);
       sysBtns[e.id] = b;
     }
@@ -1313,6 +1354,14 @@ const ui = (() => {
     overflowY: 'auto', background: 'rgba(10,10,30,0.8)', border: '1px solid #333366',
     borderRadius: '4px', padding: '6px 8px', fontSize: '11px', zIndex: 10 });
   root.appendChild(legend);
+  // The header shows only on a phone (compact), where the rows fold behind it.
+  const legendHead = document.createElement('button');
+  legendHead.type = 'button';
+  legendHead.style.cssText = 'display:none;width:100%;text-align:left;background:none;border:0;'
+    + 'padding:0;font:inherit;color:#aaddff;cursor:pointer;';
+  legendHead.setAttribute('aria-expanded', 'false');
+  const legendBody = document.createElement('div');
+  legend.append(legendHead, legendBody);
 
   const tip = document.createElement('div');
   Object.assign(tip.style, { position: 'absolute', pointerEvents: 'none', display: 'none',
@@ -1617,8 +1666,129 @@ const ui = (() => {
   // the Plotly viewer shows, handing over its values once per frame.
   const K = window.SABandKit;
   const panel = K ? K.bandPanel({ toast: (t) => toast(t, false), top: '48px',
-    onChange: (P, A, G) => recomputeBands(P, A, G) }) : null;
+    onChange: (P, A, G) => recomputeBands(P, A, G),
+    onToggle: (open) => { if (open) setLegendOpen(false); layout(); } }) : null;
   if (panel) root.appendChild(panel.el);
+
+  // ── Compact: a phone ─────────────────────────────────────────────────────
+  // Below 700 px wide, or 500 px tall (a phone on its side), the featured
+  // buttons, the band panel and the legend each fold into a one-line
+  // dropdown, closed until asked for, so the system itself has the screen.
+  // Opening the band panel or the legend closes the other.  Nothing here
+  // changes what a control does, only whether it is folded away.
+  const COMPACT = window.matchMedia('(max-width: 700px), (max-height: 500px)');
+  let compact = false, featuredOpen = false, legendOpen = false, menuOpen = false;
+  // What moves into the ⋯ menu, each with a marker left where it stood so it
+  // goes back to exactly that place.  The search box and its button share a row.
+  const MENU_ITEMS = [[searchIn, menuSearch], [searchBtn, menuSearch], [skyBtn, menuBox],
+    [featWrap, menuBox], [optWrap, menuBox], [suggestBtn, menuBox], [aboutBtn, menuBox]]
+    .map(([el, into]) => {
+      const mark = document.createComment('compact');
+      el.before(mark);
+      return { el, into, mark };
+    });
+  function setCompact(on, resync = true) {
+    compact = on;
+    featuredOpen = false;
+    legendOpen = false;
+    menuOpen = false;
+    for (const { el, into, mark } of MENU_ITEMS) {
+      if (compact) into.appendChild(el); else mark.after(el);
+    }
+    menuWrap.style.display = compact ? 'inline-block' : 'none';
+    // Inside the menu, Even more features opens in place rather than as a
+    // second popup hanging off the screen's edge.
+    Object.assign(featBox.style, compact ? { position: 'static', width: 'auto', marginTop: '6px' }
+      : { position: 'absolute', width: '300px', marginTop: '' });
+    searchIn.style.width = compact ? '100%' : '130px';
+    searchIn.style.boxSizing = compact ? 'border-box' : '';
+    // The time slider takes what is left of the first row.
+    Object.assign(slider.style, compact ? { width: 'auto', flex: '1 1 60px', minWidth: '50px' }
+      : { width: '150px', flex: '', minWidth: '' });
+    Object.assign(dateEl.style, compact ? { minWidth: '', fontSize: '11px' } : { minWidth: '90px', fontSize: '12px' });
+    spacer.style.display = compact ? 'none' : '';
+    // More Modeled Systems drops from the whole bar, edge to edge, rather than
+    // from its button, which on a phone sits too far right for a list that wide.
+    moreWrap.style.position = compact ? 'static' : 'relative';
+    Object.assign(moreBox.style, compact ? { left: '0', right: '0', width: 'auto' }
+      : { left: '', right: '0', width: '680px' });
+    // Icons alone on the first row; the full name stays as the accessible one.
+    for (const [b, full, icon] of [[orientBtn, '⦿  Orient', '⦿'], [backBtn, '◁  Back', '◁']]) {
+      b.textContent = compact ? icon : full;
+      if (compact) b.setAttribute('aria-label', full.slice(3)); else b.removeAttribute('aria-label');
+    }
+    featuredLabel.style.display = compact ? 'none' : '';
+    featuredWrap.style.cssText = compact ? 'position:relative;display:inline-block' : 'display:contents';
+    featuredToggle.style.display = compact ? '' : 'none';
+    if (panel) panel.setCompact(compact);
+    if (resync) sync();     // not before the first scene: sync() reads it
+  }
+  function paintMenu() {
+    menuBox.style.display = compact && menuOpen ? 'flex' : 'none';
+    menuBtn.style.background = menuOpen ? '#2a2a70' : '#111130';
+    menuBtn.setAttribute('aria-expanded', String(menuOpen));
+  }
+  function setMenuOpen(open) {
+    menuOpen = open;
+    if (open) { closeMore(); closeFeatured(); }
+    bar.style.zIndex = open ? '10000' : '12';
+    paintMenu();
+  }
+  menuBtn.addEventListener('click', () => setMenuOpen(!menuOpen));
+  document.addEventListener('mousedown', (ev) => {
+    if (menuOpen && !menuWrap.contains(ev.target)) setMenuOpen(false);
+  });
+  // A search, Suggest Changes or About is somewhere to go: fold the menu.
+  searchIn.addEventListener('keydown', (e) => { if (e.key === 'Enter' && menuOpen) setMenuOpen(false); });
+  for (const b of [searchBtn, suggestBtn, aboutBtn]) {
+    b.addEventListener('click', () => { if (menuOpen) setMenuOpen(false); });
+  }
+  function paintFeatured() {
+    featuredRow.style.cssText = !compact ? FEATURED_ROW_CSS
+      : 'position:absolute;top:calc(100% + 4px);left:0;flex-direction:column;align-items:stretch;'
+        + 'gap:6px;z-index:20;background:rgba(10,10,30,0.97);border:1px solid #333366;'
+        + 'border-radius:4px;padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5);'
+        + `white-space:nowrap;display:${featuredOpen ? 'flex' : 'none'}`;
+    const lit = Object.prototype.hasOwnProperty.call(sysBtns, current);
+    const name = lit ? sysBtns[current].textContent : 'Featured systems';
+    featuredToggle.textContent = `★  ${name} ${featuredOpen ? '▴' : '▾'}`;
+    featuredToggle.style.background = lit || featuredOpen ? '#2a2a70' : '#111130';
+    featuredToggle.setAttribute('aria-expanded', String(featuredOpen));
+  }
+  function closeFeatured() {
+    if (!featuredOpen) return;
+    featuredOpen = false;
+    bar.style.zIndex = '12';
+    sync();
+  }
+  featuredToggle.addEventListener('click', () => {
+    if (featuredOpen) { closeFeatured(); return; }
+    closeMore();
+    featuredOpen = true;
+    bar.style.zIndex = '10000';     // over the panels, as the other dropdowns are
+    sync();
+  });
+  document.addEventListener('mousedown', (ev) => {
+    if (featuredOpen && !featuredWrap.contains(ev.target)) closeFeatured();
+  });
+  function setLegendOpen(open) {
+    legendOpen = open;
+    if (open && panel && panel.isOpen() && compact) panel.setOpen(false);
+    paintLegend();
+    layout();
+  }
+  function paintLegend() {
+    legendHead.style.display = compact ? 'block' : 'none';
+    legendHead.textContent = `☰  Legend ${legendOpen ? '▴' : '▾'}`;
+    legendHead.setAttribute('aria-expanded', String(legendOpen));
+    legendBody.style.display = !compact || legendOpen ? '' : 'none';
+    legendBody.style.paddingTop = compact && legendOpen ? '4px' : '';
+    legend.style.maxWidth = compact ? 'calc(100% - 16px)' : '';
+    legend.style.boxSizing = compact ? 'border-box' : '';     // the cap includes the padding
+    // Opaque while open on a phone: it is drawn over the band panel's header.
+    legend.style.background = compact && legendOpen ? 'rgb(10,10,30)' : 'rgba(10,10,30,0.8)';
+  }
+  legendHead.addEventListener('click', () => setLegendOpen(!legendOpen));
 
   let infoShownAt = 0;
 
@@ -1645,10 +1815,10 @@ const ui = (() => {
   }
 
   function buildLegend() {
-    legend.innerHTML = '';
+    legendBody.innerHTML = '';
     let n = 0;
     const shownBodies = bodies.filter((b) => b.data.legend !== false && !b.data.group);
-    if (shownBodies.length) legend.appendChild(heading('Bodies'));
+    if (shownBodies.length) legendBody.appendChild(heading('Bodies'));
     shownBodies.forEach((b) => {
       const sw = document.createElement('span');
       sw.style.cssText = 'display:inline-block;width:10px;height:10px;border-radius:50%;box-sizing:border-box;'
@@ -1658,7 +1828,7 @@ const ui = (() => {
       r.text.textContent = b.data.name;
       // Its owned lines follow it: the Solar System's own LSR arrow.
       r.box.addEventListener('change', () => { setShown(b.obj, r.box.checked); refreshOwnedLines(); sync(); });
-      legend.appendChild(r.row); n++;
+      legendBody.appendChild(r.row); n++;
     });
 
     // Bodies in a legend group get one row per group, in first-seen order --
@@ -1674,7 +1844,7 @@ const ui = (() => {
     for (const [group, members] of groups) {
       if (members.every((b) => b.data.optional && !optionalOn(b.data.optional))) groups.delete(group);
     }
-    if (groups.size) legend.appendChild(heading(sys.groupHeading || 'Groups'));
+    if (groups.size) legendBody.appendChild(heading(sys.groupHeading || 'Groups'));
     for (const [group, members] of groups) {
       const sw = document.createElement('span');
       // A group drawn with a ring (the planetless systems, every class) shows
@@ -1689,7 +1859,7 @@ const ui = (() => {
         for (const b of members) setShown(b.obj, r.box.checked);
         refreshOwnedLines(); sync();
       });
-      legend.appendChild(r.row); n++;
+      legendBody.appendChild(r.row); n++;
     }
     // A cloud is one row, listed only while its optional set's mode shows it.
     for (const c of clouds) {
@@ -1699,7 +1869,7 @@ const ui = (() => {
       const r = legendRow('cloud', c.data.key, sw);
       r.text.textContent = `${c.data.name} (${c.data.info.length.toLocaleString('en-US')})`;
       r.box.addEventListener('change', () => { c.on = r.box.checked; refreshOwnedLines(); sync(); });
-      legend.appendChild(r.row); n++;
+      legendBody.appendChild(r.row); n++;
     }
     const lineGroups = new Map();
     for (const o of world.children) {
@@ -1716,7 +1886,7 @@ const ui = (() => {
       if (opt && !optionalOn(opt)) continue;
       if (opt && setHeading !== opt) {
         const o = ((sys && sys.optionalSets) || []).find((x) => x.key === opt);
-        legend.appendChild(heading(o ? o.label : opt));
+        legendBody.appendChild(heading(o ? o.label : opt));
         setHeading = opt;
       }
       const sw = document.createElement('span');
@@ -1728,7 +1898,7 @@ const ui = (() => {
         if (r.box.checked) lineGroupsOff.delete(group); else lineGroupsOff.add(group);
         refreshOwnedLines(); sync();
       });
-      legend.appendChild(r.row); n++;
+      legendBody.appendChild(r.row); n++;
     }
 
     const seen = new Set();
@@ -1743,36 +1913,46 @@ const ui = (() => {
       r.box.addEventListener('change', () => setGroup(group, r.box.checked));
       bandRows.push(r.row);
     }
-    if (bandRows.length) legend.appendChild(heading('Bands and belts'));
-    for (const row of bandRows) { legend.appendChild(row); n++; }
+    if (bandRows.length) legendBody.appendChild(heading('Bands and belts'));
+    for (const row of bandRows) { legendBody.appendChild(row); n++; }
 
     const arrows = world.children.filter((o) => o.userData && o.userData.legend
       && !o.userData.group && !o.isPoints && !bandMeshes.includes(o));
-    if (arrows.length) legend.appendChild(heading('Reference'));
+    if (arrows.length) legendBody.appendChild(heading('Reference'));
     for (const o of arrows) {
       const sw = document.createElement('span');
       sw.style.cssText = `display:inline-block;width:12px;height:2px;background:${o.userData.color}`;
       const r = legendRow('line', o.userData.name, sw);
       r.text.textContent = o.userData.name;
       r.box.addEventListener('change', () => { setShown(o, r.box.checked); sync(); });
-      legend.appendChild(r.row); n++;
+      legendBody.appendChild(r.row); n++;
     }
     legend.style.display = n ? 'block' : 'none';
   }
 
   // The bar wraps on a narrow window, so what sits under it is placed from
-  // its measured height rather than a fixed offset.
+  // its measured height rather than a fixed offset.  On a phone the two
+  // folded headers share a row; an open band panel pushes the legend below
+  // it, and an open legend (the panel is then folded) is drawn over the
+  // panel's header rather than under it.
   function layout() {
-    const top = `${bar.offsetTop + bar.offsetHeight + 8}px`;
-    legend.style.top = top;
-    toastEl.style.top = top;
-    if (panel) panel.el.style.top = top;
+    const t = bar.offsetTop + bar.offsetHeight + 8;
+    toastEl.style.top = `${t}px`;
+    if (panel) panel.el.style.top = `${t}px`;
+    let lt = t;
+    if (compact && panel && panel.el.style.display !== 'none' && panel.isOpen()) {
+      lt = panel.el.getBoundingClientRect().bottom - root.getBoundingClientRect().top + 6;
+    }
+    legend.style.top = `${lt}px`;
+    legend.style.maxHeight = compact ? `calc(100% - ${lt + 8}px)` : '70%';
+    legend.style.zIndex = compact && legendOpen ? '9999' : '10';
   }
   window.addEventListener('resize', layout);
 
   function sync() {
-    layout();
-    bandsBtn.textContent = `◎  Bands: ${bandState() === 'None' ? 'Off' : bandState()}`;
+    const bandsText = `◎  Bands: ${bandState() === 'None' ? 'Off' : bandState()}`;
+    bandsBtn.textContent = compact ? bandsText.replace('  Bands:', '') : bandsText;
+    if (compact) bandsBtn.setAttribute('aria-label', bandsText.slice(3)); else bandsBtn.removeAttribute('aria-label');
     const mf = sys && sys.motionFrames;
     bandsBtn.style.display = mf ? 'none' : '';
     frameBtn.style.display = mf ? '' : 'none';
@@ -1804,7 +1984,9 @@ const ui = (() => {
     skyBtn.textContent = `✦  Sky: ${sky.on ? 'On' : 'Off'}`;
     skyCredit.style.display = sky.on && sky.loaded && sky.have ? 'block' : 'none';
     if (panel) panel.el.style.display = solventBands().length ? 'block' : 'none';
-    playBtn.textContent = anim.playing ? '❚❚ Pause' : '▶ Play';
+    playBtn.textContent = anim.playing ? (compact ? '❚❚' : '❚❚ Pause') : (compact ? '▶' : '▶ Play');
+    if (compact) playBtn.setAttribute('aria-label', anim.playing ? 'Pause' : 'Play');
+    else playBtn.removeAttribute('aria-label');
     // A static figure (--mode static) has one moment and nothing to play.
     const animated = nFrames() > 1;
     for (const el of [playBtn, slider, dateEl]) el.style.display = animated ? '' : 'none';
@@ -1854,7 +2036,14 @@ const ui = (() => {
       row.title = ring ? '' : 'No liquid phase at this pressure';
     }
     if (sys) document.title = sys.title;
+    paintFeatured();
+    paintLegend();
+    paintMenu();
+    // Last: the bar's height depends on the text just written into it.
+    layout();
   }
+  COMPACT.addEventListener('change', (e) => setCompact(e.matches));
+  if (COMPACT.matches) setCompact(true, false);
 
 
   return {
