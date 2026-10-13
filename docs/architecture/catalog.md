@@ -72,6 +72,15 @@ account has three limits:
   inherit access, and Hybrasil-dev cannot sign in.
 
 The read-write credential behind `google_sheets.py` stays on the maintainer's
-machine and never reaches CI. A pull request opened with `GITHUB_TOKEN` starts
-no workflow, so the job dispatches `tests.yml` on the branch itself. That is
-how the required `tests` check reports on a snapshot pull request.
+machine and never reaches CI.
+
+**A snapshot pull request needs its tests approved once.** It is opened by
+`github-actions[bot]`, so GitHub holds its `tests` run until a maintainer
+clicks **Approve workflows to run** on the pull request. Dispatching
+`tests.yml` on the branch instead was tried and does not work: a dispatched
+run does not satisfy the required check on a bot's pull request. From the
+command line, with the run's id from the pull request's Checks tab:
+
+```bash
+gh api -X POST repos/CadeSummers/Hybrasil/actions/runs/<id>/approve
+```

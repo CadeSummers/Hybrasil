@@ -5,9 +5,9 @@
 # snapshot.  The job is named `tests`: that is the required status check on
 # main, and pages.yml calls this file so nothing deploys from a red commit.
 #
-# workflow_dispatch is how snapshot.yml gets a check onto its own pull
-# request: a pull request opened with GITHUB_TOKEN starts no workflow, but a
-# dispatch does.
+# A snapshot pull request (snapshot.yml) is opened by github-actions[bot], so
+# its run waits for "Approve workflows to run": a dispatched run would not
+# count as the required check.  docs/architecture/catalog.md.
 #
 # A push runs it only where nothing else does: main is tested by pages.yml
 # before it deploys, and pr/* and snapshot/* branches by their pull request.
