@@ -27,6 +27,12 @@ let INDEX = [];                     // every system the system dropdown can find
 let CATALOG_TITLE = '';             // the workbook version the scenes were built from
 const FLY_MS = 700;           // double-click and Orient camera flights
 const PICK_PX = 14;           // how close the pointer must be to a body
+// A phone: below 700 px wide, or 500 px tall (a phone on its side).  The
+// controls fold away (setCompact, under "Compact") and every marker is drawn
+// smaller, so a crowded inner system stays readable on a small screen.  The
+// pick radius stays PICK_PX: a smaller marker is no smaller a target.
+const COMPACT = window.matchMedia('(max-width: 700px), (max-height: 500px)');
+const PHONE_MARKER = 0.7;
 
 // ── Renderer, camera, controls ──────────────────────────────────────────────
 const root = document.getElementById('sa3-root');
@@ -211,6 +217,17 @@ function disposeWorld() {
 }
 
 // ── Building a system ───────────────────────────────────────────────────────
+// A marker's drawn size in device pixels: Plotly's marker size, the 0.9
+// that matches Plotly's look, the pixel ratio, and smaller on a phone.
+function markerPx(size) {
+  return size * 0.9 * renderer.getPixelRatio() * (COMPACT.matches ? PHONE_MARKER : 1);
+}
+function resizeMarkers() {
+  for (const b of bodies) b.obj.material.size = markerPx(b.data.size);
+  for (const c of clouds) c.pts.material.size = markerPx(c.data.size);
+}
+COMPACT.addEventListener('change', resizeMarkers);
+
 function build(key) {
   disposeWorld();
   current = key; sys = SYSTEMS[key];
@@ -289,11 +306,10 @@ function build(key) {
     world.add(mesh);
   }
 
-  const px = renderer.getPixelRatio();
   for (const D of sys.bodies) {
     const geo = new THREE.BufferGeometry();
     geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(3), 3));
-    const mat = new THREE.PointsMaterial({ size: D.size * 0.9 * px, sizeAttenuation: false,
+    const mat = new THREE.PointsMaterial({ size: markerPx(D.size), sizeAttenuation: false,
       map: markerTexture(D.fill, D.edge, D.size, D.border), alphaTest: 0.3, transparent: true });
     const obj = new THREE.Points(geo, mat);
     obj.position.set(D.pos[0], D.pos[1], D.pos[2]);
@@ -309,7 +325,7 @@ function build(key) {
   for (const C of sys.clouds || []) {
     const geo = new THREE.BufferGeometry();
     geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(C.pos), 3));
-    const pts = new THREE.Points(geo, new THREE.PointsMaterial({ size: C.size * 0.9 * px,
+    const pts = new THREE.Points(geo, new THREE.PointsMaterial({ size: markerPx(C.size),
       sizeAttenuation: false, map: markerTexture(C.color, null, C.size, 0), alphaTest: 0.3, transparent: true }));
     pts.renderOrder = 3;
     pts.frustumCulled = false;          // Play moves the points; the bounds would go stale
@@ -1797,7 +1813,6 @@ const ui = (() => {
   // dropdown, closed until asked for, so the system itself has the screen.
   // Opening the band panel or the legend closes the other.  Nothing here
   // changes what a control does, only whether it is folded away.
-  const COMPACT = window.matchMedia('(max-width: 700px), (max-height: 500px)');
   let compact = false, featuredOpen = false, legendOpen = false, menuOpen = false;
   // What moves into the ⋯ menu, each with a marker left where it stood so it
   // goes back to exactly that place.  The search box and its button share a row.
@@ -2243,6 +2258,7 @@ window.__SA3 = {
   flying: () => !!flight,
   bands: () => bandMeshes, bodies: () => bodies, clouds: () => clouds,
   camera, controls, renderer, scene,
+  markerPx,
   rotateView, spinning: () => !!spin,
   settle: () => { if (spin) { rotateView(spin); spin = null; } },   // the coast, at once
   pick,
