@@ -44,7 +44,6 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-      actions: write
       id-token: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -91,13 +90,5 @@ jobs:
           body: |
             The workbook `${{ steps.export.outputs.title }}`, exported by `snapshot.yml` from the live sheet.
 
-            Check the `tests` run on this pull request, then merge: `pages.yml` deploys `main`.
+            Click **Approve workflows to run** so `tests` runs on this pull request, then merge once it is green: `pages.yml` deploys `main`.
             Nothing reaches hybrasil.app until this is merged.
-
-      # A pull request opened with GITHUB_TOKEN starts no workflow run, so
-      # the tests would never report on it.  workflow_dispatch is the
-      # exception, and its check run lands on the branch head.
-      - if: steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run tests.yml --repo "$GITHUB_REPOSITORY" --ref snapshot/auto
