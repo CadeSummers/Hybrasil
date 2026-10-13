@@ -826,6 +826,119 @@ def test_three_scroll_zoom_is_not_a_jump(three):
     assert three.evaluate("() => window.__SA3.viewHistory()") == 0
 
 
+# ── Free rotation (docs/architecture/three-renderer.md, rule 7) ───────────────
+# OrbitControls was a turntable round world +Y, read once at construction, so
+# a drag stopped dead with the Solar System edge-on.  A drag eases in and
+# coasts out over frames, and CI's software GPU draws few of them, so each
+# check applies what is left at once (__SA3.settle) and measures the result.
+
+_VIEW = """() => { const S = window.__SA3, off = S.camera.position.clone().sub(S.controls.target);
+  return { dir: off.clone().normalize().toArray(), dist: off.length(),
+           up: S.camera.up.toArray(), pos: S.camera.position.toArray() }; }"""
+
+
+def _solar(page):
+    page.evaluate("() => window.__SA3.switchTo('solar')")
+    _landed(page)
+    return page.evaluate(_VIEW)
+
+
+def _settled(page):
+    page.evaluate("() => window.__SA3.settle()")
+    assert not page.evaluate("() => window.__SA3.spinning()")
+    return page.evaluate(_VIEW)
+
+
+def _deg(a, b):
+    return math.degrees(math.acos(max(-1.0, min(1.0, sum(x * y for x, y in zip(a, b))))))
+
+
+def _drag(page, deg, axis, shift=False):
+    """One drag across the canvas centre worth `deg` of turn (at most ~half a screen)."""
+    left, top, w, h = page.evaluate("""() => { const r = window.__SA3.renderer.domElement
+      .getBoundingClientRect(); return [r.left, r.top, r.width, r.height]; }""")
+    px = deg / (360 / h * 0.6)                   # controls.rotateSpeed
+    cx, cy = left + w / 2, top + h / 2
+    at = lambda f: (cx + px * f, cy) if axis == "x" else (cx, cy + px * f)
+    if shift:
+        page.keyboard.down("Shift")
+    page.mouse.move(*at(-0.5))
+    page.mouse.down()
+    for i in range(1, 21):
+        page.mouse.move(*at(i / 20 - 0.5))
+    page.mouse.up()
+    if shift:
+        page.keyboard.up("Shift")
+
+
+def test_three_a_drag_carries_the_camera_over_the_pole(three):
+    # Three downward drags of 90 deg turn the camera up, over the top, down the
+    # far side and under the system.  A turntable stops at the first pole.
+    v0 = _solar(three)
+    n = v0["up"]                                  # the band plane's normal
+    e0 = sum(a * b for a, b in zip(v0["dir"], n))
+    for _ in range(3):
+        _drag(three, 90, "y")
+        v = _settled(three)
+    e = sum(a * b for a, b in zip(v["dir"], n))
+    assert e == pytest.approx(-math.sqrt(1 - e0 * e0), abs=0.02), (
+        f"elevation {e:.3f} after 270 deg; the old turntable stalled edge-on, near 0")
+    assert v["dist"] == pytest.approx(v0["dist"], rel=1e-9), "a rotation zoomed"
+
+
+def test_three_dragging_sideways_never_stops(three):
+    v = _solar(three)
+    turned = 0.0
+    for _ in range(8):
+        before = v["dir"]
+        _drag(three, 90, "x")
+        v = _settled(three)
+        turned += _deg(before, v["dir"])
+    assert turned == pytest.approx(720, abs=10), f"eight 90 deg drags turned {turned:.0f} deg"
+
+
+def test_three_shift_drag_rolls_the_view(three):
+    v0 = _solar(three)
+    _drag(three, 90, "x", shift=True)
+    v = _settled(three)
+    assert v["pos"] == pytest.approx(v0["pos"], rel=1e-9, abs=1e-12), "a roll moved the camera"
+    assert _deg(v0["up"], v["up"]) == pytest.approx(90, abs=3)
+
+
+def test_three_a_two_finger_twist_rolls_the_view(three):
+    # Real touches through the DevTools protocol, so the pointer ids are live
+    # and OrbitControls' pinch runs on the same gesture.  A twist about a fixed
+    # midpoint at a fixed spread is no pinch and no pan: only the roll.
+    v0 = _solar(three)
+    cdp = three.context.new_cdp_session(three)
+    cdp.send("Emulation.setTouchEmulationEnabled", {"enabled": True, "maxTouchPoints": 5})
+    cx, cy = three.evaluate("""() => { const r = window.__SA3.renderer.domElement
+      .getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; }""")
+
+    def points(deg):
+        a = math.radians(deg)
+        return [{"x": cx + s * 120 * math.cos(a), "y": cy + s * 120 * math.sin(a), "id": i}
+                for i, s in enumerate((-1, 1))]
+
+    cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": points(0)})
+    for deg in range(3, 61, 3):
+        cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": points(deg)})
+    cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []})
+    v = _settled(three)
+    assert _deg(v0["up"], v["up"]) == pytest.approx(60, abs=6)
+    assert v["dir"] == pytest.approx(v0["dir"], abs=1e-6), "a twist turned the view direction"
+    assert v["dist"] == pytest.approx(v0["dist"], rel=1e-6), "a twist zoomed"
+
+
+def test_three_orient_levels_a_rolled_view(three):
+    n = _solar(three)["up"]
+    _drag(three, 90, "x", shift=True)
+    _settled(three)
+    three.get_by_role("button", name="Orient").click()
+    _landed(three)
+    assert three.evaluate("() => window.__SA3.camera.up.toArray()") == pytest.approx(n, abs=1e-9)
+
+
 # ── Nearby Stellar Motion: the featured view ───────────────────────────────────
 # Every Systems-tab star in galactic light years (docs/architecture/star-motion.md).
 # tests/conftest.py points it at the committed snapshot.
