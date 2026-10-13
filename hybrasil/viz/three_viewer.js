@@ -55,8 +55,14 @@ controls.dampingFactor = 0.08;
 controls.zoomToCursor = true;
 controls.zoomSpeed = 2.5;           // 0.95^2.5 = 12% a notch, as the Plotly viewer
 controls.screenSpacePanning = true;
-controls.rotateSpeed = 0.6;
+controls.rotateSpeed = 0.6;        // read by the free rotation below, not by OrbitControls
 controls.minDistance = 1e-8;
+// Zoom and pan only: rotation is the free one under "Free rotation".  LEFT
+// is null rather than ROTATE because OrbitControls turns Shift+left into a
+// pan, and Shift+drag is the roll.
+controls.enableRotate = false;
+controls.mouseButtons = { LEFT: null, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.PAN };
+controls.touches = { ONE: null, TWO: THREE.TOUCH.DOLLY_PAN };
 
 const scene = new THREE.Scene();
 
@@ -474,10 +480,16 @@ function driftFrame(f) {
 let flight = null;
 function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
 
+// A flight that changes `up` turns it over the flight rather than snapping,
+// since a free rotation can leave the view rolled any way at all.
 function flyTo(target, position, up) {
+  spin = null;
   flight = { t0: performance.now(), fromT: controls.target.clone(), toT: target.clone(),
              fromP: camera.position.clone(), toP: position.clone() };
-  if (up) camera.up.copy(up);
+  if (up) {
+    flight.fromU = camera.up.clone().normalize();
+    flight.turnU = new THREE.Quaternion().setFromUnitVectors(flight.fromU, up.clone().normalize());
+  }
 }
 
 function stepFlight(now) {
@@ -485,8 +497,117 @@ function stepFlight(now) {
   const t = Math.min(1, (now - flight.t0) / FLY_MS), e = ease(t);
   controls.target.lerpVectors(flight.fromT, flight.toT, e);
   camera.position.lerpVectors(flight.fromP, flight.toP, e);
+  if (flight.turnU) {
+    camera.up.copy(flight.fromU).applyQuaternion(new THREE.Quaternion().slerp(flight.turnU, e));
+  }
   if (t >= 1) flight = null;
 }
+
+// ── Free rotation ───────────────────────────────────────────────────────────
+// OrbitControls is a turntable: it orbits one pole and stops there.  Worse,
+// it reads that pole from camera.up once, at construction -- +Y, before
+// orient() levels the view to the band plane -- so a drag stopped dead with
+// the Solar System edge-on.  Its rotation is off, and this turns the camera
+// about the screen's own axes and camera.up with it, so there is no pole to
+// reach: drag tumbles, Shift+drag and a two-finger twist roll.  A drag feeds
+// `spin`, which loop() spends a dampingFactor share of each frame, so a drag
+// eases in and coasts out as OrbitControls' damped rotation did.  Only a
+// flight discards it: what is left is part of the drag, not just momentum.
+const ROT_STOP = 1e-6;            // radians a frame below which the coast ends
+const Q_IDENTITY = new THREE.Quaternion();
+let spin = null;                  // rotation still to apply, as a quaternion
+const rot = { pointers: new Map(), id: null, x: 0, y: 0, moved: false, twist: null };
+
+// Turn the view about controls.target.  camera.up is taken from the camera's
+// real screen-up, not the old hint, so it stays square to the view direction.
+function rotateView(q) {
+  camera.updateMatrixWorld();
+  const off = camera.position.clone().sub(controls.target).applyQuaternion(q);
+  camera.up.setFromMatrixColumn(camera.matrixWorld, 1).applyQuaternion(q).normalize();
+  camera.position.copy(controls.target).add(off);
+  camera.lookAt(controls.target);
+}
+
+function addSpin(q) { spin = spin ? q.multiply(spin) : q; }
+
+function stepSpin() {
+  if (!spin) return;
+  const f = controls.dampingFactor;
+  rotateView(new THREE.Quaternion().slerp(spin, f));
+  spin.slerp(Q_IDENTITY, f);
+  if (2 * Math.acos(Math.min(1, Math.abs(spin.w))) < ROT_STOP) spin = null;
+}
+
+// A drag of (dx, dy) px: OrbitControls' scale, a full turn per two heights
+// at rotateSpeed 1.  The scene follows the pointer.
+function dragRotation(dx, dy, roll) {
+  const k = 2 * Math.PI / renderer.domElement.clientHeight * controls.rotateSpeed;
+  camera.updateMatrixWorld();
+  const right = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 0).normalize();
+  const up = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 1).normalize();
+  if (roll) return rollRotation(-dx * k);
+  return new THREE.Quaternion().setFromAxisAngle(up, -dx * k)
+    .multiply(new THREE.Quaternion().setFromAxisAngle(right, -dy * k));
+}
+
+// Positive turns the scene clockwise on screen.
+function rollRotation(angle) {
+  const fwd = controls.target.clone().sub(camera.position).normalize();
+  return new THREE.Quaternion().setFromAxisAngle(fwd, -angle);
+}
+
+function twistAngle() {
+  const [a, b] = [...rot.pointers.values()];
+  return Math.atan2(b[1] - a[1], b[0] - a[0]);
+}
+
+const rotEl = renderer.domElement;
+rotEl.addEventListener('pointerdown', (e) => {
+  rot.pointers.set(e.pointerId, [e.clientX, e.clientY]);
+  rot.twist = rot.pointers.size === 2 ? twistAngle() : null;
+  if (rot.pointers.size === 1 && e.button === 0) {
+    Object.assign(rot, { id: e.pointerId, x: e.clientX, y: e.clientY, moved: false });
+    rotEl.setPointerCapture(e.pointerId);
+  } else if (rot.pointers.size > 1) {
+    rot.id = null;                // a second finger: the pinch is OrbitControls'
+  }
+});
+rotEl.addEventListener('pointermove', (e) => {
+  if (!rot.pointers.has(e.pointerId)) return;
+  rot.pointers.set(e.pointerId, [e.clientX, e.clientY]);
+  if (rot.twist !== null && rot.pointers.size === 2) {
+    const a = twistAngle();
+    let d = a - rot.twist;
+    d -= 2 * Math.PI * Math.round(d / (2 * Math.PI));
+    rot.twist = a;
+    if (d) addSpin(rollRotation(d));
+    return;
+  }
+  if (e.pointerId !== rot.id) return;
+  const dx = e.clientX - rot.x, dy = e.clientY - rot.y;
+  if (!rot.moved) {
+    if (Math.hypot(dx, dy) <= 4) return;      // still a click (see 'click' below)
+    rot.moved = true;
+    controls.dispatchEvent({ type: 'start' });
+  }
+  rot.x = e.clientX;
+  rot.y = e.clientY;
+  addSpin(dragRotation(dx, dy, e.shiftKey));
+});
+function rotEnd(e) {
+  rot.pointers.delete(e.pointerId);
+  rot.twist = null;
+  if (e.pointerId === rot.id) {
+    if (rot.moved) controls.dispatchEvent({ type: 'end' });
+    rot.id = null;
+  } else if (rot.pointers.size === 1 && e.pointerType === 'touch') {
+    // The pinch is over and one finger is still down: it drags on from here.
+    const [[id, [x, y]]] = rot.pointers;
+    Object.assign(rot, { id, x, y, moved: true });
+  }
+}
+rotEl.addEventListener('pointerup', rotEnd);
+rotEl.addEventListener('pointercancel', rotEnd);
 
 function viewNormal() {
   const u = sys.up || [0, 0, 1];
@@ -2098,6 +2219,7 @@ function loop(now) {
   anim.last = now;
   if (sys && anim.playing && nFrames() > 1) { setFrame(anim.frame + dt / FRAME_MS); ui.sync(); }
   stepFlight(now);
+  stepSpin();
   controls.update();
   renderer.clear();
   if (sky.on && sky.loaded && sky.have) {
@@ -2121,6 +2243,7 @@ window.__SA3 = {
   flying: () => !!flight,
   bands: () => bandMeshes, bodies: () => bodies, clouds: () => clouds,
   camera, controls, renderer, scene,
+  rotateView, spinning: () => !!spin,
   pick,
   sky: () => ({ on: sky.on, loaded: sky.loaded, have: sky.have, url: !!SKY_URL }),
   lines: () => world ? world.children.filter((o) => o.userData && o.userData.name && !o.isPoints

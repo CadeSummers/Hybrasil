@@ -111,6 +111,32 @@ reason it is one in Plotly: it is the same mesh.
 6. **Picking is in screen space.** Bodies are a fixed number of pixels wide at
    every distance, so a world-space pick radius would be right at one zoom
    only.
+7. **Rotation is free; OrbitControls only zooms and pans.**
+   - **Why OrbitControls' rotation is off.** OrbitControls is a turntable: it
+     orbits one pole and clamps at it. It also reads that pole from `camera.up`
+     once, in its constructor (`_quat`). That was +Y, before `orient()` levelled
+     the view to the band plane, so a drag stopped dead with the Solar System
+     edge-on.
+   - **Its settings.** `enableRotate` is false. `mouseButtons.LEFT` and
+     `touches.ONE` are null: OrbitControls would otherwise turn Shift+left
+     into a pan.
+   - **What turns the camera.** The "Free rotation" block in `three_viewer.js`.
+     - A drag turns the camera about the screen's own axes, at OrbitControls'
+       scale.
+     - Shift+drag rolls, and so does a two-finger twist. On a twist the pinch
+       still belongs to OrbitControls.
+   - **`camera.up` is view state now.** `rotateView()` turns it with the camera,
+       so it stays square to the view direction and there is no pole. Orient
+       and a system switch level it to the band plane again. A flight
+       (`flyTo`) turns it over the flight rather than snapping it, so Back
+       restores a rolled view.
+   - **The damping.** A drag feeds `spin`, and `loop()` spends a
+     `dampingFactor` share of it each frame. That is OrbitControls' damping.
+     Only a flight discards what is left: the rest is part of the drag, not
+     just momentum.
+   - **The tests.** `test_three_a_drag_carries_the_camera_over_the_pole` fails
+     on the turntable, so it pins the hazard. Its siblings pin the sideways
+     drag, Shift+drag, the twist, and Orient levelling a roll.
 
 ## Shared with the Plotly viewer: `band_kit.js`
 
