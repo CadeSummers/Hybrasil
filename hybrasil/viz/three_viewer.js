@@ -1764,13 +1764,25 @@ const ui = (() => {
     aboutDialog.open(opener);      // the first link, at the top: the panel opens unscrolled
   }
 
-  // NASA's credit for the sky, shown whenever the sky is (sky/README.md).
+  // The credits along the bottom: NASA's for the sky, shown whenever the sky
+  // is (sky/README.md), and the author's, bottom right and always shown, its
+  // name about.json's like the About panel's.  One row, so on a phone the sky
+  // credit wraps beside the author's rather than running under it.
+  const credits = document.createElement('div');
+  Object.assign(credits.style, { position: 'absolute', left: '8px', right: '8px', bottom: '6px',
+    display: 'flex', alignItems: 'flex-end', gap: '12px',
+    fontSize: '10px', color: '#667788', pointerEvents: 'none', zIndex: 11 });
   const skyCredit = document.createElement('div');
   skyCredit.textContent = 'Milky Way: NASA/Goddard Space Flight Center Scientific Visualization '
     + 'Studio, Deep Star Maps 2020 · Gaia DR2: ESA/Gaia/DPAC';
-  Object.assign(skyCredit.style, { position: 'absolute', left: '8px', bottom: '6px',
-    fontSize: '10px', color: '#667788', pointerEvents: 'none', zIndex: 11, display: 'none' });
-  root.appendChild(skyCredit);
+  Object.assign(skyCredit.style, { flex: '1 1 auto', display: 'none' });
+  const authorCredit = document.createElement('div');
+  authorCredit.id = 'sa3-author-credit';
+  authorCredit.textContent = ABOUT ? `Created by ${ABOUT.author.name}` : '';
+  Object.assign(authorCredit.style, { marginLeft: 'auto', flex: 'none', whiteSpace: 'nowrap',
+    display: ABOUT ? 'block' : 'none' });
+  credits.append(skyCredit, authorCredit);
+  root.appendChild(credits);
   const toastEl = document.createElement('div');
   Object.assign(toastEl.style, { position: 'absolute', top: '48px', left: '50%',
     transform: 'translateX(-50%)', background: '#111130', border: '1px solid #333366',
