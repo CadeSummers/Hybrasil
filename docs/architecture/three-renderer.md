@@ -163,6 +163,38 @@ into `_ZOOM_JS`. The page loads it as a classic script exporting
   `fill` and `edge` separately. Taking the marker colour alone drew every
   hollow body (fill `rgba(0,0,0,0)`) as a black dot on a black sky.
 
+## On a phone: compact
+
+Below 700 px wide, or 500 px tall (a phone on its side), the viewer folds its
+controls away so the system has the screen (`COMPACT`, `setCompact()` in
+`three_viewer.js`). Everything starts closed until tapped. Since 13 Oct 2026:
+
+- **The toolbar is one row:** `⦿` Orient, `◁` Back, `◎ Off` Bands, `▶` Play,
+  the time slider and its date, and `⋯`. Each icon-only button keeps its full
+  name as `aria-label`. The `⋯` menu holds search, Sky, Even more features
+  (opening in place), the optional-set buttons, Suggest Changes and About.
+  These are the same elements, moved by `MENU_ITEMS`, which leaves a comment
+  marker where each one stood so it goes back to that exact place on a wider
+  screen.
+- **More Modeled Systems** drops from the whole bar, edge to edge.
+
+- **The featured systems** sit under one `★ <open system> ▾` toggle. They are
+  the same buttons, moved into a popup, so nothing about what a button does
+  changes. On a wide screen the wrapper is `display:contents` and the row lays
+  out as it always has.
+- **The band panel** folds behind a header that carries its three values
+  (`Band inputs: 1 bar · 0.30 · 33 K ▾`). This is `band_kit.js`'s
+  `setCompact()` / `setOpen()`, opt-in, so the Plotly viewer, which never calls
+  it, is unchanged.
+- **The legend** folds behind `☰ Legend ▾`. Its rows go into `legendBody`, and
+  the `legend` box keeps the header.
+
+The two folded headers share a row. Opening one closes the other. An open band
+panel pushes the legend header below it, and an open legend is drawn opaque over
+the panel's header. `test_three_a_phone_folds_featured_bands_and_legend` drives all of
+this at iPhone size, and every other browser test runs at 1400 × 850, which is
+not compact.
+
 ## What it does not do yet
 
 - PNG export. `--output png` renders the Plotly figure, and an explicit

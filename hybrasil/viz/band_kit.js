@@ -494,6 +494,7 @@
       if (document.activeElement !== pRow.read) pRow.read.value = _fmtBarNum(_bandP);
       if (document.activeElement !== aRow.read) aRow.read.value = _bandA.toFixed(2);
       if (document.activeElement !== gRow.read) gRow.read.value = String(_bandG);
+      if (head) _paintHead();    // the folded header's copy of the values
     }
 
     // A typed value, or null if there is no number in there at all. Lenient
@@ -580,17 +581,48 @@
     hint.style.cssText = 'color:#556677;font-size:10px;padding-top:3px;';
     hint.textContent = 'Drag or type — bands recompute live';
 
-    bandPanel.appendChild(pRow.row);
-    bandPanel.appendChild(aRow.row);
-    bandPanel.appendChild(gCaption);
-    bandPanel.appendChild(gRow.row);
-    bandPanel.appendChild(hint);
+    // A narrow screen folds the panel behind a one-line header that carries
+    // the three values, so the system keeps the screen until someone asks
+    // for the sliders.  Only the three.js viewer, on a phone, calls
+    // setCompact(); for any other caller the header never shows.
+    var head = document.createElement('button');
+    head.type = 'button';
+    head.style.cssText = [
+      'display:none', 'width:100%', 'text-align:left', 'background:none',
+      'border:0', 'padding:0', 'font:inherit', 'color:inherit', 'cursor:pointer'
+    ].join(';');
+    var body = document.createElement('div');
+    body.appendChild(pRow.row);
+    body.appendChild(aRow.row);
+    body.appendChild(gCaption);
+    body.appendChild(gRow.row);
+    body.appendChild(hint);
+    bandPanel.appendChild(head);
+    bandPanel.appendChild(body);
+    var _compact = false, _open = true;
+    function _paintHead() {
+      head.textContent = 'Band inputs: ' + _fmtBarNum(_bandP) + ' bar · '
+        + _bandA.toFixed(2) + ' · ' + _bandG + ' K ' + (_open ? '▴' : '▾');
+      head.setAttribute('aria-expanded', String(_open));
+      head.style.display = _compact ? 'block' : 'none';
+      body.style.display = !_compact || _open ? '' : 'none';
+      body.style.paddingTop = _compact && _open ? '4px' : '';
+    }
+    function _setOpen(open) { _open = !!open; _paintHead(); }
+    head.addEventListener('click', function () {
+      _setOpen(!_open);
+      if (opts.onToggle) opts.onToggle(_open);
+    });
     _readSliders();
     if (opts.top) bandPanel.style.top = opts.top;
 
     return {
       el: bandPanel,
       read: _readSliders,
-      values: function () { return {P: _bandP, A: _bandA, G: _bandG}; }
+      values: function () { return {P: _bandP, A: _bandA, G: _bandG}; },
+      // Folded (and closed) on a narrow screen, always open otherwise.
+      setCompact: function (on) { _compact = !!on; _open = !_compact; _paintHead(); },
+      setOpen: _setOpen,
+      isOpen: function () { return !_compact || _open; }
     };
   }

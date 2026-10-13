@@ -610,6 +610,66 @@ def test_three_search_frames_a_body_and_opens_its_info_panel(three):
     assert panel.is_visible() and "Earth" in panel.inner_text()
 
 
+def test_three_a_phone_folds_featured_bands_and_legend(page, three_url):
+    # At iPhone size the featured buttons, band panel and legend are folded
+    # dropdowns, closed until tapped (docs/architecture/three-renderer.md,
+    # "On a phone").  Every other browser test runs wide, where none of this shows.
+    errors = []
+    page.on("pageerror", lambda e: errors.append(str(e)))
+    page.set_viewport_size({"width": 390, "height": 844})
+    page.goto(three_url)
+    page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
+    page.evaluate(_THREE_HELPERS)
+    trappist = page.get_by_role("button", name="TRAPPIST-1", exact=True)
+    pressure = page.get_by_label("Pressure")
+    a_row = page.locator("input[data-kind=body]").first
+    assert not trappist.is_visible() and not pressure.is_visible() and not a_row.is_visible()
+
+    # The toolbar is one row of icons plus a ⋯ menu holding the rest.
+    about = page.get_by_role("button", name="About", exact=False)
+    menu = page.get_by_role("button", name="More controls")
+    assert not about.is_visible()
+    bar = page.get_by_role("button", name="Orient").bounding_box()
+    assert abs(menu.bounding_box()["y"] - bar["y"]) < 4, "the ⋯ button left the first row"
+    menu.click()
+    assert about.is_visible() and page.get_by_label("Search bodies, bands and orbits").is_visible()
+    menu.click()
+    assert not about.is_visible()
+
+    # Featured: the toggle names the open system; a pick opens it and folds up.
+    toggle = page.locator("button[aria-haspopup=menu]", has_text="★")
+    assert "Solar System" in toggle.inner_text()
+    toggle.click()
+    trappist.click()
+    page.wait_for_function("window.__SA3.key === 'trappist-1'", timeout=30_000)
+    assert "TRAPPIST-1" in toggle.inner_text() and not trappist.is_visible()
+
+    # The band header carries the values, and opening it shows the sliders.
+    head = page.get_by_role("button", name="Band inputs", exact=False)
+    assert "1 bar" in head.inner_text()
+    head.click()
+    assert pressure.is_visible()
+    # The legend: opening it folds the band panel away again.
+    page.get_by_role("button", name="Legend", exact=False).click()
+    assert a_row.is_visible() and not pressure.is_visible()
+
+    # The bands still come on, flat, from the Bands button.
+    page.get_by_role("button", name="Bands", exact=False).click()
+    page.wait_for_timeout(300)
+    assert page.get_by_role("button", name="Bands: On").is_visible()
+    for r in page.evaluate("() => window.__t3.report()"):
+        if r["solvent"]:
+            assert r["isMesh"] and not r["isPoints"] and r["dev"] < 1e-6, r
+
+    # Wide again (a phone turned into a tablet, a window dragged): unfolded.
+    page.set_viewport_size({"width": 1400, "height": 850})
+    page.wait_for_timeout(300)
+    assert trappist.is_visible() and pressure.is_visible() and a_row.is_visible()
+    assert not toggle.is_visible() and not menu.is_visible() and about.is_visible()
+    assert page.get_by_text("Orient").is_visible()           # labelled again
+    assert not errors, errors
+
+
 def test_three_searching_a_band_switches_on_that_band_only(three):
     three.evaluate("() => window.__SA3.switchTo('solar')")
     search = three.get_by_placeholder("Find in system…")
