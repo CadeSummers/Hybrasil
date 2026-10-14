@@ -105,6 +105,22 @@ class TestSystemTypes:
         assert castor["name"] == "Castor"
         assert "Castor" in castor["aliases"]           # "castor" still finds it
 
+    def test_every_system_but_stellar_motion_has_bodies_to_pick_from(self, library):
+        # The intro's random body is weighted by n_bodies (three_viewer.js, "Intro").
+        for e in library.index():
+            if e["kind"] == "motion":
+                assert e["n_bodies"] == 0, e["id"]
+            else:
+                assert e["n_bodies"] > e["n_planets"] >= 0, e["id"]
+        solar = next(e for e in library.index() if e["id"] == "solar")
+        assert solar["n_bodies"] > solar["n_planets"] + 5   # the Sun and the moons too
+
+    def test_body_info_says_what_each_body_is(self, library):
+        info = library.scene("solar")["body_info"]
+        assert info["Sun"]["type"] == "star"
+        assert info["Earth"]["type"] == "planet"
+        assert info["Moon"]["type"] == "moon"
+
     def test_the_views_are_stellar_motion(self, library):
         for key in FEATURED_VIEWS:
             assert next(e for e in library.index() if e["id"] == key)["kind"] == "motion"
@@ -239,6 +255,20 @@ class TestTheAPI:
 
     def test_anything_else_is_404(self, server):
         assert _get(server + "/etc/passwd")[0] == 404
+
+    def test_the_intro_maps_and_masks_are_served(self, server):
+        for name in ("mobile.webp", "standard.webp", "ultrawide.webp"):
+            status, got, body = _get(f"{server}/intro/{name}")
+            assert status == 200 and got == "image/webp" and len(body) > 100_000, name
+
+    def test_only_the_intro_files_are_served_from_its_folder(self, server):
+        assert _get(server + "/intro/intro.json")[0] == 404
+        assert _get(server + "/intro/make_intro.py")[0] == 404
+
+    def test_the_page_carries_the_intro(self, server):
+        page = _get(server + "/")[2].decode("utf-8")
+        assert 'id="sa3-intro"' in page
+        assert '"image":"/intro/standard.webp"' in page
 
 
 class TestTheSwitch:

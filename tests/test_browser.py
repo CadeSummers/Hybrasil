@@ -1492,11 +1492,101 @@ def app(page, app_url):
     errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.set_viewport_size({"width": 1400, "height": 850})
-    page.goto(app_url)
+    page.goto(app_url + "?intro=0")     # the intro has tests of its own
     page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
     page.evaluate(_THREE_HELPERS)
     yield page
     assert not errors, f"page errors: {errors}"
+
+
+# ── The intro (docs/architecture/web-app.md, "Intro") ───────────────────────
+
+def _arrive(page, url, width=1400, height=850):
+    """Arrive at the app as a visitor does: no ?intro=0, so the map plays."""
+    errors = []
+    page.on("pageerror", lambda e: errors.append(str(e)))
+    page.set_viewport_size({"width": width, "height": height})
+    page.goto(url)
+    page.wait_for_function("!!(window.__SA3 && window.__SA3.intro)", timeout=60_000)
+    return errors
+
+
+def test_intro_plays_on_arrival_and_reveals_a_random_body(page, app_url):
+    errors = _arrive(page, app_url)
+    first = page.evaluate("() => window.__SA3.intro()")
+    assert first["arrived"] and first["slide"] == "standard"
+    assert first["state"] in ("map", "fading")
+    # The map fades, all of it at once, and goes for good.
+    page.wait_for_function("['fading', 'done'].includes(window.__SA3.intro().state)",
+                           timeout=60_000)
+    assert page.evaluate("() => document.querySelectorAll('#sa3-intro *').length") == 0
+    page.wait_for_function("window.__SA3.intro().state === 'done'", timeout=10_000)
+    assert page.evaluate("() => document.getElementById('sa3-intro')") is None
+    page.wait_for_function("!window.__SA3.flying()", timeout=10_000)
+    r = page.evaluate("""() => {
+        const S = window.__SA3, i = S.intro();
+        const entry = S.index().find(e => e.id === S.key);
+        const b = S.bodies().find(b => b.data.name === i.body);
+        const info = window._SA_BODY_INFO[i.body] || {};
+        return { kind: entry.kind, view: !!entry.view, found: !!b, type: info.type,
+                 visible: !!(b && b.obj.visible),
+                 off: b ? S.controls.target.distanceTo(b.obj.position)
+                          / Math.max(b.obj.position.length(), 1e-9) : null };
+    }""")
+    assert r["kind"] != "motion" and not r["view"], r
+    assert r["found"] and r["visible"] and r["type"] != "barycentre", r
+    assert r["off"] < 1e-6, r                    # centred on it once the map is gone
+    assert not errors, errors
+
+
+def test_intro_body_is_where_the_island_is(page, app_url):
+    # Framed under the map, the body is drawn where the island is.
+    _arrive(page, app_url)
+    page.wait_for_function("(i => !!i.body && i.state === 'map')(window.__SA3.intro())",
+                           timeout=60_000)
+    r = page.evaluate("""() => {
+        const S = window.__SA3, slide = window.SA3_INTRO_PLAY;
+        const b = S.bodies().find(b => b.data.name === S.intro().body);
+        const v = b.obj.position.clone().project(S.camera);
+        const W = innerWidth, H = innerHeight;
+        const k = Math.max(W / slide.width, H / slide.height);
+        return { state: S.intro().state,
+                 px: (v.x + 1) / 2 * W, py: (1 - v.y) / 2 * H,
+                 hx: (W - slide.width * k) / 2 + slide.island.x * slide.width * k,
+                 hy: (H - slide.height * k) / 2 + slide.island.y * slide.height * k };
+    }""")
+    assert r["state"] == "map", r     # not yet flying out
+    assert abs(r["px"] - r["hx"]) < 2 and abs(r["py"] - r["hy"]) < 2, r
+
+
+@pytest.mark.parametrize("size, slide", [((390, 844), "mobile"), ((1400, 850), "standard"),
+                                         ((2560, 1080), "ultrawide")])
+def test_intro_slide_follows_the_screen_shape(page, app_url, size, slide):
+    _arrive(page, app_url, *size)
+    assert page.evaluate("() => window.SA3_INTRO_PLAY.name") == slide
+    page.wait_for_function("window.__SA3.intro().state === 'done'", timeout=60_000)
+
+
+def test_a_reload_skips_the_intro_and_keeps_the_system(page, app_url):
+    errors = _arrive(page, app_url)
+    page.wait_for_function("window.__SA3.intro().state === 'done'", timeout=60_000)
+    page.get_by_role("button", name="Alpha Centauri", exact=True).click()
+    page.wait_for_function("window.__SA3.key === 'alpha-centauri'", timeout=60_000)
+    page.reload()
+    page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
+    r = page.evaluate("""() => ({ key: window.__SA3.key, state: window.__SA3.intro().state,
+                                   arrived: window.__SA3.intro().arrived,
+                                   overlay: !!document.getElementById('sa3-intro') })""")
+    assert r == {"key": "alpha-centauri", "state": "off", "arrived": False, "overlay": False}
+    assert not errors, errors
+
+
+def test_a_click_lifts_the_map_early(page, app_url):
+    _arrive(page, app_url)
+    page.wait_for_function("!!window.__SA3.intro().body", timeout=60_000)
+    if page.evaluate("() => window.__SA3.intro().state") == "map":
+        page.mouse.click(700, 700)
+    page.wait_for_function("window.__SA3.intro().state === 'done'", timeout=5_000)
 
 
 def test_app_opens_on_a_featured_system_with_a_button_for_each(app):
@@ -1705,7 +1795,7 @@ def padded_app_url():
 
 def test_app_more_systems_shows_twelve_and_scrolls_to_the_rest(page, padded_app_url):
     page.set_viewport_size({"width": 1400, "height": 1000})
-    page.goto(padded_app_url)
+    page.goto(padded_app_url + "?intro=0")
     page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
     page.get_by_role("button", name="More Modeled Systems").click()
     page.locator("[role=listbox]").wait_for(state="visible")
@@ -1766,7 +1856,7 @@ def snapshot_app_url():
 
 
 def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
-    for p in _load_three(page, snapshot_app_url):
+    for p in _load_three(page, snapshot_app_url + "?intro=0"):
         _open_view(p)
         panel = p.locator("#_sa_info_panel")
         goto = p.get_by_role("button", name="Go to system")
@@ -1954,11 +2044,19 @@ def static_app(page, static_site_url):
     errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.set_viewport_size({"width": 1400, "height": 850})
-    page.goto(static_site_url)
+    page.goto(static_site_url + "?intro=0")
     page.wait_for_function("!!(window.__SA3 && window.__SA3.ready)", timeout=60_000)
     page.evaluate(_THREE_HELPERS)
     yield page
     assert not errors, f"page errors: {errors}"
+
+
+def test_static_site_plays_the_intro_from_its_own_files(page, static_site_url):
+    errors = _arrive(page, static_site_url)
+    assert page.evaluate("() => window.SA3_INTRO_PLAY.image") == "intro/standard.webp"
+    page.wait_for_function("window.__SA3.intro().state === 'done'", timeout=60_000)
+    assert page.evaluate("() => window.__SA3.intro().body")
+    assert not errors, errors
 
 
 def test_static_site_opens_with_every_featured_system_and_the_sky(static_app):

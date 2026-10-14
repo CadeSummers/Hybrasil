@@ -222,7 +222,7 @@ demand instead of every turn. The rules in them are just as binding.
 | `docs/architecture/coils.md` | `is_coil_body()`, `generate_coil_orbit_path()`, playback starting paused |
 | `docs/architecture/catalog.md` | `catalog_loader.py`, `google_sheets.py`, `--source catalog` |
 | `docs/architecture/three-renderer.md` | `three_viewer.py` / `three_viewer.js`, the default renderer, the depth-range limits |
-| `docs/architecture/web-app.md` | `--serve`, `web/app.py`, the featured buttons and the More Modeled Systems dropdown (System Type row), `system_search.js`, `FEATURED_CATALOG_HOSTS` |
+| `docs/architecture/web-app.md` | `--serve`, `web/app.py`, the featured buttons and the More Modeled Systems dropdown (System Type row), `system_search.js`, `FEATURED_CATALOG_HOSTS`, the arrival intro (`web/intro/`, the random body, `?intro=0`) |
 | `docs/architecture/photosynthesis.md` | The Photosynthesis limits tab, `mechanics/photosynthesis.py` (the PAR photon factor), `data/photosynthesis_limits.py`, `viz/photosynthesis_rings.py`, the Even more features menu and its reference orbits (`viz/reference_orbits.py`) |
 | `docs/architecture/galactic-centre.md` | The Sgr A* S-stars tab, `data/sgr_a_loader.py`, `data/sgr_a/`, the Sgr A* Cluster's place under Stellar Motion, the receding-node frame flip, `at_galactic_center` |
 | `docs/architecture/suggestions.md` | Suggest Changes: the form, `web/suggestions.py`, `web/suggestion_rules.json` / `suggest_validate.js` (one set of rules for the form, `--serve` and the Cloudflare function), `functions/api/suggestions.js`, the D1 table, `--export-suggestions`. A suggestion is a record for review and never writes to the workbook |

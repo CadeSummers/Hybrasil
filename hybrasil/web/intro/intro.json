@@ -1,0 +1,40 @@
+{
+  "slides": [
+    {
+      "name": "mobile",
+      "image": "mobile.webp",
+      "width": 940,
+      "height": 1672,
+      "island": {
+        "x": 0.4909,
+        "y": 0.5015,
+        "r": 0.0334
+      },
+      "colour": "#bc9256"
+    },
+    {
+      "name": "standard",
+      "image": "standard.webp",
+      "width": 1672,
+      "height": 941,
+      "island": {
+        "x": 0.493,
+        "y": 0.5071,
+        "r": 0.0171
+      },
+      "colour": "#bf9153"
+    },
+    {
+      "name": "ultrawide",
+      "image": "ultrawide.webp",
+      "width": 1915,
+      "height": 821,
+      "island": {
+        "x": 0.4923,
+        "y": 0.5473,
+        "r": 0.0134
+      },
+      "colour": "#b7894d"
+    }
+  ]
+}
