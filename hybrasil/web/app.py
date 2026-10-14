@@ -56,7 +56,8 @@ from ..mechanics.solvent_bands import SolventChoice
 from ..views import FEATURED_VIEWS, build_view, system_kind
 from ..mechanics.units import jd_now
 from ..viz.export import build_body_info, build_solvent_table_js
-from ..viz.three_viewer import (SKY_DIR, SKY_FILE, SKY_URL, build_app_html,
+from ..viz.three_viewer import (INTRO_DIR, INTRO_URL, SKY_DIR, SKY_FILE, SKY_URL,
+                                build_app_html, intro_config, intro_files,
                                 figure_to_scene)
 from . import discovery, suggestions
 
@@ -180,6 +181,7 @@ class SystemLibrary:
                 "featured": True, "kind": system_kind(key),
                 "aliases": aliases, "planets": planets,
                 "n_planets": len(planets),
+                "n_bodies": sum(b.body_type != "barycentre" for b in system.bodies),
                 "distance_ly": system.distance_from_sun_ly,
                 "stellar_class": "",
             })
@@ -195,13 +197,14 @@ class SystemLibrary:
         # featured system draws (Castor): listed under High Star Count (Planetless) only.
         for host, ps in self.planetless().items():
             if host not in covered:
-                entries.append(planetless_entry(ps))
+                entries.append(dict(planetless_entry(ps), n_bodies=len(ps.stars) + len(ps.planets)
+                                    + sum(len(m) for m in ps.moons.values())))
         # The S-stars round Sgr A*, under Stellar Motion after Nearby Stellar Motion.
         if self.galactic() is not None:
             entries.append(sgr_a_entry(self.galactic()))
         cat = self.catalog()
         if cat is not None:
-            from ..data.catalog_loader import catalog_entry
+            from ..data.catalog_loader import catalog_entry, match_key
             for host in cat.hosts():
                 if host in covered:
                     continue
@@ -215,9 +218,15 @@ class SystemLibrary:
                     "kind": "planetary",
                     "aliases": aliases,
                     "planets": e["planets"], "n_planets": len(e["planets"]),
+                    "n_bodies": len(e["stars"]) + len(e["planets"]) + sum(
+                        len(cat.moons_by_planet.get(match_key(p), [])) for p in e["planets"]),
                     "distance_ly": e["distance_ly"],
                     "stellar_class": e["stellar_class"],
                 })
+        # n_bodies weights the intro's random pick (three_viewer.js, "Intro"):
+        # every star, planet and moon on file.  A Stellar Motion entry has none.
+        for e in entries:
+            e.setdefault("n_bodies", 0)
         self._index = entries
         return entries
 
@@ -291,12 +300,17 @@ def _catalog_or_snapshot(kwargs: dict):
 def app_page(library: SystemLibrary, initial: str, *, api_base: str = "/api",
              index_url: Optional[str] = None, sky: str = SKY_URL,
              suggest_url: Optional[str] = SUGGEST_URL,
-             turnstile_sitekey: Optional[str] = None) -> str:
-    """The viewer shell for `library`: the server's page, and the static site's."""
+             turnstile_sitekey: Optional[str] = None, intro_base: str = INTRO_URL) -> str:
+    """The viewer shell for `library`: the server's page, and the static site's.
+
+    `intro_base` is where the intro's maps are (`/intro/` here, relative on
+    the static site).
+    """
     extra_js = build_solvent_table_js(library.bands) + "\nwindow._SA_BODY_INFO = {};"
     return build_app_html(initial, extra_js=extra_js, api_base=api_base,
                           index_url=index_url, sky=sky, suggest_url=suggest_url,
-                          turnstile_sitekey=turnstile_sitekey, head=discovery.head_html())
+                          turnstile_sitekey=turnstile_sitekey, head=discovery.head_html(),
+                          intro=intro_config(intro_base))
 
 
 def _json(handler: BaseHTTPRequestHandler, status: int, body) -> None:
@@ -316,6 +330,9 @@ def make_handler(library: SystemLibrary, shell_html: str):
     # back to its plain background when the image does not load.
     sky_path = SKY_DIR / SKY_FILE
     sky = sky_path.read_bytes() if sky_path.exists() else None
+    # The intro's maps, by name: nothing else under /intro/ is served.
+    intro = {INTRO_URL + name: (INTRO_DIR / name, "image/webp" if name.endswith(".webp")
+                                else "image/png") for name in intro_files()}
 
     class Handler(BaseHTTPRequestHandler):
         server_version = "Hybrasil"
@@ -347,6 +364,16 @@ def make_handler(library: SystemLibrary, shell_html: str):
                 self.send_header("Cache-Control", "public, max-age=86400")
                 self.end_headers()
                 self.wfile.write(sky)
+                return
+            if path in intro and intro[path][0].exists():
+                file, ctype = intro[path]
+                body = file.read_bytes()
+                self.send_response(HTTPStatus.OK)
+                self.send_header("Content-Type", ctype)
+                self.send_header("Content-Length", str(len(body)))
+                self.send_header("Cache-Control", "public, max-age=86400")
+                self.end_headers()
+                self.wfile.write(body)
                 return
             if path == "/api/systems":
                 _json(self, HTTPStatus.OK, {"systems": library.index(),

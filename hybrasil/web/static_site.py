@@ -10,6 +10,7 @@ writes
     site/api/systems.json            the index /api/systems would serve
     site/api/systems/<slug>.json     one file per system, as /api/systems/<id>
     site/sky/milky_way_4k.jpg        the background Milky Way
+    site/intro/*                     the intro's maps (web/intro/)
     site/llms.txt                    the canonical home, licences and citations (web/discovery.py)
     site/_headers, robots.txt, .nojekyll
 
@@ -34,7 +35,7 @@ import shutil
 from pathlib import Path
 from typing import Callable, Optional
 
-from ..viz.three_viewer import SKY_DIR, SKY_FILE
+from ..viz.three_viewer import INTRO_DIR, SKY_DIR, SKY_FILE, intro_files
 from . import discovery
 from .app import SystemLibrary, app_page
 
@@ -48,9 +49,10 @@ SUGGEST_PATH = f"{API_DIR}/suggestions"
 SITEKEY_ENV = "HYBRASIL_TURNSTILE_SITEKEY"
 INDEX_FILE = f"{API_DIR}/systems.json"
 SKY_PATH = f"sky/{SKY_FILE}"
+INTRO_PATH = "intro/"
 
 # Cloudflare Pages reads this file; GitHub Pages ignores it.  Scenes change
-# with each build, the sky never does.
+# with each build, the sky never does, the intro's maps seldom.
 HEADERS = f"""/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
@@ -61,6 +63,9 @@ HEADERS = f"""/*
 
 /sky/*
   Cache-Control: public, max-age=2592000
+
+/intro/*
+  Cache-Control: public, max-age=86400
 """
 
 ROBOTS = "User-agent: *\nAllow: /\n"
@@ -153,7 +158,8 @@ def build_site(library: SystemLibrary, out_dir, initial: str = "solar", *,
 
     page = app_page(library, initial, api_base=API_DIR, index_url=INDEX_FILE, sky=SKY_PATH,
                     suggest_url=SUGGEST_PATH,
-                    turnstile_sitekey=os.environ.get(SITEKEY_ENV) or None)
+                    turnstile_sitekey=os.environ.get(SITEKEY_ENV) or None,
+                    intro_base=INTRO_PATH)
     (out / "index.html").write_text(page, encoding="utf-8")
     total += len(page.encode("utf-8"))
     sky = SKY_DIR / SKY_FILE
@@ -161,6 +167,12 @@ def build_site(library: SystemLibrary, out_dir, initial: str = "solar", *,
         (out / "sky").mkdir()
         shutil.copyfile(sky, out / SKY_PATH)
         total += sky.stat().st_size
+    names = intro_files()
+    if names:
+        (out / INTRO_PATH).mkdir()
+        for name in names:
+            shutil.copyfile(INTRO_DIR / name, out / INTRO_PATH / name)
+            total += (INTRO_DIR / name).stat().st_size
     (out / "_headers").write_text(HEADERS, encoding="utf-8")
     (out / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     (out / discovery.LLMS_FILE).write_text(discovery.llms_txt(), encoding="utf-8")

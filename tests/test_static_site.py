@@ -86,6 +86,14 @@ class TestTheSite:
         assert 'window.SA3_SKY     = "sky/milky_way_4k.jpg";' in page
         assert 'window.SA3_INITIAL = "solar";' in page
         assert "window.SA3_SYSTEMS = {};" in page
+        assert '"image":"intro/standard.webp"' in page
+
+    def test_the_intro_maps_are_there(self, site):
+        out, _ = site
+        for name in ("mobile", "standard", "ultrawide"):
+            assert (out / "intro" / f"{name}.webp").stat().st_size > 100_000
+        assert not (out / "intro" / "make_intro.py").exists()
+        assert "/intro/*" in (out / "_headers").read_text(encoding="utf-8")
 
     def test_the_host_files_are_there(self, site):
         out, _ = site
@@ -157,6 +165,7 @@ class TestUnderAPathPrefix:
             for e in index["systems"]:
                 assert get(urljoin(page_url, e["url"]))[0] == 200, e["id"]
             assert get(urljoin(page_url, "sky/milky_way_4k.jpg"))[0] == 200
+            assert get(urljoin(page_url, "intro/ultrawide.webp"))[0] == 200
         finally:
             srv.shutdown()
             srv.server_close()

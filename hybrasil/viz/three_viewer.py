@@ -66,6 +66,91 @@ SKY_EMBED_FILE = "milky_way_2k.jpg"
 SKY_URL = f"/sky/{SKY_FILE}"
 
 
+# The intro (hybrasil/web/intro/README.md): a map per screen shape, shown on
+# arrival by the web app only.  Its files are served under /intro/ and copied
+# to the static site's intro/.
+INTRO_DIR = Path(__file__).parent.parent / "web" / "intro"
+INTRO_URL = "/intro/"
+
+
+def intro_files() -> list[str]:
+    """Every file the intro serves: each slide's image."""
+    path = INTRO_DIR / "intro.json"
+    if not path.exists():
+        return []
+    slides = json.loads(path.read_text(encoding="utf-8"))["slides"]
+    return [s["image"] for s in slides]
+
+
+def intro_config(base: str = INTRO_URL) -> Optional[dict]:
+    """intro.json with its file names as URLs under `base`, or None without it."""
+    path = INTRO_DIR / "intro.json"
+    if not path.exists():
+        return None
+    slides = json.loads(path.read_text(encoding="utf-8"))["slides"]
+    return {"slides": [dict(s, image=base + s["image"]) for s in slides]}
+
+
+# The intro's first paint: its overlay, styled and filled in before the
+# three.js module (and the CDN it imports from) has loaded.  It plays on an
+# arrival -- a link, a typed or searched URL -- and never on a reload or
+# back/forward; ?intro=0 turns it off (the browser tests).  SA3_ARRIVED is
+# what opens a random body (three_viewer.js, "Intro"), with or without the map:
+# reduced motion skips only the map.  The slide is the one whose shape is
+# nearest the window's, on a log scale.  The whole map fades as one over
+# 1.25 s: to 90% opacity by 0.25 s, 50% by 1 s, gone at 1.25 s.  A browser
+# without linear() easing keeps the cubic-bezier, an ease-in close to it.
+_INTRO_CSS = """
+  #sa3-intro { position: fixed; inset: 0; z-index: 100000; cursor: pointer;
+               background-size: cover; background-position: center;
+               background-repeat: no-repeat;
+               transition: opacity 1.25s cubic-bezier(0.5, 0, 0.75, 0);
+               transition-timing-function: linear(0, 0.1 20%, 0.5 80%, 1); }
+  #sa3-intro.sa3-intro-out { opacity: 0; }
+"""
+_INTRO_PICK = """
+(function () {
+  var el = document.getElementById('sa3-intro'), cfg = window.SA3_INTRO;
+  var arrived = false, off = /(^|[?&])intro=0(&|$)/.test(location.search), still = false;
+  try {
+    var nav = performance.getEntriesByType('navigation')[0];
+    arrived = nav ? nav.type === 'navigate' : !sessionStorage.getItem('sa3.system');
+  } catch (e) { arrived = true; }
+  try { still = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+  window.SA3_ARRIVED = arrived && !off;
+  window.SA3_INTRO_PLAY = null;
+  if (!window.SA3_ARRIVED || still || !cfg || !cfg.slides.length) { el.remove(); return; }
+  var aspect = Math.log(innerWidth / Math.max(innerHeight, 1)), slide = cfg.slides[0];
+  cfg.slides.forEach(function (s) {
+    if (Math.abs(Math.log(s.width / s.height) - aspect)
+        < Math.abs(Math.log(slide.width / slide.height) - aspect)) slide = s;
+  });
+  var img = new Image();
+  el.style.backgroundColor = slide.colour;
+  window.SA3_INTRO_PLAY = slide;
+  // Shown once the image is in, so the 1.5 s on the map are 1.5 s of map
+  // rather than of plain tan.
+  window.SA3_INTRO_SHOWN = new Promise(function (resolve, reject) {
+    img.onload = function () {
+      el.style.backgroundImage = 'url("' + slide.image + '")';
+      resolve(performance.now());
+    };
+    img.onerror = function () { reject(new Error('intro image')); };
+    img.src = slide.image;
+  });
+  window.SA3_INTRO_SHOWN.catch(function () {});
+})();
+"""
+
+
+def _intro_html(intro: Optional[dict]) -> tuple[str, str]:
+    """The intro's <style> rules and its <body> markup, both empty without one."""
+    if not intro:
+        return "", ""
+    return _INTRO_CSS, ('<div id="sa3-intro" aria-hidden="true"></div>\n'
+                        f"<script>\nwindow.SA3_INTRO = {_script_json(intro)};\n{_INTRO_PICK}</script>\n")
+
+
 def sky_data_uri() -> Optional[str]:
     """The 2k sky as a data: URI, or None if the image is missing."""
     path = SKY_DIR / SKY_EMBED_FILE
@@ -314,7 +399,9 @@ def _script_json(value) -> str:
 def _page(systems: dict, labels: dict, kinds: dict, initial: str, extra_js: str,
           api_base: Optional[str], title: str, sky: Optional[str],
           index_url: Optional[str] = None, suggest_url: Optional[str] = None,
-          turnstile_sitekey: Optional[str] = None, head: str = "") -> str:
+          turnstile_sitekey: Optional[str] = None, head: str = "",
+          intro: Optional[dict] = None) -> str:
+    intro_css, intro_body = _intro_html(intro)
     importmap = {"imports": {
         "three": f"{_THREE_CDN}/build/three.module.js",
         "three/addons/": f"{_THREE_CDN}/examples/jsm/",
@@ -328,13 +415,13 @@ def _page(systems: dict, labels: dict, kinds: dict, initial: str, extra_js: str,
 {head}<style>
   html, body {{ margin: 0; height: 100%; background: #07071a; overflow: hidden;
                font-family: monospace; color: #ccccee; }}
-  #sa3-root {{ position: absolute; inset: 0; }}
+  #sa3-root {{ position: absolute; inset: 0; }}{intro_css}
 </style>
 <script type="importmap">{json.dumps(importmap)}</script>
 </head>
 <body>
 <div id="sa3-root"></div>
-<script>
+{intro_body}<script>
 window.SA3_SYSTEMS = {_script_json(systems)};
 window.SA3_LABELS  = {_script_json(labels)};
 window.SA3_KINDS   = {_script_json(kinds)};
@@ -388,7 +475,8 @@ def build_html(figures: dict, initial: str, labels: Optional[dict] = None,
 def build_app_html(initial: str, extra_js: str = "", api_base: str = "/api",
                    index_url: Optional[str] = None, sky: str = SKY_URL,
                    suggest_url: Optional[str] = None,
-                   turnstile_sitekey: Optional[str] = None, head: str = "") -> str:
+                   turnstile_sitekey: Optional[str] = None, head: str = "",
+                   intro: Optional[dict] = None) -> str:
     """The web app's shell: no systems in it, everything fetched from `api_base`.
 
     `initial` is the system id opened first -- a featured key or
@@ -398,10 +486,11 @@ def build_app_html(initial: str, extra_js: str = "", api_base: str = "/api",
     `url` of its own scene file.  `suggest_url` is where Suggest Changes
     posts (no button without one), and `turnstile_sitekey` the hosted site's
     bot check (web/suggestions.py).  `head` is added to the page's <head>:
-    the web app's description and JSON-LD (web/discovery.py).
+    the web app's description and JSON-LD (web/discovery.py).  `intro` is
+    `intro_config()`'s, for the map shown on arrival; none, no intro.
     """
     return _page({}, {}, {}, initial, extra_js, api_base, "Hybrasil Star and Exoplanet Map", sky,
-                 index_url, suggest_url, turnstile_sitekey, head)
+                 index_url, suggest_url, turnstile_sitekey, head, intro)
 
 
 def save_three_html(figures: dict, initial: str, path: str,

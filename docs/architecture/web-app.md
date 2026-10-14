@@ -175,6 +175,71 @@ not assumed, and never exceeds 60% of the window.
   holds only the featured systems. There the dropdown's search covers the
   systems in the file, and the Planetary list says `--serve` opens the rest.
 
+## Intro
+
+When someone arrives, the web app opens on a "Waer is Hy Brasil?" map. The
+whole map then fades away at once and leaves a random body where the island
+was. This happens in both `--serve` and the static site. The file-based page
+and the Plotly viewer have no intro.
+
+**When it plays.** A small inline script in the page (`_INTRO_PICK` in
+`viz/three_viewer.py`) decides before the three.js module loads, so the map is
+the first thing painted.
+
+- **It plays on an arrival.** That is navigation type `navigate`: a link, or
+  a typed or searched URL. Where the Navigation Timing API is missing, it
+  falls back to "this tab has no remembered system".
+- **It never plays on a reload or on back/forward.** Those reopen the system
+  the tab was last on, kept in `sessionStorage['sa3.system']` by `build()`
+  through `keepSystem()`.
+- **`?intro=0` turns it off and opens `SA3_INITIAL`**, as before. The browser
+  tests use this for every page that is not testing the intro.
+- **Reduced motion** (`prefers-reduced-motion`) skips the map but still opens
+  a random body.
+
+**What it shows.** The `// ── Intro ──` block in `three_viewer.js` decides
+this.
+
+- **The system** is random, chosen from every index entry except the Stellar
+  Motion ones (`kind: "motion"`, views). It is weighted by the entry's
+  `n_bodies`, so each body has about the same chance as any other:
+  - the featured systems count every body except a barycentre;
+  - catalog and planetless systems count their stars, planets and moons on file.
+- **The body** is random within that system: any star, planet or moon,
+  candidates and hypotheticals included. That uses the `type` that
+  `build_body_info()` now records. Barycentres and optional reference bodies
+  are excluded. A hidden body is shown, as a search for it would show it.
+- **The slide** is the one whose aspect ratio is nearest the window's
+  (`hybrasil/web/intro/README.md`).
+
+**The timeline.**
+
+1. **The map shows.** The page's background is the map's mean colour until
+   the image has loaded.
+2. **The body is framed straight away, under the map.** `frameOnIsland()`
+   sets the distance so the body's `zoom_half` spans the island. It also
+   shifts the view so the body sits where the island is on screen, not at the
+   screen's centre.
+3. **After 1.5 s, once the scene has drawn, the whole map fades over 1.25 s.**
+   It fades as one, island included, at the same rate everywhere. The fade
+   follows `linear(0, 0.1 20%, 0.5 80%, 1)`: the map is at 90% opacity at
+   0.25 s, 50% at 1 s and gone at 1.25 s. A browser without `linear()`
+   easing falls back to `cubic-bezier(0.5, 0, 0.75, 0)`, an ease-in close to
+   it. At the same time the camera flies out to the body's usual
+   double-click framing, and its info panel opens. Back returns to the whole
+   system.
+4. **The overlay is removed from the DOM.**
+
+A click or a key skips to the fade. A map that fails to load, or a scene that
+takes longer than 12 s, lifts the map early. `__SA3.intro()` reports
+`{state: off|map|fading|done, slide, body, arrived}` for the tests.
+
+**Files.** The maps and `intro.json` live in `hybrasil/web/intro/`.
+
+- **`--serve`:** served at `/intro/<name>`. Only the files `intro.json` names
+  are served; `intro_files()` is the list.
+- **`--build-site`:** copied to `site/intro/` and referenced relatively.
+
 ## The static site (`--build-site`, `hybrasil/web/static_site.py`)
 
 The hosted app is the API written out as files, so no server and no Google

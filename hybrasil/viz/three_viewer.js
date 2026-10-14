@@ -386,6 +386,7 @@ function build(key) {
   const v = ui.bandValues();
   if (v) recomputeBands(v.P, v.A, v.G);
   ui.sync();
+  keepSystem(key);
 }
 
 // ── Animation ───────────────────────────────────────────────────────────────
@@ -780,25 +781,35 @@ function orient(animate = true, mode = 'above') {
 // Double-click framing: the same zoom_half_au the Plotly viewer uses, which
 // holds a planet's moons (or a star's inner system) in view.
 function frameBody(b) {
-  // Found by search while hidden from the legend: show it, since framing a
-  // body nobody can see is not an answer.  One of an optional set that is off
-  // turns its set on: the button then says what is showing.
+  revealBody(b);
+  pushView();
+  const { p, half } = bodyFrame(b);
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  flyTo(p, p.clone().addScaledVector(dir, half * 2.2));
+  ui.toast(b.data.name);
+  ui.showInfo(b.data.name);
+}
+
+// Found by search while hidden from the legend: show it, since framing a
+// body nobody can see is not an answer.  One of an optional set that is off
+// turns its set on: the button then says what is showing.
+function revealBody(b) {
   if (b.data.optional && !optionalOn(b.data.optional)) setOptional(b.data.optional, true);
   if (b.cloud && !cloudInSet(b.cloud)) setOptional(b.data.optional, true);
   if (b.cloud) {
     if (!b.cloud.on) { b.cloud.on = true; refreshOwnedLines(); ui.sync(); }
     cloudInfo(b);
   } else if (!b.obj.visible) { setShown(b.obj, true); refreshOwnedLines(); ui.sync(); }
-  pushView();
+}
+
+// Where a body is, and the half-width that frames it.  zoom_half is in the
+// scene's own units (light years in a view); zoom_half_au is what every star
+// system's bodies carry.
+function bodyFrame(b) {
   const info = window._SA_BODY_INFO && window._SA_BODY_INFO[b.data.name];
   const p = b.obj.position.clone();
-  // zoom_half is in the scene's own units (light years in a view);
-  // zoom_half_au is what every star system's bodies carry.
   const half = (info && (info.zoom_half || info.zoom_half_au)) || Math.max(p.length() * 0.01, 1e-3);
-  const dir = camera.position.clone().sub(controls.target).normalize();
-  flyTo(p, p.clone().addScaledVector(dir, half * 2.2));
-  ui.toast(b.data.name);
-  ui.showInfo(b.data.name);
+  return { p, half };
 }
 
 // Frame a set of objects -- a band's rings, an orbit -- by their combined
@@ -2355,12 +2366,149 @@ if (window.SA3_SUGGEST_URL && window.SABandKit && window.SABandKit.setInfoSugges
   window.SABandKit.setInfoSuggest({ go: (name) => ui.suggest({ object: name }) });
 }
 
+// ── Intro ───────────────────────────────────────────────────────────────────
+// The web app's arrival (docs/architecture/web-app.md, "Intro").  The page's
+// inline script has already decided it (SA3_ARRIVED: a link, a typed or
+// searched URL; never a reload) and put up the map (SA3_INTRO_PLAY, the slide
+// nearest the window's shape) before this module loaded.  An arrival opens a
+// random body of a random system -- weighted by n_bodies, so every star,
+// planet and moon of every system but the Stellar Motion ones is about as
+// likely as any other -- framed small, where the island is.  Then the whole
+// map fades at once, and the camera eases out to the body's usual
+// double-click framing and names it.  A reload reopens the
+// system the tab was last on (keepSystem), with no intro.
+const INTRO = window.SA3_INTRO_PLAY || null;
+const introEl = document.getElementById('sa3-intro');
+const INTRO_MAP_MS = 1500;      // the map, before it fades
+const INTRO_FADE_MS = 1250;     // the map fading (the CSS transition's), slow then fast
+const INTRO_WAIT_MS = 12000;    // a scene this slow: lift the map without it
+const intro = { state: INTRO && introEl ? 'map' : 'off', slide: INTRO ? INTRO.name : null,
+                body: null };
+let introSkip = () => {};
+const introSkipped = new Promise((r) => { introSkip = r; });
+if (intro.state === 'map') {
+  // A click or a key skips to the fades; before there is a body to show, it
+  // simply lifts the map.
+  const skip = () => { introSkip(); if (!intro.body) closeIntro(null); };
+  introEl.addEventListener('pointerdown', skip);
+  window.addEventListener('keydown', skip, { once: true });
+  setTimeout(() => { if (intro.state === 'map' && !intro.body) closeIntro(null); }, INTRO_WAIT_MS);
+} else if (introEl) introEl.remove();
+
+function keepSystem(key) {
+  if (!API) return;
+  try { sessionStorage.setItem('sa3.system', key); } catch (e) { /* storage blocked */ }
+}
+function keptSystem() {
+  if (!API) return null;
+  try { return sessionStorage.getItem('sa3.system'); } catch (e) { return null; }
+}
+
+function randomSystem() {
+  const pool = INDEX.filter((e) => e.kind !== 'motion' && !e.view && e.n_bodies > 0);
+  let r = Math.random() * pool.reduce((n, e) => n + e.n_bodies, 0);
+  for (const e of pool) if ((r -= e.n_bodies) < 0) return e.id;
+  return pool.length ? pool[pool.length - 1].id : null;
+}
+
+function startingSystem() {
+  const known = (id) => !!id && (!!SYSTEMS[id] || INDEX.some((e) => e.id === id));
+  const pick = window.SA3_ARRIVED ? randomSystem() : keptSystem();
+  if (known(pick)) return pick;
+  const first = window.SA3_INITIAL;
+  return known(first) ? first : (INDEX[0] && INDEX[0].id);
+}
+
+// Any star, planet or moon, candidates and hypotheticals included (framing
+// one shows it); not a barycentre, nor a reference body from an optional set.
+function randomBody() {
+  const info = window._SA_BODY_INFO || {};
+  const typed = bodies.filter((b) => !b.data.optional);
+  const pool = typed.filter((b) => info[b.data.name] && info[b.data.name].type
+    && info[b.data.name].type !== 'barycentre');
+  const from = pool.length ? pool : typed;
+  return from.length ? from[Math.floor(Math.random() * from.length)] : null;
+}
+
+// The island on screen, in px: the slide is drawn `cover`, centred.
+function islandOnScreen(slide) {
+  const W = innerWidth, H = innerHeight;
+  const k = Math.max(W / slide.width, H / slide.height);
+  return { x: (W - slide.width * k) / 2 + slide.island.x * slide.width * k,
+           y: (H - slide.height * k) / 2 + slide.island.y * slide.height * k,
+           r: Math.max(slide.island.r * slide.width * k, 8), W, H };
+}
+
+// Frame `b` at once, its framing half-width the island's size, and the view
+// shifted so the body sits where the island is rather than mid-screen: as the
+// map fades, the body is found where the island was.
+function frameOnIsland(b, slide) {
+  const { p, half } = bodyFrame(b);
+  const h = islandOnScreen(slide);
+  const tan = Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2);
+  const d = half * (h.H / 2) / (h.r * tan);
+  const wpp = 2 * d * tan / h.H;                     // world units per pixel at the body
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  camera.updateMatrixWorld();
+  const right = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 0);
+  const up = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 1);
+  const t = p.clone().addScaledVector(right, -(h.x - h.W / 2) * wpp)
+    .addScaledVector(up, (h.y - h.H / 2) * wpp);
+  flight = null; spin = null;
+  controls.target.copy(t);
+  camera.position.copy(t).addScaledVector(dir, d);
+  controls.update();
+}
+
+const introWait = (ms) => Promise.race([new Promise((r) => setTimeout(r, ms)), introSkipped]);
+const introFrames = (n) => new Promise((r) => {
+  const f = () => (--n <= 0 ? r() : requestAnimationFrame(f));
+  requestAnimationFrame(f);
+});
+
+async function arrive() {
+  const b = randomBody();
+  if (!b) { closeIntro(null); return; }
+  intro.body = b.data.name;
+  if (intro.state !== 'map') { frameBody(b); return; }     // no map, or it was lifted
+  revealBody(b);
+  pushView();                         // Back: the whole system
+  frameOnIsland(b, INTRO);
+  try {
+    const t0 = await Promise.race([window.SA3_INTRO_SHOWN, introSkipped.then(() => 0)]);
+    await introWait(Math.max(0, t0 + INTRO_MAP_MS - performance.now()));
+  } catch (e) { /* the map never loaded: straight to the body */ }
+  await introFrames(2);
+  closeIntro(b);
+}
+
+function closeIntro(b) {
+  if (intro.state !== 'map') return;
+  intro.state = 'fading';
+  introEl.classList.add('sa3-intro-out');
+  if (b) {
+    const { p, half } = bodyFrame(b);
+    const dir = camera.position.clone().sub(controls.target).normalize();
+    flyTo(p, p.clone().addScaledVector(dir, half * 2.2));
+    ui.toast(b.data.name);
+    ui.showInfo(b.data.name);
+  }
+  setTimeout(() => { introEl.remove(); intro.state = 'done'; }, INTRO_FADE_MS);
+}
+
+window.__SA3.intro = () => ({ ...intro, arrived: !!window.SA3_ARRIVED });
+
 requestAnimationFrame(loop);
 (async () => {
   await loadIndex();
+  const start = startingSystem();
+  let opened = start ? await openSystem(start) : false;
+  // A random catalog system that failed to load: the usual first system.
   const first = window.SA3_INITIAL;
-  const start = (SYSTEMS[first] || INDEX.some((e) => e.id === first))
-    ? first : (INDEX[0] && INDEX[0].id);
-  if (start) await openSystem(start);
+  if (!opened && start !== first && (SYSTEMS[first] || INDEX.some((e) => e.id === first))) {
+    opened = await openSystem(first);
+  }
   window.__SA3.ready = true;
+  if (window.SA3_ARRIVED && opened) await arrive();
+  else closeIntro(null);
 })();

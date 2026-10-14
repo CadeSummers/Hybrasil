@@ -1883,6 +1883,9 @@ def build_body_info(systems_by_name: dict, body_metadata: dict | None = None) ->
             if body.info_rows:
                 entry["rows"] = body.info_rows
 
+            # What it is: star, planet, moon, barycentre, ...
+            entry["type"] = body.body_type
+
             # Confirmation status
             entry["status"] = body.status
             if body.status_note:

@@ -62,6 +62,8 @@ hybrasil = "hybrasil.cli:main"
 include = ["hybrasil*"]
 
 # The viewer's JavaScript, the About panel and Suggest Changes rules, and the
-# Milky Way background. viz/sky is a data directory, not a package.
+# Milky Way background and the intro's maps. viz/sky and web/intro are data
+# directories, not packages.
 [tool.setuptools.package-data]
-hybrasil = ["about.json", "viz/*.js", "viz/sky/*.jpg", "web/*.js", "web/*.json"]
+hybrasil = ["about.json", "viz/*.js", "viz/sky/*.jpg", "web/*.js", "web/*.json",
+            "web/intro/*.webp", "web/intro/*.json"]
