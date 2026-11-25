@@ -443,6 +443,9 @@ def _coil_trace(body: OrbitalBody, xs: np.ndarray, ys: np.ndarray, zs: np.ndarra
         opacity=opacity,
         showlegend=False,
         hoverinfo="skip",
+        # Whose path it is: the three.js viewer re-samples it when Play is set
+        # to run over another span (three-renderer.md, rule 0a).
+        meta={"coil": body.label()},
     )
 
 

@@ -63,6 +63,33 @@ reason it is one in Plotly: it is the same mesh.
    - Plotly does not interpolate (its transitions are 0 ms), so its markers jump from frame to frame but always land
      on their rings.
 
+0a. **The arrow beside Play chooses how long one run covers** (since 25 Nov 2026).
+   - `animation.time_spans()` declares the options on the kepler meta (`kepler.spans`, `spansHeading`): the figure's
+     own window (the default), one cycle of the shortest planet orbit, 365 days, one cycle of the longest planet
+     orbit and, where a star's orbit is the longer, one cycle of that. Labels and durations are worded in Python.
+   - **A planet is anything in orbit round a star or a barycentre that is not itself one; a moon never counts.** The
+     menu's heading says so ("Run time, by orbits around a star"). A hypothetical body sets a span only where no
+     confirmed one can, so Planet Nine and Proxima's 550,000-year orbit do not. A star orbit shorter than the
+     shortest planet's is offered too (Castor's close pairs). A system with no planet is set by its stars alone.
+   - **Only the moment changes.** The frame count stays the figure's, so every span plays in the same time and a
+     longer one is a faster system. `setFrame()` places each body by Kepler's equation at
+     `t0 + fraction × span.days` (`spanNow()`), and followers, bands and the live band re-solve read the bodies as
+     they always do.
+   - **The readout** is time elapsed (`+0.76 d`, `+24.0 yr`) on any span but the default, with the date as its
+     tooltip. The default shows the date on every frame: Python labels only every sixth (Plotly's slider ticks),
+     and `jdDate()` works out the rest.
+   - **A coil is re-sampled for the span** (`resampleCoils()`), by `coils.md`'s rule: 16 points a loop, at least
+     360. Where that would pass 12,000 points the coil is left out for that span (`coilLeftOut`), since fewer
+     points draw a scribble. `_coil_trace()` tags each coil `meta={"coil": <body label>}`; the default span puts
+     back the geometry Python built.
+   - **Fast bodies alias on a long span.** Over Castor B's 459 years a 0.8-day pair jumps unpredictably from frame
+     to frame. Each stays on its drawn orbit (rule 0), but its motion cannot be read.
+   - The choice is reset on every system switch, since the options name one system's bodies. Nearby Stellar Motion
+     uses the same menu for its own ranges (`star-motion.md`). A static figure has none. The Plotly viewer plays
+     baked frames and has no such menu.
+   - `__SA3.timeSpan()`, `setTimeSpan()` and `timeSpans()` are the test handles; `tests/test_time_spans.py` and
+     `test_three_play_runs_one_cycle_of_the_shortest_or_longest_orbit` / `test_three_a_coil_is_drawn_for_the_span_that_is_playing` pin it.
+
 1. **Near and far stay within 1e14 of each other.** OrbitControls'
    zoom-to-cursor unprojects a point on the far plane. At 1e-11 / 1e10 AU (a
    1e21 ratio, the first try) that point is infinite and the camera went to NaN

@@ -286,6 +286,11 @@ function build(key) {
     line.userData = { name: L.name, legend: L.legend, color: L.color,
                       group: L.group, groupTitle: L.groupTitle, owner: L.owner,
                       frame: L.frame, optional: L.optional, reach: L.reach };
+    if (L.coil) {
+      // Kept as built, so the default span puts it back exactly (resampleCoils).
+      line.userData.coil = L.coil;
+      line.userData.coilHome = { geometry: line.geometry, position: centre.clone() };
+    }
     if (L.follows) followers.push({ line, name: L.follows, home: centre.clone() });
     world.add(line);
     if (L.label) {
@@ -388,6 +393,7 @@ function build(key) {
   refreshOwnedLines();
 
   scene.add(world);
+  timeSpan = 'default';          // the spans name this system's bodies
   anim.frame = nowFrame(); anim.playing = false;
   setFrame(anim.frame);
   resize();
@@ -464,7 +470,8 @@ function setFrame(f) {
   const A = P[a], Bp = P[b];
   const w = (b === 0) ? 0 : t;            // never interpolate across the wrap
   const K = sys.kepler;
-  const tNow = (K && K.n === n && n > 1) ? K.t0 + (a + w) * (K.t1 - K.t0) / (n - 1) : null;
+  const span = spanNow();
+  const tNow = (K && K.n === n && n > 1) ? K.t0 + (a + w) * (span ? span.days : K.t1 - K.t0) / (n - 1) : null;
   const memo = {};
   for (let i = 0; i < bodies.length; i++) {
     const name = bodies[i].data.name;
@@ -483,7 +490,89 @@ function setFrame(f) {
   }
   for (const m of bandMeshes) placeBand(m);
   liveBands();
-  ui.date(sys.frames.labels[Math.round(anim.frame) % n] || '');
+  // The figure's own window keeps its dates; another span reads as time elapsed.
+  if (span && tNow !== null) ui.date(elapsedText(tNow - K.t0), jdDate(tNow));
+  // Only every sixth frame carries a date (Plotly's slider ticks); the rest are worked out here.
+  else ui.date(sys.frames.labels[Math.round(anim.frame) % n] || (tNow !== null ? jdDate(tNow) : ''));
+}
+
+// ── Time spans: how long one run of Play covers ─────────────────────────────
+// A system's kepler.spans (animation.time_spans) offer one cycle of its
+// shortest planet orbit, a year, its longest planet orbit and, where longer,
+// its longest star orbit, beside the window the figure was built for.  The
+// frame count stays the figure's, so every span plays in the same time and a
+// longer one is a faster system.  Every body with elements is placed by
+// Kepler's equation at the moment shown, so nothing but the moment changes.
+let timeSpan = 'default';
+function timeSpans() {
+  const K = sys && sys.kepler;
+  return (K && K.spans && K.n === (sys.frames.positions || []).length && K.n > 1) ? K.spans : [];
+}
+// The chosen span when it is not the figure's own, else null.
+function spanNow() {
+  if (timeSpan === 'default') return null;
+  return timeSpans().find((s) => s.key === timeSpan) || null;
+}
+function elapsedText(days) {
+  if (days < 2 * 365.25) return `+${days.toFixed(days < 10 ? 2 : days < 100 ? 1 : 0)} d`;
+  const yr = days / 365.25;
+  return `+${yr < 100 ? yr.toFixed(1) : Math.round(yr).toLocaleString('en-US')} yr`;
+}
+// A Julian date as a calendar date (Fliegel & Van Flandern), for the tooltip.
+function jdDate(jd) {
+  let l = Math.floor(jd + 0.5) + 68569;
+  const n = Math.floor(4 * l / 146097);
+  l -= Math.floor((146097 * n + 3) / 4);
+  const i = Math.floor(4000 * (l + 1) / 1461001);
+  l -= Math.floor(1461 * i / 4) - 31;
+  const j = Math.floor(80 * l / 2447), d = l - Math.floor(2447 * j / 80);
+  l = Math.floor(j / 11);
+  const m = j + 2 - 12 * l, y = 100 * (n - 49) + i + l;
+  return `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+}
+// A coil is the path its body walks over the window, so another span needs
+// another coil: sampled here as mechanics/time_series.py samples it, 16 points
+// a loop and no fewer than 360.  Where that would pass 12,000 points the coil
+// is left out for the span, since fewer points would draw a scribble.
+const COIL = { perLoop: 16, min: 360, max: 12000 };
+function resampleCoils() {
+  const K = sys.kepler, span = spanNow();
+  for (const o of world.children) {
+    const u = o.userData;
+    if (!u || !u.coil) continue;
+    const B = K && K.bodies[u.coil];
+    let geo = u.coilHome.geometry, at = u.coilHome.position;
+    if (span && B) {
+      const want = Math.ceil(span.days / B.el[7] * COIL.perLoop);
+      const n = want > COIL.max ? 0 : Math.max(COIL.min, want);
+      const pts = new Float32Array(Math.max(n, 2) * 3);
+      let c = null;
+      for (let i = 0; i < n; i++) {
+        const p = keplerPosition(K, u.coil, K.t0 + span.days * i / (n - 1), {});
+        if (!c) c = p.slice();
+        pts[i * 3] = p[0] - c[0]; pts[i * 3 + 1] = p[1] - c[1]; pts[i * 3 + 2] = p[2] - c[2];
+      }
+      at = new THREE.Vector3(...(c || [0, 0, 0]));
+      if (o.isLine2) { geo = new LineGeometry(); geo.setPositions(pts); }
+      else { geo = new THREE.BufferGeometry(); geo.setAttribute('position', new THREE.BufferAttribute(pts, 3)); }
+      u.coilLeftOut = !n;
+    } else {
+      u.coilLeftOut = false;
+    }
+    if (o.geometry !== geo && o.geometry !== u.coilHome.geometry) o.geometry.dispose();
+    o.geometry = geo;
+    o.position.copy(at);
+    o.frustumCulled = false;
+    if (o.material.isLineDashedMaterial || o.material.dashed) o.computeLineDistances();
+  }
+}
+function setTimeSpan(key) {
+  if (!timeSpans().some((s) => s.key === key)) return;
+  timeSpan = key;
+  anim.playing = false;
+  resampleCoils();
+  setFrame(0);
+  ui.sync();
 }
 
 // A view's Play (Nearby Stellar Motion): every star slides along its own
@@ -1397,7 +1486,8 @@ const ui = (() => {
   rangeWrap.appendChild(rangeBtn);
   const rangeBox = document.createElement('div');
   rangeBox.setAttribute('role', 'menu');
-  rangeBox.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;width:230px;max-width:calc(100vw - 16px);'
+  rangeBox.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;width:max-content;min-width:230px;'
+    + 'max-width:min(440px, calc(100vw - 16px));'
     + 'box-sizing:border-box;display:none;flex-direction:column;gap:6px;z-index:20;'
     + 'background:rgba(10,10,30,0.97);border:1px solid #333366;border-radius:4px;'
     + 'padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5)';
@@ -1410,40 +1500,54 @@ const ui = (() => {
   }
   rangeBtn.addEventListener('click', () => {
     if (rangeOpen) closeRanges();
-    else {
-      rangeOpen = true; rangeBox.style.display = 'flex'; bar.style.zIndex = '10000';
-      // Play sits near the right edge on a wide screen: keep the menu on it.
+    else { rangeOpen = true; rangeBox.style.display = 'flex'; bar.style.zIndex = '10000'; }
+    sync();
+    if (rangeOpen) {
+      // Keep the menu on the screen, measured once sync() has filled its rows:
+      // Play sits near the right edge on a wide screen, and a phone is narrow.
+      // The page's own width, not innerWidth: a phone widens that to fit the overflow.
       rangeBox.style.left = '0';
-      const over = rangeBox.getBoundingClientRect().right - (window.innerWidth - 8);
+      const over = rangeBox.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
       if (over > 0) rangeBox.style.left = `${-over}px`;
     }
-    sync();
   });
   document.addEventListener('mousedown', (ev) => {
     if (rangeOpen && !rangeWrap.contains(ev.target)) { closeRanges(); sync(); }
   });
   function syncRanges() {
-    const ranges = (sys && sys.drift && sys.drift.ranges) || [];
+    const drifting = !!(sys && sys.drift);
+    const ranges = (drifting ? sys.drift.ranges : sys && timeSpans()) || [];
+    const chosen = drifting ? driftRange : timeSpan;
+    const heading = !drifting && ranges.length ? sys.kepler.spansHeading : '';
     rangeWrap.style.display = ranges.length ? 'inline-block' : 'none';
     if (!ranges.length && rangeOpen) closeRanges();
     rangeBtn.textContent = rangeOpen ? '▴' : '▾';
-    rangeBtn.style.background = rangeOpen || (ranges.length && driftRange !== sys.drift.default)
+    rangeBtn.style.background = rangeOpen || (ranges.length && chosen !== (drifting ? sys.drift.default : 'default'))
       ? '#2a2a70' : '#111130';
     rangeBtn.setAttribute('aria-expanded', String(rangeOpen));
     if (rangeFor !== ranges) {
       rangeFor = ranges;
       rangeBox.replaceChildren();
+      if (heading) {
+        const h = document.createElement('div');
+        h.textContent = heading;
+        h.style.cssText = 'font:11px monospace;color:#8888bb;padding:0 2px';
+        rangeBox.appendChild(h);
+      }
       for (const r of ranges) {
         const b = document.createElement('button');
-        b.style.cssText = css + 'text-align:left;';
+        b.style.cssText = css + 'text-align:left;white-space:normal;';
         b.dataset.range = r.key;
         b.setAttribute('role', 'menuitemradio');
-        b.addEventListener('click', () => { closeRanges(); setDriftRange(r.key); });
+        b.addEventListener('click', () => {
+          closeRanges();
+          if (sys.drift) setDriftRange(r.key); else setTimeSpan(r.key);
+        });
         rangeBox.appendChild(b);
       }
     }
-    for (const b of rangeBox.children) {
-      const r = ranges.find((x) => x.key === b.dataset.range), on = r.key === driftRange;
+    for (const b of rangeBox.querySelectorAll('button')) {
+      const r = ranges.find((x) => x.key === b.dataset.range), on = r.key === chosen;
       b.textContent = `${on ? '◉' : '○'}  ${r.label}`;
       b.setAttribute('aria-checked', String(on));
       b.style.background = on ? '#2a2a70' : '#111130';
@@ -2112,8 +2216,10 @@ const ui = (() => {
     searchIn.style.width = compact ? '100%' : '130px';
     searchIn.style.boxSizing = compact ? 'border-box' : '';
     // The time slider takes what is left of the first row.
-    Object.assign(slider.style, compact ? { width: 'auto', flex: '1 1 60px', minWidth: '50px' }
+    // The time-range arrow shares the phone's one row: it and the slider give up the room it needs.
+    Object.assign(slider.style, compact ? { width: 'auto', flex: '1 1 36px', minWidth: '36px' }
       : { width: '150px', flex: '', minWidth: '' });
+    rangeBtn.style.padding = compact ? '4px 5px' : '4px 10px';
     Object.assign(dateEl.style, compact ? { minWidth: '', fontSize: '11px' } : { minWidth: '90px', fontSize: '12px' });
     spacer.style.display = compact ? 'none' : '';
     // More Modeled Systems drops from the whole bar, edge to edge, rather than
@@ -2472,7 +2578,7 @@ const ui = (() => {
     hideInfo(grace = 0) {
       if (K && Date.now() - infoShownAt >= grace) K.hideInfoPanel();
     },
-    date(text) { dateEl.textContent = text; },
+    date(text, title) { dateEl.textContent = text; dateEl.title = title || ''; },
     hover(b, x, y) {
       if (!b) { tip.style.display = 'none'; renderer.domElement.style.cursor = ''; return; }
       const p = b.obj.position;
@@ -2542,6 +2648,7 @@ window.__SA3 = {
   units: () => (sys && sys.units) || 'AU',
   motionFrame: () => motionFrame, setMotionFrame,
   driftRange: () => driftRange, setDriftRange,
+  timeSpan: () => timeSpan, setTimeSpan, timeSpans,
   trails: () => (world ? world.children.filter((o) => o.userData && o.userData.trail) : []),
   optional: (key) => optionalOn(key), setOptional,
   setSky, skyUV,
