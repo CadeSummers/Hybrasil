@@ -101,6 +101,26 @@ move to Planets.
     bug in `CLAUDE.md`, so read that section before touching it.
   - The three.js viewer does not throw.
 
+- **Low priority: three things to verify in the combined-flux bands and the 3D
+  heatmap** (25 November 2026). None is known to be wrong; each is an
+  assumption or a gap worth a look later. See "More than one star" in
+  `docs/architecture/solvent-bands.md`.
+  - **Shadowing.** One star eclipsing another is not modelled: every star
+    lights every point as though nothing stood between them
+    (`mechanics/combined_flux.py`). Check how much a band or shell would change
+    in the tightest pairs (Castor's spectroscopic binaries), and whether that
+    is worth drawing.
+  - **One albedo and greenhouse for all light.** Each star keeps its own
+    colour factor, but the slider albedo and greenhouse offset apply to the
+    summed light. The Kopparapu colour factor was fitted for single stars, so
+    summing colour-weighted fluxes is an approximation. Check it against the
+    literature on habitable zones in binaries, a G star with a red dwarf
+    companion in particular.
+  - **Unequal-star tests.** `tests/test_combined_flux.py` covers unequal stars
+    only through the built-in systems (Alpha Centauri, Castor). Add a
+    synthetic G star plus red dwarf, and a case of three or more nearby stars,
+    in 2D and in the shells.
+
 ## Unconfirmed-candidate search: finished 27 September 2026, follow-ups
 
 The search is complete; see [`unconfirmed_search.md`](unconfirmed_search.md) §8 and
