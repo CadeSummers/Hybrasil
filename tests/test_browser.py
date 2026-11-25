@@ -23,6 +23,7 @@ chromium`; skipped otherwise.  `pytest tests/test_browser.py --headed` shows
 the browser while it runs.
 """
 
+import json
 import math
 import shutil
 
@@ -1109,6 +1110,85 @@ def test_three_play_moves_every_star_along_its_arrow(three):
     f = three.evaluate("() => window.__SA3.anim().frame")
     three.wait_for_timeout(300)
     assert three.evaluate("() => window.__SA3.anim().frame") == f
+
+
+_TRAILS = """() => { const S = window.__SA3, name = %s;
+  const own = S.trails().filter(o => o.userData.owner === name);
+  const c = S.clouds()[0];
+  return {n: own.length,
+          shown: own.filter(o => o.visible).map(o => o.userData.frame),
+          ends: own.filter(o => o.userData.frame === 'sun').map(o => Array.from(o.geometry.attributes.position.array))[0],
+          cloud: Object.fromEntries(Object.entries(c.trails).map(([k, l]) => [k, l.visible]))}; }"""
+
+
+def test_three_play_can_run_the_past_and_both(three):
+    _open_view(three)
+    body = lambda: three.locator("body").inner_text()                          # noqa: E731
+    frames = lambda: three.evaluate("() => window.__SA3.nFrames()")           # noqa: E731
+    d = three.evaluate(_DRIFT)
+    trails = lambda: three.evaluate(_TRAILS % json.dumps(d["name"]))          # noqa: E731
+    back = [p - v for p, v in zip(d["start"], d["drift"]["sun"])]
+    ahead = [p + v for p, v in zip(d["start"], d["drift"]["sun"])]
+    # As it opens: the future, and no past trail drawn.
+    assert three.evaluate("() => window.__SA3.driftRange()") == "future"
+    t = trails()
+    assert t["n"] == 2 and t["shown"] == [] and not any(t["cloud"].values())
+
+    # The arrow beside Play opens the three ranges; the past is chosen from the menu itself.
+    arrow = three.get_by_role("button", name="Time range")
+    arrow.click()
+    rows = three.get_by_role("menuitemradio")
+    assert rows.count() == 3 and rows.nth(0).get_attribute("aria-checked") == "true"
+    three.get_by_role("menuitemradio", name="\u221250,000 yr \u2192 Now").click()
+    assert three.evaluate("() => window.__SA3.driftRange()") == "past"
+    assert not three.get_by_role("menuitemradio").first.is_visible()
+    # It opens on today, the range's last frame; its first is 50,000 years back, behind every star.
+    assert frames() == 201 and three.evaluate("() => window.__SA3.anim().frame") == 200
+    assert three.evaluate(_DRIFT)["pos"] == pytest.approx(d["start"], abs=1e-3)
+    three.evaluate("() => window.__SA3.setFrame(0)")
+    p = three.evaluate(_DRIFT)
+    assert p["pos"] == pytest.approx(back, abs=1e-3) and p["sun"] == [0, 0, 0]
+    assert p["cloud"] == pytest.approx([a - b for a, b in zip(p["cloudStart"], p["cloudDrift"])], abs=1e-3)
+    assert "\u221250,000 yr" in body()
+    # The trail: from there to where the star is now, in the chosen motion frame only.
+    t = trails()
+    assert t["shown"] == ["sun"] and t["ends"] == pytest.approx(back + d["start"], abs=1e-3)
+    three.evaluate("() => window.__SA3.setMotionFrame('lsr')")
+    assert trails()["shown"] == ["lsr"]
+    assert three.evaluate(_DRIFT)["pos"] == pytest.approx(
+        [p - v for p, v in zip(d["start"], d["drift"]["lsr"])], abs=1e-3)
+    three.evaluate("() => window.__SA3.setMotionFrame('sun')")
+    # The Motion row hides trails with the arrows, and a cloud's trails show with its set.
+    three.locator("label", has_text="Motion (").locator("input").uncheck()
+    assert trails()["shown"] == []
+    three.locator("label", has_text="Motion (").locator("input").check()
+    assert not any(trails()["cloud"].values())
+    three.evaluate("() => window.__SA3.setOptional('known', true)")
+    assert trails()["cloud"] == {"sun": True, "lsr": False}
+    three.evaluate("() => window.__SA3.setOptional('known', false)")
+
+    # Both: twice the frames at the same pace, today in the middle.
+    three.evaluate("() => window.__SA3.setDriftRange('both')")
+    assert frames() == 401 and three.evaluate("() => window.__SA3.anim().frame") == 0     # the moment is kept
+    assert "\u221250,000 yr" in body()
+    three.evaluate("() => window.__SA3.setFrame(200)")
+    assert three.evaluate(_DRIFT)["pos"] == pytest.approx(d["start"], abs=1e-3) and "Now" in body()
+    three.evaluate("() => window.__SA3.setFrame(400)")
+    assert three.evaluate(_DRIFT)["pos"] == pytest.approx(ahead, abs=1e-3) and "+50,000 yr" in body()
+    assert trails()["shown"] == ["sun"]
+
+    # A system has no such arrow; back in the view the choice is as it was left.
+    three.evaluate("k => window.__SA3.switchTo(k)", "solar")
+    assert not arrow.is_visible()
+    _open_view(three)
+    assert arrow.is_visible() and three.evaluate("() => window.__SA3.driftRange()") == "both"
+    assert "Now" in body() and trails()["shown"] == ["sun"]
+    # The future again, from a moment it does not hold: it falls back to today.
+    three.evaluate("() => window.__SA3.setFrame(0)")
+    three.evaluate("() => window.__SA3.setDriftRange('future')")
+    assert frames() == 201 and three.evaluate("() => window.__SA3.anim().frame") == 0
+    assert three.evaluate(_DRIFT)["pos"] == pytest.approx(d["start"], abs=1e-3)
+    assert trails()["shown"] == []
 
 
 def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):

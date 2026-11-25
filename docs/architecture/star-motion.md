@@ -60,6 +60,26 @@ flies to it.
     the Sun relative to itself. In the LSR frame the Sun moves too.
   - The motion is a straight line at today's velocity, as the arrows are, with
     no galactic orbit or encounter bending it.
+  - **The arrow beside Play chooses the range** (since 25 Nov 2026): now to
+    +50,000 yr (the default), −50,000 yr to now, or −50,000 yr to +50,000 yr.
+    The past needs no data of its own: it is the same straight line run
+    backwards, `pos + drift × s` with `s` from −1. The ranges are declared in
+    Python (`star_motion.drift_ranges()` → `scene.drift.ranges`, `from`/`to`
+    in units of `ARROW_YEARS`); the viewer's `driftSpan()` reads them.
+    - The pace is the same in each: 200 steps per 50,000 years, so the
+      combined range is 401 frames and 20 s.
+    - Choosing a range pauses and keeps the moment on screen if the new range
+      holds it; otherwise it shows today (`setDriftRange()`, `nowFrame()`).
+      The choice survives a switch to another system and back.
+    - **Past trails:** in the two past ranges each star with an arrow also
+      gets a faint line from where it was 50,000 years ago to where it is
+      now. `buildTrails()` makes them in the browser from `drift`, one per
+      arrow and one `LineSegments` per cloud and motion frame, so the scene
+      file does not grow. A trail is shown under its arrow's rules (class
+      row, Motion row, motion frame, optional set) and only while the range
+      reaches into the past. A trail has no `name`, so `__SA3.lines()`,
+      search and the legend never see it; `__SA3.trails()`, `driftRange()`
+      and `setDriftRange()` are the test handles.
 
 ## The planetless systems, behind a button
 
