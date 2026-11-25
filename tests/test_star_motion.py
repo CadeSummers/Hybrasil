@@ -310,14 +310,78 @@ def test_every_catalog_system_is_reachable_from_its_star(snapshot_catalog):
     lib = _library(catalog_loader=lambda: snapshot_catalog)
     ids = {e["id"] for e in lib.index()}
     _, info = build_view("nearby-star-motion", snapshot_catalog)
-    targets = {e["goto"] for e in info.values()}
+    targets = {e["goto"] for e in info.values() if "goto" in e}
     reachable = targets & ids
     # Proxima is reached as Alpha Centauri; Castor's stars are on the
     # Planetless 4+ Stars tab rather than the Systems tab the view plots.
     assert set(BUILTIN_NAMES) - {"proxima-centauri", "castor"} <= reachable
     assert len(reachable) > 380
-    # A star whose planets were all rejected has no system to open.
-    assert info["GJ 680"]["goto"] not in ids
+    # A star whose planets were all rejected has no system to open, and its panel says so.
+    assert "goto" not in info["GJ 680"] and info["GJ 680"]["goto_note"] == sm.REFUTED_NOTE
+    assert "catalog:GJ 680" not in ids
+
+
+# ── refuted systems: every planet on file was rejected ───────────────────────
+
+def test_a_refuted_system_is_one_with_rejected_candidates_and_nothing_else(stars, snapshot_catalog):
+    by = {s.name: s for s in stars}
+    refuted = {s.name for s in stars if s.refuted}
+    # Derived from the tabs, never a list of names: nothing on a planet tab, something on Rejected candidates.
+    hosts = set(snapshot_catalog.hosts())
+    assert refuted == {s.name for s in stars if s.rejected and s.name not in hosts and not s.is_sun}
+    assert len(refuted) == 18 and {"Kapteyn", "GJ 680", "GJ 229"} <= refuted
+    assert [n for n, _ in by["Kapteyn"].rejected] == ["Kapteyn b", "Kapteyn c"]
+    # A system that lost one candidate and kept its planets is not refuted, but remembers the one it lost.
+    kept = [s for s in stars if s.rejected and not s.refuted]
+    assert kept and all(s.planets for s in kept)
+    assert not by["tau Cet"].refuted and not by["Sun"].refuted
+
+
+def test_a_refuted_system_is_ringed_red_and_waits_for_the_buttons_last_step(view, stars):
+    scene = view[2]
+    refuted = {s.name for s in stars if s.refuted}
+    drawn = [b for b in scene["bodies"] if b.get("mode") == sm.REFUTED_MODE]
+    assert {b["name"] for b in drawn} == refuted
+    assert {b["optional"] for b in drawn} == {sm.KNOWN_SET} and {b["group"] for b in drawn} == {sm.REFUTED_GROUP}
+    # Its class colour inside a red ring: Kapteyn is still an M dwarf's red.
+    assert {b["edge"] for b in drawn} == {sm.REFUTED_RING}
+    assert next(b for b in drawn if b["name"] == "Kapteyn")["fill"] == sm.CLASS_COLOURS["M"][1]
+    # Each keeps its arrows, owned by it, so they show and hide with it.
+    assert {ln["owner"] for ln in scene["lines"] if ln.get("owner") in refuted} == {b["name"] for b in drawn
+                                                                                  if b.get("drift")}
+    # The button: All, Excluding unconfirmed, Unconfirmed only, then Refuted only -- which names no cloud.
+    known = next(o for o in scene["optionalSets"] if o["key"] == sm.KNOWN_SET)
+    assert [m["label"] for m in known["modes"]] == ["All", "Excluding unconfirmed", "Unconfirmed only",
+                                                    "Refuted only"]
+    assert known["modes"][-1] == {"key": sm.REFUTED_MODE, "label": "Refuted only", "clouds": []}
+    assert known["default"] is False and "refuted" in known["title"]
+    # The title counts them apart.
+    assert "408 systems within 100 ly" in scene["title"] and "(+18 refuted systems on request)" in scene["title"]
+
+
+def test_a_refuted_systems_panel_says_so_and_names_what_was_rejected(view):
+    info = view[1]
+    kapteyn = info["Kapteyn"]
+    assert kapteyn["goto_note"] == "Exoplanet system recently refuted" and "goto" not in kapteyn
+    rows = {r[0]: r for r in kapteyn["rows"]}
+    assert rows["Planets"][1] == "none on file"
+    assert rows["Rejected candidates"][1].startswith("Kapteyn b (") and "; Kapteyn c (ROTATION)" in rows[
+        "Rejected candidates"][1]
+    assert "not drawn" in rows["Rejected candidates"][2]
+    # A system with planets left keeps its button, and names the candidate it lost.
+    kept = next(e for e in info.values() if "goto" in e and any(r[0] == "Rejected candidates" for r in e["rows"]))
+    assert "goto_note" not in kept
+    # One with nothing rejected has no such row: most of them.
+    plain = [e for e in info.values() if not any(r[0] == "Rejected candidates" for r in e["rows"])]
+    assert len(plain) > 400 and "Rejected candidates" not in {r[0] for r in info["TRAPPIST-1"]["rows"]}
+
+
+def test_a_rejected_reason_is_cut_to_its_first_sentence():
+    assert sm._rejected_text("X b", "REFUTED. A longer account follows. And more.") == "X b (REFUTED)"
+    assert sm._rejected_text("X b", "") == "X b"
+    assert sm._rejected_text("X b", "Robertson et al. 2015 call it rotation. More.") == (
+        "X b (Robertson et al. 2015 call it rotation)")
+    assert len(sm._rejected_text("X b", "word " * 80)) < 175
 
 
 def test_the_scene_is_in_light_years_in_the_galactic_frame(view):
@@ -412,16 +476,16 @@ def test_the_planetless_set_is_one_ringed_group_off_by_default(view):
     sets = [o for o in view[2]["optionalSets"] if o["key"] == sm.PLANETLESS_SET]
     assert sets == [{"key": sm.PLANETLESS_SET, "label": "High Star Count Systems", "default": False, "count": 80,
                      "title": sets[0]["title"]}]
-    opt = [b for b in view[2]["bodies"] if b.get("optional")]
+    opt = [b for b in view[2]["bodies"] if b.get("optional") == sm.PLANETLESS_SET]
     assert {b["group"] for b in opt} == {sm.PLANETLESS_GROUP}
     assert {b["edge"] for b in opt} == {sm.PLANETLESS_RING} and all(b["fill"] for b in opt)
     assert "+80 high star count systems on request" in view[2]["title"]
-    # The Systems-tab count in the title is unchanged by them.
-    assert "426 systems within 100 ly" in view[2]["title"]
+    # The Systems-tab count in the title is unchanged by them (426 rows, 18 of them refuted and counted apart).
+    assert "408 systems within 100 ly" in view[2]["title"]
 
 
 def test_a_planetless_systems_arrows_are_owned_by_it(view):
-    names = {b["name"] for b in view[2]["bodies"] if b.get("optional")}
+    names = {b["name"] for b in view[2]["bodies"] if b.get("optional") == sm.PLANETLESS_SET}
     arrows = [l for l in view[2]["lines"] if l.get("owner") in names]
     assert len(arrows) == 2 * len(names)                     # one per frame
     assert all(l["group"] == sm.MOTION_GROUP for l in arrows)
@@ -537,7 +601,10 @@ def test_no_planetless_systems_means_no_button():
     from hybrasil.data.nearby_loader import load_nearby
     stars, source = load_nearby()
     scene = figure_to_scene(sm.build_star_motion_figure(stars, source))
-    assert scene["optionalSets"] is None and not any(b.get("optional") for b in scene["bodies"])
+    # Only the Known set is left, and with no known objects it holds the refuted systems alone.
+    assert [o["key"] for o in scene["optionalSets"]] == [sm.KNOWN_SET]
+    assert [m["key"] for m in scene["optionalSets"][0]["modes"]] == [sm.REFUTED_MODE]
+    assert {b.get("optional") for b in scene["bodies"]} == {None, sm.KNOWN_SET} and not scene["clouds"]
 
 
 def test_a_star_system_scene_is_unchanged():

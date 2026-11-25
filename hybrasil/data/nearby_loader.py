@@ -18,7 +18,7 @@ from typing import Optional
 
 from ..models.nearby import NearbyStar
 from . import star_sources
-from .catalog_loader import Catalog, _is_confirmed, _star_facts, parse_workbook
+from .catalog_loader import Catalog, _is_confirmed, _star_facts, match_key, parse_workbook
 
 SUN = "Sun"
 
@@ -64,6 +64,10 @@ def nearby_stars(catalog: Catalog) -> list[NearbyStar]:
         for star in dict.fromkeys(members + [host]):
             for p in catalog.planets_by_host.get(star, []):
                 planets.append(_planet_label(p))
+        # What was once filed here and rejected.  A system with nothing else is refuted: it has no
+        # planet on file, so no system to open (Catalog.hosts()).
+        keys = {match_key(m) for m in members + [host]}
+        rejected = [(r.name, r.reason) for r in catalog.rejected.values() if match_key(r.host) in keys]
         n = row.get("confirmed_planets")
         # The primary's own facts: the stars tab first, then this row.  The
         # Systems tab's 'Host luminosity' is the PLANET host's on some rows
@@ -89,6 +93,8 @@ def nearby_stars(catalog: Catalog) -> list[NearbyStar]:
             partners=partners,
             planets=planets,
             n_planets=int(n) if n is not None else None,
+            rejected=rejected,
+            refuted=bool(rejected) and not planets and host != SUN,
             kinematics_source=row.get("kinematics_source") or "",
             is_sun=host == SUN,
         ), row, exoplanet_host=host if "NASA Exoplanet Archive" in (row.get("existence") or "") else ""))

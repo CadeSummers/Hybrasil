@@ -239,6 +239,9 @@ def figure_to_scene(fig: go.Figure) -> dict:
                 # One of the scene's optional sets (optionalSets): shown only
                 # while that set's button is on, with the lines it owns.
                 bodies[-1]["optional"] = bmeta["optional"]
+                if bmeta.get("mode"):
+                    # Shown in that one mode of its set only (a refuted system: Refuted only).
+                    bodies[-1]["mode"] = bmeta["mode"]
             if bmeta.get("drift"):
                 # A view's star: where Play carries it, per motion frame (star_motion.drift_ly).
                 bodies[-1]["drift"] = bmeta["drift"]

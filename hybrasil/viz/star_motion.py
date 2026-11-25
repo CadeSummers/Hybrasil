@@ -19,6 +19,7 @@ zoom does not understand.
 from __future__ import annotations
 
 import math
+import re
 from typing import Optional
 
 import plotly.graph_objects as go
@@ -91,6 +92,15 @@ PLANETLESS_LABEL = "High Star Count Systems"
 PLANETLESS_GROUP = "High star count systems (4+ stars)"
 PLANETLESS_RING = "#FFFFFF"
 
+# A refuted system: a Systems-tab star whose every planet went to the Rejected
+# candidates tab (NearbyStar.refuted).  It stays in the view, coloured by class
+# with a red ring, but hidden until the Known button's last step, Refuted only;
+# its panel greys out "Go to system" and says why in red.
+REFUTED_MODE = "refuted"
+REFUTED_GROUP = "Exoplanet system refuted"
+REFUTED_RING = "#FF4444"
+REFUTED_NOTE = "Exoplanet system recently refuted"
+
 # Every other catalogued object within 100 ly (the Known within 100ly tab's
 # unplotted rows): one optional layer, off until its button turns it on.  They
 # are not classified yet, so all are one purple, smaller than any classified
@@ -113,7 +123,9 @@ UNCONFIRMED_SLUG = ("Existence unconfirmed", "Only cited in Gaia DR3")
 # `clouds` shows only those clouds of the set; one that names none shows them all.
 KNOWN_MODES = [{"key": "all", "label": "All"},
                {"key": "confirmed", "label": "Excluding unconfirmed", "clouds": [KNOWN_SET]},
-               {"key": "unconfirmed", "label": "Unconfirmed only", "clouds": [UNCONFIRMED_KEY]}]
+               {"key": "unconfirmed", "label": "Unconfirmed only", "clouds": [UNCONFIRMED_KEY]},
+               # The refuted systems alone: no cloud, and the set's bodies tagged with this mode.
+               {"key": REFUTED_MODE, "label": "Refuted only", "clouds": []}]
 # Stand-ins for a cloud point's own ids in its link templates; the viewer swaps each point's ids in.
 ID_SLOTS = {"gaia_id": "@GAIA@", "simbad_id": "@SIMBAD@", "cns5_id": "@CID@"}
 
@@ -339,7 +351,7 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             legendgroup=PLANETLESS_GROUP, legendgrouptitle=dict(text=PLANETLESS_GROUP),
             meta={"optional": PLANETLESS_SET, "drift": drift_ly(s)},
         ))
-    planetless_traces, traces = traces, []
+    planetless_traces, traces, refuted_traces = traces, [], []
     placed_all = placed + extra
     for s in placed:
         x, y, z = position_ly(s)
@@ -356,10 +368,18 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             meta={"drift": drift_ly(s)},
         )
         group = spectral_group(s)
+        if s.refuted:
+            # One of the Known set, shown in its Refuted only mode alone; its arrows are owned by it.
+            trace.update(marker_line=dict(width=1.5, color=REFUTED_RING),
+                         legendgroup=REFUTED_GROUP, legendgrouptitle=dict(text=REFUTED_GROUP),
+                         meta={"optional": KNOWN_SET, "mode": REFUTED_MODE, "drift": drift_ly(s)})
+            refuted_traces.append(trace)
+            continue
         if group:
             trace.update(legendgroup=group, legendgrouptitle=dict(text=group))
         traces.append(trace)
-    traces += planetless_traces
+    # After the classes, so their one legend row follows them.
+    traces += refuted_traces + planetless_traces
 
     # One arrow per star per frame.  Relative to the Sun, the Sun has none; in
     # the LSR frame it has its own, green like its marker.  A planetless
@@ -389,14 +409,16 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             opacity=0.6, showlegend=True, hoverinfo="skip",
         ))
 
-    n_moving = sum(1 for s in placed if s.has_motion and not s.is_sun)
-    n_systems = sum(1 for s in placed if not s.is_sun)
+    n_refuted = len(refuted_traces)
+    n_moving = sum(1 for s in placed if s.has_motion and not s.is_sun and not s.refuted)
+    n_systems = sum(1 for s in placed if not s.is_sun and not s.refuted)
     clouds = known_clouds(list(known)) if known else []
     n_known = sum(len(c["info"]) for c in clouds)
     n_doubt = sum(len(c["info"]) for c in clouds if c["key"] == UNCONFIRMED_KEY)
     title = (f"{VIEW_NAME} — {n_systems} systems within 100 ly, {n_moving} with a "
              f"measured motion" + (f" (+{len(extra)} high star count systems on request)" if extra else "")
              + (f" (+{n_known:,} unclassified objects on request)" if n_known else "")
+             + (f" (+{n_refuted} refuted systems on request)" if n_refuted else "")
              + f" · velocity relative to the Sun or the LSR · arrow = "
              f"{ARROW_YEARS:,} yr of travel" + (f" · {source}" if source else ""))
     fig = go.Figure(data=traces)
@@ -415,18 +437,27 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
                                   "title": "Add the systems of the workbook's Planetless 4+ Stars tab: "
                                            "hierarchies of stars with no known planet but, for some, brown "
                                            "dwarfs, which this model counts as planets"}]
-    if n_known:
+    if n_known or n_refuted:
+        split = bool(n_doubt and n_doubt < n_known)
+        refuted_tip = (f"{n_refuted} systems whose every planet candidate was later refuted, ringed in red"
+                       if n_refuted else "")
         meta.setdefault("optional_sets", []).append({
             "key": KNOWN_SET, "label": KNOWN_LABEL, "default": False, "count": n_known,
-            "title": "Add every other catalogued object within 100 ly (the workbook's Known within 100ly tab), "
-                     f"not yet classified, in purple; {sum(c['moving'] for c in clouds):,} have a measured space "
-                     "velocity and an arrow, the rest a dot"
-                     + (f". {n_doubt:,} in aquamarine are listed only by Gaia DR3, whose astrometry for them is "
-                        "probably spurious: existence unconfirmed. Click again to leave them out, again for "
-                        "them alone, again for off" if n_doubt else "")})
-        if n_doubt and n_doubt < n_known:
-            meta["optional_sets"][-1]["modes"] = KNOWN_MODES
-        meta["clouds"] = clouds
+            "title": ("Add every other catalogued object within 100 ly (the workbook's Known within 100ly tab), "
+                      f"not yet classified, in purple; {sum(c['moving'] for c in clouds):,} have a measured space "
+                      "velocity and an arrow, the rest a dot"
+                      + (f". {n_doubt:,} in aquamarine are listed only by Gaia DR3, whose astrometry for them is "
+                         "probably spurious: existence unconfirmed. Click again to leave them out, again for "
+                         "them alone" if n_doubt else "")
+                      + (f", again for the {refuted_tip}" if refuted_tip else "")
+                      + ", again for off" if n_known else f"Show the {refuted_tip}")})
+        # All -> Excluding unconfirmed -> Unconfirmed only (where the clouds split) -> Refuted only -> Off.
+        modes = ([KNOWN_MODES[0]] if n_known else []) + (KNOWN_MODES[1:3] if split else []) \
+            + ([KNOWN_MODES[3]] if n_refuted else [])
+        if len(modes) > 1 or n_refuted:
+            meta["optional_sets"][-1]["modes"] = modes
+        if clouds:
+            meta["clouds"] = clouds
     fig.update_layout(
         title=dict(text=title, font=dict(color=themes.FONT_COLOR, size=16)),
         scene=themes.make_scene_style(h, h, h),
@@ -446,6 +477,15 @@ def _missing_motion(s: NearbyStar) -> str:
     gaps = [what for what, v in (("radial velocity", s.radial_velocity_kms),
                                  ("proper motion", s.total_pm_arcsec_yr)) if v is None]
     return "no " + " or ".join(gaps) + " on file" if gaps else "not computed"
+
+
+def _rejected_text(name: str, reason: str) -> str:
+    """A rejected candidate and the opening sentence of the sheet's reason for it."""
+    # A sentence ends at a full stop before a capital; "Robertson et al. 2015" is not one.
+    first = re.split(r"(?<!al)\.\s+(?=[A-Z])", (reason or "").strip(), maxsplit=1)[0].rstrip(".")
+    if len(first) > 160:
+        first = first[:157].rstrip() + "..."
+    return f"{name} ({first})" if first else name
 
 
 def star_rows(s: NearbyStar) -> list[list]:
@@ -509,6 +549,9 @@ def star_rows(s: NearbyStar) -> list[list]:
         rows.append(["Planets", f"{count}: {', '.join(s.planets)}", ""])
     else:
         rows.append(["Planets", "none on file" if not s.n_planets else str(s.n_planets), ""])
+    if s.rejected:
+        rows.append(["Rejected candidates", "; ".join(_rejected_text(n, why) for n, why in s.rejected),
+                     "on the Rejected candidates tab; not drawn"])
     if s.kinematics_source and not s.is_sun:
         rows.append(["Kinematics source", s.kinematics_source, ""])
     return rows
@@ -520,7 +563,15 @@ def star_motion_info(stars: list[NearbyStar]) -> dict:
     `goto` is the id of the star's own system, for the panel's "Go to system"
     button; the viewer shows the button only where it can open that id.
     """
-    return {(SUN_NAME if s.is_sun else s.name): {"rows": star_rows(s), "zoom_half": 4.0,
-                                                 "goto": s.system_id or system_id_for_host(s.name),
-                                                 "sources": s.sources}
-            for s in stars if s.has_position}
+    out = {}
+    for s in stars:
+        if not s.has_position:
+            continue
+        entry = {"rows": star_rows(s), "zoom_half": 4.0, "sources": s.sources}
+        if s.refuted:
+            # No system to open: the panel greys the button out and says why (band_kit.js).
+            entry["goto_note"] = REFUTED_NOTE
+        else:
+            entry["goto"] = s.system_id or system_id_for_host(s.name)
+        out[SUN_NAME if s.is_sun else s.name] = entry
+    return out
