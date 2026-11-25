@@ -41,8 +41,85 @@ def kepler_meta(system: StarSystem, times_jd: np.ndarray) -> dict:
                    el.mean_anomaly_at_epoch, el.epoch, el.period],
             "parent": label.get(b.parent),
         }
-    return {"t0": float(times_jd[0]), "t1": float(times_jd[-1]), "n": int(len(times_jd)),
-            "bodies": bodies}
+    out = {"t0": float(times_jd[0]), "t1": float(times_jd[-1]), "n": int(len(times_jd)),
+           "bodies": bodies}
+    spans = time_spans(system, float(times_jd[-1] - times_jd[0]))
+    if spans:
+        out["spans"] = spans
+        out["spansHeading"] = SPANS_HEADING
+    return out
+
+
+# The Play menu of the three.js viewer: how long one run of the animation
+# covers.  The figure's own window stays the default; the others are one cycle
+# of an orbit round a star (never a moon's round its planet), or a year.
+SPAN_DEFAULT = "default"
+YEAR_DAYS = 365.0
+SPANS_HEADING = "Run time, by orbits around a star"
+
+
+def span_text(days: float) -> str:
+    """A duration as the menu words it: days below two years, years above."""
+    if days < 2 * 365.25:
+        return f"{days:.2f} d" if days < 10 else f"{days:.1f} d" if days < 100 else f"{days:,.0f} d"
+    years = days / 365.25
+    return f"{years:.1f} yr" if years < 100 else f"{years:,.0f} yr"
+
+
+def time_spans(system: StarSystem, default_days: float) -> list[dict]:
+    """The time spans Play can run over, as [{key, label, days, body?}]; none where nothing orbits.
+
+    Each plays in the same wall-clock time, so a longer span is a faster system.
+    A planet here is anything in orbit round a star or a barycentre that is not
+    itself one (a brown dwarf is a planet); a moon never counts.  The longest
+    star orbit is offered beside the longest planet's when it is the longer,
+    and the shortest star orbit beside the shortest planet's when it is the
+    shorter (Castor's close pairs).  A system with no planet is set by its
+    stars alone.  A hypothetical body sets a span only where no confirmed one
+    can: Planet Nine does not make the Solar System's longest orbit.
+    """
+    by_name = {b.name: b for b in system.bodies}
+    starlike = ("star", "barycentre")
+    planets, stars = [], []
+    for b in system.bodies:
+        if b.elements is None or not b.elements.period or b.elements.period <= 0 or not b.draw_orbit:
+            continue
+        parent = by_name.get(b.parent)
+        if b.body_type in starlike:
+            stars.append(b)
+        elif b.body_type != "moon" and (parent is None or parent.body_type in starlike):
+            planets.append(b)
+    if not planets and not stars:
+        return []
+    confirmed = lambda bodies: [b for b in bodies if b.status == "confirmed"] or bodies   # noqa: E731
+    planets, stars = confirmed(planets), confirmed(stars)
+
+    def row(key, word, body):
+        return {"key": key, "days": float(body.elements.period), "body": body.label(),
+                "label": f"{word}: {body.label()} ({span_text(body.elements.period)})"}
+
+    period = lambda b: b.elements.period                                     # noqa: E731
+    kind = "planet" if planets else "star"
+    pool = planets or stars
+    first, last = min(pool, key=period), max(pool, key=period)
+    spans = [{"key": SPAN_DEFAULT, "days": float(default_days),
+              "label": f"Default: {span_text(default_days)} (as drawn)"}]
+    if planets and stars:
+        near = min(stars, key=period)
+        if period(near) < period(first):
+            spans.append(row("shortest-star", "Shortest star orbit", near))
+    if first is last:
+        spans.append(row("shortest", f"The {kind}'s orbit", first))
+    else:
+        spans.append(row("shortest", f"Shortest {kind} orbit", first))
+    spans.append({"key": "year", "days": YEAR_DAYS, "label": f"One Earth year ({YEAR_DAYS:.0f} d)"})
+    if first is not last:
+        spans.append(row("longest", f"Longest {kind} orbit", last))
+    if planets and stars:
+        far = max(stars, key=period)
+        if period(far) > period(last):
+            spans.append(row("longest-star", "Longest star orbit", far))
+    return spans
 
 
 def _date_label(jd: float) -> str:
