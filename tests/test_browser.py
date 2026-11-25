@@ -25,6 +25,7 @@ the browser while it runs.
 
 import json
 import math
+import re
 import shutil
 
 import pytest
@@ -375,6 +376,139 @@ def _load_three(page, url):
     page.evaluate(_THREE_HELPERS)
     yield page
     assert not errors, f"page errors: {errors}"
+
+
+_POS = """names => { const S = window.__SA3, out = {};
+  for (const n of names) out[n] = S.bodies().find(b => b.data.name === n).obj.position.toArray();
+  return out; }"""
+
+
+def _gap(a, b):
+    return math.dist(a, b)
+
+
+def test_three_play_runs_one_cycle_of_the_shortest_or_longest_orbit(three):
+    three.evaluate("k => window.__SA3.switchTo(k)", "trappist-1")
+    S = "window.__SA3"
+    names = ["TRAPPIST-1b", "TRAPPIST-1h"]
+    last = three.evaluate(f"() => {S}.nFrames() - 1")
+    readout = lambda: three.locator("body").inner_text()                       # noqa: E731
+    start = three.evaluate(_POS, names)
+    # As it opens: the figure's own 30 days, with dates, b having gone round 19 times and stopped elsewhere.
+    assert three.evaluate(f"() => {S}.timeSpan()") == "default"
+    three.evaluate(f"f => {S}.setFrame(f)", last)
+    default_end = three.evaluate(_POS, names)
+    assert re.search(r"\d{4}-\d\d-\d\d", readout()) and "+30" not in readout()
+    # Only every sixth frame carries a date from Python; the viewer works out the rest, and the two agree.
+    dates = three.evaluate(f"""() => {{ const out = [];
+      for (const f of [0, 6, 7, 60]) {{ {S}.setFrame(f);
+        out.push(document.querySelector('input[type=range][step=any]').nextElementSibling.textContent); }}
+      {S}.setFrame({S}.nFrames() - 1); return out; }}""")
+    assert all(re.fullmatch(r"\d{4}-\d\d-\d\d", d) for d in dates) and dates == sorted(dates), dates
+
+    # The arrow beside Play: a heading saying whose orbits these are, then the spans.  b's is chosen from the menu.
+    arrow = three.get_by_role("button", name="Time range")
+    arrow.click()
+    assert three.get_by_text("Run time, by orbits around a star").is_visible()
+    rows = three.get_by_role("menuitemradio")
+    assert rows.all_inner_texts() == [
+        "\u25c9 Default: 30.0 d (as drawn)", "\u25cb Shortest planet orbit: TRAPPIST-1b (1.51 d)",
+        "\u25cb One Earth year (365 d)", "\u25cb Longest planet orbit: TRAPPIST-1h (18.8 d)"]
+    rows.nth(1).click()
+    assert three.evaluate(f"() => {S}.timeSpan()") == "shortest"
+    assert three.evaluate(f"() => [{S}.anim().frame, {S}.anim().playing]") == [0, False]
+    assert three.evaluate(_POS, names) == start and "+0.00 d" in readout()
+    # One cycle of b: at the last frame b is back where it began, and h has moved only a twelfth of its way round.
+    three.evaluate(f"f => {S}.setFrame(f)", last)
+    end = three.evaluate(_POS, names)
+    r_b, r_h = math.hypot(*start["TRAPPIST-1b"]), math.hypot(*start["TRAPPIST-1h"])
+    assert _gap(end["TRAPPIST-1b"], start["TRAPPIST-1b"]) < 1e-3 * r_b
+    assert 0.3 * r_h < _gap(end["TRAPPIST-1h"], start["TRAPPIST-1h"]) < 0.7 * r_h
+    assert "+1.51 d" in readout()
+    # Halfway, b is on the far side of its star.
+    three.evaluate(f"f => {S}.setFrame(f)", last / 2)
+    half = three.evaluate(_POS, names)
+    assert _gap(half["TRAPPIST-1b"], start["TRAPPIST-1b"]) > 1.9 * r_b and "+0.76 d" in readout()
+
+    # One cycle of h: h closes, and b, 12.4 times round, does not.
+    three.evaluate(f"() => {S}.setTimeSpan('longest')")
+    three.evaluate(f"f => {S}.setFrame(f)", last)
+    end = three.evaluate(_POS, names)
+    assert _gap(end["TRAPPIST-1h"], start["TRAPPIST-1h"]) < 1e-3 * r_h
+    assert _gap(end["TRAPPIST-1b"], start["TRAPPIST-1b"]) > 0.5 * r_b and "+18.8 d" in readout()
+    # A year: h has gone round 19.4 times.
+    three.evaluate(f"() => {S}.setTimeSpan('year')")
+    three.evaluate(f"f => {S}.setFrame(f)", last)
+    assert "+365 d" in readout()
+    # The default again is the figure's window, to the frame.
+    three.evaluate(f"() => {S}.setTimeSpan('default')")
+    three.evaluate(f"f => {S}.setFrame(f)", last)
+    assert three.evaluate(_POS, names) == default_end
+
+    # The span belongs to its system: another opens on its own default, and so does this one again.
+    three.evaluate(f"() => {S}.setTimeSpan('shortest')")
+    three.evaluate("k => window.__SA3.switchTo(k)", "solar")
+    assert three.evaluate(f"() => {S}.timeSpan()") == "default"
+    assert "Mercury" in three.evaluate(f"() => {S}.timeSpans().find(s => s.key === 'shortest').label")
+    three.evaluate("k => window.__SA3.switchTo(k)", "trappist-1")
+    assert three.evaluate(f"() => {S}.timeSpan()") == "default"
+
+
+_COILS = """() => { const S = window.__SA3;
+  return S.lines().filter(l => l.userData.coil).map(l => { const g = l.geometry;
+    const a = g.attributes.position ? g.attributes.position.array : g.attributes.instanceStart.array;
+    const n = a.length, q = l.position;
+    return {body: l.userData.coil, out: !!l.userData.coilLeftOut, home: g === l.userData.coilHome.geometry,
+            points: g.attributes.position ? n / 3 : null,
+            first: [a[0] + q.x, a[1] + q.y, a[2] + q.z], last: [a[n - 3] + q.x, a[n - 2] + q.y, a[n - 1] + q.z]}; }); }"""
+
+
+def test_three_a_coil_is_drawn_for_the_span_that_is_playing(three):
+    # A coil is the path its body walks over the window (coils.md), so another span needs another coil: the
+    # marker must start on its first point and end on its last.  Alpha Centauri has three, round Proxima.
+    three.evaluate("k => window.__SA3.switchTo(k)", "alpha-centauri")
+    S = "window.__SA3"
+    last = three.evaluate(f"() => {S}.nFrames() - 1")
+    assert [s["key"] for s in three.evaluate(f"() => {S}.timeSpans()")] == [
+        "default", "shortest", "year", "longest", "longest-star"]
+    home = three.evaluate(_COILS)
+    assert len(home) == 3 and all(c["home"] and not c["out"] for c in home)
+    names = [c["body"] for c in home]
+
+    def ends_meet():
+        coils = [c for c in three.evaluate(_COILS) if not c["out"]]
+        three.evaluate(f"() => {S}.setFrame(0)")
+        at0 = three.evaluate(_POS, names)
+        three.evaluate(f"f => {S}.setFrame(f)", last)
+        at1 = three.evaluate(_POS, names)
+        for c in coils:
+            assert _gap(c["first"], at0[c["body"]]) < 1e-4 and _gap(c["last"], at1[c["body"]]) < 1e-4, c
+        return coils
+
+    # A year: each coil is re-sampled, sixteen points a loop and never fewer than 360.
+    three.evaluate(f"() => {S}.setTimeSpan('year')")
+    year = ends_meet()
+    assert len(year) == 3 and not any(c["home"] for c in year)
+    by = {c["body"]: c for c in year}
+    d_days = three.evaluate(f"() => {S}.timeSpans().find(s => s.key === 'shortest').days")
+    assert by["Proxima Centauri d"]["points"] == math.ceil(365 / d_days * 16) > 1000
+    assert by["Proxima Centauri c (candidate)"]["points"] == 360
+    # Alpha Centauri B's 80 years is 5,700 loops of Proxima d: too many to draw, so that coil is left out.
+    three.evaluate(f"() => {S}.setTimeSpan('longest-star')")
+    star = {c["body"]: c for c in three.evaluate(_COILS)}
+    assert star["Proxima Centauri d"]["out"] and star["Proxima Centauri b"]["out"]
+    assert not star["Proxima Centauri c (candidate)"]["out"]
+    ends_meet()
+    # Bands stay flat discs on any span, the stars having moved under them.
+    three.get_by_text("Bands:", exact=False).first.click()
+    three.wait_for_timeout(200)
+    for r in three.evaluate("() => window.__t3.report()"):
+        assert r["isMesh"] and r["dev"] < 1e-6, r
+    three.get_by_text("Bands:", exact=False).first.click()
+    # The default puts the coils back as Python built them.
+    three.evaluate(f"() => {S}.setTimeSpan('default')")
+    assert three.evaluate(_COILS) == home
+    ends_meet()
 
 
 def test_three_between_frames_a_planet_stays_on_its_orbit(three):
@@ -1177,9 +1311,12 @@ def test_three_play_can_run_the_past_and_both(three):
     assert three.evaluate(_DRIFT)["pos"] == pytest.approx(ahead, abs=1e-3) and "+50,000 yr" in body()
     assert trails()["shown"] == ["sun"]
 
-    # A system has no such arrow; back in the view the choice is as it was left.
+    # A system's arrow offers its own spans, not these ranges; back in the view the choice is as it was left.
     three.evaluate("k => window.__SA3.switchTo(k)", "solar")
-    assert not arrow.is_visible()
+    arrow.click()
+    assert "Now" not in " ".join(three.get_by_role("menuitemradio").all_inner_texts())
+    assert three.get_by_role("menuitemradio", name="One Earth year (365 d)").is_visible()
+    arrow.click()
     _open_view(three)
     assert arrow.is_visible() and three.evaluate("() => window.__SA3.driftRange()") == "both"
     assert "Now" in body() and trails()["shown"] == ["sun"]

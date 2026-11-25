@@ -270,6 +270,9 @@ def figure_to_scene(fig: go.Figure) -> dict:
             if meta.get("follows"):
                 # A moon's orbit: moved with this body every frame.
                 lines[-1]["follows"] = meta["follows"]
+            if meta.get("coil"):
+                # A coil: the path of this body over the window, re-sampled for another span.
+                lines[-1]["coil"] = meta["coil"]
         elif t.type == "mesh3d":
             meta = t.meta if isinstance(t.meta, dict) else {}
             bands.append({
