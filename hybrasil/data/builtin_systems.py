@@ -698,6 +698,8 @@ def _alpha_centauri(bands: SolventChoice = DEFAULT_CHOICE) -> StarSystem:
                     "planets with measured angles, so their bands lie on the reference "
                     "plane rather than in the 79.2-degree binary plane, which is the "
                     "companion's orbit and not an inclination any planet of theirs has. "
+                    "A's and B's outer bands are bent by each other's light, and change "
+                    "shape as the two stars move. "
                     + bands.note(_L_ALPHA_CEN_A, bodies, "Alpha Centauri A",
                                  _T_ALPHA_CEN_A),
         bodies=bodies,
@@ -1340,8 +1342,8 @@ def _castor(bands: SolventChoice = DEFAULT_CHOICE) -> StarSystem:
                     "and node of the brown dwarf's orbit, are not measured: all are assumed. "
                     "Every value comes from the workbook's Planetless 4+ Stars tab, and the brown "
                     "dwarf's from its Planets tab. Each star "
-                    "carries its own solvent bands; a band round a star with a close companion "
-                    "is drawn as though the companion were not there. "
+                    "carries its own solvent bands, each counting the light of all six stars: "
+                    "round a close pair they merge into one ring about both. "
                     + bands.note(33.1, bodies, "Castor Aa", 9420),
         bodies=bodies,
         source="builtin",

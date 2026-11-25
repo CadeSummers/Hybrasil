@@ -575,6 +575,12 @@ _ZOOM_JS = """
       inner.push(r ? r[0] : 0);
     }
     var offsets = _stackOffsetsByStar(gd, idx, outer, inner);
+    // Every band-bearing star lights every band: where a companion is close
+    // enough the ring is the combined-flux outline, with the stars where they
+    // were at t_start (a Plotly band does not follow its star).
+    var metas = [];
+    for (k = 0; k < idx.length; k++) metas.push(gd.data[idx[k]].meta || {});
+    var src = _bandSources(metas);
 
     var names = [], blankIdx = [], blank = [], blankVis = [];
     for (k = 0; k < idx.length; k++) {
@@ -591,8 +597,13 @@ _ZOOM_JS = """
         blankIdx.push(i); blank.push([]); blankVis.push('legendonly');
         continue;
       }
-      var m = _ringMesh(radii[k][0], radii[k][1], meta.normal || [0, 0, 1],
-                        offsets[k], C.ring_pts, meta.centre);
+      var normal = meta.normal || [0, 0, 1];
+      var ol = _bandOutline(src.own[k], src.sources, normal,
+                            radii[k][0], radii[k][1], C.ring_pts);
+      var m = ol
+        ? _outlineMesh(ol[0], ol[1], normal, offsets[k], meta.centre)
+        : _ringMesh(radii[k][0], radii[k][1], normal,
+                    offsets[k], C.ring_pts, meta.centre);
       _geom.items[i] = {
         kind: 'mesh',
         bbox: {x: _extent(m.x), y: _extent(m.y), z: _extent(m.z)},
@@ -1923,6 +1934,7 @@ def build_solvent_table_js(choice) -> str:
     and plane in `meta`, so a system swap needs no bookkeeping at all.
     """
     from ..mechanics import solvent_bands as sb
+    from ..mechanics import combined_flux as cf
 
     table = {
         solvent.key: {
@@ -1952,6 +1964,11 @@ def build_solvent_table_js(choice) -> str:
         "a0": choice.albedo,
         "g0": choice.greenhouse_k,
         "ring_pts": BAND_RING_POINTS,
+        # The combined-flux solver's constants (mechanics/combined_flux.py).
+        "negligible": cf.NEGLIGIBLE_FLUX,
+        "march": cf.MARCH_RATIO,
+        "bisections": cf.BISECTIONS,
+        "reach_margin": cf._REACH_MARGIN,
     }
     compact = {"separators": (",", ":")}
     return "\n".join([

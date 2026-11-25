@@ -162,11 +162,19 @@ let clouds = [];                    // [{data, pts, arrows: {frame: LineSegments
 // A position array rebased on its own centre, in double precision, so the
 // Float32 GPU buffer only has to hold small offsets.  55 Cnc B's planets sit
 // 1,066 AU out; stored absolute, Float32 would round them to ~6e-5 AU.
-function rebased(flat) {
+//
+// `about` names the centre instead of taking the mean: a solvent band is
+// rebased on its star, so a band whose outline changes as the stars move
+// keeps one anchor rather than drifting with its own average.
+function rebased(flat, about) {
   let cx = 0, cy = 0, cz = 0;
   const n = flat.length / 3;
-  for (let i = 0; i < flat.length; i += 3) { cx += flat[i]; cy += flat[i + 1]; cz += flat[i + 2]; }
-  cx /= n || 1; cy /= n || 1; cz /= n || 1;
+  if (about) {
+    cx = +about[0]; cy = +about[1]; cz = +about[2];
+  } else {
+    for (let i = 0; i < flat.length; i += 3) { cx += flat[i]; cy += flat[i + 1]; cz += flat[i + 2]; }
+    cx /= n || 1; cy /= n || 1; cz /= n || 1;
+  }
   const out = new Float32Array(flat.length);
   for (let i = 0; i < flat.length; i += 3) {
     out[i] = flat[i] - cx; out[i + 1] = flat[i + 1] - cy; out[i + 2] = flat[i + 2] - cz;
@@ -299,7 +307,7 @@ function build(key) {
     mesh.renderOrder = 2;
     mesh.userData = { name: B.name, group: B.group, solvent: B.solvent, legend: B.legend,
                       meta: B.meta, on: B.visible, hasRing: false, follows: B.follows || null,
-                      home: new THREE.Vector3(), follow: null };
+                      home: new THREE.Vector3(), follow: null, opacity: B.opacity, round: false };
     setRing(mesh, B.pos, B.index);
     applyBand(mesh);
     bandMeshes.push(mesh);
@@ -466,6 +474,7 @@ function setFrame(f) {
     f.line.position.copy(f.home).add(f.body.position).sub(f.start);
   }
   for (const m of bandMeshes) placeBand(m);
+  liveBands();
   ui.date(sys.frames.labels[Math.round(anim.frame) % n] || '');
 }
 
@@ -737,6 +746,7 @@ function setOptional(key, on) {
   if (m && on && !m.some((x) => x.key === on)) on = m[0].key;
   optionalState.set(key, on);
   applyOptional(key);
+  if (key === HEATMAP_KEY) resolveBands();
   refreshOwnedLines();
   controls.maxDistance = zoomLimit();
   ui.relegend();          // the set's legend row is listed only while it is on
@@ -847,6 +857,7 @@ function search(query) {
   if (hitR.length) {
     const ms = hitR.map((i) => bandMeshes[i]);
     for (const m of ms) { m.userData.on = true; applyBand(m); }
+    if (multiStar()) resolveBands();
     ui.sync();
     const drawn = ms.filter((m) => m.userData.hasRing);
     if (!drawn.length) {
@@ -1011,7 +1022,8 @@ function setRing(mesh, pos, index) {
   mesh.geometry.dispose();
   const geo = new THREE.BufferGeometry();
   if (pos && pos.length) {
-    const { local, centre } = rebased(pos);
+    const meta = mesh.userData.meta;
+    const { local, centre } = rebased(pos, meta && meta.centre);
     geo.setAttribute('position', new THREE.BufferAttribute(local, 3));
     geo.setIndex(Array.from(index, (v) => v | 0));
     mesh.userData.home.copy(centre);
@@ -1042,19 +1054,93 @@ function bandState() {
 }
 function setBands(on) {
   for (const m of solventBands()) { m.userData.on = on; applyBand(m); }
+  if (on && multiStar()) resolveBands();
   ui.sync();
 }
 function setGroup(group, on) {
   for (const m of bandMeshes) {
     if (m.userData.group === group) { m.userData.on = on; applyBand(m); }
   }
+  if (on && multiStar()) resolveBands();
   ui.sync();
+}
+
+// ── More than one star, and the third dimension ─────────────────────────────
+// Every band-bearing star lights every band (band_kit.js, "More than one
+// star"), so where a companion is close enough a band is bent out of round --
+// and, since the stars move, it is solved again as they do.  Only the bands
+// that are switched on are kept current during playback; switching one on
+// solves it there and then.
+//
+// "Enable 3D Heatmap" (Even more features) draws each band as the two closed
+// surfaces it lies between instead of the flat slice through them: spheres
+// round a lone star, bulged toward a companion otherwise.  It is the same
+// mesh with other geometry, so the Bands button, the legend rows, the sliders
+// and the star it follows all work as they do flat.
+const HEATMAP_KEY = 'heatmap3d';
+const SHELL_GRID = { lone: [48, 24], solved: [36, 18] };   // longitudes, latitudes
+const SHELL_OPACITY = 0.5;       // of the flat band's: a shell is seen through twice
+const LIVE_MIN_MS = 33;          // at most this often during playback...
+const LIVE_COST = 3;             // ...and never more than a third of the time
+const live = { last: 0, cost: 0, timer: 0 };
+
+function heatmapOn() { return optionalOn(HEATMAP_KEY); }
+
+function bandSourcesNow(K, s) {
+  const src = K.bandSources(s.map((m) => m.userData.meta));
+  // The kit reads each star where its bands were built, at frame 0; here the
+  // stars are wherever playback has put them.
+  s.forEach((m, k) => {
+    const f = m.userData.follow, own = src.own[k];
+    if (f && own >= 0) {
+      const p = f.body.position;
+      src.sources[own][0] = p.x; src.sources[own][1] = p.y; src.sources[own][2] = p.z;
+    }
+  });
+  return src;
+}
+
+function multiStar() {
+  const K = window.SABandKit;
+  if (!K || !sys) return false;
+  if (sys._multiStar === undefined) {
+    const s = solventBands().filter((m) => m.userData.meta);
+    sys._multiStar = K.bandSources(s.map((m) => m.userData.meta)).sources.length > 1;
+  }
+  return sys._multiStar;
+}
+
+// Solve every band again at the panel's values: a band was switched on, or
+// the heatmap was.
+function resolveBands() {
+  const v = ui.bandValues();
+  if (v) recomputeBands(v.P, v.A, v.G);
+}
+
+// Playback has moved the stars.  Solving costs a few milliseconds a system,
+// so it is rationed, with one more solve owed once the motion stops.
+function liveBands() {
+  clearTimeout(live.timer);
+  if (!bandMeshes.length || !multiStar()) return;
+  const now = performance.now();
+  if (now - live.last < Math.max(LIVE_MIN_MS, LIVE_COST * live.cost)) {
+    live.timer = setTimeout(liveBands, LIVE_MIN_MS);
+    return;
+  }
+  const v = ui.bandValues();
+  if (!v) return;
+  recomputeBands(v.P, v.A, v.G, true);
+  live.last = performance.now();
+  live.cost = live.last - now;
 }
 
 // Rebuild every solvent band at pressure P (bar), albedo A and greenhouse
 // offset G (K), through band_kit.js -- the same functions the Plotly viewer's
 // sliders call, so the two cannot disagree about where a band is.
-function recomputeBands(P, A, G) {
+//
+// `liveOnly` is the pass playback makes as the stars move: only bands that
+// are switched on, and none that was a plain circle and still is.
+function recomputeBands(P, A, G, liveOnly) {
   const K = window.SABandKit, C = K && K.bandConst();
   if (!C) return;
   const s = solventBands().filter((m) => m.userData.meta);
@@ -1063,22 +1149,39 @@ function recomputeBands(P, A, G) {
   const radii = metas.map((meta) => K.bandRadiiAU(meta, P, A, G));
   const outer = radii.map((r) => (r ? r[1] : 0)), inner = radii.map((r) => (r ? r[0] : 0));
   const offsets = K.stackOffsetsByCentre(metas, outer, inner);
+  const src = bandSourcesNow(K, s), solid = heatmapOn();
   s.forEach((m, k) => {
-    const meta = metas[k];
-    m.userData.name = K.bandName(meta, P) || m.userData.name;
+    const meta = metas[k], u = m.userData, normal = meta.normal || [0, 0, 1];
+    if (liveOnly && !u.on) return;
+    if (!liveOnly) u.name = K.bandName(meta, P) || u.name;
+    m.material.opacity = u.opacity * (solid ? SHELL_OPACITY : 1);
     if (!radii[k]) {
-      setRing(m, [], []);
+      if (!liveOnly) setRing(m, [], []);
     } else {
-      const r = K.ringMesh(radii[k][0], radii[k][1], meta.normal || [0, 0, 1],
-                           offsets[k], C.ring_pts, meta.centre);
+      // The outline also says whether a companion matters to this band at
+      // all; where none does, it is its own circle (or sphere) and stays so.
+      const ol = K.bandOutline(src.own[k], src.sources, normal, radii[k][0], radii[k][1],
+                               solid ? 4 : C.ring_pts);
+      if (liveOnly && !ol && u.round) return;
+      let r;
+      if (solid) {
+        const grid = ol ? SHELL_GRID.solved : SHELL_GRID.lone;
+        r = K.shellMesh(ol ? src.own[k] : -1, src.sources, normal, radii[k][0], radii[k][1],
+                        grid[0], grid[1], meta.centre);
+      } else if (ol) {
+        r = K.outlineMesh(ol[0], ol[1], normal, offsets[k], meta.centre);
+      } else {
+        r = K.ringMesh(radii[k][0], radii[k][1], normal, offsets[k], C.ring_pts, meta.centre);
+      }
       const n = r.x.length, pos = new Array(n * 3), idx = new Array(r.i.length * 3);
       for (let i = 0; i < n; i++) { pos[3 * i] = r.x[i]; pos[3 * i + 1] = r.y[i]; pos[3 * i + 2] = r.z[i]; }
       for (let t = 0; t < r.i.length; t++) { idx[3 * t] = r.i[t]; idx[3 * t + 1] = r.j[t]; idx[3 * t + 2] = r.k[t]; }
       setRing(m, pos, idx);
+      u.round = !ol;
     }
     applyBand(m);
   });
-  ui.sync();
+  if (!liveOnly) ui.sync();
 }
 
 // ── UI ──────────────────────────────────────────────────────────────────────

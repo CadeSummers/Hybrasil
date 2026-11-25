@@ -862,6 +862,14 @@ def plane_note(normal: tuple[float, float, float]) -> str:
             f"so it rings the star the way the planets do.")
 
 
+# What a system with more than one band-bearing star says after its band note.
+# The distances quoted are each star's own; the figure draws the summed light
+# (`mechanics/combined_flux.py`).
+COMPANION_NOTE = (" Those distances are for that star alone: the bands drawn "
+                  "count every star's light, so a companion close enough to "
+                  "matter bends them out of round.")
+
+
 def _ring_text(band: tuple[float, float]) -> str:
     return f"{band[0]:.3f}-{band[1]:.3f} AU"
 
@@ -1050,8 +1058,11 @@ class SolventChoice:
                              self.colour(teff_k))
         if not text:
             return text
+        bodies = list(bodies)
         return (text + colour_note(teff_k, self.star_colour)
-                + plane_note(self.plane(bodies, host)))
+                + plane_note(self.plane(bodies, host))
+                + (COMPANION_NOTE if len(self.luminous_stars(bodies)) > 1
+                   else ""))
 
     @property
     def cache_key(self) -> tuple:

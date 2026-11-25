@@ -62,7 +62,10 @@ you touch, before changing anything. The rules most often broken:
 - **A solvent band is always drawn as a flat disc.** Any change to how bands
   are built, placed, styled or carried across a system switch is verified in
   the viewer as well as by `tests/test_band_flatness.py`,
-  `tests/test_system_switch.py` and `tests/test_browser.py`.
+  `tests/test_system_switch.py` and `tests/test_browser.py`. Flat, not always
+  round: with a companion star close enough to add its light the ring is the
+  combined-flux outline (`mechanics/combined_flux.py`). The viewer's opt-in
+  **Enable 3D Heatmap** switch is the one thing that draws a band in 3-D.
 - **Two equations exist twice**, in Python and in JavaScript: the band equation
   (`mechanics/solvent_bands.py`, `viz/band_kit.js`) and Kepler's equation
   (`mechanics/kepler.py`, `viz/three_viewer.js`). Change both.

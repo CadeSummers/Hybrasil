@@ -3,11 +3,12 @@
 """Build a static 3D Plotly figure for a star system snapshot."""
 
 import math
-from typing import Optional
+from typing import Optional, Sequence
 
 import numpy as np
 import plotly.graph_objects as go
 from ..models.body import OrbitalBody
+from ..mechanics.combined_flux import band_outline
 from ..mechanics.orientation import galactic_to_frame, plane_basis
 from ..models.system import StarSystem, BeltZone
 from ..mechanics.time_series import compute_scene_extent
@@ -261,10 +262,60 @@ def centre_body_label(system: StarSystem, zone: BeltZone) -> str:
     return body.label() if body is not None else ""
 
 
+def band_sources(system: StarSystem,
+                 positions: dict[str, tuple[float, float, float]]
+                 ) -> tuple[list[tuple[float, float, float, float]], dict[str, int]]:
+    """Every band-bearing star as a light source, and which one each band rings.
+
+    A source is `(x, y, z, w)` -- where the star is in `positions`, and its
+    luminosity times its colour factor, which is what a band's radii scale by.
+    They are read off the zones themselves, so the stars that light a band are
+    exactly the stars that have one.  The viewers rebuild the same list from
+    the traces' `meta` (`_bandSources` in `band_kit.js`).
+    """
+    sources: list[tuple[float, float, float, float]] = []
+    index: dict[str, int] = {}
+    for zone in system.belt_zones:
+        if (not zone.is_solvent_band or zone.centre_body in index
+                or not zone.luminosity_sun or zone.luminosity_sun <= 0):
+            continue
+        x, y, z = positions.get(zone.centre_body, (0.0, 0.0, 0.0))
+        colour = zone.colour_factor if zone.colour_factor > 0 else 1.0
+        index[zone.centre_body] = len(sources)
+        sources.append((float(x), float(y), float(z),
+                        zone.luminosity_sun * colour))
+    return sources, index
+
+
+def zone_outline(zone: BeltZone,
+                 sources: Sequence[tuple[float, float, float, float]],
+                 index: dict[str, int],
+                 n_pts: int = BAND_RING_POINTS
+                 ) -> Optional[tuple[list[float], list[float]]]:
+    """A band's radii at each ring angle under every star's light, or None.
+
+    None is the plain circle: a belt, an empty band, or a system with one
+    star -- where there is no second light to add and nothing is solved.
+    """
+    if (not zone.is_solvent_band or len(sources) < 2
+            or zone.centre_body not in index
+            or zone.r_outer_au <= zone.r_inner_au):
+        return None
+    return band_outline(index[zone.centre_body], sources, zone.normal,
+                        zone.r_inner_au, zone.r_outer_au, n_pts)
+
+
 def _belt_trace(zone: BeltZone, n_pts: int = BAND_RING_POINTS,
                 centre: tuple[float, float, float] = (0.0, 0.0, 0.0),
-                body: str = "") -> go.Mesh3d:
+                body: str = "",
+                outline: Optional[tuple[Sequence[float], Sequence[float]]] = None
+                ) -> go.Mesh3d:
     """Flat semi-transparent annulus in the zone's own plane.
+
+    `outline` is the band's inner and outer radius at each of the `n_pts`
+    angles (`zone_outline`), for a band a companion star's light has bent out
+    of round.  Without it the ring is the circle `[r_inner_au, r_outer_au]`.
+    Either way it is the same flat mesh: same plane, vertices and faces.
 
     The ring is built in the 2-D basis that spans that plane rather than in
     x-y, so a band inclined with its system's orbits (TRAPPIST-1's are at
@@ -293,8 +344,12 @@ def _belt_trace(zone: BeltZone, n_pts: int = BAND_RING_POINTS,
         return trace
 
     theta = np.linspace(0, 2 * np.pi, n_pts, endpoint=False)
-    radius = np.concatenate([np.full(n_pts, zone.r_inner_au),
-                             np.full(n_pts, zone.r_outer_au)])
+    if outline is not None:
+        radius = np.concatenate([np.asarray(outline[0], dtype=float),
+                                 np.asarray(outline[1], dtype=float)])
+    else:
+        radius = np.concatenate([np.full(n_pts, zone.r_inner_au),
+                                 np.full(n_pts, zone.r_outer_au)])
     angle = np.concatenate([theta, theta])
     u, v = plane_basis(zone.normal)
     # The stacking offset runs along the *unit* normal -- `offset_au` is a
@@ -467,10 +522,12 @@ def build_static_figure(
     traces: list = []
 
     # Belt zones first (background)
+    sources, source_index = band_sources(system, positions)
     for zone in system.belt_zones:
         traces.append(_belt_trace(
             zone, centre=positions.get(zone.centre_body, (0.0, 0.0, 0.0)),
-            body=centre_body_label(system, zone)))
+            body=centre_body_label(system, zone),
+            outline=zone_outline(zone, sources, source_index)))
 
     # Orbit lines
     for body in system.bodies:

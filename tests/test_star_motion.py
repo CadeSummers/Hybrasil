@@ -536,9 +536,10 @@ def test_a_star_system_scene_is_unchanged():
     scene = figure_to_scene(build_figure(get_builtin_system("trappist-1"), J2000, J2000 + 5, frames=3))
     assert scene["units"] == "AU" and scene["groupHeading"] is None
     assert scene["motionFrames"] is None
-    # Its optional sets are the photosynthesis rings and the reference orbits, menu features of lines.
+    # Its optional sets are the photosynthesis rings and the reference orbits, menu features of lines,
+    # and the 3D heatmap switch, which redraws the bands and adds nothing.
     assert [o["key"] for o in scene["optionalSets"]] == ["photosynthesis", "reference-neptune", "reference-earth",
-                                                         "reference-mercury"]
+                                                         "reference-mercury", "heatmap3d"]
     assert {o["menu"] for o in scene["optionalSets"]} == {"features"}
     assert not any("group" in b or "optional" in b for b in scene["bodies"])
     assert not any("owner" in l or "group" in l or "frame" in l
