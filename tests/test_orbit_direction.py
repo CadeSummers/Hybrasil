@@ -60,7 +60,7 @@ def _column(workbook, tab):
 def test_both_tabs_carry_the_column_and_only_seven_planets_are_not_prograde(workbook):
     planets = _column(workbook, "Planets within 100 ly")
     unconfirmed = _column(workbook, "Unconfirmed within 100 ly")
-    assert len(planets) == 540 and len(unconfirmed) == 178
+    assert len(planets) == 541 and len(unconfirmed) == 178        # 541 since GJ 229 Ba (25 Nov 2026)
     assert {p: d for p, d in {**planets, **unconfirmed}.items() if not d.startswith("Prograde")} == FLAGGED
     assert set(unconfirmed.values()) == {"Prograde (assumed)"}
     measured = [d for d in planets.values() if d.startswith("Prograde (vs")]
