@@ -354,7 +354,7 @@ def test_the_scene_offers_the_galaxy_motion_type_button(view):
 
 def test_play_carries_every_star_to_its_arrows_tip_in_each_frame(view):
     scene = view[2]
-    assert scene["drift"] == {"years": sm.ARROW_YEARS, "steps": sm.DRIFT_STEPS}
+    assert scene["drift"]["years"] == sm.ARROW_YEARS and scene["drift"]["steps"] == sm.DRIFT_STEPS
     bodies = {b["name"]: b for b in scene["bodies"]}
     arrows = {(l["owner"], l["frame"]): l["pts"] for l in scene["lines"] if l.get("owner") and l.get("frame")}
     assert arrows
@@ -365,6 +365,17 @@ def test_play_carries_every_star_to_its_arrows_tip_in_each_frame(view):
     # No arrow, no drift: a star with no measured motion, and the Sun relative to itself, stay put.
     for name, b in bodies.items():
         assert set(b.get("drift", {})) == {f for (o, f) in arrows if o == name}, name
+
+
+def test_play_offers_the_future_the_past_and_both(view):
+    # The arrow beside Play: now to 50,000 years ahead (the default), as far back to now, or both.  `from` and
+    # `to` are in units of the arrow's span, so the past is the same drift run backwards and needs no new data.
+    drift = view[2]["drift"]
+    assert drift["default"] == sm.DRIFT_FUTURE
+    assert [(r["key"], r["from"], r["to"]) for r in drift["ranges"]] == [
+        (sm.DRIFT_FUTURE, 0, 1), (sm.DRIFT_PAST, -1, 0), (sm.DRIFT_BOTH, -1, 1)]
+    assert [r["label"] for r in drift["ranges"]] == [
+        "Now \u2192 +50,000 yr", "\u221250,000 yr \u2192 Now", "\u221250,000 yr \u2192 +50,000 yr"]
 
 
 def test_a_cloud_point_drifts_to_its_arrows_tip_or_not_at_all():

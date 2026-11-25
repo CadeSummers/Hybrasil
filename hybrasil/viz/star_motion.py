@@ -70,6 +70,19 @@ MOTION_GROUP = "motion"
 MOTION_TITLE = f"Motion ({ARROW_YEARS:,} yr of travel)"
 DRIFT_STEPS = 200          # Play's frames over ARROW_YEARS: 10 s at the viewer's 50 ms a frame
 
+# What Play can run over, chosen from the arrow beside the button: `from` and
+# `to` are in units of ARROW_YEARS, 0 being now.  The past is the same straight
+# line as the future, at today's velocity, run backwards.
+DRIFT_FUTURE, DRIFT_PAST, DRIFT_BOTH = "future", "past", "both"
+DRIFT_DEFAULT = DRIFT_FUTURE
+
+
+def drift_ranges() -> list[dict]:
+    yr = f"{ARROW_YEARS:,} yr"
+    return [{"key": DRIFT_FUTURE, "label": f"Now \u2192 +{yr}", "from": 0, "to": 1},
+            {"key": DRIFT_PAST, "label": f"\u2212{yr} \u2192 Now", "from": -1, "to": 0},
+            {"key": DRIFT_BOTH, "label": f"\u2212{yr} \u2192 +{yr}", "from": -1, "to": 1}]
+
 # The Planetless 4+ Stars systems: one optional set, off until the viewer's
 # Planetless Systems button turns it on.  Coloured by class like every star,
 # with a white ring so they read as the other tab's, in one legend group.
@@ -393,7 +406,8 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             "motion_frames": {"title": MOTION_FRAME_TITLE, "default": FRAME_SUN,
                               "options": [{"key": k, "label": lbl} for k, lbl in MOTION_FRAMES]},
             # Play moves every star along its arrow: the arrow's ARROW_YEARS in DRIFT_STEPS frames.
-            "drift": {"years": ARROW_YEARS, "steps": DRIFT_STEPS}}
+            "drift": {"years": ARROW_YEARS, "steps": DRIFT_STEPS,
+                      "default": DRIFT_DEFAULT, "ranges": drift_ranges()}}
     if extra:
         # A set of bodies the viewer offers behind a button, off until asked for.
         meta["optional_sets"] = [{"key": PLANETLESS_SET, "label": PLANETLESS_LABEL, "default": False,

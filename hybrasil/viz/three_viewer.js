@@ -350,7 +350,11 @@ function build(key) {
       world.add(l);
       arrows[frame] = l;
     }
-    clouds.push({ data: C, pts, arrows, on: true });
+    clouds.push({ data: C, pts, arrows, trails: {}, on: true });
+  }
+  if (sys.drift && sys.drift.ranges) {
+    buildTrails();
+    if (!sys.drift.ranges.some((r) => r.key === driftRange)) driftRange = sys.drift.default;
   }
   // A moon's ellipse is drawn round its planet where the planet is at frame
   // 0.  Each frame moves it by however far the planet has gone since, or the
@@ -384,8 +388,8 @@ function build(key) {
   refreshOwnedLines();
 
   scene.add(world);
-  anim.frame = 0; anim.playing = false;
-  setFrame(0);
+  anim.frame = nowFrame(); anim.playing = false;
+  setFrame(anim.frame);
   resize();
   orient(false, 'initial');
   ui.hideInfo();
@@ -399,7 +403,11 @@ function build(key) {
 
 // ── Animation ───────────────────────────────────────────────────────────────
 const anim = { frame: 0, playing: false, last: 0 };
-function nFrames() { return sys.drift ? sys.drift.steps + 1 : (sys.frames.positions || []).length; }
+function nFrames() {
+  if (!sys.drift) return (sys.frames.positions || []).length;
+  const r = driftSpan();
+  return Math.round(sys.drift.steps * (r.to - r.from)) + 1;
+}
 
 // Where elements put a body at Julian date t, relative to its parent: the
 // pipeline of mechanics/kepler.py (elements_to_cartesian), step for step.
@@ -483,10 +491,78 @@ function setFrame(f) {
 // `drift.years` later, in the motion frame the Galaxy Motion Type button
 // chose.  The arrows stay put: they are the path.  A star with no measured
 // motion, and the Sun in its own frame, has no drift and stays.
+// The dropdown beside Play chooses what the frames run over (`drift.ranges`):
+// now to `drift.years` ahead, as far back to now, or both.  The past is the
+// same straight line run backwards, so a star sits at pos + drift * s for s
+// in [from, to], and a faint trail marks where it came from.
+let driftRange = null;
+function driftSpan() {
+  const rs = sys.drift.ranges || [];
+  return rs.find((r) => r.key === driftRange) || rs[0] || { from: 0, to: 1 };
+}
+function driftMoment(frame) {
+  const r = driftSpan();
+  return r.from + (r.to - r.from) * frame / (nFrames() - 1);
+}
+// The frame that shows today, or the range's first if it does not hold it.
+function nowFrame() {
+  if (!sys.drift) return 0;
+  const r = driftSpan();
+  return r.from <= 0 && r.to >= 0 ? -r.from * sys.drift.steps : 0;
+}
+function setDriftRange(key) {
+  if (!sys.drift || !(sys.drift.ranges || []).some((r) => r.key === key)) return;
+  const s = driftMoment(anim.frame);
+  driftRange = key;
+  const r = driftSpan();
+  anim.playing = false;
+  // Keep the moment on screen where the new range holds it, else show today.
+  setFrame(s >= r.from && s <= r.to ? (s - r.from) * sys.drift.steps : nowFrame());
+  refreshOwnedLines();
+  ui.sync();
+}
+// One faint line per arrow, from where the star was `drift.years` ago to where
+// it is now: built here from the drift the scene already carries.
+const TRAIL_OPACITY = 0.3;
+function buildTrails() {
+  const byName = new Map(bodies.map((b) => [b.data.name, b.data]));
+  for (const o of world.children.slice()) {
+    const u = o.userData;
+    if (!u || !u.owner || !u.frame) continue;
+    const D = byName.get(u.owner), d = D && D.drift && D.drift[u.frame];
+    if (!d) continue;
+    const p = D.pos, g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(
+      new Float32Array([p[0] - d[0], p[1] - d[1], p[2] - d[2], p[0], p[1], p[2]]), 3));
+    const l = new THREE.Line(g, new THREE.LineBasicMaterial({ color: u.color, transparent: true,
+      opacity: TRAIL_OPACITY }));
+    l.userData = { owner: u.owner, frame: u.frame, group: u.group, optional: u.optional, trail: true };
+    world.add(l);
+  }
+  for (const c of clouds) {
+    for (const [frame, D] of Object.entries(c.data.drift || {})) {
+      const P = c.data.pos, seg = [];
+      for (let i = 0; i < P.length; i += 3) {
+        if (!D[i] && !D[i + 1] && !D[i + 2]) continue;
+        seg.push(P[i] - D[i], P[i + 1] - D[i + 1], P[i + 2] - D[i + 2], P[i], P[i + 1], P[i + 2]);
+      }
+      if (!seg.length) continue;
+      const g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(seg), 3));
+      const l = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: c.data.color, transparent: true,
+        opacity: TRAIL_OPACITY * 0.6 }));
+      l.userData = { cloudTrails: c.data.key, frame };
+      world.add(l);
+      c.trails[frame] = l;
+    }
+  }
+}
+function trailsOn() { return !!(sys && sys.drift && sys.drift.ranges) && driftSpan().from < 0; }
+
 function driftFrame(f) {
-  const n = sys.drift.steps + 1;
+  const n = nFrames();
   anim.frame = ((f % n) + n) % n;
-  const s = anim.frame / (n - 1);
+  const s = driftMoment(anim.frame);
   for (const b of bodies) {
     const p = b.data.pos, d = b.data.drift && b.data.drift[motionFrame];
     if (d) b.obj.position.set(p[0] + d[0] * s, p[1] + d[1] * s, p[2] + d[2] * s);
@@ -499,7 +575,7 @@ function driftFrame(f) {
     attr.needsUpdate = true;
   }
   const yr = Math.round(s * sys.drift.years);
-  ui.date(yr ? `+${yr.toLocaleString('en-US')} yr` : 'Now');
+  ui.date(yr ? `${yr > 0 ? '+' : '\u2212'}${Math.abs(yr).toLocaleString('en-US')} yr` : 'Now');
 }
 
 // ── Camera moves ────────────────────────────────────────────────────────────
@@ -678,12 +754,14 @@ let motionFrame = null;
 function refreshOwnedLines() {
   if (!world) return;
   const visible = new Map(bodies.map((b) => [b.data.name, b.obj.visible]));
+  const past = trailsOn();
   for (const o of world.children) {
     const u = o.userData;
     if (!u || !u.owner) continue;
     setShown(o, !lineGroupsOff.has(u.group) && visible.get(u.owner) !== false
       && (!u.frame || u.frame === motionFrame)
-      && (!u.optional || optionalOn(u.optional)));
+      && (!u.optional || optionalOn(u.optional))
+      && (!u.trail || past));
   }
   // A cloud shows while its legend row is on and its optional set is; its
   // arrows also follow the motion frame and the Motion legend row.
@@ -692,6 +770,9 @@ function refreshOwnedLines() {
     c.pts.visible = shown;
     for (const [frame, l] of Object.entries(c.arrows)) {
       l.visible = shown && frame === motionFrame && !lineGroupsOff.has(c.data.motionGroup);
+    }
+    for (const [frame, l] of Object.entries(c.trails)) {
+      l.visible = past && shown && frame === motionFrame && !lineGroupsOff.has(c.data.motionGroup);
     }
   }
 }
@@ -1302,6 +1383,72 @@ const ui = (() => {
   const searchBtn = btn('⌕', () => search(searchIn.value));
   searchBtn.title = 'Search';
   const playBtn = btn('▶ Play', () => { anim.playing = !anim.playing; sync(); });
+  // The arrow beside Play: what a view's Play runs over (`drift.ranges`), in a
+  // menu built like Even more features.  Hidden in a scene that declares none.
+  const rangeWrap = document.createElement('span');
+  rangeWrap.style.cssText = 'position:relative;display:none';
+  bar.appendChild(rangeWrap);
+  const rangeBtn = document.createElement('button');
+  rangeBtn.style.cssText = css;
+  rangeBtn.title = 'Time range';
+  rangeBtn.setAttribute('aria-label', 'Time range');
+  rangeBtn.setAttribute('aria-haspopup', 'menu');
+  rangeBtn.setAttribute('aria-expanded', 'false');
+  rangeWrap.appendChild(rangeBtn);
+  const rangeBox = document.createElement('div');
+  rangeBox.setAttribute('role', 'menu');
+  rangeBox.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;width:230px;max-width:calc(100vw - 16px);'
+    + 'box-sizing:border-box;display:none;flex-direction:column;gap:6px;z-index:20;'
+    + 'background:rgba(10,10,30,0.97);border:1px solid #333366;border-radius:4px;'
+    + 'padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5)';
+  rangeWrap.appendChild(rangeBox);
+  let rangeOpen = false, rangeFor = null;
+  function closeRanges() {
+    rangeOpen = false;
+    rangeBox.style.display = 'none';
+    bar.style.zIndex = '12';
+  }
+  rangeBtn.addEventListener('click', () => {
+    if (rangeOpen) closeRanges();
+    else {
+      rangeOpen = true; rangeBox.style.display = 'flex'; bar.style.zIndex = '10000';
+      // Play sits near the right edge on a wide screen: keep the menu on it.
+      rangeBox.style.left = '0';
+      const over = rangeBox.getBoundingClientRect().right - (window.innerWidth - 8);
+      if (over > 0) rangeBox.style.left = `${-over}px`;
+    }
+    sync();
+  });
+  document.addEventListener('mousedown', (ev) => {
+    if (rangeOpen && !rangeWrap.contains(ev.target)) { closeRanges(); sync(); }
+  });
+  function syncRanges() {
+    const ranges = (sys && sys.drift && sys.drift.ranges) || [];
+    rangeWrap.style.display = ranges.length ? 'inline-block' : 'none';
+    if (!ranges.length && rangeOpen) closeRanges();
+    rangeBtn.textContent = rangeOpen ? '▴' : '▾';
+    rangeBtn.style.background = rangeOpen || (ranges.length && driftRange !== sys.drift.default)
+      ? '#2a2a70' : '#111130';
+    rangeBtn.setAttribute('aria-expanded', String(rangeOpen));
+    if (rangeFor !== ranges) {
+      rangeFor = ranges;
+      rangeBox.replaceChildren();
+      for (const r of ranges) {
+        const b = document.createElement('button');
+        b.style.cssText = css + 'text-align:left;';
+        b.dataset.range = r.key;
+        b.setAttribute('role', 'menuitemradio');
+        b.addEventListener('click', () => { closeRanges(); setDriftRange(r.key); });
+        rangeBox.appendChild(b);
+      }
+    }
+    for (const b of rangeBox.children) {
+      const r = ranges.find((x) => x.key === b.dataset.range), on = r.key === driftRange;
+      b.textContent = `${on ? '◉' : '○'}  ${r.label}`;
+      b.setAttribute('aria-checked', String(on));
+      b.style.background = on ? '#2a2a70' : '#111130';
+    }
+  }
   const slider = document.createElement('input');
   Object.assign(slider, { type: 'range', min: 0, step: 'any', value: 0 });
   slider.style.width = '150px';
@@ -2252,6 +2399,7 @@ const ui = (() => {
     // A static figure (--mode static) has one moment and nothing to play.
     const animated = nFrames() > 1;
     for (const el of [playBtn, slider, dateEl]) el.style.display = animated ? '' : 'none';
+    syncRanges();
     slider.max = Math.max(0, nFrames() - 1);
     slider.value = anim.frame;
     for (const [k, b] of Object.entries(sysBtns)) {
@@ -2393,6 +2541,8 @@ window.__SA3 = {
     && !bandMeshes.includes(o)) : [],
   units: () => (sys && sys.units) || 'AU',
   motionFrame: () => motionFrame, setMotionFrame,
+  driftRange: () => driftRange, setDriftRange,
+  trails: () => (world ? world.children.filter((o) => o.userData && o.userData.trail) : []),
   optional: (key) => optionalOn(key), setOptional,
   setSky, skyUV,
   setFrame, nFrames, anim: () => anim,
