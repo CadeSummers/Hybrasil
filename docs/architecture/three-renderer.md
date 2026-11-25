@@ -162,6 +162,11 @@ into `_ZOOM_JS`. The page loads it as a classic script exporting
   trace. The legend row stays, dimmed.
 - **The sliders carry across a system switch.** `build()` rebuilds the new
   system's bands at the panel's values.
+- **More than one star, and the third dimension.** `bandSources`,
+  `bandOutline`, `outlineMesh` and `shellMesh` are the kit's too: the
+  combined-flux outline of a multi-star band, re-solved as the stars move
+  (`liveBands()`), and the closed shells of **Enable 3D Heatmap**. See
+  `viewer-bands.md`.
 - **Search** ranks with `nameMatches` in the Plotly viewer's order: bodies,
   then bands (switching on only the band found), then orbits and coils.
 - **Info panel.** `showInfoPanel` is the Plotly viewer's panel, reading

@@ -364,6 +364,8 @@ _KIT_EXPORTS = {
     "bandConst": "_bandConst", "bandRadiiAU": "_bandRadiiAU",
     "bandName": "_bandName", "ringMesh": "_ringMesh",
     "stackOffsetsByCentre": "_stackOffsetsByCentre",
+    "bandSources": "_bandSources", "bandOutline": "_bandOutline",
+    "outlineMesh": "_outlineMesh", "shellMesh": "_shellMesh",
     "nameMatches": "_nameMatches", "bandPanel": "_bandPanel",
     "showInfoPanel": "showInfoPanel", "hideInfoPanel": "hideInfoPanel",
     "setInfoGoto": "setInfoGoto", "setInfoSuggest": "setInfoSuggest",

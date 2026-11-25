@@ -132,3 +132,46 @@ answering it by switching on six bands nobody asked for. A system with no band
 says so in a toast rather than flipping a label that would then be lying. The
 scene extent is unchanged by the bands being off — `belt_scene_extent()` still
 counts them — so switching them on never resizes the scene under the viewer.
+
+## Bands under more than one star
+
+A multi-star system's bands are combined-flux outlines
+(`solvent-bands.md`, "More than one star"), and both viewers rebuild them with
+the kit's copy of the solver: `_bandSources(metas)` reads every band-bearing
+star off the band metas (`body`, `centre`, `lum`, `colour`), `_bandOutline()`
+returns a radius per angle — or `null` where no companion matters, and the
+band is its plain `_ringMesh` — and `_outlineMesh()` builds the same flat mesh
+`_belt_trace()` does.
+
+- **Plotly:** `_recomputeBands(gd)` solves with the stars where the metas put
+  them, at `t_start`. A Plotly band does not follow its star, so it does not
+  re-solve either.
+- **three.js:** `recomputeBands()` overwrites each source's position with its
+  star's live position (`bandSourcesNow`). `setFrame()` calls `liveBands()`,
+  which re-solves during playback — only bands that are switched on, never one
+  that was a circle and still is, at most every 33 ms and for at most a third
+  of the time (`LIVE_MIN_MS`, `LIVE_COST`), with one more solve owed when the
+  motion stops. Switching a band on (Bands button, legend row, search) solves
+  it there and then, since a hidden band is not kept current.
+- **A single-star system does none of this**: `multiStar()` is false and
+  `liveBands()` returns at once.
+
+## Enable 3D Heatmap
+
+An **Even more features** switch, three.js only, off by default
+(`viz/heatmap3d.py` adds the optional set `heatmap3d` to any figure with a
+solvent band). On, each band is drawn as the two closed surfaces the solvent is
+liquid between instead of the flat slice through them: `_shellMesh()` in the
+kit, a latitude-longitude grid of rays about the band's normal through the
+same `_liquidInterval()`, so the shell's equator *is* the flat band's outline.
+Round a lone star the shells are two spheres and nothing is solved.
+
+- It is the **same mesh with other geometry**: `recomputeBands()` picks
+  `shellMesh` over `ringMesh`/`outlineMesh` when `heatmapOn()`. The Bands
+  button, legend rows, sliders, search and star-following are untouched.
+- Colours are the solvents' own; opacity is halved (`SHELL_OPACITY`) because a
+  shell is seen through twice. Shells do not stack-offset.
+- `setOptional()` re-solves the bands when the key flips, and the state rides
+  across a system switch like every optional set.
+- **This is the one exception to the flat-disc rule**, and only while it is on:
+  the browser tests check that switching it off leaves planar meshes behind.

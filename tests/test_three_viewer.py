@@ -226,3 +226,42 @@ class TestBandsRideTheirStar:
         scene = figure_to_scene(_figure("alpha-centauri", 2))
         follows = {b["follows"] for b in scene["bands"] if b["solvent"]}
         assert proxima.label() in follows
+
+
+class TestTheHeatmapSwitch:
+    """Enable 3D Heatmap: a menu entry and nothing else -- the viewer redraws the bands."""
+
+    @staticmethod
+    def _built(key):
+        from hybrasil.figures import build_figure
+        return build_figure(get_builtin_system(key), J2000, J2000 + 30, frames=3)
+
+    @pytest.mark.parametrize("key", BUILTIN_NAMES)
+    def test_every_system_with_bands_offers_it_off(self, key):
+        scene = figure_to_scene(self._built(key))
+        entry = [o for o in scene["optionalSets"] if o["key"] == "heatmap3d"]
+        assert len(entry) == 1
+        assert entry[0]["label"] == "Enable 3D Heatmap"
+        assert entry[0]["menu"] == "features" and entry[0]["default"] is False
+
+    def test_it_adds_no_trace(self):
+        # A trace would shift every index after it (tests/test_system_switch.py).
+        from hybrasil.viz import heatmap3d
+        system = get_builtin_system("alpha-centauri")
+        fig = _figure("alpha-centauri", 2)
+        before = len(fig.data)
+        heatmap3d.attach(fig, system)
+        assert len(fig.data) == before
+
+    def test_a_system_with_no_bands_is_not_offered_it(self):
+        from dataclasses import replace
+        from hybrasil.viz import heatmap3d
+        system = replace(get_builtin_system("solar"), belt_zones=[])
+        fig = _figure("solar", 2)
+        heatmap3d.attach(fig, system)
+        assert not (fig.layout.meta or {}).get("optional_sets")
+
+    def test_the_kit_exports_the_solver_and_the_shells(self):
+        from hybrasil.viz.three_viewer import kit_script
+        for name in ("bandSources", "bandOutline", "outlineMesh", "shellMesh"):
+            assert f"{name}: _{name}" in kit_script()

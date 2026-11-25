@@ -160,6 +160,190 @@
     return {x: X, y: Y, z: Z, i: I, j: J, k: K};
   }
 
+  // ── More than one star ─────────────────────────────────────────────────────
+  // With a companion close enough to matter the fluxes add, S = sum w/d^2 with
+  // w = luminosity * colour, and a band is wherever S lies between the flux at
+  // its own hot edge (w/inner^2) and at its cold edge (w/outer^2) -- no longer
+  // a ring of constant radius.  mechanics/combined_flux.py is the same solver;
+  // tests/test_band_sliders.py holds the two together.
+  //
+  // A source is [x, y, z, w].  Every band-bearing star is one, read off the
+  // band metas themselves: `own[k]` is the source band k rings, -1 for none.
+  function _bandSources(metas) {
+    var sources = [], own = [], seen = {};
+    for (var k = 0; k < metas.length; k++) {
+      var m = metas[k] || {};
+      if (!m.lum || m.lum <= 0) { own.push(-1); continue; }
+      var c = m.centre || [0, 0, 0];
+      var key = (m.body || '') + '|' + c.join(',');
+      if (!Object.prototype.hasOwnProperty.call(seen, key)) {
+        seen[key] = sources.length;
+        sources.push([+c[0], +c[1], +c[2], m.lum * (m.colour > 0 ? m.colour : 1)]);
+      }
+      own.push(seen[key]);
+    }
+    return {sources: sources, own: own};
+  }
+
+  function _fluxAt(kept, x, y, z) {
+    var total = 0;
+    for (var i = 0; i < kept.length; i++) {
+      var s = kept[i], dx = x - s[0], dy = y - s[1], dz = z - s[2];
+      var d2 = dx * dx + dy * dy + dz * dz;
+      total += s[3] / (d2 > 1e-30 ? d2 : 1e-30);
+    }
+    return total;
+  }
+
+  // The band's own star, moved to the origin and put first, then each
+  // companion bright and near enough to bend the band.  One entry: a circle.
+  function _relevantSources(own, sources, outer) {
+    var C = _bandConst(), o = sources[own], others = 0, i;
+    for (i = 0; i < sources.length; i++) if (i !== own && sources[i][3] > 0) others++;
+    var kept = [[0, 0, 0, o[3]]];
+    if (!C || !others || !(outer > 0) || !(o[3] > 0)) return kept;
+    var limit = C.negligible * (o[3] / (outer * outer)) / others;
+    for (i = 0; i < sources.length; i++) {
+      var s = sources[i];
+      if (i === own || !(s[3] > 0)) continue;
+      var rx = s[0] - o[0], ry = s[1] - o[1], rz = s[2] - o[2];
+      var reach = Math.sqrt(rx * rx + ry * ry + rz * rz) - outer;
+      if (reach > 0 && s[3] / (reach * reach) < limit) continue;
+      kept.push([rx, ry, rz, s[3]]);
+    }
+    return kept;
+  }
+
+  function _rayCrossing(kept, d, lo, hi, level, loAbove) {
+    var n = _bandConst().bisections;
+    for (var i = 0; i < n; i++) {
+      var mid = 0.5 * (lo + hi);
+      if ((_fluxAt(kept, mid * d[0], mid * d[1], mid * d[2]) >= level) === loAbove) lo = mid;
+      else hi = mid;
+    }
+    return 0.5 * (lo + hi);
+  }
+
+  // The first stretch of a ray from the star on which the solvent is liquid:
+  // from where the summed flux first falls to the hot level, to where it
+  // falls to the cold one or climbs back over the hot one near a companion.
+  // The march also stops at each companion's closest approach to the ray, so
+  // a hot zone narrower than a step is not stepped over.
+  function _liquidInterval(kept, d, inner, outer) {
+    if (kept.length < 2) return [inner, outer];
+    var C = _bandConst(), w0 = kept[0][3];
+    var sHot = w0 / (inner * inner), sCold = w0 / (outer * outer);
+    var total = 0, far = 0, marks = [], i;
+    for (i = 0; i < kept.length; i++) {
+      var s = kept[i];
+      total += s[3];
+      far = Math.max(far, Math.sqrt(s[0] * s[0] + s[1] * s[1] + s[2] * s[2]));
+    }
+    var rMax = (far + Math.sqrt(total / sCold)) * C.reach_margin;
+    for (i = 1; i < kept.length; i++) {
+      var t = kept[i][0] * d[0] + kept[i][1] * d[1] + kept[i][2] * d[2];
+      if (t > inner && t < rMax) marks.push(t);
+    }
+    marks.sort(function (a, b) { return a - b; });
+    marks.push(rMax);
+
+    var m = 0, prev = inner, rIn = null;
+    for (;;) {
+      var nxt = prev * C.march;
+      if (marks[m] <= nxt) { nxt = marks[m]; m++; }
+      var flux = _fluxAt(kept, nxt * d[0], nxt * d[1], nxt * d[2]);
+      if (rIn === null) {
+        if (flux < sHot) {
+          rIn = _rayCrossing(kept, d, prev, nxt, sHot, true);
+          if (flux < sCold) return [rIn, _rayCrossing(kept, d, rIn, nxt, sCold, true)];
+        }
+      } else if (flux < sCold) {
+        return [rIn, _rayCrossing(kept, d, prev, nxt, sCold, true)];
+      } else if (flux > sHot) {
+        return [rIn, _rayCrossing(kept, d, prev, nxt, sHot, false)];
+      }
+      if (m >= marks.length) {
+        return rIn === null ? [inner, outer] : [rIn, Math.max(nxt, rIn)];
+      }
+      prev = nxt;
+    }
+  }
+
+  // A band's inner and outer radius at each of n angles round its star, on
+  // the star's own plane, with every star's light counted at its true 3-D
+  // distance.  null when no companion matters: the band is its plain circle.
+  function _bandOutline(own, sources, normal, inner, outer, n) {
+    if (own < 0 || sources.length < 2) return null;
+    var kept = _relevantSources(own, sources, outer);
+    if (kept.length < 2) return null;
+    var b = _planeBasis(normal), u = b[0], v = b[1];
+    var rIn = new Array(n), rOut = new Array(n);
+    for (var t = 0; t < n; t++) {
+      var a = 2 * Math.PI * t / n, ca = Math.cos(a), sa = Math.sin(a);
+      var got = _liquidInterval(kept, [ca * u[0] + sa * v[0], ca * u[1] + sa * v[1],
+                                       ca * u[2] + sa * v[2]], inner, outer);
+      rIn[t] = got[0]; rOut[t] = got[1];
+    }
+    return [rIn, rOut];
+  }
+
+  // _ringMesh with a radius per angle: the same flat mesh, vertex for vertex
+  // and face for face, bent out of round.
+  function _outlineMesh(rIn, rOut, normal, offset, centre) {
+    var n = rIn.length, m = _ringMesh(1, 1, normal, offset, n, centre);
+    var b = _planeBasis(normal), w = b[2], o = centre || [0, 0, 0];
+    var cx = w[0] * offset + o[0], cy = w[1] * offset + o[1],
+        cz = w[2] * offset + o[2];
+    for (var s = 0; s < 2; s++) {
+      for (var t = 0; t < n; t++) {
+        var q = s * n + t, r = s ? rOut[t] : rIn[t];
+        m.x[q] = (m.x[q] - cx) * r + cx;
+        m.y[q] = (m.y[q] - cy) * r + cy;
+        m.z[q] = (m.z[q] - cz) * r + cz;
+      }
+    }
+    return m;
+  }
+
+  // The band in three dimensions: the surface where the solvent starts to be
+  // liquid and the surface where it stops, as two closed shells round the
+  // star -- spheres for a lone star, bulged toward a companion otherwise.
+  // Directions are a latitude-longitude grid whose pole is the band's normal,
+  // so the shell's equator is the flat band's own outline.
+  function _shellMesh(own, sources, normal, inner, outer, nLon, nLat, centre) {
+    var kept = (own >= 0 && sources.length > 1)
+      ? _relevantSources(own, sources, outer) : [[0, 0, 0, 1]];
+    var b = _planeBasis(normal), u = b[0], v = b[1], w = b[2];
+    var o = centre || [0, 0, 0], per = (nLat + 1) * nLon;
+    var X = new Array(2 * per), Y = new Array(2 * per), Z = new Array(2 * per);
+    for (var i = 0; i <= nLat; i++) {
+      var phi = Math.PI * i / nLat, sp = Math.sin(phi), cp = Math.cos(phi);
+      for (var j = 0; j < nLon; j++) {
+        var a = 2 * Math.PI * j / nLon, ca = Math.cos(a) * sp, sa = Math.sin(a) * sp;
+        var d = [ca * u[0] + sa * v[0] + cp * w[0],
+                 ca * u[1] + sa * v[1] + cp * w[1],
+                 ca * u[2] + sa * v[2] + cp * w[2]];
+        var got = _liquidInterval(kept, d, inner, outer), q = i * nLon + j;
+        for (var s = 0; s < 2; s++) {
+          X[s * per + q] = got[s] * d[0] + o[0];
+          Y[s * per + q] = got[s] * d[1] + o[1];
+          Z[s * per + q] = got[s] * d[2] + o[2];
+        }
+      }
+    }
+    var I = [], J = [], K = [];
+    for (var s2 = 0; s2 < 2; s2++) {
+      for (var i2 = 0; i2 < nLat; i2++) {
+        for (var j2 = 0; j2 < nLon; j2++) {
+          var p = s2 * per + i2 * nLon + j2, p1 = s2 * per + i2 * nLon + (j2 + 1) % nLon;
+          I.push(p);  J.push(p1);        K.push(p + nLon);
+          I.push(p1); J.push(p1 + nLon); K.push(p + nLon);
+        }
+      }
+    }
+    return {x: X, y: Y, z: Z, i: I, j: J, k: K};
+  }
+
   // Rank by outer radius and lift each band by that rank times a small
   // fraction of its own size, so overlapping bands never share a plane and the
   // lift stays invisible at the zoom that band is read at. A band with no

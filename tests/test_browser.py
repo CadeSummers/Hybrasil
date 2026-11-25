@@ -1340,6 +1340,106 @@ def test_three_bands_are_still_flat_after_the_view(three):
     _three_band_clickthrough(three, "alpha-centauri", VIEW)
 
 
+_SHELLS = """() => window.__SA3.bands().filter(m => m.userData.solvent && m.userData.hasRing).map(m => {
+  const a = m.geometry.attributes.position.array, n = a.length / 3, r = [];
+  for (let i = 0; i < n; i++) r.push(Math.hypot(a[3*i], a[3*i+1], a[3*i+2]));
+  const v = window.__SA3.bandValues();
+  return {name: m.userData.name, verts: n, dev: window.__t3.planarity(m), visible: m.visible,
+          want: window.SABandKit.bandRadiiAU(m.userData.meta, v.P, v.A, v.G),
+          opacity: m.material.opacity, inner: [Math.min(...r.slice(0, n / 2)), Math.max(...r.slice(0, n / 2))],
+          outer: [Math.min(...r.slice(n / 2)), Math.max(...r.slice(n / 2))]}; })"""
+
+
+def test_three_the_3d_heatmap_turns_bands_into_shells_and_back(three):
+    # Off by default, in the Even more features menu.  On, a lone star's band is two concentric spheres at the
+    # flat band's own two radii; off again, CLAUDE.md's standing rule holds: every band a flat disc.
+    three.evaluate("() => window.__SA3.switchTo('solar')")
+    three.get_by_text("Bands:", exact=False).first.click()
+    flat = three.evaluate(_SHELLS)
+    assert flat and all(b["dev"] < 1e-6 and b["verts"] == 360 for b in flat)
+    three.get_by_role("button", name="Even more features").click()
+    item = three.get_by_role("menuitemcheckbox", name="Enable 3D Heatmap")
+    assert item.get_attribute("aria-checked") == "false"
+    item.click()
+    assert three.evaluate("() => window.__SA3.optional('heatmap3d')") is True
+    shells = three.evaluate(_SHELLS)
+    assert [b["name"] for b in shells] == [b["name"] for b in flat]
+    for was, b in zip(flat, shells):
+        assert b["visible"] and b["verts"] > 360 and b["dev"] > 0.1, b      # a closed surface, not a disc
+        # Each surface is a sphere, at the radius of the flat ring's edge.
+        assert b["inner"] == pytest.approx([b["want"][0]] * 2, rel=1e-5)
+        assert b["outer"] == pytest.approx([b["want"][1]] * 2, rel=1e-5)
+        assert b["opacity"] < was["opacity"]
+    # The sliders move the shells as they move the discs.
+    three.evaluate("() => window.__SA3.recomputeBands(1, 0.6, 33)")
+    assert all(b["dev"] > 0.1 for b in three.evaluate(_SHELLS))
+    # It rides across a system switch, and switching it off leaves flat discs behind.
+    three.evaluate("() => window.__SA3.switchTo('alpha-centauri')")
+    three.evaluate("() => window.__SA3.setBands(true)")
+    assert all(b["dev"] > 0.01 for b in three.evaluate(_SHELLS))
+    three.evaluate("() => window.__SA3.setOptional('heatmap3d', false)")
+    back = three.evaluate(_SHELLS)
+    assert back and all(b["dev"] < 1e-6 and b["verts"] == 360 for b in back)
+    assert all(b["opacity"] == pytest.approx(0.18) for b in back)
+
+
+def test_three_bands_are_still_flat_after_the_3d_heatmap(three):
+    # CLAUDE.md's standing rule, after the one thing allowed to break it has been on and off again.
+    three.evaluate("() => window.__SA3.setOptional('heatmap3d', true)")
+    three.evaluate("() => window.__SA3.setOptional('heatmap3d', false)")
+    _three_band_clickthrough(three, "alpha-centauri", "solar")
+
+
+def test_three_a_companions_light_bends_a_band_and_playback_keeps_it_current(three):
+    # Castor Aa and Ab are 0.12 AU apart with bands AU across: each ring is bent by the other's light, and as
+    # the pair turns the outline turns with it -- still flat, and still round the same star.
+    three.evaluate("() => window.__SA3.switchTo('castor')")
+    three.get_by_text("Bands:", exact=False).first.click()
+    got = three.evaluate("""() => {
+      const A = window.__SA3, v = A.bandValues(), n = A.nFrames();
+      const m = A.bands().find(b => b.userData.solvent && b.userData.hasRing && b.userData.follows === 'Castor Aa');
+      const star = A.bodies().find(b => b.data.name === 'Castor Aa').obj;
+      const snap = () => ({pos: Array.from(m.geometry.attributes.position.array), dev: window.__t3.planarity(m),
+                           off: m.position.clone().sub(star.position).toArray()});
+      const out = [];
+      for (const f of [0, Math.floor(n / 7), Math.floor(n / 3)]) {
+        A.setFrame(f); A.recomputeBands(v.P, v.A, v.G, true); out.push(snap());
+      }
+      A.setFrame(0); A.recomputeBands(v.P, v.A, v.G, true); out.push(snap());
+      return {name: m.userData.name, round: m.userData.round, out};
+    }""")
+    first, a, b, again = got["out"]
+    assert got["round"] is False, f"{got['name']} was not bent by its companion"
+    radii = [math.hypot(*first["pos"][i:i + 3]) for i in range(0, 180 * 3, 3)]
+    assert max(radii) > min(radii) * 1.0005, "the ring is still a circle"
+    for later in (a, b):
+        assert later["dev"] < 1e-6, "the re-solved band is not flat"
+        assert later["off"] == pytest.approx(first["off"], abs=1e-7), "the band left its star"
+        assert max(abs(x - y) for x, y in zip(later["pos"], first["pos"])) > 1e-5 * max(radii), (
+            "the outline did not change as the stars moved")
+    # Back at frame 0 it is the outline it started as.
+    assert again["pos"] == pytest.approx(first["pos"], abs=1e-6 * max(radii))
+
+
+def test_three_a_hidden_band_is_solved_when_it_is_switched_on(three):
+    # Playback only keeps the bands that are on current; one switched on later must not show a stale outline.
+    three.evaluate("() => window.__SA3.switchTo('castor')")
+    got = three.evaluate("""() => {
+      const A = window.__SA3, v = A.bandValues(), f = Math.floor(A.nFrames() / 3);
+      const m = A.bands().find(b => b.userData.solvent && b.userData.hasRing && b.userData.follows === 'Castor Aa');
+      const read = () => Array.from(m.geometry.attributes.position.array);
+      A.setFrame(f); A.recomputeBands(v.P, v.A, v.G, true);
+      const stale = read();
+      A.setGroup(m.userData.group, true);
+      const fresh = read();
+      A.setBands(true); A.recomputeBands(v.P, v.A, v.G);
+      return {stale, fresh, full: read(), on: m.visible};
+    }""")
+    assert got["on"]
+    assert got["fresh"] != got["stale"], "the band was switched on with the outline it had at frame 0"
+    assert got["fresh"] == pytest.approx(got["full"], abs=1e-9)
+
+
 def test_three_orient_clears_the_history(three):
     three.evaluate("() => window.__SA3.switchTo('solar')")
     search = three.get_by_placeholder("Find in system…")

@@ -136,3 +136,9 @@ Tests: `tests/test_reference_orbits.py`;
 `tests/test_browser.py::test_three_reference_orbits_ring_every_star_from_the_features_menu`
 and `::test_three_bands_are_still_flat_with_the_reference_orbits_on` (the
 standing band rule).
+
+## Enable 3D Heatmap, the menu's last entry
+
+Added 25 Nov 2026 by `viz/heatmap3d.py`, called after the reference orbits. It
+is an optional set with no lines or bodies of its own: the viewer redraws the
+solvent bands as closed shells while it is on. See `viewer-bands.md`.

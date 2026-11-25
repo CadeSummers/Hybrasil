@@ -17,7 +17,7 @@ from .mechanics.time_series import (
     system_time_series,
 )
 from .models.system import StarSystem
-from .viz import photosynthesis_rings, reference_orbits
+from .viz import heatmap3d, photosynthesis_rings, reference_orbits
 from .viz.animation import build_animated_figure
 from .viz.static_plot import build_static_figure
 
@@ -94,4 +94,5 @@ def build_figure(system: StarSystem, t_start: float, t_end: float, *,
     # the layout meta, so they cannot shift a trace index (photosynthesis_rings.py).
     photosynthesis_rings.attach(fig, system, t_start)
     reference_orbits.attach(fig, system, t_start)
+    heatmap3d.attach(fig, system)
     return fig

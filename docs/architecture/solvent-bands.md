@@ -288,6 +288,63 @@ Three things to know before touching this:
    entirely. Decorative belts leave `extends_scene` false, so `--bodies Earth`
    still does not zoom out to the Kuiper belt.
 
+## More than one star: combined flux
+
+Added 25 Nov 2026. Until then a band depended on its own star alone, and a
+band round a star with a close companion was drawn as though the companion
+were not there. Fluxes add, so now every band-bearing star lights every band:
+
+    S(p) = sum_i  colour_i * L_i / |p - p_i|^2
+    T(p) = T_EQ_1AU_K * ((1 - A) * S(p)) ** 0.25 + G
+
+`mechanics/combined_flux.py` holds it (`combined_flux`,
+`equilibrium_temperature_k`). For one star it is exactly the equation above
+inverted, and with A = 0.3, G = 0 the constant is the familiar 254.6 K.
+
+A band is then wherever S lies between two levels rather than between two
+radii, and the levels are read off the band's **own closed-form radii**:
+`w / inner^2` at the hot edge and `w / outer^2` at the cold one, `w` being the
+star's `colour * L`. So the solver takes those two radii and never sees a
+temperature, an albedo or a greenhouse offset — the band equation can change
+without it, and whether a band *exists* is still the solvent's business alone.
+
+- **One function, on each star's own plane.** `band_outline()` samples the
+  ring's 180 angles on the plane through the star with the band's normal, and
+  counts every star at its true 3-D distance. There is no separate "2-D"
+  field: the in-plane form is only right when every star lies in the plane.
+  Two stars whose planes differ (Alpha Centauri A and B) each show the other's
+  effect in their own plane; no band is moved or re-tilted to show it.
+- **`liquid_interval()`: the first liquid stretch along a ray from the star.**
+  It starts where the summed flux first falls to the hot level and ends where
+  it falls to the cold one — or climbs back over the hot one, running into a
+  companion's own too-hot zone. A geometric march (`MARCH_RATIO`) brackets each
+  crossing and a fixed number of bisections (`BISECTIONS`) lands on it; the
+  march also stops at each companion's closest approach to the ray, so a hot
+  zone narrower than a step is not stepped over. A very close pair (Castor's
+  spectroscopic binaries) comes out as one ring of their summed light, round
+  both.
+- **"Sufficiently close" is `NEGLIGIBLE_FLUX`.** A companion that adds less
+  than 1e-3 of the cold-edge flux anywhere inside the band's own outer radius
+  (0.05 % in radius) is left out of that band's solve, and with all of them
+  left out the band is its own circle — `relevant_sources()`. Proxima and
+  Alpha Centauri AB never see each other; a single-star system never reaches
+  the solver at all, and its bands are bit-for-bit what they were.
+- **The data layer is untouched.** `BeltZone.r_inner_au` / `r_outer_au` stay
+  the star's own circle: a companion has no position until a time is chosen.
+  The figure builders solve the outline from the positions they hold at
+  `t_start` (`static_plot.band_sources()`, `zone_outline()`), and
+  `_belt_trace()` takes it as a radius per angle — the same flat mesh, vertex
+  for vertex. Stacking still ranks by the own-star radii.
+- **It moves.** The stars orbit, so the outline changes. The three.js viewer
+  re-solves it during playback; the Plotly viewer and PNG export show
+  `t_start`. See `viewer-bands.md`.
+- **What it leaves out:** eclipses and shadowing, and the scene extent, which
+  is still claimed from the own-star band.
+
+`tests/test_combined_flux.py` pins the field, the cutoff, the outline and the
+two implementations against each other; `tests/test_band_flatness.py` holds
+every multi-star built-in's edge vertices to the two flux levels.
+
 ## Which plane a band lies in
 
 A belt is drawn where it was measured — flat on the reference plane. A solvent

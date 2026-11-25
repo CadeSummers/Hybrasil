@@ -11,7 +11,7 @@ from . import themes
 from .static_plot import (belt_scene_extent, system_view_normal,
                           _orbit_trace, _coil_trace, _body_trace, _axis_trace, axis_points, _belt_trace,
                           _galactic_center_traces, _solar_system_traces, sky_meta,
-                          centre_body_label, parent_of)
+                          centre_body_label, parent_of, band_sources, zone_outline)
 
 
 def kepler_meta(system: StarSystem, times_jd: np.ndarray) -> dict:
@@ -122,10 +122,14 @@ def build_animated_figure(
     # 5. Belt zones — static, never updated by frames.
     # A band rings its own star, and a star that is itself in orbit moves; the
     # band is built where that star is at t_start, the way a moon's ellipse is.
+    # Where a companion's light reaches, the ring is the combined-flux outline
+    # at t_start; the three.js viewer re-solves it as the stars move.
+    sources, source_index = band_sources(system, positions_t0)
     for zone in system.belt_zones:
         traces.append(_belt_trace(
             zone, centre=positions_t0.get(zone.centre_body, (0.0, 0.0, 0.0)),
-            body=centre_body_label(system, zone)))
+            body=centre_body_label(system, zone),
+            outline=zone_outline(zone, sources, source_index)))
 
     # 6. Galactic-center reference vector — static, never updated by frames.
     # Use t=0 star positions for the barycenter (stars are fixed or nearly so).

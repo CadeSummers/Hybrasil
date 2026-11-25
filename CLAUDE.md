@@ -6,8 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### A solvent band is always depicted as a flat disc — verify it in the viewer
 
-A solvent band is a region of orbital distances drawn as a flat annulus around
-its star. **Any change that touches how a band is built, placed, styled,
+A solvent band is a region of orbital distances drawn as a flat ring around
+its star, on that star's own plane. Round a lone star it is a circular annulus;
+where a companion star is close enough to add its light it is the
+combined-flux outline (`mechanics/combined_flux.py`) — bent out of round, and
+re-solved by the three.js viewer as the stars move, but still one planar mesh.
+The only thing that draws a band in three dimensions is the viewer's **Enable
+3D Heatmap** switch (Even more features), which is off by default and must
+leave flat discs behind when it is switched off again. **Any change that touches how a band is built, placed, styled,
 clipped, recomputed, or carried across a system switch must be verified to
 still draw flat discs before it is called done.**
 
@@ -188,6 +194,7 @@ Every data source (built-in, custom YAML, NASA Horizons) converts to `KeplerianE
 - `units.py`: Julian Date conversions, `derive_period_days()` via Kepler's third law, and `T_EQ_1AU_K`, the 278.33 K blackbody reference every solvent band scales from.
 - `orientation.py`: the plane a system's bodies orbit in, as a unit normal, plus the 2-D basis that spans it. See `docs/architecture/solvent-bands.md`.
 - `solvent_bands.py`: where a solvent is liquid around a star, as a ring of orbital distances. See `docs/architecture/solvent-bands.md`.
+- `combined_flux.py`: the same band under more than one star's light — summed flux `sum(colour*L/d^2)`, and the outline it bends a band to (`band_outline()`). A lone star never reaches the solver. See `docs/architecture/solvent-bands.md`, "More than one star".
 - `photosynthesis.py`: how far from a star its PAR photon flux falls to a photosynthetic threshold, `sqrt(L × k(Teff) / f)`, k being the blackbody PAR photon yield per watt over the Sun's. See `docs/architecture/photosynthesis.md`.
 
 **`hybrasil/data/`** — Data sources, all converge to `StarSystem`.
@@ -215,8 +222,8 @@ demand instead of every turn. The rules in them are just as binding.
 
 | File | Read before touching |
 |---|---|
-| `docs/architecture/solvent-bands.md` | Band physics, `solvent_bands.py`, pressure/albedo interpolation, the greenhouse offset, star colour (Kopparapu factor), stacking, `orientation.py` / which plane a band lies in |
-| `docs/architecture/viewer-bands.md` | The Bands button, band legend clicks, `_showBands()`, the pressure/albedo sliders and readouts, `_recomputeBands()`, the JS copy of the band equation |
+| `docs/architecture/solvent-bands.md` | Band physics, `solvent_bands.py`, pressure/albedo interpolation, the greenhouse offset, star colour (Kopparapu factor), stacking, `orientation.py` / which plane a band lies in, `combined_flux.py` / bands under more than one star |
+| `docs/architecture/viewer-bands.md` | The Bands button, band legend clicks, `_showBands()`, the pressure/albedo sliders and readouts, `_recomputeBands()`, the JS copy of the band equation, the live re-solve of multi-star bands, Enable 3D Heatmap (`viz/heatmap3d.py`, `_shellMesh`) |
 | `docs/architecture/zoom-and-visibility.md` | `updateSceneVisibility()` / clipping, `compute_scene_extent()`, camera centering, double-click and scroll zoom, Orient, `_saReattach()` |
 | `docs/architecture/frames.md` | Sky-plane vs ecliptic frames, the Solar System and galactic-centre reference arrows, the background Milky Way |
 | `docs/architecture/coils.md` | `is_coil_body()`, `generate_coil_orbit_path()`, playback starting paused |
@@ -233,6 +240,8 @@ Rules that stay here because they are easy to break without opening a deep dive:
 - **The band is per star and scales as `sqrt(L)`.** Any code path that hardcodes an AU figure for a band is wrong.
 - **Star colour is a per-star factor on absorbed flux**, from `mechanics/stellar_colour.py` (Kopparapu 2013 runaway ratio, 1 for the Sun). Python computes it and ships it in `meta.colour`; the fit must never be copied into the JavaScript.
 - **The equation exists twice**, in `mechanics/solvent_bands.py` and in `viz/band_kit.js` -- one JS copy, spliced into the Plotly viewer's `_ZOOM_JS` and exported to the three.js viewer as `window.SABandKit`. Change the Python, change the kit; `tests/test_band_sliders.py::TestTheTwoImplementationsAgree` is what catches drift, and `TestOneCopyForBothViewers` what stops a second JS copy appearing.
+- **So does the combined-flux solver**, in `mechanics/combined_flux.py` and as `_liquidInterval` / `_bandOutline` in the kit, with its constants shipped from Python in `_SA_BAND_CONST`. `tests/test_combined_flux.py::TestTheTwoSolversAgree` catches drift. It works from a band's own two radii, never from a temperature, so a change to the band equation needs no change there.
+- **A band counts every band-bearing star's light**, at its true 3-D distance, on its own plane. Do not special-case a pair, and do not move a band off its star's plane to "show" a companion: two stars whose planes differ each show the other's effect in their own.
 - **Kepler's equation exists twice too**, in `mechanics/kepler.py` and as `keplerXYZ()` in `viz/three_viewer.js`. The viewer uses it to keep a body on its orbit between frames; `tests/test_kepler_js.py` catches drift. See `docs/architecture/three-renderer.md`, rule 0.
 - **Every path that rewrites the scene must call `updateSceneVisibility()`**, and clipping always starts from the cached original geometry, never from `gd.data`.
 - **The live Google Sheet is the primary source; `data/*.xlsx` is a supplementary local copy.** Read the sheet when the answer must be current, never edit the xlsx to change data, and where the two disagree the sheet wins. The xlsx shows formatting *as of its export date*; for formatting as it is **now**, use `gs.get_borders()`, which reads the live sheet — `read_cells()` speaks the values API and cannot see borders or fills.
