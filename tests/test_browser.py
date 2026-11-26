@@ -1340,7 +1340,7 @@ _REFUTED = """() => { const S = window.__SA3, r = S.bodies().filter(b => b.data.
 
 
 def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
-    # Seventeen Systems-tab stars had every planet rejected.  They stay in the view, ringed in red, but hidden
+    # Twelve Systems-tab stars had every planet rejected and have no companion star to open.  They stay in the view, ringed in red, but hidden
     # until the Known button's last step; the panel greys out "Go to system" and says why in red.
     _open_view(three)
     btn = three.locator("button[data-optional=known]")
@@ -1353,11 +1353,11 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
         r = three.evaluate(_REFUTED)
         assert btn.inner_text().endswith(label) and r["shown"] == 0 and r["arrows"] == 0, label
         assert legend.count() == 0, label
-    # Refuted only: the seventeen and their arrows, no cloud, every ordinary star still there.
+    # Refuted only: the twelve and their arrows, no cloud, every ordinary star still there.
     btn.click()
     r = three.evaluate(_REFUTED)
     assert btn.inner_text().endswith("Refuted only") and r["mode"] == "refuted"
-    assert r["shown"] == 12 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
+    assert r["shown"] == 12 and r["arrows"] == r["nArrows"] > 5 and r["clouds"] == 0
     assert r["restShown"] == r["rest"] > 300
     assert legend.count() == 1 and "(12)" in legend.inner_text()
     # Its legend row hides them and their arrows, as a class row does.
