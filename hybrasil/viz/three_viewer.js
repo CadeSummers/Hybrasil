@@ -1241,6 +1241,24 @@ function setGroup(group, on) {
   if (on && multiStar()) resolveBands();
   ui.sync();
 }
+// One solvent's band round every star: the legend's row for it while the
+// legend is condensed (buildLegend).
+function solventKey(m) { return (m.userData.solvent && m.userData.meta && m.userData.meta.solvent) || null; }
+function setSolvent(solvent, on) {
+  for (const m of solventBands()) {
+    if (solventKey(m) === solvent) { m.userData.on = on; applyBand(m); }
+  }
+  if (on && multiStar()) resolveBands();
+  ui.sync();
+}
+// The legend lists a solvent once for all its stars where that is fewer rows
+// than once per star: more band stacks than solvents.  "Enable per-body
+// solvents" (a legend row) undoes it, and is kept across a system switch.
+let perBodyBands = false;
+function bandsCondense() {
+  const listed = bandMeshes.filter((m) => solventKey(m) && m.userData.legend);
+  return new Set(listed.map((m) => m.userData.group)).size > new Set(listed.map(solventKey)).size;
+}
 
 // ── More than one star, and the third dimension ─────────────────────────────
 // Every band-bearing star lights every band (band_kit.js, "More than one
@@ -2423,19 +2441,38 @@ const ui = (() => {
       legendBody.appendChild(r.row); n++;
     }
 
+    // Round more than one star every solvent has a band per star, and a row
+    // each would bury the legend (Alpha Centauri: 24).  So one row per
+    // solvent, moving that solvent's band round every star, unless "Enable
+    // per-body solvents" asks for a row per star and solvent again.  A belt,
+    // and a system with one band stack, are listed as they always were.
     const seen = new Set();
     const bandRows = [];
+    const condensed = bandsCondense() && !perBodyBands;
     for (const m of bandMeshes) {
       const { group, legend: shown } = m.userData;
-      if (!shown || seen.has(group)) continue;
-      seen.add(group);
+      const solvent = solventKey(m);
+      const bySolvent = condensed && !!solvent;
+      const key = bySolvent ? `solvent:${solvent}` : `group:${group}`;
+      if (!shown || seen.has(key)) continue;
+      seen.add(key);
       const sw = document.createElement('span');
       sw.style.cssText = `display:inline-block;width:10px;height:10px;background:${m.material.color.getStyle()}`;
-      const r = legendRow('band', group, sw);
-      r.box.addEventListener('change', () => setGroup(group, r.box.checked));
+      const r = legendRow(bySolvent ? 'bandsolvent' : 'band', bySolvent ? solvent : group, sw);
+      r.box.addEventListener('change', () => (bySolvent ? setSolvent(solvent, r.box.checked)
+                                                         : setGroup(group, r.box.checked)));
       bandRows.push(r.row);
     }
     if (bandRows.length) legendBody.appendChild(heading('Bands and belts'));
+    if (bandsCondense()) {
+      // Above the rows it changes, so it stays in reach when they run off the bottom of the legend.
+      const r = legendRow('perbody', '', document.createElement('span'));
+      r.text.textContent = 'Enable per-body solvents';
+      r.row.title = 'List every solvent band once per star, instead of once for all of them';
+      r.row.style.cssText += ';margin-bottom:3px;color:#aab8c8';
+      r.box.addEventListener('change', () => { perBodyBands = r.box.checked; legend._world = null; sync(); });
+      legendBody.appendChild(r.row); n++;
+    }
     for (const row of bandRows) { legendBody.appendChild(row); n++; }
 
     const arrows = world.children.filter((o) => o.userData && o.userData.legend
@@ -2558,6 +2595,22 @@ const ui = (() => {
       row.style.opacity = ring ? '1' : '0.45';
       row.title = ring ? '' : 'No liquid phase at this pressure';
     }
+    // A solvent's one row for every star: on while any of its bands is, and
+    // half-ticked while only some are (a search or a per-body row did that).
+    // Its name is a band's own without the star.
+    for (const box of legend.querySelectorAll('input[data-kind=bandsolvent]')) {
+      const group = bandMeshes.filter((m) => solventKey(m) === box.dataset.key && m.userData.legend);
+      if (!group.length) continue;       // mid-build: the rows are rebuilt on the next sync
+      const on = group.filter((m) => m.userData.on).length;
+      box.checked = on > 0;
+      box.indeterminate = on > 0 && on < group.length;
+      const row = box.parentElement, ring = group.some((m) => m.userData.hasRing);
+      const u = group[0].userData, star = u.meta && u.meta.star;
+      row.querySelector('.sa3-legend-name').textContent = star ? u.name.replace(` — ${star}`, '') : u.name;
+      row.style.opacity = ring ? '1' : '0.45';
+      row.title = ring ? '' : 'No liquid phase at this pressure';
+    }
+    for (const box of legend.querySelectorAll('input[data-kind=perbody]')) box.checked = perBodyBands;
     if (sys) document.title = sys.title;
     paintFeatured();
     paintLegend();
@@ -2639,7 +2692,7 @@ function loop(now) {
 // Test and debugging handle.  Nothing in the viewer reads it.
 window.__SA3 = {
   get key() { return current; },
-  switchTo: build, setBands, setGroup, orient, frameBody, search, recomputeBands,
+  switchTo: build, setBands, setGroup, setSolvent, bandsCondense, perBodyBands: () => perBodyBands, orient, frameBody, search, recomputeBands,
   bandState, bandValues: () => ui.bandValues(), goBack,
   viewHistory: () => viewHistory.length,
   flying: () => !!flight,

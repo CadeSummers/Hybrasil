@@ -217,6 +217,21 @@ into `_ZOOM_JS`. The page loads it as a classic script exporting
   two lists equal for every system). A body row hides the marker and its label
   and leaves the orbit, as a Plotly legend click does. A hidden body can't be
   double-clicked. A search for it shows it again.
+- **Solvent bands are listed once per solvent where there is more than one
+  star** (since 26 Nov 2026). Round several stars every solvent has a band per
+  star, which made Alpha Centauri's legend 24 band rows long. Where a system
+  has more band stacks than solvents (`bandsCondense()`), the legend holds one
+  row per solvent (`data-kind=bandsolvent`, keyed on `meta.solvent`), named
+  without the star, and the row moves that solvent's band round every star
+  through `setSolvent()`. It is ticked while any of them is on and half-ticked
+  (`indeterminate`) while only some are, as a search or a per-body row leaves
+  it. **Enable per-body solvents**, a checkbox under the "Bands and belts"
+  heading, brings back a row per star and solvent (`perBodyBands`, off by
+  default, kept across a system switch, not across a reload). A belt, and a
+  system with one band stack, are listed as before and get no checkbox. The
+  Bands button, the sliders and the search are untouched: they never went
+  through the legend. The Plotly viewer's legend is Plotly's own and still
+  lists every band.
 - **The legend is rebuilt with the scene, keyed on the world object.** Keyed
   on the system name, re-opening the same system left rows bound to the
   discarded objects, and a click toggled nothing.
