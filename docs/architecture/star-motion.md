@@ -129,8 +129,9 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
   DR3** and the score.
 - **The button cycles** (since 10 Oct 2026): Off → **All** → **Excluding
   unconfirmed** (the purple cloud alone) → **Unconfirmed only** (the aquamarine
-  cloud alone) → Off. The set carries `modes` (`KNOWN_MODES`); a search that
-  finds an object its mode hides turns the set back to All.
+  cloud alone) → **Refuted only** (no cloud; the refuted systems, below) → Off.
+  The set carries `modes` (`KNOWN_MODES`); a search that finds an object its
+  mode hides turns the set back to All, or to Refuted only for a refuted system.
 - **A cloud, not traces:** 10,000 single-point traces and 14,000 arrow traces
   would be 24,000 draw calls. `star_motion.known_cloud()` ships them as one
   compact `layout.meta.clouds` entry instead. `figure_to_scene` passes it on as
@@ -147,6 +148,33 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
   legend row, listed while its set is on, and its arrows follow the motion
   frame and the Motion row. `__SA3.clouds()` is the test handle.
 
+## Refuted systems, at the button's last step
+
+A **refuted system** is a Systems-tab star whose every planet has gone to the
+Rejected candidates tab: 18 of 426 on the 11 Oct 2026 snapshot, Kapteyn's star
+among them. It has no planet on file, so there is no system to open
+(`Catalog.hosts()`). Since 25 Nov 2026 the view keeps it, apart from the rest:
+
+- **The rule is derived, never a list.** `nearby_stars()` fills
+  `NearbyStar.rejected` with the (name, reason) of every rejected candidate
+  filed under the system's stars, and sets `refuted` where there is at least
+  one and no planet left. A workbook change moves a star in or out.
+- **Hidden until asked for.** Its marker keeps its class colour inside a red
+  ring (`REFUTED_RING`), in the legend group "Exoplanet system refuted", and is
+  tagged `meta={"optional": KNOWN_SET, "mode": "refuted"}`. It is drawn only at
+  the Known button's last step, **Refuted only**, where the two clouds are
+  hidden and every ordinary star stays as it is at every other step. Its
+  arrows are owned by it, so they come and go with it. The title counts the
+  refuted apart ("408 systems ... (+18 refuted systems on request)").
+- **The panel says so.** The entry carries `goto_note` instead of `goto`:
+  `band_kit.js` draws "Go to system" disabled and greyed, with **Exoplanet
+  system recently refuted** in red under it (`#_sa_info_goto_note`, escaped).
+- **"Rejected candidates" row.** Any star with a rejected candidate, refuted
+  or not, lists each with the first sentence of the sheet's reason
+  (`_rejected_text()`): Kapteyn's reads "Kapteyn b (...); Kapteyn c (ROTATION)".
+- A system with no known objects to show still gets the button, with Refuted
+  only as its one step.
+
 ### Optional sets, the general feature
 
 A figure may declare `layout.meta.optional_sets` = `[{key, label, default, count,
@@ -158,7 +186,9 @@ carries them as `scene.optionalSets` and each body's `optional`. The viewer then
   key as its state: the button reads `✚  <label>: <mode label>` and steps
   through the modes, then back to Off; a mode that names `clouds` shows only
   those clouds of the set;
-- shows a set's bodies, and the lines they own, only while it is on;
+- shows a set's bodies, and the lines they own, only while it is on; a body
+  that names a `mode` (`meta.mode`, a refuted system) only in that mode
+  (`bodyInSet()`), and its legend group is listed only then;
 - lists the set's legend group only while it is on;
 - keeps the choice across a switch to another system and back, as the motion
   frame is kept;
@@ -301,8 +331,8 @@ does not understand. So `views.FEATURED_VIEWS` registers it separately:
   `band_kit.js` draws the button only when the viewer's `setInfoGoto` handler
   says the page can open that id: every system the server lists in the web app,
   only the featured ones in a file page. A star whose planets were all rejected
-  (GJ 680, Kapteyn) has no system to open and no button: 18 of 427 on the
-  28 Sep 2026 snapshot.
+  (GJ 680, Kapteyn) has no system to open: its button is drawn dead, with a
+  note in red (`info.goto_note`; "Refuted systems" above).
 
 ## Tests
 

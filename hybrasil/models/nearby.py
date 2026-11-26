@@ -33,6 +33,11 @@ class NearbyStar:
     partners: list[str] = field(default_factory=list)   # the system's other stars
     planets: list[str] = field(default_factory=list)
     n_planets: Optional[int] = None
+    # The system's candidates on the Rejected candidates tab, as (name, the sheet's 'Rejected because').
+    # `refuted` is a system left with nothing else: every planet it had on file was rejected, so there is
+    # no system to open.  The view draws it ringed in red, behind the Known button's last step.
+    rejected: list[tuple[str, str]] = field(default_factory=list)
+    refuted: bool = False
     kinematics_source: str = ""
     is_sun: bool = False
     # A system of the Planetless 4+ Stars tab rather than the Systems tab: offered behind the view's

@@ -903,10 +903,17 @@ function cloudInSet(c) {
   const mode = optionalMode(k);
   return !mode || !mode.clouds || mode.clouds.includes(c.data.key);
 }
+// A body of a set shows while the set is on -- or, when it names a `mode`, in
+// that mode alone (a refuted system: the Known set's Refuted only).
+function bodyInSet(d) {
+  if (!d.optional) return true;
+  if (!optionalOn(d.optional)) return false;
+  return !d.mode || optionalState.get(d.optional) === d.mode;
+}
 function applyOptional(key) {
   for (const b of bodies) {
     if (b.data.optional && (key === undefined || b.data.optional === key)) {
-      setShown(b.obj, optionalOn(b.data.optional));
+      setShown(b.obj, bodyInSet(b.data));
     }
   }
 }
@@ -974,7 +981,7 @@ function frameBody(b) {
 // body nobody can see is not an answer.  One of an optional set that is off
 // turns its set on: the button then says what is showing.
 function revealBody(b) {
-  if (b.data.optional && !optionalOn(b.data.optional)) setOptional(b.data.optional, true);
+  if (b.data.optional && !bodyInSet(b.data)) setOptional(b.data.optional, b.data.mode || true);
   if (b.cloud && !cloudInSet(b.cloud)) setOptional(b.data.optional, true);
   if (b.cloud) {
     if (!b.cloud.on) { b.cloud.on = true; refreshOwnedLines(); ui.sync(); }
@@ -2357,7 +2364,7 @@ const ui = (() => {
     }
     // A group of an optional set that is off is not listed until its button turns it on.
     for (const [group, members] of groups) {
-      if (members.every((b) => b.data.optional && !optionalOn(b.data.optional))) groups.delete(group);
+      if (members.every((b) => b.data.optional && !bodyInSet(b.data))) groups.delete(group);
     }
     if (groups.size) legendBody.appendChild(heading(sys.groupHeading || 'Groups'));
     for (const [group, members] of groups) {

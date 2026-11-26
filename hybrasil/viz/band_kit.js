@@ -502,14 +502,27 @@
     }
 
     var target = info.goto && _infoGoto && _infoGoto.can(info.goto) ? info.goto : null;
-    if (target || _infoSuggest) {
+    // An entry with `goto_note` has no system to open and says why (a refuted
+    // system in Nearby Stellar Motion): the button is drawn, greyed out and
+    // dead, with the note in red under it.
+    var gotoNote = !target && info.goto_note ? String(info.goto_note) : '';
+    if (target || gotoNote || _infoSuggest) {
       var btnCss = 'font:inherit;font-size:11px;color:#ddeeff;background:#1a2a44;'
                  + 'border:1px solid #4477aa;border-radius:3px;padding:3px 10px;cursor:pointer;';
       html += '<div style="margin-top:8px;padding-top:6px;border-top:1px solid #223344;'
             + 'display:flex;gap:6px;flex-wrap:wrap;">';
       if (target) html += '<button type="button" id="_sa_info_goto" style="' + btnCss + '">Go to system</button>';
+      if (gotoNote) {
+        html += '<button type="button" id="_sa_info_goto" disabled aria-disabled="true" title="' + esc(gotoNote)
+              + '" style="' + btnCss + 'color:#778899;background:#141c28;border-color:#2a3a4c;cursor:not-allowed;">'
+              + 'Go to system</button>';
+      }
       if (_infoSuggest) html += '<button type="button" id="_sa_info_suggest" style="' + btnCss + '">Suggest Changes</button>';
       html += '</div>';
+      if (gotoNote) {
+        html += '<div id="_sa_info_goto_note" style="margin-top:5px;font-size:11px;color:#ff5555;">'
+              + esc(gotoNote) + '</div>';
+      }
     }
 
     _infoPanelEl.innerHTML = html;

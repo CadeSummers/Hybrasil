@@ -1328,9 +1328,86 @@ def test_three_play_can_run_the_past_and_both(three):
     assert trails()["shown"] == []
 
 
+_REFUTED = """() => { const S = window.__SA3, r = S.bodies().filter(b => b.data.mode === 'refuted');
+  const names = new Set(r.map(b => b.data.name));
+  const arrows = S.lines().filter(l => names.has(l.userData.owner) && l.userData.frame === S.motionFrame());
+  const rest = S.bodies().filter(b => !b.data.optional);
+  return {n: r.length, shown: r.filter(b => b.obj.visible).length, arrows: arrows.filter(l => l.visible).length,
+          nArrows: arrows.length, rest: rest.length, restShown: rest.filter(b => b.obj.visible).length,
+          clouds: S.clouds().filter(c => c.pts.visible).length,
+          mode: document.querySelector('button[data-optional=known]').dataset.mode,
+          kapteyn: r.find(b => b.data.name === 'Kapteyn').data}; }"""
+
+
+def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
+    # Eighteen Systems-tab stars had every planet rejected.  They stay in the view, ringed in red, but hidden
+    # until the Known button's last step; the panel greys out "Go to system" and says why in red.
+    _open_view(three)
+    btn = three.locator("button[data-optional=known]")
+    legend = three.locator("label", has_text="Exoplanet system refuted")
+    r = three.evaluate(_REFUTED)
+    assert r["n"] == 18 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
+    assert r["kapteyn"]["edge"] == "#FF4444" and r["kapteyn"]["fill"] == "#FF4A3A"       # an M dwarf, ringed red
+    for label in ("All", "Excluding unconfirmed", "Unconfirmed only"):
+        btn.click()
+        r = three.evaluate(_REFUTED)
+        assert btn.inner_text().endswith(label) and r["shown"] == 0 and r["arrows"] == 0, label
+        assert legend.count() == 0, label
+    # Refuted only: the eighteen and their arrows, no cloud, every ordinary star still there.
+    btn.click()
+    r = three.evaluate(_REFUTED)
+    assert btn.inner_text().endswith("Refuted only") and r["mode"] == "refuted"
+    assert r["shown"] == 18 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
+    assert r["restShown"] == r["rest"] > 300
+    assert legend.count() == 1 and "(18)" in legend.inner_text()
+    # Its legend row hides them and their arrows, as a class row does.
+    legend.locator("input").uncheck()
+    r = three.evaluate(_REFUTED)
+    assert r["shown"] == 0 and r["arrows"] == 0
+    legend.locator("input").check()
+    # Play carries one along its arrow like any star.
+    three.evaluate("() => window.__SA3.setFrame(window.__SA3.nFrames() - 1)")
+    moved = three.evaluate("""() => { const b = window.__SA3.bodies().find(b => b.data.name === 'Kapteyn');
+      return [b.obj.position.toArray(), b.data.pos, b.data.drift.sun]; }""")
+    assert moved[0] == pytest.approx([p + d for p, d in zip(moved[1], moved[2])], abs=1e-3)
+    three.evaluate("() => window.__SA3.setFrame(0)")
+
+    # The panel: a dead, greyed-out button, the note in red, and what was rejected.
+    three.evaluate("() => window.SABandKit.showInfoPanel('Kapteyn')")
+    panel = three.locator("#_sa_info_panel")
+    panel.wait_for(state="visible")
+    goto = panel.get_by_role("button", name="Go to system")
+    assert goto.count() == 1 and goto.is_disabled() and goto.get_attribute("aria-disabled") == "true"
+    note = panel.locator("#_sa_info_goto_note")
+    assert note.inner_text() == "Exoplanet system recently refuted"
+    assert note.evaluate("e => getComputedStyle(e).color") == "rgb(255, 85, 85)"
+    assert "Rejected candidates" in panel.inner_text() and "Kapteyn c (ROTATION)" in panel.inner_text()
+    key = three.evaluate("() => window.__SA3.key")
+    goto.click(force=True)
+    three.wait_for_timeout(200)
+    assert three.evaluate("() => window.__SA3.key") == key
+    # A note holding markup is shown as text.
+    three.evaluate("""() => { window._SA_BODY_INFO['Kapteyn'].goto_note = '<img src=x onerror=alert(1)>';
+      window.SABandKit.showInfoPanel('Kapteyn'); }""")
+    assert panel.locator("#_sa_info_goto_note").inner_text() == "<img src=x onerror=alert(1)>"
+    assert panel.locator("#_sa_info_goto_note img").count() == 0
+    # An ordinary star's panel has neither.
+    three.evaluate("() => window.SABandKit.showInfoPanel('tau Cet')")
+    assert panel.locator("#_sa_info_goto_note").count() == 0
+    assert panel.locator("button[disabled]").count() == 0
+
+    # Off again hides them; a search for one brings its step back.
+    btn.click()
+    assert btn.inner_text().endswith("Off") and three.evaluate(_REFUTED)["shown"] == 0
+    assert three.evaluate("() => window.__SA3.search('Kapteyn')")
+    r = three.evaluate(_REFUTED)
+    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 18
+
+
 def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):
-    # Off -> All -> Excluding unconfirmed -> Unconfirmed only -> Off: the purple cloud (a curated catalog lists
-    # them) and the aquamarine one (only Gaia DR3 does), shown by the mode, legend rows following.
+    # Off -> All -> Excluding unconfirmed -> Unconfirmed only -> Refuted only -> Off: the purple cloud (a curated
+    # catalog lists them) and the aquamarine one (only Gaia DR3 does), shown by the mode, legend rows following.
+    # Refuted only shows neither (test_three_a_refuted_system_shows_only_at_the_buttons_last_step).
     _open_view(three)
     btn = three.locator("button[data-optional=known]")
     shown = """() => Object.fromEntries(window.__SA3.clouds().map(c => [c.data.key, c.pts.visible]))"""
@@ -1339,6 +1416,7 @@ def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):
     steps = [("All", {"known": True, "known-unconfirmed": True}, (1, 1)),
              ("Excluding unconfirmed", {"known": True, "known-unconfirmed": False}, (1, 0)),
              ("Unconfirmed only", {"known": False, "known-unconfirmed": True}, (0, 1)),
+             ("Refuted only", {"known": False, "known-unconfirmed": False}, (0, 0)),
              ("Off", {"known": False, "known-unconfirmed": False}, (0, 0))]
     assert btn.inner_text().endswith("Off")
     for label, want, legend in steps:
@@ -2177,10 +2255,10 @@ def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
         _open_view(p)
         panel = p.locator("#_sa_info_panel")
         goto = p.get_by_role("button", name="Go to system")
-        # GJ 680's only planet was rejected: there is no system to open.
+        # GJ 680's only planet was rejected: there is no system to open, and the button is dead.
         p.evaluate("() => window.SABandKit.showInfoPanel('GJ 680')")
         panel.wait_for(state="visible")
-        assert goto.count() == 0
+        assert goto.is_disabled() and "Exoplanet system recently refuted" in panel.inner_text()
         p.evaluate("() => window.SABandKit.showInfoPanel('tau Cet')")
         goto.click()
         p.wait_for_function("() => window.__SA3.key === 'catalog:tau Cet'", timeout=30_000)
