@@ -54,6 +54,7 @@ def with_sources(s: NearbyStar, row: dict, exoplanet_host: str = "") -> NearbySt
 def nearby_stars(catalog: Catalog) -> list[NearbyStar]:
     """One NearbyStar per Systems row, in sheet order, the Sun among them."""
     out = []
+    star_systems = set(catalog.star_systems())
     for host, row in catalog.system_rows.items():
         members = catalog.members(host)
         partners = [m for m in members if m != host]
@@ -65,7 +66,8 @@ def nearby_stars(catalog: Catalog) -> list[NearbyStar]:
             for p in catalog.planets_by_host.get(star, []):
                 planets.append(_planet_label(p))
         # What was once filed here and rejected.  A system with nothing else is refuted: it has no
-        # planet on file, so no system to open (Catalog.hosts()).
+        # planet on file (Catalog.hosts()) and is no system of stars either (Catalog.star_systems()),
+        # so there is no system to open.
         keys = {match_key(m) for m in members + [host]}
         rejected = [(r.name, r.reason) for r in catalog.rejected.values() if match_key(r.host) in keys]
         n = row.get("confirmed_planets")
@@ -94,7 +96,7 @@ def nearby_stars(catalog: Catalog) -> list[NearbyStar]:
             planets=planets,
             n_planets=int(n) if n is not None else None,
             rejected=rejected,
-            refuted=bool(rejected) and not planets and host != SUN,
+            refuted=bool(rejected) and not planets and host != SUN and host not in star_systems,
             kinematics_source=row.get("kinematics_source") or "",
             is_sun=host == SUN,
         ), row, exoplanet_host=host if "NASA Exoplanet Archive" in (row.get("existence") or "") else ""))

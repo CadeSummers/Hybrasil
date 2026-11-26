@@ -440,6 +440,20 @@ class Catalog:
         return sorted({self.system_of.get(h, h) for h in self.planets_by_host},
                       key=str.lower)
 
+    def star_systems(self) -> list[str]:
+        """Every system of two or more stars with no planet on file, by 'System / Host' name.
+
+        A Systems row whose stars the stars tab lists, and nothing on a planet
+        tab: HIP 55507, GJ 680 and GJ 773 B, each of whose "planet" turned out
+        to be a companion star and went to the Rejected candidates tab.  It
+        opens as its stars and bands.  `hosts()` keeps its meaning, a planet on
+        file; the two lists never share a system.
+        """
+        with_planet = set(self.hosts())
+        return sorted((h for h in self.system_rows
+                       if h not in with_planet and len(self.stars_by_host.get(h, [])) >= 2),
+                      key=str.lower)
+
     def members(self, system_host: str) -> list[str]:
         """Every star in a system, primary first, then the stars tab's order.
 
@@ -757,13 +771,14 @@ def parse_workbook(workbook: dict) -> Catalog:
 
 
 def _build_aliases(catalog: Catalog) -> None:
-    """Index every name that should resolve to a system with planets.
+    """Index every name that should resolve to a system that opens.
 
     Every name in a system reaches the whole system: its primary, any member
     star, their nicknames, and every planet -- so "55 Cnc B", "Proxima Cen b"
     and "Copernicus" each open the system they belong to.  Targets are stored
     as sets so a name that genuinely reaches two systems is reported as
-    ambiguous rather than guessed.
+    ambiguous rather than guessed.  A system of stars with no planet
+    (`Catalog.star_systems()`) is reached by its stars' names the same way.
     """
     alias = catalog._aliases
 
@@ -771,7 +786,8 @@ def _build_aliases(catalog: Catalog) -> None:
         if name:
             alias.setdefault(match_key(name), set()).add(system)
 
-    systems = {catalog.system_of.get(h, h) for h in catalog.planets_by_host}
+    systems = ({catalog.system_of.get(h, h) for h in catalog.planets_by_host}
+               | set(catalog.star_systems()))
     for host, planets in catalog.planets_by_host.items():
         system = catalog.system_of.get(host, host)
         add(host, system)
@@ -933,9 +949,11 @@ def build_star_system(catalog: Catalog, identifier: str,
     frame.  A planet filed under the system's own name when that is not one
     of its stars (RR Cae's circumbinary planet) goes round the primary.
 
+    A system of stars with no planet on file (`Catalog.star_systems()`) is
+    built the same way, as its stars and bands.
+
     Raises:
-        ValueError: if the identifier does not resolve, or the system has no
-                    planet with enough orbital data to plot.
+        ValueError: if the identifier does not resolve.
     """
     system_host = catalog.resolve_host(identifier)
     members = catalog.members(system_host)
@@ -1046,8 +1064,13 @@ def build_star_system(catalog: Catalog, identifier: str,
     cls, dist = root_facts.stellar_class, root_facts.distance_ly
     bits = [b for b in (cls, f"{dist:.2f} ly" if dist else "") if b]
     header = f"{system_host}" + (f" ({', '.join(bits)})" if bits else "")
-    notes = [f"{header}. {n_planets} planets from the catalog spreadsheet."]
-    if n_planets:
+    no_planet_on_file = not (n_planets or skipped or stranded)
+    notes = [f"{header}. " + ("No planet on file: drawn as its stars and their bands."
+                              if no_planet_on_file
+                              else f"{n_planets} planets from the catalog spreadsheet.")]
+    if no_planet_on_file:
+        pass
+    elif n_planets:
         notes.append(
             "Inclination, ascending node and argument of periapsis are not in the "
             "catalog, so orbits are drawn co-planar and the starting phase of each "
