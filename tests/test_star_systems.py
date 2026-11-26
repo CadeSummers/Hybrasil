@@ -4,7 +4,9 @@
 
 HIP 55507, GJ 680 and GJ 773 B each had a "planet" that turned out to be a companion star. The
 candidate is on the Rejected candidates tab and the stars are on Multi-stars, so the system is a
-page of its own (Catalog.star_systems()) rather than a refuted star with nothing to open.
+page of its own (Catalog.star_systems()) rather than a refuted star with nothing to open. GJ 4113
+and APM 89, whose Gaia "planets" were their own stellar orbits, joined them when their pairs went
+onto Multi-stars (data/refuted_pairs/add_pairs.py).
 """
 
 import pytest
@@ -19,7 +21,9 @@ from tests.test_band_flatness import _check_figure
 from tests.test_web_app import _library
 
 GJ_773_B = "Gaia DR3 4188996885011268608"
-PAIRS = ("HIP 55507", "GJ 680", GJ_773_B)
+GJ_4113 = "Gaia DR3 2052469973468984192"
+APM_89 = "Gaia DR3 5486916932205092352"
+PAIRS = ("HIP 55507", "GJ 680", GJ_773_B, GJ_4113, APM_89)
 
 
 @pytest.fixture(scope="module")
@@ -51,7 +55,8 @@ class TestTheList:
 
     @pytest.mark.parametrize("typed, system", [
         ("HIP 55507", "HIP 55507"), ("HIP 55507 B", "HIP 55507"), ("GJ 680 B", "GJ 680"),
-        ("GJ 773 A", GJ_773_B), ("GJ 773 Bb", GJ_773_B)])
+        ("GJ 773 A", GJ_773_B), ("GJ 773 Bb", GJ_773_B), ("GJ 773 B", GJ_773_B),
+        ("GJ 4113", GJ_4113), ("GJ 4113 B", GJ_4113), ("APM 89", APM_89), ("APM 89 B", APM_89)])
     def test_any_of_its_stars_opens_it(self, catalog, typed, system):
         assert catalog.resolve_host(typed) == system
 
@@ -84,6 +89,18 @@ class TestTheSystem:
         periods = [b.elements.period for b in system.bodies if b.elements is not None]
         assert _natural_span_days(system) == pytest.approx(1.2 * min(periods))
         assert max(periods) > 1000 * min(periods)
+
+    def test_a_gaia_numbered_primary_is_shown_by_its_name(self, catalog):
+        for host, name in ((GJ_773_B, "GJ 773 B"), (GJ_4113, "GJ 4113"), (APM_89, "APM 89")):
+            assert build_star_system(catalog, host).bodies[0].display_name == name
+
+    @pytest.mark.parametrize("host, companion, days, a_au", [
+        (GJ_4113, "GJ 4113 B", 209.3157, 0.584),     # Gaia DR3's period, Kepler III on the inferred masses
+        (APM_89, "APM 89 B", 0.69778 * 365.25, 0.584)])   # Vrijmoet et al. 2026, Table 4
+    def test_a_pair_turns_in_its_published_period(self, catalog, host, companion, days, a_au):
+        b = next(b for b in build_star_system(catalog, host).bodies if b.name == companion)
+        assert b.status == "confirmed" and b.elements.semi_major_axis == a_au
+        assert b.elements.period == pytest.approx(days, rel=2e-3)
 
     def test_a_single_wide_pair_is_capped_at_a_century(self, catalog):
         assert _natural_span_days(build_star_system(catalog, "HIP 55507")) == pytest.approx(36525.0)

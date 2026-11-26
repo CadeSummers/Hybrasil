@@ -19,8 +19,8 @@ Three rules matter when touching this code:
 4. **A tab's data ends at its first blank or single-cell row.** `build_tables()` stops there, because the Planets tab keeps reference blocks ("CONSTANTS USED BY THIS SHEET", "SOLVENT BAND CONSTANTS") directly under its last planet with no blank row between. Read as data, the solvent table became nine "planets" of hosts named `c_inner` and `0.5575507229162847`. A real row always has at least a name and a host.
 5. **Every system with a planet on file is listed and opens, orbit or not.** `hosts()` does not ask for an orbit. A system none of whose planets has a semi-major axis, a period, or a host mass to turn one into the other (`_planet_body()` returns None) is drawn as its stars and bands. Its description says so, and names the planets under "No orbit data". Before 25 Sep 2026 `hosts()` required an orbit, which hid 49 real systems (CD-35 2722, HD 48948, KOBE-1, most of the recent TOIs…) from the search and made GJ 773 B's host listed but unbuildable. `catalog_entry()` lists every planet, so a planet's name finds its system either way.
    **A system of stars with no planet is listed too, apart** (since 26 Nov 2026). `Catalog.star_systems()` is every
-   Systems row with two or more stars-tab rows and nothing on a planet tab: HIP 55507, GJ 680 and GJ 773 B, each of
-   whose "planet" turned out to be a companion star and is on Rejected candidates. `hosts()` keeps its meaning, a
+   Systems row with two or more stars-tab rows and nothing on a planet tab: HIP 55507, GJ 680, GJ 773 B, GJ 4113 and APM 89, each of
+   whose "planet" turned out to be a companion star, or the pair's own orbit, and is on Rejected candidates. `hosts()` keeps its meaning, a
    planet on file. Any of the system's stars resolves to it, and so does the rejected candidate's name where it is the
    star's own without case ('HIP 55507 b', 'HIP 55507 B'). `build_star_system()` draws it as its stars and bands; the
    description says "No planet on file" and names the rejected candidate. With no planet orbit, `_natural_span_days()`

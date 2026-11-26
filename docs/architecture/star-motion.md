@@ -152,7 +152,7 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
 
 A **refuted system** is a Systems-tab star whose every planet has gone to the
 Rejected candidates tab, and which has no companion star to draw in a planet's
-place: 14 of 426 on the 25 Nov 2026 snapshot, Kapteyn's star among them. It
+place: 12 of 426 on the 26 Nov 2026 snapshot, Kapteyn's star among them. It
 has no planet on file (`Catalog.hosts()`) and is no system of stars
 (`Catalog.star_systems()`), so there is no system to open. Since 25 Nov 2026 the view keeps it, apart from the rest:
 
@@ -166,12 +166,13 @@ has no planet on file (`Catalog.hosts()`) and is no system of stars
   the Known button's last step, **Refuted only**, where the two clouds are
   hidden and every ordinary star stays as it is at every other step. Its
   arrows are owned by it, so they come and go with it. The title counts the
-  refuted apart ("412 systems ... (+14 refuted systems on request)"). GJ 229
+  refuted apart ("414 systems ... (+12 refuted systems on request)"). GJ 229
   left the list on 25 Nov 2026, when its brown dwarf pair went on file
   (`data/gj229/`): Ba on Planets, Bb its moon on Exomoons. HIP 55507, GJ 680
   and GJ 773 B left it on 26 Nov 2026: each "planet" was a companion star, the
-  stars are on Multi-stars, and the system opens as its stars and bands. Their
-  panels keep the "Rejected candidates" row.
+  stars are on Multi-stars, and the system opens as its stars and bands. GJ 4113
+  and APM 89 followed the same day, once their pairs were on Multi-stars
+  (`data/refuted_pairs/`). Their panels keep the "Rejected candidates" row.
 - **The panel says so.** The entry carries `goto_note` instead of `goto`:
   `band_kit.js` draws "Go to system" disabled and greyed, with **Exoplanet
   system recently refuted** in red under it (`#_sa_info_goto_note`, escaped).

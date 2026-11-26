@@ -117,8 +117,9 @@ catalog system); Stellar Motion is Nearby Stellar Motion.
 The same list holds the catalog's systems of stars with no planet
 (`Catalog.star_systems()`, `docs/architecture/catalog.md` rule 5): ids
 `catalog:<host>`, `kind: "planetless"`, `n_stars` their stars, opened by the
-catalog's own builder as stars and bands. Three on the 25 Nov 2026 snapshot:
-HIP 55507, GJ 680 and GJ 773 B.
+catalog's own builder as stars and bands. Five on the 26 Nov 2026 snapshot:
+HIP 55507, GJ 680, GJ 773 B, GJ 4113 and APM 89 (the last three are
+Gaia-numbered rows, listed by that number and found by their nickname).
 `SystemLibrary.planetless()` reads the tab once, from the live sheet or the
 snapshot, and follows `use_catalog`; a failure costs those systems only. Each
 opens over a window of 1.2 x its shortest period (5 days to 100 years,

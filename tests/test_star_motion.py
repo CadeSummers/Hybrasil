@@ -334,9 +334,11 @@ def test_a_refuted_system_is_one_with_rejected_candidates_and_nothing_else(stars
     # and no stars to open in a planet's place.
     opens = set(snapshot_catalog.hosts()) | set(snapshot_catalog.star_systems())
     assert refuted == {s.name for s in stars if s.rejected and s.name not in opens and not s.is_sun}
-    assert len(refuted) == 14 and {"Kapteyn", "GJ 682"} <= refuted
+    assert len(refuted) == 12 and {"Kapteyn", "GJ 682"} <= refuted
     # HIP 55507, GJ 680 and GJ 773 B left it when star pairs got pages: each "planet" was a companion star.
-    assert not refuted & {"HIP 55507", "GJ 680", "Gaia DR3 4188996885011268608"}
+    # GJ 4113 and APM 89 followed once their pairs were on Multi-stars (data/refuted_pairs/).
+    assert not refuted & {"HIP 55507", "GJ 680", "Gaia DR3 4188996885011268608",
+                          "Gaia DR3 2052469973468984192", "Gaia DR3 5486916932205092352"}
     assert by["GJ 680"].rejected and not by["GJ 680"].refuted
     # GJ 229 left the list on 25 Nov 2026: its brown dwarf, a planet here, is on file (data/gj229/). It still
     # remembers the two candidates it lost.
@@ -369,7 +371,7 @@ def test_a_refuted_system_is_ringed_red_and_waits_for_the_buttons_last_step(view
     assert known["modes"][-1] == {"key": sm.REFUTED_MODE, "label": "Refuted only", "clouds": []}
     assert known["default"] is False and "refuted" in known["title"]
     # The title counts them apart.
-    assert "412 systems within 100 ly" in scene["title"] and "(+14 refuted systems on request)" in scene["title"]
+    assert "414 systems within 100 ly" in scene["title"] and "(+12 refuted systems on request)" in scene["title"]
 
 
 def test_a_refuted_systems_panel_says_so_and_names_what_was_rejected(view):
@@ -493,8 +495,8 @@ def test_the_planetless_set_is_one_ringed_group_off_by_default(view):
     assert {b["group"] for b in opt} == {sm.PLANETLESS_GROUP}
     assert {b["edge"] for b in opt} == {sm.PLANETLESS_RING} and all(b["fill"] for b in opt)
     assert "+80 high star count systems on request" in view[2]["title"]
-    # The Systems-tab count in the title is unchanged by them (426 rows, 14 of them refuted and counted apart).
-    assert "412 systems within 100 ly" in view[2]["title"]
+    # The Systems-tab count in the title is unchanged by them (426 rows, 12 of them refuted and counted apart).
+    assert "414 systems within 100 ly" in view[2]["title"]
 
 
 def test_a_planetless_systems_arrows_are_owned_by_it(view):

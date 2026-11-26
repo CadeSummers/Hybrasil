@@ -1,0 +1,98 @@
+[
+ {
+  "system": "Gaia DR3 2052469973468984192",
+  "action": "new_system",
+  "old_count": 2,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host (= GJ 4113, Ross 1063; a twin SB2); drawn as GJ 4113 A, the SB2's primary, with GJ 4113 B on the next row. Its candidate Gaia-ASOI-054 is on Rejected candidates",
+   "Mass (M-sun)": 0.304,
+   "Luminosity (L-sun)": 0.01242,
+   "Star data source": "class, Teff: as the Systems tab's row, in COMBINED light of the SB2 | 26 Nov 2026: mass and L per component, INFERRED (orange, cell notes): equal split of the blend, Mann et al. 2019 M_Ks relation."
+  },
+  "host_orange": {
+   "Mass (M-sun)": "WEAK -- INFERRED, equal-mass assumption. GJ 4113 is a twin SB2 (Marcussen & Albrecht 2023, AJ 165, 266 (arXiv:2305.08623), Sect. 4.5; Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), Table 4) with no published component mass. Blend Ks = 7.339 (2MASS J19333940+3931372), parallax 57.5696 mas (Gaia DR3 nss_two_body_orbit) -> M_Ks = 6.140; the Mann et al. 2019, ApJ 871, 63 (arXiv:1811.06938) M_Ks relation (n = 5, no [Fe/H] term) gives 0.418 Msun for it as one star (Stefansson et al.'s single-star 0.42 +/- 0.02, reproduced). Split equally, each component is 0.753 mag fainter, M_Ks = 6.893 -> 0.304 Msun. Relation scatter ~2%; valid for M_Ks 4-11, main-sequence stars. Marcussen & Albrecht's flux ratio of ~0.85 instead of 1 gives 0.316 + 0.291. Their working assumption, M1 = M2 = 0.47 Msun (Gaia DR3 binary_masses M1, the Systems row's value), is a mass for the blend's light and is not used here.",
+   "Luminosity (L-sun)": "WEAK -- INFERRED: half the Systems row's 0.02484 Lsun, which is the pair's combined light, on the equal-mass assumption (see the Mass cell). Cifuentes et al. 2025 (A&A 693, A228) give 0.02593 Lsun for the unresolved pair."
+  },
+  "rows": [
+   {
+    "values": {
+     "Star (component)": "GJ 4113 B",
+     "Role in system": "companion (SB2 secondary of GJ 4113; Marcussen & Albrecht 2023, AJ 165, 266)",
+     "Mass (M-sun)": 0.304,
+     "Stellar Class": "M2V",
+     "Class (sort key)": 62,
+     "Effective temp (K)": 3515,
+     "Luminosity (L-sun)": 0.01242,
+     "Star data source": "INFERRED, all of it: the unresolved SB2 secondary, assumed equal to A (Marcussen & Albrecht 2023 call it a twin binary, flux ratio ~0.85). Class and Teff are the blend's; mass and L as on A's row. The names A and B are this workbook's, not a catalogue's.",
+     "Kinematics source": "none of its own: unresolved, shares GJ 4113's Gaia entry",
+     "Orbital eccentricity (e)": 0.4698,
+     "Orbit described": "B relative to A",
+     "Orbit source": "Gaia DR3 nss_two_body_orbit (Orbital) for 2052469973468984192: P = 209.3157 +/- 0.74 d, e = 0.4698 +/- 0.044. This is the photocentre orbit that Gaia-ASOI-054 was read from; Marcussen & Albrecht 2023, AJ 165, 266 (arXiv:2305.08623) (Sect. 4.5) and Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654) (Table 4, G-ASOI-54) find the star an SB2, so it is the binary's orbit. Neither paper fits an orbit of its own.",
+     "Separation from": "Gaia DR3 2052469973468984192",
+     "Separation (AU)": 0.584,
+     "Separation type": "semi-major axis",
+     "Separation source": "COMPUTED here, not published: Kepler III on Gaia DR3's P = 209.3157 d and the inferred total mass 0.608 Msun (2 x 0.304). Orange; see cell note."
+    },
+    "orange": {
+     "Mass (M-sun)": "WEAK -- INFERRED, equal-mass assumption. GJ 4113 is a twin SB2 (Marcussen & Albrecht 2023, AJ 165, 266 (arXiv:2305.08623), Sect. 4.5; Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), Table 4) with no published component mass. Blend Ks = 7.339 (2MASS J19333940+3931372), parallax 57.5696 mas (Gaia DR3 nss_two_body_orbit) -> M_Ks = 6.140; the Mann et al. 2019, ApJ 871, 63 (arXiv:1811.06938) M_Ks relation (n = 5, no [Fe/H] term) gives 0.418 Msun for it as one star (Stefansson et al.'s single-star 0.42 +/- 0.02, reproduced). Split equally, each component is 0.753 mag fainter, M_Ks = 6.893 -> 0.304 Msun. Relation scatter ~2%; valid for M_Ks 4-11, main-sequence stars. Marcussen & Albrecht's flux ratio of ~0.85 instead of 1 gives 0.316 + 0.291. Their working assumption, M1 = M2 = 0.47 Msun (Gaia DR3 binary_masses M1, the Systems row's value), is a mass for the blend's light and is not used here.",
+     "Luminosity (L-sun)": "WEAK -- INFERRED: half the Systems row's 0.02484 Lsun, which is the pair's combined light, on the equal-mass assumption (see the Mass cell). Cifuentes et al. 2025 (A&A 693, A228) give 0.02593 Lsun for the unresolved pair.",
+     "Stellar Class": "INFERRED: equal-mass secondary, so given the blend's class.",
+     "Effective temp (K)": "INFERRED: equal-mass secondary, so given the blend's Teff.",
+     "Separation (AU)": "WEAK -- COMPUTED: a = (P^2 M)^(1/3) with P = 209.3157 d = 0.5731 yr (Gaia DR3 nss_two_body_orbit) and M = 0.608 Msun, the inferred A + B (Mass cells) -> 0.584 au. Insensitive to the flux ratio: 0.584 au at 0.85. Rests on the Mann 2019 masses; with Marcussen & Albrecht's assumed 0.47 + 0.47 Msun it would be 0.676 au. No spectroscopic orbit is published: P and e are Gaia's photocentre orbit, taken as the binary's own."
+    }
+   }
+  ],
+  "systems_text": "Gaia DR3 2052469973468984192 = GJ 4113 (Ross 1063): M2V, a twin SB2; drawn as GJ 4113 A (host; candidate Gaia-ASOI-054 is on Rejected candidates)\nGJ 4113 B: M2V, inferred equal to A (SB2 secondary; Marcussen & Albrecht 2023 Sect. 4.5); the names A and B are this workbook's, not a catalogue's",
+  "stars_note": "ADDED TO MULTI-STARS 26 Nov 2026 (data/refuted_pairs/add_pairs.py): a system of stars with no planet now opens as a page of its own in the viewer, so its stars are on file. This reverses the 6 Oct 2026 decision above, which kept it off Multi-stars for having no live candidate. Count unchanged. Was 2.",
+  "sp_paragraph": "GJ 4113 (Ross 1063), a twin SB2: Marcussen & Albrecht 2023, AJ 165, 266 (arXiv:2305.08623), Sect. 4.5 and Table 1 (two FIES spectra, flux ratio ~0.85, M1 = M2 = 0.47 Msun ASSUMED); Stefansson et al. 2025, AJ 169, 107 (arXiv:2410.05654), Table 4 (SB2; 0.42 +/- 0.02 Msun as one star). Neither gives K1/K2, a mass ratio or an orbit. ORBIT: Gaia DR3 nss_two_body_orbit, P 209.3157 d, e 0.4698. INFERRED (orange): each star's mass 0.304 Msun, from the blend's 2MASS Ks 7.339 and parallax 57.5696 mas (M_Ks 6.140), split equally, through the Mann et al. 2019, ApJ 871, 63 (arXiv:1811.06938) M_Ks relation, n = 5, no [Fe/H] term (coefficients -0.642, -0.208, -0.000843, 0.00787, 0.000142, -0.000213; zero point 7.5; scatter 2.0%; valid 4 < M_Ks < 11, main-sequence, -0.6 < [Fe/H] < +0.4); as one star it gives 0.418, Stefansson et al.'s value. Each star's L 0.01242 Lsun = half the Systems row's 0.02484. Separation 0.584 au = (P^2 M)^(1/3). CONFIDENCE: LOW for the masses and the separation (no component is measured); the period is Gaia's. HOW TO VERIFY: IRSA fp_psc for the Ks, the Gaia archive for the orbit, Mann et al.'s Table 6 for the coefficients; data/refuted_pairs/add_pairs.py recomputes all of it."
+ },
+ {
+  "system": "Gaia DR3 5486916932205092352",
+  "action": "new_system",
+  "old_count": 2,
+  "new_count": 2,
+  "host_overrides": {
+   "Role in system": "host (= APM 89 A, APMPM J0710-5704, WDS 07096-5704); the primary of the speckle pair, with APM 89 B on the next row. Its candidate Gaia-ASOI-037 is on Rejected candidates",
+   "Mass (M-sun)": 0.2045,
+   "Luminosity (L-sun)": 0.00422,
+   "Star data source": "class, Teff: as the Systems tab's row, in COMBINED light of the pair | 26 Nov 2026: mass and L per component, INFERRED (orange, cell notes): half the dynamical total mass of Vrijmoet et al. 2026, half the combined L."
+  },
+  "host_orange": {
+   "Mass (M-sun)": "WEAK -- INFERRED, equal-mass assumption: half the pair's dynamical total, 0.409 +/- 0.040 Msun (Vrijmoet et al. 2026, AJ 171, 186 (arXiv:2601.18905), Table 4). No component mass is published. The pair is near-equal: Delta I = 0.1 mag at first resolution (Vrijmoet et al. 2022, AJ 163, 178 (arXiv:2202.04688), Table 2); WDS 07096-5704 lists 12.1 and 12.2 mag.",
+   "Luminosity (L-sun)": "WEAK -- INFERRED: half the Systems row's 0.00844 Lsun, which is the pair's combined light, on the equal-mass assumption (see the Mass cell); Delta I = 0.1 mag."
+  },
+  "rows": [
+   {
+    "values": {
+     "Star (component)": "APM 89 B",
+     "Role in system": "companion (resolved by SOAR speckle; Vrijmoet et al. 2022, AJ 163, 178, Vrijmoet et al. 2026, AJ 171, 186)",
+     "Mass (M-sun)": 0.2045,
+     "Stellar Class": "M4V",
+     "Class (sort key)": 64,
+     "Effective temp (K)": 3205,
+     "Luminosity (L-sun)": 0.00422,
+     "Star data source": "orbit: Vrijmoet et al. 2026 Table 4. INFERRED: mass and L (half the pair's), class and Teff (the blend's); the pair is near-equal, Delta I = 0.1 mag (Vrijmoet et al. 2022).",
+     "Kinematics source": "none of its own: 0.034 arcsec from A, shares its Gaia entry",
+     "Orbital eccentricity (e)": 0.1373,
+     "Orbit described": "B relative to A",
+     "Orbit source": "Vrijmoet et al. 2026, AJ 171, 186 (arXiv:2601.18905), Table 4, APM 89 AB: P = 0.69778 +/- 0.00274 yr (254.86 d), a = 0.0342 +/- 0.0011 arcsec, e = 0.1373 +/- 0.0275, i = 36.72 +/- 5.16 deg, node 310.25 +/- 8.43 deg, omega 125.72 +/- 8.06 deg, T0 2021.3645, Mtot 0.409 +/- 0.040 Msun; SOAR speckle imaging only, a first orbit. Gaia DR3 nss_two_body_orbit has the same pair at P = 253.48 d, e = 0.134 (the orbit Gaia-ASOI-037 was read from); the paper finds the periods and eccentricities agree and the angles differ by 2.5-7.4 sigma.",
+     "Separation from": "Gaia DR3 5486916932205092352",
+     "Separation (AU)": 0.584,
+     "Separation type": "semi-major axis",
+     "Separation source": "COMPUTED from published values: 0.0342 arcsec (Vrijmoet et al. 2026, Table 4) / Gaia DR3 parallax 58.5739 mas. Orange; see cell note."
+    },
+    "orange": {
+     "Mass (M-sun)": "WEAK -- INFERRED, equal-mass assumption: half the pair's dynamical total, 0.409 +/- 0.040 Msun (Vrijmoet et al. 2026, AJ 171, 186 (arXiv:2601.18905), Table 4). No component mass is published. The pair is near-equal: Delta I = 0.1 mag at first resolution (Vrijmoet et al. 2022, AJ 163, 178 (arXiv:2202.04688), Table 2); WDS 07096-5704 lists 12.1 and 12.2 mag.",
+     "Luminosity (L-sun)": "WEAK -- INFERRED: half the Systems row's 0.00844 Lsun, which is the pair's combined light, on the equal-mass assumption (see the Mass cell); Delta I = 0.1 mag.",
+     "Stellar Class": "INFERRED: near-equal secondary (Delta I = 0.1 mag), so given the blend's class (WDS: M4V).",
+     "Effective temp (K)": "INFERRED: near-equal secondary, so given the blend's Teff.",
+     "Separation (AU)": "COMPUTED from published values: a = 0.0342 +/- 0.0011 arcsec (Vrijmoet et al. 2026, AJ 171, 186 (arXiv:2601.18905), Table 4) / parallax 58.5739 mas (Gaia DR3 nss_two_body_orbit) = 0.584 au (+/- 0.019 from a's error). Check: Kepler III with the paper's Mtot 0.409 Msun gives P = 0.698 yr against its 0.69778."
+    }
+   }
+  ],
+  "systems_text": "Gaia DR3 5486916932205092352 = APM 89 A (APMPM J0710-5704, WDS 07096-5704): M4V (host; candidate Gaia-ASOI-037 is on Rejected candidates)\nAPM 89 B: M4V, inferred near-equal to A (SOAR speckle pair, a = 0.034 arcsec, P = 0.698 yr; Vrijmoet et al. 2026)",
+  "stars_note": "ADDED TO MULTI-STARS 26 Nov 2026 (data/refuted_pairs/add_pairs.py): a system of stars with no planet now opens as a page of its own in the viewer, so its stars are on file. This reverses the 6 Oct 2026 decision above, which kept it off Multi-stars for having no live candidate. Count unchanged. Was 2.",
+  "sp_paragraph": "APM 89 AB (APMPM J0710-5704, WDS 07096-5704 TSN 140): Vrijmoet et al. 2026, AJ 171, 186 (arXiv:2601.18905), Table 4: P 0.69778 +/- 0.00274 yr, a 0.0342 +/- 0.0011 arcsec, e 0.1373 +/- 0.0275, Mtot 0.409 +/- 0.040 Msun; first resolved in Vrijmoet et al. 2022, AJ 163, 178 (arXiv:2202.04688) (Delta I 0.1 mag). The paper does not discuss the planet candidate. INFERRED (orange): each star's mass 0.2045 Msun = Mtot / 2 and L 0.00422 Lsun = half the Systems row's 0.00844, on the near-equal pair; separation 0.584 au = a / Gaia DR3 parallax 58.5739 mas, arithmetic on published values (Kepler III with Mtot returns P = 0.698 yr). CONFIDENCE: HIGH for the orbit's period and size (speckle and Gaia agree), MEDIUM for the equal split. HOW TO VERIFY: the paper's Table 4; the WDS summary line for 07096-5704; data/refuted_pairs/add_pairs.py."
+ }
+]

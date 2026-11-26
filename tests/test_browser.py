@@ -1346,7 +1346,7 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     btn = three.locator("button[data-optional=known]")
     legend = three.locator("label", has_text="Exoplanet system refuted")
     r = three.evaluate(_REFUTED)
-    assert r["n"] == 14 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
+    assert r["n"] == 12 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
     assert r["kapteyn"]["edge"] == "#FF4444" and r["kapteyn"]["fill"] == "#FF4A3A"       # an M dwarf, ringed red
     for label in ("All", "Excluding unconfirmed", "Unconfirmed only"):
         btn.click()
@@ -1357,9 +1357,9 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     btn.click()
     r = three.evaluate(_REFUTED)
     assert btn.inner_text().endswith("Refuted only") and r["mode"] == "refuted"
-    assert r["shown"] == 14 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
+    assert r["shown"] == 12 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
     assert r["restShown"] == r["rest"] > 300
-    assert legend.count() == 1 and "(14)" in legend.inner_text()
+    assert legend.count() == 1 and "(12)" in legend.inner_text()
     # Its legend row hides them and their arrows, as a class row does.
     legend.locator("input").uncheck()
     r = three.evaluate(_REFUTED)
@@ -1401,7 +1401,7 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     assert btn.inner_text().endswith("Off") and three.evaluate(_REFUTED)["shown"] == 0
     assert three.evaluate("() => window.__SA3.search('Kapteyn')")
     r = three.evaluate(_REFUTED)
-    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 14
+    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 12
 
 
 def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):
