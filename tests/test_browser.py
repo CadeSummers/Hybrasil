@@ -317,6 +317,7 @@ window.__t3 = {
   report() {
     return window.__SA3.bands().map(m => ({
       name: m.userData.name, solvent: m.userData.solvent, visible: m.visible,
+      kind: (m.userData.meta && m.userData.meta.solvent) || null,
       hasRing: !!m.userData.hasRing,
       isMesh: !!m.isMesh, isPoints: !!m.isPoints, isLine: !!m.isLine,
       triangles: m.geometry.index ? m.geometry.index.count / 3 : 0,
@@ -607,11 +608,41 @@ def _three_band_clickthrough(three, key, arrive_from):
     # Off, then one band from its own legend entry.
     three.get_by_text("Bands:", exact=False).first.click()
     first = next(r["name"] for r in solvent if r["hasRing"])
+    per_body = three.get_by_label("Enable per-body solvents")
+    if three.evaluate("() => window.__SA3.bandsCondense()"):
+        # More than one star: the legend lists a solvent once, and its row moves that band round every star.
+        kind = next(r["kind"] for r in solvent if r["name"] == first)
+        rows = three.locator("input[data-kind=bandsolvent]")
+        assert rows.count() == len({r["kind"] for r in solvent}) < len(solvent)
+        assert three.locator("input[data-kind=band]").count() == len(report) - len(solvent)   # belts only
+        row = three.locator(f"input[data-kind=bandsolvent][data-key='{kind}']")
+        label = row.locator("xpath=..").inner_text()
+        assert label and all(r["name"] != label for r in solvent) and label.split(" (")[0] in first
+        row.check()
+        three.wait_for_timeout(200)
+        now = three.evaluate("() => window.__t3.report()")
+        assert {r["name"] for r in now if r["visible"]} == {
+            r["name"] for r in solvent if r["kind"] == kind and r["hasRing"]}
+        for r in now:
+            assert r["isMesh"] and r["dev"] < 1e-6, r
+        row.uncheck()
+        # "Enable per-body solvents" brings back a row for every star's band.
+        per_body.check()
+        assert three.locator("input[data-kind=bandsolvent]").count() == 0
+        assert three.locator("input[data-kind=band]").count() == len(report)
+    else:
+        assert per_body.count() == 0 and three.locator("input[data-kind=bandsolvent]").count() == 0
     three.locator("label", has_text=first).first.locator("input").check()
     three.wait_for_timeout(200)
     shown = [r["name"] for r in three.evaluate("() => window.__t3.report()")
              if r["solvent"] and r["visible"]]
-    assert first in shown, f"{key}: the legend entry did not show {first!r}"
+    assert shown == [first], f"{key}: the legend entry did not show only {first!r}"
+    if per_body.count():
+        # Back to one row per solvent: the solvent's row is half-ticked while one star's band is on alone.
+        per_body.uncheck()
+        row = three.locator(f"input[data-kind=bandsolvent][data-key='{kind}']")
+        assert row.is_checked() and row.evaluate("b => b.indeterminate")
+        assert three.locator("input[data-kind=band]").count() == len(report) - len(solvent)
 
 
 @pytest.mark.parametrize("key", BUILTIN_NAMES)
