@@ -151,7 +151,7 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
 ## Refuted systems, at the button's last step
 
 A **refuted system** is a Systems-tab star whose every planet has gone to the
-Rejected candidates tab: 18 of 426 on the 11 Oct 2026 snapshot, Kapteyn's star
+Rejected candidates tab: 17 of 426 on the 25 Nov 2026 snapshot, Kapteyn's star
 among them. It has no planet on file, so there is no system to open
 (`Catalog.hosts()`). Since 25 Nov 2026 the view keeps it, apart from the rest:
 
@@ -165,7 +165,9 @@ among them. It has no planet on file, so there is no system to open
   the Known button's last step, **Refuted only**, where the two clouds are
   hidden and every ordinary star stays as it is at every other step. Its
   arrows are owned by it, so they come and go with it. The title counts the
-  refuted apart ("408 systems ... (+18 refuted systems on request)").
+  refuted apart ("409 systems ... (+17 refuted systems on request)"). GJ 229
+  left the list on 25 Nov 2026, when its brown dwarf pair went on file
+  (`data/gj229/`): Ba on Planets, Bb its moon on Exomoons.
 - **The panel says so.** The entry carries `goto_note` instead of `goto`:
   `band_kit.js` draws "Go to system" disabled and greyed, with **Exoplanet
   system recently refuted** in red under it (`#_sa_info_goto_note`, escaped).
