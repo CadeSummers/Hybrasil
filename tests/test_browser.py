@@ -1346,7 +1346,7 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     btn = three.locator("button[data-optional=known]")
     legend = three.locator("label", has_text="Exoplanet system refuted")
     r = three.evaluate(_REFUTED)
-    assert r["n"] == 17 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
+    assert r["n"] == 14 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
     assert r["kapteyn"]["edge"] == "#FF4444" and r["kapteyn"]["fill"] == "#FF4A3A"       # an M dwarf, ringed red
     for label in ("All", "Excluding unconfirmed", "Unconfirmed only"):
         btn.click()
@@ -1357,9 +1357,9 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     btn.click()
     r = three.evaluate(_REFUTED)
     assert btn.inner_text().endswith("Refuted only") and r["mode"] == "refuted"
-    assert r["shown"] == 17 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
+    assert r["shown"] == 14 and r["arrows"] == r["nArrows"] > 10 and r["clouds"] == 0
     assert r["restShown"] == r["rest"] > 300
-    assert legend.count() == 1 and "(17)" in legend.inner_text()
+    assert legend.count() == 1 and "(14)" in legend.inner_text()
     # Its legend row hides them and their arrows, as a class row does.
     legend.locator("input").uncheck()
     r = three.evaluate(_REFUTED)
@@ -1401,7 +1401,7 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     assert btn.inner_text().endswith("Off") and three.evaluate(_REFUTED)["shown"] == 0
     assert three.evaluate("() => window.__SA3.search('Kapteyn')")
     r = three.evaluate(_REFUTED)
-    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 17
+    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 14
 
 
 def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):
@@ -2255,8 +2255,8 @@ def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
         _open_view(p)
         panel = p.locator("#_sa_info_panel")
         goto = p.get_by_role("button", name="Go to system")
-        # GJ 680's only planet was rejected: there is no system to open, and the button is dead.
-        p.evaluate("() => window.SABandKit.showInfoPanel('GJ 680')")
+        # GJ 682's planets were all rejected: there is no system to open, and the button is dead.
+        p.evaluate("() => window.SABandKit.showInfoPanel('GJ 682')")
         panel.wait_for(state="visible")
         assert goto.is_disabled() and "Exoplanet system recently refuted" in panel.inner_text()
         p.evaluate("() => window.SABandKit.showInfoPanel('tau Cet')")
@@ -2266,6 +2266,20 @@ def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
         assert any(n.startswith("tau Cet ") for n in names)
         assert "tau Cet" in p.get_by_role("button", name="More Modeled Systems").inner_text()
         for r in p.evaluate("() => window.__t3.report()"):
+            assert r["isMesh"] and r["dev"] < 1e-6, r
+        # GJ 680's "planet" was a companion star: it opens as its two stars (Catalog.star_systems()), with
+        # flat bands, and its panel still names the candidate it lost.
+        _open_view(p)
+        p.evaluate("() => window.SABandKit.showInfoPanel('GJ 680')")
+        assert "GJ 680 b" in panel.inner_text() and "recently refuted" not in panel.inner_text()
+        goto.click()
+        p.wait_for_function("() => window.__SA3.key === 'catalog:GJ 680'", timeout=30_000)
+        assert p.evaluate("() => window.__SA3.bodies().map(b => b.data.name)") == ["GJ 680", "GJ 680 B"]
+        p.get_by_text("Bands:", exact=False).first.click()
+        p.wait_for_timeout(200)
+        report = p.evaluate("() => window.__t3.report()")
+        assert report and any(r["visible"] for r in report)
+        for r in report:
             assert r["isMesh"] and r["dev"] < 1e-6, r
 
 

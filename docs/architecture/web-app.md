@@ -90,7 +90,8 @@ search hold only entries of the chosen one. The kind comes from
 `builtin_systems.py` for a built-in that has an entry there (none since
 7 Oct 2026, when Castor's brown dwarf became a planet and Castor with it a
 planetary system), `planetary` for everything else, every catalog system
-included. A Planetless 4+ Stars system's own entry says `planetless`, or
+with a planet included; a catalog system of stars with no planet says
+`planetless` in its own entry. A Planetless 4+ Stars system's own entry says `planetless`, or
 `planetary` once a brown dwarf of it is a planet-tab row
 (`planetless_loader.planetless_entry`).
 The file page gets the same kinds as `window.SA3_KINDS`. The chosen type is
@@ -113,6 +114,11 @@ most stars first (every
 star row, candidates included: `n_stars`), then nearest
 (`planetless_loader.py`, ids `planetless:<host>`, built on demand like a
 catalog system); Stellar Motion is Nearby Stellar Motion.
+The same list holds the catalog's systems of stars with no planet
+(`Catalog.star_systems()`, `docs/architecture/catalog.md` rule 5): ids
+`catalog:<host>`, `kind: "planetless"`, `n_stars` their stars, opened by the
+catalog's own builder as stars and bands. Three on the 25 Nov 2026 snapshot:
+HIP 55507, GJ 680 and GJ 773 B.
 `SystemLibrary.planetless()` reads the tab once, from the live sheet or the
 snapshot, and follows `use_catalog`; a failure costs those systems only. Each
 opens over a window of 1.2 x its shortest period (5 days to 100 years,

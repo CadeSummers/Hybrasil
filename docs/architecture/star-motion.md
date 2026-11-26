@@ -151,23 +151,27 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
 ## Refuted systems, at the button's last step
 
 A **refuted system** is a Systems-tab star whose every planet has gone to the
-Rejected candidates tab: 17 of 426 on the 25 Nov 2026 snapshot, Kapteyn's star
-among them. It has no planet on file, so there is no system to open
-(`Catalog.hosts()`). Since 25 Nov 2026 the view keeps it, apart from the rest:
+Rejected candidates tab, and which has no companion star to draw in a planet's
+place: 14 of 426 on the 25 Nov 2026 snapshot, Kapteyn's star among them. It
+has no planet on file (`Catalog.hosts()`) and is no system of stars
+(`Catalog.star_systems()`), so there is no system to open. Since 25 Nov 2026 the view keeps it, apart from the rest:
 
 - **The rule is derived, never a list.** `nearby_stars()` fills
   `NearbyStar.rejected` with the (name, reason) of every rejected candidate
   filed under the system's stars, and sets `refuted` where there is at least
-  one and no planet left. A workbook change moves a star in or out.
+  one, no planet left and no page of stars to open. A workbook change moves a star in or out.
 - **Hidden until asked for.** Its marker keeps its class colour inside a red
   ring (`REFUTED_RING`), in the legend group "Exoplanet system refuted", and is
   tagged `meta={"optional": KNOWN_SET, "mode": "refuted"}`. It is drawn only at
   the Known button's last step, **Refuted only**, where the two clouds are
   hidden and every ordinary star stays as it is at every other step. Its
   arrows are owned by it, so they come and go with it. The title counts the
-  refuted apart ("409 systems ... (+17 refuted systems on request)"). GJ 229
+  refuted apart ("412 systems ... (+14 refuted systems on request)"). GJ 229
   left the list on 25 Nov 2026, when its brown dwarf pair went on file
-  (`data/gj229/`): Ba on Planets, Bb its moon on Exomoons.
+  (`data/gj229/`): Ba on Planets, Bb its moon on Exomoons. HIP 55507, GJ 680
+  and GJ 773 B left it on 26 Nov 2026: each "planet" was a companion star, the
+  stars are on Multi-stars, and the system opens as its stars and bands. Their
+  panels keep the "Rejected candidates" row.
 - **The panel says so.** The entry carries `goto_note` instead of `goto`:
   `band_kit.js` draws "Go to system" disabled and greyed, with **Exoplanet
   system recently refuted** in red under it (`#_sa_info_goto_note`, escaped).
@@ -333,7 +337,7 @@ does not understand. So `views.FEATURED_VIEWS` registers it separately:
   `band_kit.js` draws the button only when the viewer's `setInfoGoto` handler
   says the page can open that id: every system the server lists in the web app,
   only the featured ones in a file page. A star whose planets were all rejected
-  (GJ 680, Kapteyn) has no system to open: its button is drawn dead, with a
+  and which has no companion star on file (Kapteyn, GJ 682) has no system to open: its button is drawn dead, with a
   note in red (`info.goto_note`; "Refuted systems" above).
 
 ## Tests
@@ -363,4 +367,4 @@ does not understand. So `views.FEATURED_VIEWS` registers it separately:
   - Alpha Centauri's bands are still flat after the view;
   - "Go to system" opens alf Cen A's featured system in a file page (and is
     absent for tau Cet there), and tau Cet's catalog system in the web app
-    (absent for GJ 680), bands flat after each.
+    (dead for GJ 682; GJ 680 opens as its two stars), bands flat after each.

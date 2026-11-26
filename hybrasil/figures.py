@@ -49,7 +49,10 @@ def _natural_span_days(system) -> float:
     Used for catalog systems, whose periods range from hours to decades and so
     have no sensible fixed default.  Set by the planets, not by a companion
     star: 55 Cnc B's circle takes 33,000 years and would never close however
-    long the window.  A system with no planet orbit falls back to its stars.
+    long the window.  A system with no planet orbit falls back to its stars,
+    by the rule for a hierarchy of stars (planetless_loader.planetless_span_days):
+    1.2 x the shortest star orbit, between 5 days and 100 years, so the
+    tightest pair turns and a wide companion's orbit is drawn whole.
 
     A system with a moon is set by its moons instead: CD-35 2722 b takes ~740
     years round its star, and at that span the 171-day moon would jump
@@ -62,6 +65,8 @@ def _natural_span_days(system) -> float:
     periods = [b.elements.period for b in (moons or planets or orbiting)]
     if not periods:
         return 365.25
+    if not planets:
+        return min(max(1.2 * min(periods), 5.0), 100 * 365.25)
     return max(periods) * 1.2
 
 

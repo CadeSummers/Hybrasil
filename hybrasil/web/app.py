@@ -223,6 +223,23 @@ class SystemLibrary:
                     "distance_ly": e["distance_ly"],
                     "stellar_class": e["stellar_class"],
                 })
+            # A system of stars with no planet (HIP 55507 and its companion,
+            # once listed as a planet): High Star Count (Planetless), opened
+            # as its stars and bands.
+            for host in cat.star_systems():
+                if host in covered:
+                    continue
+                e = catalog_entry(cat, host)
+                entries.append({
+                    "id": CATALOG_PREFIX + host, "name": host, "featured": False,
+                    "kind": "planetless",
+                    "aliases": ([e["nickname"]] if e["nickname"] else []) + [
+                        s for s in e["stars"] if s != host],
+                    "planets": [], "n_planets": 0,
+                    "n_stars": len(e["stars"]), "n_bodies": len(e["stars"]),
+                    "distance_ly": e["distance_ly"],
+                    "stellar_class": e["stellar_class"],
+                })
         # n_bodies weights the intro's random pick (three_viewer.js, "Intro"):
         # every star, planet and moon on file.  A Stellar Motion entry has none.
         for e in entries:
