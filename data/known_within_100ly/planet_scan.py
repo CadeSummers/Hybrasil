@@ -106,7 +106,7 @@ def main():
             how = "none"
         letter = p["pl_name"].split()[-1].lower()
         hosts = {p["hostname"], p["hd_name"], p["hip_name"]} | {k["System / Host"] for k in twins + ([r] if r else [])} \
-            | {k.get("Nickname (IAU)") for k in twins}
+            | {k.get("Nicknames") for k in twins}
         hit = by_full.get(norm(p["pl_name"])) \
             or next((recorded[(norm(h), letter)] for h in hosts if h and (norm(h), letter) in recorded), None)
         toi = re.fullmatch(r"TOI-(\d+)\.\d+", p["pl_name"])

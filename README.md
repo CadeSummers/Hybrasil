@@ -109,10 +109,10 @@ This opens the three.js viewer from a small local server at
   count. The list is twelve systems tall and scrolls for the rest; click one
   to draw it. Candidate planets count, so the number is how many planets the
   viewer draws.
-  The search box at the top of the dropdown finds any system by name, and
+  The search box at the top of the dropdown finds any system of any type by name, and
   tolerates typos ("trapist" finds TRAPPIST-1). It also matches catalog-style
   names typed the long way ("tau ceti" finds tau Cet) and nicknames
-  ("Copernicus"). A planet's or a companion star's name finds the system it
+  ("Copernicus", "Capella", "Luyten's Star"). A planet's or a companion star's name finds the system it
   belongs to.
 
 The hosted site is the same app written out as static files:

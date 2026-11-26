@@ -1896,6 +1896,9 @@ def build_body_info(systems_by_name: dict, body_metadata: dict | None = None) ->
 
             # What it is: star, planet, moon, barycentre, ...
             entry["type"] = body.body_type
+            # Its other names: the viewer's search finds it by any of them.
+            if body.aliases:
+                entry["aka"] = list(body.aliases)
 
             # Confirmation status
             entry["status"] = body.status

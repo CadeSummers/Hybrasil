@@ -510,7 +510,7 @@ def test_a_planetless_systems_panel_and_go_to_system(view):
     info = view[1]
     castor = {r[0]: r for r in info["alf Gem"]["rows"]}
     # Cc, a brown dwarf, is a planet since 7 Oct 2026 (docs/hybrasil-instructions.md section 6).
-    assert castor["Name"][1] == "Castor" and castor["System"][1] == "6 stars, 1 planet (brown dwarf)"
+    assert castor["Also known as"][1].split("; ")[0] == "Castor" and castor["System"][1] == "6 stars, 1 planet (brown dwarf)"
     assert castor["Speed"][1].endswith("km/s") and castor["Planets"][1] == "1 confirmed: alf Gem Cc"
     assert {r[0]: r for r in info["1 Hya"]["rows"]}["System"][1] == "6 stars, no known planet"
     # Castor opens as the featured Castor; every other system as itself.

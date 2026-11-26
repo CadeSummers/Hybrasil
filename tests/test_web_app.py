@@ -69,7 +69,7 @@ class TestTheIndex:
 
     def test_a_catalog_entry_carries_what_the_search_shows(self, library):
         a = next(e for e in library.index() if e["id"] == CATALOG_PREFIX + "Test A")
-        assert a["aliases"] == ["Testia"]              # the IAU nickname
+        assert a["aliases"] == ["Testia", "Old Testy"]     # every nickname on file
         assert "Test A b" in a["planets"]
         assert a["n_planets"] == len(a["planets"])
         assert a["distance_ly"] == pytest.approx(10.0)

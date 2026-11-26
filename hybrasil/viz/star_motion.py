@@ -26,6 +26,7 @@ import plotly.graph_objects as go
 
 from ..data import star_sources
 from ..data.builtin_systems import system_id_for_host
+from ..data.catalog_loader import split_names
 from ..mechanics.orientation import galactic_unit
 from ..mechanics.units import LY_PER_YEAR_PER_KMS
 from ..models.nearby import NearbyStar
@@ -492,7 +493,7 @@ def star_rows(s: NearbyStar) -> list[list]:
     """[label, value, note] rows for one star's info panel."""
     rows = []
     if s.nickname:
-        rows.append(["Name", s.nickname, ""])
+        rows.append(["Also known as", s.nickname, ""])
     cls = s.stellar_class or "no data"
     rows.append(["Spectral type", cls + (f" ({s.luminosity_class})" if s.luminosity_class else ""), ""])
     if s.planetless:
@@ -568,6 +569,8 @@ def star_motion_info(stars: list[NearbyStar]) -> dict:
         if not s.has_position:
             continue
         entry = {"rows": star_rows(s), "zoom_half": 4.0, "sources": s.sources}
+        if s.nickname:
+            entry["aka"] = split_names(s.nickname)      # the view's search finds a star by these
         if s.refuted:
             # No system to open: the panel greys the button out and says why (band_kit.js).
             entry["goto_note"] = REFUTED_NOTE

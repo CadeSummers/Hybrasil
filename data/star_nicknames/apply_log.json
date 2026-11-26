@@ -1,0 +1,30 @@
+{
+ "title": "hybrasil-20261126-1244",
+ "provenance_rows": [
+  5759,
+  5763
+ ],
+ "legend_row": 926,
+ "tabs": {
+  "Systems within 100 ly": {
+   "nicknames_column": "B",
+   "iau_column": "C",
+   "rows_with_a_name": 60
+  },
+  "Multi-stars within 100 ly": {
+   "nicknames_column": "D",
+   "iau_column": "E",
+   "rows_with_a_name": 29
+  },
+  "Planetless 4+ Stars": {
+   "nicknames_column": "D",
+   "iau_column": "E",
+   "rows_with_a_name": 21
+  },
+  "Known within 100ly": {
+   "nicknames_column": "B",
+   "iau_column": "C",
+   "rows_with_a_name": 21
+  }
+ }
+}

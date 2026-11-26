@@ -29,7 +29,7 @@ from typing import Optional
 from ..mechanics.orientation import (TOWARD_EARTH, galactic_centre_distance_ly, galactic_centre_in_sky_frame)
 from ..mechanics.solvent_bands import DEFAULT_CHOICE, SolventChoice
 from ..models.system import StarSystem
-from .catalog_loader import _moon_body, _planet_body, match_key, parse_workbook
+from .catalog_loader import _moon_body, _planet_body, match_key, parse_workbook, split_names
 from .hierarchy import Look, NodeRow, hierarchy_bodies
 
 TAB = "Planetless 4+ Stars"
@@ -75,7 +75,8 @@ class PlanetlessSystem:
     dec_deg: float
     distance_ly: float
     stellar_class: str = ""
-    nickname: str = ""
+    nickname: str = ""                    # the first row's Nicknames cell, as written
+    nicknames: list = field(default_factory=list)   # every name on any of its rows
     hierarchy: str = ""
     classes: dict = field(default_factory=dict)     # row name -> spectral class
     roles: dict = field(default_factory=dict)       # row name -> 'Role in system'
@@ -107,6 +108,9 @@ def parse_planetless(workbook: dict, skip: tuple = ()) -> dict[str, PlanetlessSy
     def cell(row, h):
         i = col.get(h)
         return row[i] if i is not None and i < len(row) else ""
+
+    def nick(row):
+        return str(cell(row, "Nicknames") or cell(row, "Nickname (IAU)") or "").strip()
 
     by: dict[str, list] = {}
     for row in values[1:]:
@@ -142,7 +146,8 @@ def parse_planetless(workbook: dict, skip: tuple = ()) -> dict[str, PlanetlessSy
             host=host, origin=origin, rows=nodes,
             ra_deg=_num(cell(first, "RA (deg, ICRS)")) or 0.0, dec_deg=_num(cell(first, "Dec (deg, ICRS)")) or 0.0,
             distance_ly=_num(cell(first, "Distance (ly)")) or 0.0, stellar_class=classes.get(origin, ""),
-            nickname=str(cell(first, "Nickname (IAU)") or "").strip(),
+            nickname=nick(first),
+            nicknames=list(dict.fromkeys(n for r in [first] + rows for n in split_names(nick(r)))),
             hierarchy=str(cell(first, "Hierarchy") or "").strip(), classes=classes, roles=roles, hypothetical=hypo,
             motion={f: (str(cell(first, h)).strip() if f in _MOTION_TEXT else _num(cell(first, h)))
                     for f, h in _MOTION.items()})
@@ -260,7 +265,7 @@ def planetless_entry(ps: PlanetlessSystem) -> dict:
 
     A system whose brown dwarfs are on the planet tabs (7 Oct 2026) has planets, so it is listed as Planetary.
     """
-    aliases = ([ps.nickname] if ps.nickname else []) + [s for s in ps.stars if s != ps.host]
+    aliases = (ps.nicknames or split_names(ps.nickname)) + [s for s in ps.stars if s != ps.host]
     names = [p.name for p in ps.planets]
     # Every star row, candidates included, as a planet count includes candidates.
     return {"id": PREFIX + ps.host, "name": ps.host, "featured": False,

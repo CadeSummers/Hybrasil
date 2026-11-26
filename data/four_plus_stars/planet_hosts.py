@@ -217,7 +217,7 @@ def main():
     bb = b_row + 1
     formulas = API.values().get(spreadsheetId=SID, range=f"{q(MS)}!A{bb}:{letter(len(mh) - 1)}{bb}",
                                 valueRenderOption="FORMULA").execute()["values"][0]
-    bb_vals = {"Star (component)": "HD 207496 Bb", "Role in system": "companion", "Nickname (IAU)": "",
+    bb_vals = {"Star (component)": "HD 207496 Bb", "Role in system": "companion", "Nicknames": "",
                "Stars in system": 3, "Mass (M-sun)": BB["m2"], "Stellar Class": "", "Class (sort key)": "",
                "Effective temp (K)": "", "Star data source": BB_DATA, "Luminosity (L-sun)": "",
                "Radial velocity (km/s)": "", "Gaia DR3 source_id": "", "Kinematics source": "",

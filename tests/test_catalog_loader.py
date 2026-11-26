@@ -11,6 +11,7 @@ import pytest
 from hybrasil.data.catalog_loader import (
     Catalog,
     build_star_system,
+    split_names,
     build_tables,
     catalog_entry,
     catalog_listing,
@@ -32,7 +33,7 @@ SYSTEM_HEADERS = [
 ]
 
 STAR_HEADERS = [
-    "System / Host", "Star (component)", "Role in system", "Nickname (IAU)",
+    "System / Host", "Star (component)", "Role in system", "Nicknames",
     "Distance (ly)", "Mass (M-sun)", "Stellar Class", "Effective temp (K)",
     "Luminosity (L-sun)", "Orbital eccentricity (e)", "Separation from",
     "Separation (AU)", "Separation type", "Separation source",
@@ -73,7 +74,7 @@ def make_workbook():
             ],
             "System stars": [
                 STAR_HEADERS,
-                ["Test A", "Test A", "host, planet host", "Testia", 10.0, 1.0,
+                ["Test A", "Test A", "host, planet host", "Testia; Old Testy", 10.0, 1.0,
                  "G2 V", T_SUN_K, 1.0],
                 ["Test B", "Test B", "host, planet host", "", 30.0, 0.5,
                  "K5 V", 4200, 0.1],
@@ -246,6 +247,12 @@ class TestResolveHost:
     def test_nickname_resolves(self, catalog):
         assert catalog.resolve_host("Testia") == "Test A"
 
+    def test_every_name_in_a_nicknames_cell_resolves(self, catalog):
+        # The stars tab heads the column "Nicknames" and lists two; the Systems tab still says "Nickname (IAU)".
+        assert catalog.resolve_host("Old Testy") == "Test A"
+        assert split_names(" Rigil Kentaurus;Alpha Centauri ; ") == ["Rigil Kentaurus", "Alpha Centauri"]
+        assert split_names(None) == []
+
     def test_every_name_in_a_system_reaches_the_whole_system(self, catalog):
         assert catalog.resolve_host("Bin Sys") == "Bin Sys"
         assert catalog.resolve_host("Bin Sys B") == "Bin Sys"
@@ -271,7 +278,9 @@ class TestBuildStarSystem:
     def test_star_mass_and_display_name(self, catalog):
         star = build_star_system(catalog, "Test A").get_stars()[0]
         assert star.mass_kg == pytest.approx(M_SUN_KG)
-        assert star.display_name == "Testia"
+        # A nickname finds a star and is listed in its panel; it does not rename it.
+        assert star.display_name is None and star.label() == "Test A"
+        assert star.aliases == ["Testia", "Old Testy"]
         assert star.radius_km == pytest.approx(R_SUN_KM, rel=1e-6)
 
     def test_elements_use_sheet_values(self, catalog):

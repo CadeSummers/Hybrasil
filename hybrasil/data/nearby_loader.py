@@ -129,7 +129,7 @@ def planetless_nearby(systems: dict) -> list[NearbyStar]:
             age_gyr=m.get("age_gyr"), metallicity=m.get("metallicity"),
             mass_sun=origin.mass_sun if origin else None,
             luminosity_sun=origin.luminosity_sun if origin else None,
-            nickname=ps.nickname,
+            nickname="; ".join(ps.nicknames) or ps.nickname,
             partners=[s for s in ps.stars if s != ps.origin],
             planets=[_planet_label(pl) for pl in ps.planets], n_planets=len(ps.planets),
             kinematics_source=m.get("kinematics_source") or "",

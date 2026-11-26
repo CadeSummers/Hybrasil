@@ -259,7 +259,7 @@ def main():
 
     spec = build_spec(sy_row)
     SPEC.write_text(json.dumps(spec, indent=1, ensure_ascii=False), encoding="utf-8")
-    nick = {sy.a1("Nickname (IAU)", sy.rows_of(k)[0]): v for k, v in NICKNAMES.items()}
+    nick = {sy.a1("Nicknames", sy.rows_of(k)[0]): v for k, v in NICKNAMES.items()}
     nick_expect = {a1: "" for a1 in nick}
     nick_expect.update({sy.a1("System / Host", sy.rows_of(k)[0]): k for k in NICKNAMES})
     print(f"GJ 4113: M_Ks {G_MKS:.3f}, blend {G_BLEND:.3f}, each {G_M}, a {G_A} au (0.85: {G_M85}, {G_A85:.3f})")

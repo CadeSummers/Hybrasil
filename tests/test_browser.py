@@ -2112,7 +2112,9 @@ def test_app_the_dropdown_asks_for_a_system_type_planetary_first(app):
     assert "most stars first" in app.locator("[role=listbox]").evaluate("l => l.previousElementSibling.textContent")
     box = app.get_by_label("Search all systems")
     box.type("trappist", delay=20)
-    assert "trappist-1" not in app.evaluate(_OPTION_IDS)
+    # A typed name is looked for in every type (26 Nov 2026), and a hit of another type says which it is.
+    assert app.evaluate(_OPTION_IDS)[0] == "trappist-1"
+    assert "Planetary" in app.locator("[role=option]").first.inner_text()
     box.fill("")
     box.type("1 Hya", delay=20)
     assert app.evaluate(_OPTION_IDS)[0] == "planetless:1 Hya"
@@ -2320,6 +2322,15 @@ def test_app_more_systems_finds_and_loads_a_catalog_system(app):
     box.type("testia", delay=20)                 # Test A's IAU nickname
     first = app.locator("[role=option]").first
     assert "Test A" in first.inner_text() and "Testia" in first.inner_text()
+    # A name is searched for in every System Type: Capella is a High Star Count system, found from Planetary.
+    box.fill("")
+    box.type("capella", delay=20)
+    first = app.locator("[role=option]").first
+    assert first.get_attribute("data-id") == "planetless:alf Aur"
+    assert "High Star Count" in first.inner_text() and "Capella" in first.inner_text()
+    box.fill("")
+    box.type("testia", delay=20)
+    first = app.locator("[role=option]").first
     # The list drops over the legend rather than under it.
     hit = app.evaluate("""() => { const o = document.querySelector('[role=option]');
         const r = o.getBoundingClientRect();

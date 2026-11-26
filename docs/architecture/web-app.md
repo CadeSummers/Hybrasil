@@ -48,15 +48,19 @@ featured entry's aliases. So searching "55 Cnc A" opens the literature-built
 (`cli._featured_twin()`): `--source catalog --system "55 Cnc g"` opens the
 featured 55 Cancri.
 
-A catalog entry's aliases are its nickname and its other stars, so
+A catalog entry's aliases are every nickname of every star in it (the workbook's `Nicknames` cells, split on `;`) and its other stars, so
 "55 Cnc B" or "HD 18143 C" finds the system the star belongs to.
 `FEATURED_ALIASES` adds the other names people use (Rigil Kentaurus, Toliman,
-Titawin, Copernicus). **A new featured system needs entries in both**, or its
+Titawin, Copernicus), and a featured entry also takes the workbook's nicknames
+for the hosts it covers. **A new featured system needs entries in both**, or its
 catalog twin shows up in the search as a second system.
 
-A catalog entry's nickname, class and distance are its primary's
-(`catalog_entry()`). A star's own nickname is used only for that star: Proxima
-Cen's system row is alf Cen A's, and "Rigil Kentaurus" is not Proxima's name.
+A catalog entry's class and distance are its primary's (`catalog_entry()`); its
+`nicknames` are every star's. In the picture a nickname is never a star's label:
+a star is drawn under its workbook designation and its nicknames are listed in
+its info panel ("Also known as", `aka` in `_SA_BODY_INFO`), where the in-scene
+search finds them. The one exception is a star filed under a bare Gaia DR3
+number, which is drawn under its first nickname (`_SURVEY_NUMBER`).
 
 ## When the catalog is unavailable
 
@@ -84,8 +88,10 @@ A planet ranks a little below the star's own name.
 
 The dropdown opens on a **System Type:** row with three buttons: **Planetary**
 (the default), **High Star Count (Planetless)** and **Stellar Motion**. Each
-index entry carries a `kind` (`planetary`, `planetless`, `motion`) and the list and the
-search hold only entries of the chosen one. The kind comes from
+index entry carries a `kind` (`planetary`, `planetless`, `motion`) and the list
+holds only entries of the chosen one. A typed search looks in every type
+(26 Nov 2026: "Capella" is found from Planetary), and a hit of another type
+says which it is. The kind comes from
 `views.system_kind()`: `motion` for a featured view, `FEATURED_KINDS` in
 `builtin_systems.py` for a built-in that has an entry there (none since
 7 Oct 2026, when Castor's brown dwarf became a planet and Castor with it a
