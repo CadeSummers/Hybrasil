@@ -17,7 +17,7 @@ import pytest
 
 from hybrasil.cli import build_parser
 from hybrasil.data.builtin_systems import BUILTIN_NAMES
-from hybrasil.views import FEATURED_VIEWS
+from hybrasil.views import FEATURED_VIEWS, LISTED_VIEWS
 from hybrasil.data.catalog_loader import parse_workbook
 from hybrasil.mechanics.solvent_bands import SolventChoice
 from hybrasil.mechanics.units import J2000
@@ -122,11 +122,12 @@ class TestSystemTypes:
         assert info["Moon"]["type"] == "moon"
 
     def test_the_views_are_stellar_motion(self, library):
-        for key in FEATURED_VIEWS:
+        for key in list(FEATURED_VIEWS) + list(LISTED_VIEWS):
             assert next(e for e in library.index() if e["id"] == key)["kind"] == "motion"
 
     def test_everything_else_is_planetary(self, library):
         rest = [e for e in library.index() if e["id"] != "castor" and e["id"] not in FEATURED_VIEWS
+                and e["id"] not in LISTED_VIEWS
                 and not e["id"].startswith(("planetless:", "galactic:"))]
         assert rest and all(e["kind"] == "planetary" for e in rest)
 
@@ -154,7 +155,8 @@ class TestSystemTypes:
         e = next(e for e in library.index() if e["id"] == "galactic:sgr-a")
         assert e["kind"] == "motion" and not e["featured"] and e["name"] == "Sgr A* Cluster (Galactic Center)"
         assert "Sgr A*" in e["aliases"] and "S2" in e["aliases"]
-        assert [x["id"] for x in library.index() if x["kind"] == "motion"] == ["nearby-star-motion", "galactic:sgr-a"]
+        assert [x["id"] for x in library.index() if x["kind"] == "motion"] == [
+            "nearby-star-motion", "brightest-star-motion", "galactic:sgr-a"]
 
     def test_the_s_stars_open_round_a_black_hole(self, library):
         p = library.scene("galactic:sgr-a")
@@ -177,7 +179,7 @@ class TestWithoutTheCatalog:
         ids = [e["id"] for e in lib.index()]
         # The Planetless and Sgr A* tabs come through their own loaders, so they survive too.
         assert [i for i in ids if not i.startswith(("planetless:", "galactic:"))] == (
-            list(BUILTIN_NAMES) + list(FEATURED_VIEWS))
+            list(BUILTIN_NAMES) + list(FEATURED_VIEWS) + list(LISTED_VIEWS))
         assert any(i.startswith("planetless:") for i in ids) and "galactic:sgr-a" in ids
         status = lib.catalog_status()
         assert status["available"] is False and "no credential" in status["error"]

@@ -257,7 +257,7 @@ Rules that stay here because they are easy to break without opening a deep dive:
   scripts included; the data itself is CC BY-SA 4.0 (`NOTICE`).
 - **Before editing the spreadsheet itself, read `docs/hybrasil-instructions.md`**, and `CLAUDE.local.md` where it exists: the maintainer's private Drive workflow lives there, outside the repository.
 
-**`hybrasil/views.py`** — Featured *views*: featured buttons that are not one star system. `FEATURED_VIEWS` holds Nearby Stellar Motion (every Systems-tab star in galactic light years, with velocity arrows), placed after the built-ins in the three.js viewer and the web app only. It is not in `BUILTIN_NAMES`, on purpose: it has no orbits, bands or Plotly twin. See `docs/architecture/star-motion.md`.
+**`hybrasil/views.py`** — Featured *views*: featured buttons that are not one star system. `FEATURED_VIEWS` holds Nearby Stellar Motion (every Systems-tab star in galactic light years, with velocity arrows), placed after the built-ins in the three.js viewer and the web app only. It is not in `BUILTIN_NAMES`, on purpose: it has no orbits, bands or Plotly twin. `LISTED_VIEWS` holds views with no button, listed by the web app under Stellar Motion only: Brightest Stars in the Night Sky (`viz/brightest_stars.py`, the 100 Brightest Stars tab through the same figure builder with a `MotionView` config of its own). See `docs/architecture/star-motion.md`.
 
 **`hybrasil/figures.py`** — `build_figure(system, t_start, t_end, ...)` and the natural time spans: the one step from a system to its figure, shared by the CLI and the web app so the two cannot draw a system differently. `cli.py` re-exports `_NATURAL_SPANS` / `_natural_span_days` for older callers.
 

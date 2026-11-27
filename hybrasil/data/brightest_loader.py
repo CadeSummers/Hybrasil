@@ -72,7 +72,13 @@ def parse_brightest(workbook: dict) -> list[NearbyStar]:
 
 def load_brightest(workbook: Optional[dict] = None) -> list[NearbyStar]:
     """The given workbook's tab, else the live sheet's, else the committed snapshot's."""
+    return load_brightest_sourced(workbook)[0]
+
+
+def load_brightest_sourced(workbook: Optional[dict] = None) -> tuple[list[NearbyStar], str]:
+    """(stars, where they came from), the source worded as Nearby Stellar Motion words its own."""
     from .snapshot import snapshot_only
+    source = "sheet"
     if workbook is None and not snapshot_only():
         try:
             from .google_sheets import get_workbook
@@ -83,4 +89,6 @@ def load_brightest(workbook: Optional[dict] = None) -> list[NearbyStar]:
     if workbook is None:
         from .snapshot import load_snapshot_workbook
         workbook = load_snapshot_workbook()
-    return parse_brightest(workbook)
+        source = "snapshot"
+    title = workbook.get("title", "")
+    return parse_brightest(workbook), f"{source} {title}".strip()

@@ -341,8 +341,100 @@ does not understand. So `views.FEATURED_VIEWS` registers it separately:
   and which has no companion star on file (Kapteyn, GJ 682) has no system to open: its button is drawn dead, with a
   note in red (`info.goto_note`; "Refuted systems" above).
 
+## Brightest Stars in the Night Sky: the same figure, another view
+
+`hybrasil/viz/brightest_stars.py`, `hybrasil/data/brightest_loader.py`, `views.LISTED_VIEWS`.
+The workbook's **100 Brightest Stars** tab (`data/brightest_stars/`) drawn the way this view
+draws the Systems tab: the same frame, colours, arrows, Galaxy Motion Type button, Play and
+ranges. Since 27 Nov 2026.
+
+- **One builder, a config.** `star_motion.MotionView` holds what differs between two views
+  of stars in motion: key, name, scene half-width, reference-axis length, marker size,
+  double-click framing, title, extra marker meta, panel rows, "Go to system" id, extra
+  traces and layout meta. `build_star_motion_figure(..., config=)` and
+  `star_motion_info(..., config)` take one; the default, `NEARBY`, is this view as it
+  was, and `tests/test_star_motion.py` passes unchanged.
+- **Listed, not featured.** `views.LISTED_VIEWS` registers it: the web app lists it
+  under Stellar Motion between Nearby Stellar Motion and the Sgr A* Cluster
+  (`n_stars: 100` puts it before the cluster in the dropdown), with no featured button,
+  and the CLI's file page does not hold it. `FEATURED_VIEWS` is untouched.
+- **Extent.** The scene's half-width is the most distant star's distance × 1.1
+  (`MARGIN`); on the 26 Nov 2026 snapshot that is Deneb (`alf Cyg`) at 2,616 ly, and the
+  title says so. The axes run to 0.82 of it. The Sun is added at the origin
+  (`brightest_stars.sun()`); the tab lists night-sky stars only.
+- **The 100 ly sphere.** Three great circles round the Sun, one polyline, in the
+  Reference legend: Nearby Stellar Motion's whole extent, for scale.
+- **Size.** `apparent_size()`: `clamp(13 − 2.2·(V + 1.44), 4, 14)` px, so Sirius is 13
+  and the hundredth star about 4. Each marker also carries `alt_size`,
+  `luminosity_size()` of the point's luminosity: `clamp(4 + 1.7·log10(L), 3, 14)`. This
+  view's own scale, because the nearby one (`marker_size`) clamps at 1,500 L☉ and more
+  than thirty of the hundred pass that.
+- **Ranks.** Each marker carries `tags` = its apparent, bolometric and visual ranks, as
+  the tab has them. Nothing is re-ranked here.
+- **Panel** (`brightest_rows()`): the standard rows, plus designation and constellation,
+  the three ranks, V and M_V (with the variable's range and A_V where on file),
+  variability, distance ± its uncertainty and source, the point's luminosity and the
+  visual luminosity, radius, and "Also on tabs". No Planets row: the tab lists none.
+- **"Go to system"** (`goto_id()`), from the tab's `Also on tabs`: the Systems-tab host
+  through `system_id_for_host()` (Pollux is `bet Gem` here and opens `catalog:HD 62509`;
+  `alf Cen` opens the featured Alpha Centauri), or `planetless:<host>` (Castor opens the
+  featured Castor). Nine of the hundred, plus the Sun. A star no tab draws as a system
+  (Sirius is on the Known tab only) gets no button.
+
+### Three switches, all in Even more features, none of them this view's alone
+
+The scene declares each as an optional set with `menu: "features"` and names the set in
+a layout-meta entry; `figure_to_scene` carries them as `scene.altSize`, `scene.tags` and
+`scene.compress`. The viewer has no view id in it.
+
+- **Size by true luminosity** (`altSize: {set}`): while the set is on, a body with an
+  `altSize` is drawn at it (`bodySize()`, `resizeMarkers()`).
+- **Rank labels** (`tags: {set, prefix}`): the set has `modes`, and a features row of a
+  set with modes steps through them and then off, as a bar button does. Each body gets a
+  label under its marker reading `prefix + tags[mode]` (`applyTags()`). A label hidden
+  for its own reasons stays hidden when its body is shown again
+  (`setShown()` honours `userData.hidden`).
+- **Compress distances** (`compress: {set, r0}`): every point is drawn at
+  `half · log10(1 + r/r0) / log10(1 + half/r0)` from the origin, in its true direction
+  (`squash()`), with `r0` = 10 ly. The scale keeps the scene's half-width where it is, so
+  the camera does not move.
+  - Bodies, arrows, trails and the reference lines all go through the map
+    (`applyCompress()`, `setLinePts()`). A short polyline is cut into eight pieces a
+    segment first (`squashPts()`), since the map bends a straight line and a star playing
+    along its arrow must stay on it.
+  - Lines tagged `meta.compress_only` (shells at 10 and 1,000 ly; the 100 ly sphere is
+    always there) are drawn only while it is on.
+  - Each body keeps its true position in `b.at`; the hover tooltip reads that, and
+    double-click framing converts its `zoom_half` through the map.
+  - Off again redraws every line from the points it was built from, so positions and
+    geometry are exactly what they were (`tests/test_browser.py` compares them).
+  - **Clouds are not mapped.** A scene with a cloud must not declare `compress`; this
+    view has none.
+- The three choices are optional-set state, so they survive a switch to another system
+  and back like any other.
+
+### A view's panels stay with its scene
+
+Until 27 Nov 2026 every scene's `body_info` was merged into the page's one
+`_SA_BODY_INFO`, keyed by body name. A star is `tau Cet` in this view and in its catalog
+system, so "Go to system" and back left the view showing the system's entry for it. In
+the web app the viewer now keeps a view's entries as `scene.info` (any index entry marked
+`view`) and reads there first (`infoFor()`; `showInfoPanel(name, own)` in `band_kit.js`);
+a cloud point's panel is written beside them. A file page still merges, as it holds one
+view and no catalog system. `__SA3.showInfo(name)` is the test handle; calling
+`SABandKit.showInfoPanel(name)` alone reads only the page's table.
+
 ## Tests
 
+- `tests/test_brightest_view.py`: registration and index order; extent and title; sizes
+  and the two scales; ranks as tags; the three switches' declarations; the sphere and the
+  shells; every panel row; every `goto` id is one the web app lists; the nearby scene
+  declares none of the new switches.
+- `tests/test_browser.py`, "Brightest Stars in the Night Sky": picked from Stellar Motion
+  with no featured button; the size and rank rows; compress on, Play to an arrow's tip,
+  and off again exactly; the choice kept across a switch, with Alpha Centauri's bands flat
+  in between; Aldebaran's panel right in each view and in its own system; a long panel
+  scrolls inside the window.
 - `tests/test_star_motion.py`:
   - colours, sizes, arrow proportionality and direction;
   - the two frames: every LSR arrow is its heliocentric one plus

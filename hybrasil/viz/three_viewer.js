@@ -230,8 +230,13 @@ function disposeWorld() {
 function markerPx(size) {
   return size * 0.9 * renderer.getPixelRatio() * (COMPACT.matches ? PHONE_MARKER : 1);
 }
+// A scene with an `altSize` set (Brightest Stars: size by true luminosity)
+// draws each body at its `altSize` while that set is on.
+function bodySize(D) {
+  return sys && sys.altSize && D.altSize != null && optionalOn(sys.altSize.set) ? D.altSize : D.size;
+}
 function resizeMarkers() {
-  for (const b of bodies) b.obj.material.size = markerPx(b.data.size);
+  for (const b of bodies) b.obj.material.size = markerPx(bodySize(b.data));
   for (const c of clouds) c.pts.material.size = markerPx(c.data.size);
 }
 COMPACT.addEventListener('change', resizeMarkers);
@@ -286,6 +291,10 @@ function build(key) {
     line.userData = { name: L.name, legend: L.legend, color: L.color,
                       group: L.group, groupTitle: L.groupTitle, owner: L.owner,
                       frame: L.frame, optional: L.optional, reach: L.reach };
+    if (sys.compress) {
+      // Kept as built, in true distances, for applyCompress to redraw from.
+      Object.assign(line.userData, { pts: L.pts, dashed: !!dashed, compressOnly: !!L.compressOnly });
+    }
     if (L.coil) {
       // Kept as built, so the default span puts it back exactly (resampleCoils).
       line.userData.coil = L.coil;
@@ -299,6 +308,7 @@ function build(key) {
       tag.position.set(local[n - 3], local[n - 2], local[n - 1]);
       line.add(tag);
     }
+    if (L.compressOnly) setShown(line, false);
   }
 
   // Every band gets a mesh, including one with no liquid phase at the
@@ -322,14 +332,23 @@ function build(key) {
   for (const D of sys.bodies) {
     const geo = new THREE.BufferGeometry();
     geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(3), 3));
-    const mat = new THREE.PointsMaterial({ size: markerPx(D.size), sizeAttenuation: false,
+    const mat = new THREE.PointsMaterial({ size: markerPx(bodySize(D)), sizeAttenuation: false,
       map: markerTexture(D.fill, D.edge, D.size, D.border), alphaTest: 0.3, transparent: true });
     const obj = new THREE.Points(geo, mat);
     obj.position.set(D.pos[0], D.pos[1], D.pos[2]);
     obj.renderOrder = 3;
     if (D.label) obj.add(new CSS2DObject(labelEl(D.name)));
     obj.userData = { name: D.name };
-    bodies.push({ obj, data: D });
+    // A short label under the marker, written and shown by applyTags (its rank).
+    let tag = null;
+    if (sys.tags && D.tags) {
+      tag = new CSS2DObject(labelEl('', D.color, 'sa3-tag'));
+      tag.center.set(0.5, -0.5);
+      tag.userData.hidden = true;
+      tag.visible = false;
+      obj.add(tag);
+    }
+    bodies.push({ obj, data: D, tag });
     world.add(obj);
   }
   // A cloud (Nearby Stellar Motion's unclassified objects): thousands of
@@ -391,6 +410,8 @@ function build(key) {
   }
   applyOptional();
   refreshOwnedLines();
+  applyTags();
+  applyCompress();
 
   scene.add(world);
   timeSpan = 'default';          // the spans name this system's bodies
@@ -626,6 +647,7 @@ function buildTrails() {
     const l = new THREE.Line(g, new THREE.LineBasicMaterial({ color: u.color, transparent: true,
       opacity: TRAIL_OPACITY }));
     l.userData = { owner: u.owner, frame: u.frame, group: u.group, optional: u.optional, trail: true };
+    if (sys.compress) l.userData.pts = [p[0] - d[0], p[1] - d[1], p[2] - d[2], p[0], p[1], p[2]];
     world.add(l);
   }
   for (const c of clouds) {
@@ -652,10 +674,14 @@ function driftFrame(f) {
   const n = nFrames();
   anim.frame = ((f % n) + n) % n;
   const s = driftMoment(anim.frame);
+  const squashed = compressOn();
   for (const b of bodies) {
     const p = b.data.pos, d = b.data.drift && b.data.drift[motionFrame];
-    if (d) b.obj.position.set(p[0] + d[0] * s, p[1] + d[1] * s, p[2] + d[2] * s);
-    else b.obj.position.set(p[0], p[1], p[2]);
+    // `at` is where the star is; the marker is drawn there unless distances are compressed.
+    const at = b.at || (b.at = new THREE.Vector3());
+    if (d) at.set(p[0] + d[0] * s, p[1] + d[1] * s, p[2] + d[2] * s);
+    else at.set(p[0], p[1], p[2]);
+    if (squashed) squash(at.x, at.y, at.z, b.obj.position); else b.obj.position.copy(at);
   }
   for (const c of clouds) {
     const D = c.data.drift && c.data.drift[motionFrame], P = c.data.pos;
@@ -665,6 +691,111 @@ function driftFrame(f) {
   }
   const yr = Math.round(s * sys.drift.years);
   ui.date(yr ? `${yr > 0 ? '+' : '\u2212'}${Math.abs(yr).toLocaleString('en-US')} yr` : 'Now');
+}
+
+// ── Compressed distances, and rank labels ───────────────────────────────────
+// A scene with `compress` ({set, r0}; Brightest Stars in the Night Sky, whose
+// stars run from 4 to 2,600 ly) can draw every distance from the origin at its
+// logarithm: a point r from the origin goes to log10(1 + r / r0) along its true
+// direction, scaled so the scene's half-width stays where it is and the camera
+// need not move.  Bodies, their arrows and trails, and the reference lines all
+// go through the same map; lines marked compressOnly (shells at round
+// distances) are drawn only then.  Switching it off redraws every line from the
+// points it was built from, so nothing is left displaced.  Clouds are not
+// mapped: a scene that has them does not declare `compress`.
+function compressOn() { return !!(sys && sys.compress && optionalOn(sys.compress.set)); }
+function squashR(r) {
+  const h = sys.half || 1, r0 = sys.compress.r0;
+  return h * Math.log10(1 + r / r0) / Math.log10(1 + h / r0);
+}
+function squash(x, y, z, out) {
+  const r = Math.hypot(x, y, z);
+  if (!r) return out.set(0, 0, 0);
+  const k = squashR(r) / r;
+  return out.set(x * k, y * k, z * k);
+}
+// A polyline's points through the map.  A short one (an arrow, a trail, an
+// axis) is cut finer first: the map bends a straight line, and a star playing
+// along its arrow should stay on it.
+const SQUASH_CUTS = 8;
+function squashPts(pts) {
+  const fine = pts.length / 3 <= SQUASH_CUTS ? [] : pts;
+  if (fine !== pts) {
+    for (let i = 0; i + 3 < pts.length; i += 3) {
+      for (let k = 0; k < SQUASH_CUTS; k++) {
+        const t = k / SQUASH_CUTS;
+        fine.push(pts[i] + (pts[i + 3] - pts[i]) * t, pts[i + 1] + (pts[i + 4] - pts[i + 1]) * t,
+                  pts[i + 2] + (pts[i + 5] - pts[i + 2]) * t);
+      }
+    }
+    fine.push(...pts.slice(-3));
+  }
+  const out = new Array(fine.length), v = new THREE.Vector3();
+  for (let i = 0; i < fine.length; i += 3) {
+    squash(fine[i], fine[i + 1], fine[i + 2], v);
+    out[i] = v.x; out[i + 1] = v.y; out[i + 2] = v.z;
+  }
+  return out;
+}
+// Redraw a line through new points: its geometry, where it sits, its dashes
+// and the label at its far end.
+function setLinePts(line, pts) {
+  // A trail is built about the origin (buildTrails), and goes back exactly so.
+  const { local, centre } = line.userData.trail
+    ? { local: new Float32Array(pts), centre: new THREE.Vector3() } : rebased(pts);
+  line.geometry.dispose();
+  if (line.isLine2) {
+    line.geometry = new LineGeometry();
+    line.geometry.setPositions(local);
+  } else {
+    line.geometry = new THREE.BufferGeometry();
+    line.geometry.setAttribute('position', new THREE.BufferAttribute(local, 3));
+  }
+  if (line.userData.dashed) {
+    let len = 0;
+    for (let i = 3; i < local.length; i += 3) {
+      len += Math.hypot(local[i] - local[i - 3], local[i + 1] - local[i - 2], local[i + 2] - local[i - 1]);
+    }
+    line.material.dashSize = len / 120; line.material.gapSize = len / 180;
+    line.computeLineDistances();
+  }
+  line.position.copy(centre);
+  const n = local.length;
+  for (const c of line.children) if (c.isCSS2DObject) c.position.set(local[n - 3], local[n - 2], local[n - 1]);
+}
+function applyCompress() {
+  if (!world || !sys.compress) return;
+  const on = compressOn();
+  for (const o of world.children) {
+    const u = o.userData;
+    if (!u || !u.pts) continue;
+    if (!!u.squashed !== on) { setLinePts(o, on ? squashPts(u.pts) : u.pts); u.squashed = on; }
+    if (u.compressOnly) setShown(o, on);
+  }
+  if (sys.drift) driftFrame(anim.frame);
+}
+// A scene with `tags` ({set, prefix}) labels each body with its `tags[mode]`
+// in the chosen mode of that set (Brightest Stars: the three ranks), and with
+// nothing while the set is off.
+function applyTags() {
+  if (!sys.tags) return;
+  const mode = optionalState.get(sys.tags.set) || null;
+  for (const b of bodies) {
+    if (!b.tag) continue;
+    const text = mode && b.data.tags[mode];
+    b.tag.element.textContent = text ? `${sys.tags.prefix || ''}${text}` : '';
+    b.tag.userData.hidden = !text;
+    b.tag.visible = !!text && b.obj.visible;
+  }
+}
+
+// A body's info-panel entry: the scene's own where it has one, else the page's
+// table of bodies.  A view fetched by the web app keeps its entries with its
+// scene (openSystem): its stars are other views' stars and catalog systems'
+// stars too, under the same names, and one table for all of them showed
+// whichever was loaded last.
+function infoFor(name) {
+  return (sys && sys.info && sys.info[name]) || (window._SA_BODY_INFO && window._SA_BODY_INFO[name]) || null;
 }
 
 // ── Camera moves ────────────────────────────────────────────────────────────
@@ -830,7 +961,8 @@ function goBack() {
 // its own visibility, not its parent's -- so both are set.
 function setShown(obj, on) {
   obj.visible = on;
-  for (const c of obj.children) if (c.isCSS2DObject) c.visible = on;
+  // A label switched off for its own reasons (a rank tag) stays off.
+  for (const c of obj.children) if (c.isCSS2DObject) c.visible = on && !c.userData.hidden;
 }
 
 // A line with an owner (a star's motion arrow) is shown when its line group
@@ -924,6 +1056,9 @@ function setOptional(key, on) {
   optionalState.set(key, on);
   applyOptional(key);
   if (key === HEATMAP_KEY) resolveBands();
+  if (sys.altSize && key === sys.altSize.set) resizeMarkers();
+  if (sys.tags && key === sys.tags.set) applyTags();
+  if (sys.compress && key === sys.compress.set) applyCompress();
   refreshOwnedLines();
   controls.maxDistance = zoomLimit();
   ui.relegend();          // the set's legend row is listed only while it is on
@@ -993,9 +1128,14 @@ function revealBody(b) {
 // scene's own units (light years in a view); zoom_half_au is what every star
 // system's bodies carry.
 function bodyFrame(b) {
-  const info = window._SA_BODY_INFO && window._SA_BODY_INFO[b.data.name];
+  const info = infoFor(b.data.name);
   const p = b.obj.position.clone();
-  const half = (info && (info.zoom_half || info.zoom_half_au)) || Math.max(p.length() * 0.01, 1e-3);
+  let half = (info && (info.zoom_half || info.zoom_half_au)) || Math.max(p.length() * 0.01, 1e-3);
+  if (compressOn() && b.at) {
+    // The same stretch of true distance, as it is drawn out here.
+    const r = b.at.length();
+    half = Math.max(squashR(r + half) - squashR(r), (sys.half || 1) * 0.01);
+  }
   return { p, half };
 }
 
@@ -1026,9 +1166,8 @@ function search(query) {
   const hitB = K.nameMatches(bodies.map((b) => b.data.name), q);
   if (hitB.length) { frameBody(bodies[hitB[0]]); return true; }
   // A body's other names ("Capella", "Luyten's Star"), shipped in its info entry.
-  const INFO = window._SA_BODY_INFO || {};
   const aka = [];
-  bodies.forEach((b, i) => ((INFO[b.data.name] || {}).aka || []).forEach((n) => aka.push([n, i])));
+  bodies.forEach((b, i) => ((infoFor(b.data.name) || {}).aka || []).forEach((n) => aka.push([n, i])));
   const hitA = K.nameMatches(aka.map((a) => a[0]), q);
   if (hitA.length) { frameBody(bodies[aka[hitA[0]][1]]); return true; }
   for (const c of clouds) {
@@ -1060,6 +1199,7 @@ function search(query) {
     for (const i of hitL) {
       const u = lines[i].userData;
       if (u.optional && !optionalOn(u.optional)) setOptional(u.optional, true);
+      if (u.compressOnly && !compressOn()) setOptional(sys.compress.set, true);
       if (u.group && lineGroupsOff.has(u.group)) { lineGroupsOff.delete(u.group); refreshOwnedLines(); ui.sync(); }
     }
     frameObjects(hitL.map((i) => lines[i]), lines[hitL[0]].userData.name);
@@ -1130,8 +1270,9 @@ function cloudSources(C, ids) {
 function cloudInfo(b) {
   const C = b.cloud.data;
   const [name, d, l, bb, v, ml, mb, rv, pm, si, ti, gaia, simbad, cns5, ei] = C.info[b.index];
-  window._SA_BODY_INFO = window._SA_BODY_INFO || {};
-  if (window._SA_BODY_INFO[name]) return;
+  // Beside the view's own entries, where it has them (infoFor).
+  const table = sys.info || (window._SA_BODY_INFO = window._SA_BODY_INFO || {});
+  if (table[name]) return;
   const f = (x, n) => x.toFixed(n);
   const sgn = (x, n) => (x >= 0 ? '+' : '') + x.toFixed(n);
   const verdict = (C.existence || [])[ei] || '';
@@ -1164,7 +1305,7 @@ function cloudInfo(b) {
   rows.push(['Radial velocity', rv == null ? 'no data' : `${sgn(rv, 2)} km/s`, rv == null ? '' : 'positive = receding'],
             ['Proper motion', pm == null ? 'no data' : `${f(pm, 1)} mas/yr`, '']);
   if (C.sources[si]) rows.push(['Kinematics source', C.sources[si], '']);
-  window._SA_BODY_INFO[name] = { rows, zoom_half: C.zoomHalf,
+  table[name] = { rows, zoom_half: C.zoomHalf,
                                  sources: cloudSources(C, { t: ti, gaia, simbad, cns5 }) };
 }
 
@@ -1480,12 +1621,14 @@ const ui = (() => {
         b.style.cssText = css + 'text-align:left;';
         b.dataset.optional = o.key;
         b.setAttribute('role', 'menuitemcheckbox');
-        b.addEventListener('click', () => setOptional(o.key, !optionalOn(o.key)));
+        // A set with modes steps through them, then off (nextOptional).
+        b.addEventListener('click', () => setOptional(o.key, nextOptional(o.key)));
         featBox.appendChild(b);
         featRows.set(o.key, b);
       }
-      const on = optionalOn(o.key);
-      b.textContent = `${on ? '☑' : '☐'}  ${o.label}`;
+      const on = optionalOn(o.key), mode = optionalMode(o.key);
+      b.textContent = `${on ? '☑' : '☐'}  ${o.label}${mode ? `: ${mode.label}` : ''}`;
+      b.dataset.mode = on ? (mode ? mode.key : 'on') : 'off';
       b.title = o.title || '';
       b.setAttribute('aria-checked', String(on));
       b.style.background = on ? '#2a2a70' : '#111130';
@@ -2643,7 +2786,7 @@ const ui = (() => {
     bandValues() { return panel ? panel.values() : null; },
     showInfo(name) {
       if (!K) return;
-      K.showInfoPanel(name);
+      K.showInfoPanel(name, sys && sys.info && sys.info[name]);
       infoShownAt = Date.now();
     },
     // Hide the info panel, unless it was opened less than `grace` ms ago.
@@ -2653,7 +2796,7 @@ const ui = (() => {
     date(text, title) { dateEl.textContent = text; dateEl.title = title || ''; },
     hover(b, x, y) {
       if (!b) { tip.style.display = 'none'; renderer.domElement.style.cursor = ''; return; }
-      const p = b.obj.position;
+      const p = b.at || b.obj.position;       // where it is, not where compressed distances draw it
       tip.innerHTML = sys.units === 'ly'
         // A view in light years is centred on the Sun: say how far away.
         ? `<b>${b.data.name}</b><br>${p.length().toFixed(2)} ly from the Sun`
@@ -2723,6 +2866,9 @@ window.__SA3 = {
   timeSpan: () => timeSpan, setTimeSpan, timeSpans,
   trails: () => (world ? world.children.filter((o) => o.userData && o.userData.trail) : []),
   optional: (key) => optionalOn(key), setOptional,
+  optionalMode: (key) => (optionalState.get(key) || false),
+  compressed: compressOn, markerSize: (b) => bodySize(b.data), infoFor,
+  showInfo: (name) => ui.showInfo(name),
   setSky, skyUV,
   setFrame, nFrames, anim: () => anim,
 };
@@ -2767,7 +2913,9 @@ async function openSystem(id) {
       const r = await fetch((entry && entry.url) || `${API}/systems/${encodeURIComponent(id)}`);
       const d = await r.json();
       if (!r.ok) throw new Error(d.error || r.statusText);
-      window._SA_BODY_INFO = Object.assign(window._SA_BODY_INFO || {}, d.body_info || {});
+      // A view's entries stay with its scene; a system's go in the page's table (infoFor).
+      if (entry && entry.view) d.scene.info = d.body_info || {};
+      else window._SA_BODY_INFO = Object.assign(window._SA_BODY_INFO || {}, d.body_info || {});
       SYSTEMS[id] = d.scene;
     } catch (e) {
       if (token === openToken) ui.toast(`Could not load ${name}: ${e.message}`, false);

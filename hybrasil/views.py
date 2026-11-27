@@ -31,15 +31,37 @@ def _nearby_star_motion(catalog=None, planetless=None):
             star_motion_info(stars + extra))
 
 
+def _brightest_star_motion(catalog=None, planetless=None):
+    from .data.brightest_loader import load_brightest_sourced
+    from .viz.brightest_stars import build_brightest_figure
+    stars, source = load_brightest_sourced()
+    if not stars:
+        raise LookupError("the workbook has no 100 Brightest Stars tab")
+    return build_brightest_figure(stars, source)
+
+
 # key -> (button label, builder), in button order.
 FEATURED_VIEWS: dict[str, tuple[str, Callable]] = {
     "nearby-star-motion": ("Nearby Stellar Motion", _nearby_star_motion),
 }
 
+# Views with no featured button: the web app lists them under Stellar Motion, after the featured
+# views, and nothing else shows them.  key -> (name, builder, index fields).
+LISTED_VIEWS: dict[str, tuple[str, Callable, dict]] = {
+    "brightest-star-motion": ("Brightest Stars in the Night Sky", _brightest_star_motion,
+                              {"n_stars": 100,
+                               "aliases": ["brightest stars", "100 brightest stars", "night sky",
+                                           "brightest stars in the sky"]}),
+}
+
+
+def view_name(key: str) -> str:
+    return (FEATURED_VIEWS.get(key) or LISTED_VIEWS[key])[0]
+
 
 def build_view(key: str, catalog: Optional[object] = None, planetless: Optional[dict] = None):
-    """(figure, body_info) for one featured view."""
-    return FEATURED_VIEWS[key][1](catalog, planetless)
+    """(figure, body_info) for one view, featured or listed."""
+    return (FEATURED_VIEWS.get(key) or LISTED_VIEWS[key])[1](catalog, planetless)
 
 
 def system_kind(key: str) -> str:
@@ -48,7 +70,7 @@ def system_kind(key: str) -> str:
     "motion" for a featured view, the `FEATURED_KINDS` entry for a built-in
     that has one, else "planetary" -- every catalog system included.
     """
-    if key in FEATURED_VIEWS:
+    if key in FEATURED_VIEWS or key in LISTED_VIEWS:
         return "motion"
     from .data.builtin_systems import FEATURED_KINDS
     return FEATURED_KINDS.get(key, "planetary")
