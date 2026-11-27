@@ -76,7 +76,10 @@ the same reason. Three header signatures matter:
 | Stars | `System / Host` + `Star (component)` |
 | Systems | `System / Host` + `Host mass (M-sun)` |
 
-Every other tab is ignored. More than one tab may match the planet signature,
+Every other tab is ignored by the catalog. Two tabs carry every Systems header and
+are skipped by an extra column: `Known within 100ly` (`Plotted`) and
+`100 Brightest Stars` (`Apparent rank`; 26 Nov 2026, read only by
+`hybrasil/data/brightest_loader.py`). More than one tab may match the planet signature,
 which is how the confirmed and candidate lists are merged: a planet appearing
 on both keeps whichever row carries more orbital detail.
 

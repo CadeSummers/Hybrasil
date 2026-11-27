@@ -1,0 +1,449 @@
+[
+ {
+  "rank": 19,
+  "name": "bet Cru",
+  "luminosity_lsun": {
+   "value": 25704,
+   "source": "Sharma et al. 2022, MNRAS 515, 828 (log L = 4.41 +/- 0.07)",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.1,
+   "source": "Cotton et al. 2022, Nature Astronomy 6, 154 (radius in the range 7.3 to 8.9 Rsun; 8.1 is the middle of that range)",
+   "url": "https://doi.org/10.1038/s41550-021-01531-9",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 28840,
+   "source": "Sharma et al. 2022, MNRAS 515, 828 (log Teff = 4.46)",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Wikipedia's count of three is not fully consistent with its own starbox (which lists A, B and D and separately mentions a spectroscopic companion); the multiplicity should be rechecked against Gratton et al. 2023. Two further WDS companions at 44 and 370 arcsec are optical. No improved distance or extinction was found.",
+  "hipparcos_distance_ly": 278.5,
+  "sp_type": "B1IV",
+  "iau": "Mimosa"
+ },
+ {
+  "rank": 21,
+  "name": "alf Leo",
+  "luminosity_lsun": {
+   "value": 341,
+   "source": "Che et al. 2011, ApJ 732, 68 (Table: bolometric luminosity 341 +27 -28; the extracted table text was partly garbled and the value was matched against Wikipedia's reading of the same table)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 4.21,
+   "source": "Che et al. 2011, ApJ 732, 68 (equatorial 4.21 +0.07 -0.06; polar 3.22)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 14520,
+   "source": "Che et al. 2011, ApJ 732, 68 (pole 14520 K, equator 11010 K)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Rapid rotator: the Teff given is polar and the radius equatorial. The age is a lower limit that depends on the mass-transfer history; isolated-star estimates are far younger (50-150 Myr, quoted by Rappaport et al. 2009). No extinction value was found.",
+  "hipparcos_distance_ly": 79.3,
+  "sp_type": "B8IVn",
+  "iau": "Regulus"
+ },
+ {
+  "rank": 24,
+  "name": "gam Cru",
+  "luminosity_lsun": {
+   "value": 832,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (log L = 2.92 +/- 0.03)",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 84,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (84 +/- 7); Wikipedia quotes 73 from Nielsen et al. 2023, ApJ 953, 16",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 3689,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (3689 +/- 125 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "No age, [Fe/H] or extinction was found in the papers read. Published radii differ (84 +/- 7 against 73).",
+  "hipparcos_distance_ly": 88.6,
+  "sp_type": "M3.5III",
+  "iau": "Gacrux"
+ },
+ {
+  "rank": 25,
+  "name": "lam Sco",
+  "luminosity_lsun": {
+   "value": 36308,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (primary log L = 4.56 +/- 0.13, computed with the Hipparcos parallax)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.8,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (R1 = 8.8 +/- 1.2; R2 = 1.5 +/- 0.2; R3 = 4.7 +/- 1.0)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 25000,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (25000 +/- 1000 K, after Uytterhoeven et al. 2004)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 365.3,
+   "source": "Tango et al. 2006, MNRAS 370, 884 (dynamical parallax, 112 +/- 5 pc, converted)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10526.x",
+   "wikipedia": false
+  },
+  "notes": "SOURCES DISAGREE on distance: the dynamical parallax of Tango et al. 2006 gives 112 +/- 5 pc, the revised Hipparcos parallax 175 pc (the batch input). The luminosity and radius come from Handler & Schwarzenberg-Czerny 2013, who used the Hipparcos distance, so they are not consistent with the distance given here. SIMBAD's 'DA7.9' reflects a white-dwarf reading of the 5.95 d companion. No age, [Fe/H] or extinction was found.",
+  "hipparcos_distance_ly": 571.2,
+  "sp_type": "B2IV+DA7.9",
+  "iau": "Shaula"
+ },
+ {
+  "rank": 26,
+  "name": "gam Ori",
+  "luminosity_lsun": {
+   "value": 7413.1,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (log L = 3.87)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.2,
+   "source": "Waisberg & Katz 2026, arXiv:2603.17011, Appendix A (MIST isochrone fit, solar metallicity, negligible extinction assumed)",
+   "url": "https://arxiv.org/abs/2603.17011",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 20000,
+   "source": "Waisberg & Katz 2026, arXiv:2603.17011, Appendix A (MIST isochrone fit, solar metallicity, negligible extinction assumed)",
+   "url": "https://arxiv.org/abs/2603.17011",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Teff: 20,000 K is the isochrone-fit value consistent with the quoted mass, radius and age; Cazorla & Naze 2017 tabulate 21,250 K and Wikipedia quotes 22,017 K (Borisov et al. 2023). Tetzlaff et al. 2011 give 8.6+/-0.3 Msun and 25.2+/-2.7 Myr. The map-based A_V of 0.21 is probably too high: Baines et al. tabulate E(B-V) = 0.02.",
+  "hipparcos_distance_ly": 252.4,
+  "sp_type": "B2III",
+  "iau": "Bellatrix"
+ },
+ {
+  "rank": 35,
+  "name": "eps Sgr",
+  "luminosity_lsun": {
+   "value": 496.6,
+   "source": "Bailey et al. 2024, ApJ 972, 103, Table 5 (best-fitting model) (log L = 2.696)",
+   "url": "https://doi.org/10.3847/1538-4357/ad630b",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.8,
+   "source": "Bailey et al. 2024, ApJ 972, 103, Table 5 (best-fitting model); equatorial (polar 6.01)",
+   "url": "https://doi.org/10.3847/1538-4357/ad630b",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 9950,
+   "source": "Bailey et al. 2024, ApJ 972, 103, Table 5 (best-fitting model); global effective temperature (polar 11,721 K, equatorial 7,433 K)",
+   "url": "https://doi.org/10.3847/1538-4357/ad630b",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Rotating at 0.995 or more of critical, so temperature and radius differ strongly from pole to equator. Bailey et al. 2024 adopt E(B-V) = 0.008, far below what the map-based A_V of 0.22 implies. The companion's luminosity (0.89 Lsun, Hubrig et al. 2001 per Wikipedia) is negligible.",
+  "hipparcos_distance_ly": 143.3,
+  "sp_type": "B9IVp_lB?",
+  "iau": "Kaus Australis"
+ },
+ {
+  "rank": 40,
+  "name": "tet Sco",
+  "luminosity_lsun": {
+   "value": 1409.3,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129 (log L = 3.149)",
+   "url": "https://doi.org/10.1093/mnras/stac991",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 35.5,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129; equatorial (polar 26.3)",
+   "url": "https://en.wikipedia.org/wiki/Theta_Scorpii",
+   "wikipedia": true
+  },
+  "teff_k": {
+   "value": 6294,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129",
+   "url": "https://en.wikipedia.org/wiki/Theta_Scorpii",
+   "wikipedia": true
+  },
+  "distance_ly": {
+   "value": 329,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129; revised Hipparcos parallax 9.90 +/- 0.26 mas (101 pc)",
+   "url": "https://doi.org/10.1093/mnras/stac991",
+   "wikipedia": false
+  },
+  "notes": "Lewis et al. conclude the star is undermassive for its luminosity and rotating too fast for its evolutionary stage, most probably a binary merger product. Their reanalysis of the Hipparcos data (binary solution) replaces the catalogue parallax, moving the star from 300 to 329 ly. McDonald et al. 2017 give 6,404 K, 1,118 Lsun, 27.2 Rsun at the old distance.",
+  "hipparcos_distance_ly": 300.3,
+  "sp_type": "F1III",
+  "iau": "Sargas"
+ },
+ {
+  "rank": 47,
+  "name": "bet CMa",
+  "luminosity_lsun": {
+   "value": 25704.0,
+   "source": "Shull, Curran & Topping 2025, arXiv:2508.03800 (log L = 4.41 +/- 0.06, at 151 pc)",
+   "url": "https://arxiv.org/abs/2508.03800",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 10.5,
+   "source": "Abe et al. (MAGIC Collaboration) 2026, arXiv:2611.04650; asteroseismic model, +/-0.5",
+   "url": "https://arxiv.org/abs/2611.04650",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 25180,
+   "source": "Shull, Curran & Topping 2025, arXiv:2508.03800; +/-1120",
+   "url": "https://arxiv.org/abs/2508.03800",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Radius is contested: Shull et al. 2025 derive 8.44+/-0.56 Rsun and 13+/-1 Msun from the angular diameter at the Hipparcos distance (151+/-5 pc), while the asteroseismic 10.5+/-0.5 Rsun is in 2.5-sigma tension with that and, per Wikipedia, corresponds to 179+/-10 pc (580 ly); that distance was not confirmed in the paper and is left out. GCVS gives a range of 1.87 to 1.90 in the Hipparcos band. It sits in the Local Bubble's low-density tunnel, so the map-based A_V of 0.34 is probably far too high.",
+  "hipparcos_distance_ly": 492.7,
+  "sp_type": "B1II-III",
+  "iau": "Mirzam"
+ },
+ {
+  "rank": 64,
+  "name": "gam Cas",
+  "luminosity_lsun": {
+   "value": 19000,
+   "source": "Klement et al. 2017, A&A 601, A74, best-fit model table (19000 +/- 500)",
+   "url": "https://doi.org/10.1051/0004-6361/201629932",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 10.9,
+   "source": "Archer et al. (VERITAS) 2025, ApJ 995, 191, parameter table (equatorial 10.9 +0.8/-0.6; polar 7.9 +/- 0.4)",
+   "url": "https://doi.org/10.3847/1538-4357/ae0744",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 26500,
+   "source": "Archer et al. (VERITAS) 2025, ApJ 995, 191, parameter table (polar temperature, about 26500 to 28000 K; the equator is 9200 to 12000 K cooler)",
+   "url": "https://doi.org/10.3847/1538-4357/ae0744",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "The input has no IAU name; Wikipedia reports 'Tiansi' approved for Aa on 13 Nov 2025 (not checked against the IAU list). The 203.5 d companion is a white dwarf by the accretion hypothesis, a neutron star in VSX; it is counted as a star. Klement 2017 adopt 13.2 Msun and E(B-V) = 0.04; A_V is not computed here. With HD 5408 the wider group may hold eight stars (Wikipedia).",
+  "hipparcos_distance_ly": 549.1,
+  "sp_type": "B0.5IVpe",
+  "iau": ""
+ },
+ {
+  "rank": 67,
+  "name": "iot Car",
+  "luminosity_lsun": {
+   "value": 4898,
+   "source": "Smiljanic et al. 2006, A&A 449, 655 (log L = 3.69)",
+   "url": "https://doi.org/10.1051/0004-6361:20054377",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 46.95,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 7500,
+   "source": "Neiner et al. 2017, MNRAS 471, 1926, Table 2 (7500 +/- 100 K)",
+   "url": "https://doi.org/10.1093/mnras/stx1549",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Neiner et al. 2017 bracket the star between a 7.0 Msun model (now 6.90 Msun, 46.4 to 50.1 Rsun, 56.4 Myr) and an 11.0 Msun one (69 to 73 Rsun, 18.9 Myr), using log L = 4.53 +/- 0.37 from older work, far above the 3.69 used here. E(B-V) = 0.13 (Snow et al. 1994, quoted by Tanriverdi & Basturk 2016); A_V is not computed here.",
+  "hipparcos_distance_ly": 765.6,
+  "sp_type": "A7Ib",
+  "iau": "Aspidiske"
+ },
+ {
+  "rank": 68,
+  "name": "alf CrB",
+  "luminosity_lsun": {
+   "value": 59.992,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770) (combined light; the G5 V companion adds about 1 percent)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 3.04,
+   "source": "Eker et al. 2014, PASA 31, e024 (VizieR J/other/PASA/31.24), values of Tomkin & Popper 1986, AJ 91, 1428 (3.040 +/- 0.300)",
+   "url": "https://doi.org/10.1017/pasa.2014.17",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 9700,
+   "source": "Eker et al. 2014, PASA 31, e024 (VizieR J/other/PASA/31.24), values of Tomkin & Popper 1986, AJ 91, 1428 (9700 +/- 200 K)",
+   "url": "https://doi.org/10.1017/pasa.2014.17",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Wikipedia's starbox gives 74 Lsun for the primary and an age of 400 Myr (Schmitt et al. 2016, A&A 586, A104), neither read from a paper here. Baines et al. 2025 measure 3.88 +/- 0.11 Rsun and 8152 K interferometrically, well off the eclipsing-binary radius.",
+  "hipparcos_distance_ly": 75.0,
+  "sp_type": "A1IV",
+  "iau": "Alphecca"
+ },
+ {
+  "rank": 73,
+  "name": "del Ori",
+  "luminosity_lsun": {
+   "value": 190546,
+   "source": "Shenar et al. 2015, ApJ 809, 135, Table 1 (d = 380 pc) (log L = 5.28 +/- 0.05)",
+   "url": "https://doi.org/10.1088/0004-637X/809/2/135",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 13.1,
+   "source": "Oplistilova et al. 2023, A&A 672, A31",
+   "url": "https://doi.org/10.1051/0004-6361/202245272",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 31400,
+   "source": "Oplistilova et al. 2023, A&A 672, A31 (31400 +/- 1000 K)",
+   "url": "https://doi.org/10.1051/0004-6361/202245272",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 1243,
+   "source": "Oplistilova et al. 2023, A&A 672, A31: Gaia DR3 parallax of the Ca+Cb pair, 381 +/- 8 pc, matching Ori OB1b at 382 +/- 1 pc (pc x 3.261563777)",
+   "url": "https://doi.org/10.1051/0004-6361/202245272",
+   "wikipedia": false
+  },
+  "notes": "The Hipparcos distance (212 pc) is rejected by both papers; at 212 pc Shenar's primary would be log L = 4.77. Companions add well over 5 percent: at 380 pc log L = 4.2 +/- 0.2 (Aa2) and 4.8 +/- 0.15 (Ab); the sum is not computed here. GCVS gives EA/DM, 2.14 to 2.26. Shenar's own reddening is E(B-V) = 0.065 +/- 0.01.",
+  "hipparcos_distance_ly": 692.5,
+  "sp_type": "O9.5IINwk",
+  "iau": "Mintaka"
+ },
+ {
+  "rank": 74,
+  "name": "bet Cas",
+  "luminosity_lsun": {
+   "value": 21.3,
+   "source": "Che et al. 2011, ApJ 732, 68, Table 3 (modified von Zeipel model) (bolometric, 21.3 +1.0/-0.7; apparent 27.3)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 3.79,
+   "source": "Che et al. 2011, ApJ 732, 68, Table 3 (modified von Zeipel model) (equatorial 3.79 +0.10/-0.09; polar 3.06 +0.08/-0.07)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 6825,
+   "source": "Che et al. 2011, ApJ 732, 68, Table 3 (modified von Zeipel model) (apparent Teff; pole 7208, equator 6167 K)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Oblate star seen 20 degrees from pole-on, so the apparent luminosity (27.3 Lsun) and temperature exceed the true ones. Baines et al. 2025 give 3.76 +/- 0.03 Rsun, 25.8 Lsun, 6705 K.",
+  "hipparcos_distance_ly": 54.7,
+  "sp_type": "F2III",
+  "iau": "Caph"
+ },
+ {
+  "rank": 87,
+  "name": "bet Sco",
+  "luminosity_lsun": {
+   "value": 31600,
+   "source": "Catanzaro 2010, A&A 509, A21 (Aa: 31600 +8200/-6500)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "radius_rsun": {
+   "value": 6.3,
+   "source": "Catanzaro 2010, A&A 509, A21 (Aa: 6.3 +/- 0.5)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "teff_k": {
+   "value": 28000,
+   "source": "Holmgren et al. 1997, A&A 322, 565 (Aa: 28000 +/- 2000 K)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "distance_ly": null,
+  "notes": "Catanzaro 2010 could not be reached, so its values are taken from Wikipedia. Companions add well over 5% (Ab 7900, C 3200, Ea 126 Lsun per Catanzaro via Wikipedia), but no summed system luminosity is printed. Sources disagree: Hohle et al. 2010 give 14.9 Msun and 25514 Lsun, Tetzlaff et al. 2011 12.5 Msun and 13.8 Myr, Gratton et al. 2023 9.7 Myr and E(B-V) = 0.186. Holmgren et al. 1997 give 143 +/- 3 pc (466 ly) per Wikipedia, not verified, so no distance is entered.",
+  "hipparcos_distance_ly": 404.2,
+  "sp_type": "B1V",
+  "iau": "Acrab"
+ },
+ {
+  "rank": 93,
+  "name": "alf Peg",
+  "luminosity_lsun": {
+   "value": 164.743,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 4.62,
+   "source": "Gordon et al. 2019, ApJ 873, 91 (VizieR J/ApJ/873/91) (4.62 +/- 0.29)",
+   "url": "https://doi.org/10.3847/1538-4357/ab04b2",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 10100,
+   "source": "Gordon et al. 2019, ApJ 873, 91 (VizieR J/ApJ/873/91) (10.1 +/- 0.1 kK, literature value adopted there; 10.0 +/- 1.0 kK from their own fit)",
+   "url": "https://doi.org/10.3847/1538-4357/ab04b2",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Classified variously B9 III to A0 IV. Gordon et al. 2019 fit E(B-V) = 0.057. Baines et al. 2025 measure 5.35 +/- 0.10 Rsun and 8935 K, a larger radius than CHARA's 4.62.",
+  "hipparcos_distance_ly": 133.3,
+  "sp_type": "A0IV",
+  "iau": "Markab"
+ },
+ {
+  "rank": 99,
+  "name": "del Cen",
+  "luminosity_lsun": {
+   "value": 5129,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252), log L = 3.71 +/- 0.10",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.18,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (8.18 +/- 0.16)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 22230,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252) (22230 +/- 650 K)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "notes": "Sources disagree: Tetzlaff et al. 2011 give 10.1 Msun and 21.5 Myr, Gratton et al. 2023 10.5 + 3.0 Msun and 13.7 Myr, Meilland et al. 2008 8.6 Msun. The A_V of 0.465 is from a Be-star SED fit and probably includes circumstellar reddening; Gratton et al. give E(B-V) = 0.009. Wikipedia classes the variability as gam Cas.",
+  "hipparcos_distance_ly": 415.0,
+  "sp_type": "B2Vne",
+  "iau": ""
+ }
+]

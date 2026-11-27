@@ -256,6 +256,9 @@ REJECTED_SIGNATURE = ("planet", "rejected because")
 # reference list, never a source of systems: read as one, its ~10,700 rows would
 # each become a system and a star in the Nearby Stellar Motion view.
 KNOWN_SIGNATURE = ("system/host", "plotted")
+# "100 Brightest Stars" (26 Nov 2026) has every Systems column too, plus the rank columns.
+# Most of its stars are far beyond 100 ly; `brightest_loader` reads it, nothing here does.
+BRIGHTEST_SIGNATURE = ("system/host", "apparent rank")
 # "4+ Stars only" has every Multi-stars column plus a row per SUBSYSTEM (a pair
 # of pairs) and "Node type" to tell the two apart. Read as a stars tab, its rows
 # would join same-named systems (psi1 Dra) and its subsystems would be drawn as
@@ -271,7 +274,7 @@ def classify_tables(tables: list[Table]) -> dict[str, list[Table]]:
         if t.has(*FOUR_PLUS_SIGNATURE):
             roles["four_plus"].append(t)
             continue
-        if t.has(*KNOWN_SIGNATURE):
+        if t.has(*KNOWN_SIGNATURE) or t.has(*BRIGHTEST_SIGNATURE):
             continue
         if t.has(*MOON_SIGNATURE):
             roles["moons"].append(t)

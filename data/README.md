@@ -11,7 +11,7 @@ sheet wins.
 
 | File | Workbook name when exported | Drive file ID | Exported | How |
 | --- | --- | --- | --- | --- |
-| `hybrasil-20261126-1244.xlsx` | `hybrasil-20261126-1244` | private (`sheet_id.txt`) | 2026-11-26 | Google's xlsx export (`docs.google.com/spreadsheets/d/<id>/export?format=xlsx`), by `python -m hybrasil.data.export_snapshot` |
+| `hybrasil-20261126-2219.xlsx` | `hybrasil-20261126-2219` | private (`sheet_id.txt`) | 2026-11-27 | Google's xlsx export (`docs.google.com/spreadsheets/d/<id>/export?format=xlsx`), by `python -m hybrasil.data.export_snapshot` |
 
 The middle column is the name the workbook carried **at export time**, not its
 name now. Every edit renames the live sheet to a fresh timestamp
@@ -27,7 +27,7 @@ fixes it.
 from the spreadsheet's export URL with the credential `hybrasil/` already
 uses. It carries:
 
-- all 23 tabs, every cell, as **formulas with cached values**;
+- all 25 tabs, every cell, as **formulas with cached values**;
 - the provenance borders exactly as the sheet holds them: orange `FFFF9900`
   and pink `FFFF3399`, checked after export with no palette drift;
 - hover notes, fills (the luminosity colour ramp), column widths, fonts and
@@ -165,3 +165,22 @@ angle at J2016.0; a spectroscopic orbit without a tilt gets i = 60 (90 if eclips
 a suspected companion gets 0.3 x its primary's mass (capped at 0.5 M_sun) at 3 AU (astrometric) or 0.3 AU
 (spectroscopic) and is `hypothetical and model-inferred`. Every pair on the tab now has a complete orbit, and
 `hybrasil/data/planetless_loader.py` draws all of them.
+
+## `brightest_stars/`
+
+The `100 Brightest Stars` tab (26 Nov 2026): the hundred brightest naked-eye points of light,
+for a second Stellar Motion model. One row per point, in the Systems tab's columns plus
+magnitude, three ranks (apparent, bolometric luminosity, visual luminosity), constellation,
+distance error and variability.
+
+| File | What it is |
+|---|---|
+| `research.py <cache dir>` | Builds `list.json`: Hipparcos V (points within 60 arcsec summed), van Leeuwen 2007 astrometry, SIMBAD class / RV / identifiers, IAU names, the motion columns, and which other tabs hold each star. Writes nothing to the sheet. |
+| `BRIEF.md`, `research/in_q*.json`, `research/q*.json` | The research agents' brief, their inputs and their answers: mass, luminosity, Teff, radius, age, [Fe/H], star count, components, variability, better distances, each with its citation. |
+| `research/in_check.json`, `research/check.json` | The checking agent: 16 stars whose luminosity disagreed with their radius and Teff by over 20%; 11 corrected. |
+| `plan.py` | Merges the three into `plan.json` (rows, formula cells, orange and pink cells, notes) and `ranks.md` (the three ranks, readable). Reads the live sheet. |
+| `build.py write` | The one writer: adds the tab after Planetless 4+ Stars, fills and marks it, records it on Sources & Provenance, Wikipedia sources and Legend & Notes, renames the workbook. `write_log.json` is its log. `resume` finishes a run that stopped after the tab was filled. |
+
+Not settled, for a later pass: `Point luminosity` is the host star's alone wherever no source
+prints a summed figure; extinction is on file for a minority of rows (0 is assumed elsewhere);
+IAU names newer than the 2022 IAU-CSN file (Uridim, Leepwal, Tiansi) are in `Nicknames` only.

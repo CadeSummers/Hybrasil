@@ -57,6 +57,25 @@ class NearbyStar:
     existence: str = ""
     kinematics_refs: str = ""
     sources: list = field(default_factory=list)
+    # A row of the 100 Brightest Stars tab (data/brightest_loader.py): how bright the point of light is
+    # from Earth, how bright it truly is, and its place among the hundred on each count.
+    apparent_mag: Optional[float] = None
+    abs_mag: Optional[float] = None
+    visual_luminosity_sun: Optional[float] = None
+    point_luminosity_sun: Optional[float] = None    # every star of the point together; what rank_bolometric orders
+    radius_sun: Optional[float] = None
+    rank_apparent: Optional[int] = None
+    rank_bolometric: Optional[int] = None
+    rank_visual: Optional[int] = None
+    constellation: str = ""
+    designation: str = ""                # Bayer / Flamsteed
+    distance_err_ly: Optional[float] = None
+    distance_source: str = ""
+    variable_type: str = ""
+    v_range: str = ""
+    extinction_av: Optional[float] = None
+    n_stars: Optional[int] = None
+    on_tabs: str = ""                    # "Systems: alf Tau; Known: alf Tau"
 
     @property
     def has_position(self) -> bool:

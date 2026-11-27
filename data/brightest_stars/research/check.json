@@ -1,0 +1,224 @@
+[
+ {
+  "rank": 19,
+  "name": "bet Cru",
+  "changed": true,
+  "verdict": "Three sources at different distances: Sharma's log L 4.41 and Teff, and Cotton's asteroseismic radius range (7.3-8.9; Cotton prints no luminosity) do not belong together. Replaced all three with the one set in Cohen et al. 2008 Table 1, at the original Hipparcos distance of 108 +/- 7 pc (not the revised 85 pc): 3.4e4 Lsun, 8.4 Rsun, 27000 K, which agree to 1%.",
+  "luminosity_lsun": {
+   "value": 34000,
+   "source": "Cohen, Kuhn, Gagne, Jensen & Miller 2008, MNRAS 386, 1855, Table 1 (L = 3.4e4 Lsun, after Aerts et al. 1998; d = 108 +/- 7 pc)",
+   "url": "https://arxiv.org/abs/0802.4084",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.4,
+   "source": "Cohen, Kuhn, Gagne, Jensen & Miller 2008, MNRAS 386, 1855, Table 1 (8.4 +/- 0.6, from the 108 pc distance and the Hanbury Brown et al. 1974 angular diameter 0.722 mas)",
+   "url": "https://arxiv.org/abs/0802.4084",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 27000,
+   "source": "Cohen, Kuhn, Gagne, Jensen & Miller 2008, MNRAS 386, 1855, Table 1 (27000 +/- 1000 K, after Aerts et al. 1998)",
+   "url": "https://arxiv.org/abs/0802.4084",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 21,
+  "name": "alf Leo",
+  "changed": true,
+  "verdict": "Rapid rotator: an equatorial radius was paired with the polar temperature. Che et al. 2011 Table 4 was re-read and confirms Lbol 341, Req 4.21, Tpol 14520; the same table's apparent (disc-averaged) effective temperature, 12080 K, is the single-number Teff and replaces the polar one (the bet Cas row already uses the apparent Teff). Luminosity and radius unchanged; d = 24.31 pc.",
+  "teff_k": {
+   "value": 12080,
+   "source": "Che et al. 2011, ApJ 732, 68, Table 4 (modified von Zeipel model): apparent effective temperature 12080 K (pole 14520 +550/-690, equator 11010 +420/-520)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 24,
+  "name": "gam Cru",
+  "changed": true,
+  "verdict": "Kallinger et al. 2019 only compile: their Teff and log L are McDonald et al. 2017's SED fit (Table 1 note a), while the 84 +/- 7 Rsun radius is a separate interferometric value (Ireland et al. 2004, Table 3 note e). Replaced luminosity and radius with McDonald's own row, which with the unchanged 3689 K is self-consistent at 27.15 pc.",
+  "luminosity_lsun": {
+   "value": 861.411,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770, table2, read at vizier.cfa.harvard.edu) (HIP 61084, d = 27.152 pc, fractional error 0.068)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 71.952,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770, table2, read at vizier.cfa.harvard.edu) (HIP 61084, d = 27.152 pc)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 25,
+  "name": "lam Sco",
+  "changed": false,
+  "verdict": "Not changed. All three values were confirmed in Handler & Schwarzenberg-Czerny 2013 and belong to one analysis at the revised Hipparcos parallax (5.71 mas, 175 pc); the 33% mismatch is inside the paper's own errors (log L1 = 4.56 +/- 0.13, R1 = 8.8 +/- 1.2). Note the row's distance (Tango 2006, 112 pc) is not the distance these values assume; Cazorla & Naze 2017 give a quite different set at 175 pc (log L 4.73, 15.3 Rsun, 22500 K)."
+ },
+ {
+  "rank": 26,
+  "name": "gam Ori",
+  "changed": true,
+  "verdict": "Luminosity from one paper, radius and Teff from an isochrone fit in another that prints no luminosity. Replaced radius and Teff with the values in the same Cazorla & Naze 2017 Table 1 row as the luminosity (d = 77 pc), which agree with it to 2%; Waisberg & Katz's measured 0.72 mas diameter is compatible.",
+  "radius_rsun": {
+   "value": 6.4,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (HD 35468: d = 77 pc, log L = 3.87, R = 6.4, Teff = 21250; radius derived there from L and Teff)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 21250,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (HD 35468: d = 77 pc)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 35,
+  "name": "eps Sgr",
+  "changed": false,
+  "verdict": "Not changed. Bailey et al. 2024 Table 5 was re-read and all three values are right (log L 2.696, Re 8.80, global Teff 9950 K; polar radius 6.01). The mismatch is physical: a near-critical rotator's equatorial radius with a global temperature."
+ },
+ {
+  "rank": 40,
+  "name": "tet Sco",
+  "changed": true,
+  "verdict": "Values unchanged, sourcing upgraded: radius and Teff had been taken from Wikipedia and are now read from Lewis et al. 2022 Table 6 itself (Teff 6294 +224/-111 K, Re 35.5 +1.5/-2.3, Rp 26.3 +/- 0.9, log L 3.149). The remaining mismatch is physical: a rapid rotator (omega 0.94) whose equatorial radius is paired with a global Teff.",
+  "radius_rsun": {
+   "value": 35.5,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129, Table 6: equatorial 35.5 +1.5/-2.3 (polar 26.3 +/- 0.9); d = 101.0 pc",
+   "url": "https://doi.org/10.1093/mnras/stac991",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 6294,
+   "source": "Lewis et al. 2022, MNRAS 513, 1129, Table 6: 6294 +224/-111 K",
+   "url": "https://doi.org/10.1093/mnras/stac991",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 47,
+  "name": "bet CMa",
+  "changed": true,
+  "verdict": "The radius was an asteroseismic 10.5 Rsun from another paper, set against Shull et al.'s luminosity and Teff. Replaced it with Shull et al. 2025's own radius, so all three are their 'consistent set' at 151 +/- 5 pc; they agree to 1%. Cazorla & Naze 2017 give nearly the same (log L 4.41, 8.8 Rsun, 24700 K, 151 pc).",
+  "radius_rsun": {
+   "value": 8.44,
+   "source": "Shull, Curran & Topping 2025, arXiv:2508.03800 (8.44 +/- 0.56, from the angular diameter and the 151 +/- 5 pc parallax distance)",
+   "url": "https://arxiv.org/abs/2508.03800",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 64,
+  "name": "gam Cas",
+  "changed": false,
+  "verdict": "Not changed; unresolved beyond the cause. No paper read gives all three: Klement et al. 2017 give L = 19000 +/- 500 (with their own Rp 7.0 +/- 0.5, Re 9.24, no Teff) and Archer et al. 2025 give Req 10.9, Rpole 7.9 and a polar temperature of about 26500-28000 K with the equator 9200-12000 K cooler (no luminosity). Both use the Hipparcos 5.94 mas (168.4 pc). The mismatch is the expected one for a 0.99-critical rotator: equatorial radius with polar temperature."
+ },
+ {
+  "rank": 67,
+  "name": "iot Car",
+  "changed": true,
+  "verdict": "Three papers: Smiljanic's log L 3.69 (old Hipparcos parallax 4.71 mas), McDonald's radius (234.7 pc) and Neiner's spectroscopic 7500 K. Replaced luminosity and Teff with McDonald et al. 2017's own row so the set is one SED fit at 234.7 pc, consistent to 1%. Its 7098 +/- 183 K is cooler than the spectroscopic 7500 +/- 100 K (Neiner 2017, Smiljanic 2006).",
+  "luminosity_lsun": {
+   "value": 5026.94,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770, table2, read at vizier.cfa.harvard.edu) (HIP 45556, d = 234.742 pc, fractional error 0.052)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 7098,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770, table2, read at vizier.cfa.harvard.edu) (HIP 45556, 7098 +/- 183 K)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 68,
+  "name": "alf CrB",
+  "changed": true,
+  "verdict": "The luminosity was McDonald et al. 2017's SED fit, which the catalogue itself flags as unconstrained (fractional error 1.000, Teff 9403 +/- 7569 K). Replaced it with Zorec & Royer 2012 (log L = 1.8906, log Teff = 3.986 = 9683 K), which agrees with the eclipsing-binary radius and 9700 K to 5%. Radius and Teff unchanged. Baines et al. 2025's 3.88 Rsun / 8152 K rests on the same McDonald luminosity.",
+  "luminosity_lsun": {
+   "value": 77.7,
+   "source": "Zorec & Royer 2012, A&A 537, A120 (VizieR J/A+A/537/A120, HD 139006: log L = 1.8906 +/- 0.0119, converted; combined light)",
+   "url": "https://doi.org/10.1051/0004-6361/201117691",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 73,
+  "name": "del Ori",
+  "changed": true,
+  "verdict": "Luminosity from Shenar et al. 2015 (non-LTE spectroscopy), radius and Teff from Oplistilova et al. 2023 (light-curve and spectral fits), which prints no bolometric luminosity. Replaced radius and Teff with Shenar's own Table 1 values for Aa1 at 380 pc, which agree with their log L 5.28 to 3%.",
+  "radius_rsun": {
+   "value": 16.5,
+   "source": "Shenar et al. 2015, ApJ 809, 135, Table 1 (Aa1, d = 380 pc: R(2/3) = 16.5 +/- 1; 9.2 at 212 pc)",
+   "url": "https://doi.org/10.1088/0004-637X/809/2/135",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 29500,
+   "source": "Shenar et al. 2015, ApJ 809, 135, Table 1 (Aa1: T(2/3) = 29.5 +/- 0.5 kK)",
+   "url": "https://doi.org/10.1088/0004-637X/809/2/135",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 74,
+  "name": "bet Cas",
+  "changed": false,
+  "verdict": "Not changed. Che et al. 2011 Table 3 was re-read and all three values are right (Lbol 21.3, Req 3.79, apparent Teff 6825 K). The mismatch is physical: an oblate star seen 20 degrees from pole-on, so the apparent temperature goes with the apparent luminosity (27.3 Lsun), not the bolometric one."
+ },
+ {
+  "rank": 87,
+  "name": "bet Sco",
+  "changed": true,
+  "verdict": "All three had been read only from Wikipedia, which mixes Catanzaro 2010 (L, R) with Holmgren 1997 (Teff) at 143 pc; neither paper could be reached. Replaced all three with the primary's row in Cazorla & Naze 2017 Table 1 at 124 pc (the revised Hipparcos distance), read from the paper and consistent to 4%.",
+  "luminosity_lsun": {
+   "value": 27542,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (HD 144217, primary star: d = 124 pc, log L = 4.44, converted)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.1,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (HD 144217: R = 6.1, derived there from L and Teff)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 30400,
+   "source": "Cazorla & Naze 2017, A&A 608, A54, Table 1 (HD 144217: Teff = 30400 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201731562",
+   "wikipedia": false
+  }
+ },
+ {
+  "rank": 93,
+  "name": "alf Peg",
+  "changed": false,
+  "verdict": "Not changed; unresolved. The luminosity is McDonald et al. 2017's SED fit, which the catalogue flags as unconstrained (fractional error 1.000, Teff 9891 +/- 8824 K, R 4.377), set against Gordon et al. 2019's CHARA radius 4.62 +/- 0.29 and 10.1 kK (their own fit 10.0 +/- 1.0 kK); the 21% mismatch is inside those errors. The only single-paper set found is Baines et al. 2025 (5.35 +/- 0.10 Rsun, 164.7 Lsun taken from McDonald, 8935 +/- 77 K, parallax 24.46 mas), whose diameter disagrees with CHARA's and whose Teff is low for B9-A0; no better luminosity was found."
+ },
+ {
+  "rank": 99,
+  "name": "del Cen",
+  "changed": true,
+  "verdict": "Levenhagen & Leister's luminosity comes from evolutionary tracks at log g 4.00, while Arcos et al. 2018's 8.18 Rsun is an SED fit with log g 3.43 and E(B-V) 0.15, nearly three times the emitting area that luminosity allows. Replaced radius and Teff with the dedicated Meilland et al. 2008 values at 121 pc, the paper that also quotes Levenhagen's log L 3.70 +/- 0.10; the set now agrees to 19%, inside that error. Luminosity unchanged.",
+  "radius_rsun": {
+   "value": 5.9,
+   "source": "Meilland et al. 2008, A&A 488, L67, Table 2 (5.9 +/- 0.5, SED fit at d = 121 +/- 11 pc)",
+   "url": "https://arxiv.org/abs/0807.4622",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 21000,
+   "source": "Meilland et al. 2008, A&A 488, L67, Table 2 (21000 +/- 1000 K)",
+   "url": "https://arxiv.org/abs/0807.4622",
+   "wikipedia": false
+  }
+ }
+]
