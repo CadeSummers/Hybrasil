@@ -11,7 +11,7 @@ sheet wins.
 
 | File | Workbook name when exported | Drive file ID | Exported | How |
 | --- | --- | --- | --- | --- |
-| `hybrasil-20261126-0926.xlsx` | `hybrasil-20261126-0926` | private (`sheet_id.txt`) | 2026-11-26 | Google's xlsx export (`docs.google.com/spreadsheets/d/<id>/export?format=xlsx`), by `python -m hybrasil.data.export_snapshot` |
+| `hybrasil-20261126-1244.xlsx` | `hybrasil-20261126-1244` | private (`sheet_id.txt`) | 2026-11-26 | Google's xlsx export (`docs.google.com/spreadsheets/d/<id>/export?format=xlsx`), by `python -m hybrasil.data.export_snapshot` |
 
 The middle column is the name the workbook carried **at export time**, not its
 name now. Every edit renames the live sheet to a fresh timestamp

@@ -23,6 +23,7 @@ class OrbitalBody:
     teff_k: Optional[float] = None           # effective temperature, K; stars only
     color: Optional[str] = None                    # hex or CSS color; None = auto-assigned
     display_name: Optional[str] = None             # override label in plot
+    aliases: list = field(default_factory=list)    # other names it is known by: found by search, never drawn
     pole: Optional[tuple[float, float, float]] = None  # rotation-axis unit vector (J2000 ecliptic)
     axial_tilt_deg: Optional[float] = None             # degrees; None = unknown
     # A pole nobody measured, drawn because the model needs one (nu Oct A: assumed to spin with

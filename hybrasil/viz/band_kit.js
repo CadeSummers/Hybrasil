@@ -476,6 +476,7 @@
         html += row(esc(info.rows[r][0]), esc(info.rows[r][1]), esc(info.rows[r][2]));
       }
     } else {
+      if (info.aka && info.aka.length) html += row('Also known as', esc(info.aka.join('; ')), '');
       html += row('Status',         info.status === 'hypothetical' ? (info.status_label || 'Hypothetical') : 'Confirmed', '');
       html += row('Mass',           info.mass,     info.mass_note);
       html += row('Orbital period', info.period,   info.period_note);

@@ -1025,6 +1025,12 @@ function search(query) {
   if (!q || !K) return false;
   const hitB = K.nameMatches(bodies.map((b) => b.data.name), q);
   if (hitB.length) { frameBody(bodies[hitB[0]]); return true; }
+  // A body's other names ("Capella", "Luyten's Star"), shipped in its info entry.
+  const INFO = window._SA_BODY_INFO || {};
+  const aka = [];
+  bodies.forEach((b, i) => ((INFO[b.data.name] || {}).aka || []).forEach((n) => aka.push([n, i])));
+  const hitA = K.nameMatches(aka.map((a) => a[0]), q);
+  if (hitA.length) { frameBody(bodies[aka[hitA[0]][1]]); return true; }
   for (const c of clouds) {
     const hitC = K.nameMatches(c.data.info.map((r) => r[0]), q);
     if (hitC.length) { frameBody(cloudPoint(c, hitC[0])); return true; }
@@ -1694,6 +1700,8 @@ const ui = (() => {
   let moreOpen = false, hits = [], hi = 0;
 
   const kindOf = (e) => e.kind || 'planetary';
+  // A search hit of another System Type than the chosen one says which it is.
+  const KIND_NAMES = { planetary: 'Planetary', planetless: 'High Star Count', motion: 'Stellar Motion' };
   const pool = () => INDEX.filter((e) => kindOf(e) === moreKind);
 
   function paintKinds() {
@@ -1779,15 +1787,17 @@ const ui = (() => {
     const q = moreIn.value.trim();
     const S = window.SASystemSearch;
     // Nothing typed: every catalog system, most planets first, then nearest
-    // (SASystemSearch.shelf).  Typed: the ranked search over every
-    // system the index holds, featured ones included.
-    // Only systems of the chosen System Type, in either case.  Planetary's
+    // (SASystemSearch.shelf), and only systems of the chosen System Type.
+    // Typed: the ranked search over every system the index holds, of every
+    // type and featured ones included -- "Capella" is found from Planetary,
+    // though it is a High Star Count system -- each hit of another type
+    // saying which.  Planetary's
     // featured systems keep their buttons and are not shelved; the other
     // types shelve everything they have, since that is all featured so far.
     const browsing = !(q && S);
     const planetary = moreKind === 'planetary';
     if (!browsing) {
-      hits = S.rank(pool(), q, 8);
+      hits = S.rank(INDEX, q, 8);
     } else {
       const shelf = S ? S.shelf(pool()) : { featured: [], more: [] };
       const shown = planetary ? shelf.more : shelf.featured.concat(shelf.more);
@@ -1821,7 +1831,9 @@ const ui = (() => {
       row.style.cssText = 'padding:5px 10px;cursor:pointer;border-bottom:1px solid #1a1a3a';
       const name = mk('div', hit.entry.name);
       name.style.cssText = 'color:#ddeeff';
-      const meta = mk('div', describe(hit.entry) + (hit.via ? ` · matched “${hit.via}”` : ''));
+      const other = !browsing && kindOf(hit.entry) !== moreKind ? KIND_NAMES[kindOf(hit.entry)] : '';
+      const meta = mk('div', [other, describe(hit.entry)].filter(Boolean).join(' · ')
+        + (hit.via ? ` · matched “${hit.via}”` : ''));
       meta.style.cssText = 'color:#778899;font-size:10px';
       row.append(name, meta);
       // mousedown, not click: acting before the box loses focus.

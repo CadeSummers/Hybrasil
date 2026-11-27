@@ -44,7 +44,7 @@ SYSTEM_LEVEL = ("Distance (ly)", "Confirmed planets", "Planet masses (M-earth)",
                 "Planet-host class", "Primary mass (M-sun)")
 # Systems column -> Multi-stars column, for a host row built from the Systems tab.
 HOST_FROM_SYSTEMS = {
-    "Nickname (IAU)": "Nickname (IAU)", "Host mass (M-sun)": "Mass (M-sun)", "Stellar Class": "Stellar Class",
+    "Nicknames": "Nicknames", "Host mass (M-sun)": "Mass (M-sun)", "Stellar Class": "Stellar Class",
     "Class (sort key)": "Class (sort key)", "Effective temp (K)": "Effective temp (K)", "Age (Gyr)": "Age (Gyr)",
     "Metallicity [Fe/H]": "Metallicity [Fe/H]", "Host luminosity (L-sun)": "Luminosity (L-sun)",
     "Radial velocity (km/s)": "Radial velocity (km/s)",

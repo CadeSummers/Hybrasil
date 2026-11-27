@@ -86,7 +86,7 @@ filed in the workbook under the Alpha Centauri A system, and that is the
 system they are drawn in, circling Proxima, with A and B beside it.
 
 Names resolve loosely, and every name reaches the whole system. A primary, a
-companion star, an IAU nickname, a planet name, or an unambiguous prefix all
+companion star, any nickname in a `Nicknames` cell, a planet name, or an unambiguous prefix all
 work. An ambiguous name lists the candidates rather than guessing.
 
 ## What is real and what is filled in

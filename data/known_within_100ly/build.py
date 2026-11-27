@@ -7,7 +7,7 @@
 
 Rows are the entries of 'data/Nearby stars within 100 light years.xlsx' (Gaia DR3 + CNS5, one row per
 catalogued object, in its order: nearest first). Columns are the Systems tab's, with "Plotted" and
-"Last Updated" inserted after "Nickname (IAU)".
+"Last Updated" inserted after "IAU official designation".
 
   * Plotted by a Systems row (the host of a drawn system): that row's values, copied.
   * Plotted by a Multi-stars row (a companion, or a host whose Gaia source is the component's): that
@@ -93,9 +93,9 @@ def main():
     wb = gs.get_workbook(refresh=True)
     sy_rows, ms_rows = wb["tabs"][SY], wb["tabs"][MS]
     sy_h, ms_h = sy_rows[0], ms_rows[0]
-    headers = sy_h[:2] + ["Plotted", "Last Updated"] + sy_h[2:]
+    headers = sy_h[:3] + ["Plotted", "Last Updated"] + sy_h[3:]
     col = {h: i for i, h in enumerate(headers)}
-    assert headers[0] == "System / Host" and headers[1] == "Nickname (IAU)" and len(set(headers)) == len(headers)
+    assert headers[0] == "System / Host" and headers[1:3] == ["Nicknames", "IAU official designation"] and len(set(headers)) == len(headers)
 
     # sheet row (1-based) of each plotted star on its own tab
     sy_at = {r[0]: n for n, r in enumerate(sy_rows[1:], start=2) if r and str(r[0]).strip()}
@@ -176,7 +176,7 @@ def main():
         "  of Nearby Stars, CNS5 (GAVO TAP, cns5.main, 25 pc only) for entries with no selected Gaia DR3 source.",
         "  10,041 Gaia DR3 + 669 CNS5 + the Sun. One row per catalogued object, so a resolved binary is two rows and an",
         "  unresolved one (e.g. 'GJ 559 AB', alf Cen A+B in CNS5) is one. Order: the file's, nearest first.",
-        "COLUMNS: the Systems tab's, with 'Plotted' (TRUE/FALSE) and 'Last Updated' after 'Nickname (IAU)'.",
+        "COLUMNS: the Systems tab's, with 'Plotted' (TRUE/FALSE) and 'Last Updated' after 'IAU official designation'.",
         f"PLOTTED = TRUE ({n_plot} rows): the object is drawn by the app, as a Systems row (a system's host) or a",
         "  Multi-stars row (any star of a drawn system). Its values are COPIED from that row as of 'Last Updated' --",
         "  not linked, so an edit there does not reach here. A Multi-stars row fills the Systems-named columns",

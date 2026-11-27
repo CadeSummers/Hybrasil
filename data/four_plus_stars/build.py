@@ -234,7 +234,7 @@ def build_system(sid, rec):
                 "star" if is_star else
                 f"subsystem: {name} {splits[lab]['Prim']} + {name} {splits[lab]['Sec']}")
         r = {"System / Host": name, "Star (component)": comp, "Role in system": role,
-             "Nickname (IAU)": IAU.get(sid, "") if lab == host else "",
+             "Nicknames": IAU.get(sid, "") if lab == host else "",
              "Distance (ly)": round(LY_PER_MAS / plx, 2), "Stars in system": len(leaves),
              "Mass (M-sun)": m if m not in (None, "") else "",
              "Stellar Class": spt if is_star else "", "Class (sort key)": sort_key(spt) if is_star else "",

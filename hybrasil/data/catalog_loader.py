@@ -97,6 +97,24 @@ def source_columns(table, row) -> dict:
     }
 
 
+# The nickname column, as it is headed now and as it was before 26 Nov 2026.
+NICKNAME_HEADERS = ("nicknames", "nickname (iau)")
+
+
+def split_names(cell) -> list[str]:
+    """Every name in a Nicknames cell: "Rigil Kentaurus; Alpha Centauri" is two."""
+    return [n for n in (part.strip() for part in str(cell or "").split(";")) if n]
+
+
+def nickname_cell(table, row) -> str:
+    """A row's Nicknames cell, whichever way its tab heads the column."""
+    return next((t for t in (table.text(row, h) for h in NICKNAME_HEADERS) if t), "")
+
+
+# A star filed under a bare survey number is drawn under its first nickname instead.
+_SURVEY_NUMBER = re.compile(r"^Gaia DR\d \d+$")
+
+
 def cell_text(value) -> str:
     """Trimmed string form of a cell; empty string for blank-ish values."""
     if value is None:
@@ -542,7 +560,7 @@ def _star_records(table: Table) -> list[StarRecord]:
             host=host,
             component=table.text(row, "star (component)") or host,
             role=table.text(row, "role in system"),
-            nickname=table.text(row, "nickname (iau)"),
+            nickname=nickname_cell(table, row),
             distance_ly=table.number(row, "distance (ly)"),
             mass_sun=table.number(row, "mass (m-sun)"),
             stellar_class=table.text(row, "stellar class"),
@@ -717,7 +735,7 @@ def parse_workbook(workbook: dict) -> Catalog:
             if not host or host in catalog.system_rows:
                 continue
             catalog.system_rows[host] = {
-                "nickname": table.text(row, "nickname (iau)"),
+                "nickname": nickname_cell(table, row),
                 "distance_ly": table.number(row, "distance (ly)"),
                 "mass_sun": table.number(row, "host mass (m-sun)"),
                 "stellar_class": table.text(row, "stellar class"),
@@ -797,13 +815,13 @@ def _build_aliases(catalog: Catalog) -> None:
     for system in systems:
         add(system, system)
         srow = catalog.system_rows.get(system, {})
-        if srow.get("nickname"):
-            add(srow["nickname"], system)
+        for nick in split_names(srow.get("nickname")):
+            add(nick, system)
         for name in catalog.members(system):
             add(name, system)
             star = catalog.stars_by_component.get(match_key(name))
-            if star and star.nickname:
-                add(star.nickname, system)
+            for nick in split_names(star.nickname if star else ""):
+                add(nick, system)
 
 
 # --------------------------------------------------------------------------
@@ -979,7 +997,10 @@ def build_star_system(catalog: Catalog, identifier: str,
             luminosity_sun=f.lum,
             teff_k=f.teff,
             color=star_color(f.teff),
-            display_name=f.nickname or None,
+            # Nicknames find a star; they do not rename it. The one exception is a
+            # star the workbook can only file by its Gaia number.
+            display_name=(split_names(f.nickname) or [None])[0] if _SURVEY_NUMBER.match(f.name) else None,
+            aliases=split_names(f.nickname),
             status=status,
             sources=sources or list(base_sources),
             elements=elements,
@@ -1329,15 +1350,20 @@ def catalog_entry(catalog: Catalog, host: str) -> dict:
 
     Every planet on file, around any of its stars -- with an orbit or not, so
     searching for one finds its system; the primary's
-    spectral class, distance and IAU nickname; and the other stars' names,
-    so a search for a companion finds the system it belongs to.
+    spectral class, distance and nickname cell; every nickname of every star
+    in it (`nicknames`); and the other stars' names, so a search for a
+    companion, or for "Toliman", finds the system it belongs to.
     """
     members = catalog.members(host)
     planets = [p for name in dict.fromkeys(members + [host])
                for p in catalog.planets_by_host.get(name, [])]
     f = _star_facts(catalog, members[0], host)
+    # Its Systems row and each star's own row: the two tabs need not say the same.
+    cells = [catalog.system_rows.get(host, {}).get("nickname")] + [
+        _star_facts(catalog, m, host).nickname for m in members]
+    nicknames = list(dict.fromkeys(n for cell in cells for n in split_names(cell)))
     return {"planets": [p.name for p in planets], "stellar_class": f.stellar_class,
-            "distance_ly": f.distance_ly, "nickname": f.nickname,
+            "distance_ly": f.distance_ly, "nickname": f.nickname, "nicknames": nicknames,
             "stars": members}
 
 

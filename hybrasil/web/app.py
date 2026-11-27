@@ -195,7 +195,15 @@ class SystemLibrary:
             })
         # Every hierarchy of 4+ stars on the Planetless tab, but the one a
         # featured system draws (Castor): listed under High Star Count (Planetless) only.
+        def also(host: str, names: list) -> None:
+            """A featured system is found by the workbook's nicknames for the hosts it covers."""
+            for e in entries:
+                if e.get("featured") and host in FEATURED_CATALOG_HOSTS.get(e["id"], ()):
+                    e["aliases"] = list(dict.fromkeys(e["aliases"] + names))
+
         for host, ps in self.planetless().items():
+            if host in covered:
+                also(host, ps.nicknames)
             if host not in covered:
                 entries.append(dict(planetless_entry(ps), n_bodies=len(ps.stars) + len(ps.planets)
                                     + sum(len(m) for m in ps.moons.values())))
@@ -205,14 +213,16 @@ class SystemLibrary:
         cat = self.catalog()
         if cat is not None:
             from ..data.catalog_loader import catalog_entry, match_key
+            for host in covered:
+                if host in cat.system_rows:
+                    also(host, catalog_entry(cat, host)["nicknames"])
             for host in cat.hosts():
                 if host in covered:
                     continue
                 e = catalog_entry(cat, host)
-                # The nickname, then every other star, so "55 Cnc B" finds
-                # the system it belongs to.
-                aliases = ([e["nickname"]] if e["nickname"] else []) + [
-                    s for s in e["stars"] if s != host]
+                # Every nickname of every star, then every other star, so
+                # "Toliman" or "55 Cnc B" finds the system it belongs to.
+                aliases = e["nicknames"] + [s for s in e["stars"] if s != host]
                 entries.append({
                     "id": CATALOG_PREFIX + host, "name": host, "featured": False,
                     "kind": "planetary",
@@ -233,8 +243,7 @@ class SystemLibrary:
                 entries.append({
                     "id": CATALOG_PREFIX + host, "name": host, "featured": False,
                     "kind": "planetless",
-                    "aliases": ([e["nickname"]] if e["nickname"] else []) + [
-                        s for s in e["stars"] if s != host],
+                    "aliases": e["nicknames"] + [s for s in e["stars"] if s != host],
                     "planets": [], "n_planets": 0,
                     "n_stars": len(e["stars"]), "n_bodies": len(e["stars"]),
                     "distance_ly": e["distance_ly"],
