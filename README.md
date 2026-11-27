@@ -101,7 +101,9 @@ This opens the three.js viewer from a small local server at
   row: **Planetary** (the default), **High Star Count (Planetless)** (the
   systems of four or more stars within 100 ly that have no planet; the ones
   with a brown dwarf -- a planet in this model -- and Castor are under
-  Planetary) and **Stellar Motion** (Nearby Stellar Motion, and the Sgr A*
+  Planetary) and **Stellar Motion** (Nearby Stellar Motion; Brightest Stars in the Night
+  Sky, the hundred brightest out to Deneb at 2,600 ly, each with its motion
+  and its ranks by apparent brightness and by luminosity; and the Sgr A*
   Cluster: the S-stars on their orbits round the Milky Way's supermassive
   black hole). The search box searches the chosen type. Planetary lists every
   planetary system in the dataset, about 420 of them. It lists the systems

@@ -20,7 +20,8 @@ from __future__ import annotations
 
 import math
 import re
-from typing import Optional
+from dataclasses import dataclass
+from typing import Callable, Optional
 
 import plotly.graph_objects as go
 
@@ -191,6 +192,33 @@ def marker_size(luminosity_sun: Optional[float]) -> float:
     return max(3.0, min(14.0, 7.0 + 2.2 * math.log10(luminosity_sun)))
 
 
+@dataclass(frozen=True)
+class MotionView:
+    """What differs between one view of stars in motion and another; the default is Nearby Stellar Motion's.
+
+    `size(star)` is a marker's pixels and `zoom_half(star)` the half-width, in ly, a double-click frames it by.
+    `title(counts, source)` replaces the nearby view's title, `counts` being {"systems", "moving"}.
+    `body_meta(star)` adds to a marker's meta (what `figure_to_scene` carries to the viewer), `rows(star, rows)`
+    returns the star's panel rows given the standard ones, `goto(star)` the id its "Go to system" opens (""
+    for none), `extra_traces` are appended after the reference axes and `meta` is merged into the layout's.
+    """
+    key: str = VIEW_KEY
+    name: str = VIEW_NAME
+    half_ly: float = SCENE_HALF_LY
+    reference_ly: float = REFERENCE_LY
+    size: Callable = lambda s: marker_size(s.luminosity_sun)
+    zoom_half: Callable = lambda s: 4.0
+    title: Optional[Callable] = None
+    body_meta: Optional[Callable] = None
+    rows: Optional[Callable] = None
+    goto: Optional[Callable] = None
+    extra_traces: tuple = ()
+    meta: Optional[dict] = None
+
+
+NEARBY = MotionView()
+
+
 def position_ly(star: NearbyStar) -> tuple[float, float, float]:
     if star.is_sun:
         return (0.0, 0.0, 0.0)
@@ -329,9 +357,13 @@ def known_clouds(known: list[NearbyStar]) -> list[dict]:
 
 
 def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
-                             planetless: tuple = (), known: tuple = ()) -> go.Figure:
+                             planetless: tuple = (), known: tuple = (),
+                             config: MotionView = NEARBY) -> go.Figure:
     """The view's figure: `stars` from the Systems tab, `planetless` systems and the `known` (unclassified)
-    objects each behind their own button."""
+    objects each behind their own button.  `config` is what another view of stars in motion changes."""
+    def body_meta(s, **more):
+        return {"drift": drift_ly(s), **more, **(config.body_meta(s) if config.body_meta else {})}
+
     traces = []
     # The Sun first, then O -> M, brown and white dwarfs: the legend lists
     # classes in the order it first meets them.  The planetless systems last,
@@ -346,11 +378,11 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
         x, y, z = position_ly(s)
         traces.append(go.Scatter3d(
             x=[x], y=[y], z=[z], mode="markers", name=s.name,
-            marker=dict(size=marker_size(s.luminosity_sun), color=spectral_colour(s),
+            marker=dict(size=config.size(s), color=spectral_colour(s),
                         line=dict(width=1.5, color=PLANETLESS_RING)),
             showlegend=False, hoverinfo="name",
             legendgroup=PLANETLESS_GROUP, legendgrouptitle=dict(text=PLANETLESS_GROUP),
-            meta={"optional": PLANETLESS_SET, "drift": drift_ly(s)},
+            meta=body_meta(s, optional=PLANETLESS_SET),
         ))
     planetless_traces, traces, refuted_traces = traces, [], []
     placed_all = placed + extra
@@ -362,18 +394,18 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             mode="markers+text" if s.is_sun else "markers",
             name=SUN_NAME if s.is_sun else s.name,
             text=[SUN_NAME] if s.is_sun else None,
-            marker=dict(size=SUN_SIZE if s.is_sun else marker_size(s.luminosity_sun), color=colour,
+            marker=dict(size=SUN_SIZE if s.is_sun else config.size(s), color=colour,
                         line=dict(width=0)),
             showlegend=s.is_sun,
             hoverinfo="name",
-            meta={"drift": drift_ly(s)},
+            meta=body_meta(s),
         )
         group = spectral_group(s)
         if s.refuted:
             # One of the Known set, shown in its Refuted only mode alone; its arrows are owned by it.
             trace.update(marker_line=dict(width=1.5, color=REFUTED_RING),
                          legendgroup=REFUTED_GROUP, legendgrouptitle=dict(text=REFUTED_GROUP),
-                         meta={"optional": KNOWN_SET, "mode": REFUTED_MODE, "drift": drift_ly(s)})
+                         meta=body_meta(s, optional=KNOWN_SET, mode=REFUTED_MODE))
             refuted_traces.append(trace)
             continue
         if group:
@@ -403,12 +435,13 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             ))
 
     for name, axis, colour in REFERENCE:
-        tip = tuple(REFERENCE_LY * c for c in axis)
+        tip = tuple(config.reference_ly * c for c in axis)
         traces.append(go.Scatter3d(
             x=[0, tip[0]], y=[0, tip[1]], z=[0, tip[2]], mode="lines+text",
             name=name, text=["", name], line=dict(color=colour, width=2, dash="dash"),
             opacity=0.6, showlegend=True, hoverinfo="skip",
         ))
+    traces += list(config.extra_traces)
 
     n_refuted = len(refuted_traces)
     n_moving = sum(1 for s in placed if s.has_motion and not s.is_sun and not s.refuted)
@@ -422,9 +455,11 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
              + (f" (+{n_refuted} refuted systems on request)" if n_refuted else "")
              + f" · velocity relative to the Sun or the LSR · arrow = "
              f"{ARROW_YEARS:,} yr of travel" + (f" · {source}" if source else ""))
+    if config.title:
+        title = config.title({"systems": n_systems, "moving": n_moving}, source)
     fig = go.Figure(data=traces)
-    h = SCENE_HALF_LY
-    meta = {"units": "ly", "view": VIEW_KEY, "group_heading": "Stars by spectral class",
+    h = config.half_ly
+    meta = {"units": "ly", "view": config.key, "group_heading": "Stars by spectral class",
             "sky": {"galactic_to_frame": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]},
             "motion_frames": {"title": MOTION_FRAME_TITLE, "default": FRAME_SUN,
                               "options": [{"key": k, "label": lbl} for k, lbl in MOTION_FRAMES]},
@@ -459,6 +494,9 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             meta["optional_sets"][-1]["modes"] = modes
         if clouds:
             meta["clouds"] = clouds
+    for k, v in (config.meta or {}).items():
+        # A view's own optional sets follow the standard ones.
+        meta[k] = meta.get(k, []) + v if k == "optional_sets" else v
     fig.update_layout(
         title=dict(text=title, font=dict(color=themes.FONT_COLOR, size=16)),
         scene=themes.make_scene_style(h, h, h),
@@ -558,7 +596,7 @@ def star_rows(s: NearbyStar) -> list[list]:
     return rows
 
 
-def star_motion_info(stars: list[NearbyStar]) -> dict:
+def star_motion_info(stars: list[NearbyStar], config: MotionView = NEARBY) -> dict:
     """Body name -> info-panel entry, keyed as the figure names the markers.
 
     `goto` is the id of the star's own system, for the panel's "Go to system"
@@ -568,12 +606,17 @@ def star_motion_info(stars: list[NearbyStar]) -> dict:
     for s in stars:
         if not s.has_position:
             continue
-        entry = {"rows": star_rows(s), "zoom_half": 4.0, "sources": s.sources}
+        rows = star_rows(s)
+        entry = {"rows": config.rows(s, rows) if config.rows else rows, "zoom_half": config.zoom_half(s),
+                 "sources": s.sources}
         if s.nickname:
             entry["aka"] = split_names(s.nickname)      # the view's search finds a star by these
         if s.refuted:
             # No system to open: the panel greys the button out and says why (band_kit.js).
             entry["goto_note"] = REFUTED_NOTE
+        elif config.goto:
+            if config.goto(s):
+                entry["goto"] = config.goto(s)
         else:
             entry["goto"] = s.system_id or system_id_for_host(s.name)
         out[SUN_NAME if s.is_sun else s.name] = entry

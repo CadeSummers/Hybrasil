@@ -2121,12 +2121,12 @@ def test_app_the_dropdown_asks_for_a_system_type_planetary_first(app):
     box.fill("")
     # Stellar Motion: the Nearby Stellar Motion view, then the Sgr A* Cluster.
     motion.click()
-    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "galactic:sgr-a"]
+    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "brightest-star-motion", "galactic:sgr-a"]
     # The type is kept between opens.
     more.click()
     more.click()
     assert motion.get_attribute("aria-pressed") == "true"
-    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "galactic:sgr-a"]
+    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "brightest-star-motion", "galactic:sgr-a"]
     app.locator("[role=option][data-id='nearby-star-motion']").click()
     app.wait_for_function("window.__SA3.key === 'nearby-star-motion'", timeout=60_000)
     # And back to High Star Count (Planetless), to open one from the list: the dropdown names it.
@@ -2144,7 +2144,7 @@ def test_app_the_dropdown_asks_for_a_system_type_planetary_first(app):
 def test_app_the_sgr_a_cluster_opens_from_stellar_motion(app):
     app.get_by_role("button", name="More Modeled Systems").click()
     _system_type(app, "Stellar Motion").click()
-    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "galactic:sgr-a"]
+    assert app.evaluate(_OPTION_IDS) == ["nearby-star-motion", "brightest-star-motion", "galactic:sgr-a"]
     assert "Sgr A* Cluster (Galactic Center)" in app.locator("[role=option][data-id='galactic:sgr-a']").inner_text()
     app.locator("[role=option][data-id='galactic:sgr-a']").click()
     app.wait_for_function("window.__SA3.key === 'galactic:sgr-a'", timeout=60_000)
@@ -2289,10 +2289,10 @@ def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
         panel = p.locator("#_sa_info_panel")
         goto = p.get_by_role("button", name="Go to system")
         # GJ 682's planets were all rejected: there is no system to open, and the button is dead.
-        p.evaluate("() => window.SABandKit.showInfoPanel('GJ 682')")
+        p.evaluate("() => window.__SA3.showInfo('GJ 682')")
         panel.wait_for(state="visible")
         assert goto.is_disabled() and "Exoplanet system recently refuted" in panel.inner_text()
-        p.evaluate("() => window.SABandKit.showInfoPanel('tau Cet')")
+        p.evaluate("() => window.__SA3.showInfo('tau Cet')")
         goto.click()
         p.wait_for_function("() => window.__SA3.key === 'catalog:tau Cet'", timeout=30_000)
         names = p.evaluate("() => window.__SA3.bodies().map(b => b.data.name)")
@@ -2303,7 +2303,7 @@ def test_app_go_to_system_opens_a_stars_catalog_system(page, snapshot_app_url):
         # GJ 680's "planet" was a companion star: it opens as its two stars (Catalog.star_systems()), with
         # flat bands, and its panel still names the candidate it lost.
         _open_view(p)
-        p.evaluate("() => window.SABandKit.showInfoPanel('GJ 680')")
+        p.evaluate("() => window.__SA3.showInfo('GJ 680')")
         assert "GJ 680 b" in panel.inner_text() and "recently refuted" not in panel.inner_text()
         goto.click()
         p.wait_for_function("() => window.__SA3.key === 'catalog:GJ 680'", timeout=30_000)
@@ -2677,3 +2677,186 @@ def test_a_file_page_has_about_too_but_no_suggestion_privacy_line(three):
     text = _about(three).inner_text()
     assert "Cade Summers" in text and "[Data set]" in text and "(Version" not in text
     assert "Suggest Changes stores" not in text
+
+
+# ── Brightest Stars in the Night Sky (docs/architecture/star-motion.md) ──────
+
+BRIGHTEST = "brightest-star-motion"
+
+_BRIGHT_STATE = """() => { const S = window.__SA3;
+  return { bodies: S.bodies().map(b => b.obj.position.toArray()),
+           lines: S.lines().map(l => [l.userData.name, l.visible, l.position.toArray(),
+                                      Array.from(l.isLine2 ? l.geometry.attributes.instanceStart.data.array
+                                                           : l.geometry.attributes.position.array)]),
+           trails: S.trails().map(l => Array.from(l.geometry.attributes.position.array)) }; }"""
+
+
+def _open_brightest(page):
+    page.evaluate("k => window.__SA3.openSystem(k)", BRIGHTEST)
+    page.wait_for_function("k => window.__SA3.key === k", arg=BRIGHTEST, timeout=60_000)
+
+
+def test_app_brightest_stars_is_picked_from_stellar_motion_and_has_no_button(app):
+    assert app.get_by_role("button", name="Brightest Stars in the Night Sky").count() == 0
+    app.get_by_role("button", name="More Modeled Systems").click()
+    _system_type(app, "Stellar Motion").click()
+    app.get_by_role("option", name="Brightest Stars in the Night Sky").click()
+    app.wait_for_function("k => window.__SA3.key === k", arg=BRIGHTEST, timeout=60_000)
+    r = app.evaluate("""() => { const S = window.__SA3;
+        return { units: S.units(), n: S.bodies().length, title: document.title,
+                 far: Math.max(...S.bodies().map(b => b.obj.position.length())),
+                 shells: S.lines().filter(l => l.userData.compressOnly).map(l => l.visible) }; }""")
+    assert r["units"] == "ly" and r["n"] == 101
+    assert "out to 2,616 ly (Deneb)" in r["title"] and r["far"] == pytest.approx(2616, abs=1)
+    assert r["shells"] == [False, False]
+    assert "Brightest Stars in the Night Sky" in app.get_by_role("button", name="More Modeled Systems").inner_text()
+    # No bands and no clouds: Galaxy Motion Type takes the Bands button's place, as in the nearby view.
+    assert app.get_by_role("button", name="Galaxy Motion Type").is_visible()
+
+
+def test_app_brightest_stars_switches_are_rows_of_even_more_features(app):
+    _open_brightest(app)
+    app.get_by_role("button", name="Even more features").click()
+    size = app.locator("button[data-optional='size-luminosity']")
+    ranks = app.locator("button[data-optional='rank-labels']")
+    px = "n => { const S = window.__SA3; return S.markerSize(S.bodies().find(b => b.data.name === n)); }"
+    drawn = ("n => { const S = window.__SA3, b = S.bodies().find(b => b.data.name === n);"
+             " return b.obj.material.size / S.markerPx(1); }")
+    # Sirius looks brightest and is drawn largest; by luminosity Deneb dwarfs it.
+    assert app.evaluate(px, "alf CMa") > app.evaluate(px, "alf Cyg")
+    size.click()
+    assert size.get_attribute("aria-checked") == "true"
+    assert app.evaluate(px, "alf CMa") < app.evaluate(px, "alf Cyg")
+    assert app.evaluate(drawn, "alf Cyg") == pytest.approx(app.evaluate(px, "alf Cyg"))
+    size.click()
+    assert app.evaluate(px, "alf CMa") == pytest.approx(13.0)
+
+    tag = "n => window.__SA3.bodies().find(b => b.data.name === n).tag"
+    shown = f"n => {{ const t = ({tag})(n); return t.visible ? t.element.textContent : null; }}"
+    assert app.evaluate(shown, "alf CMa") is None
+    for mode, label, sirius in (("apparent", "Apparent brightness", "#1"),
+                                ("bolometric", "Luminosity (all light)", "#93"),
+                                ("visual", "Luminosity (visible light)", "#94")):
+        ranks.click()
+        assert ranks.get_attribute("data-mode") == mode and label in ranks.inner_text()
+        assert app.evaluate(shown, "alf CMa") == sirius
+    # A class hidden from the legend takes its stars' labels with it, and brings them back.
+    row = app.locator("label[data-kind=bgroup]", has_text="A-type").locator("input")
+    row.uncheck()
+    assert app.evaluate(shown, "alf CMa") is None
+    row.check()
+    assert app.evaluate(shown, "alf CMa") == "#94"
+    app.get_by_role("button", name="Even more features").click()       # the legend click closed the menu
+    ranks.click()
+    assert ranks.get_attribute("data-mode") == "off" and app.evaluate(shown, "alf CMa") is None
+
+
+def test_app_brightest_stars_compress_distances_and_back_is_exact(app):
+    _open_brightest(app)
+    app.evaluate("() => window.__SA3.setDriftRange('both')")       # so the trails are drawn too
+    before = app.evaluate(_BRIGHT_STATE)
+    assert before["trails"]
+    app.get_by_role("button", name="Even more features").click()
+    app.locator("button[data-optional='compress-distances']").click()
+    r = app.evaluate("""() => { const S = window.__SA3, at = n => S.bodies().find(b => b.data.name === n);
+        const half = 2616 * 1.1, f = r => half * Math.log10(1 + r / 10) / Math.log10(1 + half / 10);
+        const deneb = at('alf Cyg'), sirius = at('alf CMa');
+        return { on: S.compressed(),
+                 deneb: deneb.obj.position.length(), denebWant: f(deneb.at.length()),
+                 sirius: sirius.obj.position.length(), siriusWant: f(sirius.at.length()),
+                 // the direction is the true one
+                 turn: deneb.obj.position.clone().normalize().dot(deneb.at.clone().normalize()),
+                 trueDeneb: deneb.at.length(),
+                 shells: S.lines().filter(l => l.userData.compressOnly).map(l => l.visible) }; }""")
+    assert r["on"] and r["shells"] == [True, True]
+    assert r["deneb"] == pytest.approx(r["denebWant"]) and r["sirius"] == pytest.approx(r["siriusWant"])
+    assert r["turn"] == pytest.approx(1.0) and r["trueDeneb"] == pytest.approx(2616, abs=1)
+    # Sirius is 300 times nearer than Deneb and now drawn a tenth as far out, not a three-hundredth.
+    assert r["sirius"] / r["deneb"] > 0.1
+    # The tooltip still gives the true distance.
+    xy = app.evaluate("""() => { const S = window.__SA3, b = S.bodies().find(b => b.data.name === 'alf Cyg');
+        const v = b.obj.position.clone().project(S.camera), r = S.renderer.domElement.getBoundingClientRect();
+        return [(v.x + 1) / 2 * r.width + r.left, (1 - v.y) / 2 * r.height + r.top]; }""")
+    app.keyboard.press("Escape")
+    app.mouse.click(5, 400)                      # close the menu, which may cover the star
+    app.mouse.move(*xy)
+    picked = app.evaluate("xy => { const b = window.__SA3.pick(xy[0], xy[1]); return b && b.data.name; }", xy)
+    if picked == "alf Cyg":
+        assert "2616.00 ly from the Sun" in app.locator("body").inner_text()
+    # Play moves a star along its arrow, compressed as the arrow is.
+    app.evaluate("() => window.__SA3.setFrame(window.__SA3.nFrames() - 1)")
+    off = app.evaluate("""() => { const S = window.__SA3, b = S.bodies().find(b => b.data.name === 'alf CMa');
+        const l = S.lines().find(l => l.userData.owner === 'alf CMa' && l.visible && l.userData.frame);
+        // A fat line: [start, end] per segment.  The shaft is cut in eight, so its tip ends the eighth.
+        const a = l.geometry.attributes.instanceStart.data.array, n = 7 * 6 + 3;
+        const tip = new S.camera.position.constructor(a[n], a[n + 1], a[n + 2]).add(l.position);
+        return tip.distanceTo(b.obj.position) / b.obj.position.length(); }""")
+    assert off < 1e-3
+    app.evaluate("k => window.__SA3.setOptional(k, false)", "compress-distances")
+    app.evaluate("() => { const S = window.__SA3; S.setFrame((S.nFrames() - 1) / 2); }")     # today
+    assert app.evaluate(_BRIGHT_STATE) == before
+
+
+def test_app_brightest_stars_compression_survives_a_switch_away_and_back(app):
+    _open_brightest(app)
+    app.evaluate("k => window.__SA3.setOptional(k, true)", "compress-distances")
+    far = app.evaluate("() => Math.max(...window.__SA3.bodies().map(b => b.obj.position.length()))")
+    app.evaluate("() => window.__SA3.openSystem('alpha-centauri')")
+    app.wait_for_function("() => window.__SA3.key === 'alpha-centauri'")
+    assert not app.evaluate("() => window.__SA3.compressed()")
+    app.evaluate("() => window.__SA3.setBands(true)")
+    report = app.evaluate("() => window.__SA3.bands().filter(m => m.visible).map(m => window.__t3.planarity(m))")
+    assert len(report) > 20 and max(report) < 1e-5, "Alpha Centauri's bands are flat discs after the view"
+    _open_brightest(app)
+    again = app.evaluate("""() => { const S = window.__SA3;
+        return { on: S.compressed(), far: Math.max(...S.bodies().map(b => b.obj.position.length())),
+                 shells: S.lines().filter(l => l.userData.compressOnly).map(l => l.visible) }; }""")
+    assert again["on"] and again["far"] == pytest.approx(far) and again["shells"] == [True, True]
+    app.evaluate("k => window.__SA3.setOptional(k, false)", "compress-distances")
+
+
+def test_app_a_star_in_both_motion_views_has_the_right_panel_in_each(page, snapshot_app_url):
+    for p in _load_three(page, snapshot_app_url + "?intro=0"):
+        panel = p.locator("#_sa_info_panel")
+
+        def show(name):
+            p.evaluate("n => window.__SA3.search(n)", name)
+            panel.wait_for(state="visible")
+            return panel.inner_text()
+
+        # Aldebaran is a Systems-tab star (it has a planet) and one of the hundred: 'alf Tau' in both.
+        _open_view(p)
+        nearby = show("alf Tau")
+        assert "Planets" in nearby and "Apparent brightness rank" not in nearby
+        _open_brightest(p)
+        bright = show("Aldebaran")
+        assert "alf Tau" in bright and "Apparent brightness rank" in bright and "Planets" not in bright
+        assert "Also on tabs" in bright
+        # Its "Go to system" opens the catalog system, whose star is 'alf Tau' too.
+        p.get_by_role("button", name="Go to system").click()
+        p.wait_for_function("() => window.__SA3.key === 'catalog:alf Tau'", timeout=30_000)
+        p.evaluate("() => window.__SA3.setBands(true)")
+        flat = p.evaluate("() => window.__SA3.bands().filter(m => m.visible).map(m => window.__t3.planarity(m))")
+        assert flat and max(flat) < 1e-5
+        # Back in each view the panel is that view's own, whichever was opened last.
+        _open_brightest(p)
+        assert "Apparent brightness rank" in show("alf Tau")
+        _open_view(p)
+        back = show("alf Tau")
+        assert "Planets" in back and "Apparent brightness rank" not in back
+        # A star with no system on any tab offers no "Go to system".
+        _open_brightest(p)
+        show("Sirius")
+        assert p.get_by_role("button", name="Go to system").count() == 0
+
+
+def test_app_a_long_panel_scrolls_inside_the_window(app):
+    _open_brightest(app)
+    app.set_viewport_size({"width": 1400, "height": 500})
+    app.evaluate("() => window.__SA3.search('Sirius')")
+    panel = app.locator("#_sa_info_panel")
+    panel.wait_for(state="visible")
+    box = panel.bounding_box()
+    assert box["y"] >= 0 and box["y"] + box["height"] <= 500
+    assert app.evaluate("() => { const e = document.getElementById('_sa_info_panel');"
+                        " return e.scrollHeight > e.clientHeight; }")

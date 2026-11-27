@@ -245,6 +245,12 @@ def figure_to_scene(fig: go.Figure) -> dict:
             if bmeta.get("drift"):
                 # A view's star: where Play carries it, per motion frame (star_motion.drift_ly).
                 bodies[-1]["drift"] = bmeta["drift"]
+            if bmeta.get("alt_size") is not None:
+                # Its size while the scene's `altSize` set is on (brightest_stars: by true luminosity).
+                bodies[-1]["altSize"] = float(bmeta["alt_size"])
+            if bmeta.get("tags"):
+                # Short labels by mode of the scene's `tags` set (its ranks).
+                bodies[-1]["tags"] = bmeta["tags"]
         elif t.type == "scatter3d" and t.mode and "lines" in t.mode \
                 and t.x is not None and len(t.x) > 1:
             line = t.line
@@ -273,6 +279,9 @@ def figure_to_scene(fig: go.Figure) -> dict:
             if meta.get("follows"):
                 # A moon's orbit: moved with this body every frame.
                 lines[-1]["follows"] = meta["follows"]
+            if meta.get("compress_only"):
+                # Drawn only while the scene's distances are compressed (a shell that marks a radius).
+                lines[-1]["compressOnly"] = True
             if meta.get("coil"):
                 # A coil: the path of this body over the window, re-sampled for another span.
                 lines[-1]["coil"] = meta["coil"]
@@ -360,6 +369,12 @@ def figure_to_scene(fig: go.Figure) -> dict:
         "clouds": meta.get("clouds") or [],
         # A view whose stars Play moves along their arrows ({years, steps}); None for a system.
         "drift": meta.get("drift"),
+        # A view's switches, each naming the optional set that turns it ({set, ...}); None for a system.
+        # altSize: bodies drawn at their `altSize`.  tags: each body labelled with its `tags[mode]`.
+        # compress: every distance drawn at log10(1 + r / r0), in its true direction.
+        "altSize": meta.get("alt_size"),
+        "tags": meta.get("tags"),
+        "compress": meta.get("compress"),
     }
 
 

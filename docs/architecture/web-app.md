@@ -107,6 +107,16 @@ A featured system's label on its button and in the list is
 `FEATURED_LABELS.get(key, system.name)`. None differs today; Castor's read
 "Castor (Planetless)" until 7 Oct 2026.
 
+**Stellar Motion** also holds `brightest-star-motion`, **Brightest Stars in the Night Sky**: a *listed*
+view (`views.LISTED_VIEWS`), which is a view with an index entry (`view: true`, `featured: false`,
+`n_stars: 100`) and no featured button. It is built by `build_view()` like a featured view, is off with
+the catalog, and is not in a file page. See `docs/architecture/star-motion.md`.
+
+A view's info panels stay with its scene. When the viewer fetches an entry marked `view`, it keeps the
+payload's `body_info` as `scene.info` instead of merging it into `_SA_BODY_INFO`, and reads there first
+(`infoFor()` in `three_viewer.js`). Aldebaran is `alf Tau` in both motion views and in its own catalog
+system; one table for all three showed whichever was loaded last.
+
 **Stellar Motion** also holds `galactic:sgr-a`, listed as **Sgr A\* Cluster (Galactic Center)** after Nearby
 Stellar Motion (it had a Galactic Center type of its own until 10 Oct 2026): the S-stars round Sgr A*, read from the workbook's
 Sgr A* S-stars tab by `sgr_a_loader.py` (`SystemLibrary.galactic()`, cached like `planetless()`, off with the
@@ -119,7 +129,8 @@ systems; the other ten, whose brown dwarfs are planets, are under Planetary),
 most stars first (every
 star row, candidates included: `n_stars`), then nearest
 (`planetless_loader.py`, ids `planetless:<host>`, built on demand like a
-catalog system); Stellar Motion is Nearby Stellar Motion.
+catalog system); Stellar Motion is Nearby Stellar Motion, then Brightest Stars in the Night Sky, then the
+Sgr A* Cluster.
 The same list holds the catalog's systems of stars with no planet
 (`Catalog.star_systems()`, `docs/architecture/catalog.md` rule 5): ids
 `catalog:<host>`, `kind: "planetless"`, `n_stars` their stars, opened by the

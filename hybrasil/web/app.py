@@ -53,7 +53,7 @@ from ..data.sgr_a_loader import (SYSTEM_ID as SGR_A_ID, build_sgr_a_system, load
                                  sgr_a_span_days)
 from ..figures import _NATURAL_SPANS, _natural_span_days, build_figure
 from ..mechanics.solvent_bands import SolventChoice
-from ..views import FEATURED_VIEWS, build_view, system_kind
+from ..views import FEATURED_VIEWS, LISTED_VIEWS, build_view, system_kind, view_name
 from ..mechanics.units import jd_now
 from ..viz.export import build_body_info, build_solvent_table_js
 from ..viz.three_viewer import (INTRO_DIR, INTRO_URL, SKY_DIR, SKY_FILE, SKY_URL,
@@ -193,6 +193,14 @@ class SystemLibrary:
                 "aliases": [], "planets": [], "n_planets": 0,
                 "distance_ly": None, "stellar_class": "",
             })
+        # Listed views: Stellar Motion entries with no button (Brightest Stars in the Night Sky).
+        # Each reads a tab of the workbook, so they are switched off with the catalog.
+        for key, (label, _, fields) in (LISTED_VIEWS.items() if self._use_catalog else ()):
+            entries.append({
+                "id": key, "name": label, "featured": False, "view": True, "kind": system_kind(key),
+                "aliases": [], "planets": [], "n_planets": 0, "distance_ly": None, "stellar_class": "",
+                **fields,
+            })
         # Every hierarchy of 4+ stars on the Planetless tab, but the one a
         # featured system draws (Castor): listed under High Star Count (Planetless) only.
         def also(host: str, names: list) -> None:
@@ -283,12 +291,12 @@ class SystemLibrary:
             return hit
         if not self.known(system_id):
             raise KeyError(system_id)
-        if system_id in FEATURED_VIEWS:
+        if system_id in FEATURED_VIEWS or system_id in LISTED_VIEWS:
             # The live catalog when it loaded, else the committed snapshot; and
             # the planetless systems the library already holds, for the view's
             # Planetless Systems button.
             fig, info = build_view(system_id, self.catalog(), self.planetless())
-            payload = {"id": system_id, "name": FEATURED_VIEWS[system_id][0],
+            payload = {"id": system_id, "name": view_name(system_id),
                        "scene": figure_to_scene(fig), "body_info": info}
             with self._lock:
                 self._scenes.setdefault(system_id, payload)

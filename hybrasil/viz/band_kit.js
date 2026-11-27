@@ -411,6 +411,7 @@
   // Auto-hides when the user moves the camera (plotly_relayout).
   var _infoPanelEl      = null;
   var _infoPanelShownAt = 0;
+  var _infoPanelShows   = 0;        // counts every show, for hideInfoPanel
   // An entry with `goto` (a system id -- a star in Nearby Stellar Motion) gets a
   // "Go to system" button, when the viewer has said it can open that id:
   // {can: function (id), go: function (id)}.  Only the three.js viewer sets it.
@@ -433,6 +434,8 @@
       'border:1px solid #334d6e', 'border-radius:6px',
       'padding:10px 14px', 'font-family:monospace', 'font-size:12px',
       'min-width:200px', 'max-width:340px', 'z-index:9997',
+      // A long entry (a star with thirty rows) scrolls rather than running off the top.
+      'max-height:calc(100vh - 24px)', 'overflow-y:auto', 'box-sizing:border-box',
       'opacity:0', 'transition:opacity 0.25s',
       'pointer-events:auto', 'display:none'
     ].join(';');
@@ -440,9 +443,12 @@
     _infoPanelEl = el;
   }
 
-  function showInfoPanel(name) {
+  // `own` is the entry to show, where the caller holds one of its own for this
+  // name (a view in the web app, whose entries stay with its scene); else the
+  // page's table is read.
+  function showInfoPanel(name, own) {
     if (!_infoPanelEl) createInfoPanel();
-    var info = window._SA_BODY_INFO && window._SA_BODY_INFO[name];
+    var info = own || (window._SA_BODY_INFO && window._SA_BODY_INFO[name]);
     // Orbit / axis line traces are named "<body> orbit" / "<body> axis".
     // If the direct lookup misses, strip the suffix and try the body name.
     var displayName = name;
@@ -540,14 +546,18 @@
     _infoPanelEl.style.display = 'block';
     requestAnimationFrame(function () { _infoPanelEl.style.opacity = '1'; });
     _infoPanelShownAt = Date.now();
+    _infoPanelShows++;
   }
 
   function hideInfoPanel() {
     if (!_infoPanelEl) return;
     _infoPanelEl.style.opacity = '0';
-    var el = _infoPanelEl;
+    var el = _infoPanelEl, shows = _infoPanelShows;
     setTimeout(function () {
-      if (el.style.opacity === '0') el.style.display = 'none';
+      // Not if it was shown again meanwhile: its fade-in starts a frame later,
+      // so the opacity alone can still read 0 here (a system switch hides the
+      // panel, and a search in the new system shows it straight away).
+      if (el.style.opacity === '0' && _infoPanelShows === shows) el.style.display = 'none';
     }, 280);
   }
 
