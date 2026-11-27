@@ -86,48 +86,47 @@ def drift_ranges() -> list[dict]:
             {"key": DRIFT_PAST, "label": f"\u2212{yr} \u2192 Now", "from": -1, "to": 0},
             {"key": DRIFT_BOTH, "label": f"\u2212{yr} \u2192 +{yr}", "from": -1, "to": 1}]
 
-# The Planetless 4+ Stars systems: one optional set, off until the viewer's
-# Planetless Systems button turns it on.  Coloured by class like every star,
-# with a white ring so they read as the other tab's, in one legend group.
+# What the view draws is chosen in its Systems Modeled dropdown (SYSTEMS_MENU): the systems with a
+# planet or a planet candidate always, and four optional sets, each a tick box, all off to begin with.
+SYSTEMS_MENU = "systems"
+SYSTEMS_MENU_LABEL = "Systems Modeled"
+SYSTEMS_MENU_BASE = "Systems with exoplanets or candidates"
+SYSTEMS_MENU_ALL = "All"
+
+# Systems of stars with no planet on file: the Planetless 4+ Stars tab's hierarchies, and the Systems
+# tab's star pairs (HIP 55507 and its companion, once listed as a planet).  Coloured by class like
+# every star, with a white ring so they read as their own kind, in one legend group.
 PLANETLESS_SET = "planetless"
 PLANETLESS_LABEL = "High Star Count Systems"
-PLANETLESS_GROUP = "High star count systems (4+ stars)"
+PLANETLESS_GROUP = "High star count systems (no known planet)"
 PLANETLESS_RING = "#FFFFFF"
 
-# A refuted system: a Systems-tab star whose every planet went to the Rejected
-# candidates tab (NearbyStar.refuted).  It stays in the view, coloured by class
-# with a red ring, but hidden until the Known button's last step, Refuted only;
-# its panel greys out "Go to system" and says why in red.
-REFUTED_MODE = "refuted"
+# A refuted system: a Systems-tab star whose every planet went to the Rejected candidates tab
+# (NearbyStar.refuted).  It stays in the view, coloured by class with a red ring, in a set of its
+# own; its panel greys out "Go to system" and says why in red.
+REFUTED_SET = "refuted"
+REFUTED_LABEL = "Refuted Systems"
 REFUTED_GROUP = "Exoplanet system refuted"
 REFUTED_RING = "#FF4444"
 REFUTED_NOTE = "Exoplanet system recently refuted"
 
-# Every other catalogued object within 100 ly (the Known within 100ly tab's
-# unplotted rows): one optional layer, off until its button turns it on.  They
-# are not classified yet, so all are one purple, smaller than any classified
-# star; thousands of them travel as one compact "cloud" (layout.meta.clouds)
-# rather than a trace each, and the viewer draws them as one point set with one
-# arrow set per motion frame.
+# Every other catalogued object within 100 ly (the Known within 100ly tab's unplotted rows).  They
+# are not classified yet, so all are one purple, smaller than any classified star; thousands of them
+# travel as one compact "cloud" (layout.meta.clouds) rather than a trace each, and the viewer draws
+# them as one point set with one arrow set per motion frame.
 KNOWN_SET = "known"
 KNOWN_LABEL = "All Known Systems within 100 ly"
 KNOWN_GROUP = "Unclassified (All Known Systems within 100 ly)"
 UNCLASSIFIED_COLOUR = "#B266FF"
 KNOWN_SIZE = 4.0
 # Of those, the objects no curated catalog lists -- only Gaia DR3 does, and Gaia's own quality score calls their
-# astrometry probably spurious (the workbook's Existence column, data/existence/).  Kept, but in their own colour
-# and cloud, behind the same button.
+# astrometry probably spurious (the workbook's Existence column, data/existence/).  Kept, but in their own colour,
+# cloud and set.
 UNCONFIRMED_KEY = "known-unconfirmed"
+UNCONFIRMED_LABEL = "Unconfirmed Systems (Gaia DR3 only)"
 UNCONFIRMED_GROUP = "Existence unconfirmed (Gaia DR3 only)"
 UNCONFIRMED_COLOUR = "#7FFFD4"                 # aquamarine
 UNCONFIRMED_SLUG = ("Existence unconfirmed", "Only cited in Gaia DR3")
-# The Known button cycles Off -> All -> Excluding unconfirmed -> Unconfirmed only -> Off.  A mode that names
-# `clouds` shows only those clouds of the set; one that names none shows them all.
-KNOWN_MODES = [{"key": "all", "label": "All"},
-               {"key": "confirmed", "label": "Excluding unconfirmed", "clouds": [KNOWN_SET]},
-               {"key": "unconfirmed", "label": "Unconfirmed only", "clouds": [UNCONFIRMED_KEY]},
-               # The refuted systems alone: no cloud, and the set's bodies tagged with this mode.
-               {"key": REFUTED_MODE, "label": "Refuted only", "clouds": []}]
 # Stand-ins for a cloud point's own ids in its link templates; the viewer swaps each point's ids in.
 ID_SLOTS = {"gaia_id": "@GAIA@", "simbad_id": "@SIMBAD@", "cns5_id": "@CID@"}
 
@@ -209,6 +208,9 @@ class MotionView:
     size: Callable = lambda s: marker_size(s.luminosity_sun)
     zoom_half: Callable = lambda s: 4.0
     title: Optional[Callable] = None
+    # Whether a star with no planet or candidate on file waits in the High Star Count set (the nearby
+    # view), or is drawn like any other (a view whose stars are not planet hosts).
+    planet_hosts_only: bool = True
     body_meta: Optional[Callable] = None
     rows: Optional[Callable] = None
     goto: Optional[Callable] = None
@@ -334,7 +336,7 @@ def known_cloud(known: list[NearbyStar], key: str = KNOWN_SET, name: str = KNOWN
                      _r(s.motion_l_deg, 2), _r(s.motion_b_deg, 2), _r(s.radial_velocity_kms, 2),
                      None if s.total_pm_arcsec_yr is None else round(s.total_pm_arcsec_yr * 1000, 1), src,
                      ti, s.gaia_id, s.simbad_id, s.cns5_id.replace("CNS5", "").strip(), ei])
-    out = {"key": key, "name": name, "optional": KNOWN_SET, "color": colour,
+    out = {"key": key, "name": name, "optional": key, "color": colour,
            "size": KNOWN_SIZE, "motionGroup": MOTION_GROUP, "zoomHalf": 4.0, "pos": pos, "arrows": arrows,
            "drift": drift, "info": info, "sources": list(sources), "sunPeculiar": list(SUN_PECULIAR_KMS),
            "linkTemplates": [t for _, t in sorted(templates.values(), key=lambda x: x[0])],
@@ -374,6 +376,10 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
                                    rank[spectral_kind(s.stellar_class, s.luminosity_class)]))
     taken = {s.name for s in placed}
     extra = [s for s in planetless if s.has_position and s.name not in taken]
+    # A Systems-tab system of stars with no planet (and not refuted, which is its own set) joins them.
+    pairs = [s for s in placed if config.planet_hosts_only and not s.is_sun and not s.refuted and not s.planets]
+    placed = [s for s in placed if s not in pairs]
+    extra = pairs + extra
     for s in extra:
         x, y, z = position_ly(s)
         traces.append(go.Scatter3d(
@@ -402,10 +408,10 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
         )
         group = spectral_group(s)
         if s.refuted:
-            # One of the Known set, shown in its Refuted only mode alone; its arrows are owned by it.
+            # One of the Refuted set; its arrows are owned by it.
             trace.update(marker_line=dict(width=1.5, color=REFUTED_RING),
                          legendgroup=REFUTED_GROUP, legendgrouptitle=dict(text=REFUTED_GROUP),
-                         meta=body_meta(s, optional=KNOWN_SET, mode=REFUTED_MODE))
+                         meta=body_meta(s, optional=REFUTED_SET))
             refuted_traces.append(trace)
             continue
         if group:
@@ -448,7 +454,6 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
     n_systems = sum(1 for s in placed if not s.is_sun and not s.refuted)
     clouds = known_clouds(list(known)) if known else []
     n_known = sum(len(c["info"]) for c in clouds)
-    n_doubt = sum(len(c["info"]) for c in clouds if c["key"] == UNCONFIRMED_KEY)
     title = (f"{VIEW_NAME} — {n_systems} systems within 100 ly, {n_moving} with a "
              f"measured motion" + (f" (+{len(extra)} high star count systems on request)" if extra else "")
              + (f" (+{n_known:,} unclassified objects on request)" if n_known else "")
@@ -466,34 +471,32 @@ def build_star_motion_figure(stars: list[NearbyStar], source: str = "",
             # Play moves every star along its arrow: the arrow's ARROW_YEARS in DRIFT_STEPS frames.
             "drift": {"years": ARROW_YEARS, "steps": DRIFT_STEPS,
                       "default": DRIFT_DEFAULT, "ranges": drift_ranges()}}
+    # The Systems Modeled dropdown's tick boxes, each an optional set that is off until asked for.
+    sets = []
     if extra:
-        # A set of bodies the viewer offers behind a button, off until asked for.
-        meta["optional_sets"] = [{"key": PLANETLESS_SET, "label": PLANETLESS_LABEL, "default": False,
-                                  "count": len(extra),
-                                  "title": "Add the systems of the workbook's Planetless 4+ Stars tab: "
-                                           "hierarchies of stars with no known planet but, for some, brown "
-                                           "dwarfs, which this model counts as planets"}]
-    if n_known or n_refuted:
-        split = bool(n_doubt and n_doubt < n_known)
-        refuted_tip = (f"{n_refuted} systems whose every planet candidate was later refuted, ringed in red"
-                       if n_refuted else "")
-        meta.setdefault("optional_sets", []).append({
-            "key": KNOWN_SET, "label": KNOWN_LABEL, "default": False, "count": n_known,
-            "title": ("Add every other catalogued object within 100 ly (the workbook's Known within 100ly tab), "
-                      f"not yet classified, in purple; {sum(c['moving'] for c in clouds):,} have a measured space "
-                      "velocity and an arrow, the rest a dot"
-                      + (f". {n_doubt:,} in aquamarine are listed only by Gaia DR3, whose astrometry for them is "
-                         "probably spurious: existence unconfirmed. Click again to leave them out, again for "
-                         "them alone" if n_doubt else "")
-                      + (f", again for the {refuted_tip}" if refuted_tip else "")
-                      + ", again for off" if n_known else f"Show the {refuted_tip}")})
-        # All -> Excluding unconfirmed -> Unconfirmed only (where the clouds split) -> Refuted only -> Off.
-        modes = ([KNOWN_MODES[0]] if n_known else []) + (KNOWN_MODES[1:3] if split else []) \
-            + ([KNOWN_MODES[3]] if n_refuted else [])
-        if len(modes) > 1 or n_refuted:
-            meta["optional_sets"][-1]["modes"] = modes
-        if clouds:
-            meta["clouds"] = clouds
+        sets.append({"key": PLANETLESS_SET, "label": PLANETLESS_LABEL, "count": len(extra),
+                     "title": "Add the systems of stars with no known planet: the hierarchies of the "
+                              "workbook's Planetless 4+ Stars tab (some hold brown dwarfs, which this model "
+                              "counts as planets) and the Systems tab's star pairs, ringed in white"})
+    for c in clouds:
+        doubt = c["key"] == UNCONFIRMED_KEY
+        sets.append({"key": c["key"], "label": UNCONFIRMED_LABEL if doubt else KNOWN_LABEL,
+                     "count": len(c["info"]),
+                     "title": ("Add the objects only Gaia DR3 lists, whose astrometry for them is probably "
+                               "spurious, in aquamarine: existence unconfirmed" if doubt else
+                               "Add every other catalogued object within 100 ly (the workbook's Known within "
+                               f"100ly tab), not yet classified, in purple; {c['moving']:,} have a measured "
+                               "space velocity and an arrow, the rest a dot")})
+    if n_refuted:
+        sets.append({"key": REFUTED_SET, "label": REFUTED_LABEL, "count": n_refuted,
+                     "title": f"Add the {n_refuted} systems whose every planet candidate was later refuted, "
+                              "ringed in red"})
+    if sets:
+        meta["optional_sets"] = [dict(o, default=False, menu=SYSTEMS_MENU) for o in sets]
+        meta["optional_menus"] = {SYSTEMS_MENU: {"label": SYSTEMS_MENU_LABEL, "base": SYSTEMS_MENU_BASE,
+                                                 "all": SYSTEMS_MENU_ALL}}
+    if clouds:
+        meta["clouds"] = clouds
     for k, v in (config.meta or {}).items():
         # A view's own optional sets follow the standard ones.
         meta[k] = meta.get(k, []) + v if k == "optional_sets" else v

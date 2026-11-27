@@ -294,7 +294,7 @@ class SystemLibrary:
         if system_id in FEATURED_VIEWS or system_id in LISTED_VIEWS:
             # The live catalog when it loaded, else the committed snapshot; and
             # the planetless systems the library already holds, for the view's
-            # Planetless Systems button.
+            # High Star Count Systems box.
             fig, info = build_view(system_id, self.catalog(), self.planetless())
             payload = {"id": system_id, "name": view_name(system_id),
                        "scene": figure_to_scene(fig), "body_info": info}

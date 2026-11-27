@@ -81,10 +81,46 @@ flies to it.
       search and the legend never see it; `__SA3.trails()`, `driftRange()`
       and `setDriftRange()` are the test handles.
 
-## The planetless systems, behind a button
+## Systems Modeled: the dropdown that chooses what is drawn
+
+Since 27 Nov 2026 one dropdown, **Systems Modeled ▾**, replaces the two cycling
+buttons (✚ High Star Count Systems, ✚ All Known Systems within 100 ly).
+
+- **By default the view draws only systems with a planet or a planet candidate
+  on file**: 409 on the 26 Nov 2026 snapshot, plus the Sun. The dropdown's first
+  row says so, ticked and fixed ("Systems with exoplanets or candidates").
+- **Four tick boxes follow, all off to begin with, each an optional set of its own:**
+
+  | Box | Set key | What it adds |
+  |---|---|---|
+  | High Star Count Systems | `planetless` | the Planetless 4+ Stars tab's 80 systems and the Systems tab's 5 star pairs with no planet, ringed white |
+  | All Known Systems within 100 ly | `known` | the purple cloud |
+  | Unconfirmed Systems (Gaia DR3 only) | `known-unconfirmed` | the aquamarine cloud |
+  | Refuted Systems | `refuted` | the 12 refuted systems, ringed red |
+
+- **All** is the last row. It ticks every box; clicked while every box is
+  ticked, it clears them. It reads ticked only while all four are.
+- The boxes are independent. The old cycle's steps are combinations of them:
+  "Excluding unconfirmed" is the purple box alone, "Refuted only" the red one
+  alone. A search that lands on a hidden object ticks that object's box and no
+  other.
+- **The five star pairs moved.** HIP 55507, GJ 680 and three Gaia DR3 pairs have
+  no planet on file (each "planet" was a companion star), so they are not drawn
+  by default any more: `build_star_motion_figure` puts a Systems-tab star with no
+  planet, not refuted, in the `planetless` set (`MotionView.planet_hosts_only`,
+  off for Brightest Stars in the Night Sky). They keep their arrows, panels and
+  "Go to system".
+- **In the figure:** each set carries `menu: "systems"`, and
+  `layout.meta.optional_menus` = `{"systems": {label, base, all}}` declares the
+  dropdown (`scene.optionalMenus`). In the viewer, `setMenu()` is the one
+  dropdown component: Even more features is an instance of it, and a scene's
+  own menus are made on demand (`syncSetMenus()`). On a phone it moves into the
+  ⋯ menu and opens in place, as Even more features does.
+
+## The planetless systems, behind a tick box
 
 The 80 systems of the workbook's **Planetless 4+ Stars** tab can be added to the
-view with the **✚ High Star Count Systems** button (labelled "Planetless Systems" until 10 Oct 2026), which is **off by default**.
+view with the **High Star Count Systems** box of Systems Modeled (a button of its own until 27 Nov 2026), which is **off by default**.
 
 - **Data:** each system's host-star row, under the same headers the view reads from
   Systems (`Distance (ly)`, `Galactic longitude/latitude`, `Space velocity`,
@@ -95,17 +131,17 @@ view with the **✚ High Star Count Systems** button (labelled "Planetless Syste
 - **Drawing:** coloured by class like every star, with a white ring
   (`PLANETLESS_RING`), all in one legend group, `PLANETLESS_GROUP`. Their arrows
   are owned by their markers, so they hide with them. The title's system count is
-  still the Systems tab's; it adds "(+80 high star count systems on request)". The legend group reads "High star count systems (4+ stars)".
+  the Systems tab's systems with a planet; it adds "(+85 high star count systems on request)", the five star pairs included. The legend group reads "High star count systems (no known planet)".
 - **"Go to system":** `planetless:<host>`, the web app's id; Castor (alf Gem)
   opens the featured Castor.
 - **Where they come from:** the web app passes the systems its library already
   holds (`SystemLibrary.planetless()`); the CLI and the file page load the tab
   themselves, live or snapshot. A failure costs these systems and nothing else.
 
-## The unclassified objects of the Known within 100ly tab, behind a button
+## The unclassified objects of the Known within 100ly tab, behind two tick boxes
 
-Every other catalogued object within 100 ly can be added with the **✚ All Known Systems
-within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off by default**. These are the unplotted rows of the workbook's
+Every other catalogued object within 100 ly can be added with the **All Known Systems
+within 100 ly** box of Systems Modeled (a button of its own until 27 Nov 2026), **off by default**. These are the unplotted rows of the workbook's
 `Known within 100ly` tab, about 10,200 of them, which no other tab draws.
 
 - **Data:** `catalog_loader.parse_workbook()` keeps the tab's `Plotted = FALSE`
@@ -121,17 +157,16 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
 - **Existence unconfirmed, aquamarine:** the 689 objects whose `Existence` cell
   reads `unconfirmed: only cited in Gaia DR3` are a second cloud,
   `UNCONFIRMED_COLOUR` `#7FFFD4`, with its own legend row ("Existence unconfirmed
-  (Gaia DR3 only)"), behind the same button (`known_clouds()`). SIMBAD has no entry
+  (Gaia DR3 only)"), behind a
+  box of its own, **Unconfirmed Systems (Gaia DR3 only)** (`known_clouds()`; each cloud's `optional` is its own key). SIMBAD has no entry
   for their Gaia DR3 identifier and CNS5 does not list them. Gaia's own
   spurious-astrometry score, `fidelity_v2` (Rybizki et al. 2022), is below 0.05
   for every one, so most are probably not within 100 ly at all. They are flagged,
   not removed. Their panel opens with **Existence unconfirmed: Only cited in Gaia
   DR3** and the score.
-- **The button cycles** (since 10 Oct 2026): Off → **All** → **Excluding
-  unconfirmed** (the purple cloud alone) → **Unconfirmed only** (the aquamarine
-  cloud alone) → **Refuted only** (no cloud; the refuted systems, below) → Off.
-  The set carries `modes` (`KNOWN_MODES`); a search that finds an object its
-  mode hides turns the set back to All, or to Refuted only for a refuted system.
+- **No cycle any more.** From 10 Oct to 27 Nov 2026 one button stepped Off → All →
+  Excluding unconfirmed → Unconfirmed only → Refuted only. Each of those is now a
+  combination of tick boxes ("Systems Modeled" above).
 - **A cloud, not traces:** 10,000 single-point traces and 14,000 arrow traces
   would be 24,000 draw calls. `star_motion.known_cloud()` ships them as one
   compact `layout.meta.clouds` entry instead. `figure_to_scene` passes it on as
@@ -148,7 +183,7 @@ within 100 ly** button (labelled "Known within 100 ly" until 10 Oct 2026), **off
   legend row, listed while its set is on, and its arrows follow the motion
   frame and the Motion row. `__SA3.clouds()` is the test handle.
 
-## Refuted systems, at the button's last step
+## Refuted systems, behind their own tick box
 
 A **refuted system** is a Systems-tab star whose every planet has gone to the
 Rejected candidates tab, and which has no companion star to draw in a planet's
@@ -162,11 +197,10 @@ has no planet on file (`Catalog.hosts()`) and is no system of stars
   one, no planet left and no page of stars to open. A workbook change moves a star in or out.
 - **Hidden until asked for.** Its marker keeps its class colour inside a red
   ring (`REFUTED_RING`), in the legend group "Exoplanet system refuted", and is
-  tagged `meta={"optional": KNOWN_SET, "mode": "refuted"}`. It is drawn only at
-  the Known button's last step, **Refuted only**, where the two clouds are
-  hidden and every ordinary star stays as it is at every other step. Its
+  tagged `meta={"optional": REFUTED_SET}`. It is drawn only while Systems
+  Modeled's **Refuted Systems** box is ticked; every ordinary star stays as it is. Its
   arrows are owned by it, so they come and go with it. The title counts the
-  refuted apart ("414 systems ... (+12 refuted systems on request)"). GJ 229
+  refuted apart ("409 systems ... (+12 refuted systems on request)"). GJ 229
   left the list on 25 Nov 2026, when its brown dwarf pair went on file
   (`data/gj229/`): Ba on Planets, Bb its moon on Exomoons. HIP 55507, GJ 680
   and GJ 773 B left it on 26 Nov 2026: each "planet" was a companion star, the
@@ -179,8 +213,6 @@ has no planet on file (`Catalog.hosts()`) and is no system of stars
 - **"Rejected candidates" row.** Any star with a rejected candidate, refuted
   or not, lists each with the first sentence of the sheet's reason
   (`_rejected_text()`): Kapteyn's reads "Kapteyn b (...); Kapteyn c (ROTATION)".
-- A system with no known objects to show still gets the button, with Refuted
-  only as its one step.
 
 ### Optional sets, the general feature
 
@@ -207,7 +239,10 @@ A set may hold **lines** as well as bodies: a scene line with `optional: key`
 is shown only while its set is on (`refreshOwnedLines`), and its legend group is
 listed under the set's label only while it is on. A set declared with
 `menu: "features"` gets no bar button: it is a toggle row of the **Even more
-features ▾** menu instead, which is hidden in a scene without such a set. The
+features ▾** menu instead, which is hidden in a scene without such a set. A set
+whose `menu` names an entry of the scene's `optionalMenus` is a row of that
+dropdown ("Systems Modeled" above). No scene declares a bar button or a set with
+`clouds` modes today; the viewer still supports both. The
 photosynthesis rings are the first (`docs/architecture/photosynthesis.md`).
 
 ## Sources: where each star is on record

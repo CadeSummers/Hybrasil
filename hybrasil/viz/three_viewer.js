@@ -1004,7 +1004,7 @@ function setMotionFrame(key) {
   ui.sync();
 }
 
-// Optional sets (Nearby Stellar Motion's Planetless Systems): bodies a scene
+// Optional sets (Nearby Stellar Motion's High Star Count Systems): bodies a scene
 // offers behind a button of their own, off until asked for, with the lines
 // they own.  The choice is kept across a switch to another system and back,
 // as the motion frame is.
@@ -1036,7 +1036,7 @@ function cloudInSet(c) {
   return !mode || !mode.clouds || mode.clouds.includes(c.data.key);
 }
 // A body of a set shows while the set is on -- or, when it names a `mode`, in
-// that mode alone (a refuted system: the Known set's Refuted only).
+// that mode alone.
 function bodyInSet(d) {
   if (!d.optional) return true;
   if (!optionalOn(d.optional)) return false;
@@ -1556,7 +1556,7 @@ const ui = (() => {
   });
   frameBtn.title = 'Which frame the motion arrows are measured in: the Sun, or the '
     + 'local standard of rest (the mean motion of stars near the Sun)';
-  // One button per optional set the scene declares (Planetless Systems), made
+  // One button per optional set the scene declares with no `menu`, made
   // when first needed and hidden in a scene without that set.
   const optWrap = document.createElement('span');
   optWrap.style.display = 'contents';
@@ -1565,73 +1565,125 @@ const ui = (() => {
   const skyBtn = btn('✦  Sky: On', () => setSky(!sky.on));
   skyBtn.title = 'The Milky Way behind the system, turned so the galactic-centre arrow points at its centre';
   if (!SKY_URL) skyBtn.style.display = 'none';
-  // Even more features: a menu of optional sets that are not bodies to list
-  // but extra things to draw (the photosynthesis rings), one toggle each.
-  // Built like the More Modeled Systems dropdown; hidden in a scene that
-  // offers none of them.
-  const featWrap = document.createElement('span');
-  featWrap.style.cssText = 'position:relative;display:inline-block';
-  bar.appendChild(featWrap);
-  const featBtn = document.createElement('button');
-  featBtn.style.cssText = css;
-  featBtn.setAttribute('aria-haspopup', 'menu');
-  featBtn.setAttribute('aria-expanded', 'false');
-  featWrap.appendChild(featBtn);
-  const featBox = document.createElement('div');
-  featBox.setAttribute('role', 'menu');
-  featBox.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;width:300px;max-width:calc(100vw - 16px);'
-    + 'box-sizing:border-box;display:none;flex-direction:column;gap:6px;z-index:20;'
-    + 'background:rgba(10,10,30,0.97);border:1px solid #333366;border-radius:4px;'
-    + 'padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5)';
-  featWrap.appendChild(featBox);
-  const featRows = new Map();
-  let featOpen = false;
-  function openFeatures() {
-    featOpen = true;
-    // As the systems dropdown does: over the band kit's panels while open.
-    bar.style.zIndex = '10000';
-    featBox.style.display = 'flex';
-    sync();
+  // A dropdown of tick boxes, one per optional set, built like the More Modeled
+  // Systems dropdown and hidden in a scene that gives it no rows.  `sync(sets,
+  // menu)` fills it: `menu.label` is the button's text, `menu.base` a ticked,
+  // fixed first row naming what is always drawn, and `menu.all` a last row that
+  // ticks every box (or, with all ticked, clears them).  A set with modes steps
+  // through them and then off (nextOptional).
+  const setMenus = [];
+  function setMenu(parent) {
+    const wrap = document.createElement('span');
+    wrap.style.cssText = 'position:relative;display:inline-block';
+    parent.appendChild(wrap);
+    const button = document.createElement('button');
+    button.style.cssText = css;
+    button.setAttribute('aria-haspopup', 'menu');
+    button.setAttribute('aria-expanded', 'false');
+    wrap.appendChild(button);
+    const box = document.createElement('div');
+    box.setAttribute('role', 'menu');
+    box.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;width:300px;max-width:calc(100vw - 16px);'
+      + 'box-sizing:border-box;display:none;flex-direction:column;gap:6px;z-index:20;'
+      + 'background:rgba(10,10,30,0.97);border:1px solid #333366;border-radius:4px;'
+      + 'padding:6px;box-shadow:0 6px 18px rgba(0,0,0,0.5)';
+    wrap.appendChild(box);
+    const rows = new Map();
+    let open = false, shown = [];
+    const row = (role) => {
+      const b = document.createElement('button');
+      b.style.cssText = css + 'text-align:left;';
+      b.setAttribute('role', role);
+      return b;
+    };
+    const baseRow = row('menuitemcheckbox'), allRow = row('menuitemcheckbox');
+    baseRow.dataset.row = 'base'; allRow.dataset.row = 'all';
+    baseRow.disabled = true;
+    baseRow.setAttribute('aria-checked', 'true');
+    baseRow.setAttribute('aria-disabled', 'true');
+    baseRow.style.cssText += 'cursor:default;opacity:0.75;';
+    allRow.addEventListener('click', () => {
+      const on = !shown.every((o) => optionalOn(o.key));
+      for (const o of shown) if (optionalOn(o.key) !== on) setOptional(o.key, on);
+    });
+    function setOpen(on) {
+      if (open === on) return;
+      open = on;
+      // As the systems dropdown does: over the band kit's panels while open.
+      box.style.display = on ? 'flex' : 'none';
+      bar.style.zIndex = on ? '10000' : '12';
+      sync();
+    }
+    button.addEventListener('click', () => setOpen(!open));
+    document.addEventListener('mousedown', (ev) => { if (open && !wrap.contains(ev.target)) setOpen(false); });
+    const self = {
+      wrap, box,
+      sync(sets, menu) {
+        shown = sets;
+        // In the phone's ⋯ menu it is a full-width row like the others.
+        wrap.style.display = sets.length ? (compact ? 'block' : 'inline-block') : 'none';
+        button.style.width = compact ? '100%' : '';
+        if (!sets.length) {
+          if (open) { open = false; box.style.display = 'none'; bar.style.zIndex = '12'; }
+          return;
+        }
+        const lit = sets.some((o) => optionalOn(o.key));
+        button.textContent = `${menu.label} ${open ? '▴' : '▾'}`;
+        button.style.background = lit || open ? '#2a2a70' : '#111130';
+        button.setAttribute('aria-expanded', String(open));
+        for (const [k, b] of rows) b.style.display = sets.some((o) => o.key === k) ? '' : 'none';
+        baseRow.style.display = menu.base ? '' : 'none';
+        if (menu.base) {
+          baseRow.textContent = `☑  ${menu.base}`;
+          if (baseRow.parentNode !== box) box.prepend(baseRow);
+        }
+        for (const o of sets) {
+          let b = rows.get(o.key);
+          if (!b) {
+            b = row('menuitemcheckbox');
+            b.dataset.optional = o.key;
+            b.addEventListener('click', () => setOptional(o.key, nextOptional(o.key)));
+            rows.set(o.key, b);
+          }
+          box.appendChild(b);          // in this scene's order
+          const on = optionalOn(o.key), mode = optionalMode(o.key);
+          b.textContent = `${on ? '☑' : '☐'}  ${o.label}${mode ? `: ${mode.label}` : ''}`;
+          b.dataset.mode = on ? (mode ? mode.key : 'on') : 'off';
+          b.title = (o.title || '') + (o.count ? ` (${o.count.toLocaleString('en-US')})` : '');
+          b.setAttribute('aria-checked', String(on));
+          b.style.background = on ? '#2a2a70' : '#111130';
+        }
+        allRow.style.display = menu.all ? '' : 'none';
+        if (menu.all) {
+          const every = sets.every((o) => optionalOn(o.key));
+          allRow.textContent = `${every ? '☑' : '☐'}  ${menu.all}`;
+          allRow.setAttribute('aria-checked', String(every));
+          allRow.style.background = every ? '#2a2a70' : '#111130';
+          box.appendChild(allRow);
+        }
+      },
+    };
+    setMenus.push(self);
+    return self;
   }
-  function closeFeatures() {
-    if (!featOpen) return;
-    featOpen = false;
-    featBox.style.display = 'none';
-    bar.style.zIndex = '12';
-    sync();
-  }
-  featBtn.addEventListener('click', () => (featOpen ? closeFeatures() : openFeatures()));
-  document.addEventListener('mousedown', (ev) => {
-    if (featOpen && !featWrap.contains(ev.target)) closeFeatures();
-  });
-  function syncFeatures(feats) {
-    // In the phone's ⋯ menu it is a full-width row like the others.
-    featWrap.style.display = feats.length ? (compact ? 'block' : 'inline-block') : 'none';
-    featBtn.style.width = compact ? '100%' : '';
-    if (!feats.length && featOpen) { featOpen = false; featBox.style.display = 'none'; bar.style.zIndex = '12'; }
-    const lit = feats.some((o) => optionalOn(o.key));
-    featBtn.textContent = `✧  Even more features ${featOpen ? '▴' : '▾'}`;
-    featBtn.style.background = lit || featOpen ? '#2a2a70' : '#111130';
-    featBtn.setAttribute('aria-expanded', String(featOpen));
-    for (const [k, b] of featRows) b.style.display = feats.some((o) => o.key === k) ? '' : 'none';
-    for (const o of feats) {
-      let b = featRows.get(o.key);
-      if (!b) {
-        b = document.createElement('button');
-        b.style.cssText = css + 'text-align:left;';
-        b.dataset.optional = o.key;
-        b.setAttribute('role', 'menuitemcheckbox');
-        // A set with modes steps through them, then off (nextOptional).
-        b.addEventListener('click', () => setOptional(o.key, nextOptional(o.key)));
-        featBox.appendChild(b);
-        featRows.set(o.key, b);
-      }
-      const on = optionalOn(o.key), mode = optionalMode(o.key);
-      b.textContent = `${on ? '☑' : '☐'}  ${o.label}${mode ? `: ${mode.label}` : ''}`;
-      b.dataset.mode = on ? (mode ? mode.key : 'on') : 'off';
-      b.title = o.title || '';
-      b.setAttribute('aria-checked', String(on));
-      b.style.background = on ? '#2a2a70' : '#111130';
+  // A scene's own dropdowns (`optionalMenus`: Nearby Stellar Motion's Systems
+  // Modeled), made when first needed, where the set buttons are.
+  const menusWrap = document.createElement('span');
+  menusWrap.style.display = 'contents';
+  bar.appendChild(menusWrap);
+  const sceneMenus = new Map();
+  // Even more features: optional sets that are not bodies to list but extra
+  // things to draw (the photosynthesis rings), one toggle each.
+  const features = setMenu(bar);
+  const featWrap = features.wrap;
+  function syncSetMenus(allSets) {
+    features.sync(allSets.filter((o) => o.menu === 'features'), { label: '✧  Even more features' });
+    const declared = (sys && sys.optionalMenus) || {};
+    for (const key of Object.keys(declared)) {
+      if (!sceneMenus.has(key)) { const m = setMenu(menusWrap); m.wrap.dataset.menu = key; sceneMenus.set(key, m); }
+    }
+    for (const [key, m] of sceneMenus) {
+      m.sync(declared[key] ? allSets.filter((o) => o.menu === key) : [], declared[key]);
     }
   }
   const searchIn = document.createElement('input');
@@ -2374,7 +2426,7 @@ const ui = (() => {
   // What moves into the ⋯ menu, each with a marker left where it stood so it
   // goes back to exactly that place.  The search box and its button share a row.
   const MENU_ITEMS = [[searchIn, menuSearch], [searchBtn, menuSearch], [skyBtn, menuBox],
-    [featWrap, menuBox], [optWrap, menuBox], [suggestBtn, menuBox], [aboutBtn, menuBox]]
+    [featWrap, menuBox], [menusWrap, menuBox], [optWrap, menuBox], [suggestBtn, menuBox], [aboutBtn, menuBox]]
     .map(([el, into]) => {
       const mark = document.createComment('compact');
       el.before(mark);
@@ -2389,10 +2441,12 @@ const ui = (() => {
       if (compact) into.appendChild(el); else mark.after(el);
     }
     menuWrap.style.display = compact ? 'inline-block' : 'none';
-    // Inside the menu, Even more features opens in place rather than as a
-    // second popup hanging off the screen's edge.
-    Object.assign(featBox.style, compact ? { position: 'static', width: 'auto', marginTop: '6px' }
-      : { position: 'absolute', width: '300px', marginTop: '' });
+    // Inside the menu, Even more features and a scene's own dropdowns open in
+    // place rather than as a second popup hanging off the screen's edge.
+    for (const m of setMenus) {
+      Object.assign(m.box.style, compact ? { position: 'static', width: 'auto', marginTop: '6px' }
+        : { position: 'absolute', width: '300px', marginTop: '' });
+    }
     searchIn.style.width = compact ? '100%' : '130px';
     searchIn.style.boxSizing = compact ? 'border-box' : '';
     // The time slider takes what is left of the first row.
@@ -2677,7 +2731,7 @@ const ui = (() => {
     const allSets = (sys && sys.optionalSets) || [];
     const sets = allSets.filter((o) => !o.menu);
     for (const [k, b] of optBtns) b.style.display = sets.some((o) => o.key === k) ? '' : 'none';
-    syncFeatures(allSets.filter((o) => o.menu === 'features'));
+    syncSetMenus(allSets);
     for (const o of sets) {
       let b = optBtns.get(o.key);
       if (!b) {
