@@ -1,0 +1,2069 @@
+[
+ {
+  "rank": 1,
+  "name": "alf CMa",
+  "mass_msun": {
+   "value": 2.063,
+   "source": "Bond et al. 2017, ApJ 840, 70 (dynamical mass, 2.063 +/- 0.023)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 24.74,
+   "source": "Bond et al. 2017, ApJ 840, 70 (24.74 +/- 0.70; Davis et al. 2011 value rescaled to the paper's parallax)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 9845,
+   "source": "Bond et al. 2017, ApJ 840, 70 (9845 +/- 64 K; Davis et al. 2011, PASA 28, 58 print 9842 +/- 64)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 1.7144,
+   "source": "Bond et al. 2017, ApJ 840, 70 (1.7144 +/- 0.0090, interferometric)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.228,
+   "source": "Bond et al. 2017, ApJ 840, 70 (total age of Sirius B 228 +/- 10 Myr; evolutionary tracks for Sirius A give 237-247 Myr, +/- 15)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.5,
+   "source": "Qiu, Zhao, Chen & Li 2001, ApJ 548, 953 (as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Sirius",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Bond et al. 2017, ApJ 840, 70 (HST astrometry rules out third bodies down to 15-25 M_Jup)",
+   "url": "https://doi.org/10.3847/1538-4357/aa6af8",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf CMa A: A0mA1 Va (primary)",
+    "alf CMa B: DA2 (white dwarf companion, 1.018 Msun, 50 yr orbit)"
+   ],
+   "source": "Wikipedia starbox, citing Gray et al. 2003, AJ 126, 2048 (A) and Holberg et al. 2013, MNRAS 435, 2077 (B); B mass from Bond et al. 2017",
+   "url": "https://en.wikipedia.org/wiki/Sirius",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "No entry in the AAVSO International Variable Star Index (VSX), queried 2026-11-26",
+   "url": "https://vsx.aavso.org/",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Dog Star",
+    "Alpha Canis Majoris",
+    "Canicula",
+    "Sothis",
+    "Aschere",
+    "Al Shira",
+    "Alhabor"
+   ],
+   "source": "Wikipedia starbox, citing Allen 1899, Star Names: Their Lore and Meaning",
+   "url": "https://en.wikipedia.org/wiki/Sirius",
+   "wikipedia": true
+  },
+  "notes": "Am star: the photospheric [Fe/H] of +0.50 is a surface (diffusion) abundance; Bond et al. 2017 need a slightly sub-solar bulk metallicity (about 0.85 Z_sun) and quote Lemke 1989 [Fe/H] = +0.25. No extinction value was found in the papers read."
+ },
+ {
+  "rank": 2,
+  "name": "alf Car",
+  "mass_msun": {
+   "value": 9.81,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: 9.81 +/- 1.83 from log g and the Rosseland radius; evolutionary mass 9.26 +/- 1.40 for the fast-rotating blue-loop model)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 16634,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: log L = 4.221 +/- 0.018)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 7657,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: global Teff of the two-temperature model, 7657 +/- 161 K)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 73.3,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: Rosseland radius 73.3 +/- 5.2)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.033,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: 33 or 34 +/- 4 Ma for Omega/Omega_c = 0.95; 24 or 25 +/- 3 Ma without rotation)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.07,
+   "source": "Smiljanic, Barbuy, De Medeiros & Maeder 2006, A&A 449, 655 (as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Canopus",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: no confirmed companion; a common-proper-motion M dwarf (Mamajek 2014) and a Gaia EDR3 candidate (Kervella et al. 2022, A&A 657, A7) are unconfirmed",
+   "url": "https://en.wikipedia.org/wiki/Canopus",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Car: A9 II (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "No entry in the AAVSO International Variable Star Index (VSX), queried 2026-11-26",
+   "url": "https://vsx.aavso.org/",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.26,
+   "source": "Domiciano de Souza et al. 2021, A&A 654, A19 (Table 4: best-fit E(B-V) = 0.084, R_V = 3.1, A_V = 0.26)",
+   "url": "https://doi.org/10.1051/0004-6361/202140478",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Carinae",
+    "Suhayl",
+    "Suhail",
+    "Suhel"
+   ],
+   "source": "Wikipedia starbox, citing SIMBAD",
+   "url": "https://en.wikipedia.org/wiki/Canopus",
+   "wikipedia": true
+  },
+  "notes": "The paper's Table 3 of Smiljanic et al. 2006 prints [FeI/H] = +0.10 +/- 0.09 and [FeII/H] = +0.09 +/- 0.26 for HD 45348 and its comparison table lists -0.04 and -0.07; Wikipedia quotes -0.07. Domiciano de Souza et al. note that a 3-D dust map gives a far lower extinction (E(B-V) = 0.001 +/- 0.020) than their SED fit."
+ },
+ {
+  "rank": 3,
+  "name": "alf Cen",
+  "mass_msun": {
+   "value": 1.0788,
+   "source": "Akeson et al. 2021, AJ 162, 14 (A: 1.0788 +/- 0.0029; B: 0.9092 +/- 0.0025)",
+   "url": "https://doi.org/10.3847/1538-3881/abfaff",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 1.5059,
+   "source": "Akeson et al. 2021, AJ 162, 14 (A: 1.5059 +/- 0.0019)",
+   "url": "https://doi.org/10.3847/1538-3881/abfaff",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": {
+   "value": 2.004,
+   "source": "Akeson et al. 2021, AJ 162, 14 (sum of A 1.5059 and B 0.4981 as printed; Proxima adds under 0.1%)",
+   "url": "https://doi.org/10.3847/1538-3881/abfaff",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 5748,
+   "source": "Ebrahimkutty et al. 2026, arXiv:2609.18868 (A: 5748 +/- 29 K; B: 5154 +/- 26 K)",
+   "url": "https://arxiv.org/abs/2609.18868",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 1.223,
+   "source": "Ebrahimkutty et al. 2026, arXiv:2609.18868 (A: 1.223 +/- 0.001 from VLTI/PIONIER; Akeson et al. 2021 print 1.2175 +/- 0.0055)",
+   "url": "https://arxiv.org/abs/2609.18868",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 6.22,
+   "source": "Ebrahimkutty et al. 2026, arXiv:2609.18868 (joint A+B analysis, 6.22 +/- 0.22 Ga)",
+   "url": "https://arxiv.org/abs/2609.18868",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.26,
+   "source": "Ebrahimkutty et al. 2026, arXiv:2609.18868 (A: 0.26 +/- 0.08, reference value taken from Gent et al. 2022; B: 0.22 +/- 0.10)",
+   "url": "https://arxiv.org/abs/2609.18868",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 3,
+   "source": "Wikipedia: A and B plus Proxima Centauri, bound per Kervella, Thevenin & Lovis 2017, A&A 598, L7",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Cen A: G2 V (primary)",
+    "alf Cen B: K1 V (79.8 yr visual companion, 0.9092 Msun)",
+    "alf Cen C (Proxima Centauri): M5.5 Ve (wide companion, about 13 000 au)"
+   ],
+   "source": "Wikipedia starbox, citing Torres et al. 2006, A&A 460, 695 for A and B",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "No entry in the AAVSO International Variable Star Index (VSX), queried 2026-11-26",
+   "url": "https://vsx.aavso.org/",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": {
+   "value": 4.3441,
+   "source": "Akeson et al. 2021, AJ 162, 14 (orbital parallax 750.81 +/- 0.38 mas, d = 1.3319 +/- 0.0007 pc, converted)",
+   "url": "https://doi.org/10.3847/1538-3881/abfaff",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 0.0023,
+   "source": "Akeson et al. 2021, AJ 162, 14 (0.0007 pc converted)",
+   "url": "https://doi.org/10.3847/1538-3881/abfaff",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Centauri",
+    "Rigil Kent",
+    "Toliman"
+   ],
+   "source": "Wikipedia starbox and lead (Toliman is the IAU name of alf Cen B)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
+   "wikipedia": true
+  },
+  "notes": "Values are for alf Cen A; the point is A+B blended (B adds 33% of A's luminosity). VSX has no entry for alf Cen AB; Proxima (V645 Cen) is a UV Ceti flare star but is not part of the naked-eye point."
+ },
+ {
+  "rank": 4,
+  "name": "alf Boo",
+  "mass_msun": {
+   "value": 1.08,
+   "source": "Ramirez & Allende Prieto 2011, ApJ 743, 135 (1.08 +/- 0.06)",
+   "url": "https://doi.org/10.1088/0004-637X/743/2/135",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 170,
+   "source": "Schroeder & Cuntz 2007, A&A 465, 593 (170 Lsun with BC = 0.55)",
+   "url": "https://doi.org/10.1051/0004-6361:20066633",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4286,
+   "source": "Ramirez & Allende Prieto 2011, ApJ 743, 135 (4286 +/- 30 K)",
+   "url": "https://doi.org/10.1088/0004-637X/743/2/135",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 25.4,
+   "source": "Ramirez & Allende Prieto 2011, ApJ 743, 135 (25.4 +/- 0.2)",
+   "url": "https://doi.org/10.1088/0004-637X/743/2/135",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 7.1,
+   "source": "Ramirez & Allende Prieto 2011, ApJ 743, 135 (7.1 +1.5 -1.2 Gyr)",
+   "url": "https://doi.org/10.1088/0004-637X/743/2/135",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.52,
+   "source": "Ramirez & Allende Prieto 2011, ApJ 743, 135 (-0.52 +/- 0.04)",
+   "url": "https://doi.org/10.1088/0004-637X/743/2/135",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: no companion confirmed; a Hipparcos binary hint is marginal",
+   "url": "https://en.wikipedia.org/wiki/Arcturus",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Boo: K1.5 III Fe-0.5 (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "LB",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=45227",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "-0.07 to -0.02",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=45227",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Bootis",
+    "Alpha Boötis",
+    "Svati",
+    "Hōkūleʻa"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Arcturus",
+   "wikipedia": true
+  },
+  "notes": "Soubiran et al. 2024 (A&A 682, A145) print Teff = 4277 +/- 23 K and [Fe/H] = -0.55 for the same star. No extinction value was found in the papers read."
+ },
+ {
+  "rank": 5,
+  "name": "alf Lyr",
+  "mass_msun": {
+   "value": 2.15,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (joint result 2.15 +0.10 -0.15)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 47.2,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (Table 2, concordance model: true bolometric luminosity 47.2 +/- 2.0; apparent, pole-on, 58.4 +/- 2.2)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 9360,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (Table 2, concordance model: surface-averaged 9360 +/- 90 K; pole 10070 +/- 90, equator 8910 +/- 130)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.726,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (Table 2, concordance model: equatorial 2.726 +/- 0.006; polar 2.418 +/- 0.012)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.7,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (joint result 700 +150 -75 Myr)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.5,
+   "source": "Monnier et al. 2012, ApJ 761, L3 (adopted [Fe/H] = -0.5 atmosphere, after Yoon et al. 2010, ApJ 708, 71)",
+   "url": "https://doi.org/10.1088/2041-8205/761/1/L3",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: no stellar companion known",
+   "url": "https://en.wikipedia.org/wiki/Vega",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Lyr: A0 Va (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type CST, category Non-Variable; the GCVS lists it as DSCTC, -0.02 to 0.07)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=18630",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Lyrae",
+    "Wega",
+    "Lucida Lyrae"
+   ],
+   "source": "Wikipedia starbox, citing Allen 1963 and Kendall 1845",
+   "url": "https://en.wikipedia.org/wiki/Vega",
+   "wikipedia": true
+  },
+  "notes": "Rapid rotator seen nearly pole-on, so radius and temperature depend on latitude; the radius given is equatorial. Wikipedia prints the luminosity error as 0.2; the paper has 2.0. The GCVS delta Scuti classification is disputed and VSX lists the star as constant."
+ },
+ {
+  "rank": 6,
+  "name": "alf Aur",
+  "mass_msun": {
+   "value": 2.5687,
+   "source": "Torres et al. 2015, ApJ 807, 26 (Aa: 2.5687 +/- 0.0074; Ab: 2.4828 +/- 0.0067)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 78.7,
+   "source": "Torres et al. 2015, ApJ 807, 26 (Aa: 78.7 +/- 4.2; Ab: 72.7 +/- 3.6)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": {
+   "value": 151.4,
+   "source": "Torres et al. 2015, ApJ 807, 26 (sum of Aa 78.7 and Ab 72.7 as printed; the M dwarfs H and L add under 0.1%)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 4970,
+   "source": "Torres et al. 2015, ApJ 807, 26 (Aa: 4970 +/- 50 K; Ab: 5730 +/- 60 K)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 11.98,
+   "source": "Torres et al. 2015, ApJ 807, 26 (Aa: 11.98 +/- 0.57; Ab: 8.83 +/- 0.33)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.62,
+   "source": "Torres et al. 2015, ApJ 807, 26 (Table: age 590-650 Myr; 0.62 is the middle of the printed range)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.04,
+   "source": "Torres et al. 2015, ApJ 807, 26 (-0.04 +/- 0.06)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 4,
+   "source": "Wikipedia: spectroscopic pair Aa+Ab and the wide red-dwarf pair Capella H+L (GJ 195 AB), common proper motion",
+   "url": "https://en.wikipedia.org/wiki/Capella",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Aur Aa: G8 III (primary, 104 d spectroscopic pair)",
+    "alf Aur Ab: G0 III (2.4828 Msun)",
+    "alf Aur H (GJ 195 A): M2.5 V (wide companion)",
+    "alf Aur L (GJ 195 B): M4: (companion of H)"
+   ],
+   "source": "Wikipedia starbox, citing Torres et al. 2015 (Aa, Ab), Joy & Abt 1974 (H) and Bidelman 1985 (L)",
+   "url": "https://en.wikipedia.org/wiki/Capella",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "RS CVn",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type RS)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=40521",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.05 to 0.10",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=40521",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 42.919,
+   "source": "Torres et al. 2015, ApJ 807, 26 (orbital-parallax distance 13.159 +/- 0.015 pc, converted)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 0.049,
+   "source": "Torres et al. 2015, ApJ 807, 26 (0.015 pc converted)",
+   "url": "https://doi.org/10.1088/0004-637X/807/1/26",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Aurigae",
+    "Alhajoth",
+    "Hokulei"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Capella",
+   "wikipedia": true
+  },
+  "notes": "Values are for the cooler giant Aa; the hotter Ab is about as bright (slightly brighter in V). No extinction value was found in the paper read."
+ },
+ {
+  "rank": 7,
+  "name": "bet Ori",
+  "mass_msun": {
+   "value": 21,
+   "source": "Shultz et al. 2014, MNRAS 438, 1114 (Table: evolutionary mass 21 +/- 3, from Przybilla et al. 2006)",
+   "url": "https://doi.org/10.1093/mnras/stt2260",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 120226,
+   "source": "Moravveji et al. 2012, ApJ 747, 108 (log L = 5.08 +0.07 -0.10, after Przybilla et al. 2006)",
+   "url": "https://doi.org/10.1088/0004-637X/747/2/108",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 12100,
+   "source": "Przybilla et al. 2010, A&A 517, A38 (12100 +/- 150 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201014164",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 78.9,
+   "source": "Moravveji et al. 2012, ApJ 747, 108 (78.9 +/- 7.4, from the CHARA limb-darkened diameter 2.75 mas and the Hipparcos distance)",
+   "url": "https://doi.org/10.1088/0004-637X/747/2/108",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.008,
+   "source": "Przybilla et al. 2006, A&A 445, 1099 (evolutionary age 8 +/- 1 Myr)",
+   "url": "https://doi.org/10.1051/0004-6361:20053832",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.06,
+   "source": "Moravveji et al. 2012, ApJ 747, 108 ([M/H] = -0.06 +/- 0.10, from Przybilla et al. 2006)",
+   "url": "https://doi.org/10.1088/0004-637X/747/2/108",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 4,
+   "source": "Wikipedia: Rigel A plus the 9.5 arcsec companion Rigel BC, a triple (Ba+Bb spectroscopic pair and C), per Tokovinin 1997 MSC",
+   "url": "https://en.wikipedia.org/wiki/Rigel",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet Ori A: B8 Ia (primary)",
+    "bet Ori Ba: B9 V (spectroscopic pair, 9.5 arcsec from A)",
+    "bet Ori Bb: B9 V (companion of Ba)",
+    "bet Ori C: B9 V (visual companion of B)"
+   ],
+   "source": "Wikipedia starbox, citing Przybilla et al. 2006 (A) and Tokovinin 1997, A&AS 124, 75 (B, C)",
+   "url": "https://en.wikipedia.org/wiki/Rigel",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "alf Cyg",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type ACYG)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=24711",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.08 to 0.20",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=24711",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Beta Orionis",
+    "Algebar",
+    "Elgebar"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Rigel",
+   "wikipedia": true
+  },
+  "notes": "No distance better than Hipparcos (264 +/- 24 pc) was found; Moravveji et al. 2012 quote E(B-V) = 0.05 from Przybilla et al. 2006, but no A_V is printed. Wikipedia gives a radius of 74.1 (Baines et al. 2018), which could not be read cleanly from that paper's table."
+ },
+ {
+  "rank": 8,
+  "name": "alf CMi",
+  "mass_msun": {
+   "value": 1.478,
+   "source": "Bond et al. 2015, ApJ 813, 106 (dynamical: A 1.478 +/- 0.012, B 0.592 +/- 0.006)",
+   "url": "https://doi.org/10.1088/0004-637X/813/2/106",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 7.049,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (7.049 +/- 0.064, as cited by Wikipedia; the value is in the paper's online table)",
+   "url": "https://en.wikipedia.org/wiki/Procyon",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 6582,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Table A.1: 6582 +/- 5 K)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.043,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (2.043 +/- 0.009, as cited by Wikipedia; the value is in the paper's online table)",
+   "url": "https://en.wikipedia.org/wiki/Procyon",
+   "wikipedia": true
+  },
+  "age_gyr": {
+   "value": 1.87,
+   "source": "Liebert et al. 2013, ApJ 769, 7 (1.87 +/- 0.13 Gyr)",
+   "url": "https://doi.org/10.1088/0004-637X/769/1/7",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.02,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Table A.1: [Fe/H] = -0.02)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Bond et al. 2015, ApJ 813, 106 (visual binary with a white dwarf, 40.8 yr)",
+   "url": "https://doi.org/10.1088/0004-637X/813/2/106",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf CMi A: F5 IV-V (primary)",
+    "alf CMi B: DQZ (white dwarf companion, 0.592 Msun)"
+   ],
+   "source": "SIMBAD spectral type F5IV-V+DQZ (batch input); B mass from Bond et al. 2015",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (NSV 3672, type CST, category Non-Variable)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=42296",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Canis Minoris",
+    "Elgomaisa",
+    "Algomeysa",
+    "Antecanis"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Procyon",
+   "wikipedia": true
+  },
+  "notes": "Bond et al. 2015 find 2.7 Gyr for Procyon A under their own modelling assumptions and call 1.8 Gyr a minimum; Liebert et al. 2013 quote R = 2.031 +/- 0.013 (Aufdenberg et al. 2005). No extinction value was found in the papers read."
+ },
+ {
+  "rank": 9,
+  "name": "alf Eri",
+  "mass_msun": {
+   "value": 5.99,
+   "source": "Kervella et al. 2022, A&A 667, A111 (dynamical: 5.99 +/- 0.60; the evolutionary model gives 6.4 +/- 0.2)",
+   "url": "https://doi.org/10.1051/0004-6361/202244009",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 3493,
+   "source": "Kervella et al. 2022, A&A 667, A111 (3493 +/- 429)",
+   "url": "https://doi.org/10.1051/0004-6361/202244009",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 17124,
+   "source": "Domiciano de Souza et al. 2014, A&A 569, A10 (polar 17124 K, equatorial 12673 K, as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Achernar",
+   "wikipedia": true
+  },
+  "radius_rsun": {
+   "value": 9.16,
+   "source": "Kervella et al. 2022, A&A 667, A111 (equatorial radius 9.16 +/- 0.23, quoting Domiciano de Souza et al. 2014, A&A 569, A10)",
+   "url": "https://doi.org/10.1051/0004-6361/202244009",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.063,
+   "source": "Kervella et al. 2022, A&A 667, A111 (63 +/- 4 Ma from the model of a critically rotating 6.4 Msun star)",
+   "url": "https://doi.org/10.1051/0004-6361/202244009",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Kervella et al. 2022, A&A 667, A111 (Be star with a 7 yr companion, Achernar B)",
+   "url": "https://doi.org/10.1051/0004-6361/202244009",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf Eri A: B6 Vpe (primary, Be star)",
+    "alf Eri B: A1V-A3V (companion, about 2.0 Msun, 7 yr orbit)"
+   ],
+   "source": "SIMBAD type for A (batch input); B type as on Wikipedia, citing Kervella et al. 2008, A&A 484, L13; B mass and period from Kervella et al. 2022",
+   "url": "https://en.wikipedia.org/wiki/Achernar",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "Be (SPBe+BE)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type SPBe+BE, period 1.290 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=135998",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.44 to 0.54",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=135998",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Eridani"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "Fastest-rotating bright star: flattened, so temperature and radius depend on latitude (polar radius 6.78 Rsun per Wikipedia; the Teff given is polar). Kervella et al. 2022 adopt solar metallicity (Z = 0.014) rather than measure it, so [Fe/H] is left null."
+ },
+ {
+  "rank": 10,
+  "name": "alf Ori",
+  "mass_msun": {
+   "value": 14,
+   "source": "Neuhaeuser et al. 2022, MNRAS 516, 693 (about 14 Msun from colour evolution and CMD position); Joyce et al. 2020 print a present-day mass of 16.5-19 Msun",
+   "url": "https://doi.org/10.1093/mnras/stac1969",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 87096,
+   "source": "Joyce et al. 2020, ApJ 902, 63 (log L = 4.94 +0.10 -0.06)",
+   "url": "https://doi.org/10.3847/1538-4357/abb8db",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3600,
+   "source": "Joyce et al. 2020, ApJ 902, 63 (3600 +/- 25 K, adopted from Levesque & Massey 2020)",
+   "url": "https://doi.org/10.3847/1538-4357/abb8db",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 764,
+   "source": "Joyce et al. 2020, ApJ 902, 63 (764 +116 -62, seismic)",
+   "url": "https://doi.org/10.3847/1538-4357/abb8db",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.014,
+   "source": "Neuhaeuser et al. 2022, MNRAS 516, 693 (14 Msun at 14 Myr)",
+   "url": "https://doi.org/10.1093/mnras/stac1969",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.13,
+   "source": "Borisov et al. 2023, ApJS 266, 11 (-0.13 +/- 0.09, as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia: probable close companion Betelgeuse B (Siwarha), detected by speckle imaging (Howell et al. 2025) and named by the IAU WGSN in 2025; not yet fully confirmed as bound",
+   "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Ori A: M1-M2 Ia-Iab (primary)",
+    "alf Ori B (Siwarha): type unknown, probably a young A/B- or F-type star of about 1.5 Msun (probable companion, about 6 yr orbit)"
+   ],
+   "source": "SIMBAD type for A (batch input); companion as described on Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "SRc",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type SRC, period 423 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=24710",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.0 to 1.6",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=24710",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 548.3,
+   "source": "Joyce et al. 2020, ApJ 902, 63 (168.1 +27.5 -14.9 pc, converted); Harper et al. 2017 give 222 +48 -34 pc",
+   "url": "https://doi.org/10.3847/1538-4357/abb8db",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 89.7,
+   "source": "Joyce et al. 2020, ApJ 902, 63 (the larger, upper error 27.5 pc converted; the lower is 14.9 pc = 48.6 ly)",
+   "url": "https://doi.org/10.3847/1538-4357/abb8db",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Orionis"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "Mass and distance are disputed: Joyce et al. 2020 (seismic) give 16.5-19 Msun at 168 pc, Harper et al. 2017 (radio + Hipparcos) 222 pc, Neuhaeuser et al. 2022 about 14 Msun. The companion is a probable detection, not a confirmed bound star; count it as 1 star if only confirmed members are wanted. No A_V was found in the papers read."
+ },
+ {
+  "rank": 11,
+  "name": "bet Cen",
+  "mass_msun": {
+   "value": 12.02,
+   "source": "Pigulski et al. 2016, A&A 588, A55 (Aa: 12.02 +/- 0.13; Ab: 10.58 +/- 0.18)",
+   "url": "https://doi.org/10.1051/0004-6361/201527872",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 31600,
+   "source": "Shultz et al. 2019, MNRAS 485, 1508 (Aa: 31,600 +18,500 -11,700, as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Centauri",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": {
+   "value": 56700,
+   "source": "Sum of Wikipedia's Aa 31,600 and Ab 25,100 (both cited to Shultz et al. 2019, MNRAS 485, 1508); no luminosity is given for B",
+   "url": "https://en.wikipedia.org/wiki/Beta_Centauri",
+   "wikipedia": true
+  },
+  "teff_k": {
+   "value": 25000,
+   "source": "Ausseloos et al. 2006, A&A 455, 259 (25 000 +/- 2 000 K for both components of the close pair)",
+   "url": "https://doi.org/10.1051/0004-6361:20064829",
+   "wikipedia": false
+  },
+  "radius_rsun": null,
+  "age_gyr": {
+   "value": 0.0141,
+   "source": "Ausseloos et al. 2006, A&A 455, 259 (14.1 +/- 0.6 Myr)",
+   "url": "https://doi.org/10.1051/0004-6361:20064829",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 3,
+   "source": "Pigulski et al. 2016, A&A 588, A55 (triple: the 357 d pair Aa+Ab and the visual companion B at about 1 arcsec)",
+   "url": "https://doi.org/10.1051/0004-6361/201527872",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "bet Cen Aa: B1 III (primary, 12.02 Msun)",
+    "bet Cen Ab: B1 III (357 d spectroscopic/interferometric companion, 10.58 Msun)",
+    "bet Cen B: type not given, 4.61 Msun in the MSC (visual companion)"
+   ],
+   "source": "Wikipedia starbox, citing Ausseloos et al. 2006, Pigulski et al. 2016 and Tokovinin 1997 (MSC)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Centauri",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "bet Cep + SPB",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type SPB+BCEP, period 1.15303 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=8344",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.61, amplitude 0.016 (TESS)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (max 0.61 V, amplitude 0.016 mag in TESS)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=8344",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 360.7,
+   "source": "Pigulski et al. 2016, A&A 588, A55 (orbital parallax 9.04 +/- 0.04 mas, D = 110.6 +/- 0.5 pc, converted)",
+   "url": "https://doi.org/10.1051/0004-6361/201527872",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 1.6,
+   "source": "Pigulski et al. 2016, A&A 588, A55 (0.5 pc converted)",
+   "url": "https://doi.org/10.1051/0004-6361/201527872",
+   "wikipedia": false
+  },
+  "av_mag": {
+   "value": 0.1,
+   "source": "Pigulski et al. 2016, A&A 588, A55 (A_V = 3.1 E(B-V), about 0.10 mag)",
+   "url": "https://doi.org/10.1051/0004-6361/201527872",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Beta Centauri",
+    "Agena"
+   ],
+   "source": "SIMBAD (NAME Agena)",
+   "url": "https://simbad.harvard.edu/simbad/sim-id?Ident=bet+Cen",
+   "wikipedia": false
+  },
+  "notes": "Aa and Ab are near twins, so the point's light is roughly double the primary's. Wikipedia computes radii from angular diameters itself, so radius is left null; no [Fe/H] was found."
+ },
+ {
+  "rank": 12,
+  "name": "alf Aql",
+  "mass_msun": {
+   "value": 1.86,
+   "source": "Bouchaud et al. 2020, A&A 633, A78 (1.86 +/- 0.03)",
+   "url": "https://doi.org/10.1051/0004-6361/201936830",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 10.6,
+   "source": "Peterson et al. 2006, ApJ 636, 1087 (L = 10.6, as quoted and adopted by Bouchaud et al. 2020)",
+   "url": "https://doi.org/10.1086/497981",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 8621,
+   "source": "Bouchaud et al. 2020, A&A 633, A78 (ESTER model: pole 8621 K, equator 6780 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201936830",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.008,
+   "source": "Bouchaud et al. 2020, A&A 633, A78 (equatorial 2.008 +/- 0.006; polar 1.565 +/- 0.014)",
+   "url": "https://doi.org/10.1051/0004-6361/201936830",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.088,
+   "source": "Rieutord et al. 2024, A&A 687, A259 (88 +/- 10 Myr)",
+   "url": "https://doi.org/10.1051/0004-6361/202449833",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.19,
+   "source": "Bouchaud et al. 2020, A&A 633, A78 (model [M/H] = 0.19, Z = 0.019)",
+   "url": "https://doi.org/10.1051/0004-6361/201936830",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: no physical companion known (the WDS companions are optical)",
+   "url": "https://en.wikipedia.org/wiki/Altair",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Aql: A7 Vn (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "del Sct",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type DSCT, period 0.06342 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=63345",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.77, amplitude 0.004",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (max 0.77 V, amplitude 0.004 mag)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=63345",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Aquilae",
+    "Atair"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Altair",
+   "wikipedia": true
+  },
+  "notes": "Rapid rotator: the Teff given is polar and the radius equatorial. Monnier et al. 2007 (Science 317, 342) adopted [Fe/H] = -0.2, the value Wikipedia shows; Bouchaud et al. 2020 fit a super-solar [M/H] = 0.19. No extinction value was found in the papers read."
+ },
+ {
+  "rank": 13,
+  "name": "alf Cru",
+  "mass_msun": {
+   "value": 17.2,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (dynamical: Aa 17.2 +/- 1.2, Ab 6.8 +/- 0.3)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 33113,
+   "source": "Sharma et al. 2022, MNRAS 515, 828 (alf1 Cru: log L = 4.52 +/- 0.04)",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": {
+   "value": 52610,
+   "source": "Sum of Wikipedia's values: Aa 31,110 (Sharma et al. 2022), Ab 1,400, Ba 14,000, Bb 6,100 (the last three derived on Wikipedia from the radii and temperatures of Waisberg et al. 2026)",
+   "url": "https://en.wikipedia.org/wiki/Acrux",
+   "wikipedia": true
+  },
+  "teff_k": {
+   "value": 28950,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (Table 2, Aa: 28,950 K, fixed to match the spectroscopic 29 kK)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.8,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (Table 2, Aa: photometric radius 6.8)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0071,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (Table 2: best-fit MIST isochrone 7.1 Myr; the Acrux cluster is about 11 Myr)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 7,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (seven stars: Aa, Ab, Ba, Bb, Ca, Cb, D)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf Cru Aa: B0.5 IV (primary, 17.2 Msun)",
+    "alf Cru Ab: type not given (6.8 Msun companion of Aa)",
+    "alf Cru Ba: B1 V (alf2 Cru, 4 arcsec from A, about 12.4 Msun)",
+    "alf Cru Bb: type not given (about 9.8 Msun companion of Ba)",
+    "alf Cru Ca: B5 V (HR 4729, 90 arcsec away, about 4.5 Msun)",
+    "alf Cru Cb: type not given (1.225 d spectroscopic companion of Ca)",
+    "alf Cru D: M0 V (about 0.5 Msun)"
+   ],
+   "source": "Wikipedia starbox, citing Houk 1979, Corbally 1984, Tokovinin 2018 (MSC) and Waisberg et al. 2026; masses checked against Waisberg et al. 2026",
+   "url": "https://en.wikipedia.org/wiki/Acrux",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "bet Cep",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type BCEP+BCEP, period 0.32822 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=2389256",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.775, amplitude 0.006 (TESS)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (max 0.775 V, amplitude 0.006 mag in TESS)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=2389256",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 348.0,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (adopts the Gaia DR3 distance of alf Cru C, 106.7 +/- 1.5 pc, converted)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 4.9,
+   "source": "Waisberg et al. 2026, arXiv:2603.11194 (1.5 pc converted)",
+   "url": "https://arxiv.org/abs/2603.11194",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Crucis"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "The naked-eye point is alf1 + alf2 Cru (A and B, 4 arcsec apart); the Sharma et al. luminosity is for alf1 Cru as a whole. It is not known which component pulsates. No [Fe/H] or extinction was found."
+ },
+ {
+  "rank": 14,
+  "name": "alf Tau",
+  "mass_msun": {
+   "value": 1.03,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413 (arXiv:2602.22472, Table 1: 1.03 +/- 0.07)",
+   "url": "https://arxiv.org/abs/2602.22472",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 439,
+   "source": "Heiter et al. 2015, A&A 582, A49 (439 +/- 17, as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Aldebaran",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3900,
+   "source": "Strassmeier et al. 2018, A&A 612, A45 (3900 +/- 50 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201731633",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 45.1,
+   "source": "Hatzes et al. 2015, A&A 580, A31 (45.1 +/- 0.1 from the limb-darkened diameter of Richichi & Roccatagliata 2005)",
+   "url": "https://doi.org/10.1051/0004-6361/201425519",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 6.4,
+   "source": "Farr et al. 2018, ApJ 865, L20 (6.4 +1.4 -1.1 Gyr, with M = 1.16 +/- 0.07)",
+   "url": "https://doi.org/10.3847/2041-8213/aadfde",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.33,
+   "source": "Strassmeier et al. 2018, A&A 612, A45 (-0.33 +/- 0.1)",
+   "url": "https://doi.org/10.1051/0004-6361/201731633",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia: Aldebaran A and the faint red dwarf alf Tau B (GJ 171.1 B) sharing its motion; the other WDS companions (C, D and beyond) are optical",
+   "url": "https://en.wikipedia.org/wiki/Aldebaran",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Tau A: K5+ III (primary)",
+    "alf Tau B: M2.5 (wide red-dwarf companion, V = 13.2)"
+   ],
+   "source": "Wikipedia starbox, citing Keenan & McNeil 1989 (A) and Bidelman 1985 (B)",
+   "url": "https://en.wikipedia.org/wiki/Aldebaran",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "LB:",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type LB:)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=36237",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.86 to 0.89",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (the GCVS range quoted on Wikipedia is 0.75 to 0.95)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=36237",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Tauri"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "Soubiran et al. 2024 (A&A 682, A145) print Teff = 3921 +/- 80 K and [Fe/H] = -0.20 for the same star; Rudrasingam et al. 2026 use R = 44.20 +/- 0.90. The physical link of alf Tau B rests on Wikipedia's account. No extinction value was found."
+ },
+ {
+  "rank": 15,
+  "name": "alf Vir",
+  "mass_msun": {
+   "value": 11.43,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (primary 11.43 +/- 1.15, secondary 7.21 +/- 0.75); Harrington et al. 2016, A&A 590, A54 give 10.0 +/- 0.3 and 6.4 +/- 0.2",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 20512,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (primary log L = 4.312 +/- 0.095)",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": {
+   "value": 22766,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (sum of primary log L = 4.312 and secondary log L = 3.353 +/- 0.181, each converted)",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "teff_k": {
+   "value": 25300,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (primary 25 300 +/- 500 K; secondary 20 900 +/- 800 K)",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 7.47,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (primary 7.47 +/- 0.54; secondary 3.74 +/- 0.53)",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0125,
+   "source": "Tkachenko et al. 2016, MNRAS 458, 1964 (12.5 +/- 1 Myr)",
+   "url": "https://doi.org/10.1093/mnras/stw255",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 3,
+   "source": "Wikipedia: the 4.0145 d pair Aa+Ab plus a third star Ac of about 1.4 Msun reported by Waisberg et al. 2026, RNAAS 10, 270",
+   "url": "https://en.wikipedia.org/wiki/Spica",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Vir Aa: B1 III-IV (primary)",
+    "alf Vir Ab: B2 V (4.0145 d spectroscopic companion)",
+    "alf Vir Ac: type not given (about 1.4 Msun, interferometric companion reported 2026)"
+   ],
+   "source": "Wikipedia starbox, citing Schnerr et al. 2008, A&A 483, 857 and Waisberg et al. 2026, RNAAS 10, 270",
+   "url": "https://en.wikipedia.org/wiki/Spica",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "Ellipsoidal + bet Cep",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type ELL+BCEP, period 4.0145 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=38123",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.96 to 1.00",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=38123",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Virginis",
+    "Azimech",
+    "Spica Virginis"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Spica",
+   "wikipedia": true
+  },
+  "notes": "The two studies of the close pair disagree on the primary's mass (11.43 +/- 1.15 against 10.0 +/- 0.3). The third star rests on a 2026 research note read only through Wikipedia. Tkachenko et al. quote a literature [M/H] of 0.0; no measured [Fe/H], improved distance or extinction was found."
+ },
+ {
+  "rank": 16,
+  "name": "alf Sco",
+  "mass_msun": {
+   "value": 15,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (15 +/- 5 from evolutionary tracks); Neuhaeuser et al. 2022, MNRAS 516, 693 find 13 or 15-16",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 75858,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (log L = 4.88 +/- 0.23); Pecaut et al. 2012 give log L = 4.99 +/- 0.15",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3660,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (3660 +/- 120 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 680,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (680 Rsun, 3.2 au, from the angular diameter and the Hipparcos parallax)",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.013,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (11-15 Myr printed; 0.013 is the middle of that range)",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia: Antares A and the B-type companion Antares B, 2.6 arcsec away",
+   "url": "https://en.wikipedia.org/wiki/Antares",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Sco A: M1.5 Iab-Ib (primary)",
+    "alf Sco B: B2.5 V (visual companion, 2.6 arcsec)"
+   ],
+   "source": "Wikipedia starbox, citing Keenan & McNeil 1989 (A) and Baade & Reimers 2007, A&A 474, 229 (B)",
+   "url": "https://en.wikipedia.org/wiki/Antares",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "SRc",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type SRC, period 2180 d; Wikipedia gives Lc after Kiss et al. 2006)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=34002",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.75 to 1.21",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (Wikipedia quotes 0.6 to 1.6 from Kiss et al. 2006)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=34002",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.43,
+   "source": "Ohnaka et al. 2013, A&A 555, A24 (E(B-V) = 0.14, A_V = 0.43)",
+   "url": "https://doi.org/10.1051/0004-6361/201321063",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Scorpii",
+    "Cor Scorpii",
+    "Kalb al Akrab",
+    "Scorpion's Heart",
+    "Vespertilio"
+   ],
+   "source": "Wikipedia starbox, citing Allen 1963",
+   "url": "https://en.wikipedia.org/wiki/Antares",
+   "wikipedia": true
+  },
+  "notes": "Radius and luminosity scale with the poorly known distance (Hipparcos 170 pc, error 17%); no better published distance was found. Mass estimates run from 11 to 16 Msun. No [Fe/H] was found."
+ },
+ {
+  "rank": 17,
+  "name": "bet Gem",
+  "mass_msun": {
+   "value": 2.09,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413 (arXiv:2602.22472, Table 1: 2.09 +/- 0.26); Hatzes et al. 2012, A&A 543, A98 give 1.91 +/- 0.09 from p-mode oscillations",
+   "url": "https://arxiv.org/abs/2602.22472",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 38.4,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (38.4 +/- 0.3, as cited by Wikipedia; the value is in the paper's online table)",
+   "url": "https://en.wikipedia.org/wiki/Pollux_(star)",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4810,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Table A.1: 4810 +/- 14 K)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.97,
+   "source": "Baines et al. 2025, AJ 169, 293 (8.97 +/- 0.03)",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 1.19,
+   "source": "Hatzes et al. 2012, A&A 543, A98 (1.19 +/- 0.3 Gyr from evolutionary tracks)",
+   "url": "https://doi.org/10.1051/0004-6361/201219332",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.02,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Table A.1: [Fe/H] = 0.02)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: single star with one planet (Pollux b); no stellar companion",
+   "url": "https://en.wikipedia.org/wiki/Pollux_(star)",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet Gem: K0 IIIb (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "suspected (NSV 3712)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (NSV 3712, type VAR:, category Suspected)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=42336",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.14 to 1.15",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=42336",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Beta Geminorum"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "Wikipedia quotes the Rudrasingam et al. mass as 2.12 +/- 0.09; the arXiv version's Table 1 reads 2.09 +/- 0.26. Earlier masses are lower (1.91 +/- 0.09, Hatzes et al. 2012). No extinction value was found."
+ },
+ {
+  "rank": 18,
+  "name": "alf PsA",
+  "mass_msun": {
+   "value": 1.92,
+   "source": "Mamajek 2012, ApJ 754, L20 (1.92 +/- 0.02)",
+   "url": "https://doi.org/10.1088/2041-8205/754/2/L20",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 16.63,
+   "source": "Mamajek 2012, ApJ 754, L20 (16.63 +/- 0.48)",
+   "url": "https://doi.org/10.1088/2041-8205/754/2/L20",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 8590,
+   "source": "Mamajek 2012, ApJ 754, L20 (8590 +/- 73 K)",
+   "url": "https://doi.org/10.1088/2041-8205/754/2/L20",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 1.842,
+   "source": "Mamajek 2012, ApJ 754, L20 (1.842 +/- 0.019)",
+   "url": "https://doi.org/10.1088/2041-8205/754/2/L20",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.44,
+   "source": "Mamajek 2012, ApJ 754, L20 (440 +/- 40 Myr for the Fomalhaut-TW PsA system)",
+   "url": "https://doi.org/10.1088/2041-8205/754/2/L20",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.03,
+   "source": "Dunkin, Barlow & Ryan 1997, MNRAS 286, 604 (as cited by Wikipedia, which gives a range from -0.03 to -0.34, the latter from Saffe et al. 2008, A&A 490, 297)",
+   "url": "https://en.wikipedia.org/wiki/Fomalhaut",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 3,
+   "source": "Wikipedia: Fomalhaut A, TW PsA (B) and LP 876-10 (C); B confirmed as a bound companion by Mamajek 2012, C by Mamajek et al. 2013, AJ 146, 154",
+   "url": "https://en.wikipedia.org/wiki/Fomalhaut",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf PsA A: A4 V (primary; A3 Va in Mamajek 2012)",
+    "alf PsA B (TW PsA): K4 Ve (companion 1.96 deg away)",
+    "alf PsA C (LP 876-10): M4 V (wide red-dwarf companion)"
+   ],
+   "source": "Mamajek 2012 for A and B; C as described on Wikipedia, citing Mamajek et al. 2013, AJ 146, 154",
+   "url": "https://en.wikipedia.org/wiki/Fomalhaut",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 14372)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (NSV 14372, category Suspected, no type or range given)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=52996",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Piscis Austrini"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "The two companions are degrees away on the sky and are separate naked-eye/telescopic objects, not part of the point. Published [Fe/H] values range from -0.03 to -0.34. No extinction value was found."
+ },
+ {
+  "rank": 19,
+  "name": "bet Cru",
+  "mass_msun": {
+   "value": 14.5,
+   "source": "Cotton et al. 2022, Nature Astronomy 6, 154 (14.5 +/- 0.5, asteroseismic)",
+   "url": "https://doi.org/10.1038/s41550-021-01531-9",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 25704,
+   "source": "Sharma et al. 2022, MNRAS 515, 828 (log L = 4.41 +/- 0.07)",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 28840,
+   "source": "Sharma et al. 2022, MNRAS 515, 828 (log Teff = 4.46)",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.1,
+   "source": "Cotton et al. 2022, Nature Astronomy 6, 154 (radius in the range 7.3 to 8.9 Rsun; 8.1 is the middle of that range)",
+   "url": "https://doi.org/10.1038/s41550-021-01531-9",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0113,
+   "source": "Cotton et al. 2022, Nature Astronomy 6, 154 (11.3 +/- 1.6 Myr)",
+   "url": "https://doi.org/10.1038/s41550-021-01531-9",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.08,
+   "source": "Kilian 1994, A&A 282, 867 (as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Mimosa_(star)",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 3,
+   "source": "Wikipedia: 'a triple star system' - the bet Cep primary with a 5 yr spectroscopic companion (Heintz 1957) and a low-mass pre-main-sequence companion (Cohen et al. 2008, MNRAS 386, 1855), confirmed as bound by Gratton et al. 2023, A&A 678, A93",
+   "url": "https://en.wikipedia.org/wiki/Mimosa_(star)",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet Cru A: B0.5 III (primary, bet Cep variable)",
+    "bet Cru B: type not given (companion, 1.90 Msun per Gratton et al. 2023)",
+    "bet Cru D: type not given (pre-main-sequence companion, 0.78 Msun)"
+   ],
+   "source": "Wikipedia starbox, citing Cohen et al. 2008 and Gratton et al. 2023",
+   "url": "https://en.wikipedia.org/wiki/Mimosa_(star)",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "bet Cep",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type BCEP, period 0.1911846 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=10916",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.23 to 1.29",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=10916",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Beta Crucis",
+    "Becrux"
+   ],
+   "source": "Wikipedia starbox, citing the Bright Star Catalogue",
+   "url": "https://en.wikipedia.org/wiki/Mimosa_(star)",
+   "wikipedia": true
+  },
+  "notes": "Wikipedia's count of three is not fully consistent with its own starbox (which lists A, B and D and separately mentions a spectroscopic companion); the multiplicity should be rechecked against Gratton et al. 2023. Two further WDS companions at 44 and 370 arcsec are optical. No improved distance or extinction was found."
+ },
+ {
+  "rank": 20,
+  "name": "alf Cyg",
+  "mass_msun": {
+   "value": 19,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (Table 2: spectroscopic mass 19 +/- 4; evolutionary 18 +/- 2; ZAMS 23 +/- 2)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 196000,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 ((1.96 +/- 0.32) x 10^5; log L = 5.30 +/- 0.07)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 8525,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (8525 +/- 75 K)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 203,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (203 +/- 17)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": {
+   "value": -0.2,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 ([M/H] = -0.20 +/- 0.04)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: no confirmed companion (a possible single-lined spectroscopic binary with an 850 d period has been reported)",
+   "url": "https://en.wikipedia.org/wiki/Deneb",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Cyg: A2 Ia (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "alf Cyg",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type ACYG, the prototype)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=13281",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.21 to 1.29",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=13281",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 2616,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (Table 2: d = 802 +/- 66 pc, from Cyg OB7 membership, converted)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 215,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (66 pc converted)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "av_mag": {
+   "value": 0.11,
+   "source": "Schiller & Przybilla 2008, A&A 479, 849 (Table 2: E(B-V) = 0.04, A_V = 0.11)",
+   "url": "https://doi.org/10.1051/0004-6361:20078590",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Cygni",
+    "Arided",
+    "Aridif",
+    "Gallina",
+    "Arrioph"
+   ],
+   "source": "Wikipedia starbox",
+   "url": "https://en.wikipedia.org/wiki/Deneb",
+   "wikipedia": true
+  },
+  "notes": "SOURCES DISAGREE BADLY on the distance and everything scaled from it: Schiller & Przybilla 2008 use 802 +/- 66 pc (association), the revised Hipparcos parallax gives 433 pc (the batch input, 1412 ly), and Wikipedia now quotes Nurmakhametova et al. 2026 (Galaxies 14, 87: 8.8 +/- 0.4 Msun, 117,500 Lsun, 10.2 +/- 1.0 Myr) with Teff 8900 +/- 135 K from Vaidman et al. 2026 (ApJ 1010, 58). Mass, luminosity, radius and distance here are one self-consistent set from Schiller & Przybilla; age is left null because that paper gives none."
+ },
+ {
+  "rank": 21,
+  "name": "alf Leo",
+  "mass_msun": {
+   "value": 4.15,
+   "source": "Che et al. 2011, ApJ 732, 68 (4.15 +/- 0.06 from the HR diagram)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 341,
+   "source": "Che et al. 2011, ApJ 732, 68 (Table: bolometric luminosity 341 +27 -28; the extracted table text was partly garbled and the value was matched against Wikipedia's reading of the same table)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 14520,
+   "source": "Che et al. 2011, ApJ 732, 68 (pole 14520 K, equator 11010 K)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 4.21,
+   "source": "Che et al. 2011, ApJ 732, 68 (equatorial 4.21 +0.07 -0.06; polar 3.22)",
+   "url": "https://doi.org/10.1088/0004-637X/732/2/68",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 1.0,
+   "source": "Rappaport, Podsiadlowski & Horev 2009, ApJ 698, 666 (lower limit: the age of the system 'would exceed 1 Gyr' if Regulus A was spun up by mass transfer)",
+   "url": "https://doi.org/10.1088/0004-637X/698/1/666",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.21,
+   "source": "Baines et al. 2018, AJ 155, 30 (Table 1: [Fe/H] = 0.21)",
+   "url": "https://doi.org/10.3847/1538-3881/aa9d8b",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 4,
+   "source": "Wikipedia: quadruple - Regulus Aa with its pre-white-dwarf companion Ab (Gies et al. 2020, ApJ 902, 25) and the wide pair B+C, 177 arcsec away",
+   "url": "https://en.wikipedia.org/wiki/Regulus",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Leo Aa: B8 IVn (primary)",
+    "alf Leo Ab: pre-white dwarf (40.1 d spectroscopic companion, 0.31 Msun)",
+    "alf Leo B: K2 V (wide companion, 177 arcsec)",
+    "alf Leo C: M4 V (companion of B)"
+   ],
+   "source": "Wikipedia starbox, citing Gies et al. 2008 and 2020; Ab mass 0.31 +/- 0.10 checked in Gies et al. 2020, ApJ 902, 25",
+   "url": "https://en.wikipedia.org/wiki/Regulus",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 4750)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (NSV 4750, category Suspected)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=43374",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.33 to 1.40",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=43374",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Leonis"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "Rapid rotator: the Teff given is polar and the radius equatorial. The age is a lower limit that depends on the mass-transfer history; isolated-star estimates are far younger (50-150 Myr, quoted by Rappaport et al. 2009). No extinction value was found."
+ },
+ {
+  "rank": 22,
+  "name": "eps CMa",
+  "mass_msun": {
+   "value": 13.1,
+   "source": "Shull et al. 2025, ApJ 979, 21 (13.1 +/- 2.3, from log g and the radius)",
+   "url": "https://doi.org/10.3847/1538-4357/ad9b8b",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 19900,
+   "source": "Shull et al. 2025, ApJ 979, 21 (L = 19,900 Lsun for Teff = 21,000 K and R = 10.7 Rsun)",
+   "url": "https://doi.org/10.3847/1538-4357/ad9b8b",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 21000,
+   "source": "Shull et al. 2025, ApJ 979, 21 (about 21,000 K; Fossati et al. 2015, A&A 574, A20 give 22,500 +/- 300 K)",
+   "url": "https://doi.org/10.3847/1538-4357/ad9b8b",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 10.7,
+   "source": "Shull et al. 2025, ApJ 979, 21 (10.7 +/- 0.7, from the interferometric diameter at 124 pc)",
+   "url": "https://doi.org/10.3847/1538-4357/ad9b8b",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia: binary - Adhara A and a V = 7.5 companion 7.5 arcsec away",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Canis_Majoris",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "eps CMa A: B1.5 II (primary)",
+    "eps CMa B: type not given (visual companion at 7.5 arcsec, about 1.5 Msun, Teff 7315 K per Gaia DR3)"
+   ],
+   "source": "SIMBAD type for A (batch input); B as described in the Wikipedia starbox, citing the WDS and Gaia DR3",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Canis_Majoris",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "alf Cyg",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type ACYG)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=10868066",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.50 to 1.51",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=10868066",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Epsilon Canis Majoris",
+    "Adharaz",
+    "Undara"
+   ],
+   "source": "Wikipedia starbox, citing SIMBAD",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Canis_Majoris",
+   "wikipedia": true
+  },
+  "notes": "Shull et al. 2025 rework the star at the Hipparcos distance of 124 pc (the batch input) and stress its unusually low interstellar H I column, but print no A_V. Wikipedia quotes an age of 17.5-19 Myr (Neiner et al. 2017, MNRAS 471, 1926), which could not be found in that paper's text, so age is null. No [Fe/H] was found."
+ },
+ {
+  "rank": 23,
+  "name": "alf Gem",
+  "mass_msun": {
+   "value": 2.371,
+   "source": "Torres et al. 2022, ApJ 941, 8 (Table 6: Aa 2.371 +/- 0.015; Ab 0.3859; Ba 1.789 +/- 0.016; Bb 0.3865)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "luminosity_lsun": null,
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 10286,
+   "source": "Smith 1974, ApJ 189, 101 (Aa: 10,286 K; Ba: 8,842 K, as cited by Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Castor_(star)",
+   "wikipedia": true
+  },
+  "radius_rsun": {
+   "value": 2.089,
+   "source": "Torres et al. 2022, ApJ 941, 8 (Aa: 2.089 +/- 0.005; Ba: 1.648 +/- 0.011, interferometric)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.29,
+   "source": "Torres et al. 2022, ApJ 941, 8 (290 Myr from stellar evolution models)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 6,
+   "source": "Torres et al. 2022, ApJ 941, 8 (sextuple: Aa+Ab, Ba+Bb and the eclipsing pair YY Gem = Castor C, Ca+Cb)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf Gem Aa: A1 V (primary, 2.371 Msun)",
+    "alf Gem Ab: dM1e (9.2 d spectroscopic companion of Aa, 0.3859 Msun)",
+    "alf Gem Ba: A2 Vm (Am star, 1.789 Msun, 4 arcsec from A)",
+    "alf Gem Bb: dM1e (2.9 d spectroscopic companion of Ba, 0.3865 Msun)",
+    "alf Gem Ca (YY Gem): dM1e (eclipsing pair 71 arcsec away, 0.5992 Msun)",
+    "alf Gem Cb (YY Gem): dM1e (0.5992 Msun)"
+   ],
+   "source": "Wikipedia starbox, citing Pourbaix et al. 2004 (SB9) for the types and Torres & Ribas 2002, ApJ 567, 1140 for YY Gem; A and B masses checked in Torres et al. 2022",
+   "url": "https://en.wikipedia.org/wiki/Castor_(star)",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "No VSX entry for alf Gem A/B, queried 2026-11-26; Castor C (YY Gem, V = 9.8) is an eclipsing BY Dra variable but is a separate star 71 arcsec away",
+   "url": "https://vsx.aavso.org/",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": {
+   "value": 49.153,
+   "source": "Torres et al. 2022, ApJ 941, 8 (Table 6: orbital parallax 66.356 +/- 0.041 mas, distance 15.0703 +/- 0.0082 pc, converted)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 0.027,
+   "source": "Torres et al. 2022, ApJ 941, 8 (0.0082 pc converted)",
+   "url": "https://doi.org/10.3847/1538-4357/ac9d8d",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Geminorum"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "No bolometric luminosity for Castor Aa or Ba was found in the papers read, so luminosity and system luminosity are null although Ba clearly adds more than 5%. Torres et al. 2022 adopt a super-solar [Fe/H] = +0.5 for the Am star Castor B rather than measure a bulk value, so [Fe/H] is null. No extinction value was found."
+ },
+ {
+  "rank": 24,
+  "name": "gam Cru",
+  "mass_msun": {
+   "value": 1.5,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (1.5 +/- 0.2 from granulation; 1.5 +/- 0.3 from oscillations)",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 832,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (log L = 2.92 +/- 0.03)",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3689,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (3689 +/- 125 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 84,
+   "source": "Kallinger et al. 2019, A&A 624, A35 (84 +/- 7); Wikipedia quotes 73 from Nielsen et al. 2023, ApJ 953, 16",
+   "url": "https://doi.org/10.1051/0004-6361/201834514",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": null,
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia: the visual companion is only an optical one",
+   "url": "https://en.wikipedia.org/wiki/Gacrux",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "gam Cru: M3.5 III (single)"
+   ],
+   "source": "SIMBAD spectral type (as given in the batch input)",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "SR",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type SR)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=44296",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.60 to 1.67",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=44296",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Gamma Crucis"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "No age, [Fe/H] or extinction was found in the papers read. Published radii differ (84 +/- 7 against 73)."
+ },
+ {
+  "rank": 25,
+  "name": "lam Sco",
+  "mass_msun": {
+   "value": 10.4,
+   "source": "Tango et al. 2006, MNRAS 370, 884 (dynamical: A 10.4 +/- 1.3, B 8.1 +/- 1.0); Handler & Schwarzenberg-Czerny 2013 infer 14.5 +/- 1.1 from models",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10526.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 36308,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (primary log L = 4.56 +/- 0.13, computed with the Hipparcos parallax)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 25000,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (25000 +/- 1000 K, after Uytterhoeven et al. 2004)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.8,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (R1 = 8.8 +/- 1.2; R2 = 1.5 +/- 0.2; R3 = 4.7 +/- 1.0)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": null,
+  "n_stars": {
+   "value": 3,
+   "source": "Tango et al. 2006, MNRAS 370, 884 (triple: the 5.95 d eclipsing pair and a B-type companion with a period of about 1000 d)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10526.x",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "lam Sco Aa1 (A): B1.5 IV (primary, bet Cep variable)",
+    "lam Sco Ab (B): B2 IV (interferometric companion, period about 1000 d, 8.1 Msun)",
+    "lam Sco Aa2: type uncertain, pre-main-sequence star or white dwarf (5.95 d eclipsing companion, about 2.0 Msun)"
+   ],
+   "source": "Wikipedia starbox, citing Tango et al. 2006, Uytterhoeven et al. 2004 and Handler & Schwarzenberg-Czerny 2013; masses and radii checked in those papers",
+   "url": "https://en.wikipedia.org/wiki/Lambda_Scorpii",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "bet Cep + Algol (EA)",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26 (type BCEP+EA, period 0.2137015 d)",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=34006",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.59 to 1.65",
+   "source": "AAVSO International Variable Star Index (VSX; Watson et al. 2006, SASS 25, 47), entry read 2026-11-26",
+   "url": "https://vsx.aavso.org/index.php?view=detail.top&oid=34006",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 365.3,
+   "source": "Tango et al. 2006, MNRAS 370, 884 (dynamical parallax, 112 +/- 5 pc, converted)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10526.x",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 16.3,
+   "source": "Tango et al. 2006, MNRAS 370, 884 (5 pc converted)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10526.x",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Lambda Scorpii"
+   ],
+   "source": "Full Bayer name, expanded from the designation in the batch input",
+   "url": "https://simbad.cds.unistra.fr/simbad/",
+   "wikipedia": false
+  },
+  "notes": "SOURCES DISAGREE on distance: the dynamical parallax of Tango et al. 2006 gives 112 +/- 5 pc, the revised Hipparcos parallax 175 pc (the batch input). The luminosity and radius come from Handler & Schwarzenberg-Czerny 2013, who used the Hipparcos distance, so they are not consistent with the distance given here. SIMBAD's 'DA7.9' reflects a white-dwarf reading of the 5.95 d companion. No age, [Fe/H] or extinction was found."
+ }
+]

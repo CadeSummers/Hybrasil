@@ -1,0 +1,1999 @@
+[
+ {
+  "rank": 76,
+  "name": "del Sco",
+  "mass_msun": {
+   "value": 15.3,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (15.3 +/- 0.2)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 28000,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (28000 +/- 1000)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 29700,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (29700 +/- 200 K)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.8,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (equatorial 6.8 +/- 0.2; polar 6.4 +/- 0.2)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0073,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (7.3 +/- 0.4 Myr)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Miroshnichenko et al. 2013, ApJ 766, 119 (10.8 yr eccentric binary; a third body is only suggested)",
+   "url": "https://doi.org/10.1088/0004-637X/766/2/119",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "del Sco A: B0.3 IV e (primary, Be star)",
+    "del Sco B: B1-B3 V (companion, 10.8 yr eccentric orbit)"
+   ],
+   "source": "Miroshnichenko et al. 2013, ApJ 766, 119 (secondary adopted type B1-B3, Teff 20000-24000 K)",
+   "url": "https://doi.org/10.1088/0004-637X/766/2/119",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "gam Cas",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "1.86 to 2.32",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": {
+   "value": 440.3,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (135 +/- 4 pc; SED fit with the interferometric-orbit parallax 7.4 +/- 0.2 mas of Tycner et al. 2011 as prior; pc x 3.261563777)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "distance_err_ly": {
+   "value": 13.0,
+   "source": "Suffak et al. 2020, ApJ 890, 86, Table 4 (4 pc x 3.261563777)",
+   "url": "https://doi.org/10.3847/1538-4357/ab68dc",
+   "wikipedia": false
+  },
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Delta Scorpii",
+    "Dzuba",
+    "Al Jabba",
+    "Iclarkrau",
+    "7 Scorpii"
+   ],
+   "source": "Wikipedia, citing Moore 2010, 'Scorpion in the Sky' (The Sky at Night), doi:10.1007/978-1-4419-6409-0_24",
+   "url": "https://en.wikipedia.org/wiki/Delta_Scorpii",
+   "wikipedia": true
+  },
+  "notes": "Be star in outburst since 2000; AAVSO VSX gives a wider range, 1.59 to 2.32 V (via Wikipedia). No A_V printed: Suffak et al. 2020 fit E(B-V) = 0.18 +/- 0.01 (Gratton et al. 2023 list 0.316). Catalogue masses are higher (Tetzlaff et al. 2011: 19.7 Msun, 4.8 Myr; Hohle et al. 2010: 19.6 Msun, 66182 Lsun)."
+ },
+ {
+  "rank": 77,
+  "name": "eps Sco",
+  "mass_msun": {
+   "value": 1.41,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (asteroseismic) (1.41 +/- 0.09)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 60.3,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88), log L = 1.78",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4522,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88) (4522 +/- 28 K)",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 12.91,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (12.91 +/- 0.25, from the angular diameter of Cohen et al. 1999)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 3.92,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88) (mean of isochrone ages 4.47 and 3.38 Gyr)",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.14,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88), table 3: [Fe I/H] = 0.14 +/- 0.11 with mass-derived gravity (0.03 with ionisation-balance gravity)",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Fuhrmann & Chini 2018, RNAAS 2, 56 (Gaia DR2 common-proper-motion companion at 14.4 arcsec)",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Scorpii",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "eps Sco A: K1 III (primary)",
+    "eps Sco B: M dwarf (common-proper-motion companion at 14.4 arcsec)"
+   ],
+   "source": "Wikipedia, citing Fuhrmann & Chini 2018, RNAAS 2, 56 and Gray et al. 2006, AJ 132, 161; the companion has no published spectral type (Teff 3359 K in Hardegree-Ullman et al. 2023, AJ 165, 267)",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Scorpii",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 7983)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.24 to 2.35",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 7983",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88), table 2: E(B-V) = 0.000",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Epsilon Scorpii",
+    "Wei",
+    "26 Scorpii"
+   ],
+   "source": "Wikipedia, citing Moore 1983, The Guinness Book of Astronomy, p. 242 (Wei)",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Scorpii",
+   "wikipedia": true
+  },
+  "notes": "Luck 2015 gives a mean isochrone mass of 1.31 Msun against the seismic 1.41. McWilliam 1990 (ApJS 74, 1075) gives [Fe/H] = -0.17, as quoted by Wikipedia, against Luck's +0.14 / +0.03. Rudrasingam et al. list Teff 4489 +/- 40 K."
+ },
+ {
+  "rank": 78,
+  "name": "alf Lup",
+  "mass_msun": {
+   "value": 10.1,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (10.1 +/- 1.0)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 18197,
+   "source": "Sharma et al. 2022, MNRAS 515, 828, Table 1, log L = 4.26 +/- 0.02",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 24547,
+   "source": "Sharma et al. 2022, MNRAS 515, 828, Table 1, log Teff = 4.39",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "radius_rsun": null,
+  "age_gyr": {
+   "value": 0.0225,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (22.5 +/- 2.6 Myr)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.04,
+   "source": "Daszynska-Daszkiewicz & Niemczura 2005, A&A 433, 1031",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Lupi",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Gratton et al. 2023, A&A 678, A93 (VizieR J/A+A/678/A93) (interferometric companion at 0.076 arcsec, 12.7 au)",
+   "url": "https://doi.org/10.1051/0004-6361/202346806",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "alf Lup A: B1.5 III (primary, bet Cep pulsator)",
+    "alf Lup B: unclassified, about 2.25 Msun (interferometric companion at 76 mas)"
+   ],
+   "source": "Gratton et al. 2023, A&A 678, A93 (VizieR J/A+A/678/A93) (masses 11.556 and 2.251 Msun)",
+   "url": "https://doi.org/10.1051/0004-6361/202346806",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "bet Cep",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.29 to 2.34",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Lupi",
+    "Uridim",
+    "Men"
+   ],
+   "source": "Wikipedia, citing the IAU Catalog of Star Names (Uridim, approved 2024) and Allen 1899, Star Names, p. 279 (Men)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Lupi",
+   "wikipedia": true
+  },
+  "notes": "Uridim was approved by the IAU WGSN in September 2024 (per Wikipedia); the input list carries no IAU name. No A_V printed: Gratton et al. 2023 give E(B-V) = 0.024 and an age of 22.2 Myr. Radius is null because the Wikipedia value (7.46 Rsun) is its own Stefan-Boltzmann calculation. The 14th-magnitude star 26 arcsec away is not known to be bound."
+ },
+ {
+  "rank": 79,
+  "name": "eta Cen",
+  "mass_msun": {
+   "value": 12.0,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (12.0 +/- 0.3)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 7762,
+   "source": "Sharma et al. 2022, MNRAS 515, 828, Table 1, log L = 3.89 +/- 0.02",
+   "url": "https://doi.org/10.1093/mnras/stac1816",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 21000,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (21000 +/- 210 K)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.1,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (6.10 +/- 0.12)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0056,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (5.6 +/- 1.0 Myr)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Gratton et al. 2023, A&A 678, A93 (VizieR J/A+A/678/A93) (listed as a double-lined spectroscopic binary; no orbit or secondary mass)",
+   "url": "https://doi.org/10.1051/0004-6361/202346806",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "eta Cen A: B2 Ve (primary, Be star)",
+    "eta Cen B: unclassified (spectroscopic companion, no orbit)"
+   ],
+   "source": "Gratton et al. 2023, A&A 678, A93 (VizieR J/A+A/678/A93); spectral type from Sharma et al. 2022",
+   "url": "https://doi.org/10.1051/0004-6361/202346806",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "Be (GCVS BE)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.30 to 2.51",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.062,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (E(B-V) = 0.020)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Eta Centauri"
+   ],
+   "source": "Wikipedia (Bayer name; no traditional name in use)",
+   "url": "https://en.wikipedia.org/wiki/Eta_Centauri",
+   "wikipedia": true
+  },
+  "notes": "Multiplicity is weakly established: Gratton et al. 2023 flag it SB2 and Tetzlaff et al. 2011 type it 'B1Vn + A', but Wikipedia and most sources treat it as single. Sources disagree on mass and age: Gratton et al. give 9.5 Msun and 15.4 Myr, and Sharma et al. 2022 give log Teff = 4.31 (20400 K). Wikipedia classes it GCAS + LERI, 2.30 to 2.41 V."
+ },
+ {
+  "rank": 80,
+  "name": "bet UMa",
+  "mass_msun": {
+   "value": 2.56,
+   "source": "Acharyya et al. 2024, ApJ 966, 28, Table 3 (2.56 +/- 0.03 +/- 0.02)",
+   "url": "https://doi.org/10.3847/1538-4357/ad2b68",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 63.5,
+   "source": "Acharyya et al. 2024, ApJ 966, 28, Table 3 (63.5 +/- 1.4)",
+   "url": "https://doi.org/10.3847/1538-4357/ad2b68",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 9700,
+   "source": "Acharyya et al. 2024, ApJ 966, 28, Table 3 (9700 +/- 200 +/- 200 K)",
+   "url": "https://doi.org/10.3847/1538-4357/ad2b68",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.81,
+   "source": "Acharyya et al. 2024, ApJ 966, 28, Table 3 (2.81 +/- 0.11 +/- 0.13)",
+   "url": "https://doi.org/10.3847/1538-4357/ad2b68",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.39,
+   "source": "Acharyya et al. 2024, ApJ 966, 28, Table 3 (390 +/- 29 +/- 32 Myr)",
+   "url": "https://doi.org/10.3847/1538-4357/ad2b68",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.03,
+   "source": "Anderson & Francis 2012, Astron. Lett. 38, 331 (XHIP), as tabulated in Baines et al. 2025, AJ 169, 293, Table 6",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported); none in Baines et al. 2025, AJ 169, 293, Table 8",
+   "url": "https://en.wikipedia.org/wiki/Beta_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet UMa: A1 IVps (single)"
+   ],
+   "source": "Wikipedia, citing Phillips et al. 2010, MNRAS 403, 1089 for the type",
+   "url": "https://en.wikipedia.org/wiki/Beta_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 5053)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.35 to 2.40",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 5053",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 3 (calibrator SED input E(B-V) = 0.00; VizieR J/AJ/162/198)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Beta Ursae Majoris",
+    "Mirak",
+    "48 Ursae Majoris"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 438",
+   "url": "https://en.wikipedia.org/wiki/Beta_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "notes": "Ursa Major moving group member. Jones et al. 2015 (ApJ 813, 58) give 408 +/- 6 Myr from the CHARA diameter; Zorec & Royer 2012 give 2.64 Msun and log L = 1.863 (73 Lsun); Baines et al. 2025 measure 4.34 Rsun, much larger than the 2.81 here."
+ },
+ {
+  "rank": 81,
+  "name": "eps Boo",
+  "mass_msun": {
+   "value": 5.36,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (asteroseismic) (5.36 +/- 0.48)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 652.5,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 5 (VizieR J/AJ/162/198) (652.5 +/- 58.7)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4755,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 5 (VizieR J/AJ/162/198) (4755 +/- 66 K)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 37.61,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 5 (VizieR J/AJ/162/198) (37.61 +1.29/-1.38)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": {
+   "value": 0.05,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 1 (literature value adopted there)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia, citing Prieur et al. 2008, MNRAS 387, 772 (visual pair, 2.85 arcsec) and Kervella et al. 2022, A&A 657, A7",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Bo%C3%B6tis",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "eps Boo A: K0 II-III (primary)",
+    "eps Boo B: A2 V (visual companion at 2.9 arcsec)"
+   ],
+   "source": "Wikipedia, citing Luck & Wepfer 1995, AJ 110, 2425 and Cowley et al. 1969, AJ 74, 375",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Bo%C3%B6tis",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.11,
+   "source": "Baines et al. 2021, AJ 162, 198, Table 5 (VizieR J/AJ/162/198) (0.11 +/- 0.06)",
+   "url": "https://doi.org/10.3847/1538-3881/ac2431",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Epsilon Bootis",
+    "Pulcherrima",
+    "Mirak",
+    "Mizar",
+    "Mintek al Aoua",
+    "36 Bootis"
+   ],
+   "source": "Wikipedia, citing Burnham's Celestial Handbook and Knobel 1895, MNRAS 55, 429",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Bo%C3%B6tis",
+   "wikipedia": true
+  },
+  "notes": "Radius and luminosity in Baines et al. 2021 use the Gaia parallax 13.83 +/- 0.49 mas (236 ly), which disagrees with the Hipparcos distance in the input (202.6 ly); Baines et al. 2025 re-derive 37.85 Rsun with Teff 4341 K and 459 Lsun. Companion B (V = 4.8) adds about 7% in bolometric light (44.8 Lsun in TIC-8, per Wikipedia), not summed here. Kervella et al. 2022 suggest further wide companions."
+ },
+ {
+  "rank": 82,
+  "name": "eps Peg",
+  "mass_msun": {
+   "value": 11.7,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (11.7 +/- 0.8)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 8508,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770) (8508.04, fractional error 0.070)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4100,
+   "source": "Baines et al. 2025, AJ 169, 293, Table 7 (VizieR J/AJ/169/293) (4100 +/- 37 K)",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 182.63,
+   "source": "Baines et al. 2025, AJ 169, 293, Table 7 (VizieR J/AJ/169/293) (182.63 +6.36/-6.83)",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.02,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (20.0 +/- 4.5 Myr)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.06,
+   "source": "Anderson & Francis 2012, Astron. Lett. 38, 331 (XHIP), as tabulated in Baines et al. 2025, AJ 169, 293, Table 6",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (single supergiant); the WDS companion at 87 arcsec in Baines et al. 2025, Table 8 is 10 mag fainter and not known to be bound",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Pegasi",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "eps Peg: K2 Ib-II (single)"
+   ],
+   "source": "Wikipedia, citing Keenan & McNeil 1989, ApJS 71, 245",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Pegasi",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "LC",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "0.7 to 3.5",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Epsilon Pegasi",
+    "Fom al Feras",
+    "Os Equi",
+    "8 Pegasi"
+   ],
+   "source": "Wikipedia, citing Knobel 1895, MNRAS 55, 429",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Pegasi",
+   "wikipedia": true
+  },
+  "notes": "The GCVS range 0.7 to 3.5 includes a single 1972 flare and one deep minimum; Wikipedia quotes the normal range as 2.37 to 2.45 V. Wikipedia also quotes 11-12 Msun (Neuhauser et al. 2022) and [Fe/H] = -0.04 (Soubiran et al. 2008). No reliable A_V found."
+ },
+ {
+  "rank": 83,
+  "name": "kap Sco",
+  "mass_msun": {
+   "value": 10.2,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (10.2 +/- 0.3)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "luminosity_lsun": null,
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 23174,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1, log Teff = 4.365 +/- 0.015",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 6.45,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (6.45 +/- 0.55)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0151,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1, log age = 7.18 +/- 0.05",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1 (double-lined spectroscopic binary, M2 = 9.3 +/- 0.3 Msun; 195.5 d orbit per Wikipedia)",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "kap Sco A: B1.5 III (primary, bet Cep pulsator)",
+    "kap Sco B: B-type, 9.3 Msun (spectroscopic companion, 195 d orbit)"
+   ],
+   "source": "Handler & Schwarzenberg-Czerny 2013, A&A 557, A1; combined type from the input list",
+   "url": "https://doi.org/10.1051/0004-6361/201321886",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "bet Cep",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.41 to 2.42",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Kappa Scorpii",
+    "Girtab",
+    "Mula",
+    "Gidjirrigaa"
+   ],
+   "source": "Wikipedia, citing Ridpath 1989, Star Tales, p. 114; Rhoads 1971, JPL TM 33-507; IAU Catalog of Star Names",
+   "url": "https://en.wikipedia.org/wiki/Kappa_Scorpii",
+   "wikipedia": true
+  },
+  "notes": "Near-equal pair (log Teff2 - log Teff1 = -0.008), so the secondary adds well over 5% of the light, but no component or system luminosity is printed in the sources read. Gratton et al. 2023 give E(B-V) = 0.011, age 16.0 Myr and masses 11.5 + 11.1 Msun; Tetzlaff et al. 2011 give 25.1 Myr."
+ },
+ {
+  "rank": 84,
+  "name": "alf Phe",
+  "mass_msun": {
+   "value": 0.96,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (asteroseismic) (0.96 +/- 0.07)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 83.2,
+   "source": "Charbonnel et al. 2020, A&A 633, A34, Table 1, log L = 1.92 +/- 0.02",
+   "url": "https://doi.org/10.1051/0004-6361/201936360",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4770,
+   "source": "Charbonnel et al. 2020, A&A 633, A34, Table 1 (4770 +/- 250 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201936360",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 13.39,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (13.39 +/- 0.29, from the angular diameter of Cohen et al. 1999)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": {
+   "value": -0.4,
+   "source": "Charbonnel et al. 2020, A&A 633, A34, Table 1",
+   "url": "https://doi.org/10.1051/0004-6361/201936360",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia (single-lined spectroscopic binary, period 3848.8 d; SIMBAD type 'Spectroscopic binary')",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Phoenicis",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Phe A: K0.5 IIIb (primary)",
+    "alf Phe B: unseen (spectroscopic companion, 10.5 yr orbit)"
+   ],
+   "source": "Wikipedia, citing Gray et al. 2006, AJ 132, 161 for the type",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Phoenicis",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Phoenicis",
+    "Nair al Zaurak",
+    "Cymbae",
+    "Lucida Cymbae"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 336",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Phoenicis",
+   "wikipedia": true
+  },
+  "notes": "Masses disagree badly: asteroseismology gives 0.96 +/- 0.07 Msun, the Charbonnel et al. 2020 evolutionary tracks 1.57 Msun. Wikipedia quotes [Fe/H] = -0.73 (Gray et al. 2006) against -0.4 here. No age or A_V found."
+ },
+ {
+  "rank": 85,
+  "name": "gam UMa",
+  "mass_msun": {
+   "value": 2.412,
+   "source": "Jones et al. 2015, ApJ 813, 58, Table 6 (2.412 +0.053/-0.060)",
+   "url": "https://doi.org/10.1088/0004-637X/813/1/58",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 44.57,
+   "source": "Jones et al. 2015, ApJ 813, 58, Table 6 (total luminosity 44.57 +3.39/-3.61; apparent luminosity 64.74)",
+   "url": "https://doi.org/10.1088/0004-637X/813/1/58",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 9311,
+   "source": "Zorec & Royer 2012, A&A 537, A120 (VizieR J/A+A/537/A120), log Teff = 3.969 +/- 0.005 (apparent)",
+   "url": "https://doi.org/10.1051/0004-6361/201117691",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.5,
+   "source": "Jones et al. 2015, ApJ 813, 58, Table 6 (average radius; equatorial 3.385, polar 2.186)",
+   "url": "https://doi.org/10.1088/0004-637X/813/1/58",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.333,
+   "source": "Jones et al. 2015, ApJ 813, 58, Table 6 (333 +43/-83 Myr)",
+   "url": "https://doi.org/10.1088/0004-637X/813/1/58",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Wikipedia, citing Gontcharov & Kiyaeva 2010, New Astron. 15, 324 (astrometric binary, 20.5 yr)",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "gam UMa A: A0 Ve (primary)",
+    "gam UMa B: K2 V (astrometric companion, 20.5 yr orbit)"
+   ],
+   "source": "Wikipedia, citing Eggl et al. 2013, MNRAS 428, 3104; Baines et al. 2025 also type the system A0 V+K2 V",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 5379)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.41 to 2.45",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 5379",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Gamma Ursae Majoris",
+    "Phad",
+    "Phekda",
+    "Phegda",
+    "Phekha",
+    "Phacd",
+    "64 Ursae Majoris"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Ursae_Majoris",
+   "wikipedia": true
+  },
+  "notes": "Rapid rotator seen near pole-on: Jones et al. give polar Teff 10520 K and equatorial 6751 K, so the Teff here is the apparent one. Zorec & Royer 2012 give 2.64 Msun and log L = 1.876 (75 Lsun). The K2 V companion rests on a preliminary astrometric orbit. No A_V printed (Baines et al. 2025 adopt E(B-V) = 0.02); XHIP's [Fe/H] = -0.44 is left out as implausible for an Ursa Major group star."
+ },
+ {
+  "rank": 86,
+  "name": "eta Oph",
+  "mass_msun": {
+   "value": 2.25,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 (2.25 +0.18/-0.09)",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "luminosity_lsun": null,
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 9000,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 (9000 +1250/-750 K)",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.5,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 (2.5 +/- 0.4)",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.5,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 (500 +210/-280 Myr)",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.01,
+   "source": "Gray et al. 2006, AJ 132, 161",
+   "url": "https://en.wikipedia.org/wiki/Eta_Ophiuchi",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 (visual binary; no third companion found)",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "eta Oph A: A2 V (primary)",
+    "eta Oph B: A2 V (companion, 88 yr highly eccentric orbit)"
+   ],
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0,
+   "source": "Waisberg, Klein & Katz 2025, Open J. Astrophys. 8, 63 ('interstellar extinction is negligible')",
+   "url": "https://doi.org/10.33232/001c.138625",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Eta Ophiuchi",
+    "35 Ophiuchi"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Eta_Ophiuchi",
+   "wikipedia": true
+  },
+  "notes": "Near-equal pair (B: 2.03 +/- 0.02 Msun, 8700 K, 2.0 Rsun; V 3.05 + 3.27), so B adds far more than 5% of the light, but no component luminosities are printed in a paper (Wikipedia's 35 + 21 Lsun come from Kaler's website). Zorec & Royer 2012 give log L = 1.890 (78 Lsun) for the combined light."
+ },
+ {
+  "rank": 87,
+  "name": "bet Sco",
+  "mass_msun": {
+   "value": 15.0,
+   "source": "Catanzaro 2010, A&A 509, A21 (Aa: 15.0 +/- 0.7)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "luminosity_lsun": {
+   "value": 31600,
+   "source": "Catanzaro 2010, A&A 509, A21 (Aa: 31600 +8200/-6500)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 28000,
+   "source": "Holmgren et al. 1997, A&A 322, 565 (Aa: 28000 +/- 2000 K)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "radius_rsun": {
+   "value": 6.3,
+   "source": "Catanzaro 2010, A&A 509, A21 (Aa: 6.3 +/- 0.5)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "age_gyr": {
+   "value": 0.0063,
+   "source": "Catanzaro 2010, A&A 509, A21 (6.3 +/- 3.0 Myr)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 6,
+   "source": "Wikipedia, citing Catanzaro 2010, A&A 509, A21; Mason et al. 2010, AJ 140, 735; Tokovinin et al. 2024, AJ 168, 28",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet Sco Aa: B0.5 IV-V (primary, 6.8 d spectroscopic binary)",
+    "bet Sco Ab: B1.5 V (spectroscopic companion of Aa)",
+    "bet Sco C: B2 V (bet2 Sco, 13.6 arcsec from A)",
+    "bet Sco B: unclassified, about 8 Msun (0.3 arcsec companion of A, 610 yr orbit)",
+    "bet Sco Ea: HgMn late B (0.1 arcsec companion of C, 39 yr orbit; spectroscopic binary)",
+    "bet Sco Eb: unclassified (spectroscopic companion of Ea)"
+   ],
+   "source": "Wikipedia, citing Holmgren et al. 1997, A&A 322, 565; Abt 1981, ApJS 45, 437; Catanzaro 2010, A&A 509, A21",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 7424)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.61 to 2.67",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 7424 (bet1 Sco alone)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Beta Scorpii",
+    "Akrab",
+    "Elacrab",
+    "Graffias",
+    "8 Scorpii"
+   ],
+   "source": "Wikipedia, citing Davis 1944, Popular Astronomy 52, 8 and Allen 1899, Star Names, p. 367",
+   "url": "https://en.wikipedia.org/wiki/Beta_Scorpii",
+   "wikipedia": true
+  },
+  "notes": "Catanzaro 2010 could not be reached, so its values are taken from Wikipedia. Companions add well over 5% (Ab 7900, C 3200, Ea 126 Lsun per Catanzaro via Wikipedia), but no summed system luminosity is printed. Sources disagree: Hohle et al. 2010 give 14.9 Msun and 25514 Lsun, Tetzlaff et al. 2011 12.5 Msun and 13.8 Myr, Gratton et al. 2023 9.7 Myr and E(B-V) = 0.186. Holmgren et al. 1997 give 143 +/- 3 pc (466 ly) per Wikipedia, not verified, so no distance is entered."
+ },
+ {
+  "rank": 88,
+  "name": "bet Peg",
+  "mass_msun": {
+   "value": 1.7,
+   "source": "Halabi & El Eid 2015, MNRAS 451, 2957 (1.70 +/- 0.3)",
+   "url": "https://doi.org/10.1093/mnras/stv1141",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 1863.64,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770) (fractional error 0.071)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3606,
+   "source": "Halabi & El Eid 2015, MNRAS 451, 2957, Table 1 (from Tsuji 2008)",
+   "url": "https://doi.org/10.1093/mnras/stv1141",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 109,
+   "source": "Arroyo-Torres et al. 2014, A&A 566, A88, Table 5 (109 +/- 7)",
+   "url": "https://doi.org/10.1051/0004-6361/201323264",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": {
+   "value": -0.11,
+   "source": "Soubiran et al. 2008, A&A 480, 91",
+   "url": "https://en.wikipedia.org/wiki/Beta_Pegasi",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Pegasi",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "bet Peg: M2.5 II-III (single)"
+   ],
+   "source": "Halabi & El Eid 2015, MNRAS 451, 2957, Table 1 (type); single per Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beta_Pegasi",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "LB",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.31 to 2.74",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Beta Pegasi",
+    "53 Pegasi"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Beta_Pegasi",
+   "wikipedia": true
+  },
+  "notes": "Halabi & El Eid print Mbol = -3.3 +/- 0.2, from which Wikipedia derives 1644 Lsun; Arroyo-Torres et al. 2014 print log L = 3.40 +/- 0.15 (about 2500 Lsun) and Teff 3909 +/- 187 K. Wikipedia calls it semi-regular with a 43.3 d period (Tabur et al. 2009). No age or A_V found."
+ },
+ {
+  "rank": 89,
+  "name": "eta CMa",
+  "mass_msun": {
+   "value": 9.5,
+   "source": "Sanchez Arias et al. 2023, Galaxies 11, 93 (9.5 Msun from the best-fitting CMFGEN model; 5.5 Msun from SED modelling)",
+   "url": "https://doi.org/10.3390/galaxies11050093",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 134896,
+   "source": "Haucke et al. 2018, A&A 614, A91, Table 2, log L = 5.13 +/- 0.23",
+   "url": "https://doi.org/10.1051/0004-6361/201731678",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 15000,
+   "source": "Haucke et al. 2018, A&A 614, A91, Table 2 (15000 +/- 500 K)",
+   "url": "https://doi.org/10.1051/0004-6361/201731678",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 54,
+   "source": "Haucke et al. 2018, A&A 614, A91, Table 2",
+   "url": "https://doi.org/10.1051/0004-6361/201731678",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0083,
+   "source": "Tetzlaff, Neuhauser & Hohle 2011, MNRAS 410, 190 (VizieR J/MNRAS/410/190) (8.3 +/- 0.1 Myr)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2010.17434.x",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported)",
+   "url": "https://en.wikipedia.org/wiki/Eta_Canis_Majoris",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "eta CMa: B5 Ia (single)"
+   ],
+   "source": "Haucke et al. 2018, A&A 614, A91 (type); single per Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eta_Canis_Majoris",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "alf Cyg",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.38 to 2.48",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs); the range is in the Hipparcos Hp band",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Eta Canis Majoris",
+    "31 Canis Majoris"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Eta_Canis_Majoris",
+   "wikipedia": true
+  },
+  "notes": "Masses disagree badly: 5.5 or 9.5 Msun (Sanchez Arias et al. 2023, who also give 163800 Lsun at 608 pc with E(B-V) = 0.18), against 19.2 Msun in Tetzlaff et al. 2011 and Hohle et al. 2010 (105442 Lsun); the 8.3 Myr age belongs with the 19 Msun mass. No distance better than Hipparcos was found; no A_V printed."
+ },
+ {
+  "rank": 90,
+  "name": "alf Cep",
+  "mass_msun": {
+   "value": 1.92,
+   "source": "Zhao et al. 2009, ApJ 701, 209 (1.92 +/- 0.04)",
+   "url": "https://doi.org/10.1088/0004-637X/701/1/209",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 18.1,
+   "source": "Zhao et al. 2009, ApJ 701, 209 (true luminosity 18.1 +/- 1.8)",
+   "url": "https://doi.org/10.1088/0004-637X/701/1/209",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 7510,
+   "source": "Zhao et al. 2009, ApJ 701, 209 (true Teff 7510 +/- 160 K; equator 6574 +/- 200 K)",
+   "url": "https://doi.org/10.1088/0004-637X/701/1/209",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.74,
+   "source": "Zhao et al. 2009, ApJ 701, 209, Table 3 (equatorial 2.740 +/- 0.044; polar 2.162 +/- 0.036)",
+   "url": "https://doi.org/10.1088/0004-637X/701/1/209",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.99,
+   "source": "Zhao et al. 2009, ApJ 701, 209 (0.99 +/- 0.07 Gyr)",
+   "url": "https://doi.org/10.1088/0004-637X/701/1/209",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.14,
+   "source": "Gaspar, Rieke & Ballering 2016, ApJ 826, 171, as tabulated in Baines et al. 2025, AJ 169, 293, Table 6",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported); none in Baines et al. 2025, AJ 169, 293, Table 8",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Cephei",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Cep: A8 Vn (single, rapid rotator)"
+   ],
+   "source": "Wikipedia, citing Gray et al. 2003, AJ 126, 2048",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Cephei",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "del Sct",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 13660, type DSCTC",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.41 to 2.47",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 13660",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Alpha Cephei",
+    "5 Cephei"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Cephei",
+   "wikipedia": true
+  },
+  "notes": "Rapid rotator; the radius is equatorial. Rudrasingam et al. 2026 class it a del Sct + gam Dor hybrid. Wikipedia quotes [Fe/H] = +0.09 (Gray et al. 2003). No A_V printed (Baines et al. 2025 adopt E(B-V) = 0.04); they measure a mean radius of 2.69 Rsun. Zorec & Royer 2012 give 1.96 Msun."
+ },
+ {
+  "rank": 91,
+  "name": "kap Vel",
+  "mass_msun": {
+   "value": 13,
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203 (13 +3/-2 with the revised Hipparcos parallax; 7.5 Msun if the parallax is 6.5 mas)",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 13200,
+   "source": "Paunzen et al. 2021, MNRAS 504, 3758 (13200 +1600/-1400)",
+   "url": "https://en.wikipedia.org/wiki/Kappa_Velorum",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 19000,
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203 (best-matching TLUSTY template, 19 kK, log g = 3.50)",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "radius_rsun": null,
+  "age_gyr": {
+   "value": 0.04,
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203 (about 40 Myr, for a parallax of 6.5 mas)",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.3,
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203 (adopted from template minimisation)",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 2,
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203 (spectroscopic binary; luminous companion resolved with VLTI/GRAVITY)",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "kap Vel A: B2 IV (primary)",
+    "kap Vel B: B-type main-sequence star (spectroscopic companion, 116.65 d orbit per Wikipedia)"
+   ],
+   "source": "Rowan, Kraus & Thompson 2026, PASP 138, 024203",
+   "url": "https://doi.org/10.1088/1538-3873/ae3b75",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Kappa Velorum",
+    "Markab"
+   ],
+   "source": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kappa_Velorum",
+   "wikipedia": true
+  },
+  "notes": "Masses depend strongly on the parallax: 13 + 7.7 Msun at the revised Hipparcos value (the input distance), 7.5 + 5.9 Msun at 6.5 mas, which the flux ratio (0.285) and spectrum prefer; the age and mass here are therefore not mutually consistent. The companion adds well over 5% of the light; no summed luminosity is printed. Wikipedia gives 18200 +/- 400 K (Paunzen et al. 2021); Tetzlaff et al. 2011 give 12.5 Msun and 15.7 Myr. Radius null: Wikipedia's 11.6 Rsun is its own calculation."
+ },
+ {
+  "rank": 92,
+  "name": "eps Cyg",
+  "mass_msun": {
+   "value": 1.103,
+   "source": "Heeren et al. 2021, A&A 647, A160 (1.103 +/- 0.042)",
+   "url": "https://doi.org/10.1051/0004-6361/202040087",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 60.3,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88), log L = 1.78",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 4713,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88) (4713 +/- 25 K)",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 12.41,
+   "source": "Rudrasingam et al. 2026, MNRAS 547, stag413, Table 1 (12.41 +/- 0.29, from the interferometric diameter of Baines et al. 2023)",
+   "url": "https://doi.org/10.1093/mnras/stag413",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 9.62,
+   "source": "Heeren et al. 2021, A&A 647, A160, Table 1 (9.62 +/- 0.12 Gyr)",
+   "url": "https://doi.org/10.1051/0004-6361/202040087",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.126,
+   "source": "Gray & Kaur 2019, ApJ 882, 148",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Cygni",
+   "wikipedia": true
+  },
+  "n_stars": {
+   "value": 3,
+   "source": "Heeren et al. 2021, A&A 647, A160 (Aa plus spectroscopic companion Ab, m sin i = 0.265 +/- 0.007 Msun; C is an M4 V star at 78 arcsec sharing the proper motion)",
+   "url": "https://doi.org/10.1051/0004-6361/202040087",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "eps Cyg Aa: K0 III (primary)",
+    "eps Cyg Ab: unseen, at least 0.265 Msun (spectroscopic companion, about 55 yr, e = 0.93)",
+    "eps Cyg C: M4 V (common-proper-motion companion at 78 arcsec)"
+   ],
+   "source": "Heeren et al. 2021, A&A 647, A160",
+   "url": "https://doi.org/10.1051/0004-6361/202040087",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0,
+   "source": "Luck 2015, AJ 150, 88 (VizieR J/AJ/150/88), table 2: E(B-V) = 0.000",
+   "url": "https://doi.org/10.1088/0004-6256/150/3/88",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Epsilon Cygni",
+    "Gienah",
+    "Gienah Cygni",
+    "53 Cygni"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 197",
+   "url": "https://en.wikipedia.org/wiki/Epsilon_Cygni",
+   "wikipedia": true
+  },
+  "notes": "Masses disagree badly: 1.103 Msun (Heeren et al., evolutionary) against the seismic 1.56 +/- 0.11 Msun of Rudrasingam et al. 2026 and Luck's 1.46 Msun (4.37 Gyr). Radii range from 10.9 to 12.4 Rsun. Component B at 71 arcsec is optical; C's physical association rests on proper motion only, so n_stars is 2 if C is excluded."
+ },
+ {
+  "rank": 93,
+  "name": "alf Peg",
+  "mass_msun": {
+   "value": 3.5,
+   "source": "De Rosa et al. 2014, MNRAS 437, 1216, Table 1",
+   "url": "https://doi.org/10.1093/mnras/stt1932",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 164.743,
+   "source": "McDonald, Zijlstra & Watson 2017, MNRAS 471, 770 (VizieR J/MNRAS/471/770)",
+   "url": "https://doi.org/10.1093/mnras/stx1433",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 10100,
+   "source": "Gordon et al. 2019, ApJ 873, 91 (VizieR J/ApJ/873/91) (10.1 +/- 0.1 kK, literature value adopted there; 10.0 +/- 1.0 kK from their own fit)",
+   "url": "https://doi.org/10.3847/1538-4357/ab04b2",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 4.62,
+   "source": "Gordon et al. 2019, ApJ 873, 91 (VizieR J/ApJ/873/91) (4.62 +/- 0.29)",
+   "url": "https://doi.org/10.3847/1538-4357/ab04b2",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.2,
+   "source": "De Rosa et al. 2014, MNRAS 437, 1216, Table 1 (200 Myr)",
+   "url": "https://doi.org/10.1093/mnras/stt1932",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": -0.28,
+   "source": "Gaspar, Rieke & Ballering 2016, ApJ 826, 171 (-0.28 +/- 0.25; VizieR J/ApJ/826/171)",
+   "url": "https://doi.org/10.3847/0004-637X/826/2/171",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported); none in Baines et al. 2025, AJ 169, 293, Table 8",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Pegasi",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Peg: A0 IV (single)"
+   ],
+   "source": "Wikipedia, citing Abt & Morrell 1995, ApJS 99, 135",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Pegasi",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 14417)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.47 to 2.52",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 14417",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.03,
+   "source": "Gontcharov 2012, Astron. Lett. 38, 694 (VizieR J/PAZh/38/776)",
+   "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/PAZh/38/776",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Pegasi",
+    "Marchab",
+    "54 Pegasi"
+   ],
+   "source": "Wikipedia, citing Kunitzsch & Smart 2006, A Dictionary of Modern Star Names",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Pegasi",
+   "wikipedia": true
+  },
+  "notes": "Classified variously B9 III to A0 IV. Gordon et al. 2019 fit E(B-V) = 0.057. Baines et al. 2025 measure 5.35 +/- 0.10 Rsun and 8935 K, a larger radius than CHARA's 4.62."
+ },
+ {
+  "rank": 94,
+  "name": "alf Cet",
+  "mass_msun": {
+   "value": 2.3,
+   "source": "Wittkowski et al. 2006, A&A 460, 855 (2.3 +/- 0.2)",
+   "url": "https://doi.org/10.1051/0004-6361:20066032",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 1764.364,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Gaia FGK benchmark stars v3; VizieR J/A+A/682/A145) (+/- 341.889)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 3738,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Gaia FGK benchmark stars v3; VizieR J/A+A/682/A145) (3738 +/- 170 K)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 100.206,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Gaia FGK benchmark stars v3; VizieR J/A+A/682/A145) (+/- 3.384)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "age_gyr": null,
+  "feh": {
+   "value": -0.24,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Gaia FGK benchmark stars v3; VizieR J/A+A/682/A145) (-0.24 +/- 0.09)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no companion reported)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Ceti",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Cet: M1.5 IIIa (single)"
+   ],
+   "source": "Wikipedia, citing Tsuji 2008, A&A 489, 1271",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Ceti",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "LB:",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.45 to 2.54",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.024,
+   "source": "Soubiran et al. 2024, A&A 682, A145 (Gaia FGK benchmark stars v3; VizieR J/A+A/682/A145)",
+   "url": "https://doi.org/10.1051/0004-6361/202347136",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Ceti",
+    "92 Ceti"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Ceti",
+   "wikipedia": true
+  },
+  "notes": "Soubiran et al. 2024 give lower evolutionary masses, 1.465 +/- 0.109 and 1.933 +/- 0.191 Msun on two track sets, against Wittkowski's 2.3 Msun. The GCVS type is uncertain (LB:). No age found."
+ },
+ {
+  "rank": 95,
+  "name": "zet Oph",
+  "mass_msun": {
+   "value": 18.7,
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082) (18.7 +/- 0.7)",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 48978,
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082), log L = 4.69 +/- 0.08",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 31238,
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082) (31238 +/- 753 K)",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 7.6,
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082) (7.6 +/- 0.6)",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0063,
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082), log age > 6.80 +/- 0.04 (a lower limit, > 6.3 Myr)",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 1,
+   "source": "Hutter et al. 2021, ApJS 257, 69 (unresolved by interferometry; absent from the binary catalogues)",
+   "url": "https://doi.org/10.3847/1538-4365/ac23cb",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "zet Oph: O9.2 IVnn (single, runaway)"
+   ],
+   "source": "Aschenbrenner & Przybilla 2026, A&A (arXiv:2604.03082) (type); Hutter et al. 2021, ApJS 257, 69",
+   "url": "https://arxiv.org/abs/2604.03082",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "gam Cas",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.56 to 2.58",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Zeta Ophiuchi",
+    "Han",
+    "Saik",
+    "Nasak Yamani",
+    "13 Ophiuchi"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 302 and Rhoads 1971, JPL TM 33-507",
+   "url": "https://en.wikipedia.org/wiki/Zeta_Ophiuchi",
+   "wikipedia": true
+  },
+  "notes": "Age is a lower limit. No A_V printed: Aschenbrenner & Przybilla give E(B-V) = 0.33 +/- 0.02 with R_V = 3.0 +/- 0.1. They find 135 pc (spectroscopic 135 +/- 11, Gaia 135 +12/-9), further than the Hipparcos 112 pc in the input but with a larger error, so no distance is entered; their luminosity and radius assume 135 pc. Tetzlaff et al. 2011 give 19.8 Msun and 3.0 Myr. Chini et al. 2012 list it as SB2 without details; it also shows bet Cep-type pulsations."
+ },
+ {
+  "rank": 96,
+  "name": "zet Cen",
+  "mass_msun": {
+   "value": 8.9,
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345 (8.9 +/- 0.2)",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "luminosity_lsun": null,
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 22100,
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345 (about 22100 K)",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 4.8,
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345 (about 4.8)",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.016,
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345 (16 +/- 2 Myr)",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345 (double-lined spectroscopic binary, P = 8.0 d)",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "zet Cen A: B2.5 IV (primary)",
+    "zet Cen B: B-type, 7.0 Msun (spectroscopic companion, 8.0 d orbit)"
+   ],
+   "source": "Waisberg & Katz 2026, RNAAS 10, 345; combined type from the input list",
+   "url": "https://doi.org/10.3847/2515-5172/aec2dd",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "not variable",
+   "source": "Not listed in GCVS 5.1 or the NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": null,
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Zeta Centauri",
+    "Leepwal",
+    "Alnair",
+    "Baten Kentaurus"
+   ],
+   "source": "Wikipedia, citing the IAU Catalog of Star Names (Leepwal); Kunitzsch & Smart 2006, p. 4; Rhoads 1971, JPL TM 33-507",
+   "url": "https://en.wikipedia.org/wiki/Zeta_Centauri",
+   "wikipedia": true
+  },
+  "notes": "Leepwal is an IAU-approved name for zet Cen A (per Wikipedia), absent from the input list. The secondary (7.0 +/- 0.1 Msun, 20000 K, 3.7 Rsun) adds well over 5% of the light, but no luminosities are printed. Tetzlaff et al. 2011, treating it as single, give 7.8 Msun and 39.8 Myr. No [Fe/H] or A_V found."
+ },
+ {
+  "rank": 97,
+  "name": "del Leo",
+  "mass_msun": {
+   "value": 2.12,
+   "source": "Zorec & Royer 2012, A&A 537, A120 (VizieR J/A+A/537/A120) (2.12 +/- 0.01)",
+   "url": "https://doi.org/10.1051/0004-6361/201117691",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 28.6,
+   "source": "Zorec & Royer 2012, A&A 537, A120 (VizieR J/A+A/537/A120), log L = 1.4571 +/- 0.0113",
+   "url": "https://doi.org/10.1051/0004-6361/201117691",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 8222,
+   "source": "Zorec & Royer 2012, A&A 537, A120 (VizieR J/A+A/537/A120), log Teff = 3.915 +/- 0.003",
+   "url": "https://doi.org/10.1051/0004-6361/201117691",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 2.78,
+   "source": "Baines et al. 2025, AJ 169, 293, Table 7 (VizieR J/AJ/169/293) (2.78 +/- 0.08)",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.675,
+   "source": "Kaler, 'Zosma (Delta Leonis)', Stars website, Univ. of Illinois (0.60-0.75 Gyr; midpoint entered)",
+   "url": "https://en.wikipedia.org/wiki/Delta_Leonis",
+   "wikipedia": true
+  },
+  "feh": {
+   "value": -0.18,
+   "source": "Anderson & Francis 2012, Astron. Lett. 38, 331 (XHIP), as tabulated in Baines et al. 2025, AJ 169, 293, Table 6",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia article text (single star); the WDS companion at 194 arcsec in Baines et al. 2025, Table 8 is 8 mag fainter and not known to be bound",
+   "url": "https://en.wikipedia.org/wiki/Delta_Leonis",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "del Leo: A5 IV(n) (single)"
+   ],
+   "source": "Input list type; single per Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Delta_Leonis",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 5143)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.54 to 2.57",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 5143",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": null,
+  "nicknames": {
+   "value": [
+    "Delta Leonis",
+    "Zozma",
+    "Duhr",
+    "Dhur",
+    "Zubra",
+    "68 Leonis"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 260",
+   "url": "https://en.wikipedia.org/wiki/Delta_Leonis",
+   "wikipedia": true
+  },
+  "notes": "Sources disagree: Akeson et al. 2009 (ApJ 691, 1896) give 15.5 +/- 1.8 Lsun and 8296 K, against 28.6 Lsun here and 24.3 Lsun in McDonald et al. 2017. The age is the midpoint of a range from a website, not a paper, and is weak; Zorec & Royer give a fractional main-sequence age of 0.727. No A_V found."
+ },
+ {
+  "rank": 98,
+  "name": "alf Lep",
+  "mass_msun": {
+   "value": 13.9,
+   "source": "Lyubimkov et al. 2010, MNRAS 402, 1369, Table 3 (13.9 +/- 0.8)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2009.15979.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 26915,
+   "source": "Wade et al. 2025, arXiv:2507.00282, log L = 4.43 +/- 0.16 (Gaia DR3 parallax 1.68 +/- 0.28 mas)",
+   "url": "https://arxiv.org/abs/2507.00282",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 6850,
+   "source": "Lyubimkov et al. 2010, MNRAS 402, 1369, Table 1 (6850 +/- 80 K)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2009.15979.x",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 104.61,
+   "source": "Baines et al. 2025, AJ 169, 293, Table 7 (VizieR J/AJ/169/293) (104.61 +15.49/-21.31)",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.013,
+   "source": "Lyubimkov et al. 2010, MNRAS 402, 1369, Table 3 (13 Myr)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2009.15979.x",
+   "wikipedia": false
+  },
+  "feh": {
+   "value": 0.08,
+   "source": "Anderson & Francis 2012, Astron. Lett. 38, 331 (XHIP), as tabulated in Baines et al. 2025, AJ 169, 293, Table 6",
+   "url": "https://doi.org/10.3847/1538-3881/adc930",
+   "wikipedia": false
+  },
+  "n_stars": {
+   "value": 1,
+   "source": "Wikipedia (no bound companion reported); the WDS companion at 30 arcsec in Baines et al. 2025, Table 8 is 8.6 mag fainter and not known to be bound",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Leporis",
+   "wikipedia": true
+  },
+  "components": {
+   "value": [
+    "alf Lep: F0 Ib (single)"
+   ],
+   "source": "Lyubimkov et al. 2010, MNRAS 402, 1369 (type); single per Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Leporis",
+   "wikipedia": true
+  },
+  "variable_type": {
+   "value": "suspected (NSV 2128)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.56 to 2.62",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 2128",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.06,
+   "source": "Luck 2014, AJ 147, 137, as quoted in Wade et al. 2025, arXiv:2507.00282",
+   "url": "https://arxiv.org/abs/2507.00282",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Alpha Leporis",
+    "11 Leporis"
+   ],
+   "source": "Wikipedia (Bayer and Flamsteed names)",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Leporis",
+   "wikipedia": true
+  },
+  "notes": "Luminosity and radius use the Gaia DR3 parallax (1.68 +/- 0.28 mas, about 1940 ly), not the Hipparcos distance in the input; neither is clearly better, so no distance is entered. Wade et al. 2025 give 74 +/- 22 Rsun and 12-13 Msun; Tetzlaff et al. 2011 give 12.2 Msun and 17.5 Myr. The 13 Myr age was read from a table whose columns were misaligned in the text extraction; it matches Wikipedia's reading."
+ },
+ {
+  "rank": 99,
+  "name": "del Cen",
+  "mass_msun": {
+   "value": 8.7,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252) (8.70 +/- 0.30)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 5129,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252), log L = 3.71 +/- 0.10",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 22230,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252) (22230 +/- 650 K)",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "radius_rsun": {
+   "value": 8.18,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (8.18 +/- 0.16)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "age_gyr": {
+   "value": 0.0148,
+   "source": "Levenhagen & Leister 2006, MNRAS 371, 252 (VizieR J/MNRAS/371/252), log age = 7.17 +/- 0.15",
+   "url": "https://doi.org/10.1111/j.1365-2966.2006.10655.x",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Meilland et al. 2008, A&A 488, L67 (companion found by VLTI/AMBER; also in Gratton et al. 2023 at 12 mas, 1.48 au)",
+   "url": "https://doi.org/10.1051/0004-6361:200810624",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "del Cen A: B2 Vne (primary, Be star)",
+    "del Cen B: between B4 V and A0 III, 4-7 Msun (interferometric companion, period at least 4.6 yr)"
+   ],
+   "source": "Meilland et al. 2008, A&A 488, L67",
+   "url": "https://doi.org/10.1051/0004-6361:200810624",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "Be (GCVS BE)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.51 to 2.65",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (GCVS 5.1, VizieR B/gcvs)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.465,
+   "source": "Arcos et al. 2018, MNRAS 474, 5287 (BeSOS; VizieR J/MNRAS/474/5287) (E(B-V) = 0.150)",
+   "url": "https://doi.org/10.1093/mnras/stx3075",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Delta Centauri",
+    "Ma Wei"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names (Ma Wei)",
+   "url": "https://en.wikipedia.org/wiki/Delta_Centauri",
+   "wikipedia": true
+  },
+  "notes": "Sources disagree: Tetzlaff et al. 2011 give 10.1 Msun and 21.5 Myr, Gratton et al. 2023 10.5 + 3.0 Msun and 13.7 Myr, Meilland et al. 2008 8.6 Msun. The A_V of 0.465 is from a Be-star SED fit and probably includes circumstellar reddening; Gratton et al. give E(B-V) = 0.009. Wikipedia classes the variability as gam Cas."
+ },
+ {
+  "rank": 100,
+  "name": "gam Crv",
+  "mass_msun": {
+   "value": 4.2,
+   "source": "Janson et al. 2011, ApJ 736, 89 (VizieR J/ApJ/736/89) (4.2 +0.4/-0.3)",
+   "url": "https://doi.org/10.1088/0004-637X/736/2/89",
+   "wikipedia": false
+  },
+  "luminosity_lsun": {
+   "value": 301,
+   "source": "Kochukhov et al. 2021, MNRAS 506, 5328 (301 +/- 5)",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Corvi",
+   "wikipedia": true
+  },
+  "system_luminosity_lsun": null,
+  "teff_k": {
+   "value": 12000,
+   "source": "Fremat & Houziaux 1997, A&A 320, 580",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Corvi",
+   "wikipedia": true
+  },
+  "radius_rsun": {
+   "value": 4.086,
+   "source": "Kochukhov et al. 2021, MNRAS 506, 5328",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Corvi",
+   "wikipedia": true
+  },
+  "age_gyr": {
+   "value": 0.16,
+   "source": "Janson et al. 2011, ApJ 736, 89 (VizieR J/ApJ/736/89) (160 +40/-30 Myr)",
+   "url": "https://doi.org/10.1088/0004-637X/736/2/89",
+   "wikipedia": false
+  },
+  "feh": null,
+  "n_stars": {
+   "value": 2,
+   "source": "Janson et al. 2011, ApJ 736, 89 (VizieR J/ApJ/736/89) (companion at 1.12 arcsec confirmed by common proper motion)",
+   "url": "https://doi.org/10.1088/0004-637X/736/2/89",
+   "wikipedia": false
+  },
+  "components": {
+   "value": [
+    "gam Crv A: B8 III HgMn (primary)",
+    "gam Crv B: K5-M5 V, about 0.8 Msun (companion at 1.1 arcsec)"
+   ],
+   "source": "Janson et al. 2011, ApJ 736, 89; companion type from Roberts et al. 2007, AJ 133, 545, per Wikipedia",
+   "url": "https://doi.org/10.1088/0004-637X/736/2/89",
+   "wikipedia": false
+  },
+  "variable_type": {
+   "value": "suspected (NSV 5515)",
+   "source": "Samus et al. 2017, Astron. Rep. 61, 80 (NSV catalogue of suspected variables, VizieR B/gcvs/nsv_cat)",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "v_range": {
+   "value": "2.56 to 2.60",
+   "source": "NSV catalogue (Samus et al. 2017, Astron. Rep. 61, 80; VizieR B/gcvs/nsv_cat), NSV 5515",
+   "url": "https://doi.org/10.1134/S1063772917010085",
+   "wikipedia": false
+  },
+  "distance_ly": null,
+  "distance_err_ly": null,
+  "av_mag": {
+   "value": 0.04,
+   "source": "Gontcharov 2012, Astron. Lett. 38, 694 (VizieR J/PAZh/38/776)",
+   "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/PAZh/38/776",
+   "wikipedia": false
+  },
+  "nicknames": {
+   "value": [
+    "Gamma Corvi",
+    "Gienah Corvi",
+    "Gienah Ghurab",
+    "4 Corvi"
+   ],
+   "source": "Wikipedia, citing Allen 1899, Star Names, p. 182",
+   "url": "https://en.wikipedia.org/wiki/Gamma_Corvi",
+   "wikipedia": true
+  },
+  "notes": "Shares the name Gienah with eps Cyg (now Aljanah). The Kochukhov et al. 2021 table could not be read cleanly, so luminosity and radius are from Wikipedia; McDonald et al. 2017 give a consistent 288 Lsun, 11859 K and 4.03 Rsun. Kochukhov et al. report rotational modulation in TESS photometry."
+ }
+]
