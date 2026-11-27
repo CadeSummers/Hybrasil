@@ -211,7 +211,7 @@ def view_config(stars: list[NearbyStar]) -> MotionView:
         size=lambda s: SUN_SIZE if s.is_sun else apparent_size(s.apparent_mag),
         # Wide enough to show a far star's surroundings, never tighter than the nearby view's.
         zoom_half=lambda s: max(4.0, 0.05 * (s.distance_ly or 0.0)),
-        title=title, body_meta=_body_meta, rows=lambda s, rows: brightest_rows(s, rows, n), goto=goto_id,
+        title=title, planet_hosts_only=False, body_meta=_body_meta, rows=lambda s, rows: brightest_rows(s, rows, n), goto=goto_id,
         extra_traces=(sphere_trace(SPHERE_LY),) + tuple(sphere_trace(r, True) for r in SHELLS_LY),
         meta=meta,
     )

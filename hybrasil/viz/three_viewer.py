@@ -364,6 +364,9 @@ def figure_to_scene(fig: go.Figure) -> dict:
         # ([{key, label, default, count, title, menu?}]); a set with
         # menu "features" is a row of the Even more features menu instead.
         "optionalSets": meta.get("optional_sets"),
+        # Dropdowns of tick boxes for the sets that name them in `menu` ({key: {label, base?, all?}}):
+        # `base` is a row for what is always drawn, `all` one that ticks every box.
+        "optionalMenus": meta.get("optional_menus"),
         # Many points drawn as one object each, with arrows per motion frame
         # and compact info rows (star_motion.known_cloud); [] for a system.
         "clouds": meta.get("clouds") or [],

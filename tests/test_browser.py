@@ -1155,6 +1155,18 @@ def _open_view(page):
     page.wait_for_function("k => window.__SA3.key === k", arg=VIEW)
 
 
+def _systems_modeled(page):
+    """Open the view's Systems Modeled dropdown (if it is not open already) and return its button."""
+    btn = page.get_by_role("button", name="Systems Modeled")
+    if btn.get_attribute("aria-expanded") != "true":
+        btn.click()
+    return btn
+
+
+def _ticked(page, key):
+    return page.locator(f"button[data-optional='{key}']").get_attribute("aria-checked") == "true"
+
+
 def test_three_the_view_has_a_featured_button_and_opens_in_light_years(three):
     _open_view(three)
     assert three.evaluate("() => window.__SA3.units()") == "ly"
@@ -1220,6 +1232,7 @@ def test_three_the_known_objects_are_a_purple_layer_behind_their_button(three):
     off = three.evaluate(cloud)
     assert off["n"] > 9000 and not off["pts"] and not any(off["arrows"].values())
     assert "Unclassified (All Known Systems within 100 ly)" not in three.locator("body").inner_text()
+    _systems_modeled(three)
     assert "All Known Systems within 100 ly" in three.locator("button[data-optional=known]").inner_text()
     three.locator("button[data-optional=known]").click()
     on = three.evaluate(cloud)
@@ -1253,7 +1266,7 @@ def test_three_play_moves_every_star_along_its_arrow(three):
     _open_view(three)
     play = three.get_by_role("button", name="▶ Play")
     assert play.is_visible() and three.evaluate("() => window.__SA3.nFrames()") == 201
-    assert three.locator("text=Now").first.is_visible()
+    assert three.get_by_text("Now", exact=True).first.is_visible()
     # The last frame: every moving star at its arrow's tip, 50,000 years on; the Sun, relative to itself, stays.
     three.evaluate("() => window.__SA3.setFrame(200)")
     d = three.evaluate(_DRIFT)
@@ -1359,35 +1372,37 @@ def test_three_play_can_run_the_past_and_both(three):
     assert trails()["shown"] == []
 
 
-_REFUTED = """() => { const S = window.__SA3, r = S.bodies().filter(b => b.data.mode === 'refuted');
+_REFUTED = """() => { const S = window.__SA3, r = S.bodies().filter(b => b.data.optional === 'refuted');
   const names = new Set(r.map(b => b.data.name));
   const arrows = S.lines().filter(l => names.has(l.userData.owner) && l.userData.frame === S.motionFrame());
   const rest = S.bodies().filter(b => !b.data.optional);
   return {n: r.length, shown: r.filter(b => b.obj.visible).length, arrows: arrows.filter(l => l.visible).length,
           nArrows: arrows.length, rest: rest.length, restShown: rest.filter(b => b.obj.visible).length,
           clouds: S.clouds().filter(c => c.pts.visible).length,
-          mode: document.querySelector('button[data-optional=known]').dataset.mode,
+          mode: document.querySelector('button[data-optional=refuted]').dataset.mode,
           kapteyn: r.find(b => b.data.name === 'Kapteyn').data}; }"""
 
 
-def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
+def test_three_a_refuted_system_shows_only_when_its_box_is_ticked(three):
     # Twelve Systems-tab stars had every planet rejected and have no companion star to open.  They stay in the view, ringed in red, but hidden
-    # until the Known button's last step; the panel greys out "Go to system" and says why in red.
+    # until Systems Modeled's Refuted Systems box is ticked; the panel greys out "Go to system" and says why in red.
     _open_view(three)
-    btn = three.locator("button[data-optional=known]")
+    _systems_modeled(three)
+    btn = three.locator("button[data-optional=refuted]")
     legend = three.locator("label", has_text="Exoplanet system refuted")
     r = three.evaluate(_REFUTED)
     assert r["n"] == 12 and r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0
     assert r["kapteyn"]["edge"] == "#FF4444" and r["kapteyn"]["fill"] == "#FF4A3A"       # an M dwarf, ringed red
-    for label in ("All", "Excluding unconfirmed", "Unconfirmed only"):
-        btn.click()
+    # No other box shows them.
+    for key in ("planetless", "known", "known-unconfirmed"):
+        three.locator(f"button[data-optional='{key}']").click()
         r = three.evaluate(_REFUTED)
-        assert btn.inner_text().endswith(label) and r["shown"] == 0 and r["arrows"] == 0, label
-        assert legend.count() == 0, label
-    # Refuted only: the twelve and their arrows, no cloud, every ordinary star still there.
+        assert r["shown"] == 0 and r["arrows"] == 0 and legend.count() == 0, key
+        three.locator(f"button[data-optional='{key}']").click()
+    # Ticked: the twelve and their arrows, no cloud, every ordinary star still there.
     btn.click()
     r = three.evaluate(_REFUTED)
-    assert btn.inner_text().endswith("Refuted only") and r["mode"] == "refuted"
+    assert btn.inner_text().endswith("Refuted Systems") and r["mode"] == "on" and _ticked(three, "refuted")
     assert r["shown"] == 12 and r["arrows"] == r["nArrows"] > 5 and r["clouds"] == 0
     assert r["restShown"] == r["rest"] > 300
     assert legend.count() == 1 and "(12)" in legend.inner_text()
@@ -1427,47 +1442,88 @@ def test_three_a_refuted_system_shows_only_at_the_buttons_last_step(three):
     assert panel.locator("#_sa_info_goto_note").count() == 0
     assert panel.locator("button[disabled]").count() == 0
 
-    # Off again hides them; a search for one brings its step back.
+    # Unticked hides them; a search for one ticks the box again.
+    _systems_modeled(three)
     btn.click()
-    assert btn.inner_text().endswith("Off") and three.evaluate(_REFUTED)["shown"] == 0
+    assert not _ticked(three, "refuted") and three.evaluate(_REFUTED)["shown"] == 0
     assert three.evaluate("() => window.__SA3.search('Kapteyn')")
     r = three.evaluate(_REFUTED)
-    assert btn.inner_text().endswith("Refuted only") and r["shown"] == 12
+    assert _ticked(three, "refuted") and r["shown"] == 12
 
 
-def test_three_the_known_button_cycles_all_confirmed_unconfirmed_off(three):
-    # Off -> All -> Excluding unconfirmed -> Unconfirmed only -> Refuted only -> Off: the purple cloud (a curated
-    # catalog lists them) and the aquamarine one (only Gaia DR3 does), shown by the mode, legend rows following.
-    # Refuted only shows neither (test_three_a_refuted_system_shows_only_at_the_buttons_last_step).
+def test_three_systems_modeled_is_a_dropdown_of_tick_boxes(three):
+    # What used to be two cycling buttons: one dropdown, a tick box per set, all off to begin with, under a
+    # fixed first row for what is always drawn, and an All row that ticks every box.
     _open_view(three)
-    btn = three.locator("button[data-optional=known]")
+    keys = ["planetless", "known", "known-unconfirmed", "refuted"]
+    state = "ks => Object.fromEntries(ks.map(k => [k, window.__SA3.optional(k)]))"
     shown = """() => Object.fromEntries(window.__SA3.clouds().map(c => [c.data.key, c.pts.visible]))"""
     rows = lambda: (three.locator("label", has_text="Unclassified (All Known Systems").count(),   # noqa: E731
                     three.locator("label", has_text="Existence unconfirmed (Gaia DR3 only)").count())
-    steps = [("All", {"known": True, "known-unconfirmed": True}, (1, 1)),
-             ("Excluding unconfirmed", {"known": True, "known-unconfirmed": False}, (1, 0)),
-             ("Unconfirmed only", {"known": False, "known-unconfirmed": True}, (0, 1)),
-             ("Refuted only", {"known": False, "known-unconfirmed": False}, (0, 0)),
-             ("Off", {"known": False, "known-unconfirmed": False}, (0, 0))]
-    assert btn.inner_text().endswith("Off")
-    for label, want, legend in steps:
-        btn.click()
-        assert btn.inner_text().endswith(label), label
-        assert three.evaluate(shown) == want, label
-        assert rows() == legend, label
-    # Searching for a hidden object brings its cloud back: the set returns to All.
-    btn.click()
-    btn.click()                                    # Excluding unconfirmed
+    row = lambda key: three.locator(f"button[data-optional='{key}']")                            # noqa: E731
+    menu = three.get_by_role("button", name="Systems Modeled")
+    assert menu.is_visible() and menu.get_attribute("aria-expanded") == "false"
+    assert not row("known").is_visible()
+    # Only the dropdown: no bar button of its own for any set.
+    assert three.locator("[data-menu=systems] button[data-optional]").count() == 4
+    assert three.locator("button[data-optional]:not([role=menuitemcheckbox])").count() == 0
+    menu.click()
+    box = three.locator("[data-menu=systems] [role=menu]")
+    assert [t.split(None, 1)[1] for t in box.locator("button").all_inner_texts()] == [
+        "Systems with exoplanets or candidates", "High Star Count Systems", "All Known Systems within 100 ly",
+        "Unconfirmed Systems (Gaia DR3 only)", "Refuted Systems", "All"]
+    base, every = box.locator("button[data-row=base]"), box.locator("button[data-row=all]")
+    assert base.is_disabled() and base.get_attribute("aria-checked") == "true" and base.inner_text().startswith("☑")
+    assert three.evaluate(state, keys) == dict.fromkeys(keys, False) and every.get_attribute("aria-checked") == "false"
+    default = three.evaluate("() => window.__SA3.bodies().filter(b => b.obj.visible).length")
+    assert default == 410                       # the 409 systems with a planet or a candidate, and the Sun
+
+    # Each box is its own: the two clouds no longer share a button.
+    row("known").click()
+    assert three.evaluate(shown) == {"known": True, "known-unconfirmed": False} and rows() == (1, 0)
+    assert row("known").inner_text().startswith("☑") and menu.get_attribute("aria-expanded") == "true"
+    row("known-unconfirmed").click()
+    assert three.evaluate(shown) == {"known": True, "known-unconfirmed": True} and rows() == (1, 1)
+    row("known").click()
+    assert three.evaluate(shown) == {"known": False, "known-unconfirmed": True} and rows() == (0, 1)
+    assert three.evaluate("() => window.__SA3.bodies().filter(b => b.obj.visible).length") == default
+
+    # All ticks every box; with one unticked it is no longer ticked; clicked while all are on, it clears them.
+    every.click()
+    assert three.evaluate(state, keys) == dict.fromkeys(keys, True)
+    assert every.get_attribute("aria-checked") == "true" and all(_ticked(three, k) for k in keys)
+    assert three.evaluate("() => window.__SA3.bodies().filter(b => b.obj.visible).length") == default + 85 + 12
+    row("refuted").click()
+    assert every.get_attribute("aria-checked") == "false" and not _ticked(three, "refuted")
+    every.click()
+    assert three.evaluate(state, keys) == dict.fromkeys(keys, True)
+    every.click()
+    assert three.evaluate(state, keys) == dict.fromkeys(keys, False)
+    assert three.evaluate(shown) == {"known": False, "known-unconfirmed": False} and rows() == (0, 0)
+
+    # Searching for a hidden object ticks its own box, and no other.
     name = three.evaluate("() => window.__SA3.clouds().find(c => c.data.key === 'known-unconfirmed').data.info[0][0]")
     assert three.evaluate(f"() => window.__SA3.search({name!r})")
-    assert btn.inner_text().endswith("All") and three.evaluate(shown)["known-unconfirmed"]
+    want = dict.fromkeys(keys, False) | {"known-unconfirmed": True}
+    assert three.evaluate(state, keys) == want
+
+    # A click elsewhere closes it; a star system has no such dropdown; coming back keeps the choice.
+    three.mouse.click(700, 600)
+    assert menu.get_attribute("aria-expanded") == "false" and not row("known").is_visible()
+    three.get_by_role("button", name="Alpha Centauri").click()
+    three.wait_for_function("() => window.__SA3.key === 'alpha-centauri'")
+    assert not menu.is_visible()
+    assert three.get_by_role("button", name="Even more features").is_visible()
+    _open_view(three)
+    assert menu.is_visible() and three.evaluate(state, keys) == want
 
 
 def test_three_an_object_only_gaia_lists_is_aquamarine_and_says_so(three):
     # The Known layer's objects that no curated catalog lists: their own cloud and legend row, behind the same
     # button, and a panel that opens with the verdict and links the one Gaia DR3 row that cites them.
     _open_view(three)
-    three.locator("button[data-optional=known]").click()
+    _systems_modeled(three)
+    three.locator("button[data-optional='known-unconfirmed']").click()
     doubt = three.evaluate("""() => { const c = window.__SA3.clouds().find(c => c.data.key === 'known-unconfirmed');
       return {n: c.data.info.length, shown: c.pts.visible, color: c.data.color, name: c.data.info[0][0],
               gaia: c.data.info[0][11]}; }""")
@@ -1544,32 +1600,37 @@ _PLANETLESS = """() => { const S = window.__SA3;
           arrows: own.length, arrowsShown: own.filter(l => l.visible).length, on: S.optional('planetless')}; }"""
 
 
-def test_three_planetless_systems_are_a_button_off_by_default(three):
+def test_three_planetless_systems_are_a_tick_box_off_by_default(three):
+    # The Planetless 4+ Stars tab's 80 hierarchies and the Systems tab's 5 star pairs with no planet.
     _open_view(three)
-    btn = three.get_by_role("button", name="High Star Count Systems")
-    legend_row = three.locator("label", has_text="High star count systems (4+ stars)")
-    assert btn.inner_text().endswith("Off")
-    assert three.evaluate(_PLANETLESS) == {"n": 80, "shown": 0, "arrows": 80, "arrowsShown": 0, "on": False}
+    _systems_modeled(three)
+    btn = three.locator("button[data-optional=planetless]")
+    legend_row = three.locator("label", has_text="High star count systems (no known planet)")
+    assert btn.inner_text().endswith("High Star Count Systems") and not _ticked(three, "planetless")
+    off = three.evaluate(_PLANETLESS)
+    assert off["n"] == 85 and off["shown"] == 0 and off["arrowsShown"] == 0 and not off["on"]
+    assert 80 <= off["arrows"] <= 85
     assert legend_row.count() == 0
     before = three.evaluate(_SHOWN_BY_FRAME)["sun"]
 
     btn.click()
-    assert btn.inner_text().endswith("On")
-    assert three.evaluate(_PLANETLESS) == {"n": 80, "shown": 80, "arrows": 80, "arrowsShown": 80, "on": True}
-    assert three.evaluate(_SHOWN_BY_FRAME) == {"sun": before + 80}
-    assert "High star count systems (4+ stars) (80)" in legend_row.inner_text()
+    assert _ticked(three, "planetless")
+    assert three.evaluate(_PLANETLESS) == dict(off, shown=85, arrowsShown=off["arrows"], on=True)
+    assert three.evaluate(_SHOWN_BY_FRAME) == {"sun": before + off["arrows"]}
+    assert "High star count systems (no known planet) (85)" in legend_row.inner_text()
     # Its legend row hides them and their arrows, as a class row does.
     legend_row.locator("input").uncheck()
     assert three.evaluate(_PLANETLESS)["shown"] == 0 and three.evaluate(_PLANETLESS)["arrowsShown"] == 0
     legend_row.locator("input").check()
 
-    # A star system has no such button; coming back keeps the choice.
+    # A star system has no such box; coming back keeps the choice.
     three.get_by_role("button", name="Alpha Centauri").click()
     three.wait_for_function("() => window.__SA3.key === 'alpha-centauri'")
-    assert not btn.is_visible()
+    assert not btn.is_visible() and not three.get_by_role("button", name="Systems Modeled").is_visible()
     _open_view(three)
-    assert btn.inner_text().endswith("On") and three.evaluate(_PLANETLESS)["shown"] == 80
+    assert _ticked(three, "planetless") and three.evaluate(_PLANETLESS)["shown"] == 85
 
+    _systems_modeled(three)
     btn.click()
     assert three.evaluate(_PLANETLESS)["shown"] == 0 and legend_row.count() == 0
     # Searching for one of them turns the set back on: framing a hidden star answers nothing.
@@ -1577,7 +1638,7 @@ def test_three_planetless_systems_are_a_button_off_by_default(three):
     search.fill("nu Sco")
     search.press("Enter")
     three.wait_for_timeout(300)
-    assert three.evaluate(_PLANETLESS)["on"] and btn.inner_text().endswith("On")
+    assert three.evaluate(_PLANETLESS)["on"] and _ticked(three, "planetless")
 
 
 _RINGS = """() => { const S = window.__SA3;

@@ -352,26 +352,55 @@ def test_a_refuted_system_is_one_with_rejected_candidates_and_nothing_else(stars
     assert not by["tau Cet"].refuted and not by["Sun"].refuted
 
 
-def test_a_refuted_system_is_ringed_red_and_waits_for_the_buttons_last_step(view, stars):
+def test_a_refuted_system_is_ringed_red_and_waits_for_its_tick_box(view, stars):
     scene = view[2]
     refuted = {s.name for s in stars if s.refuted}
-    drawn = [b for b in scene["bodies"] if b.get("mode") == sm.REFUTED_MODE]
+    drawn = [b for b in scene["bodies"] if b.get("optional") == sm.REFUTED_SET]
     assert {b["name"] for b in drawn} == refuted
-    assert {b["optional"] for b in drawn} == {sm.KNOWN_SET} and {b["group"] for b in drawn} == {sm.REFUTED_GROUP}
+    assert not any(b.get("mode") for b in drawn) and {b["group"] for b in drawn} == {sm.REFUTED_GROUP}
     # Its class colour inside a red ring: Kapteyn is still an M dwarf's red.
     assert {b["edge"] for b in drawn} == {sm.REFUTED_RING}
     assert next(b for b in drawn if b["name"] == "Kapteyn")["fill"] == sm.CLASS_COLOURS["M"][1]
     # Each keeps its arrows, owned by it, so they show and hide with it.
     assert {ln["owner"] for ln in scene["lines"] if ln.get("owner") in refuted} == {b["name"] for b in drawn
                                                                                   if b.get("drift")}
-    # The button: All, Excluding unconfirmed, Unconfirmed only, then Refuted only -- which names no cloud.
-    known = next(o for o in scene["optionalSets"] if o["key"] == sm.KNOWN_SET)
-    assert [m["label"] for m in known["modes"]] == ["All", "Excluding unconfirmed", "Unconfirmed only",
-                                                    "Refuted only"]
-    assert known["modes"][-1] == {"key": sm.REFUTED_MODE, "label": "Refuted only", "clouds": []}
-    assert known["default"] is False and "refuted" in known["title"]
-    # The title counts them apart.
-    assert "414 systems within 100 ly" in scene["title"] and "(+12 refuted systems on request)" in scene["title"]
+    # A tick box of its own in the Systems Modeled dropdown, off to begin with.
+    box = next(o for o in scene["optionalSets"] if o["key"] == sm.REFUTED_SET)
+    assert (box["label"], box["default"], box["count"], box["menu"]) == ("Refuted Systems", False, 12, "systems")
+    assert "refuted" in box["title"] and "modes" not in box
+    # The title counts them apart, and the five star pairs with no planet with the high star count systems.
+    assert "409 systems within 100 ly" in scene["title"] and "(+12 refuted systems on request)" in scene["title"]
+
+
+def test_the_systems_modeled_dropdown_holds_four_tick_boxes_all_off(view):
+    scene = view[2]
+    assert scene["optionalMenus"] == {"systems": {"label": "Systems Modeled", "all": "All",
+                                                  "base": "Systems with exoplanets or candidates"}}
+    assert [(o["key"], o["label"]) for o in scene["optionalSets"]] == [
+        (sm.PLANETLESS_SET, "High Star Count Systems"),
+        (sm.KNOWN_SET, "All Known Systems within 100 ly"),
+        (sm.UNCONFIRMED_KEY, "Unconfirmed Systems (Gaia DR3 only)"),
+        (sm.REFUTED_SET, "Refuted Systems")]
+    assert all(o["menu"] == "systems" and o["default"] is False and "modes" not in o for o in scene["optionalSets"])
+    # Each cloud is its own set, so each has its own box.
+    assert [c["optional"] for c in scene["clouds"]] == [sm.KNOWN_SET, sm.UNCONFIRMED_KEY]
+
+
+def test_only_systems_with_a_planet_or_a_candidate_are_drawn_by_default(view, stars):
+    scene = view[2]
+    by = {s.name: s for s in stars}
+    default = [b["name"] for b in scene["bodies"] if not b.get("optional") and b["name"] != sm.SUN_NAME]
+    assert len(default) == 409 and all(by[n].planets for n in default)
+    # The Systems tab's star pairs with no planet wait with the high star count systems, ringed like them.
+    pairs = {s.name for s in stars if s.has_position and not s.is_sun and not s.planets and not s.refuted}
+    assert len(pairs) == 5 and {"HIP 55507", "GJ 680"} <= pairs
+    drawn = {b["name"]: b for b in scene["bodies"] if b["name"] in pairs}
+    assert {b["optional"] for b in drawn.values()} == {sm.PLANETLESS_SET}
+    assert {b["group"] for b in drawn.values()} == {sm.PLANETLESS_GROUP}
+    assert {b["edge"] for b in drawn.values()} == {sm.PLANETLESS_RING}
+    # Each keeps its arrows and its page of stars.
+    assert pairs <= {ln["owner"] for ln in scene["lines"] if ln.get("owner")}
+    assert view[1]["GJ 680"]["goto"] == "catalog:GJ 680"
 
 
 def test_a_refuted_systems_panel_says_so_and_names_what_was_rejected(view):
@@ -484,19 +513,20 @@ def test_every_planetless_system_is_offered_with_a_position_and_a_motion(view):
     extra = load_planetless_nearby()
     assert len(extra) == 80 and all(s.planetless and s.has_position and s.has_motion for s in extra)
     opt = [b for b in view[2]["bodies"] if b.get("optional") == sm.PLANETLESS_SET]
-    assert sorted(b["name"] for b in opt) == sorted(s.name for s in extra)
+    # ...and the Systems tab's five star pairs with no planet beside them.
+    assert {s.name for s in extra} <= {b["name"] for b in opt} and len(opt) == len(extra) + 5
 
 
 def test_the_planetless_set_is_one_ringed_group_off_by_default(view):
     sets = [o for o in view[2]["optionalSets"] if o["key"] == sm.PLANETLESS_SET]
-    assert sets == [{"key": sm.PLANETLESS_SET, "label": "High Star Count Systems", "default": False, "count": 80,
-                     "title": sets[0]["title"]}]
+    assert sets == [{"key": sm.PLANETLESS_SET, "label": "High Star Count Systems", "default": False, "count": 85,
+                     "menu": "systems", "title": sets[0]["title"]}]
     opt = [b for b in view[2]["bodies"] if b.get("optional") == sm.PLANETLESS_SET]
     assert {b["group"] for b in opt} == {sm.PLANETLESS_GROUP}
     assert {b["edge"] for b in opt} == {sm.PLANETLESS_RING} and all(b["fill"] for b in opt)
-    assert "+80 high star count systems on request" in view[2]["title"]
-    # The Systems-tab count in the title is unchanged by them (426 rows, 12 of them refuted and counted apart).
-    assert "414 systems within 100 ly" in view[2]["title"]
+    assert "+85 high star count systems on request" in view[2]["title"]
+    # The Systems-tab count in the title is its systems with a planet (426 rows; 12 refuted and 5 star pairs apart).
+    assert "409 systems within 100 ly" in view[2]["title"]
 
 
 def test_a_planetless_systems_arrows_are_owned_by_it(view):
@@ -591,13 +621,13 @@ def test_the_known_objects_are_one_purple_cloud_behind_their_own_button():
         base, tip = c["arrows"][frame][0:3], c["arrows"][frame][3:6]
         length = math.dist(base, tip)
         assert length == pytest.approx(math.sqrt(sum(x * x for x in v)) * sm.LY_PER_KMS, abs=0.02)
-    # Its button is off by default and counts the cloud; the classified stars are untouched by it.
-    (opt,) = scene["optionalSets"]
-    assert (opt["key"], opt["label"], opt["default"], opt["count"]) == (sm.KNOWN_SET, "All Known Systems within 100 ly",
-                                                                        False, 2)
+    # Its tick box is off by default and counts the cloud.
+    opt = next(o for o in scene["optionalSets"] if o["key"] == sm.KNOWN_SET)
+    assert (opt["label"], opt["default"], opt["count"], opt["menu"]) == ("All Known Systems within 100 ly",
+                                                                         False, 2, "systems")
     assert "+2 unclassified objects on request" in scene["title"]
-    assert "modes" not in opt                      # nothing unconfirmed: a plain on/off button
-    assert not any(b.get("optional") for b in scene["bodies"])
+    # Nothing unconfirmed, so no box for it.
+    assert sm.UNCONFIRMED_KEY not in [o["key"] for o in scene["optionalSets"]]
     assert {b["name"] for b in scene["bodies"]} == {sm.SUN_NAME, "Bin A", "Lone"}
     # The info row the viewer builds the panel from, and the sources it indexes into.
     f2 = c["info"][1]
@@ -616,10 +646,10 @@ def test_no_planetless_systems_means_no_button():
     from hybrasil.data.nearby_loader import load_nearby
     stars, source = load_nearby()
     scene = figure_to_scene(sm.build_star_motion_figure(stars, source))
-    # Only the Known set is left, and with no known objects it holds the refuted systems alone.
-    assert [o["key"] for o in scene["optionalSets"]] == [sm.KNOWN_SET]
-    assert [m["key"] for m in scene["optionalSets"][0]["modes"]] == [sm.REFUTED_MODE]
-    assert {b.get("optional") for b in scene["bodies"]} == {None, sm.KNOWN_SET} and not scene["clouds"]
+    # With no tab systems the set holds the Systems tab's own star pairs alone; no cloud, no box for one.
+    assert [(o["key"], o["count"]) for o in scene["optionalSets"]] == [(sm.PLANETLESS_SET, 5), (sm.REFUTED_SET, 12)]
+    assert {b.get("optional") for b in scene["bodies"]} == {None, sm.PLANETLESS_SET, sm.REFUTED_SET}
+    assert not scene["clouds"]
 
 
 def test_a_star_system_scene_is_unchanged():
@@ -710,16 +740,14 @@ def test_objects_only_gaia_lists_are_an_aquamarine_cloud_behind_the_same_button(
     scene = figure_to_scene(sm.build_star_motion_figure(nearby_stars(cat), "sheet test", (), known_nearby(cat)))
     sure, doubt = scene["clouds"]
     assert (sure["color"], doubt["color"]) == (sm.UNCLASSIFIED_COLOUR, "#7FFFD4")
-    assert sure["optional"] == doubt["optional"] == sm.KNOWN_SET
+    assert (sure["optional"], doubt["optional"]) == (sm.KNOWN_SET, sm.UNCONFIRMED_KEY)
     assert [r[0] for r in sure["info"]] == ["Faint 1"] and [r[0] for r in doubt["info"]] == ["Faint 2"]
     assert doubt["name"] == "Existence unconfirmed (Gaia DR3 only)"
     assert doubt["slug"] == ["Existence unconfirmed", "Only cited in Gaia DR3"] and "slug" not in sure
-    (opt,) = scene["optionalSets"]
-    assert opt["count"] == 2 and "1 in aquamarine" in opt["title"]
-    # Its button cycles All -> Excluding unconfirmed -> Unconfirmed only, each mode naming the clouds it shows.
-    assert [(m["key"], m["label"], m.get("clouds")) for m in opt["modes"]] == [
-        ("all", "All", None), ("confirmed", "Excluding unconfirmed", [sure["key"]]),
-        ("unconfirmed", "Unconfirmed only", [doubt["key"]])]
+    # A tick box each: what a curated catalog lists, and what only Gaia DR3 does.
+    boxes = {o["key"]: o for o in scene["optionalSets"]}
+    assert boxes[sm.KNOWN_SET]["count"] == boxes[sm.UNCONFIRMED_KEY]["count"] == 1
+    assert "aquamarine" in boxes[sm.UNCONFIRMED_KEY]["title"] and "purple" in boxes[sm.KNOWN_SET]["title"]
     # A point's links are its template with its ids swapped in, as the viewer does it.
     row = sure["info"][0]
     assert row[11:14] == ["111", "* fnt 1", "7"]
